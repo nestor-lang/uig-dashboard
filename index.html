@@ -519,10 +519,11 @@ function render(d) {
 }
 
 let availableMonths = [];
-let currentMonth = null; // null = latest (data.json)
+let currentMonth = null;
 
 async function showReport(month) {
   const app = document.getElementById('app');
+  // Always load from the month-specific file
   const d = await loadData(month);
   if (!d) {
     app.innerHTML = `<div class="loading">⚠ could not load data — check file path</div>`;
@@ -530,13 +531,14 @@ async function showReport(month) {
   }
   app.innerHTML = render(d);
 
-  // Populate month picker after render
+  // Populate month picker after render — no "Current" option, just months
   const picker = document.getElementById('monthPicker');
   if (picker && availableMonths.length > 0) {
-    picker.innerHTML = '<option value="">Current</option>' +
-      availableMonths.map(m => `<option value="${m}" ${m === month ? 'selected' : ''}>${formatMonthLabel(m)}</option>`).join('');
+    picker.innerHTML = availableMonths.map(m =>
+      `<option value="${m}" ${m === month ? 'selected' : ''}>${formatMonthLabel(m)}</option>`
+    ).join('');
     picker.onchange = () => {
-      currentMonth = picker.value || null;
+      currentMonth = picker.value;
       showReport(currentMonth);
     };
   }
@@ -544,7 +546,9 @@ async function showReport(month) {
 
 async function init() {
   availableMonths = await loadMonths();
-  await showReport(null);
+  // Default to the latest month (first in sorted-desc list)
+  currentMonth = availableMonths.length > 0 ? availableMonths[0] : null;
+  await showReport(currentMonth);
 }
 
 init();

@@ -427,50 +427,6 @@ function render(d) {
 
     <div class="channel-block">
       <div class="channel-header">
-        <div class="channel-name">Facebook</div>
-        <div class="channel-badge badge-meta">META</div>
-      </div>
-      <div class="funnel">
-        <div class="funnel-row">
-          <div class="funnel-step">
-            <div class="funnel-num">${num(fb.leads)}</div>
-            <div class="funnel-label">Leads</div>
-          </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step">
-            <div class="funnel-num">${num(fb.active)}</div>
-            <div class="funnel-label">Active</div>
-            <div class="funnel-rate">${pct(fb.active, fb.leads)}</div>
-          </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step">
-            <div class="funnel-num">${num(fb.booked)}</div>
-            <div class="funnel-label">Booked</div>
-            <div class="funnel-rate">${pct(fb.booked, fb.leads)}</div>
-          </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step">
-            <div class="funnel-num">${num(fb.offered)}</div>
-            <div class="funnel-label">Offered</div>
-            <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
-          </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step contract">
-            <div class="funnel-num">${num(fb.under_contract)}</div>
-            <div class="funnel-label">Contract</div>
-            <div class="funnel-rate">${pct(fb.under_contract, fb.offered)}</div>
-          </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step">
-            <div class="funnel-num">${num(fb.closed)}</div>
-            <div class="funnel-label">Closed</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="channel-block">
-      <div class="channel-header">
         <div class="channel-name">Google Ads</div>
         <div class="channel-badge badge-google">PPC</div>
       </div>
@@ -507,6 +463,50 @@ function render(d) {
           <div class="funnel-arrow">›</div>
           <div class="funnel-step">
             <div class="funnel-num">${num(ppc.closed)}</div>
+            <div class="funnel-label">Closed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Facebook</div>
+        <div class="channel-badge badge-meta">META</div>
+      </div>
+      <div class="funnel">
+        <div class="funnel-row">
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.leads)}</div>
+            <div class="funnel-label">Leads</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.active)}</div>
+            <div class="funnel-label">Active</div>
+            <div class="funnel-rate">${pct(fb.active, fb.leads)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.booked)}</div>
+            <div class="funnel-label">Booked</div>
+            <div class="funnel-rate">${pct(fb.booked, fb.leads)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.offered)}</div>
+            <div class="funnel-label">Offered</div>
+            <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step contract">
+            <div class="funnel-num">${num(fb.under_contract)}</div>
+            <div class="funnel-label">Contract</div>
+            <div class="funnel-rate">${pct(fb.under_contract, fb.offered)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.closed)}</div>
             <div class="funnel-label">Closed</div>
           </div>
         </div>

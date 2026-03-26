@@ -1,0 +1,91 @@
+{
+  "report_date": "March 26, 2026",
+  "last_updated": "2026-03-26 07:30 AST",
+
+  "google": {
+    "spend_mtd": 1768.17,
+    "clicks_mtd": 436,
+    "crm_leads": 7,
+    "cpl": 252.60,
+    "cost_per_booked": 442.04,
+    "booked": 4,
+    "offers": 4,
+    "accepted": 1,
+    "campaigns": [
+      {
+        "name": "Ultra Homebuyers Search",
+        "spend": 1576.05,
+        "clicks": 28,
+        "cpc": 56.29,
+        "crm_leads": 6,
+        "cpl": 262.68
+      },
+      {
+        "name": "Ultra Homebuyers Remarketing",
+        "spend": 192.13,
+        "clicks": 408,
+        "cpc": 0.47,
+        "crm_leads": 1,
+        "cpl": 192.13
+      }
+    ]
+  },
+
+  "meta": {
+    "spend_30d": 2379.72,
+    "clicks_30d": 1239,
+    "crm_leads": 5,
+    "cpl_crm": 475.94,
+    "cost_per_hot": 793.24,
+    "campaigns": [
+      {
+        "name": "REIT II Feb 11 Mixed Winners",
+        "spend": 1170.24,
+        "clicks": 641,
+        "crm_leads": 4,
+        "cpl_crm": 292.56
+      },
+      {
+        "name": "REIT Prospecting Mar 17 Broad",
+        "spend": 827.09,
+        "clicks": 440,
+        "crm_leads": 1,
+        "cpl_crm": 827.09
+      },
+      {
+        "name": "REIT Prospecting Mar 8 Broad",
+        "spend": 382.39,
+        "clicks": 158,
+        "crm_leads": 0,
+        "cpl_crm": null
+      }
+    ]
+  },
+
+  "pipeline": {
+    "new_leads_30d": 14,
+    "hot": 3,
+    "booked": 4,
+    "offers": 4,
+    "under_contract": 1,
+    "closed": 0
+  },
+
+  "sources": {
+    "ppc": 5,
+    "facebook": 5,
+    "ppc_inbound_call": 2,
+    "sms": 2
+  },
+
+  "hot_leads": [
+    {
+      "name": "John Smith",
+      "address": "123 Main St, Baltimore MD",
+      "phone": "410-555-0101",
+      "source": "PPC"
+    }
+  ],
+
+  "sms_status": "SMS KPI update — processing, alerts will come via Telegram when complete."
+}

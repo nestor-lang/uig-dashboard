@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UIG — Daily Report</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0a;
+    --surface: #111111;
+    --surface2: #181818;
+    --border: rgba(255,255,255,0.07);
+    --border2: rgba(255,255,255,0.12);
+    --text: #f0ede8;
+    --muted: #888580;
+    --faint: #444240;
+    --green: #3dffa0;
+    --green-dim: rgba(61,255,160,0.1);
+    --amber: #ffb830;
+    --amber-dim: rgba(255,184,48,0.1);
+    --red: #ff5252;
+    --red-dim: rgba(255,82,82,0.1);
+    --blue: #4da6ff;
+    --blue-dim: rgba(77,166,255,0.08);
+    --purple: #b87fff;
+    --purple-dim: rgba(184,127,255,0.08);
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  /* ─── Header ─── */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid var(--border2);
+  }
+  .logo { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+  .report-title { font-size: 26px; font-weight: 800; line-height: 1.1; margin-top: 6px; }
+  .report-title span { color: var(--green); }
+  .header-right { text-align: right; }
+  .report-date { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--muted); }
+  .last-updated { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--faint); margin-top: 4px; }
+
+  /* ─── Section label ─── */
+  .section-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 0.75rem;
+    margin-top: 2rem;
+  }
+
+  /* ─── Combined KPI strip ─── */
+  .kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 0.5rem;
+  }
+  .kpi-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+  }
+  .kpi-label { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .kpi-val { font-family: 'DM Mono', monospace; font-size: 22px; font-weight: 500; }
+  .kpi-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .kpi-card.accent-green { border-color: rgba(61,255,160,0.2); background: linear-gradient(135deg, var(--green-dim), var(--surface)); }
+  .kpi-card.accent-green .kpi-val { color: var(--green); }
+  .kpi-card.accent-amber .kpi-val { color: var(--amber); }
+
+  /* ─── Channel columns ─── */
+  .channels { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+  .channel-block {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+  }
+  .channel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .channel-name { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; }
+  .channel-badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 20px;
+  }
+  .badge-google { background: var(--blue-dim); color: var(--blue); border: 0.5px solid rgba(77,166,255,0.2); }
+  .badge-meta { background: var(--purple-dim); color: var(--purple); border: 0.5px solid rgba(184,127,255,0.2); }
+
+  .ch-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 1rem; }
+  .ch-kpi { background: var(--surface2); border-radius: 8px; padding: 0.6rem 0.75rem; }
+  .ch-kpi-label { font-size: 10px; color: var(--muted); margin-bottom: 3px; letter-spacing: 0.06em; }
+  .ch-kpi-val { font-family: 'DM Mono', monospace; font-size: 16px; font-weight: 500; }
+
+  /* Campaign rows */
+  .campaign-list { display: flex; flex-direction: column; gap: 0; }
+  .campaign-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 0;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .campaign-row:last-child { border-bottom: none; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  .dot.warn { background: var(--amber); }
+  .dot.dead { background: var(--faint); }
+  .camp-name { font-size: 11px; color: var(--text); flex: 1; line-height: 1.3; }
+  .camp-spend { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); flex-shrink: 0; }
+  .camp-cpl {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    background: var(--surface2);
+    color: var(--muted);
+  }
+  .camp-cpl.good { background: var(--green-dim); color: var(--green); }
+  .camp-cpl.warn { background: var(--amber-dim); color: var(--amber); }
+  .camp-cpl.dead { background: var(--red-dim); color: var(--red); }
+
+  /* ─── Pipeline funnel ─── */
+  .funnel {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+  }
+  .funnel-row { display: flex; align-items: flex-start; }
+  .funnel-step { flex: 1; text-align: center; padding: 0 4px; }
+  .funnel-num { font-family: 'DM Mono', monospace; font-size: 28px; font-weight: 500; color: var(--text); }
+  .funnel-label { font-size: 10px; color: var(--muted); margin-top: 4px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .funnel-rate { font-size: 10px; color: var(--faint); margin-top: 2px; font-family: 'DM Mono', monospace; }
+  .funnel-arrow { color: var(--faint); font-size: 14px; padding-top: 8px; flex-shrink: 0; }
+  .funnel-step.hot .funnel-num { color: var(--amber); }
+  .funnel-step.contract .funnel-num { color: var(--green); }
+
+  /* ─── Source breakdown ─── */
+  .source-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .source-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .source-icon {
+    width: 32px; height: 32px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; flex-shrink: 0;
+  }
+  .source-icon.ppc { background: var(--blue-dim); }
+  .source-icon.fb { background: var(--purple-dim); }
+  .source-icon.sms { background: rgba(255,255,255,0.04); }
+  .source-icon.call { background: var(--green-dim); }
+  .source-name { font-size: 12px; font-weight: 600; }
+  .source-count { font-family: 'DM Mono', monospace; font-size: 20px; font-weight: 500; margin-top: 1px; }
+  .source-count.ppc { color: var(--blue); }
+  .source-count.fb { color: var(--purple); }
+  .source-count.sms { color: var(--muted); }
+  .source-count.call { color: var(--green); }
+
+  /* ─── Hot leads ─── */
+  .hot-lead-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .hot-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 6px var(--amber); flex-shrink: 0; }
+  .hot-name { font-size: 13px; font-weight: 600; }
+  .hot-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .hot-source { margin-left: auto; font-size: 10px; padding: 2px 8px; border-radius: 20px; background: var(--amber-dim); color: var(--amber); font-weight: 600; letter-spacing: 0.06em; }
+
+  .empty-state {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    font-size: 12px;
+    color: var(--faint);
+    font-family: 'DM Mono', monospace;
+  }
+
+  /* ─── SMS notice ─── */
+  .sms-notice {
+    background: var(--surface);
+    border-left: 2px solid var(--faint);
+    border-radius: 0 8px 8px 0;
+    padding: 0.6rem 0.85rem;
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    margin-top: 0.5rem;
+  }
+
+  /* ─── Loading / error state ─── */
+  .loading { text-align: center; padding: 4rem; color: var(--faint); font-family: 'DM Mono', monospace; font-size: 13px; }
+
+  @media (max-width: 640px) {
+    .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+    .channels { grid-template-columns: 1fr; }
+    .source-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <div class="loading">loading report data...</div>
+</div>
+
+<script>
+async function loadData() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('data.json not found');
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
+}
+
+function fmt(n) {
+  if (n == null || n === '') return '—';
+  return '$' + Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+function num(n) {
+  if (n == null) return '—';
+  return Number(n).toLocaleString('en-US');
+}
+function pct(a, b) {
+  if (!b) return '';
+  return Math.round((a / b) * 100) + '%';
+}
+function cplClass(cpl) {
+  if (!cpl) return 'dead';
+  if (cpl < 250) return 'good';
+  if (cpl < 500) return 'warn';
+  return 'dead';
+}
+
+function renderHotLeads(leads) {
+  if (!leads || leads.length === 0) {
+    return `<div class="empty-state">no hot leads today.</div>`;
+  }
+  return leads.map(l => `
+    <div class="hot-lead-card">
+      <div class="hot-dot"></div>
+      <div>
+        <div class="hot-name">${l.name || 'Unknown'}</div>
+        <div class="hot-meta">${l.address || ''} ${l.phone ? '· ' + l.phone : ''}</div>
+      </div>
+      <div class="hot-source">${l.source || ''}</div>
+    </div>
+  `).join('');
+}
+
+function render(d) {
+  const g = d.google;
+  const m = d.meta;
+  const p = d.pipeline;
+  const s = d.sources;
+  const totalSpend = (g.spend_mtd || 0) + (m.spend_30d || 0);
+  const totalLeads = (p.new_leads_30d || 0);
+  const blendedCPL = totalLeads ? Math.round(totalSpend / totalLeads) : null;
+
+  return `
+  <div class="header">
+    <div>
+      <div class="logo">Ultra Investment Group</div>
+      <div class="report-title">Daily <span>ROI</span> Report</div>
+    </div>
+    <div class="header-right">
+      <div class="report-date">${d.report_date || '—'}</div>
+      <div class="last-updated">updated ${d.last_updated || '—'}</div>
+    </div>
+  </div>
+
+  <div class="section-label">Combined totals</div>
+  <div class="kpi-strip">
+    <div class="kpi-card accent-green">
+      <div class="kpi-label">Total spend</div>
+      <div class="kpi-val">${fmt(totalSpend)}</div>
+      <div class="kpi-sub">Google + Meta</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">CRM leads (30d)</div>
+      <div class="kpi-val">${num(totalLeads)}</div>
+      <div class="kpi-sub">from Podio</div>
+    </div>
+    <div class="kpi-card accent-amber">
+      <div class="kpi-label">Blended CPL</div>
+      <div class="kpi-val">${fmt(blendedCPL)}</div>
+      <div class="kpi-sub">all paid channels</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Under contract</div>
+      <div class="kpi-val">${num(p.under_contract)}</div>
+      <div class="kpi-sub">${p.closed || 0} closed</div>
+    </div>
+  </div>
+
+  <div class="section-label">Channels</div>
+  <div class="channels">
+
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Google Ads</div>
+        <div class="channel-badge badge-google">PPC</div>
+      </div>
+      <div class="ch-kpis">
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(g.spend_mtd)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CRM leads</div><div class="ch-kpi-val">${num(g.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt(g.cpl)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Cost / booked</div><div class="ch-kpi-val">${fmt(g.cost_per_booked)}</div></div>
+      </div>
+      <div class="campaign-list">
+        ${(g.campaigns || []).map(c => `
+          <div class="campaign-row">
+            <div class="dot ${c.leads === 0 ? 'dead' : ''}"></div>
+            <div class="camp-name">${c.name}</div>
+            <div class="camp-spend">${fmt(c.spend)}</div>
+            <div class="camp-cpl ${cplClass(c.cpl)}">${c.cpl ? fmt(c.cpl) : '—'}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Meta Ads</div>
+        <div class="channel-badge badge-meta">Facebook</div>
+      </div>
+      <div class="ch-kpis">
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend (30d)</div><div class="ch-kpi-val">${fmt(m.spend_30d)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CRM leads</div><div class="ch-kpi-val">${num(m.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL (CRM)</div><div class="ch-kpi-val">${fmt(m.cpl_crm)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Cost / hot lead</div><div class="ch-kpi-val">${fmt(m.cost_per_hot)}</div></div>
+      </div>
+      <div class="campaign-list">
+        ${(m.campaigns || []).map(c => `
+          <div class="campaign-row">
+            <div class="dot ${c.crm_leads === 0 ? 'dead' : ''}"></div>
+            <div class="camp-name">${c.name}</div>
+            <div class="camp-spend">${fmt(c.spend)}</div>
+            <div class="camp-cpl ${cplClass(c.cpl_crm)}">${c.cpl_crm ? fmt(c.cpl_crm) : '—'}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Pipeline (last 30 days)</div>
+  <div class="funnel">
+    <div class="funnel-row">
+      <div class="funnel-step">
+        <div class="funnel-num">${num(p.new_leads_30d)}</div>
+        <div class="funnel-label">New leads</div>
+      </div>
+      <div class="funnel-arrow">›</div>
+      <div class="funnel-step hot">
+        <div class="funnel-num">${num(p.hot)}</div>
+        <div class="funnel-label">Hot</div>
+        <div class="funnel-rate">${pct(p.hot, p.new_leads_30d)}</div>
+      </div>
+      <div class="funnel-arrow">›</div>
+      <div class="funnel-step">
+        <div class="funnel-num">${num(p.booked)}</div>
+        <div class="funnel-label">Booked</div>
+        <div class="funnel-rate">${pct(p.booked, p.new_leads_30d)}</div>
+      </div>
+      <div class="funnel-arrow">›</div>
+      <div class="funnel-step">
+        <div class="funnel-num">${num(p.offers)}</div>
+        <div class="funnel-label">Offers</div>
+        <div class="funnel-rate">${pct(p.offers, p.booked)}</div>
+      </div>
+      <div class="funnel-arrow">›</div>
+      <div class="funnel-step contract">
+        <div class="funnel-num">${num(p.under_contract)}</div>
+        <div class="funnel-label">Contract</div>
+        <div class="funnel-rate">${pct(p.under_contract, p.offers)}</div>
+      </div>
+      <div class="funnel-arrow">›</div>
+      <div class="funnel-step">
+        <div class="funnel-num">${num(p.closed)}</div>
+        <div class="funnel-label">Closed</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Leads by source</div>
+  <div class="source-grid">
+    <div class="source-card">
+      <div class="source-icon ppc">🔍</div>
+      <div>
+        <div class="source-name">PPC</div>
+        <div class="source-count ppc">${num(s.ppc)}</div>
+      </div>
+    </div>
+    <div class="source-card">
+      <div class="source-icon fb">📘</div>
+      <div>
+        <div class="source-name">Facebook</div>
+        <div class="source-count fb">${num(s.facebook)}</div>
+      </div>
+    </div>
+    <div class="source-card">
+      <div class="source-icon call">📞</div>
+      <div>
+        <div class="source-name">PPC — Inbound call</div>
+        <div class="source-count call">${num(s.ppc_inbound_call)}</div>
+      </div>
+    </div>
+    <div class="source-card">
+      <div class="source-icon sms">💬</div>
+      <div>
+        <div class="source-name">SMS</div>
+        <div class="source-count sms">${num(s.sms)}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Hot leads</div>
+  ${renderHotLeads(d.hot_leads)}
+
+  ${d.sms_status ? `<div class="sms-notice">${d.sms_status}</div>` : ''}
+  `;
+}
+
+async function init() {
+  const d = await loadData();
+  const app = document.getElementById('app');
+  if (!d) {
+    app.innerHTML = `<div class="loading">⚠ could not load data.json — check file path</div>`;
+    return;
+  }
+  app.innerHTML = render(d);
+}
+
+init();
+</script>
+</body>
+</html>

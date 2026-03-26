@@ -3,30 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UIG — Daily Report</title>
+<title>Ultra Homebuyers — Daily Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #0a0a0a;
-    --surface: #111111;
-    --surface2: #181818;
-    --border: rgba(255,255,255,0.07);
-    --border2: rgba(255,255,255,0.12);
-    --text: #f0ede8;
-    --muted: #888580;
-    --faint: #444240;
-    --green: #3dffa0;
-    --green-dim: rgba(61,255,160,0.1);
-    --amber: #ffb830;
-    --amber-dim: rgba(255,184,48,0.1);
-    --red: #ff5252;
-    --red-dim: rgba(255,82,82,0.1);
-    --blue: #4da6ff;
-    --blue-dim: rgba(77,166,255,0.08);
-    --purple: #b87fff;
-    --purple-dim: rgba(184,127,255,0.08);
+    --bg: #f5f5f4;
+    --surface: #ffffff;
+    --surface2: #f0efed;
+    --border: rgba(0,0,0,0.08);
+    --border2: rgba(0,0,0,0.12);
+    --text: #1a1a1a;
+    --muted: #6b6966;
+    --faint: #a8a5a0;
+    --green: #16a34a;
+    --green-dim: rgba(22,163,74,0.08);
+    --amber: #d97706;
+    --amber-dim: rgba(217,119,6,0.08);
+    --red: #dc2626;
+    --red-dim: rgba(220,38,38,0.08);
+    --blue: #2563eb;
+    --blue-dim: rgba(37,99,235,0.06);
+    --purple: #7c3aed;
+    --purple-dim: rgba(124,58,237,0.06);
   }
 
   body {
@@ -80,7 +80,7 @@
   .kpi-label { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
   .kpi-val { font-family: 'DM Mono', monospace; font-size: 22px; font-weight: 500; }
   .kpi-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
-  .kpi-card.accent-green { border-color: rgba(61,255,160,0.2); background: linear-gradient(135deg, var(--green-dim), var(--surface)); }
+  .kpi-card.accent-green { border-color: rgba(22,163,74,0.25); background: linear-gradient(135deg, var(--green-dim), var(--surface)); }
   .kpi-card.accent-green .kpi-val { color: var(--green); }
   .kpi-card.accent-amber .kpi-val { color: var(--amber); }
 
@@ -110,8 +110,8 @@
     padding: 3px 9px;
     border-radius: 20px;
   }
-  .badge-google { background: var(--blue-dim); color: var(--blue); border: 0.5px solid rgba(77,166,255,0.2); }
-  .badge-meta { background: var(--purple-dim); color: var(--purple); border: 0.5px solid rgba(184,127,255,0.2); }
+  .badge-google { background: var(--blue-dim); color: var(--blue); border: 0.5px solid rgba(37,99,235,0.2); }
+  .badge-meta { background: var(--purple-dim); color: var(--purple); border: 0.5px solid rgba(124,58,237,0.2); }
 
   .ch-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 1rem; }
   .ch-kpi { background: var(--surface2); border-radius: 8px; padding: 0.6rem 0.75rem; }
@@ -128,7 +128,7 @@
     border-bottom: 0.5px solid var(--border);
   }
   .campaign-row:last-child { border-bottom: none; }
-  .dot { width: 6px; height: 6px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
   .dot.warn { background: var(--amber); }
   .dot.dead { background: var(--faint); }
   .camp-name { font-size: 11px; color: var(--text); flex: 1; line-height: 1.3; }
@@ -180,7 +180,7 @@
   }
   .source-icon.ppc { background: var(--blue-dim); }
   .source-icon.fb { background: var(--purple-dim); }
-  .source-icon.sms { background: rgba(255,255,255,0.04); }
+  .source-icon.sms { background: rgba(0,0,0,0.04); }
   .source-icon.call { background: var(--green-dim); }
   .source-name { font-size: 12px; font-weight: 600; }
   .source-count { font-family: 'DM Mono', monospace; font-size: 20px; font-weight: 500; margin-top: 1px; }
@@ -301,8 +301,8 @@ function render(d) {
   return `
   <div class="header">
     <div>
-      <div class="logo">Ultra Investment Group</div>
-      <div class="report-title">Daily <span>ROI</span> Report</div>
+      <div class="logo">Ultra Homebuyers</div>
+      <div class="report-title">Daily <span>Dashboard</span></div>
     </div>
     <div class="header-right">
       <div class="report-date">${d.report_date || '—'}</div>

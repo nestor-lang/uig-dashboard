@@ -293,6 +293,10 @@ function fmt(n) {
   if (n == null || n === '') return '—';
   return '$' + Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
 }
+function fmt2(n) {
+  if (n == null || n === '') return '—';
+  return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
 function num(n) {
   if (n == null) return '—';
   return Number(n).toLocaleString('en-US');
@@ -383,8 +387,8 @@ function render(d) {
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(g.spend_mtd)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(g.crm_leads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${g.campaigns && g.campaigns[0] ? fmt(g.campaigns[0].cpc) : '—'}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt(g.cpl)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${fmt2(g.cpc)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt2(g.cpl)}</div></div>
       </div>
       <div class="campaign-list">
         ${(g.campaigns || []).map(c => `
@@ -406,8 +410,8 @@ function render(d) {
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(m.spend_30d)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(m.crm_leads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${m.cpc ? fmt(m.cpc) : '—'}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt(m.cpl_crm)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${fmt2(m.cpc)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt2(m.cpl_crm)}</div></div>
       </div>
       <div class="campaign-list">
         ${(m.campaigns || []).map(c => `

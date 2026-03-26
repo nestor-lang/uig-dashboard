@@ -1,91 +1,115 @@
 {
   "report_date": "March 26, 2026",
-  "last_updated": "2026-03-26 07:30 AST",
-
+  "last_updated": "2026-03-26 14:25 AST",
   "google": {
-    "spend_mtd": 1768.17,
-    "clicks_mtd": 436,
-    "crm_leads": 7,
-    "cpl": 252.60,
-    "cost_per_booked": 442.04,
-    "booked": 4,
-    "offers": 4,
-    "accepted": 1,
+    "spend_mtd": 2030.42,
+    "clicks_mtd": 439,
+    "crm_leads": 11,
+    "cpl": 184.58,
+    "cost_per_booked": null,
+    "booked": 0,
+    "offers": 0,
+    "accepted": 0,
     "campaigns": [
       {
-        "name": "Ultra Homebuyers Search",
-        "spend": 1576.05,
-        "clicks": 28,
-        "cpc": 56.29,
-        "crm_leads": 6,
-        "cpl": 262.68
+        "name": "Ultra Homebuyers Remarketing",
+        "spend": 192.36,
+        "clicks": 409,
+        "cpc": 0.47,
+        "crm_leads": 0,
+        "cpl": 184.58
       },
       {
-        "name": "Ultra Homebuyers Remarketing",
-        "spend": 192.13,
-        "clicks": 408,
-        "cpc": 0.47,
-        "crm_leads": 1,
-        "cpl": 192.13
+        "name": "Ultra Homebuyers Search Only",
+        "spend": 1838.07,
+        "clicks": 30,
+        "cpc": 61.27,
+        "crm_leads": 0,
+        "cpl": 184.58
       }
     ]
   },
-
   "meta": {
-    "spend_30d": 2379.72,
-    "clicks_30d": 1239,
-    "crm_leads": 5,
-    "cpl_crm": 475.94,
-    "cost_per_hot": 793.24,
+    "spend_30d": 1961.15,
+    "clicks_30d": 1057,
+    "crm_leads": 22,
+    "cpl_crm": 89.14,
+    "cost_per_hot": 653.72,
     "campaigns": [
       {
-        "name": "REIT II Feb 11 Mixed Winners",
-        "spend": 1170.24,
-        "clicks": 641,
-        "crm_leads": 4,
-        "cpl_crm": 292.56
+        "name": "REIT II Feb 11 II Mixed Winners",
+        "spend": 701.64,
+        "clicks": 429,
+        "crm_leads": 22,
+        "cpl_crm": 31.89
       },
       {
-        "name": "REIT Prospecting Mar 17 Broad",
-        "spend": 827.09,
-        "clicks": 440,
-        "crm_leads": 1,
-        "cpl_crm": 827.09
-      },
-      {
-        "name": "REIT Prospecting Mar 8 Broad",
+        "name": "REIT\u00ae | Prospecting | March 8th | Broad",
         "spend": 382.39,
         "clicks": 158,
+        "crm_leads": 0,
+        "cpl_crm": null
+      },
+      {
+        "name": "REIT\u00ae | Prospecting | March 17th | Broad",
+        "spend": 877.12,
+        "clicks": 470,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-
   "pipeline": {
-    "new_leads_30d": 14,
+    "new_leads_30d": 33,
     "hot": 3,
-    "booked": 4,
-    "offers": 4,
+    "booked": 13,
+    "offers": 13,
     "under_contract": 1,
     "closed": 0
   },
-
-  "sources": {
-    "ppc": 5,
-    "facebook": 5,
-    "ppc_inbound_call": 2,
-    "sms": 2
+  "pipeline_fb": {
+    "leads": 22,
+    "active": 15,
+    "booked": 9,
+    "offered": 9,
+    "accepted": 0,
+    "under_contract": 0,
+    "closed": 0
   },
-
+  "pipeline_ppc": {
+    "leads": 11,
+    "active": 5,
+    "booked": 4,
+    "offered": 4,
+    "accepted": 1,
+    "under_contract": 1,
+    "closed": 0
+  },
+  "sources": {
+    "ppc": 11,
+    "facebook": 22,
+    "ppc_inbound_call": 7,
+    "sms": 170
+  },
   "hot_leads": [
     {
-      "name": "John Smith",
-      "address": "123 Main St, Baltimore MD",
-      "phone": "410-555-0101",
-      "source": "PPC"
+      "name": "407 College Ave NE",
+      "address": "407 College Ave NE, Dawson, GA 39842, USA",
+      "phone": "(470) 231-7852",
+      "source": "Facebook"
+    },
+    {
+      "name": "28 Oschawa Ave",
+      "address": "28 Oschawa Ave, West Seneca, NY 14210, USA",
+      "phone": "(716) 292-6856",
+      "source": "Facebook"
+    },
+    {
+      "name": "1103 Ontario Ave",
+      "address": "1103 Ontario Ave, Niagara Falls, NY 14305, USA",
+      "phone": "(716) 325-5207",
+      "source": "Facebook"
     }
   ],
-
-  "sms_status": "SMS KPI update — processing, alerts will come via Telegram when complete."
+  "sms_status": "SMS data via Podio."
 }

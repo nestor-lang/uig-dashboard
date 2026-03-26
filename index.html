@@ -52,6 +52,24 @@
   .header-right { text-align: right; }
   .report-date { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--muted); }
   .last-updated { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--faint); margin-top: 4px; }
+  .month-picker {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text);
+    background: var(--surface);
+    border: 0.5px solid var(--border2);
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a8a5a0'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    padding-right: 24px;
+  }
+  .month-picker:focus { outline: none; border-color: var(--green); }
 
   /* ─── Section label ─── */
   .section-label {
@@ -244,14 +262,31 @@
 </div>
 
 <script>
-async function loadData() {
+async function loadData(month) {
   try {
-    const res = await fetch('data.json?t=' + Date.now());
-    if (!res.ok) throw new Error('data.json not found');
+    const file = month ? `data-${month}.json` : 'data.json';
+    const res = await fetch(file + '?t=' + Date.now());
+    if (!res.ok) throw new Error(file + ' not found');
     return await res.json();
   } catch (e) {
     return null;
   }
+}
+
+async function loadMonths() {
+  try {
+    const res = await fetch('months.json?t=' + Date.now());
+    if (!res.ok) return [];
+    return await res.json();
+  } catch (e) {
+    return [];
+  }
+}
+
+function formatMonthLabel(ym) {
+  const [y, m] = ym.split('-');
+  const names = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return names[parseInt(m)] + ' ' + y;
 }
 
 function fmt(n) {
@@ -307,6 +342,7 @@ function render(d) {
     <div class="header-right">
       <div class="report-date">${d.report_date || '—'}</div>
       <div class="last-updated">updated ${d.last_updated || '—'}</div>
+      <select id="monthPicker" class="month-picker"></select>
     </div>
   </div>
 
@@ -427,14 +463,33 @@ function render(d) {
   `;
 }
 
-async function init() {
-  const d = await loadData();
+let availableMonths = [];
+let currentMonth = null; // null = latest (data.json)
+
+async function showReport(month) {
   const app = document.getElementById('app');
+  const d = await loadData(month);
   if (!d) {
-    app.innerHTML = `<div class="loading">⚠ could not load data.json — check file path</div>`;
+    app.innerHTML = `<div class="loading">⚠ could not load data — check file path</div>`;
     return;
   }
   app.innerHTML = render(d);
+
+  // Populate month picker after render
+  const picker = document.getElementById('monthPicker');
+  if (picker && availableMonths.length > 0) {
+    picker.innerHTML = '<option value="">Current</option>' +
+      availableMonths.map(m => `<option value="${m}" ${m === month ? 'selected' : ''}>${formatMonthLabel(m)}</option>`).join('');
+    picker.onchange = () => {
+      currentMonth = picker.value || null;
+      showReport(currentMonth);
+    };
+  }
+}
+
+async function init() {
+  availableMonths = await loadMonths();
+  await showReport(null);
 }
 
 init();

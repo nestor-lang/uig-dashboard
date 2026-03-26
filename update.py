@@ -363,7 +363,9 @@ def git_push(repo_path):
     remote_url = f"https://{username}:{token}@github.com/{username}/{repo}.git"
 
     run(["git", "remote", "set-url", "origin", remote_url])
-    run(["git", "add", "data.json"])
+    run(["git", "add", "data.json", "months.json"])
+    # Stage any monthly snapshot files
+    run(["git", "add", "--all", "--", "data-*.json"])
 
     # Check if there are changes to commit
     status = run(["git", "status", "--porcelain"])
@@ -454,11 +456,34 @@ def main():
     if errors:
         data["error"] = "; ".join(errors)
 
-    # Step 6: Write data.json
+    # Step 6: Write data.json + monthly snapshot
     data_path = Path(repo_path) / "data.json"
     with open(data_path, "w") as f:
         json.dump(data, f, indent=2)
     log.info(f"Wrote {data_path}")
+
+    # Save monthly snapshot (overwrites daily until month ends)
+    ast = timezone(timedelta(hours=-4))
+    month_key = datetime.now(ast).strftime("%Y-%m")
+    monthly_path = Path(repo_path) / f"data-{month_key}.json"
+    with open(monthly_path, "w") as f:
+        json.dump(data, f, indent=2)
+    log.info(f"Wrote {monthly_path}")
+
+    # Update months.json manifest
+    months_path = Path(repo_path) / "months.json"
+    existing_months = []
+    if months_path.exists():
+        try:
+            existing_months = json.loads(months_path.read_text())
+        except Exception:
+            existing_months = []
+    if month_key not in existing_months:
+        existing_months.append(month_key)
+    existing_months.sort(reverse=True)
+    with open(months_path, "w") as f:
+        json.dump(existing_months, f)
+    log.info(f"Updated months.json: {existing_months}")
 
     # Step 7: Push to GitHub
     try:

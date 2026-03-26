@@ -423,41 +423,6 @@ function render(d) {
     </div>
   </div>
 
-  <div class="section-label">Leads by source</div>
-  <div class="source-grid">
-    <div class="source-card">
-      <div class="source-icon ppc">🔍</div>
-      <div>
-        <div class="source-name">PPC</div>
-        <div class="source-count ppc">${num(s.ppc)}</div>
-      </div>
-    </div>
-    <div class="source-card">
-      <div class="source-icon fb">📘</div>
-      <div>
-        <div class="source-name">Facebook</div>
-        <div class="source-count fb">${num(s.facebook)}</div>
-      </div>
-    </div>
-    <div class="source-card">
-      <div class="source-icon call">📞</div>
-      <div>
-        <div class="source-name">PPC — Inbound call</div>
-        <div class="source-count call">${num(s.ppc_inbound_call)}</div>
-      </div>
-    </div>
-    <div class="source-card">
-      <div class="source-icon sms">💬</div>
-      <div>
-        <div class="source-name">SMS</div>
-        <div class="source-count sms">${num(s.sms)}</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section-label">Hot leads</div>
-  ${renderHotLeads(d.hot_leads)}
-
   ${d.sms_status ? `<div class="sms-notice">${d.sms_status}</div>` : ''}
   `;
 }

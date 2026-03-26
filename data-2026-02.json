@@ -1,0 +1,65 @@
+{
+  "report_date": "February 2026",
+  "last_updated": "2026-02-28 EOD",
+  "google": {
+    "spend_mtd": 0,
+    "clicks_mtd": 0,
+    "crm_leads": 0,
+    "cpl": null,
+    "cost_per_booked": null,
+    "booked": 0,
+    "offers": 0,
+    "accepted": 0,
+    "campaigns": []
+  },
+  "meta": {
+    "spend_30d": 1731.32,
+    "clicks_30d": 818,
+    "crm_leads": 17,
+    "cpl_crm": 101.84,
+    "cost_per_hot": null,
+    "campaigns": [
+      {
+        "name": "REIT II Feb 11 II Mixed Winners",
+        "spend": 1731.32,
+        "clicks": 818,
+        "crm_leads": 0,
+        "cpl_crm": null
+      }
+    ]
+  },
+  "pipeline": {
+    "new_leads_30d": 17,
+    "hot": 0,
+    "booked": 6,
+    "offers": 5,
+    "under_contract": 0,
+    "closed": 0
+  },
+  "pipeline_fb": {
+    "leads": 17,
+    "active": 8,
+    "booked": 6,
+    "offered": 5,
+    "accepted": 0,
+    "under_contract": 0,
+    "closed": 0
+  },
+  "pipeline_ppc": {
+    "leads": 0,
+    "active": 0,
+    "booked": 0,
+    "offered": 0,
+    "accepted": 0,
+    "under_contract": 0,
+    "closed": 0
+  },
+  "sources": {
+    "ppc": 0,
+    "facebook": 17,
+    "ppc_inbound_call": 0,
+    "sms": 0
+  },
+  "hot_leads": [],
+  "sms_status": ""
+}

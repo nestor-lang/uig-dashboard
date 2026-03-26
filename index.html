@@ -329,6 +329,8 @@ function render(d) {
   const m = d.meta;
   const p = d.pipeline;
   const s = d.sources;
+  const fb  = d.pipeline_fb  || {};
+  const ppc = d.pipeline_ppc || {};
   const totalSpend = (g.spend_mtd || 0) + (m.spend_30d || 0);
   const totalLeads = (p.new_leads_30d || 0);
   const blendedCPL = totalLeads ? Math.round(totalSpend / totalLeads) : null;
@@ -420,43 +422,97 @@ function render(d) {
     </div>
   </div>
 
-  <div class="section-label">Pipeline (last 30 days)</div>
-  <div class="funnel">
-    <div class="funnel-row">
-      <div class="funnel-step">
-        <div class="funnel-num">${num(p.new_leads_30d)}</div>
-        <div class="funnel-label">New leads</div>
+  <div class="section-label">Pipeline — MTD</div>
+  <div class="channels">
+
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Facebook</div>
+        <div class="channel-badge badge-meta">META</div>
       </div>
-      <div class="funnel-arrow">›</div>
-      <div class="funnel-step hot">
-        <div class="funnel-num">${num(p.hot)}</div>
-        <div class="funnel-label">Hot</div>
-        <div class="funnel-rate">${pct(p.hot, p.new_leads_30d)}</div>
-      </div>
-      <div class="funnel-arrow">›</div>
-      <div class="funnel-step">
-        <div class="funnel-num">${num(p.booked)}</div>
-        <div class="funnel-label">Booked</div>
-        <div class="funnel-rate">${pct(p.booked, p.new_leads_30d)}</div>
-      </div>
-      <div class="funnel-arrow">›</div>
-      <div class="funnel-step">
-        <div class="funnel-num">${num(p.offers)}</div>
-        <div class="funnel-label">Offers</div>
-        <div class="funnel-rate">${pct(p.offers, p.booked)}</div>
-      </div>
-      <div class="funnel-arrow">›</div>
-      <div class="funnel-step contract">
-        <div class="funnel-num">${num(p.under_contract)}</div>
-        <div class="funnel-label">Contract</div>
-        <div class="funnel-rate">${pct(p.under_contract, p.offers)}</div>
-      </div>
-      <div class="funnel-arrow">›</div>
-      <div class="funnel-step">
-        <div class="funnel-num">${num(p.closed)}</div>
-        <div class="funnel-label">Closed</div>
+      <div class="funnel">
+        <div class="funnel-row">
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.leads)}</div>
+            <div class="funnel-label">Leads</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.active)}</div>
+            <div class="funnel-label">Active</div>
+            <div class="funnel-rate">${pct(fb.active, fb.leads)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.booked)}</div>
+            <div class="funnel-label">Booked</div>
+            <div class="funnel-rate">${pct(fb.booked, fb.leads)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.offered)}</div>
+            <div class="funnel-label">Offered</div>
+            <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step contract">
+            <div class="funnel-num">${num(fb.under_contract)}</div>
+            <div class="funnel-label">Contract</div>
+            <div class="funnel-rate">${pct(fb.under_contract, fb.offered)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(fb.closed)}</div>
+            <div class="funnel-label">Closed</div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Google Ads</div>
+        <div class="channel-badge badge-google">PPC</div>
+      </div>
+      <div class="funnel">
+        <div class="funnel-row">
+          <div class="funnel-step">
+            <div class="funnel-num">${num(ppc.leads)}</div>
+            <div class="funnel-label">Leads</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(ppc.active)}</div>
+            <div class="funnel-label">Active</div>
+            <div class="funnel-rate">${pct(ppc.active, ppc.leads)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(ppc.booked)}</div>
+            <div class="funnel-label">Booked</div>
+            <div class="funnel-rate">${pct(ppc.booked, ppc.leads)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(ppc.offered)}</div>
+            <div class="funnel-label">Offered</div>
+            <div class="funnel-rate">${pct(ppc.offered, ppc.booked)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step contract">
+            <div class="funnel-num">${num(ppc.under_contract)}</div>
+            <div class="funnel-label">Contract</div>
+            <div class="funnel-rate">${pct(ppc.under_contract, ppc.offered)}</div>
+          </div>
+          <div class="funnel-arrow">›</div>
+          <div class="funnel-step">
+            <div class="funnel-num">${num(ppc.closed)}</div>
+            <div class="funnel-label">Closed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   `;

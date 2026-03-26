@@ -382,9 +382,9 @@ function render(d) {
       </div>
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(g.spend_mtd)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CRM leads</div><div class="ch-kpi-val">${num(g.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(g.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${g.campaigns && g.campaigns[0] ? fmt(g.campaigns[0].cpc) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt(g.cpl)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">Cost / booked</div><div class="ch-kpi-val">${fmt(g.cost_per_booked)}</div></div>
       </div>
       <div class="campaign-list">
         ${(g.campaigns || []).map(c => `
@@ -404,10 +404,10 @@ function render(d) {
         <div class="channel-badge badge-meta">Facebook</div>
       </div>
       <div class="ch-kpis">
-        <div class="ch-kpi"><div class="ch-kpi-label">Spend (30d)</div><div class="ch-kpi-val">${fmt(m.spend_30d)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CRM leads</div><div class="ch-kpi-val">${num(m.crm_leads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPL (CRM)</div><div class="ch-kpi-val">${fmt(m.cpl_crm)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">Cost / hot lead</div><div class="ch-kpi-val">${fmt(m.cost_per_hot)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(m.spend_30d)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(m.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${m.cpc ? fmt(m.cpc) : '—'}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt(m.cpl_crm)}</div></div>
       </div>
       <div class="campaign-list">
         ${(m.campaigns || []).map(c => `

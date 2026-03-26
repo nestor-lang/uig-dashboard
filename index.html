@@ -391,7 +391,7 @@ function render(d) {
           <div class="campaign-row">
             <div class="dot ${c.leads === 0 ? 'dead' : ''}"></div>
             <div class="camp-name">${c.name}</div>
-            <div class="camp-spend">${fmt(c.spend)}</div>
+            <div class="camp-spend">${fmt(c.spend_today)} today</div>
 
           </div>
         `).join('')}
@@ -414,7 +414,7 @@ function render(d) {
           <div class="campaign-row">
             <div class="dot ${c.crm_leads === 0 ? 'dead' : ''}"></div>
             <div class="camp-name">${c.name}</div>
-            <div class="camp-spend">${fmt(c.spend)}</div>
+            <div class="camp-spend">${fmt(c.spend_today)} today</div>
 
           </div>
         `).join('')}

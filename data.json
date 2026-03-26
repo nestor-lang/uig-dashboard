@@ -1,6 +1,6 @@
 {
   "report_date": "March 26, 2026",
-  "last_updated": "2026-03-26 14:07 AST",
+  "last_updated": "2026-03-26 14:10 AST",
   "google": {
     "spend_mtd": 2030.42,
     "clicks_mtd": 439,
@@ -30,11 +30,11 @@
     ]
   },
   "meta": {
-    "spend_30d": 2428.41,
+    "spend_30d": 2428.99,
     "clicks_30d": 1267,
     "crm_leads": 22,
-    "cpl_crm": 110.38,
-    "cost_per_hot": 809.47,
+    "cpl_crm": 110.41,
+    "cost_per_hot": 809.66,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -52,7 +52,7 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 875.78,
+        "spend": 876.36,
         "clicks": 468,
         "crm_leads": 0,
         "cpl_crm": null
@@ -62,10 +62,28 @@
   "pipeline": {
     "new_leads_30d": 33,
     "hot": 3,
-    "booked": 0,
-    "offers": 0,
+    "booked": 13,
+    "offers": 13,
     "under_contract": 1,
-    "closed": null
+    "closed": 0
+  },
+  "pipeline_fb": {
+    "leads": 22,
+    "active": 15,
+    "booked": 9,
+    "offered": 9,
+    "accepted": 0,
+    "under_contract": 0,
+    "closed": 0
+  },
+  "pipeline_ppc": {
+    "leads": 11,
+    "active": 5,
+    "booked": 4,
+    "offered": 4,
+    "accepted": 1,
+    "under_contract": 1,
+    "closed": 0
   },
   "sources": {
     "ppc": 11,

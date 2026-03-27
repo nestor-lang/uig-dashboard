@@ -1039,14 +1039,14 @@ async function showReport(month) {
 
   // ── B: SPEND VS REVENUE ───────────────────────────────────────
 
-  const spendMonth = kpi.spend?.total ?? null;
-  const spendByMonth  = monthKeys.map(k => ytdData?.months?.[k]?.spend_total ?? null);
+  const spendMonth = d.spend_by_month?.[selMonth] ?? null;
+  const spendByMonth  = monthKeys.map(k => d.spend_by_month?.[k] ?? null);
   const ytdSpend      = spendByMonth.reduce((s, v) => s + (v || 0), 0);
   const pendingIncome = kpi.pending_income ?? null;
   const closedYTD     = ytdClosed;
 
-  document.getElementById('val-spend-month').textContent  = kfmt(spendMonth);
-  document.getElementById('val-spend-ytd').textContent    = kfmt(ytdSpend > 0 ? ytdSpend : null);
+  document.getElementById('val-spend-month').textContent  = fmt(spendMonth);
+  document.getElementById('val-spend-ytd').textContent    = fmt(ytdSpend > 0 ? ytdSpend : null);
   document.getElementById('val-pending').textContent      = kfmt(pendingIncome);
   document.getElementById('val-closed-ytd').textContent   = kfmt(closedYTD > 0 ? closedYTD : null);
 

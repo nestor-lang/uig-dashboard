@@ -556,6 +556,11 @@ async function init() {
 }
 
 init();
+
+// Auto-refresh every 10 minutes
+setInterval(() => {
+  showReport(currentMonth);
+}, 10 * 60 * 1000);
 </script>
 </body>
 </html>

@@ -1,12 +1,12 @@
 {
   "report_date": "March 27, 2026",
-  "last_updated": "2026-03-27 14:17 AST",
+  "last_updated": "2026-03-27 14:38 AST",
   "google": {
-    "spend_mtd": 2585.06,
-    "clicks_mtd": 451,
+    "spend_mtd": 2562.41,
+    "clicks_mtd": 450,
     "crm_leads": 12,
-    "cpc": 5.73,
-    "cpl": 215.42,
+    "cpc": 5.69,
+    "cpl": 213.53,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -19,26 +19,26 @@
         "clicks": 411,
         "cpc": 0.5,
         "crm_leads": 0,
-        "cpl": 215.42
+        "cpl": 213.53
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2378.79,
-        "spend_today": 405.24,
-        "clicks": 40,
-        "cpc": 59.47,
+        "spend": 2356.14,
+        "spend_today": 382.59,
+        "clicks": 39,
+        "cpc": 60.41,
         "crm_leads": 0,
-        "cpl": 215.42
+        "cpl": 213.53
       }
     ]
   },
   "meta": {
-    "spend_30d": 2144.01,
-    "clicks_30d": 1136,
+    "spend_30d": 2145.52,
+    "clicks_30d": 1139,
     "crm_leads": 26,
-    "cpc": 1.89,
-    "cpl_crm": 82.46,
-    "cost_per_hot": 428.8,
+    "cpc": 1.88,
+    "cpl_crm": 82.52,
+    "cost_per_hot": 429.1,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,9 +58,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1059.98,
-        "spend_today": 69.78,
-        "clicks": 549,
+        "spend": 1061.49,
+        "spend_today": 71.29,
+        "clicks": 552,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -87,10 +87,27 @@
     "2026-02": 181515,
     "2026-03": 104757
   },
+  "roa_by_month": {
+    "2026-01": {
+      "closed": 96450.0,
+      "pending": 67650.0,
+      "spend": 14983.0
+    },
+    "2026-02": {
+      "closed": 0.0,
+      "pending": 53500.0,
+      "spend": 26376.94
+    },
+    "2026-03": {
+      "closed": 0.0,
+      "pending": 0.0,
+      "spend": 14313.64
+    }
+  },
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 15133.12
+    "2026-03": 15111.98
   },
   "pipeline": {
     "new_leads_30d": 38,

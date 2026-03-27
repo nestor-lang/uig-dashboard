@@ -979,8 +979,8 @@ async function showReport(month) {
   // ── A: PIPELINE HEALTH ────────────────────────────────────────
 
   // Summary cards
-  document.getElementById('val-potential-income').textContent = kfmt(pod.potential_total);
-  document.getElementById('val-assigned-income').textContent  = kfmt(pod.assigned_total);
+  document.getElementById('val-potential-income').textContent = fmt(d.potential_income);
+  document.getElementById('val-assigned-income').textContent  = fmt(d.assigned_income);
 
   // Stage bars
   const stages = pod.by_stage || {};

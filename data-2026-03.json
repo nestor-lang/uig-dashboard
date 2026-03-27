@@ -1,12 +1,12 @@
 {
   "report_date": "March 27, 2026",
-  "last_updated": "2026-03-27 12:03 AST",
+  "last_updated": "2026-03-27 13:00 AST",
   "google": {
-    "spend_mtd": 2396.39,
-    "clicks_mtd": 445,
+    "spend_mtd": 2528.4,
+    "clicks_mtd": 446,
     "crm_leads": 12,
-    "cpc": 5.39,
-    "cpl": 199.7,
+    "cpc": 5.67,
+    "cpl": 210.7,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -19,26 +19,26 @@
         "clicks": 408,
         "cpc": 0.48,
         "crm_leads": 0,
-        "cpl": 199.7
+        "cpl": 210.7
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2201.48,
-        "spend_today": 227.93,
-        "clicks": 37,
-        "cpc": 59.5,
+        "spend": 2333.49,
+        "spend_today": 359.94,
+        "clicks": 38,
+        "cpc": 61.41,
         "crm_leads": 0,
-        "cpl": 199.7
+        "cpl": 210.7
       }
     ]
   },
   "meta": {
-    "spend_30d": 2133.07,
-    "clicks_30d": 1133,
+    "spend_30d": 2139.98,
+    "clicks_30d": 1136,
     "crm_leads": 26,
     "cpc": 1.88,
-    "cpl_crm": 82.04,
-    "cost_per_hot": 533.27,
+    "cpl_crm": 82.31,
+    "cost_per_hot": 428.0,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,9 +58,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1049.04,
-        "spend_today": 58.84,
-        "clicks": 546,
+        "spend": 1055.95,
+        "spend_today": 65.75,
+        "clicks": 549,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -68,9 +68,9 @@
   },
   "pipeline": {
     "new_leads_30d": 38,
-    "hot": 6,
+    "hot": 7,
     "booked": 15,
-    "offers": 14,
+    "offers": 15,
     "under_contract": 1,
     "closed": 0
   },
@@ -78,7 +78,7 @@
     "leads": 26,
     "active": 18,
     "booked": 11,
-    "offered": 10,
+    "offered": 11,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
@@ -98,6 +98,12 @@
     "ppc_inbound_call": 6
   },
   "hot_leads": [
+    {
+      "name": "1010 6th Ave S",
+      "address": "1010 6th Ave S, Jasper, AL 35501, USA",
+      "phone": "(205) 265-9298",
+      "source": "Facebook"
+    },
     {
       "name": "407 College Ave NE",
       "address": "407 College Ave NE, Dawson, GA 39842, USA",
@@ -121,12 +127,6 @@
       "address": "530 Valley St, Morristown, TN 37813, USA",
       "phone": "+12568626787",
       "source": "Facebook"
-    },
-    {
-      "name": "2344 Snowhill Church Rd",
-      "address": "2344 Snowhill Church Rd, Gordon, GA 31031, USA",
-      "phone": "4782333137",
-      "source": "SMS"
     }
   ],
   "sms_status": "SMS data via Podio."

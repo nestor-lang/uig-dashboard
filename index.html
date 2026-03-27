@@ -964,6 +964,7 @@ async function showReport(month) {
   }
 
   // ── NEW SECTIONS ──────────────────────────────────────────────
+  try {
 
   const kpi  = d.kpi       || {};
   const pod  = d.podio_pipeline || {};
@@ -1039,7 +1040,7 @@ async function showReport(month) {
 
   // ── B: SPEND VS REVENUE ───────────────────────────────────────
 
-  const spendMonth = d.spend_by_month?.[selMonth] ?? null;
+  const spendMonth = d.spend_by_month?.[month] ?? null;
   const spendByMonth  = monthKeys.map(k => d.spend_by_month?.[k] ?? null);
   const ytdSpend      = spendByMonth.reduce((s, v) => s + (v || 0), 0);
   const pendingIncome = kpi.pending_income ?? null;
@@ -1179,6 +1180,7 @@ async function showReport(month) {
   });
 
   // ── END NEW SECTIONS ──────────────────────────────────────────
+  } catch(e) { console.error('KPI section error:', e); }
 }
 
 async function init() {

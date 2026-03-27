@@ -248,10 +248,285 @@
   /* ─── Loading / error state ─── */
   .loading { text-align: center; padding: 4rem; color: var(--faint); font-family: 'DM Mono', monospace; font-size: 13px; }
 
+  /* ─── Section divider ─── */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 2.5rem 0 1.5rem;
+  }
+  .section-divider::before,
+  .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border2);
+  }
+  .section-divider-label {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--faint);
+    white-space: nowrap;
+  }
+
+  /* ─── Section source tag ─── */
+  .section-source {
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--faint);
+    margin-left: 8px;
+    font-family: 'DM Mono', monospace;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  /* ─── Two-column grid ─── */
+  .two-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  /* ─── Panel card ─── */
+  .panel-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+  }
+  .panel-card-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* ─── Horizontal bar rows ─── */
+  .bar-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .bar-row:last-child { margin-bottom: 0; }
+  .bar-name {
+    font-size: 12px;
+    color: var(--muted);
+    width: 150px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-track {
+    flex: 1;
+    height: 6px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: var(--green);
+  }
+  .bar-fill-blue { background: var(--blue); }
+  .bar-amount {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--text);
+    min-width: 80px;
+    text-align: right;
+  }
+
+  /* ─── Agent avatar ─── */
+  .agent-avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  /* ─── Chart wrapper ─── */
+  .chart-wrap {
+    position: relative;
+    width: 100%;
+  }
+  .chart-note {
+    font-size: 11px;
+    color: var(--faint);
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  /* ─── Toggle row ─── */
+  .toggle-row {
+    display: flex;
+    gap: 6px;
+    margin: 12px 0;
+  }
+  .tog {
+    font-size: 12px;
+    font-family: 'DM Mono', monospace;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 0.5px solid var(--border2);
+    color: var(--muted);
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.15s;
+  }
+  .tog.active {
+    background: var(--green-dim);
+    color: var(--green);
+    border-color: rgba(22,163,74,0.35);
+  }
+
+  /* ─── ROAS cards ─── */
+  .roas-cards-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .roas-mini-card {
+    background: var(--surface2);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .roas-mini-card.accent {
+    background: var(--green-dim);
+    border: 0.5px solid rgba(22,163,74,0.2);
+  }
+  .roas-label {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .roas-formula {
+    font-size: 10px;
+    font-family: 'DM Mono', monospace;
+    color: var(--faint);
+    margin-bottom: 6px;
+  }
+  .roas-val {
+    font-family: 'DM Mono', monospace;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--green);
+  }
+
+  /* ─── YTD badge ─── */
+  .badge-green {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: var(--green-dim);
+    color: var(--green);
+    font-family: 'DM Mono', monospace;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  /* ─── Rep scorecard ─── */
+  .rep-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 0;
+  }
+  .rep-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .rep-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .rep-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .rep-stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 0.5px solid var(--border);
+    font-size: 12px;
+  }
+  .rep-stat-row:last-child { border-bottom: none; }
+  .rep-stat-key { color: var(--muted); }
+  .rep-stat-val {
+    font-family: 'DM Mono', monospace;
+    color: var(--text);
+  }
+  .rep-funnel-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 14px 0 8px;
+  }
+  .rep-funnel .funnel-row { margin-bottom: 8px; }
+  .rep-funnel .funnel-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .rep-funnel .funnel-track {
+    height: 5px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .rep-funnel .funnel-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: var(--green);
+  }
+
+  /* ─── KPI accent overrides for new sections ─── */
+  .kpi-card.accent-blue { border-color: rgba(37,99,235,0.25); background: linear-gradient(135deg, var(--blue-dim), var(--surface)); }
+  .kpi-card.accent-blue .kpi-val { color: var(--blue); }
+
   @media (max-width: 640px) {
     .kpi-strip { grid-template-columns: repeat(2, 1fr); }
     .channels { grid-template-columns: 1fr; }
     .source-grid { grid-template-columns: repeat(2, 1fr); }
+    .two-col-grid { grid-template-columns: 1fr; }
+    .rep-grid { grid-template-columns: 1fr; }
+    .roas-cards-row { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -261,7 +536,11 @@
   <div class="loading">loading report data...</div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
+// Fetch YTD data once at load — store globally
+let ytdData = {};
+
 async function loadData(month) {
   try {
     const file = month ? `data-${month}.json` : 'data.json';
@@ -519,6 +798,143 @@ function render(d) {
 
   </div>
 
+  <!-- ============================================================ -->
+  <!-- SECTION DIVIDER -->
+  <!-- ============================================================ -->
+  <div class="section-divider">
+    <span class="section-divider-label">KPI Overview</span>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SECTION A: PIPELINE HEALTH -->
+  <!-- ============================================================ -->
+  <div class="section-label">Pipeline health <span class="section-source">Podio · live snapshot</span></div>
+
+  <div class="kpi-strip">
+    <div class="kpi-card accent-blue" id="kpi-potential-income">
+      <div class="kpi-label">Potential income</div>
+      <div class="kpi-val" id="val-potential-income">—</div>
+      <div class="kpi-sub">Active deals · not yet sold</div>
+    </div>
+    <div class="kpi-card accent-green" id="kpi-assigned-income">
+      <div class="kpi-label">Assigned income</div>
+      <div class="kpi-val" id="val-assigned-income">—</div>
+      <div class="kpi-sub">Sold · pending closing</div>
+    </div>
+  </div>
+
+  <div class="two-col-grid">
+    <div class="panel-card">
+      <div class="panel-card-title">Potential income by stage</div>
+      <div id="stage-bars"></div>
+    </div>
+    <div class="panel-card">
+      <div class="panel-card-title">Assigned income by agent</div>
+      <div id="agent-bars"></div>
+    </div>
+  </div>
+
+  <div class="panel-card" style="margin-top: 12px;">
+    <div class="panel-card-title">Closed revenue by month <span id="ytd-badge" class="badge-green"></span></div>
+    <div class="chart-wrap" style="height: 160px;">
+      <canvas id="closedRevenueChart"></canvas>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SECTION B: SPEND VS REVENUE -->
+  <!-- ============================================================ -->
+  <div class="section-label" style="margin-top: 2rem;">
+    Spend vs revenue
+    <span class="section-source">KPI Master · SMS + Facebook + PPC</span>
+  </div>
+
+  <div class="kpi-strip">
+    <div class="kpi-card">
+      <div class="kpi-label">Spend · selected month</div>
+      <div class="kpi-val" id="val-spend-month">—</div>
+      <div class="kpi-sub" id="sub-spend-month">SMS + Facebook + PPC</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total spend YTD</div>
+      <div class="kpi-val" id="val-spend-ytd">—</div>
+      <div class="kpi-sub">Jan–current</div>
+    </div>
+    <div class="kpi-card accent-amber">
+      <div class="kpi-label">Pending income</div>
+      <div class="kpi-val" id="val-pending">—</div>
+      <div class="kpi-sub">Sold · awaiting close</div>
+    </div>
+    <div class="kpi-card accent-green">
+      <div class="kpi-label">Closed revenue YTD</div>
+      <div class="kpi-val" id="val-closed-ytd">—</div>
+      <div class="kpi-sub">Realized</div>
+    </div>
+  </div>
+
+  <div class="toggle-row">
+    <button class="tog active" data-svr="matched">Month-matched</button>
+    <button class="tog" data-svr="cumulative">Cumulative YTD</button>
+  </div>
+
+  <div class="panel-card">
+    <div class="panel-card-title" id="svr-chart-title">Spend vs closed revenue · month-matched</div>
+    <div class="chart-wrap" style="height: 180px;">
+      <canvas id="svrChart"></canvas>
+    </div>
+    <div class="chart-note" id="svr-note">
+      Spend and closed revenue for the same calendar month. Feb–Mar show spend with no closes yet due to the ~49-day close cycle.
+    </div>
+  </div>
+
+  <div class="panel-card" style="margin-top: 12px;">
+    <div class="panel-card-title">ROAS · actual vs potential</div>
+    <div class="roas-cards-row">
+      <div class="roas-mini-card">
+        <div class="roas-label">Actual ROAS</div>
+        <div class="roas-formula">closed ÷ spend</div>
+        <div class="roas-val" id="val-roas-actual">—</div>
+      </div>
+      <div class="roas-mini-card accent">
+        <div class="roas-label">Potential ROAS</div>
+        <div class="roas-formula">(closed + pending) ÷ spend</div>
+        <div class="roas-val" id="val-roas-potential">—</div>
+      </div>
+    </div>
+    <div class="chart-wrap" style="height: 160px; margin-top: 12px;">
+      <canvas id="roasChart"></canvas>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SECTION C: REP SCORECARD -->
+  <!-- ============================================================ -->
+  <div class="section-label" style="margin-top: 2rem;">
+    Rep scorecard
+    <span class="section-source">KPI Master · All Channels</span>
+  </div>
+
+  <div class="rep-grid">
+    <div class="panel-card rep-card" id="rep-julian">
+      <div class="rep-header">
+        <div class="rep-avatar" style="background:var(--blue-dim); color:var(--blue);">JU</div>
+        <div class="rep-name">Julian</div>
+      </div>
+      <div class="rep-stats" id="rep-julian-stats"></div>
+      <div class="rep-funnel-label">Conversion funnel</div>
+      <div class="rep-funnel" id="rep-julian-funnel"></div>
+    </div>
+    <div class="panel-card rep-card" id="rep-charles">
+      <div class="rep-header">
+        <div class="rep-avatar" style="background:var(--green-dim); color:var(--green);">CH</div>
+        <div class="rep-name">Charles</div>
+      </div>
+      <div class="rep-stats" id="rep-charles-stats"></div>
+      <div class="rep-funnel-label">Conversion funnel</div>
+      <div class="rep-funnel" id="rep-charles-funnel"></div>
+    </div>
+  </div>
+
   `;
 }
 
@@ -546,10 +962,236 @@ async function showReport(month) {
       showReport(currentMonth);
     };
   }
+
+  // ── NEW SECTIONS ──────────────────────────────────────────────
+
+  const kpi  = d.kpi       || {};
+  const pod  = d.podio_pipeline || {};
+  const reps = kpi.reps       || {};
+  const jul  = reps.Julian    || {};
+  const cha  = reps.Charles   || {};
+
+  // ── HELPERS ──────────────────────────────────────────────────
+  const kfmt  = v => v != null ? '$' + Math.round(v).toLocaleString() : '—';
+  const kpct  = (a, b) => b > 0 ? (a / b * 100).toFixed(1) + '%' : '—';
+  const roasStr = v => v != null && isFinite(v) ? v.toFixed(1) + '×' : '—';
+
+  // ── A: PIPELINE HEALTH ────────────────────────────────────────
+
+  // Summary cards
+  document.getElementById('val-potential-income').textContent = kfmt(pod.potential_total);
+  document.getElementById('val-assigned-income').textContent  = kfmt(pod.assigned_total);
+
+  // Stage bars
+  const stages = pod.by_stage || {};
+  const maxStage = Math.max(...Object.values(stages), 1);
+  document.getElementById('stage-bars').innerHTML = Object.entries(stages).map(([name, val]) => `
+    <div class="bar-row">
+      <span class="bar-name" title="${name}">${name}</span>
+      <div class="bar-track"><div class="bar-fill bar-fill-blue" style="width:${(val/maxStage*100).toFixed(1)}%"></div></div>
+      <span class="bar-amount">${kfmt(val)}</span>
+    </div>`).join('');
+
+  // Agent bars
+  const agents = pod.by_agent || {};
+  const maxAgent = Math.max(...Object.values(agents), 1);
+  document.getElementById('agent-bars').innerHTML = Object.entries(agents).map(([name, val]) => {
+    const initials = name.split(' ').map(w => w[0]).join('').substring(0,2).toUpperCase();
+    return `
+    <div class="bar-row">
+      <div class="agent-avatar" style="background:var(--green-dim);color:var(--green);font-size:9px;">${initials}</div>
+      <span class="bar-name" style="width:120px;" title="${name}">${name}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${(val/maxAgent*100).toFixed(1)}%"></div></div>
+      <span class="bar-amount">${kfmt(val)}</span>
+    </div>`;
+  }).join('');
+
+  // Closed revenue bar chart (YTD — not month-dependent)
+  const monthLabels = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const monthKeys   = ['2026-01','2026-02','2026-03','2026-04','2026-05','2026-06',
+                       '2026-07','2026-08','2026-09','2026-10','2026-11','2026-12'];
+  const closedByMonth = monthKeys.map(k => ytdData?.months?.[k]?.closed_revenue ?? null);
+  const ytdClosed = closedByMonth.reduce((s, v) => s + (v || 0), 0);
+
+  const ytdBadgeEl = document.getElementById('ytd-badge');
+  if (ytdBadgeEl) ytdBadgeEl.textContent = 'YTD ' + kfmt(ytdClosed);
+
+  if (window._closedRevenueChart) window._closedRevenueChart.destroy();
+  const crCanvas = document.getElementById('closedRevenueChart');
+  if (crCanvas) {
+    window._closedRevenueChart = new Chart(crCanvas, {
+      type: 'bar',
+      data: {
+        labels: monthLabels,
+        datasets: [{
+          data: closedByMonth,
+          backgroundColor: closedByMonth.map(v => v > 0 ? 'var(--green)' : 'rgba(0,0,0,0.05)'),
+          borderRadius: 4,
+          barPercentage: 0.55
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + kfmt(ctx.parsed.y) } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, autoSkip: false, maxRotation: 0 } },
+          y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => '$' + (v/1000).toFixed(0) + 'k' }, beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  // ── B: SPEND VS REVENUE ───────────────────────────────────────
+
+  const spendMonth = kpi.spend?.total ?? null;
+  const spendByMonth  = monthKeys.map(k => ytdData?.months?.[k]?.spend_total ?? null);
+  const ytdSpend      = spendByMonth.reduce((s, v) => s + (v || 0), 0);
+  const pendingIncome = kpi.pending_income ?? null;
+  const closedYTD     = ytdClosed;
+
+  document.getElementById('val-spend-month').textContent  = kfmt(spendMonth);
+  document.getElementById('val-spend-ytd').textContent    = kfmt(ytdSpend > 0 ? ytdSpend : null);
+  document.getElementById('val-pending').textContent      = kfmt(pendingIncome);
+  document.getElementById('val-closed-ytd').textContent   = kfmt(closedYTD > 0 ? closedYTD : null);
+
+  // ROAS
+  const actualROAS  = ytdSpend > 0 ? closedYTD / ytdSpend : null;
+  const potROAS     = ytdSpend > 0 && pendingIncome != null ? (closedYTD + pendingIncome) / ytdSpend : null;
+  document.getElementById('val-roas-actual').textContent    = roasStr(actualROAS);
+  document.getElementById('val-roas-potential').textContent = roasStr(potROAS);
+
+  // SVR chart — build both views, toggle switches between them
+  const svrViews = {
+    matched: {
+      spendData:   spendByMonth,
+      revenueData: closedByMonth,
+      title: 'Spend vs closed revenue · month-matched',
+      note:  'Spend and closed revenue for the same calendar month. Feb–Mar show spend with no closes yet due to the ~49-day close cycle.'
+    },
+    cumulative: {
+      spendData:   spendByMonth.reduce((acc, v, i) => { acc.push((acc[i-1]||0) + (v||0)); return acc; }, []),
+      revenueData: closedByMonth.reduce((acc, v, i) => { acc.push((acc[i-1]||0) + (v||0)); return acc; }, []),
+      title: 'Cumulative YTD · spend vs closed revenue',
+      note:  'Running totals. Revenue line climbs as deals close. Pending income ($' + Math.round(pendingIncome||0).toLocaleString() + ' already sold) will shift to closed revenue as those deals complete.'
+    }
+  };
+
+  function buildSVRChart(viewKey) {
+    const v = svrViews[viewKey];
+    const isLine = viewKey === 'cumulative';
+    document.getElementById('svr-chart-title').textContent = v.title;
+    document.getElementById('svr-note').textContent = v.note;
+
+    const pendingRef = (pendingIncome || 0);
+
+    if (window._svrChart) window._svrChart.destroy();
+    window._svrChart = new Chart(document.getElementById('svrChart'), {
+      type: isLine ? 'line' : 'bar',
+      data: {
+        labels: monthLabels,
+        datasets: isLine ? [
+          { label: 'Spend', data: v.spendData, borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.07)', fill: true, tension: 0.3, pointRadius: 3, pointBackgroundColor: '#dc2626', borderWidth: 2 },
+          { label: 'Closed', data: v.revenueData, borderColor: '#16a34a', backgroundColor: 'rgba(22,163,74,0.07)', fill: true, tension: 0.3, pointRadius: 3, pointBackgroundColor: '#16a34a', borderWidth: 2 },
+          { label: 'Pending', data: monthLabels.map(() => pendingRef), borderColor: '#d97706', borderDash: [5,4], fill: false, tension: 0, pointRadius: 0, borderWidth: 1.5 }
+        ] : [
+          { label: 'Spend', data: v.spendData, backgroundColor: v.spendData.map(x => x > 0 ? '#dc2626' : 'rgba(0,0,0,0.05)'), borderRadius: 3, barPercentage: 0.65 },
+          { label: 'Closed', data: v.revenueData, backgroundColor: v.revenueData.map(x => x > 0 ? '#16a34a' : 'rgba(0,0,0,0.05)'), borderRadius: 3, barPercentage: 0.65 },
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + kfmt(ctx.parsed.y) } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, autoSkip: false, maxRotation: 0 } },
+          y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => '$' + (v/1000).toFixed(0) + 'k' }, beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  // Wire toggle buttons (re-attach after each DOM rebuild)
+  document.querySelectorAll('.tog[data-svr]').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.tog[data-svr]').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      buildSVRChart(this.dataset.svr);
+    });
+  });
+  buildSVRChart('matched');
+
+  // ROAS chart
+  if (window._roasChart) window._roasChart.destroy();
+  window._roasChart = new Chart(document.getElementById('roasChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Actual ROAS', 'Potential ROAS'],
+      datasets: [{
+        data: [actualROAS, potROAS],
+        backgroundColor: ['rgba(22,163,74,0.5)', '#16a34a'],
+        borderRadius: 5,
+        barPercentage: 0.35
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + roasStr(ctx.parsed.y) } } },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 12 } } },
+        y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => v + '×' }, beginAtZero: true }
+      }
+    }
+  });
+
+  // ── C: REP SCORECARD ──────────────────────────────────────────
+
+  function buildRepStats(rep) {
+    const booked2offer = kpct(rep.offers_made, rep.booked);
+    const offer2accept = kpct(rep.accepted, rep.offers_made);
+    return {
+      stats: [
+        ['Booked opps',     rep.booked      ?? '—'],
+        ['Offers made',     rep.offers_made ?? '—'],
+        ['Accepted',        rep.accepted    ?? '—'],
+        ['Closed deals',    rep.closed      ?? '—'],
+        ['Pending income',  kfmt(rep.pending_income)],
+        ['Closed revenue',  kfmt(rep.closed_revenue)],
+      ],
+      funnels: [
+        { label: 'Booked → Offer',    pct: booked2offer, raw: rep.offers_made / Math.max(rep.booked,1) },
+        { label: 'Offer → Accepted',  pct: offer2accept,  raw: rep.accepted   / Math.max(rep.offers_made,1) },
+      ]
+    };
+  }
+
+  ['Julian','Charles'].forEach(name => {
+    const rep  = name === 'Julian' ? jul : cha;
+    const id   = name.toLowerCase();
+    const { stats, funnels } = buildRepStats(rep);
+
+    const statsEl = document.getElementById(`rep-${id}-stats`);
+    if (statsEl) statsEl.innerHTML = stats.map(([k,v]) =>
+      `<div class="rep-stat-row"><span class="rep-stat-key">${k}</span><span class="rep-stat-val">${v}</span></div>`
+    ).join('');
+
+    const funnelEl = document.getElementById(`rep-${id}-funnel`);
+    if (funnelEl) funnelEl.innerHTML = funnels.map(f =>
+      `<div class="funnel-row">
+         <div class="funnel-meta"><span>${f.label}</span><span>${f.pct}</span></div>
+         <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min((f.raw||0)*100,100).toFixed(1)}%"></div></div>
+       </div>`
+    ).join('');
+  });
+
+  // ── END NEW SECTIONS ──────────────────────────────────────────
 }
 
 async function init() {
   availableMonths = await loadMonths();
+  // Fetch YTD data once at load
+  try {
+    const ytdRes = await fetch(`ytd-2026.json?t=${Date.now()}`);
+    if (ytdRes.ok) ytdData = await ytdRes.json();
+  } catch (e) { ytdData = {}; }
   // Default to the latest month (first in sorted-desc list)
   currentMonth = availableMonths.length > 0 ? availableMonths[0] : null;
   await showReport(currentMonth);

@@ -1043,7 +1043,7 @@ async function showReport(month) {
   const spendMonth = d.spend_by_month?.[month] ?? null;
   const spendByMonth  = monthKeys.map(k => d.spend_by_month?.[k] ?? null);
   const ytdSpend      = spendByMonth.reduce((s, v) => s + (v || 0), 0);
-  const pendingIncome = kpi.pending_income ?? null;
+  const pendingIncome = d.assigned_income ?? null;
   const closedYTD     = ytdClosed;
 
   document.getElementById('val-spend-month').textContent  = fmt(spendMonth);

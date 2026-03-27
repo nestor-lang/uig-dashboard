@@ -1,12 +1,12 @@
 {
   "report_date": "March 26, 2026",
-  "last_updated": "2026-03-26 18:55 AST",
+  "last_updated": "2026-03-26 20:52 AST",
   "google": {
-    "spend_mtd": 2164.74,
-    "clicks_mtd": 440,
-    "crm_leads": 13,
-    "cpc": 4.92,
-    "cpl": 166.52,
+    "spend_mtd": 2164.03,
+    "clicks_mtd": 439,
+    "crm_leads": 12,
+    "cpc": 4.93,
+    "cpl": 180.34,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,12 +14,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 191.2,
+        "spend": 190.49,
         "spend_today": 11.28,
-        "clicks": 407,
+        "clicks": 406,
         "cpc": 0.47,
         "crm_leads": 0,
-        "cpl": 166.52
+        "cpl": 180.34
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,17 +28,17 @@
         "clicks": 33,
         "cpc": 59.8,
         "crm_leads": 0,
-        "cpl": 166.52
+        "cpl": 180.34
       }
     ]
   },
   "meta": {
-    "spend_30d": 2050.45,
-    "clicks_30d": 1100,
+    "spend_30d": 2063.59,
+    "clicks_30d": 1105,
     "crm_leads": 23,
-    "cpc": 1.86,
-    "cpl_crm": 89.15,
-    "cost_per_hot": 683.48,
+    "cpc": 1.87,
+    "cpl_crm": 89.72,
+    "cost_per_hot": 687.86,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,16 +58,16 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 966.42,
-        "spend_today": 139.32,
-        "clicks": 513,
+        "spend": 979.56,
+        "spend_today": 152.46,
+        "clicks": 518,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "pipeline": {
-    "new_leads_30d": 36,
+    "new_leads_30d": 35,
     "hot": 3,
     "booked": 14,
     "offers": 13,
@@ -84,8 +84,8 @@
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 13,
-    "active": 6,
+    "leads": 12,
+    "active": 5,
     "booked": 4,
     "offered": 4,
     "accepted": 1,
@@ -93,10 +93,10 @@
     "closed": 0
   },
   "sources": {
-    "ppc": 13,
+    "ppc": 12,
     "facebook": 23,
     "ppc_inbound_call": 7,
-    "sms": 167
+    "sms": 168
   },
   "hot_leads": [
     {

@@ -888,22 +888,17 @@ function render(d) {
   </div>
 
   <div class="panel-card" style="margin-top: 12px;">
-    <div class="panel-card-title">ROAS · actual vs potential</div>
-    <div class="roas-cards-row">
-      <div class="roas-mini-card">
-        <div class="roas-label">Actual ROAS</div>
-        <div class="roas-formula">closed ÷ spend</div>
-        <div class="roas-val" id="val-roas-actual">—</div>
-      </div>
-      <div class="roas-mini-card accent">
-        <div class="roas-label">Potential ROAS</div>
-        <div class="roas-formula">(closed + pending) ÷ spend</div>
-        <div class="roas-val" id="val-roas-potential">—</div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+      <div class="panel-card-title" style="margin-bottom:0;">ROA by month · KPI Master</div>
+      <div style="display:flex;gap:6px;">
+        <button class="tog active" id="roa-tab-actual" onclick="setRoaTab('actual')">Actual ROA</button>
+        <button class="tog" id="roa-tab-potential" onclick="setRoaTab('potential')">Potential ROA</button>
       </div>
     </div>
-    <div class="chart-wrap" style="height: 160px; margin-top: 12px;">
-      <canvas id="roasChart"></canvas>
+    <div class="chart-wrap" style="height: 180px;">
+      <canvas id="roaChart"></canvas>
     </div>
+    <div class="chart-note" id="roa-note">Actual ROA = Closed Revenue ÷ Marketing Spend · by month · KPI Master</div>
   </div>
 
   <!-- ============================================================ -->
@@ -1051,11 +1046,49 @@ async function showReport(month) {
   document.getElementById('val-pending').textContent      = kfmt(pendingIncome);
   document.getElementById('val-closed-ytd').textContent   = kfmt(closedYTD > 0 ? closedYTD : null);
 
-  // ROAS
-  const actualROAS  = ytdSpend > 0 ? closedYTD / ytdSpend : null;
-  const potROAS     = ytdSpend > 0 && pendingIncome != null ? (closedYTD + pendingIncome) / ytdSpend : null;
-  document.getElementById('val-roas-actual').textContent    = roasStr(actualROAS);
-  document.getElementById('val-roas-potential').textContent = roasStr(potROAS);
+  // ROA by month chart
+  const roaData = d.roa_by_month || {};
+  const roaMonthKeys = monthKeys.filter(k => roaData[k]);
+  const roaLabels = roaMonthKeys.map(k => { const [,m] = k.split('-'); return ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m]; });
+  const roaActual    = roaMonthKeys.map(k => roaData[k].spend > 0 ? roaData[k].closed  / roaData[k].spend : null);
+  const roaPotential = roaMonthKeys.map(k => roaData[k].spend > 0 ? (roaData[k].closed + roaData[k].pending) / roaData[k].spend : null);
+
+  let currentRoaTab = 'actual';
+  window.setRoaTab = function(tab) {
+    currentRoaTab = tab;
+    document.getElementById('roa-tab-actual').className    = 'tog' + (tab === 'actual'    ? ' active' : '');
+    document.getElementById('roa-tab-potential').className = 'tog' + (tab === 'potential' ? ' active' : '');
+    buildRoaChart(tab);
+  };
+
+  function buildRoaChart(tab) {
+    const vals = tab === 'actual' ? roaActual : roaPotential;
+    const note = tab === 'actual'
+      ? 'Actual ROA = Closed Revenue ÷ Marketing Spend · by month · KPI Master'
+      : 'Potential ROA = (Closed + Pending Income) ÷ Marketing Spend · by month · KPI Master';
+    document.getElementById('roa-note').textContent = note;
+    if (window._roaChart) window._roaChart.destroy();
+    window._roaChart = new Chart(document.getElementById('roaChart'), {
+      type: 'bar',
+      data: {
+        labels: roaLabels,
+        datasets: [{
+          data: vals,
+          backgroundColor: vals.map(v => v != null ? '#16a34a' : 'rgba(0,0,0,0.05)'),
+          borderRadius: 5, barPercentage: 0.55
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + (ctx.parsed.y != null ? ctx.parsed.y.toFixed(2) + '×' : '—') } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 12 } } },
+          y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => v.toFixed(1) + '×' }, beginAtZero: true }
+        }
+      }
+    });
+  }
+  buildRoaChart('actual');
 
   // SVR chart — build both views, toggle switches between them
   const svrViews = {
@@ -1116,28 +1149,7 @@ async function showReport(month) {
   });
   buildSVRChart('matched');
 
-  // ROAS chart
-  if (window._roasChart) window._roasChart.destroy();
-  window._roasChart = new Chart(document.getElementById('roasChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Actual ROAS', 'Potential ROAS'],
-      datasets: [{
-        data: [actualROAS, potROAS],
-        backgroundColor: ['rgba(22,163,74,0.5)', '#16a34a'],
-        borderRadius: 5,
-        barPercentage: 0.35
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + roasStr(ctx.parsed.y) } } },
-      scales: {
-        x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 12 } } },
-        y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => v + '×' }, beginAtZero: true }
-      }
-    }
-  });
+
 
   // ── C: REP SCORECARD ──────────────────────────────────────────
 

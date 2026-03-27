@@ -1146,30 +1146,29 @@ async function showReport(month) {
 
 
   // ── C: REP SCORECARD ──────────────────────────────────────────
+  const repData = (d.reps_by_month || {})[month] || {};
 
-  function buildRepStats(rep) {
-    const booked2offer = kpct(rep.offers_made, rep.booked);
-    const offer2accept = kpct(rep.accepted, rep.offers_made);
-    return {
-      stats: [
-        ['Booked opps',     rep.booked      ?? '—'],
-        ['Offers made',     rep.offers_made ?? '—'],
-        ['Accepted',        rep.accepted    ?? '—'],
-        ['Closed deals',    rep.closed      ?? '—'],
-        ['Pending income',  kfmt(rep.pending_income)],
-        ['Closed revenue',  kfmt(rep.closed_revenue)],
-      ],
-      funnels: [
-        { label: 'Booked → Offer',    pct: booked2offer, raw: rep.offers_made / Math.max(rep.booked,1) },
-        { label: 'Offer → Accepted',  pct: offer2accept,  raw: rep.accepted   / Math.max(rep.offers_made,1) },
-      ]
-    };
-  }
-
-  ['Julian','Charles'].forEach(name => {
-    const rep  = name === 'Julian' ? jul : cha;
-    const id   = name.toLowerCase();
-    const { stats, funnels } = buildRepStats(rep);
+  function buildRepCard(name, rep) {
+    const id = name.toLowerCase();
+    const pct = (a, b) => b > 0 ? (a/b*100).toFixed(1)+'%' : '—';
+    const stats = [
+      ['Leads',           rep.leads      || 0],
+      ['Active Opps',     rep.active     || 0],
+      ['Booked',          rep.booked     || 0],
+      ['Offers Made',     rep.offers     || 0],
+      ['Accepted',        rep.accepted   || 0],
+      ['Available',       rep.available  || 0],
+      ['Pending',         rep.pending    || 0],
+      ['Dead',            rep.dead       || 0],
+      ['Closed',          rep.closed     || 0],
+      ['Pending Income',  fmt(rep.pending_income  || 0)],
+      ['Closed Revenue',  fmt(rep.closed_revenue  || 0)],
+    ];
+    const funnels = [
+      { label: 'Booked → Offer',   pct: pct(rep.offers,   rep.booked),  raw: (rep.offers   || 0) / Math.max(rep.booked  || 1, 1) },
+      { label: 'Offer → Accepted', pct: pct(rep.accepted, rep.offers),  raw: (rep.accepted || 0) / Math.max(rep.offers  || 1, 1) },
+      { label: 'Accepted → Closed',pct: pct(rep.closed,   rep.accepted),raw: (rep.closed   || 0) / Math.max(rep.accepted|| 1, 1) },
+    ];
 
     const statsEl = document.getElementById(`rep-${id}-stats`);
     if (statsEl) statsEl.innerHTML = stats.map(([k,v]) =>
@@ -1183,6 +1182,11 @@ async function showReport(month) {
          <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min((f.raw||0)*100,100).toFixed(1)}%"></div></div>
        </div>`
     ).join('');
+  }
+
+  ['Julian','Charles'].forEach(name => {
+    const rep = repData[name] || {};
+    buildRepCard(name, rep);
   });
 
   // ── END NEW SECTIONS ──────────────────────────────────────────

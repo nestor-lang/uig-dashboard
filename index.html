@@ -557,10 +557,10 @@ async function init() {
 
 init();
 
-// Auto-refresh every 10 minutes
+// Auto-refresh every 60 minutes (matches script update frequency)
 setInterval(() => {
   showReport(currentMonth);
-}, 10 * 60 * 1000);
+}, 60 * 60 * 1000);
 </script>
 </body>
 </html>

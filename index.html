@@ -316,7 +316,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   .bar-row:last-child { margin-bottom: 0; }
   .bar-name {
@@ -330,17 +330,17 @@
   }
   .bar-track {
     flex: 1;
-    height: 6px;
+    height: 8px;
     background: var(--surface2);
-    border-radius: 3px;
+    border-radius: 99px;
     overflow: hidden;
   }
   .bar-fill {
     height: 100%;
-    border-radius: 3px;
-    background: var(--green);
+    border-radius: 99px;
+    background: linear-gradient(90deg, #16a34a, #22c55e);
+    transition: width 0.4s ease;
   }
-  .bar-fill-blue { background: var(--blue); }
   .bar-amount {
     font-family: 'DM Mono', monospace;
     font-size: 12px;
@@ -988,7 +988,7 @@ async function showReport(month) {
   document.getElementById('stage-bars').innerHTML = Object.entries(stages).map(([name, val]) => `
     <div class="bar-row">
       <span class="bar-name" title="${name}">${name}</span>
-      <div class="bar-track"><div class="bar-fill bar-fill-blue" style="width:${(val/maxStage*100).toFixed(1)}%"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(val/maxStage*100).toFixed(1)}%"></div></div>
       <span class="bar-amount">${fmt(val)}</span>
     </div>`).join('') || '<span style="color:var(--muted);font-size:12px;">No data</span>';
 
@@ -1021,7 +1021,7 @@ async function showReport(month) {
         labels: monthLabels,
         datasets: [{
           data: closedByMonth,
-          backgroundColor: closedByMonth.map(v => v > 0 ? 'var(--green)' : 'rgba(0,0,0,0.05)'),
+          backgroundColor: closedByMonth.map(v => v > 0 ? '#16a34a' : 'rgba(0,0,0,0.05)'),
           borderRadius: 4,
           barPercentage: 0.55
         }]

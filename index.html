@@ -888,13 +888,7 @@ function render(d) {
   </div>
 
   <div class="panel-card" style="margin-top: 12px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
-      <div class="panel-card-title" style="margin-bottom:0;">ROA by month · KPI Master</div>
-      <div style="display:flex;gap:6px;">
-        <button class="tog active" id="roa-tab-actual" onclick="setRoaTab('actual')">Actual ROA</button>
-        <button class="tog" id="roa-tab-potential" onclick="setRoaTab('potential')">Potential ROA</button>
-      </div>
-    </div>
+    <div class="panel-card-title">ROA by month · KPI Master</div>
     <div class="chart-wrap" style="height: 180px;">
       <canvas id="roaChart"></canvas>
     </div>
@@ -1053,42 +1047,42 @@ async function showReport(month) {
   const roaActual    = roaMonthKeys.map(k => roaData[k].spend > 0 ? roaData[k].closed  / roaData[k].spend : null);
   const roaPotential = roaMonthKeys.map(k => roaData[k].spend > 0 ? (roaData[k].closed + roaData[k].pending) / roaData[k].spend : null);
 
-  let currentRoaTab = 'actual';
-  window.setRoaTab = function(tab) {
-    currentRoaTab = tab;
-    document.getElementById('roa-tab-actual').className    = 'tog' + (tab === 'actual'    ? ' active' : '');
-    document.getElementById('roa-tab-potential').className = 'tog' + (tab === 'potential' ? ' active' : '');
-    buildRoaChart(tab);
-  };
-
-  function buildRoaChart(tab) {
-    const vals = tab === 'actual' ? roaActual : roaPotential;
-    const note = tab === 'actual'
-      ? 'Actual ROA = Closed Revenue ÷ Marketing Spend · by month · KPI Master'
-      : 'Potential ROA = (Closed + Pending Income) ÷ Marketing Spend · by month · KPI Master';
-    document.getElementById('roa-note').textContent = note;
-    if (window._roaChart) window._roaChart.destroy();
-    window._roaChart = new Chart(document.getElementById('roaChart'), {
-      type: 'bar',
-      data: {
-        labels: roaLabels,
-        datasets: [{
-          data: vals,
-          backgroundColor: vals.map(v => v != null ? '#16a34a' : 'rgba(0,0,0,0.05)'),
-          borderRadius: 5, barPercentage: 0.55
-        }]
-      },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + (ctx.parsed.y != null ? ctx.parsed.y.toFixed(2) + '×' : '—') } } },
-        scales: {
-          x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 12 } } },
-          y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => v.toFixed(1) + '×' }, beginAtZero: true }
+  if (window._roaChart) window._roaChart.destroy();
+  window._roaChart = new Chart(document.getElementById('roaChart'), {
+    type: 'bar',
+    data: {
+      labels: roaLabels,
+      datasets: [
+        {
+          label: 'Actual ROA',
+          data: roaActual,
+          backgroundColor: '#16a34a',
+          borderRadius: 4,
+          barPercentage: 0.35,
+          categoryPercentage: 0.6
+        },
+        {
+          label: 'Potential ROA',
+          data: roaPotential,
+          backgroundColor: '#f59e0b',
+          borderRadius: 4,
+          barPercentage: 0.35,
+          categoryPercentage: 0.6
         }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: true, position: 'top', labels: { font: { size: 11 }, boxWidth: 10, padding: 12 } },
+        tooltip: { callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ' + (ctx.parsed.y != null ? ctx.parsed.y.toFixed(2) + '×' : '—') } }
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 12 } } },
+        y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { color: 'rgba(0,0,0,0.4)', font: { size: 11 }, callback: v => v.toFixed(1) + '×' }, beginAtZero: true }
       }
-    });
-  }
-  buildRoaChart('actual');
+    }
+  });
 
   // SVR chart — build both views, toggle switches between them
   const svrViews = {

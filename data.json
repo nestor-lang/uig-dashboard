@@ -1,12 +1,12 @@
 {
   "report_date": "March 27, 2026",
-  "last_updated": "2026-03-27 11:00 AST",
+  "last_updated": "2026-03-27 11:52 AST",
   "google": {
-    "spend_mtd": 2260.53,
-    "clicks_mtd": 442,
+    "spend_mtd": 2281.35,
+    "clicks_mtd": 444,
     "crm_leads": 12,
-    "cpc": 5.11,
-    "cpl": 188.38,
+    "cpc": 5.14,
+    "cpl": 190.11,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,31 +14,31 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 191.24,
-        "spend_today": 0.75,
-        "clicks": 407,
-        "cpc": 0.47,
+        "spend": 194.91,
+        "spend_today": 4.43,
+        "clicks": 408,
+        "cpc": 0.48,
         "crm_leads": 0,
-        "cpl": 188.38
+        "cpl": 190.11
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2069.29,
-        "spend_today": 95.74,
-        "clicks": 35,
-        "cpc": 59.12,
+        "spend": 2086.44,
+        "spend_today": 112.89,
+        "clicks": 36,
+        "cpc": 57.96,
         "crm_leads": 0,
-        "cpl": 188.38
+        "cpl": 190.11
       }
     ]
   },
   "meta": {
-    "spend_30d": 2131.92,
-    "clicks_30d": 1131,
+    "spend_30d": 2132.97,
+    "clicks_30d": 1133,
     "crm_leads": 26,
     "cpc": 1.88,
-    "cpl_crm": 82.0,
-    "cost_per_hot": 532.98,
+    "cpl_crm": 82.04,
+    "cost_per_hot": 533.24,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,9 +58,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1047.89,
-        "spend_today": 57.69,
-        "clicks": 544,
+        "spend": 1048.94,
+        "spend_today": 58.74,
+        "clicks": 546,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -68,7 +68,7 @@
   },
   "pipeline": {
     "new_leads_30d": 38,
-    "hot": 4,
+    "hot": 6,
     "booked": 15,
     "offers": 14,
     "under_contract": 1,
@@ -95,7 +95,8 @@
   "sources": {
     "ppc": 12,
     "facebook": 26,
-    "ppc_inbound_call": 6
+    "ppc_inbound_call": 6,
+    "sms": 683
   },
   "hot_leads": [
     {
@@ -121,6 +122,12 @@
       "address": "530 Valley St, Morristown, TN 37813, USA",
       "phone": "+12568626787",
       "source": "Facebook"
+    },
+    {
+      "name": "2344 Snowhill Church Rd",
+      "address": "2344 Snowhill Church Rd, Gordon, GA 31031, USA",
+      "phone": "4782333137",
+      "source": "SMS"
     }
   ],
   "sms_status": "SMS data via Podio."

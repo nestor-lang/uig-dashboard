@@ -1093,14 +1093,7 @@ function render(d) {
   <div class="h2h-card" id="h2h-card"></div>
 
   <!-- ============================================================ -->
-  <!-- SECTION D: AGENT SCORECARD -->
-  <!-- ============================================================ -->
-  <div class="section-label" style="margin-top: 2rem;">
-    Agent scorecard
-    <span class="section-source">Scorecard · ${d.scorecard?.period || '—'}</span>
-  </div>
 
-  <div class="agent-scorecard-grid" id="agent-scorecard-grid"></div>
 
   `;
 }
@@ -1464,51 +1457,7 @@ async function showReport(month) {
       </div>`;
   }
 
-  // ── D: AGENT SCORECARD ──────────────────────────────────────────
 
-  const scorecard = d.scorecard || {};
-  const scAgents  = scorecard.agents || [];
-  const scColors  = [
-    { bg: 'var(--purple-dim)', fg: 'var(--purple)' },
-    { bg: 'var(--green-dim)',  fg: 'var(--green)'  },
-    { bg: 'var(--blue-dim)',   fg: 'var(--blue)'   },
-    { bg: 'var(--amber-dim)',  fg: 'var(--amber)'  },
-  ];
-
-  const scGrid = document.getElementById('agent-scorecard-grid');
-  if (scGrid) {
-    scGrid.innerHTML = scAgents.map((agent, i) => {
-      const c = scColors[i % scColors.length];
-      const q = agent.qualified ?? 0;
-      const o = agent.offered   ?? 0;
-      const k = agent.contract  ?? 0;
-      const q2o = q > 0 ? (o / q * 100).toFixed(1) + '%' : '—';
-      const o2k = o > 0 ? (k / o * 100).toFixed(1) + '%' : '—';
-      const q2oRaw = q > 0 ? o / q : 0;
-      const o2kRaw = o > 0 ? k / o : 0;
-      return `
-      <div class="agent-sc-card">
-        <div class="agent-sc-header">
-          <div class="agent-sc-avatar" style="background:${c.bg}; color:${c.fg};">${agent.initials || '??'}</div>
-          <div class="agent-sc-name">${agent.name || 'Agent'}</div>
-        </div>
-        <div class="agent-sc-row"><span class="agent-sc-key">Qualified leads</span><span class="agent-sc-val">${q}</span></div>
-        <div class="agent-sc-row"><span class="agent-sc-key">Offers made</span><span class="agent-sc-val">${o}</span></div>
-        <div class="agent-sc-row"><span class="agent-sc-key">Under contract</span><span class="agent-sc-val">${k}</span></div>
-        <div class="agent-sc-funnel-label">Conversion funnel</div>
-        <div class="agent-sc-funnel">
-          <div class="funnel-row">
-            <div class="funnel-meta"><span>Qualified → Offered</span><span>${q2o}</span></div>
-            <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min(q2oRaw*100,100).toFixed(1)}%;background:${c.fg}"></div></div>
-          </div>
-          <div class="funnel-row">
-            <div class="funnel-meta"><span>Offered → Contract</span><span>${o2k}</span></div>
-            <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min(o2kRaw*100,100).toFixed(1)}%;background:${c.fg}"></div></div>
-          </div>
-        </div>
-      </div>`;
-    }).join('');
-  }
 
   // ── END NEW SECTIONS ──────────────────────────────────────────
   } catch(e) { console.error('KPI section error:', e); }

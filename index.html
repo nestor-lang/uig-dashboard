@@ -857,8 +857,8 @@ function render(d, month) {
     </div>
     <div class="kpi-card">
       <div class="kpi-label">Under contract</div>
-      <div class="kpi-val">${num(p.under_contract)}</div>
-      <div class="kpi-sub">${p.closed || 0} closed</div>
+      <div class="kpi-val">${num(isCurrent ? p.under_contract : ((fb.under_contract||0)+(ppc.under_contract||0)))}</div>
+      <div class="kpi-sub">${isCurrent ? (p.closed||0) : ((fb.closed||0)+(ppc.closed||0))} closed</div>
     </div>
   </div>
 

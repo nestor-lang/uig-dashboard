@@ -817,8 +817,9 @@ function render(d, month) {
   const blendedCPL = totalLeads ? Math.round(totalSpend / totalLeads) : null;
   const gCPL = ppcLeads ? Math.round(gSpend / ppcLeads) : null;
   const mCPL = fbLeads  ? Math.round(mSpend / fbLeads)  : null;
-  const gCPC = ch.google_cpc != null ? ch.google_cpc : g.cpc;
-  const mCPC = ch.meta_cpc   != null ? ch.meta_cpc   : m.cpc;
+  const isCurrent = !month || month === Object.keys(d.channel_by_month || {}).sort().reverse()[0];
+  const gCPC = ch.google_cpc != null ? ch.google_cpc : (isCurrent ? g.cpc : null);
+  const mCPC = ch.meta_cpc   != null ? ch.meta_cpc   : (isCurrent ? m.cpc : null);
 
   // Total closed revenue for the selected month (blanket, not per-lead-source)
   const roa = (d.roa_by_month || {})[month] || {};

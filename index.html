@@ -817,8 +817,8 @@ function render(d, month) {
   const blendedCPL = totalLeads ? Math.round(totalSpend / totalLeads) : null;
   const gCPL = ppcLeads ? Math.round(gSpend / ppcLeads) : null;
   const mCPL = fbLeads  ? Math.round(mSpend / fbLeads)  : null;
-  const gCPC = gSpend > 0 && (ch.google_spend != null) ? null : g.cpc; // use live CPC for current month only
-  const mCPC = mSpend > 0 && (ch.meta_spend  != null) ? null : m.cpc;
+  const gCPC = ch.google_cpc != null ? ch.google_cpc : g.cpc;
+  const mCPC = ch.meta_cpc   != null ? ch.meta_cpc   : m.cpc;
 
   // Total closed revenue for the selected month (blanket, not per-lead-source)
   const roa = (d.roa_by_month || {})[month] || {};
@@ -872,7 +872,7 @@ function render(d, month) {
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(gSpend)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(ppcLeads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${gCPC != null ? fmt2(gCPC) : '—'}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${gCPC != null ? '$'+gCPC : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${gCPL != null ? '$'+gCPL : '—'}</div></div>
       </div>
       <div class="campaign-list">
@@ -895,7 +895,7 @@ function render(d, month) {
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(mSpend)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(fbLeads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${mCPC != null ? fmt2(mCPC) : '—'}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${mCPC != null ? '$'+mCPC : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${mCPL != null ? '$'+mCPL : '—'}</div></div>
       </div>
       <div class="campaign-list">

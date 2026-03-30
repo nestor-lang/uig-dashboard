@@ -443,22 +443,33 @@
     letter-spacing: 0;
   }
 
-  /* ─── Rep scorecard ─── */
-  .rep-grid {
+  /* ─── Agent Performance ─── */
+  .ap-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
     margin-top: 0;
   }
-  .rep-header {
+  .ap-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem 1.25rem 1rem;
+  }
+  .ap-header {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
     margin-bottom: 14px;
     padding-bottom: 12px;
     border-bottom: 0.5px solid var(--border);
   }
-  .rep-avatar {
+  .ap-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ap-avatar {
     width: 34px;
     height: 34px;
     border-radius: 50%;
@@ -469,51 +480,146 @@
     font-weight: 700;
     flex-shrink: 0;
   }
-  .rep-name {
+  .ap-name {
     font-family: 'Syne', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .ap-badge {
+    font-size: 10px;
     font-weight: 600;
-    color: var(--text);
+    padding: 3px 9px;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
   }
-  .rep-stat-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 0;
-    border-bottom: 0.5px solid var(--border);
-    font-size: 12px;
+  .ap-badge.strong { background: rgba(22,163,74,0.12); color: var(--green); }
+  .ap-badge.watch  { background: rgba(217,119,6,0.12);  color: var(--amber); }
+  .ap-kpi-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
   }
-  .rep-stat-row:last-child { border-bottom: none; }
-  .rep-stat-key { color: var(--muted); }
-  .rep-stat-val {
+  .ap-kpi-box {
+    background: var(--surface2);
+    border-radius: 8px;
+    padding: 10px 10px 8px;
+  }
+  .ap-kpi-label {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .ap-kpi-val {
     font-family: 'DM Mono', monospace;
+    font-size: 22px;
+    font-weight: 500;
     color: var(--text);
   }
-  .rep-funnel-label {
+  .ap-kpi-val.blue  { color: var(--blue); }
+  .ap-kpi-val.amber { color: var(--amber); }
+  .ap-funnel-label {
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--faint);
-    margin: 14px 0 8px;
+    margin-bottom: 10px;
   }
-  .rep-funnel .funnel-row { margin-bottom: 8px; }
-  .rep-funnel .funnel-meta {
+  .ap-funnel { margin-bottom: 14px; }
+  .ap-funnel .funnel-row { margin-bottom: 10px; }
+  .ap-funnel .funnel-meta {
     display: flex;
     justify-content: space-between;
     font-size: 11px;
     color: var(--muted);
     margin-bottom: 4px;
   }
-  .rep-funnel .funnel-track {
-    height: 5px;
+  .ap-funnel .funnel-meta span:last-child {
+    font-family: 'DM Mono', monospace;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .ap-funnel .funnel-track {
+    height: 6px;
     background: var(--surface2);
     border-radius: 3px;
     overflow: hidden;
   }
-  .rep-funnel .funnel-fill {
+  .ap-funnel .funnel-fill {
     height: 100%;
     border-radius: 3px;
-    background: var(--green);
+  }
+  .ap-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding-top: 12px;
+    border-top: 0.5px solid var(--border);
+  }
+  .ap-footer-item {}
+  .ap-footer-label { font-size: 10px; color: var(--muted); margin-bottom: 3px; }
+  .ap-footer-val {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+  }
+  /* Head-to-Head */
+  .h2h-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem 1.25rem;
+    margin-top: 12px;
+  }
+  .h2h-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 16px;
+  }
+  .h2h-row { margin-bottom: 14px; }
+  .h2h-row:last-child { margin-bottom: 0; }
+  .h2h-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .h2h-meta span:last-child {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+  }
+  .h2h-bars { display: flex; flex-direction: column; gap: 3px; }
+  .h2h-bar-row { display: flex; align-items: center; gap: 6px; }
+  .h2h-bar-track {
+    flex: 1;
+    height: 6px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .h2h-bar-fill { height: 100%; border-radius: 3px; }
+  .h2h-legend {
+    display: flex;
+    gap: 16px;
+    margin-top: 14px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .h2h-dot {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 2px;
+    margin-right: 4px;
+    vertical-align: middle;
   }
 
   /* ─── Agent Scorecard ─── */
@@ -604,7 +710,7 @@
     .channels { grid-template-columns: 1fr; }
     .source-grid { grid-template-columns: repeat(2, 1fr); }
     .two-col-grid { grid-template-columns: 1fr; }
-    .rep-grid { grid-template-columns: 1fr; }
+    .ap-grid { grid-template-columns: 1fr; }
     .agent-scorecard-grid { grid-template-columns: 1fr; }
     .roas-cards-row { grid-template-columns: 1fr; }
   }
@@ -976,33 +1082,15 @@ function render(d) {
   </div>
 
   <!-- ============================================================ -->
-  <!-- SECTION C: REP SCORECARD -->
+  <!-- SECTION C: AGENT PERFORMANCE -->
   <!-- ============================================================ -->
   <div class="section-label" style="margin-top: 2rem;">
-    Rep scorecard
-    <span class="section-source">KPI Master · All Channels</span>
+    Agent performance
+    <span class="section-source">Current pipeline · All channels</span>
   </div>
 
-  <div class="rep-grid">
-    <div class="panel-card rep-card" id="rep-julian">
-      <div class="rep-header">
-        <div class="rep-avatar" style="background:var(--blue-dim); color:var(--blue);">JU</div>
-        <div class="rep-name">Julian</div>
-      </div>
-      <div class="rep-stats" id="rep-julian-stats"></div>
-      <div class="rep-funnel-label">Conversion funnel</div>
-      <div class="rep-funnel" id="rep-julian-funnel"></div>
-    </div>
-    <div class="panel-card rep-card" id="rep-charles">
-      <div class="rep-header">
-        <div class="rep-avatar" style="background:var(--green-dim); color:var(--green);">CH</div>
-        <div class="rep-name">Charles</div>
-      </div>
-      <div class="rep-stats" id="rep-charles-stats"></div>
-      <div class="rep-funnel-label">Conversion funnel</div>
-      <div class="rep-funnel" id="rep-charles-funnel"></div>
-    </div>
-  </div>
+  <div class="ap-grid" id="ap-grid"></div>
+  <div class="h2h-card" id="h2h-card"></div>
 
   <!-- ============================================================ -->
   <!-- SECTION D: AGENT SCORECARD -->
@@ -1235,49 +1323,146 @@ async function showReport(month) {
 
 
 
-  // ── C: REP SCORECARD ──────────────────────────────────────────
+  // ── C: AGENT PERFORMANCE ──────────────────────────────────────
   const repData = (d.reps_by_month || {})[month] || {};
 
-  function buildRepCard(name, rep) {
-    const id = name.toLowerCase();
-    const pct = (a, b) => b > 0 ? (a/b*100).toFixed(1)+'%' : '—';
-    const stats = [
-      ['Leads',           rep.leads      || 0],
-      ['Active Opps',     rep.active     || 0],
-      ['Booked',          rep.booked     || 0],
-      ['Offers Made',     rep.offers     || 0],
-      ['Accepted',        rep.accepted   || 0],
-      ['Available',       rep.available  || 0],
-      ['Pending',         rep.pending    || 0],
-      ['Dead',            rep.dead       || 0],
-      ['Closed',          rep.closed     || 0],
-      ['Pending Income',  fmt(rep.pending_income  || 0)],
-      ['Closed Revenue',  fmt(rep.closed_revenue  || 0)],
-    ];
-    const funnels = [
-      { label: 'Booked → Offer',   pct: pct(rep.offers,   rep.booked),  raw: (rep.offers   || 0) / Math.max(rep.booked  || 1, 1) },
-      { label: 'Offer → Accepted', pct: pct(rep.accepted, rep.offers),  raw: (rep.accepted || 0) / Math.max(rep.offers  || 1, 1) },
-      { label: 'Accepted → Closed',pct: pct(rep.closed,   rep.accepted),raw: (rep.closed   || 0) / Math.max(rep.accepted|| 1, 1) },
-    ];
+  const agentCfg = [
+    { name: 'Julian',  initials: 'JU', bg: 'var(--blue-dim)',   fg: 'var(--blue)',   funnelColors: ['#2563eb','#d97706','#d97706'] },
+    { name: 'Charles', initials: 'CH', bg: 'var(--green-dim)',  fg: 'var(--green)',  funnelColors: ['#2563eb','#d97706','#d97706'] },
+  ];
 
-    const statsEl = document.getElementById(`rep-${id}-stats`);
-    if (statsEl) statsEl.innerHTML = stats.map(([k,v]) =>
-      `<div class="rep-stat-row"><span class="rep-stat-key">${k}</span><span class="rep-stat-val">${v}</span></div>`
-    ).join('');
-
-    const funnelEl = document.getElementById(`rep-${id}-funnel`);
-    if (funnelEl) funnelEl.innerHTML = funnels.map(f =>
-      `<div class="funnel-row">
-         <div class="funnel-meta"><span>${f.label}</span><span>${f.pct}</span></div>
-         <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min((f.raw||0)*100,100).toFixed(1)}%"></div></div>
-       </div>`
-    ).join('');
+  function apBadge(rep) {
+    const rate = rep.booked > 0 ? rep.offers / rep.booked : 0;
+    const acc  = rep.offers > 0 ? rep.accepted / rep.offers : 0;
+    if (rate >= 0.8 && acc >= 0.15) return '<span class="ap-badge strong">Strong</span>';
+    return '<span class="ap-badge watch">Watch</span>';
   }
 
-  ['Julian','Charles'].forEach(name => {
-    const rep = repData[name] || {};
-    buildRepCard(name, rep);
-  });
+  const apGrid = document.getElementById('ap-grid');
+  if (apGrid) {
+    apGrid.innerHTML = agentCfg.map(cfg => {
+      const rep = repData[cfg.name] || {};
+      const pct = (a, b) => b > 0 ? (a/b*100).toFixed(0)+'%' : '0%';
+      const pctRaw = (a, b) => b > 0 ? Math.min(a/b*100, 100) : 0;
+
+      const funnels = [
+        { label: 'Booked → Offer',    val: pct(rep.offers, rep.booked),    raw: pctRaw(rep.offers, rep.booked),    color: cfg.funnelColors[0] },
+        { label: 'Offer → Accepted',  val: pct(rep.accepted, rep.offers),  raw: pctRaw(rep.accepted, rep.offers),  color: cfg.funnelColors[1] },
+        { label: 'Accepted → Closed', val: pct(rep.closed, rep.accepted),  raw: pctRaw(rep.closed, rep.accepted),  color: cfg.funnelColors[2] },
+      ];
+
+      return `
+      <div class="ap-card">
+        <div class="ap-header">
+          <div class="ap-header-left">
+            <div class="ap-avatar" style="background:${cfg.bg};color:${cfg.fg};">${cfg.initials}</div>
+            <div class="ap-name">${cfg.name}</div>
+          </div>
+          ${apBadge(rep)}
+        </div>
+        <div class="ap-kpi-row">
+          <div class="ap-kpi-box">
+            <div class="ap-kpi-label">Discoveries</div>
+            <div class="ap-kpi-val">${rep.leads || 0}</div>
+          </div>
+          <div class="ap-kpi-box">
+            <div class="ap-kpi-label">Offers made</div>
+            <div class="ap-kpi-val blue">${rep.offers || 0}</div>
+          </div>
+          <div class="ap-kpi-box">
+            <div class="ap-kpi-label">Accepted</div>
+            <div class="ap-kpi-val amber">${rep.accepted || 0}</div>
+          </div>
+        </div>
+        <div class="ap-funnel-label">Conversion funnel</div>
+        <div class="ap-funnel">
+          ${funnels.map(f => `
+          <div class="funnel-row">
+            <div class="funnel-meta"><span>${f.label}</span><span>${f.val}</span></div>
+            <div class="funnel-track"><div class="funnel-fill" style="width:${f.raw.toFixed(1)}%;background:${f.color};"></div></div>
+          </div>`).join('')}
+        </div>
+        <div class="ap-footer">
+          <div class="ap-footer-item">
+            <div class="ap-footer-label">Active opps</div>
+            <div class="ap-footer-val">${rep.active || 0}</div>
+          </div>
+          <div class="ap-footer-item">
+            <div class="ap-footer-label">Available</div>
+            <div class="ap-footer-val">${rep.available || 0}</div>
+          </div>
+          <div class="ap-footer-item">
+            <div class="ap-footer-label">Pending income</div>
+            <div class="ap-footer-val">${fmt(rep.pending_income || 0)}</div>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Head-to-Head
+  const h2hCard = document.getElementById('h2h-card');
+  if (h2hCard) {
+    const jul = repData['Julian']  || {};
+    const cha = repData['Charles'] || {};
+
+    const maxLeads = Math.max(jul.leads  || 0, cha.leads  || 1);
+    const maxOff   = Math.max(jul.offers || 0, cha.offers || 1);
+    const maxAcc   = Math.max(jul.accepted || 0, cha.accepted || 1);
+
+    const julOffRate = jul.leads > 0 ? jul.offers / jul.leads : 0;
+    const chaOffRate = cha.leads > 0 ? cha.offers / cha.leads : 0;
+    const julAccRate = jul.offers > 0 ? jul.accepted / jul.offers : 0;
+    const chaAccRate = cha.offers > 0 ? cha.accepted / cha.offers : 0;
+    const maxOffRate = Math.max(julOffRate, chaOffRate, 0.001);
+    const maxAccRate = Math.max(julAccRate, chaAccRate, 0.001);
+
+    const h2hRows = [
+      {
+        label: 'Offers made per discovery',
+        julVal: julOffRate.toFixed(2),
+        chaVal: chaOffRate.toFixed(2),
+        julW: (julOffRate / maxOffRate * 100).toFixed(1),
+        chaW: (chaOffRate / maxOffRate * 100).toFixed(1),
+      },
+      {
+        label: 'Offer → accepted rate',
+        julVal: (julAccRate * 100).toFixed(0) + '%',
+        chaVal: (chaAccRate * 100).toFixed(0) + '%',
+        julW: (julAccRate / maxAccRate * 100).toFixed(1),
+        chaW: (chaAccRate / maxAccRate * 100).toFixed(1),
+      },
+      {
+        label: 'Accepted deals',
+        julVal: jul.accepted || 0,
+        chaVal: cha.accepted || 0,
+        julW: ((jul.accepted || 0) / Math.max(jul.accepted || 0, cha.accepted || 1) * 100).toFixed(1),
+        chaW: ((cha.accepted || 0) / Math.max(jul.accepted || 0, cha.accepted || 1) * 100).toFixed(1),
+      },
+    ];
+
+    h2hCard.innerHTML = `
+      <div class="h2h-title">Head-to-head · Same period, all channels</div>
+      ${h2hRows.map(r => `
+      <div class="h2h-row">
+        <div class="h2h-meta">
+          <span>${r.label}</span>
+          <span>Julian ${r.julVal} · Charles ${r.chaVal}</span>
+        </div>
+        <div class="h2h-bars">
+          <div class="h2h-bar-row">
+            <div class="h2h-bar-track"><div class="h2h-bar-fill" style="width:${r.julW}%;background:#2563eb;"></div></div>
+          </div>
+          <div class="h2h-bar-row">
+            <div class="h2h-bar-track"><div class="h2h-bar-fill" style="width:${r.chaW}%;background:#16a34a;"></div></div>
+          </div>
+        </div>
+      </div>`).join('')}
+      <div class="h2h-legend">
+        <span><span class="h2h-dot" style="background:#2563eb;"></span>Julian</span>
+        <span><span class="h2h-dot" style="background:#16a34a;"></span>Charles</span>
+      </div>`;
+  }
 
   // ── D: AGENT SCORECARD ──────────────────────────────────────────
 

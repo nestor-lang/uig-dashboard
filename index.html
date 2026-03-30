@@ -802,11 +802,11 @@ function render(d, month) {
   const m = d.meta;
   const p = d.pipeline;
   const s = d.sources;
+
+  // Use month-specific channel data when available — must be defined before fb/ppc
+  const ch = (d.channel_by_month || {})[month] || {};
   const fb  = ch.pipeline_fb  || d.pipeline_fb  || {};
   const ppc = ch.pipeline_ppc || d.pipeline_ppc || {};
-
-  // Use month-specific channel data when available
-  const ch = (d.channel_by_month || {})[month] || {};
   const isHistorical = month && month !== (Object.keys(d.channel_by_month || {}).sort().reverse()[0]);
   const gSpend    = ch.google_spend  != null ? ch.google_spend  : (g.spend_mtd  || 0);
   const mSpend    = ch.meta_spend    != null ? ch.meta_spend    : (m.spend_30d  || 0);

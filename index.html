@@ -1090,7 +1090,7 @@ function render(d) {
   </div>
 
   <div class="ap-grid" id="ap-grid"></div>
-  <div class="h2h-card" id="h2h-card"></div>
+
 
   <!-- ============================================================ -->
 
@@ -1325,8 +1325,8 @@ async function showReport(month) {
   ];
 
   function apBadge(rep) {
-    const closeRate = rep.accepted > 0 ? rep.closed / rep.accepted : 0;
-    if (closeRate >= 0.2) return '<span class="ap-badge strong">Strong</span>';
+    const closeRate = rep.offers > 0 ? rep.closed / rep.offers : 0;
+    if (closeRate >= 0.15) return '<span class="ap-badge strong">Strong</span>';
     return '<span class="ap-badge watch">Watch</span>';
   }
 
@@ -1334,8 +1334,7 @@ async function showReport(month) {
   if (apGrid) {
     apGrid.innerHTML = agentCfg.map(cfg => {
       const rep = repData[cfg.name] || {};
-      const closeRate = rep.accepted > 0 ? (rep.closed / rep.accepted * 100).toFixed(0) + '%' : '—';
-      const closeRaw  = rep.accepted > 0 ? Math.min(rep.closed / rep.accepted * 100, 100) : 0;
+      const closeRate = rep.offers > 0 ? (rep.closed / rep.offers * 100).toFixed(1) + '%' : '—';
 
       return `
       <div class="ap-card">
@@ -1360,12 +1359,10 @@ async function showReport(month) {
             <div class="ap-kpi-val amber">${rep.accepted || 0}</div>
           </div>
         </div>
-        <div class="ap-funnel-label">Close rate</div>
-        <div class="ap-funnel" style="margin-bottom:16px;">
-          <div class="funnel-row">
-            <div class="funnel-meta"><span>Accepted → Closed</span><span>${closeRate}</span></div>
-            <div class="funnel-track"><div class="funnel-fill" style="width:${closeRaw.toFixed(1)}%;background:${cfg.fg};"></div></div>
-          </div>
+        <div style="text-align:center;padding:14px 0 16px;border-top:0.5px solid var(--border);border-bottom:0.5px solid var(--border);margin-bottom:14px;">
+          <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:6px;">Close rate</div>
+          <div style="font-family:'DM Mono',monospace;font-size:36px;font-weight:500;color:${cfg.fg};">${closeRate}</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:4px;">offers made → closed</div>
         </div>
         <div class="ap-footer">
           <div class="ap-footer-item">
@@ -1381,71 +1378,7 @@ async function showReport(month) {
     }).join('');
   }
 
-  // Head-to-Head
-  const h2hCard = document.getElementById('h2h-card');
-  if (h2hCard) {
-    const jul = repData['Julian']  || {};
-    const cha = repData['Charles'] || {};
 
-    const julCloseRate = jul.accepted > 0 ? jul.closed / jul.accepted : 0;
-    const chaCloseRate = cha.accepted > 0 ? cha.closed / cha.accepted : 0;
-    const julAccRate   = jul.offers   > 0 ? jul.accepted / jul.offers : 0;
-    const chaAccRate   = cha.offers   > 0 ? cha.accepted / cha.offers : 0;
-    const julOffRate   = jul.leads    > 0 ? jul.offers / jul.leads : 0;
-    const chaOffRate   = cha.leads    > 0 ? cha.offers / cha.leads : 0;
-
-    function h2hBar(label, julVal, chaVal, julDisp, chaDisp) {
-      const maxV = Math.max(julVal, chaVal, 0.001);
-      const julW = (julVal / maxV * 100).toFixed(1);
-      const chaW = (chaVal / maxV * 100).toFixed(1);
-      return `
-      <div class="h2h-row">
-        <div style="font-size:11px;color:var(--muted);margin-bottom:8px;">${label}</div>
-        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-          <span style="font-size:11px;font-family:'DM Mono',monospace;width:28px;color:var(--muted);">JU</span>
-          <div class="h2h-bar-track" style="flex:1;"><div class="h2h-bar-fill" style="width:${julW}%;background:#2563eb;"></div></div>
-          <span style="font-size:11px;font-family:'DM Mono',monospace;width:44px;text-align:right;color:var(--text);">${julDisp}</span>
-        </div>
-        <div style="display:flex;align-items:center;gap:8px;">
-          <span style="font-size:11px;font-family:'DM Mono',monospace;width:28px;color:var(--muted);">CH</span>
-          <div class="h2h-bar-track" style="flex:1;"><div class="h2h-bar-fill" style="width:${chaW}%;background:#16a34a;"></div></div>
-          <span style="font-size:11px;font-family:'DM Mono',monospace;width:44px;text-align:right;color:var(--text);">${chaDisp}</span>
-        </div>
-      </div>`;
-    }
-
-    h2hCard.innerHTML = `
-      <div class="h2h-title">Head-to-head · Same period, all channels</div>
-      ${h2hBar('Offer rate (offers per discovery)', julOffRate, chaOffRate, julOffRate.toFixed(2), chaOffRate.toFixed(2))}
-      ${h2hBar('Accept rate (accepted / offered)', julAccRate, chaAccRate, (julAccRate*100).toFixed(0)+'%', (chaAccRate*100).toFixed(0)+'%')}
-      ${h2hBar('Close rate (closed / accepted)', julCloseRate, chaCloseRate, (julCloseRate*100).toFixed(0)+'%', (chaCloseRate*100).toFixed(0)+'%')}
-      ${h2hBar('Accepted deals', jul.accepted||0, cha.accepted||0, jul.accepted||0, cha.accepted||0)}
-    `;
-  }
-
-  // dummy placeholder to satisfy old reference
-  const _h2h_dummy = { h2hRows: [], h2hCard2: null };
-  if (false) {
-    const h2hCard = document.getElementById('h2h-card');
-    const h2hRows = [];
-    h2hCard.innerHTML = `
-      <div class="h2h-title">Head-to-head · Same period, all channels</div>
-      ${h2hRows.map(r => `
-      <div class="h2h-row">
-        <div class="h2h-meta">
-          <span>${r.label}</span>
-          <span>Julian ${r.julVal} · Charles ${r.chaVal}</span>
-        </div>
-        <div class="h2h-bars">
-          <div class="h2h-bar-row">
-            <div class="h2h-bar-track"><div class="h2h-bar-fill" style="width:${r.julW}%;background:#2563eb;"></div></div>
-          </div>
-          <div class="h2h-bar-row">
-            <div class="h2h-bar-track"><div class="h2h-bar-fill" style="width:${r.chaW}%;background:#16a34a;"></div></div>
-          </div>
-        </div>
-      </div>`).join('')}`;
-  } // end dummy if
 
 
 

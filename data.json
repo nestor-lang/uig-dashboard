@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 17:00 AST",
+  "last_updated": "2026-03-30 17:03 AST",
   "google": {
     "spend_mtd": 3342.63,
     "clicks_mtd": 504,
@@ -33,7 +33,7 @@
     ]
   },
   "meta": {
-    "spend_30d": 2453.83,
+    "spend_30d": 2453.84,
     "clicks_30d": 1256,
     "crm_leads": 30,
     "cpc": 1.95,
@@ -58,8 +58,8 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1369.8,
-        "spend_today": 102.63,
+        "spend": 1369.81,
+        "spend_today": 102.64,
         "clicks": 669,
         "crm_leads": 0,
         "cpl_crm": null
@@ -192,7 +192,27 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16200.51
+    "2026-03": 16200.52
+  },
+  "channel_by_month": {
+    "2026-01": {
+      "google_spend": 0,
+      "meta_spend": 0,
+      "ppc_leads": 0,
+      "fb_leads": 0
+    },
+    "2026-02": {
+      "google_spend": 0,
+      "meta_spend": 1731.32,
+      "ppc_leads": 0,
+      "fb_leads": 17
+    },
+    "2026-03": {
+      "google_spend": 3342.63,
+      "meta_spend": 2453.84,
+      "ppc_leads": 13,
+      "fb_leads": 30
+    }
   },
   "pipeline": {
     "new_leads_30d": 43,

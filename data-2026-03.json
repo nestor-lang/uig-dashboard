@@ -1,12 +1,12 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 13:00 AST",
+  "last_updated": "2026-03-30 14:00 AST",
   "google": {
-    "spend_mtd": 3286.52,
-    "clicks_mtd": 501,
+    "spend_mtd": 3309.49,
+    "clicks_mtd": 502,
     "crm_leads": 13,
-    "cpc": 6.56,
-    "cpl": 252.81,
+    "cpc": 6.59,
+    "cpl": 254.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -19,26 +19,26 @@
         "clicks": 446,
         "cpc": 0.7,
         "crm_leads": 0,
-        "cpl": 252.81
+        "cpl": 254.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2974.53,
-        "spend_today": 97.1,
-        "clicks": 55,
-        "cpc": 54.08,
+        "spend": 2997.5,
+        "spend_today": 120.07,
+        "clicks": 56,
+        "cpc": 53.53,
         "crm_leads": 0,
-        "cpl": 252.81
+        "cpl": 254.58
       }
     ]
   },
   "meta": {
-    "spend_30d": 2429.15,
-    "clicks_30d": 1239,
+    "spend_30d": 2436.76,
+    "clicks_30d": 1244,
     "crm_leads": 30,
     "cpc": 1.96,
-    "cpl_crm": 80.97,
-    "cost_per_hot": 485.83,
+    "cpl_crm": 81.23,
+    "cost_per_hot": 406.13,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,9 +58,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1345.12,
-        "spend_today": 77.95,
-        "clicks": 652,
+        "spend": 1352.73,
+        "spend_today": 85.56,
+        "clicks": 657,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -101,7 +101,7 @@
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 25005.42
+      "spend": 26554.35
     }
   },
   "reps_by_month": {
@@ -163,9 +163,9 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 16,
-        "active": 11,
-        "booked": 12,
+        "leads": 17,
+        "active": 12,
+        "booked": 13,
         "offers": 10,
         "accepted": 1,
         "available": 1,
@@ -193,12 +193,12 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16119.72
+    "2026-03": 16150.3
   },
   "pipeline": {
     "new_leads_30d": 43,
-    "hot": 7,
-    "booked": 16,
+    "hot": 8,
+    "booked": 17,
     "offers": 15,
     "under_contract": 1,
     "closed": 0
@@ -206,7 +206,7 @@
   "pipeline_fb": {
     "leads": 30,
     "active": 22,
-    "booked": 12,
+    "booked": 13,
     "offered": 11,
     "accepted": 0,
     "under_contract": 0,
@@ -227,6 +227,12 @@
     "ppc_inbound_call": 6
   },
   "hot_leads": [
+    {
+      "name": "100 Winslow Ct",
+      "address": "100 Winslow Ct, McDonough, GA 30253, USA",
+      "phone": "(404) 279-2420",
+      "source": "Facebook"
+    },
     {
       "name": "1010 6th Ave S",
       "address": "1010 6th Ave S, Jasper, AL 35501, USA",
@@ -250,20 +256,7 @@
       "address": "1103 Ontario Ave, Niagara Falls, NY 14305, USA",
       "phone": "(716) 325-5207",
       "source": "Facebook"
-    },
-    {
-      "name": "530 Valley St",
-      "address": "530 Valley St, Morristown, TN 37813, USA",
-      "phone": "+12568626787",
-      "source": "Facebook"
     }
   ],
-  "sms_status": "SMS data via Podio.",
-  "scorecard": {
-    "period": "January – March 2026",
-    "agents": [
-      { "id": "julian",  "name": "Julian",  "initials": "JU", "qualified": 42, "offered": 28, "contract": 6 },
-      { "id": "charles", "name": "Charles", "initials": "CH", "qualified": 38, "offered": 17, "contract": 2 }
-    ]
-  }
+  "sms_status": "SMS data via Podio."
 }

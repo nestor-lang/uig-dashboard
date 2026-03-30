@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 14:37 AST",
+  "last_updated": "2026-03-30 14:39 AST",
   "google": {
     "spend_mtd": 3309.49,
     "clicks_mtd": 502,
@@ -196,7 +196,7 @@
   },
   "pipeline": {
     "new_leads_30d": 43,
-    "hot": 8,
+    "hot": 6,
     "booked": 17,
     "offers": 15,
     "under_contract": 1,
@@ -257,5 +257,5 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "SMS data via Podio."
+  "sms_status": "\u26a0\ufe0f SMS data unavailable: Expecting property name enclosed in double quotes: line 1 column 4785818 (char 4785817)"
 }

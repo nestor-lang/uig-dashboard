@@ -821,9 +821,7 @@ function render(d, month) {
   const gCPC = ch.google_cpc != null ? ch.google_cpc : (isCurrent ? g.cpc : null);
   const mCPC = ch.meta_cpc   != null ? ch.meta_cpc   : (isCurrent ? m.cpc : null);
 
-  // Total closed revenue for the selected month (blanket, not per-lead-source)
-  const roa = (d.roa_by_month || {})[month] || {};
-  const monthClosedRevenue = roa.closed || 0;
+  // (monthClosedRevenue is computed in showReport scope and injected into agent cards)
 
   return `
   <div class="header">
@@ -1152,6 +1150,9 @@ async function showReport(month) {
   const reps = kpi.reps       || {};
   const jul  = reps.Julian    || {};
   const cha  = reps.Charles   || {};
+
+  // Month-level closed revenue (all channels, blanket)
+  const monthClosedRevenue = ((d.roa_by_month || {})[month] || {}).closed || 0;
 
   // ── HELPERS ──────────────────────────────────────────────────
   const kfmt  = v => v != null ? '$' + Math.round(v).toLocaleString() : '—';

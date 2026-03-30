@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 12:00 AST",
+  "last_updated": "2026-03-30 13:00 AST",
   "google": {
     "spend_mtd": 3286.52,
     "clicks_mtd": 501,
@@ -33,12 +33,12 @@
     ]
   },
   "meta": {
-    "spend_30d": 2411.67,
-    "clicks_30d": 1236,
+    "spend_30d": 2429.15,
+    "clicks_30d": 1239,
     "crm_leads": 30,
-    "cpc": 1.95,
-    "cpl_crm": 80.39,
-    "cost_per_hot": 482.33,
+    "cpc": 1.96,
+    "cpl_crm": 80.97,
+    "cost_per_hot": 485.83,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,22 +58,22 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1327.64,
-        "spend_today": 60.51,
-        "clicks": 649,
+        "spend": 1345.12,
+        "spend_today": 77.95,
+        "clicks": 652,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 464443,
+  "potential_income": 414553,
   "assigned_income": 182487,
   "by_stage": {
     "On Market": 128487,
     "Initial Inspection Completed": 119499,
-    "Market Prep / Pre-Listing Marketing": 101359,
     "New Deal - Unscheduled": 59549,
-    "Access Scheduled": 55549
+    "Access Scheduled": 55549,
+    "Market Prep / Pre-Listing Marketing": 51469
   },
   "by_agent": {
     "Virginia": 81310,
@@ -89,19 +89,19 @@
   },
   "roa_by_month": {
     "2026-01": {
-      "closed": 192900.0,
-      "pending": 135300.0,
+      "closed": 236456.0,
+      "pending": 122128.0,
       "spend": 29966.0
     },
     "2026-02": {
       "closed": 0.0,
-      "pending": 107000.0,
+      "pending": 85320.0,
       "spend": 51022.56
     },
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 24973.07
+      "spend": 25005.42
     }
   },
   "reps_by_month": {
@@ -116,7 +116,7 @@
         "pending": 1,
         "dead": 0,
         "closed": 0,
-        "pending_income": 26250.0,
+        "pending_income": 20450.0,
         "closed_revenue": 0.0
       },
       "Julian": {
@@ -124,13 +124,13 @@
         "active": 0,
         "booked": 25,
         "offers": 24,
-        "accepted": 10,
+        "accepted": 12,
         "available": 3,
         "pending": 2,
-        "dead": 0,
+        "dead": 2,
         "closed": 5,
-        "pending_income": 41400.0,
-        "closed_revenue": 96450.0
+        "pending_income": 40614.0,
+        "closed_revenue": 118228.0
       }
     },
     "2026-02": {
@@ -144,7 +144,7 @@
         "pending": 1,
         "dead": 0,
         "closed": 0,
-        "pending_income": 53500.0,
+        "pending_income": 42660.0,
         "closed_revenue": 0.0
       },
       "Julian": {
@@ -152,10 +152,10 @@
         "active": 3,
         "booked": 21,
         "offers": 14,
-        "accepted": 1,
+        "accepted": 3,
         "available": 1,
         "pending": 0,
-        "dead": 0,
+        "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0
@@ -176,8 +176,8 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 16,
-        "active": 11,
+        "leads": 17,
+        "active": 12,
         "booked": 20,
         "offers": 20,
         "accepted": 4,
@@ -193,11 +193,11 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16102.24
+    "2026-03": 16119.72
   },
   "pipeline": {
     "new_leads_30d": 43,
-    "hot": 5,
+    "hot": 7,
     "booked": 16,
     "offers": 15,
     "under_contract": 1,
@@ -258,5 +258,5 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "\u26a0\ufe0f SMS data unavailable: Invalid \\escape: line 1 column 10622505 (char 10622504)"
+  "sms_status": "SMS data via Podio."
 }

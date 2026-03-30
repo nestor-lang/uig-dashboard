@@ -1325,7 +1325,7 @@ async function showReport(month) {
   ];
 
   function apBadge(rep) {
-    const closeRate = rep.offers > 0 ? rep.closed / rep.offers : 0;
+    const closeRate = rep.offers > 0 ? rep.accepted / rep.offers : 0;
     if (closeRate >= 0.15) return '<span class="ap-badge strong">Strong</span>';
     return '<span class="ap-badge watch">Watch</span>';
   }
@@ -1334,7 +1334,7 @@ async function showReport(month) {
   if (apGrid) {
     apGrid.innerHTML = agentCfg.map(cfg => {
       const rep = repData[cfg.name] || {};
-      const closeRate = rep.offers > 0 ? (rep.closed / rep.offers * 100).toFixed(1) + '%' : '—';
+      const closeRate = rep.offers > 0 ? (rep.accepted / rep.offers * 100).toFixed(1) + '%' : '—';
 
       return `
       <div class="ap-card">
@@ -1362,7 +1362,7 @@ async function showReport(month) {
         <div style="text-align:center;padding:14px 0 16px;border-top:0.5px solid var(--border);border-bottom:0.5px solid var(--border);margin-bottom:14px;">
           <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:6px;">Close rate</div>
           <div style="font-family:'DM Mono',monospace;font-size:36px;font-weight:500;color:${cfg.fg};">${closeRate}</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:4px;">offers made → closed</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:4px;">offers made → accepted</div>
         </div>
         <div class="ap-footer">
           <div class="ap-footer-item">

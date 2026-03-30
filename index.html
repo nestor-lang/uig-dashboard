@@ -797,16 +797,26 @@ function renderHotLeads(leads) {
   `).join('');
 }
 
-function render(d) {
+function render(d, month) {
   const g = d.google;
   const m = d.meta;
   const p = d.pipeline;
   const s = d.sources;
   const fb  = d.pipeline_fb  || {};
   const ppc = d.pipeline_ppc || {};
-  const totalSpend = (g.spend_mtd || 0) + (m.spend_30d || 0);
-  const totalLeads = (p.new_leads_30d || 0);
+
+  // Use month-specific channel data when available
+  const ch = (d.channel_by_month || {})[month] || {};
+  const isHistorical = month && month !== (Object.keys(d.channel_by_month || {}).sort().reverse()[0]);
+  const gSpend    = ch.google_spend  != null ? ch.google_spend  : (g.spend_mtd  || 0);
+  const mSpend    = ch.meta_spend    != null ? ch.meta_spend    : (m.spend_30d  || 0);
+  const ppcLeads  = ch.ppc_leads     != null ? ch.ppc_leads     : (g.crm_leads  || 0);
+  const fbLeads   = ch.fb_leads      != null ? ch.fb_leads      : (m.crm_leads  || 0);
+  const totalSpend = gSpend + mSpend;
+  const totalLeads = ppcLeads + fbLeads;
   const blendedCPL = totalLeads ? Math.round(totalSpend / totalLeads) : null;
+  const gCPL = ppcLeads ? Math.round(gSpend / ppcLeads) : null;
+  const mCPL = fbLeads  ? Math.round(mSpend / fbLeads)  : null;
 
   return `
   <div class="header">
@@ -854,10 +864,10 @@ function render(d) {
         <div class="channel-badge badge-google">PPC</div>
       </div>
       <div class="ch-kpis">
-        <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(g.spend_mtd)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(g.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(gSpend)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(ppcLeads)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${fmt2(g.cpc)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt2(g.cpl)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${gCPL != null ? '$'+gCPL : '—'}</div></div>
       </div>
       <div class="campaign-list">
         ${(g.campaigns || []).map(c => `
@@ -877,10 +887,10 @@ function render(d) {
         <div class="channel-badge badge-meta">Facebook</div>
       </div>
       <div class="ch-kpis">
-        <div class="ch-kpi"><div class="ch-kpi-label">Spend (MTD)</div><div class="ch-kpi-val">${fmt(m.spend_30d)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(m.crm_leads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(mSpend)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(fbLeads)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${fmt2(m.cpc)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${fmt2(m.cpl_crm)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${mCPL != null ? '$'+mCPL : '—'}</div></div>
       </div>
       <div class="campaign-list">
         ${(m.campaigns || []).map(c => `
@@ -1113,7 +1123,7 @@ async function showReport(month) {
     app.innerHTML = `<div class="loading">⚠ could not load data — check file path</div>`;
     return;
   }
-  app.innerHTML = render(d);
+  app.innerHTML = render(d, month);
 
   // Populate month picker after render — no "Current" option, just months
   const picker = document.getElementById('monthPicker');

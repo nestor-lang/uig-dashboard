@@ -516,6 +516,85 @@
     background: var(--green);
   }
 
+  /* ─── Agent Scorecard ─── */
+  .agent-scorecard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 0;
+  }
+  .agent-sc-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+  }
+  .agent-sc-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .agent-sc-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .agent-sc-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .agent-sc-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 0.5px solid var(--border);
+    font-size: 12px;
+  }
+  .agent-sc-row:last-child { border-bottom: none; }
+  .agent-sc-key { color: var(--muted); }
+  .agent-sc-val {
+    font-family: 'DM Mono', monospace;
+    color: var(--text);
+  }
+  .agent-sc-funnel-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 14px 0 8px;
+  }
+  .agent-sc-funnel .funnel-row { margin-bottom: 8px; }
+  .agent-sc-funnel .funnel-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .agent-sc-funnel .funnel-track {
+    height: 5px;
+    background: var(--surface2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .agent-sc-funnel .funnel-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: var(--purple);
+  }
+
   /* ─── KPI accent overrides for new sections ─── */
   .kpi-card.accent-blue { border-color: rgba(37,99,235,0.25); background: linear-gradient(135deg, var(--blue-dim), var(--surface)); }
   .kpi-card.accent-blue .kpi-val { color: var(--blue); }
@@ -526,6 +605,7 @@
     .source-grid { grid-template-columns: repeat(2, 1fr); }
     .two-col-grid { grid-template-columns: 1fr; }
     .rep-grid { grid-template-columns: 1fr; }
+    .agent-scorecard-grid { grid-template-columns: 1fr; }
     .roas-cards-row { grid-template-columns: 1fr; }
   }
 </style>
@@ -924,6 +1004,16 @@ function render(d) {
     </div>
   </div>
 
+  <!-- ============================================================ -->
+  <!-- SECTION D: AGENT SCORECARD -->
+  <!-- ============================================================ -->
+  <div class="section-label" style="margin-top: 2rem;">
+    Agent scorecard
+    <span class="section-source">Scorecard · ${d.scorecard?.period || '—'}</span>
+  </div>
+
+  <div class="agent-scorecard-grid" id="agent-scorecard-grid"></div>
+
   `;
 }
 
@@ -1188,6 +1278,52 @@ async function showReport(month) {
     const rep = repData[name] || {};
     buildRepCard(name, rep);
   });
+
+  // ── D: AGENT SCORECARD ──────────────────────────────────────────
+
+  const scorecard = d.scorecard || {};
+  const scAgents  = scorecard.agents || [];
+  const scColors  = [
+    { bg: 'var(--purple-dim)', fg: 'var(--purple)' },
+    { bg: 'var(--green-dim)',  fg: 'var(--green)'  },
+    { bg: 'var(--blue-dim)',   fg: 'var(--blue)'   },
+    { bg: 'var(--amber-dim)',  fg: 'var(--amber)'  },
+  ];
+
+  const scGrid = document.getElementById('agent-scorecard-grid');
+  if (scGrid) {
+    scGrid.innerHTML = scAgents.map((agent, i) => {
+      const c = scColors[i % scColors.length];
+      const q = agent.qualified ?? 0;
+      const o = agent.offered   ?? 0;
+      const k = agent.contract  ?? 0;
+      const q2o = q > 0 ? (o / q * 100).toFixed(1) + '%' : '—';
+      const o2k = o > 0 ? (k / o * 100).toFixed(1) + '%' : '—';
+      const q2oRaw = q > 0 ? o / q : 0;
+      const o2kRaw = o > 0 ? k / o : 0;
+      return `
+      <div class="agent-sc-card">
+        <div class="agent-sc-header">
+          <div class="agent-sc-avatar" style="background:${c.bg}; color:${c.fg};">${agent.initials || '??'}</div>
+          <div class="agent-sc-name">${agent.name || 'Agent'}</div>
+        </div>
+        <div class="agent-sc-row"><span class="agent-sc-key">Qualified leads</span><span class="agent-sc-val">${q}</span></div>
+        <div class="agent-sc-row"><span class="agent-sc-key">Offers made</span><span class="agent-sc-val">${o}</span></div>
+        <div class="agent-sc-row"><span class="agent-sc-key">Under contract</span><span class="agent-sc-val">${k}</span></div>
+        <div class="agent-sc-funnel-label">Conversion funnel</div>
+        <div class="agent-sc-funnel">
+          <div class="funnel-row">
+            <div class="funnel-meta"><span>Qualified → Offered</span><span>${q2o}</span></div>
+            <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min(q2oRaw*100,100).toFixed(1)}%;background:${c.fg}"></div></div>
+          </div>
+          <div class="funnel-row">
+            <div class="funnel-meta"><span>Offered → Contract</span><span>${o2k}</span></div>
+            <div class="funnel-track"><div class="funnel-fill" style="width:${Math.min(o2kRaw*100,100).toFixed(1)}%;background:${c.fg}"></div></div>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+  }
 
   // ── END NEW SECTIONS ──────────────────────────────────────────
   } catch(e) { console.error('KPI section error:', e); }

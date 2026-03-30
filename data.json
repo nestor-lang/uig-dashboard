@@ -258,5 +258,12 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "SMS data via Podio."
+  "sms_status": "SMS data via Podio.",
+  "scorecard": {
+    "period": "January – March 2026",
+    "agents": [
+      { "id": "julian",  "name": "Julian",  "initials": "JU", "qualified": 42, "offered": 28, "contract": 6 },
+      { "id": "charles", "name": "Charles", "initials": "CH", "qualified": 38, "offered": 17, "contract": 2 }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 14:39 AST",
+  "last_updated": "2026-03-30 14:40 AST",
   "google": {
     "spend_mtd": 3309.49,
     "clicks_mtd": 502,
@@ -33,7 +33,7 @@
     ]
   },
   "meta": {
-    "spend_30d": 2441.13,
+    "spend_30d": 2441.14,
     "clicks_30d": 1246,
     "crm_leads": 30,
     "cpc": 1.96,
@@ -58,8 +58,8 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1357.1,
-        "spend_today": 89.93,
+        "spend": 1357.11,
+        "spend_today": 89.94,
         "clicks": 659,
         "crm_leads": 0,
         "cpl_crm": null
@@ -106,7 +106,7 @@
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 0,
+        "leads": 15,
         "active": 0,
         "booked": 7,
         "offers": 5,
@@ -119,7 +119,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 0,
+        "leads": 36,
         "active": 0,
         "booked": 25,
         "offers": 24,
@@ -134,7 +134,7 @@
     },
     "2026-02": {
       "Charles": {
-        "leads": 11,
+        "leads": 14,
         "active": 5,
         "booked": 16,
         "offers": 14,
@@ -147,7 +147,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 5,
+        "leads": 35,
         "active": 3,
         "booked": 21,
         "offers": 14,
@@ -162,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 17,
+        "leads": 29,
         "active": 12,
         "booked": 13,
         "offers": 10,
@@ -175,7 +175,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 17,
+        "leads": 38,
         "active": 12,
         "booked": 20,
         "offers": 20,
@@ -192,11 +192,11 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16154.67
+    "2026-03": 16154.68
   },
   "pipeline": {
     "new_leads_30d": 43,
-    "hot": 6,
+    "hot": 8,
     "booked": 17,
     "offers": 15,
     "under_contract": 1,
@@ -257,5 +257,5 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "\u26a0\ufe0f SMS data unavailable: Expecting property name enclosed in double quotes: line 1 column 4785818 (char 4785817)"
+  "sms_status": "SMS data via Podio."
 }

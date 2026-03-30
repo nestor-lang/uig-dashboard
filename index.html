@@ -555,7 +555,7 @@
   }
   .ap-footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 8px;
     padding-top: 12px;
     border-top: 0.5px solid var(--border);
@@ -1325,9 +1325,8 @@ async function showReport(month) {
   ];
 
   function apBadge(rep) {
-    const rate = rep.booked > 0 ? rep.offers / rep.booked : 0;
-    const acc  = rep.offers > 0 ? rep.accepted / rep.offers : 0;
-    if (rate >= 0.8 && acc >= 0.15) return '<span class="ap-badge strong">Strong</span>';
+    const closeRate = rep.accepted > 0 ? rep.closed / rep.accepted : 0;
+    if (closeRate >= 0.2) return '<span class="ap-badge strong">Strong</span>';
     return '<span class="ap-badge watch">Watch</span>';
   }
 
@@ -1335,14 +1334,8 @@ async function showReport(month) {
   if (apGrid) {
     apGrid.innerHTML = agentCfg.map(cfg => {
       const rep = repData[cfg.name] || {};
-      const pct = (a, b) => b > 0 ? (a/b*100).toFixed(0)+'%' : '0%';
-      const pctRaw = (a, b) => b > 0 ? Math.min(a/b*100, 100) : 0;
-
-      const funnels = [
-        { label: 'Booked → Offer',    val: pct(rep.offers, rep.booked),    raw: pctRaw(rep.offers, rep.booked),    color: cfg.funnelColors[0] },
-        { label: 'Offer → Accepted',  val: pct(rep.accepted, rep.offers),  raw: pctRaw(rep.accepted, rep.offers),  color: cfg.funnelColors[1] },
-        { label: 'Accepted → Closed', val: pct(rep.closed, rep.accepted),  raw: pctRaw(rep.closed, rep.accepted),  color: cfg.funnelColors[2] },
-      ];
+      const closeRate = rep.accepted > 0 ? (rep.closed / rep.accepted * 100).toFixed(0) + '%' : '—';
+      const closeRaw  = rep.accepted > 0 ? Math.min(rep.closed / rep.accepted * 100, 100) : 0;
 
       return `
       <div class="ap-card">
@@ -1367,26 +1360,21 @@ async function showReport(month) {
             <div class="ap-kpi-val amber">${rep.accepted || 0}</div>
           </div>
         </div>
-        <div class="ap-funnel-label">Conversion funnel</div>
-        <div class="ap-funnel">
-          ${funnels.map(f => `
+        <div class="ap-funnel-label">Close rate</div>
+        <div class="ap-funnel" style="margin-bottom:16px;">
           <div class="funnel-row">
-            <div class="funnel-meta"><span>${f.label}</span><span>${f.val}</span></div>
-            <div class="funnel-track"><div class="funnel-fill" style="width:${f.raw.toFixed(1)}%;background:${f.color};"></div></div>
-          </div>`).join('')}
+            <div class="funnel-meta"><span>Accepted → Closed</span><span>${closeRate}</span></div>
+            <div class="funnel-track"><div class="funnel-fill" style="width:${closeRaw.toFixed(1)}%;background:${cfg.fg};"></div></div>
+          </div>
         </div>
         <div class="ap-footer">
           <div class="ap-footer-item">
-            <div class="ap-footer-label">Active opps</div>
-            <div class="ap-footer-val">${rep.active || 0}</div>
-          </div>
-          <div class="ap-footer-item">
-            <div class="ap-footer-label">Available</div>
-            <div class="ap-footer-val">${rep.available || 0}</div>
-          </div>
-          <div class="ap-footer-item">
-            <div class="ap-footer-label">Pending income</div>
+            <div class="ap-footer-label">Potential income</div>
             <div class="ap-footer-val">${fmt(rep.pending_income || 0)}</div>
+          </div>
+          <div class="ap-footer-item">
+            <div class="ap-footer-label">Closed revenue</div>
+            <div class="ap-footer-val">${fmt(rep.closed_revenue || 0)}</div>
           </div>
         </div>
       </div>`;
@@ -1399,41 +1387,47 @@ async function showReport(month) {
     const jul = repData['Julian']  || {};
     const cha = repData['Charles'] || {};
 
-    const maxLeads = Math.max(jul.leads  || 0, cha.leads  || 1);
-    const maxOff   = Math.max(jul.offers || 0, cha.offers || 1);
-    const maxAcc   = Math.max(jul.accepted || 0, cha.accepted || 1);
+    const julCloseRate = jul.accepted > 0 ? jul.closed / jul.accepted : 0;
+    const chaCloseRate = cha.accepted > 0 ? cha.closed / cha.accepted : 0;
+    const julAccRate   = jul.offers   > 0 ? jul.accepted / jul.offers : 0;
+    const chaAccRate   = cha.offers   > 0 ? cha.accepted / cha.offers : 0;
+    const julOffRate   = jul.leads    > 0 ? jul.offers / jul.leads : 0;
+    const chaOffRate   = cha.leads    > 0 ? cha.offers / cha.leads : 0;
 
-    const julOffRate = jul.leads > 0 ? jul.offers / jul.leads : 0;
-    const chaOffRate = cha.leads > 0 ? cha.offers / cha.leads : 0;
-    const julAccRate = jul.offers > 0 ? jul.accepted / jul.offers : 0;
-    const chaAccRate = cha.offers > 0 ? cha.accepted / cha.offers : 0;
-    const maxOffRate = Math.max(julOffRate, chaOffRate, 0.001);
-    const maxAccRate = Math.max(julAccRate, chaAccRate, 0.001);
+    function h2hBar(label, julVal, chaVal, julDisp, chaDisp) {
+      const maxV = Math.max(julVal, chaVal, 0.001);
+      const julW = (julVal / maxV * 100).toFixed(1);
+      const chaW = (chaVal / maxV * 100).toFixed(1);
+      return `
+      <div class="h2h-row">
+        <div style="font-size:11px;color:var(--muted);margin-bottom:8px;">${label}</div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+          <span style="font-size:11px;font-family:'DM Mono',monospace;width:28px;color:var(--muted);">JU</span>
+          <div class="h2h-bar-track" style="flex:1;"><div class="h2h-bar-fill" style="width:${julW}%;background:#2563eb;"></div></div>
+          <span style="font-size:11px;font-family:'DM Mono',monospace;width:44px;text-align:right;color:var(--text);">${julDisp}</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="font-size:11px;font-family:'DM Mono',monospace;width:28px;color:var(--muted);">CH</span>
+          <div class="h2h-bar-track" style="flex:1;"><div class="h2h-bar-fill" style="width:${chaW}%;background:#16a34a;"></div></div>
+          <span style="font-size:11px;font-family:'DM Mono',monospace;width:44px;text-align:right;color:var(--text);">${chaDisp}</span>
+        </div>
+      </div>`;
+    }
 
-    const h2hRows = [
-      {
-        label: 'Offers made per discovery',
-        julVal: julOffRate.toFixed(2),
-        chaVal: chaOffRate.toFixed(2),
-        julW: (julOffRate / maxOffRate * 100).toFixed(1),
-        chaW: (chaOffRate / maxOffRate * 100).toFixed(1),
-      },
-      {
-        label: 'Offer → accepted rate',
-        julVal: (julAccRate * 100).toFixed(0) + '%',
-        chaVal: (chaAccRate * 100).toFixed(0) + '%',
-        julW: (julAccRate / maxAccRate * 100).toFixed(1),
-        chaW: (chaAccRate / maxAccRate * 100).toFixed(1),
-      },
-      {
-        label: 'Accepted deals',
-        julVal: jul.accepted || 0,
-        chaVal: cha.accepted || 0,
-        julW: ((jul.accepted || 0) / Math.max(jul.accepted || 0, cha.accepted || 1) * 100).toFixed(1),
-        chaW: ((cha.accepted || 0) / Math.max(jul.accepted || 0, cha.accepted || 1) * 100).toFixed(1),
-      },
-    ];
+    h2hCard.innerHTML = `
+      <div class="h2h-title">Head-to-head · Same period, all channels</div>
+      ${h2hBar('Offer rate (offers per discovery)', julOffRate, chaOffRate, julOffRate.toFixed(2), chaOffRate.toFixed(2))}
+      ${h2hBar('Accept rate (accepted / offered)', julAccRate, chaAccRate, (julAccRate*100).toFixed(0)+'%', (chaAccRate*100).toFixed(0)+'%')}
+      ${h2hBar('Close rate (closed / accepted)', julCloseRate, chaCloseRate, (julCloseRate*100).toFixed(0)+'%', (chaCloseRate*100).toFixed(0)+'%')}
+      ${h2hBar('Accepted deals', jul.accepted||0, cha.accepted||0, jul.accepted||0, cha.accepted||0)}
+    `;
+  }
 
+  // dummy placeholder to satisfy old reference
+  const _h2h_dummy = { h2hRows: [], h2hCard2: null };
+  if (false) {
+    const h2hCard = document.getElementById('h2h-card');
+    const h2hRows = [];
     h2hCard.innerHTML = `
       <div class="h2h-title">Head-to-head · Same period, all channels</div>
       ${h2hRows.map(r => `
@@ -1450,12 +1444,8 @@ async function showReport(month) {
             <div class="h2h-bar-track"><div class="h2h-bar-fill" style="width:${r.chaW}%;background:#16a34a;"></div></div>
           </div>
         </div>
-      </div>`).join('')}
-      <div class="h2h-legend">
-        <span><span class="h2h-dot" style="background:#2563eb;"></span>Julian</span>
-        <span><span class="h2h-dot" style="background:#16a34a;"></span>Charles</span>
-      </div>`;
-  }
+      </div>`).join('')}`;
+  } // end dummy if
 
 
 

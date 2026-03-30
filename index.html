@@ -817,6 +817,12 @@ function render(d, month) {
   const blendedCPL = totalLeads ? Math.round(totalSpend / totalLeads) : null;
   const gCPL = ppcLeads ? Math.round(gSpend / ppcLeads) : null;
   const mCPL = fbLeads  ? Math.round(mSpend / fbLeads)  : null;
+  const gCPC = gSpend > 0 && (ch.google_spend != null) ? null : g.cpc; // use live CPC for current month only
+  const mCPC = mSpend > 0 && (ch.meta_spend  != null) ? null : m.cpc;
+
+  // Total closed revenue for the selected month (blanket, not per-lead-source)
+  const roa = (d.roa_by_month || {})[month] || {};
+  const monthClosedRevenue = roa.closed || 0;
 
   return `
   <div class="header">
@@ -866,7 +872,7 @@ function render(d, month) {
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(gSpend)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(ppcLeads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${fmt2(g.cpc)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${gCPC != null ? fmt2(gCPC) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${gCPL != null ? '$'+gCPL : '—'}</div></div>
       </div>
       <div class="campaign-list">
@@ -889,7 +895,7 @@ function render(d, month) {
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(mSpend)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(fbLeads)}</div></div>
-        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${fmt2(m.cpc)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${mCPC != null ? fmt2(mCPC) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${mCPL != null ? '$'+mCPL : '—'}</div></div>
       </div>
       <div class="campaign-list">
@@ -1378,14 +1384,10 @@ async function showReport(month) {
           <div style="font-family:'DM Mono',monospace;font-size:36px;font-weight:500;color:${cfg.fg};">${closeRate}</div>
           <div style="font-size:10px;color:var(--muted);margin-top:4px;">offers made → accepted</div>
         </div>
-        <div class="ap-footer">
+        <div class="ap-footer" style="grid-template-columns:1fr;">
           <div class="ap-footer-item">
-            <div class="ap-footer-label">Potential income</div>
-            <div class="ap-footer-val">${fmt(rep.pending_income || 0)}</div>
-          </div>
-          <div class="ap-footer-item">
-            <div class="ap-footer-label">Closed revenue</div>
-            <div class="ap-footer-val">${fmt(rep.closed_revenue || 0)}</div>
+            <div class="ap-footer-label">Closed revenue this month</div>
+            <div class="ap-footer-val" style="font-size:18px;">${fmt(monthClosedRevenue)}</div>
           </div>
         </div>
       </div>`;

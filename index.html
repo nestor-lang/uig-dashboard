@@ -741,10 +741,14 @@ async function loadData(month) {
 async function loadMonths() {
   try {
     const res = await fetch('months.json?t=' + Date.now());
-    if (!res.ok) return [];
-    return await res.json();
+    if (!res.ok) return ['2026-03','2026-02','2026-01'];
+    const months = await res.json();
+    // Filter to only months that realistically have data (no future months)
+    const now = new Date();
+    const cutoff = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}`;
+    return months.filter(m => m <= cutoff);
   } catch (e) {
-    return [];
+    return ['2026-03','2026-02','2026-01'];
   }
 }
 

@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 17:03 AST",
+  "last_updated": "2026-03-30 17:07 AST",
   "google": {
     "spend_mtd": 3342.63,
     "clicks_mtd": 504,
@@ -33,12 +33,12 @@
     ]
   },
   "meta": {
-    "spend_30d": 2453.84,
+    "spend_30d": 2454.11,
     "clicks_30d": 1256,
     "crm_leads": 30,
     "cpc": 1.95,
-    "cpl_crm": 81.79,
-    "cost_per_hot": 490.77,
+    "cpl_crm": 81.8,
+    "cost_per_hot": 490.82,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,8 +58,8 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1369.81,
-        "spend_today": 102.64,
+        "spend": 1370.08,
+        "spend_today": 102.91,
         "clicks": 669,
         "crm_leads": 0,
         "cpl_crm": null
@@ -199,19 +199,57 @@
       "google_spend": 0,
       "meta_spend": 0,
       "ppc_leads": 0,
-      "fb_leads": 0
+      "fb_leads": 0,
+      "pipeline_ppc": {},
+      "pipeline_fb": {}
     },
     "2026-02": {
       "google_spend": 0,
       "meta_spend": 1731.32,
       "ppc_leads": 0,
-      "fb_leads": 17
+      "fb_leads": 17,
+      "pipeline_ppc": {
+        "leads": 0,
+        "active": 0,
+        "booked": 0,
+        "offered": 0,
+        "accepted": 0,
+        "under_contract": 0,
+        "closed": 0
+      },
+      "pipeline_fb": {
+        "leads": 17,
+        "active": 9,
+        "booked": 7,
+        "offered": 6,
+        "accepted": 0,
+        "under_contract": 0,
+        "closed": 0
+      }
     },
     "2026-03": {
       "google_spend": 3342.63,
       "meta_spend": 2453.84,
       "ppc_leads": 13,
-      "fb_leads": 30
+      "fb_leads": 30,
+      "pipeline_ppc": {
+        "leads": 13,
+        "active": 6,
+        "booked": 4,
+        "offered": 4,
+        "accepted": 1,
+        "under_contract": 1,
+        "closed": 0
+      },
+      "pipeline_fb": {
+        "leads": 30,
+        "active": 22,
+        "booked": 14,
+        "offered": 11,
+        "accepted": 1,
+        "under_contract": 1,
+        "closed": 0
+      }
     }
   },
   "pipeline": {

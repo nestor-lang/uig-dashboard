@@ -1389,7 +1389,7 @@ async function showReport(month) {
         <div class="ap-footer" style="grid-template-columns:1fr;">
           <div class="ap-footer-item">
             <div class="ap-footer-label">Closed revenue this month</div>
-            <div class="ap-footer-val" style="font-size:18px;">${fmt(monthClosedRevenue)}</div>
+            <div class="ap-footer-val" style="font-size:18px;">${fmt(rep.closed_revenue || 0)}</div>
           </div>
         </div>
       </div>`;

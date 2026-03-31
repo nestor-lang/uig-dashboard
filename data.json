@@ -1,12 +1,12 @@
 {
   "report_date": "March 31, 2026",
-  "last_updated": "2026-03-31 10:00 AST",
+  "last_updated": "2026-03-31 11:00 AST",
   "google": {
     "spend_mtd": 3349.61,
     "clicks_mtd": 509,
-    "crm_leads": 13,
+    "crm_leads": 14,
     "cpc": 6.58,
-    "cpl": 257.66,
+    "cpl": 239.26,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -19,7 +19,7 @@
         "clicks": 451,
         "cpc": 0.71,
         "crm_leads": 0,
-        "cpl": 257.66
+        "cpl": 239.26
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,17 +28,17 @@
         "clicks": 58,
         "cpc": 52.25,
         "crm_leads": 0,
-        "cpl": 257.66
+        "cpl": 239.26
       }
     ]
   },
   "meta": {
-    "spend_30d": 2527.1,
+    "spend_30d": 2530.84,
     "clicks_30d": 1277,
     "crm_leads": 31,
     "cpc": 1.98,
-    "cpl_crm": 81.52,
-    "cost_per_hot": 361.01,
+    "cpl_crm": 81.64,
+    "cost_per_hot": 361.55,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,8 +58,8 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1443.07,
-        "spend_today": 40.12,
+        "spend": 1446.81,
+        "spend_today": 42.96,
         "clicks": 690,
         "crm_leads": 0,
         "cpl_crm": null
@@ -101,7 +101,7 @@
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 26684.809999999998
+      "spend": 26688.4
     }
   },
   "reps_by_month": {
@@ -193,7 +193,7 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16280.76
+    "2026-03": 16284.5
   },
   "channel_by_month": {
     "2026-01": {
@@ -234,13 +234,13 @@
     },
     "2026-03": {
       "google_spend": 3349.61,
-      "meta_spend": 2527.1,
-      "ppc_leads": 13,
+      "meta_spend": 2530.84,
+      "ppc_leads": 14,
       "fb_leads": 31,
       "google_cpc": 6.58,
       "meta_cpc": 1.98,
       "pipeline_ppc": {
-        "leads": 13,
+        "leads": 14,
         "active": 6,
         "booked": 5,
         "offered": 5,
@@ -260,7 +260,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 44,
+    "new_leads_30d": 45,
     "hot": 7,
     "booked": 20,
     "offers": 18,
@@ -277,7 +277,7 @@
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 13,
+    "leads": 14,
     "active": 6,
     "booked": 5,
     "offered": 5,
@@ -286,9 +286,9 @@
     "closed": 0
   },
   "sources": {
-    "ppc": 13,
+    "ppc": 14,
     "facebook": 31,
-    "ppc_inbound_call": 6
+    "ppc_inbound_call": 7
   },
   "hot_leads": [
     {

@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 20:00 AST",
+  "last_updated": "2026-03-30 20:03 AST",
   "google": {
     "spend_mtd": 3342.63,
     "clicks_mtd": 504,
@@ -110,8 +110,8 @@
         "leads": 15,
         "active": 0,
         "booked": 7,
-        "offers": 5,
-        "accepted": 1,
+        "offers": 9,
+        "accepted": 5,
         "available": 0,
         "pending": 1,
         "dead": 0,
@@ -123,8 +123,8 @@
         "leads": 36,
         "active": 0,
         "booked": 25,
-        "offers": 24,
-        "accepted": 12,
+        "offers": 37,
+        "accepted": 21,
         "available": 3,
         "pending": 2,
         "dead": 2,
@@ -138,8 +138,8 @@
         "leads": 14,
         "active": 5,
         "booked": 16,
-        "offers": 14,
-        "accepted": 3,
+        "offers": 19,
+        "accepted": 5,
         "available": 2,
         "pending": 1,
         "dead": 0,
@@ -151,8 +151,8 @@
         "leads": 35,
         "active": 3,
         "booked": 21,
-        "offers": 14,
-        "accepted": 3,
+        "offers": 33,
+        "accepted": 8,
         "available": 1,
         "pending": 0,
         "dead": 2,
@@ -166,8 +166,8 @@
         "leads": 30,
         "active": 13,
         "booked": 14,
-        "offers": 12,
-        "accepted": 2,
+        "offers": 22,
+        "accepted": 6,
         "available": 2,
         "pending": 0,
         "dead": 0,
@@ -179,8 +179,8 @@
         "leads": 41,
         "active": 13,
         "booked": 22,
-        "offers": 21,
-        "accepted": 4,
+        "offers": 41,
+        "accepted": 10,
         "available": 4,
         "pending": 0,
         "dead": 0,
@@ -193,7 +193,7 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16223.08
+    "2026-03": 16223.2
   },
   "channel_by_month": {
     "2026-01": {
@@ -234,7 +234,7 @@
     },
     "2026-03": {
       "google_spend": 3342.63,
-      "meta_spend": 2476.4,
+      "meta_spend": 2476.52,
       "ppc_leads": 13,
       "fb_leads": 30,
       "google_cpc": 6.63,
@@ -261,7 +261,7 @@
   },
   "pipeline": {
     "new_leads_30d": 43,
-    "hot": 8,
+    "hot": 7,
     "booked": 20,
     "offers": 18,
     "under_contract": 2,
@@ -322,5 +322,5 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "SMS data via Podio."
+  "sms_status": "\u26a0\ufe0f SMS data unavailable: Expecting ',' delimiter: line 1 column 16197290 (char 16197289)"
 }

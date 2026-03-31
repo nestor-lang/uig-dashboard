@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 19:00 AST",
+  "last_updated": "2026-03-30 20:00 AST",
   "google": {
     "spend_mtd": 3342.63,
     "clicks_mtd": 504,
@@ -33,12 +33,12 @@
     ]
   },
   "meta": {
-    "spend_30d": 2469.31,
-    "clicks_30d": 1258,
+    "spend_30d": 2476.4,
+    "clicks_30d": 1259,
     "crm_leads": 30,
-    "cpc": 1.96,
-    "cpl_crm": 82.31,
-    "cost_per_hot": 411.55,
+    "cpc": 1.97,
+    "cpl_crm": 82.55,
+    "cost_per_hot": 353.77,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,22 +58,22 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1385.28,
-        "spend_today": 118.11,
-        "clicks": 671,
+        "spend": 1392.37,
+        "spend_today": 125.2,
+        "clicks": 672,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 395984,
+  "potential_income": 371984,
   "assigned_income": 204955,
   "by_stage": {
     "Initial Inspection Completed": 119499,
     "Access Scheduled": 115098,
     "On Market": 112438,
-    "New Deal - Unscheduled": 27349,
-    "Market Prep / Pre-Listing Marketing": 21600
+    "Market Prep / Pre-Listing Marketing": 21600,
+    "New Deal - Unscheduled": 3349
   },
   "by_agent": {
     "Virginia": 111179,
@@ -101,7 +101,7 @@
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 26620.039999999997
+      "spend": 26627.129999999997
     }
   },
   "reps_by_month": {
@@ -193,7 +193,7 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16216.67
+    "2026-03": 16223.08
   },
   "channel_by_month": {
     "2026-01": {
@@ -234,11 +234,11 @@
     },
     "2026-03": {
       "google_spend": 3342.63,
-      "meta_spend": 2469.99,
+      "meta_spend": 2476.4,
       "ppc_leads": 13,
       "fb_leads": 30,
       "google_cpc": 6.63,
-      "meta_cpc": 1.96,
+      "meta_cpc": 1.97,
       "pipeline_ppc": {
         "leads": 13,
         "active": 6,
@@ -304,6 +304,12 @@
       "source": "Facebook"
     },
     {
+      "name": "6643 Windvane Point",
+      "address": "6643 Windvane Point, Clermont, GA 30527, USA",
+      "phone": "(770) 377-7908",
+      "source": "Facebook"
+    },
+    {
       "name": "407 College Ave NE",
       "address": "407 College Ave NE, Dawson, GA 39842, USA",
       "phone": "(470) 231-7852",
@@ -313,12 +319,6 @@
       "name": "28 Oschawa Ave",
       "address": "28 Oschawa Ave, West Seneca, NY 14210, USA",
       "phone": "(716) 292-6856",
-      "source": "Facebook"
-    },
-    {
-      "name": "1103 Ontario Ave",
-      "address": "1103 Ontario Ave, Niagara Falls, NY 14305, USA",
-      "phone": "(716) 325-5207",
       "source": "Facebook"
     }
   ],

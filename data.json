@@ -1,12 +1,12 @@
 {
   "report_date": "March 31, 2026",
-  "last_updated": "2026-03-31 16:00 AST",
+  "last_updated": "2026-03-31 16:29 AST",
   "google": {
-    "spend_mtd": 3467.42,
-    "clicks_mtd": 512,
+    "spend_mtd": 3467.88,
+    "clicks_mtd": 513,
     "crm_leads": 15,
-    "cpc": 6.77,
-    "cpl": 231.16,
+    "cpc": 6.76,
+    "cpl": 231.19,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,12 +14,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 319.73,
-        "spend_today": 7.73,
-        "clicks": 452,
+        "spend": 320.19,
+        "spend_today": 8.19,
+        "clicks": 453,
         "cpc": 0.71,
         "crm_leads": 0,
-        "cpl": 231.16
+        "cpl": 231.19
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,17 +28,17 @@
         "clicks": 60,
         "cpc": 52.46,
         "crm_leads": 0,
-        "cpl": 231.16
+        "cpl": 231.19
       }
     ]
   },
   "meta": {
-    "spend_30d": 2555.08,
-    "clicks_30d": 1288,
+    "spend_30d": 2556.27,
+    "clicks_30d": 1289,
     "crm_leads": 31,
     "cpc": 1.98,
-    "cpl_crm": 82.42,
-    "cost_per_hot": 365.01,
+    "cpl_crm": 82.46,
+    "cost_per_hot": 365.18,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,9 +58,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1471.05,
-        "spend_today": 67.11,
-        "clicks": 701,
+        "spend": 1472.24,
+        "spend_today": 68.3,
+        "clicks": 702,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -193,7 +193,7 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16426.55
+    "2026-03": 16428.2
   },
   "channel_by_month": {
     "2026-01": {
@@ -233,11 +233,11 @@
       }
     },
     "2026-03": {
-      "google_spend": 3467.42,
-      "meta_spend": 2555.08,
+      "google_spend": 3467.88,
+      "meta_spend": 2556.27,
       "ppc_leads": 15,
       "fb_leads": 31,
-      "google_cpc": 6.77,
+      "google_cpc": 6.76,
       "meta_cpc": 1.98,
       "pipeline_ppc": {
         "leads": 15,

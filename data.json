@@ -1,6 +1,6 @@
 {
   "report_date": "March 30, 2026",
-  "last_updated": "2026-03-30 20:03 AST",
+  "last_updated": "2026-03-30 21:00 AST",
   "google": {
     "spend_mtd": 3342.63,
     "clicks_mtd": 504,
@@ -33,12 +33,12 @@
     ]
   },
   "meta": {
-    "spend_30d": 2476.4,
-    "clicks_30d": 1259,
+    "spend_30d": 2478.22,
+    "clicks_30d": 1261,
     "crm_leads": 30,
     "cpc": 1.97,
-    "cpl_crm": 82.55,
-    "cost_per_hot": 353.77,
+    "cpl_crm": 82.61,
+    "cost_per_hot": 354.03,
     "campaigns": [
       {
         "name": "REIT II Feb 11 II Mixed Winners",
@@ -58,9 +58,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1392.37,
-        "spend_today": 125.2,
-        "clicks": 672,
+        "spend": 1394.19,
+        "spend_today": 127.02,
+        "clicks": 674,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -101,7 +101,7 @@
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 26627.129999999997
+      "spend": 26628.92
     }
   },
   "reps_by_month": {
@@ -193,7 +193,7 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16223.2
+    "2026-03": 16224.9
   },
   "channel_by_month": {
     "2026-01": {
@@ -234,7 +234,7 @@
     },
     "2026-03": {
       "google_spend": 3342.63,
-      "meta_spend": 2476.52,
+      "meta_spend": 2478.22,
       "ppc_leads": 13,
       "fb_leads": 30,
       "google_cpc": 6.63,
@@ -261,7 +261,7 @@
   },
   "pipeline": {
     "new_leads_30d": 43,
-    "hot": 7,
+    "hot": 8,
     "booked": 20,
     "offers": 18,
     "under_contract": 2,
@@ -322,5 +322,5 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "\u26a0\ufe0f SMS data unavailable: Expecting ',' delimiter: line 1 column 16197290 (char 16197289)"
+  "sms_status": "SMS data via Podio."
 }

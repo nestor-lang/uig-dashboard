@@ -1,6 +1,6 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 12:02 AST",
+  "last_updated": "2026-04-01 12:07 AST",
   "google": {
     "spend_mtd": 66.82,
     "clicks_mtd": 11,
@@ -33,17 +33,17 @@
     ]
   },
   "meta": {
-    "spend_30d": 41.35,
+    "spend_30d": 41.39,
     "clicks_30d": 11,
     "crm_leads": 0,
     "cpc": 3.76,
     "cpl_crm": null,
-    "cost_per_hot": 10.34,
+    "cost_per_hot": 10.35,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 41.35,
-        "spend_today": 41.35,
+        "spend": 41.39,
+        "spend_today": 41.39,
         "clicks": 11,
         "crm_leads": 0,
         "cpl_crm": null
@@ -140,7 +140,7 @@
         "active": 2,
         "booked": 20,
         "offers": 33,
-        "accepted": 8,
+        "accepted": 9,
         "available": 1,
         "pending": 0,
         "dead": 2,
@@ -196,7 +196,7 @@
         "active": 0,
         "booked": 0,
         "offers": 0,
-        "accepted": 1,
+        "accepted": 0,
         "available": 0,
         "pending": 0,
         "dead": 0,
@@ -380,7 +380,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.62,
-    "2026-04": 108.0
+    "2026-04": 108.21
   },
   "channel_by_month": {
     "2026-01": {
@@ -447,11 +447,11 @@
     },
     "2026-04": {
       "google_spend": 66.82,
-      "meta_spend": 41.18,
+      "meta_spend": 41.39,
       "ppc_leads": 0,
       "fb_leads": 0,
       "google_cpc": 6.07,
-      "meta_cpc": 3.74,
+      "meta_cpc": 3.76,
       "pipeline_ppc": {},
       "pipeline_fb": {}
     }

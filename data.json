@@ -1,6 +1,6 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 11:08 AST",
+  "last_updated": "2026-04-01 12:00 AST",
   "google": {
     "spend_mtd": 66.82,
     "clicks_mtd": 11,
@@ -33,17 +33,17 @@
     ]
   },
   "meta": {
-    "spend_30d": 38.14,
+    "spend_30d": 41.18,
     "clicks_30d": 11,
     "crm_leads": 0,
-    "cpc": 3.47,
+    "cpc": 3.74,
     "cpl_crm": null,
-    "cost_per_hot": 7.63,
+    "cost_per_hot": 10.29,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 38.14,
-        "spend_today": 38.14,
+        "spend": 41.18,
+        "spend_today": 41.18,
         "clicks": 11,
         "crm_leads": 0,
         "cpl_crm": null
@@ -84,12 +84,12 @@
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 26846.64
+      "spend": 26846.67
     },
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 104.63999999999999
+      "spend": 108.0
     }
   },
   "reps_by_month": {
@@ -379,8 +379,8 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16442.59,
-    "2026-04": 104.96
+    "2026-03": 16442.62,
+    "2026-04": 108.0
   },
   "channel_by_month": {
     "2026-01": {
@@ -421,9 +421,9 @@
     },
     "2026-03": {
       "google_spend": 3452.65,
-      "meta_spend": 2585.89,
+      "meta_spend": 2585.92,
       "ppc_leads": 15,
-      "fb_leads": 31,
+      "fb_leads": 30,
       "google_cpc": 6.67,
       "meta_cpc": 1.98,
       "pipeline_ppc": {
@@ -436,8 +436,8 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 31,
-        "active": 22,
+        "leads": 30,
+        "active": 21,
         "booked": 15,
         "offered": 15,
         "accepted": 1,
@@ -447,18 +447,18 @@
     },
     "2026-04": {
       "google_spend": 66.82,
-      "meta_spend": 38.14,
+      "meta_spend": 41.18,
       "ppc_leads": 0,
       "fb_leads": 0,
       "google_cpc": 6.07,
-      "meta_cpc": 3.47,
+      "meta_cpc": 3.74,
       "pipeline_ppc": {},
       "pipeline_fb": {}
     }
   },
   "pipeline": {
     "new_leads_30d": 0,
-    "hot": 5,
+    "hot": 4,
     "booked": 0,
     "offers": 0,
     "under_contract": 0,
@@ -504,12 +504,6 @@
       "name": "407 College Ave NE",
       "address": "407 College Ave NE, Dawson, GA 39842, USA",
       "phone": "(470) 231-7852",
-      "source": "Facebook"
-    },
-    {
-      "name": "28 Oschawa Ave",
-      "address": "28 Oschawa Ave, West Seneca, NY 14210, USA",
-      "phone": "(716) 292-6856",
       "source": "Facebook"
     },
     {

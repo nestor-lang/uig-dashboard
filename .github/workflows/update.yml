@@ -1,0 +1,41 @@
+name: Dashboard Update
+
+on:
+  schedule:
+    # Every hour 6AM–8PM AST (AST = UTC-4, so 10:00–00:00 UTC)
+    - cron: '0 10,11,12,13,14,15,16,17,18,19,20,21,22,23,0 * * *'
+  workflow_dispatch: # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      PUSH_TOKEN:                  ${{ secrets.PUSH_TOKEN }}
+      PODIO_SECRET:                ${{ secrets.PODIO_SECRET }}
+      PODIO_APP_TOKEN:             ${{ secrets.PODIO_APP_TOKEN }}
+      WHITEBOARD_APP_TOKEN:        ${{ secrets.WHITEBOARD_APP_TOKEN }}
+      CLOSINGS_APP_TOKEN:          ${{ secrets.CLOSINGS_APP_TOKEN }}
+      META_TOKEN:                  ${{ secrets.META_TOKEN }}
+      GOOGLE_DEV_TOKEN:            ${{ secrets.GOOGLE_DEV_TOKEN }}
+      GOOGLE_CLIENT_ID:            ${{ secrets.GOOGLE_CLIENT_ID }}
+      GOOGLE_CLIENT_SECRET:        ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      GOOGLE_REFRESH_TOKEN_ADS:    ${{ secrets.GOOGLE_REFRESH_TOKEN_ADS }}
+      GOOGLE_REFRESH_TOKEN_SHEETS: ${{ secrets.GOOGLE_REFRESH_TOKEN_SHEETS }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install google-ads PyYAML
+
+      - name: Update KPI sheet (FB+PPC only)
+        run: python update_kpi_sheet.py --fb-ppc-only
+
+      - name: Update dashboard
+        run: python update_dashboard.py --skip-sms

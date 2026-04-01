@@ -1,6 +1,6 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 08:19 AST",
+  "last_updated": "2026-04-01 09:00 AST",
   "google": {
     "spend_mtd": 66.82,
     "clicks_mtd": 11,
@@ -33,18 +33,18 @@
     ]
   },
   "meta": {
-    "spend_30d": 24.27,
-    "clicks_30d": 7,
+    "spend_30d": 27.26,
+    "clicks_30d": 8,
     "crm_leads": 0,
-    "cpc": 3.47,
+    "cpc": 3.41,
     "cpl_crm": null,
-    "cost_per_hot": 3.47,
+    "cost_per_hot": 3.89,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 24.27,
-        "spend_today": 24.27,
-        "clicks": 7,
+        "spend": 27.26,
+        "spend_today": 27.26,
+        "clicks": 8,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -90,13 +90,13 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 88.09
+      "spend": 94.08
     }
   },
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 15,
+        "leads": 0,
         "active": 0,
         "booked": 7,
         "offers": 9,
@@ -109,7 +109,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 36,
+        "leads": 0,
         "active": 0,
         "booked": 25,
         "offers": 37,
@@ -124,7 +124,7 @@
     },
     "2026-02": {
       "Charles": {
-        "leads": 14,
+        "leads": 11,
         "active": 5,
         "booked": 16,
         "offers": 19,
@@ -137,7 +137,7 @@
         "closed_revenue": 40116.5
       },
       "Julian": {
-        "leads": 35,
+        "leads": 5,
         "active": 3,
         "booked": 21,
         "offers": 33,
@@ -152,7 +152,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 19,
         "active": 13,
         "booked": 14,
         "offers": 24,
@@ -165,7 +165,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 41,
+        "leads": 19,
         "active": 13,
         "booked": 22,
         "offers": 43,
@@ -211,7 +211,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.45,
-    "2026-04": 90.06
+    "2026-04": 94.08
   },
   "channel_by_month": {
     "2026-01": {
@@ -278,11 +278,11 @@
     },
     "2026-04": {
       "google_spend": 66.82,
-      "meta_spend": 23.24,
+      "meta_spend": 27.26,
       "ppc_leads": 0,
       "fb_leads": 0,
       "google_cpc": 6.07,
-      "meta_cpc": 3.32,
+      "meta_cpc": 3.41,
       "pipeline_ppc": {},
       "pipeline_fb": {}
     }

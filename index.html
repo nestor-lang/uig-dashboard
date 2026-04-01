@@ -1403,14 +1403,13 @@ async function showReport(month) {
         ${(() => {
           const wbAgent = (d.wb_pipeline || {})[cfg.name];
           if (!wbAgent) return '';
-          // Use selected month's data, fall back to all-time
-          const wbMonth = (wbAgent.by_month || {})[month];
-          const wb = wbMonth || wbAgent.all_time || {};
-          const c = wb.counts || {};
-          const gp = wb.gp || {};
-          const total = wb.total || 0;
+          // Always use selected month — show zeros if no data, never fall back to all-time
+          const wbMonth = (wbAgent.by_month || {})[month] || {};
+          const c = wbMonth.counts || {};
+          const gp = wbMonth.gp || {};
+          const total = wbMonth.total || 0;
           const deadRate = total > 0 ? ((c.dead||0) / total * 100).toFixed(0) : '0';
-          const label = wbMonth ? 'Contracts from this month' : 'All-time pipeline';
+          const label = 'Contracts from this month';
           return `
         <div style="border-top:0.5px solid var(--border);margin-top:12px;padding-top:12px;">
           <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:10px;">${label}</div>

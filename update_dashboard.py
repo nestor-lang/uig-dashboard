@@ -4,7 +4,7 @@ update_dashboard.py
 Pulls data from Podio, Google Ads, and Meta — generates data.json and pushes to GitHub.
 """
 
-import json, urllib.request, urllib.parse, base64, subprocess, sys, gzip as _gzip, io as _io
+import os, json, urllib.request, urllib.parse, base64, subprocess, sys, gzip as _gzip, io as _io
 from datetime import datetime, timedelta
 from collections import defaultdict
 
@@ -1172,7 +1172,8 @@ for snap_month in all_months_in_data:
     snap_sha = get_github_sha(snap_file)
     put_github(snap_file, snap_str, snap_sha)
 
-# Keep months.json updated
+# Keep months.json updated — fetch SHA fresh right before writing to avoid conflicts
+correct_months = sorted(all_months_in_data, reverse=True)
 try:
     months_req = urllib.request.Request(
         f"https://api.github.com/repos/{GITHUB_REPO}/contents/months.json",
@@ -1184,8 +1185,6 @@ except:
     existing_months = []
     months_sha = None
 
-# Only include months that actually have snapshot files (no future months)
-correct_months = sorted(all_months_in_data, reverse=True)
 if correct_months != existing_months:
     put_github("months.json", json.dumps(correct_months), months_sha)
 

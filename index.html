@@ -809,6 +809,10 @@ function render(d, month) {
   const p = d.pipeline;
   const s = d.sources;
 
+  // True when the viewer is looking at the current (live) month
+  const latestMonth = d.last_updated ? d.last_updated.slice(0, 7) : month;
+  const isCurrentMonth = month === latestMonth;
+
   // Use month-specific channel data when available — must be defined before fb/ppc
   const ch = (d.channel_by_month || {})[month] || {};
   const fb  = ch.pipeline_fb  || d.pipeline_fb  || {};
@@ -885,8 +889,7 @@ function render(d, month) {
           <div class="campaign-row">
             <div class="dot ${c.leads === 0 ? 'dead' : ''}"></div>
             <div class="camp-name">${c.name}</div>
-            <div class="camp-spend">${fmt(c.spend_today)} today</div>
-
+            ${isCurrentMonth ? `<div class="camp-spend">${fmt(c.spend_today)} today</div>` : ''}
           </div>
         `).join('')}
       </div>
@@ -908,8 +911,7 @@ function render(d, month) {
           <div class="campaign-row">
             <div class="dot ${c.crm_leads === 0 ? 'dead' : ''}"></div>
             <div class="camp-name">${c.name}</div>
-            <div class="camp-spend">${fmt(c.spend_today)} today</div>
-
+            ${isCurrentMonth ? `<div class="camp-spend">${fmt(c.spend_today)} today</div>` : ''}
           </div>
         `).join('')}
       </div>

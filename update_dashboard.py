@@ -1015,17 +1015,12 @@ def wb_pipeline_for_agent(profile_id, token):
             gp = 0.0
             try: gp = float(gp_vals[0].get("value", 0) or 0) if gp_vals else 0.0
             except: pass
-            # Lead created month (lead-created-on-2 field) — group by when the lead came in
-            lc_vals = fields.get("lead-created-on-2") or []
-            lead_date = ""
-            if lc_vals:
-                lead_date = (lc_vals[0].get("start_date","") or lc_vals[0].get("start","") or "")[:10]
-            # Fall back to contract date if lead date missing
-            if not lead_date:
-                dc_vals = fields.get("date-created") or []
-                if dc_vals:
-                    lead_date = (dc_vals[0].get("start_date","") or dc_vals[0].get("start","") or "")[:10]
-            mk = lead_date[:7] if lead_date else "unknown"
+            # Contract month (date-created field) — agent-centric: what did they sign this month
+            dc_vals = fields.get("date-created") or []
+            contract_date = ""
+            if dc_vals:
+                contract_date = (dc_vals[0].get("start_date","") or dc_vals[0].get("start","") or "")[:10]
+            mk = contract_date[:7] if contract_date else "unknown"
             # Accumulate
             by_month[mk]["counts"][key] += 1
             by_month[mk]["gp"][key]     += gp

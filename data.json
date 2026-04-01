@@ -1,11 +1,11 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 08:02 AST",
+  "last_updated": "2026-04-01 08:19 AST",
   "google": {
-    "spend_mtd": 3518.92,
-    "clicks_mtd": 528,
+    "spend_mtd": 66.82,
+    "clicks_mtd": 11,
     "crm_leads": 0,
-    "cpc": 6.66,
+    "cpc": 6.07,
     "cpl": null,
     "cost_per_booked": null,
     "booked": 0,
@@ -14,37 +14,37 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 333.62,
-        "spend_today": 15.0,
-        "clicks": 464,
-        "cpc": 0.72,
+        "spend": 15.55,
+        "spend_today": 15.55,
+        "clicks": 9,
+        "cpc": 1.73,
         "crm_leads": 0,
         "cpl": null
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3185.3,
+        "spend": 51.27,
         "spend_today": 51.27,
-        "clicks": 64,
-        "cpc": 49.77,
+        "clicks": 2,
+        "cpc": 25.64,
         "crm_leads": 0,
         "cpl": null
       }
     ]
   },
   "meta": {
-    "spend_30d": 21.82,
-    "clicks_30d": 6,
+    "spend_30d": 24.27,
+    "clicks_30d": 7,
     "crm_leads": 0,
-    "cpc": 3.64,
+    "cpc": 3.47,
     "cpl_crm": null,
-    "cost_per_hot": 3.12,
+    "cost_per_hot": 3.47,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 21.82,
-        "spend_today": 21.82,
-        "clicks": 6,
+        "spend": 24.27,
+        "spend_today": 24.27,
+        "clicks": 7,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -211,7 +211,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.45,
-    "2026-04": 88.09
+    "2026-04": 90.06
   },
   "channel_by_month": {
     "2026-01": {
@@ -277,12 +277,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 66.27,
-      "meta_spend": 21.82,
+      "google_spend": 66.82,
+      "meta_spend": 23.24,
       "ppc_leads": 0,
       "fb_leads": 0,
-      "google_cpc": 6.63,
-      "meta_cpc": 3.64,
+      "google_cpc": 6.07,
+      "meta_cpc": 3.32,
       "pipeline_ppc": {},
       "pipeline_fb": {}
     }

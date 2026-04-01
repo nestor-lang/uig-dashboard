@@ -1,12 +1,12 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 17:01 AST",
+  "last_updated": "2026-04-01 18:07 AST",
   "google": {
-    "spend_mtd": 154.03,
-    "clicks_mtd": 15,
+    "spend_mtd": 159.16,
+    "clicks_mtd": 19,
     "crm_leads": 1,
-    "cpc": 10.27,
-    "cpl": 154.03,
+    "cpc": 8.38,
+    "cpl": 159.16,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,12 +14,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 23.36,
-        "spend_today": 23.36,
-        "clicks": 11,
-        "cpc": 2.12,
+        "spend": 28.5,
+        "spend_today": 28.5,
+        "clicks": 15,
+        "cpc": 1.9,
         "crm_leads": 0,
-        "cpl": 154.03
+        "cpl": 159.16
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,25 +28,25 @@
         "clicks": 4,
         "cpc": 32.67,
         "crm_leads": 0,
-        "cpl": 154.03
+        "cpl": 159.16
       }
     ]
   },
   "meta": {
-    "spend_30d": 57.1,
-    "clicks_30d": 28,
-    "crm_leads": 2,
-    "cpc": 2.04,
-    "cpl_crm": 28.55,
-    "cost_per_hot": 14.28,
+    "spend_30d": 65.55,
+    "clicks_30d": 33,
+    "crm_leads": 3,
+    "cpc": 1.99,
+    "cpl_crm": 21.85,
+    "cost_per_hot": 13.11,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 57.1,
-        "spend_today": 57.1,
-        "clicks": 28,
-        "crm_leads": 2,
-        "cpl_crm": 28.55
+        "spend": 65.55,
+        "spend_today": 65.55,
+        "clicks": 33,
+        "crm_leads": 3,
+        "cpl_crm": 21.85
       }
     ]
   },
@@ -91,7 +91,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 211.13
+      "spend": 224.70999999999998
     }
   },
   "reps_by_month": {
@@ -347,7 +347,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 211.13
+    "2026-04": 224.71
   },
   "channel_by_month": {
     "2026-01": {
@@ -413,12 +413,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 154.03,
-      "meta_spend": 57.1,
+      "google_spend": 159.16,
+      "meta_spend": 65.55,
       "ppc_leads": 1,
-      "fb_leads": 2,
-      "google_cpc": 10.27,
-      "meta_cpc": 2.04,
+      "fb_leads": 3,
+      "google_cpc": 8.38,
+      "meta_cpc": 1.99,
       "pipeline_ppc": {
         "leads": 1,
         "active": 1,
@@ -429,8 +429,8 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 2,
-        "active": 2,
+        "leads": 3,
+        "active": 3,
         "booked": 1,
         "offered": 0,
         "accepted": 0,
@@ -440,16 +440,16 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 3,
-    "hot": 4,
+    "new_leads_30d": 4,
+    "hot": 5,
     "booked": 1,
     "offers": 0,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 2,
-    "active": 2,
+    "leads": 3,
+    "active": 3,
     "booked": 1,
     "offered": 0,
     "accepted": 0,
@@ -467,10 +467,16 @@
   },
   "sources": {
     "ppc": 1,
-    "facebook": 2,
+    "facebook": 3,
     "ppc_inbound_call": 8
   },
   "hot_leads": [
+    {
+      "name": "5454 Rosehall Pl",
+      "address": "5454 Rosehall Pl, Atlanta, GA 30349, USA",
+      "phone": "(678) 643-2850",
+      "source": "Facebook"
+    },
     {
       "name": "100 Winslow Ct",
       "address": "100 Winslow Ct, McDonough, GA 30253, USA",

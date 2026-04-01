@@ -1,11 +1,11 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 02:00 AST",
+  "last_updated": "2026-04-01 07:00 AST",
   "google": {
-    "spend_mtd": 3620.15,
-    "clicks_mtd": 525,
+    "spend_mtd": 3518.92,
+    "clicks_mtd": 528,
     "crm_leads": 0,
-    "cpc": 6.9,
+    "cpc": 6.66,
     "cpl": null,
     "cost_per_booked": null,
     "booked": 0,
@@ -14,37 +14,37 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 319.8,
-        "spend_today": 1.19,
-        "clicks": 460,
-        "cpc": 0.7,
+        "spend": 333.62,
+        "spend_today": 15.0,
+        "clicks": 464,
+        "cpc": 0.72,
         "crm_leads": 0,
         "cpl": null
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3300.35,
+        "spend": 3185.3,
         "spend_today": 51.27,
-        "clicks": 65,
-        "cpc": 50.77,
+        "clicks": 64,
+        "cpc": 49.77,
         "crm_leads": 0,
         "cpl": null
       }
     ]
   },
   "meta": {
-    "spend_30d": 7.72,
-    "clicks_30d": 0,
+    "spend_30d": 13.27,
+    "clicks_30d": 4,
     "crm_leads": 0,
-    "cpc": null,
+    "cpc": 3.32,
     "cpl_crm": null,
-    "cost_per_hot": 1.1,
+    "cost_per_hot": 1.9,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7.72,
-        "spend_today": 7.72,
-        "clicks": 0,
+        "spend": 13.27,
+        "spend_today": 13.27,
+        "clicks": 4,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -85,12 +85,12 @@
     "2026-03": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 26961.42
+      "spend": 26846.43
     },
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 60.18
+      "spend": 79.53999999999999
     }
   },
   "reps_by_month": {
@@ -210,8 +210,8 @@
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
-    "2026-03": 16557.37,
-    "2026-04": 60.18
+    "2026-03": 16442.38,
+    "2026-04": 79.54
   },
   "channel_by_month": {
     "2026-01": {
@@ -251,11 +251,11 @@
       }
     },
     "2026-03": {
-      "google_spend": 3567.69,
-      "meta_spend": 2585.63,
+      "google_spend": 3452.65,
+      "meta_spend": 2585.68,
       "ppc_leads": 15,
       "fb_leads": 31,
-      "google_cpc": 6.87,
+      "google_cpc": 6.67,
       "meta_cpc": 1.98,
       "pipeline_ppc": {
         "leads": 15,
@@ -277,12 +277,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 52.46,
-      "meta_spend": 7.72,
+      "google_spend": 66.27,
+      "meta_spend": 13.27,
       "ppc_leads": 0,
       "fb_leads": 0,
-      "google_cpc": 8.74,
-      "meta_cpc": null,
+      "google_cpc": 6.63,
+      "meta_cpc": 3.32,
       "pipeline_ppc": {},
       "pipeline_fb": {}
     }
@@ -350,5 +350,5 @@
       "source": "Facebook"
     }
   ],
-  "sms_status": "\u26a0\ufe0f SMS data unavailable: The read operation timed out"
+  "sms_status": "SMS data via Podio."
 }

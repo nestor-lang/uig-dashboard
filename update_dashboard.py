@@ -1020,7 +1020,10 @@ def wb_pipeline_for_agent(profile_id, token):
             contract_date = ""
             if dc_vals:
                 contract_date = (dc_vals[0].get("start_date","") or dc_vals[0].get("start","") or "")[:10]
-            mk = contract_date[:7] if contract_date else "unknown"
+            # Only include 2026 onwards
+            if not contract_date or contract_date < "2026-01-01":
+                continue
+            mk = contract_date[:7]
             # Accumulate
             by_month[mk]["counts"][key] += 1
             by_month[mk]["gp"][key]     += gp

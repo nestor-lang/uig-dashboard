@@ -1404,46 +1404,40 @@ async function showReport(month) {
           const wbAgent = (d.wb_pipeline || {})[cfg.name];
           if (!wbAgent) return '';
           const byMonth = wbAgent.by_month || {};
-          const monthKeys = Object.keys(byMonth).filter(mk => mk !== 'unknown').sort();
-          if (!monthKeys.length) return '';
           const monthNames = {'2026-01':'Jan','2026-02':'Feb','2026-03':'Mar','2026-04':'Apr','2026-05':'May','2026-06':'Jun','2026-07':'Jul','2026-08':'Aug','2026-09':'Sep','2026-10':'Oct','2026-11':'Nov','2026-12':'Dec'};
+          const wb = byMonth[month] || {};
+          const c = wb.counts || {};
+          const gp = wb.gp || {};
+          const total = wb.total || 0;
+          if (!total) return '';
+          const deadRate = total > 0 ? ((c.dead||0)/total*100).toFixed(0) : '0';
+          const label = monthNames[month] || month;
           return `
         <div style="border-top:0.5px solid var(--border);margin-top:12px;padding-top:12px;">
-          <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:12px;">Contracts by month</div>
-          ${monthKeys.map(mk => {
-            const wb = byMonth[mk];
-            const c = wb.counts || {};
-            const gp = wb.gp || {};
-            const total = wb.total || 0;
-            const deadRate = total > 0 ? ((c.dead||0)/total*100).toFixed(0) : '0';
-            const label = monthNames[mk] || mk;
-            return `
-            <div style="margin-bottom:14px;">
-              <div style="font-size:11px;font-weight:600;color:var(--muted);margin-bottom:8px;">${label} — ${total} contract${total!==1?'s':''}</div>
-              <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
-                <div style="background:var(--green-dim);border-radius:6px;padding:8px 10px;">
-                  <div style="font-size:9px;color:var(--green);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Closed</div>
-                  <div style="font-size:18px;font-weight:600;color:var(--green);margin:2px 0;">${c.closed||0}</div>
-                  <div style="font-size:10px;color:var(--muted);">${fmtGP(gp.closed||0)}</div>
-                </div>
-                <div style="background:var(--blue-dim);border-radius:6px;padding:8px 10px;">
-                  <div style="font-size:9px;color:var(--blue);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Title</div>
-                  <div style="font-size:18px;font-weight:600;color:var(--blue);margin:2px 0;">${c.pending||0}</div>
-                  <div style="font-size:10px;color:var(--muted);">${fmtGP(gp.pending||0)}</div>
-                </div>
-                <div style="background:var(--amber-dim);border-radius:6px;padding:8px 10px;">
-                  <div style="font-size:9px;color:var(--amber);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Avail</div>
-                  <div style="font-size:18px;font-weight:600;color:var(--amber);margin:2px 0;">${(c.available||0)+(c.on_hold||0)}</div>
-                  <div style="font-size:10px;color:var(--muted);">${fmtGP((gp.available||0)+(gp.on_hold||0))}</div>
-                </div>
-                <div style="background:var(--red-dim);border-radius:6px;padding:8px 10px;">
-                  <div style="font-size:9px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Dead</div>
-                  <div style="font-size:18px;font-weight:600;color:var(--red);margin:2px 0;">${c.dead||0}</div>
-                  <div style="font-size:10px;color:var(--muted);">${deadRate}%</div>
-                </div>
-              </div>
-            </div>`;
-          }).join('')}
+          <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:10px;">Contracts — ${label}</div>
+          <div style="font-size:12px;font-weight:600;color:var(--muted);margin-bottom:8px;">${total} contract${total!==1?'s':''}</div>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+            <div style="background:var(--green-dim);border-radius:6px;padding:8px 10px;">
+              <div style="font-size:9px;color:var(--green);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Closed</div>
+              <div style="font-size:18px;font-weight:600;color:var(--green);margin:2px 0;">${c.closed||0}</div>
+              <div style="font-size:10px;color:var(--muted);">${fmtGP(gp.closed||0)}</div>
+            </div>
+            <div style="background:var(--blue-dim);border-radius:6px;padding:8px 10px;">
+              <div style="font-size:9px;color:var(--blue);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Title</div>
+              <div style="font-size:18px;font-weight:600;color:var(--blue);margin:2px 0;">${c.pending||0}</div>
+              <div style="font-size:10px;color:var(--muted);">${fmtGP(gp.pending||0)}</div>
+            </div>
+            <div style="background:var(--amber-dim);border-radius:6px;padding:8px 10px;">
+              <div style="font-size:9px;color:var(--amber);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Avail</div>
+              <div style="font-size:18px;font-weight:600;color:var(--amber);margin:2px 0;">${(c.available||0)+(c.on_hold||0)}</div>
+              <div style="font-size:10px;color:var(--muted);">${fmtGP((gp.available||0)+(gp.on_hold||0))}</div>
+            </div>
+            <div style="background:var(--red-dim);border-radius:6px;padding:8px 10px;">
+              <div style="font-size:9px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Dead</div>
+              <div style="font-size:18px;font-weight:600;color:var(--red);margin:2px 0;">${c.dead||0}</div>
+              <div style="font-size:10px;color:var(--muted);">${deadRate}%</div>
+            </div>
+          </div>
         </div>`;
         })()}
       </div>`;

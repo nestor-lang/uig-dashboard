@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.12
 """
 update_dashboard.py
 Pulls data from Podio, Google Ads, and Meta — generates data.json and pushes to GitHub.
@@ -960,11 +960,26 @@ for mk, agents in closed_by_agent_month.items():
 print("Pulling Whiteboard pipeline per rep...")
 AGENT_PROFILE_IDS = {"Julian": 271855534, "Charles": 272037927}
 
+def status_bucket(status):
+    s = status.lower()
+    if "closed" in s: return "closed"
+    if "title" in s or "pending" in s or "assigned" in s: return "pending"
+    if "available" in s: return "available"
+    if "dead" in s: return "dead"
+    if "hold" in s: return "on_hold"
+    return "other"
+
 def wb_pipeline_for_agent(profile_id, token):
-    """Pull all whiteboard deals for a given agent profile_id and bucket by status."""
+    """Pull all whiteboard deals for a given agent, bucketed by contract month and status."""
     h = {"Authorization": f"Bearer {token}", "Content-Type": "application/json", "Accept-Encoding": "gzip"}
-    buckets = {"closed": 0, "pending": 0, "available": 0, "dead": 0, "on_hold": 0, "other": 0}
-    gp_buckets = {"closed": 0.0, "pending": 0.0, "available": 0.0, "dead": 0.0, "on_hold": 0.0, "other": 0.0}
+    # by_month: {month_key: {counts: {...}, gp: {...}, total: int}}
+    by_month = defaultdict(lambda: {
+        "counts": defaultdict(int),
+        "gp":     defaultdict(float),
+        "total":  0
+    })
+    all_counts = defaultdict(int)
+    all_gp     = defaultdict(float)
     total_deals = 0
     offset = 0
     while True:
@@ -988,35 +1003,50 @@ def wb_pipeline_for_agent(profile_id, token):
         items = result.get("items", [])
         for item in items:
             fields = {f["external_id"]: f.get("values") for f in item.get("fields", [])}
+            # Status
             status_vals = fields.get("status-2") or []
             status = ""
             if status_vals:
                 sv = status_vals[0].get("value", {})
                 status = sv.get("text","") if isinstance(sv, dict) else str(sv)
+            key = status_bucket(status)
+            # GP
             gp_vals = fields.get("gross-profit-2") or []
             gp = 0.0
             try: gp = float(gp_vals[0].get("value", 0) or 0) if gp_vals else 0.0
             except: pass
-            status_lower = status.lower()
-            if "closed" in status_lower:
-                key = "closed"
-            elif "title" in status_lower or "pending" in status_lower or "assigned" in status_lower:
-                key = "pending"
-            elif "available" in status_lower:
-                key = "available"
-            elif "dead" in status_lower:
-                key = "dead"
-            elif "hold" in status_lower:
-                key = "on_hold"
-            else:
-                key = "other"
-            buckets[key] += 1
-            gp_buckets[key] += gp
+            # Contract month (date-created field)
+            dc_vals = fields.get("date-created") or []
+            contract_date = ""
+            if dc_vals:
+                contract_date = (dc_vals[0].get("start_date","") or dc_vals[0].get("start","") or "")[:10]
+            mk = contract_date[:7] if contract_date else "unknown"
+            # Accumulate
+            by_month[mk]["counts"][key] += 1
+            by_month[mk]["gp"][key]     += gp
+            by_month[mk]["total"]       += 1
+            all_counts[key] += 1
+            all_gp[key]     += gp
             total_deals += 1
         if len(items) < 200:
             break
         offset += 200
-    return {"counts": buckets, "gp": {k: round(v) for k, v in gp_buckets.items()}, "total": total_deals}
+    # Serialize
+    serialized = {}
+    for mk, v in sorted(by_month.items()):
+        serialized[mk] = {
+            "counts": dict(v["counts"]),
+            "gp":     {k: round(vv) for k, vv in v["gp"].items()},
+            "total":  v["total"]
+        }
+    return {
+        "by_month": serialized,
+        "all_time": {
+            "counts": dict(all_counts),
+            "gp":     {k: round(v) for k, v in all_gp.items()},
+            "total":  total_deals
+        }
+    }
 
 # Re-auth whiteboard for this pull
 try:
@@ -1028,8 +1058,9 @@ try:
     wb_pipeline = {}
     for agent_name, profile_id in AGENT_PROFILE_IDS.items():
         wb_pipeline[agent_name] = wb_pipeline_for_agent(profile_id, wb_token3)
-        c = wb_pipeline[agent_name]["counts"]
-        print(f"  {agent_name}: {wb_pipeline[agent_name]['total']} total | closed={c['closed']} pending={c['pending']} available={c['available']} dead={c['dead']} on_hold={c['on_hold']}")
+        at = wb_pipeline[agent_name]["all_time"]
+        c = at["counts"]
+        print(f"  {agent_name}: {at['total']} total | closed={c.get('closed',0)} pending={c.get('pending',0)} available={c.get('available',0)} dead={c.get('dead',0)}")
 except Exception as e:
     print(f"  ⚠️ WB pipeline per rep failed: {e}")
     wb_pipeline = {}

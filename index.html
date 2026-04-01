@@ -766,6 +766,12 @@ function fmt2(n) {
   if (n == null || n === '') return '—';
   return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
+function fmtGP(n) {
+  if (!n) return '$0';
+  if (n >= 1000000) return '$' + (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000) return '$' + Math.round(n/1000) + 'k';
+  return '$' + Math.round(n).toLocaleString();
+}
 function num(n) {
   if (n == null) return '—';
   return Number(n).toLocaleString('en-US');
@@ -1392,6 +1398,40 @@ async function showReport(month) {
             <div class="ap-footer-val" style="font-size:18px;">${fmt(rep.closed_revenue || 0)}</div>
           </div>
         </div>
+        ${(() => {
+          const wb = (d.wb_pipeline || {})[cfg.name];
+          if (!wb) return '';
+          const c = wb.counts || {};
+          const gp = wb.gp || {};
+          const total = wb.total || 0;
+          const deadRate = total > 0 ? ((c.dead||0) / total * 100).toFixed(0) : '0';
+          return `
+        <div style="border-top:0.5px solid var(--border);margin-top:12px;padding-top:12px;">
+          <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:10px;">All-time pipeline backend</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+            <div style="background:var(--green-dim);border-radius:8px;padding:10px 12px;">
+              <div style="font-size:10px;color:var(--green);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Closed</div>
+              <div style="font-size:20px;font-weight:600;color:var(--green);margin:2px 0;">${c.closed||0}</div>
+              <div style="font-size:11px;color:var(--muted);">${fmtGP(gp.closed||0)}</div>
+            </div>
+            <div style="background:var(--blue-dim);border-radius:8px;padding:10px 12px;">
+              <div style="font-size:10px;color:var(--blue);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">In Title</div>
+              <div style="font-size:20px;font-weight:600;color:var(--blue);margin:2px 0;">${c.pending||0}</div>
+              <div style="font-size:11px;color:var(--muted);">${fmtGP(gp.pending||0)}</div>
+            </div>
+            <div style="background:var(--amber-dim);border-radius:8px;padding:10px 12px;">
+              <div style="font-size:10px;color:var(--amber);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Available</div>
+              <div style="font-size:20px;font-weight:600;color:var(--amber);margin:2px 0;">${(c.available||0)+(c.on_hold||0)}</div>
+              <div style="font-size:11px;color:var(--muted);">${fmtGP((gp.available||0)+(gp.on_hold||0))}</div>
+            </div>
+            <div style="background:var(--red-dim);border-radius:8px;padding:10px 12px;">
+              <div style="font-size:10px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;">Dead</div>
+              <div style="font-size:20px;font-weight:600;color:var(--red);margin:2px 0;">${c.dead||0}</div>
+              <div style="font-size:11px;color:var(--muted);">${deadRate}% of total</div>
+            </div>
+          </div>
+        </div>`;
+        })()}
       </div>`;
     }).join('');
   }

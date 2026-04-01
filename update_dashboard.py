@@ -4,7 +4,6 @@ update_dashboard.py
 Pulls data from Podio, Google Ads, and Meta — generates data.json and pushes to GitHub.
 """
 
-import os
 import json, urllib.request, urllib.parse, base64, subprocess, sys, gzip as _gzip, io as _io
 from datetime import datetime, timedelta
 from collections import defaultdict
@@ -957,6 +956,84 @@ for mk, agents in closed_by_agent_month.items():
             reps_by_month[mk][agent] = blank_rep()
         reps_by_month[mk][agent]["closed_revenue"] = round(amount, 2)
 
+# ── 7d. Whiteboard pipeline snapshot per rep (contracts by status) ─────────────
+print("Pulling Whiteboard pipeline per rep...")
+AGENT_PROFILE_IDS = {"Julian": 271855534, "Charles": 272037927}
+
+def wb_pipeline_for_agent(profile_id, token):
+    """Pull all whiteboard deals for a given agent profile_id and bucket by status."""
+    h = {"Authorization": f"Bearer {token}", "Content-Type": "application/json", "Accept-Encoding": "gzip"}
+    buckets = {"closed": 0, "pending": 0, "available": 0, "dead": 0, "on_hold": 0, "other": 0}
+    gp_buckets = {"closed": 0.0, "pending": 0.0, "available": 0.0, "dead": 0.0, "on_hold": 0.0, "other": 0.0}
+    total_deals = 0
+    offset = 0
+    while True:
+        body = json.dumps({
+            "limit": 200, "offset": offset,
+            "filters": {"agent": [profile_id]},
+            "sort_by": "created_on", "sort_desc": True
+        }).encode()
+        req = urllib.request.Request(
+            f"https://api.podio.com/item/app/{WHITEBOARD_APP_ID}/filter/",
+            data=body, headers=h, method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                raw = r.read()
+                if r.headers.get("Content-Encoding","") == "gzip":
+                    raw = _gzip.GzipFile(fileobj=_io.BytesIO(raw)).read()
+                result = json.loads(raw)
+        except Exception as e:
+            print(f"  ⚠️ WB pipeline fetch error: {e}")
+            break
+        items = result.get("items", [])
+        for item in items:
+            fields = {f["external_id"]: f.get("values") for f in item.get("fields", [])}
+            status_vals = fields.get("status-2") or []
+            status = ""
+            if status_vals:
+                sv = status_vals[0].get("value", {})
+                status = sv.get("text","") if isinstance(sv, dict) else str(sv)
+            gp_vals = fields.get("gross-profit-2") or []
+            gp = 0.0
+            try: gp = float(gp_vals[0].get("value", 0) or 0) if gp_vals else 0.0
+            except: pass
+            status_lower = status.lower()
+            if "closed" in status_lower:
+                key = "closed"
+            elif "title" in status_lower or "pending" in status_lower or "assigned" in status_lower:
+                key = "pending"
+            elif "available" in status_lower:
+                key = "available"
+            elif "dead" in status_lower:
+                key = "dead"
+            elif "hold" in status_lower:
+                key = "on_hold"
+            else:
+                key = "other"
+            buckets[key] += 1
+            gp_buckets[key] += gp
+            total_deals += 1
+        if len(items) < 200:
+            break
+        offset += 200
+    return {"counts": buckets, "gp": {k: round(v) for k, v in gp_buckets.items()}, "total": total_deals}
+
+# Re-auth whiteboard for this pull
+try:
+    wb_auth3 = post("https://podio.com/oauth/token", {
+        "grant_type": "app", "app_id": WHITEBOARD_APP_ID, "app_token": WHITEBOARD_APP_TOKEN,
+        "client_id": PODIO_CLIENT_ID, "client_secret": PODIO_SECRET
+    }, form=True)
+    wb_token3 = wb_auth3["access_token"]
+    wb_pipeline = {}
+    for agent_name, profile_id in AGENT_PROFILE_IDS.items():
+        wb_pipeline[agent_name] = wb_pipeline_for_agent(profile_id, wb_token3)
+        c = wb_pipeline[agent_name]["counts"]
+        print(f"  {agent_name}: {wb_pipeline[agent_name]['total']} total | closed={c['closed']} pending={c['pending']} available={c['available']} dead={c['dead']} on_hold={c['on_hold']}")
+except Exception as e:
+    print(f"  ⚠️ WB pipeline per rep failed: {e}")
+    wb_pipeline = {}
+
 # ── 8. Build data.json ────────────────────────────────────────────────────────
 print("Building data.json...")
 data = {
@@ -993,6 +1070,7 @@ data = {
     "closed_by_month": closed_by_month,
     "roa_by_month": {k: v for k, v in sorted(roa_by_month.items()) if k <= current_month},
     "reps_by_month": {k: v for k, v in sorted(reps_by_month.items()) if k <= current_month},
+    "wb_pipeline": wb_pipeline,
     "spend_by_month": {
         mk: round(meta_spend_by_month.get(mk, 0) + google_spend_by_month.get(mk, 0) + sms_spend_by_month.get(mk, 0), 2)
         for mk, since, _ in META_MONTH_RANGES if since <= today_str

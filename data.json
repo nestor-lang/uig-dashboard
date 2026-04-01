@@ -1,6 +1,6 @@
 {
   "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 14:00 AST",
+  "last_updated": "2026-04-01 14:02 AST",
   "google": {
     "spend_mtd": 69.58,
     "clicks_mtd": 12,
@@ -33,17 +33,17 @@
     ]
   },
   "meta": {
-    "spend_30d": 48.33,
+    "spend_30d": 48.59,
     "clicks_30d": 17,
     "crm_leads": 0,
-    "cpc": 2.84,
+    "cpc": 2.86,
     "cpl_crm": null,
-    "cost_per_hot": 12.08,
+    "cost_per_hot": 12.15,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 48.33,
-        "spend_today": 48.33,
+        "spend": 48.59,
+        "spend_today": 48.59,
         "clicks": 17,
         "crm_leads": 0,
         "cpl_crm": null
@@ -209,52 +209,6 @@
   "wb_pipeline": {
     "Julian": {
       "by_month": {
-        "2025-09": {
-          "counts": {
-            "dead": 1,
-            "closed": 2
-          },
-          "gp": {
-            "dead": 34250,
-            "closed": 24885
-          },
-          "total": 3
-        },
-        "2025-10": {
-          "counts": {
-            "closed": 3,
-            "dead": 1
-          },
-          "gp": {
-            "closed": 64800,
-            "dead": 25000
-          },
-          "total": 4
-        },
-        "2025-11": {
-          "counts": {
-            "closed": 5,
-            "dead": 1
-          },
-          "gp": {
-            "closed": 98019,
-            "dead": 15000
-          },
-          "total": 6
-        },
-        "2025-12": {
-          "counts": {
-            "dead": 6,
-            "closed": 6,
-            "pending": 1
-          },
-          "gp": {
-            "dead": 139263,
-            "closed": 95903,
-            "pending": 29188
-          },
-          "total": 13
-        },
         "2026-01": {
           "counts": {
             "closed": 7,
@@ -298,19 +252,19 @@
       "all_time": {
         "counts": {
           "available": 7,
-          "pending": 6,
+          "pending": 5,
           "on_hold": 2,
-          "dead": 24,
-          "closed": 23
+          "dead": 15,
+          "closed": 7
         },
         "gp": {
           "available": 239460,
-          "pending": 139795,
+          "pending": 110607,
           "on_hold": 88191,
-          "dead": 544956,
-          "closed": 423810
+          "dead": 331443,
+          "closed": 140203
         },
-        "total": 62
+        "total": 36
       }
     },
     "Charles": {

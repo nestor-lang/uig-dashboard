@@ -1,12 +1,12 @@
 {
-  "report_date": "April 01, 2026",
-  "last_updated": "2026-04-01 20:00 AST",
+  "report_date": "April 02, 2026",
+  "last_updated": "2026-04-02 05:53 AST",
   "google": {
-    "spend_mtd": 261.66,
-    "clicks_mtd": 20,
+    "spend_mtd": 366.97,
+    "clicks_mtd": 28,
     "crm_leads": 2,
-    "cpc": 13.08,
-    "cpl": 130.83,
+    "cpc": 13.11,
+    "cpl": 183.49,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,39 +14,39 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 24.93,
-        "spend_today": 24.93,
-        "clicks": 13,
-        "cpc": 1.92,
+        "spend": 41.82,
+        "spend_today": 8.5,
+        "clicks": 19,
+        "cpc": 2.2,
         "crm_leads": 0,
-        "cpl": 130.83
+        "cpl": 183.49
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 236.73,
-        "spend_today": 236.73,
-        "clicks": 7,
-        "cpc": 33.82,
+        "spend": 325.15,
+        "spend_today": 0.0,
+        "clicks": 9,
+        "cpc": 36.13,
         "crm_leads": 0,
-        "cpl": 130.83
+        "cpl": 183.49
       }
     ]
   },
   "meta": {
-    "spend_30d": 74.77,
-    "clicks_30d": 35,
+    "spend_30d": 89.3,
+    "clicks_30d": 38,
     "crm_leads": 3,
-    "cpc": 2.14,
-    "cpl_crm": 24.92,
-    "cost_per_hot": 14.95,
+    "cpc": 2.35,
+    "cpl_crm": 29.77,
+    "cost_per_hot": 17.86,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 74.77,
-        "spend_today": 74.77,
-        "clicks": 35,
+        "spend": 89.3,
+        "spend_today": 1.78,
+        "clicks": 38,
         "crm_leads": 3,
-        "cpl_crm": 24.92
+        "cpl_crm": 29.77
       }
     ]
   },
@@ -66,12 +66,7 @@
     "Michigan": 27075,
     "Maryland": 22500
   },
-  "closed_by_month": {
-    "2026-01": 194741,
-    "2026-02": 181515,
-    "2026-03": 229362,
-    "2026-04": 42660
-  },
+  "closed_by_month": {},
   "roa_by_month": {
     "2026-01": {
       "closed": 236456.0,
@@ -91,13 +86,13 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 336.43
+      "spend": 456.27000000000004
     }
   },
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 15,
+        "leads": 0,
         "active": 0,
         "booked": 7,
         "offers": 9,
@@ -110,7 +105,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 36,
+        "leads": 0,
         "active": 0,
         "booked": 25,
         "offers": 37,
@@ -125,7 +120,7 @@
     },
     "2026-02": {
       "Charles": {
-        "leads": 14,
+        "leads": 11,
         "active": 5,
         "booked": 16,
         "offers": 19,
@@ -138,7 +133,7 @@
         "closed_revenue": 40116.5
       },
       "Julian": {
-        "leads": 35,
+        "leads": 5,
         "active": 2,
         "booked": 20,
         "offers": 33,
@@ -153,7 +148,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 19,
         "active": 11,
         "booked": 14,
         "offers": 24,
@@ -166,7 +161,7 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 41,
+        "leads": 19,
         "active": 13,
         "booked": 22,
         "offers": 43,
@@ -181,7 +176,7 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 2,
+        "leads": 1,
         "active": 1,
         "booked": 1,
         "offers": 1,
@@ -347,7 +342,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 336.43
+    "2026-04": 456.27
   },
   "channel_by_month": {
     "2026-01": {
@@ -413,12 +408,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 261.66,
-      "meta_spend": 74.77,
+      "google_spend": 366.97,
+      "meta_spend": 89.3,
       "ppc_leads": 2,
       "fb_leads": 3,
-      "google_cpc": 13.08,
-      "meta_cpc": 2.14,
+      "google_cpc": 13.11,
+      "meta_cpc": 2.35,
       "pipeline_ppc": {
         "leads": 2,
         "active": 2,

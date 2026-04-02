@@ -1,6 +1,6 @@
 {
   "report_date": "April 02, 2026",
-  "last_updated": "2026-04-02 11:00 AST",
+  "last_updated": "2026-04-02 12:00 AST",
   "google": {
     "spend_mtd": 379.93,
     "clicks_mtd": 31,
@@ -33,20 +33,20 @@
     ]
   },
   "meta": {
-    "spend_30d": 118.8,
-    "clicks_30d": 45,
+    "spend_30d": 120.09,
+    "clicks_30d": 46,
     "crm_leads": 3,
-    "cpc": 2.64,
-    "cpl_crm": 39.6,
-    "cost_per_hot": 23.76,
+    "cpc": 2.61,
+    "cpl_crm": 40.03,
+    "cost_per_hot": 30.02,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 118.8,
-        "spend_today": 29.92,
-        "clicks": 45,
+        "spend": 120.09,
+        "spend_today": 31.14,
+        "clicks": 46,
         "crm_leads": 3,
-        "cpl_crm": 39.6
+        "cpl_crm": 40.03
       }
     ]
   },
@@ -91,7 +91,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 498.73
+      "spend": 500.02
     }
   },
   "reps_by_month": {
@@ -347,7 +347,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 498.73
+    "2026-04": 500.02
   },
   "channel_by_month": {
     "2026-01": {
@@ -414,11 +414,11 @@
     },
     "2026-04": {
       "google_spend": 379.93,
-      "meta_spend": 118.8,
+      "meta_spend": 120.09,
       "ppc_leads": 2,
       "fb_leads": 3,
       "google_cpc": 12.26,
-      "meta_cpc": 2.64,
+      "meta_cpc": 2.61,
       "pipeline_ppc": {
         "leads": 2,
         "active": 2,
@@ -441,7 +441,7 @@
   },
   "pipeline": {
     "new_leads_30d": 5,
-    "hot": 5,
+    "hot": 4,
     "booked": 2,
     "offers": 2,
     "under_contract": 0,
@@ -471,12 +471,6 @@
     "ppc_inbound_call": 8
   },
   "hot_leads": [
-    {
-      "name": "5454 Rosehall Pl",
-      "address": "5454 Rosehall Pl, Atlanta, GA 30349, USA",
-      "phone": "(678) 643-2850",
-      "source": "Facebook"
-    },
     {
       "name": "100 Winslow Ct",
       "address": "100 Winslow Ct, McDonough, GA 30253, USA",

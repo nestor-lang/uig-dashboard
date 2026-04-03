@@ -1,6 +1,6 @@
 {
   "report_date": "April 03, 2026",
-  "last_updated": "2026-04-03 16:00 EST",
+  "last_updated": "2026-04-03 17:00 EST",
   "google": {
     "spend_mtd": 912.92,
     "clicks_mtd": 52,
@@ -33,37 +33,37 @@
     ]
   },
   "meta": {
-    "spend_30d": 307.81,
+    "spend_30d": 318.73,
     "clicks_30d": 97,
-    "crm_leads": 4,
-    "cpc": 3.17,
-    "cpl_crm": 76.95,
-    "cost_per_hot": 76.95,
+    "crm_leads": 5,
+    "cpc": 3.29,
+    "cpl_crm": 63.75,
+    "cost_per_hot": 79.68,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 194.29,
-        "spend_today": 40.09,
+        "spend": 201.8,
+        "spend_today": 47.6,
         "clicks": 71,
-        "crm_leads": 4,
-        "cpl_crm": 48.57
+        "crm_leads": 5,
+        "cpl_crm": 40.36
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 113.52,
-        "spend_today": 79.57,
+        "spend": 116.93,
+        "spend_today": 82.98,
         "clicks": 26,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 414543,
+  "potential_income": 400292,
   "assigned_income": 183895,
   "by_stage": {
     "Access Scheduled": 208106,
-    "On Market": 91938,
     "Initial Inspection Completed": 79500,
+    "On Market": 77687,
     "Market Prep / Pre-Listing Marketing": 34999
   },
   "by_agent": {
@@ -98,7 +98,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1220.73
+      "spend": 1231.65
     }
   },
   "reps_by_month": {
@@ -248,7 +248,7 @@
             "on_hold": 88191,
             "pending": 67689,
             "dead": 54564,
-            "available": 47539
+            "available": 33288
           },
           "total": 8
         },
@@ -282,7 +282,7 @@
           "closed": 7
         },
         "gp": {
-          "available": 300119,
+          "available": 285868,
           "pending": 110607,
           "on_hold": 88191,
           "dead": 331443,
@@ -370,7 +370,7 @@
         },
         {
           "address": "2537 Carmel Rd, Birmingham, AL 35235",
-          "value": 47539,
+          "value": 33288,
           "status": "Available",
           "days_in_pipeline": 58,
           "contract_month": "2026-02"
@@ -497,7 +497,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 1220.73
+    "2026-04": 1231.65
   },
   "channel_by_month": {
     "2026-01": {
@@ -564,11 +564,11 @@
     },
     "2026-04": {
       "google_spend": 912.92,
-      "meta_spend": 307.81,
+      "meta_spend": 318.73,
       "ppc_leads": 5,
-      "fb_leads": 4,
+      "fb_leads": 5,
       "google_cpc": 17.56,
-      "meta_cpc": 3.17,
+      "meta_cpc": 3.29,
       "pipeline_ppc": {
         "leads": 5,
         "active": 5,
@@ -579,8 +579,8 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 4,
-        "active": 3,
+        "leads": 5,
+        "active": 4,
         "booked": 1,
         "offered": 1,
         "accepted": 0,
@@ -590,7 +590,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 9,
+    "new_leads_30d": 10,
     "dispositioned_mtd": 5,
     "hot": 5,
     "booked": 3,
@@ -599,8 +599,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 4,
-    "active": 3,
+    "leads": 5,
+    "active": 4,
     "booked": 1,
     "offered": 1,
     "accepted": 0,
@@ -631,7 +631,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 410727,
+    "Julian": 396476,
     "Charles": 158524
   },
   "agent_deals": [
@@ -725,7 +725,7 @@
     },
     {
       "address": "2537 Carmel Rd, Birmingham, AL 35235",
-      "value": 47539,
+      "value": 33288,
       "status": "Available",
       "days_in_pipeline": 58,
       "contract_month": "2026-02",
@@ -790,7 +790,7 @@
   ],
   "sources": {
     "ppc": 5,
-    "facebook": 4,
+    "facebook": 5,
     "ppc_inbound_call": 8
   },
   "hot_leads": [

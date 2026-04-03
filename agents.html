@@ -74,27 +74,6 @@
     }
     .month-picker:focus { outline: none; border-color: var(--green); }
 
-    /* ── Nav ── */
-    .nav-links {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 2rem;
-    }
-    .nav-link {
-      font-family: 'DM Mono', monospace;
-      font-size: 11px;
-      padding: 5px 12px;
-      border-radius: 6px;
-      border: 0.5px solid var(--border2);
-      background: var(--surface);
-      color: var(--muted);
-      text-decoration: none;
-      cursor: pointer;
-      transition: background 0.12s, color 0.12s;
-    }
-    .nav-link:hover { background: var(--surface2); color: var(--text); }
-    .nav-link.active { background: var(--green-dim); color: var(--green); border-color: rgba(22,163,74,0.2); }
-
     /* ── Section label ── */
     .section-label {
       font-size: 10px;
@@ -290,13 +269,6 @@
       <div class="last-updated" id="last-updated">—</div>
       <select class="month-picker" id="month-picker" onchange="selectMonth(this.value)"></select>
     </div>
-  </div>
-
-  <!-- Nav -->
-  <div class="nav-links">
-    <a class="nav-link" href="index.html">ROA Dashboard</a>
-    <a class="nav-link active" href="agents.html">Closer Scorecard</a>
-    <a class="nav-link" href="https://nestor-lang.github.io/uig-steven-scorecard/" target="_blank">Nurture Scorecard</a>
   </div>
 
   <!-- Team strip -->

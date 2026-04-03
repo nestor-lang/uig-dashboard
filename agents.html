@@ -698,17 +698,18 @@
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
 
-    // Use reps_by_month from latest data — accurate historical source
+    // Use reps_by_month[month][agent].accepted — the correct contracts field
     const latestD  = allMonthData[availMonths[0]] || {};
     const repsHist = latestD.reps_by_month || {};
-    const dataMonths = availMonths.filter(k => k.startsWith(YEAR+'-')).slice().reverse();
+    // Only months that exist in reps_by_month, sorted Jan → latest
+    const dataMonths = Object.keys(repsHist).filter(k => k.startsWith(YEAR+'-')).sort();
     const labels = dataMonths.map(k => {
       const [,m] = k.split('-');
       return new Date(2026, +m-1, 1).toLocaleString('en-US', {month:'short'});
     });
     const chartData = dataMonths.map(k => {
       const rep = (repsHist[k] || {})[agent] || {};
-      return rep.accepted || rep.contracts || 0;
+      return rep.accepted || 0;
     });
 
     new Chart(canvas, {
@@ -749,13 +750,14 @@
 
     const latestD  = allMonthData[availMonths[0]] || {};
     const repsHist = latestD.reps_by_month || {};
-    const dataMonths = availMonths.filter(k => k.startsWith(YEAR+'-')).slice().reverse();
+    // Only months that exist in reps_by_month, sorted Jan → latest
+    const dataMonths = Object.keys(repsHist).filter(k => k.startsWith(YEAR+'-')).sort();
     const labels = dataMonths.map(k => {
       const [,m] = k.split('-');
       return new Date(2026, +m-1, 1).toLocaleString('en-US', {month:'short'});
     });
-    const juData = dataMonths.map(k => (repsHist[k]?.['Julian']?.closed_revenue)  || (allMonthData[k]?.reps?.['Julian']?.revenue)  || 0);
-    const chData = dataMonths.map(k => (repsHist[k]?.['Charles']?.closed_revenue) || (allMonthData[k]?.reps?.['Charles']?.revenue) || 0);
+    const juData = dataMonths.map(k => (repsHist[k]?.['Julian']?.closed_revenue)  || 0);
+    const chData = dataMonths.map(k => (repsHist[k]?.['Charles']?.closed_revenue) || 0);
 
     new Chart(document.getElementById('rev-chart'), {
       type: 'bar',

@@ -807,8 +807,9 @@
 
   function agentDealCard(initials, avClass, name, deals, pipeTotal) {
     const totalGP  = deals.reduce((s,dl) => s+(dl.value||0), 0);
-    const pending  = deals.filter(dl => (dl.status||'').toLowerCase().includes('pending')).length;
-    const avail    = deals.filter(dl => !(dl.status||'').toLowerCase().includes('pending')).length;
+    const isPending = dl => { const s = (dl.status||'').toLowerCase(); return s.includes('pending') || s.includes('title') || s.includes('assigned'); };
+    const pending  = deals.filter(isPending).length;
+    const avail    = deals.filter(dl => !isPending(dl)).length;
 
     const rows = deals.length === 0
       ? `<div class="empty-msg">No active deals</div>`

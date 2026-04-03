@@ -219,7 +219,7 @@
 
     .activity-sec { padding: 14px 18px; }
     .sec-title { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
-    .chart-wrap { height: 80px; margin-bottom: 10px; }
+    .chart-wrap { height: 90px; margin-bottom: 10px; }
 
     .conv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
     .conv-cell { background: var(--surface2); border-radius: 8px; padding: 10px 12px; }
@@ -228,7 +228,7 @@
     .conv-bar-bg { height: 4px; background: var(--border2); border-radius: 2px; margin-top: 6px; }
     .conv-bar { height: 4px; border-radius: 2px; }
 
-    /* ── Revenue chart ── */
+    /* ── Sections ── */
     .section {
       background: var(--surface);
       border: 0.5px solid var(--border);
@@ -238,45 +238,58 @@
     }
     .section-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
     .section-sub { font-size: 12px; color: var(--muted); margin-bottom: 1.25rem; }
-    .rev-chart-wrap { height: 180px; }
+    .rev-chart-wrap { height: 200px; }
 
-    /* ── Deals cards ── */
-    .deals-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-bottom: 1.5rem;
-    }
-    .deal-card {
+    /* ── Deals table ── */
+    .deals-table-wrap {
       background: var(--surface);
       border: 0.5px solid var(--border);
       border-radius: 12px;
       overflow: hidden;
+      margin-bottom: 1.5rem;
     }
-    .deal-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 13px 16px;
-      border-bottom: 0.5px solid var(--border);
-    }
-    .deal-head-left { display: flex; align-items: center; gap: 8px; }
-    .av-sm { width: 26px; height: 26px; font-size: 10px; }
-    .deal-head-name { font-size: 13px; font-weight: 600; }
-    .deal-head-pipe { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--green); }
-    .deal-list { padding: 8px 0; }
-    .deal-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    .deals-table-head {
+      display: grid;
+      grid-template-columns: 1fr 80px 90px 80px 90px;
       padding: 9px 16px;
-      border-bottom: 0.5px solid var(--border);
+      background: var(--surface2);
+      border-bottom: 0.5px solid var(--border2);
     }
-    .deal-row:last-child { border-bottom: none; }
+    .deals-table-head span {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--faint);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .deals-table-head span:not(:first-child) { text-align: right; }
+    .deal-tr {
+      display: grid;
+      grid-template-columns: 1fr 80px 90px 80px 90px;
+      padding: 10px 16px;
+      border-bottom: 0.5px solid var(--border);
+      align-items: center;
+    }
+    .deal-tr:last-child { border-bottom: none; }
+    .deal-tr.totals-row {
+      background: var(--surface2);
+      border-top: 0.5px solid var(--border2);
+      font-weight: 700;
+    }
+    .deal-tr > div:not(:first-child) { text-align: right; }
     .deal-addr { font-size: 12px; font-weight: 500; }
     .deal-meta { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--faint); margin-top: 2px; }
-    .deal-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; margin-left: 12px; }
-    .deal-val { font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 500; }
+    .deal-val { font-family: 'DM Mono', monospace; font-size: 12px; }
+    .deal-agent-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .tag-ju { background: var(--ju-dim); color: var(--ju); }
+    .tag-ch { background: var(--ch-dim); color: var(--ch); }
     .badge {
       font-family: 'DM Mono', monospace;
       font-size: 9px;
@@ -353,8 +366,8 @@
   </div>
 
   <!-- Active deals -->
-  <div class="section-label">Active Deals (Available + Pending)</div>
-  <div class="deals-grid" id="deals-grid"></div>
+  <div class="section-label">Active Deals — Whiteboard (Available + Pending)</div>
+  <div class="deals-table-wrap" id="deals-table"></div>
 
 </div>
 
@@ -583,17 +596,16 @@
     `;
   }
 
-  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, mk) {
-    const disc = data.discoveries || 0;
-    const off  = data.offers      || 0;
-    const con  = data.contracts   || 0;
-    const rev  = data.revenue     || 0;
+  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, periodLabel) {
+    const disc    = data.discoveries || 0;
+    const off     = data.offers      || 0;
+    const con     = data.contracts   || 0;
+    const rev     = data.revenue     || 0;
     const pipeVal = pipe || 0;
-
-    const r1     = pct(off, disc);
-    const r2     = pct(con, off);
-    const r1n    = pctNum(off, disc);
-    const r2n    = pctNum(con, off);
+    const r1      = pct(off, disc);
+    const r2      = pct(con, off);
+    const r1n     = pctNum(off, disc);
+    const r2n     = pctNum(con, off);
     const canvasId = 'chart-' + name.toLowerCase();
 
     return `
@@ -608,7 +620,7 @@
         </div>
         <div class="head-rev">
           <div class="rev-val" style="${rev > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${fmtMoneyFull(rev)}</div>
-          <div class="rev-lbl">closed this month</div>
+          <div class="rev-lbl">closed — ${periodLabel}</div>
         </div>
       </div>
 
@@ -616,24 +628,24 @@
         <div class="met">
           <div class="met-label">Discoveries</div>
           <div class="met-value">${disc}</div>
-          <div class="met-sub">leads activated</div>
+          <div class="met-sub">${periodLabel}</div>
         </div>
         <div class="met">
           <div class="met-label">Offers</div>
           <div class="met-value" style="${off > 0 ? 'color:var(--amber)' : 'color:var(--faint)'}">${off}</div>
-          <div class="met-sub">made this month</div>
+          <div class="met-sub">${periodLabel}</div>
         </div>
         <div class="met">
           <div class="met-label">Contracts</div>
           <div class="met-value" style="${con > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${con}</div>
-          <div class="met-sub">under contract</div>
+          <div class="met-sub">${periodLabel}</div>
         </div>
       </div>
 
       <div class="rates-row">
         <div class="rate">
           <div class="rate-label">Disc → offer</div>
-          <div class="rate-value" style="${off > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${r1}</div>
+          <div class="rate-value" style="${off > 0 ? 'color:var(--amber)' : 'color:var(--faint)'}">${r1}</div>
         </div>
         <div class="rate">
           <div class="rate-label">Offer → contract</div>
@@ -664,11 +676,13 @@
     </div>`;
   }
 
-  function renderAgentCards(ju, ch, pipe, mk) {
+  function renderAgentCards(ju, ch, pipe, mode) {
+    const lbl = periodLabel(mode);
     document.getElementById('agents-grid').innerHTML =
-      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  mk) +
-      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], mk);
+      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  lbl) +
+      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], lbl);
 
+    // Contracts YTD chart — always shows full YTD regardless of selected period
     buildContractsChart('chart-julian',  'Julian',  '#639922');
     buildContractsChart('chart-charles', 'Charles', '#378ADD');
   }
@@ -679,60 +693,77 @@
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
 
-    const months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
-    const data = months.map(m => {
-      const key = '2026-' + m;
-      const d = allMonthData[key];
-      if (!d || !d.reps) return 0;
-      const r = d.reps[agent] || {};
-      return r.contracts || 0;
+    const curMonth = new Date().getMonth(); // 0-indexed
+    const months   = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+    const labels   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const data     = months.map(m => {
+      const d = allMonthData['2026-'+m];
+      return (d?.reps?.[agent]?.contracts) || 0;
     });
+    // Null out future months so they don't show as 0
+    const chartData = data.map((v, i) => i > curMonth ? null : v);
 
     new Chart(canvas, {
-      type: 'bar',
+      type: 'line',
       data: {
-        labels: ['J','F','M','A','M','J','J','A','S','O','N','D'],
-        datasets: [{ data, backgroundColor: color, borderRadius: 3, borderSkipped: false, barPercentage: 0.6 }]
+        labels,
+        datasets: [{
+          data: chartData,
+          borderColor: color,
+          backgroundColor: color + '22',
+          borderWidth: 2,
+          pointRadius: 4,
+          pointBackgroundColor: color,
+          pointHoverRadius: 6,
+          fill: true,
+          tension: 0.3,
+          spanGaps: false,
+        }]
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => c.raw + ' contract' + (c.raw !== 1 ? 's':'') } } },
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: c => c.raw + ' contract' + (c.raw !== 1 ? 's':'') } }
+        },
         scales: {
           x: { grid: { display: false }, ticks: { font: { size: 9 }, color: '#a8a5a0', maxRotation: 0 }, border: { display: false } },
-          y: { grid: { color: 'rgba(0,0,0,0.05)' }, ticks: { stepSize: 1, precision: 0, font: { size: 9 }, color: '#a8a5a0' }, border: { display: false }, beginAtZero: true }
+          y: { grid: { color: 'rgba(0,0,0,0.04)' }, ticks: { stepSize: 1, precision: 0, font: { size: 9 }, color: '#a8a5a0' }, border: { display: false }, beginAtZero: true }
         }
       }
     });
   }
 
+  // Revenue chart — always shows all months YTD (period-agnostic)
   function renderRevChart() {
     const existing = Chart.getChart('rev-chart');
     if (existing) existing.destroy();
 
+    const curMonth = new Date().getMonth();
     const months   = ['01','02','03','04','05','06','07','08','09','10','11','12'];
     const labels   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const juData   = months.map(m => { const d = allMonthData['2026-'+m]; return d?.reps?.['Julian']?.revenue  || 0; });
-    const chData   = months.map(m => { const d = allMonthData['2026-'+m]; return d?.reps?.['Charles']?.revenue || 0; });
+    const juData   = months.map((m, i) => i > curMonth ? null : (allMonthData['2026-'+m]?.reps?.['Julian']?.revenue  || 0));
+    const chData   = months.map((m, i) => i > curMonth ? null : (allMonthData['2026-'+m]?.reps?.['Charles']?.revenue || 0));
 
     new Chart(document.getElementById('rev-chart'), {
       type: 'bar',
       data: {
         labels,
         datasets: [
-          { label: 'Julian',  data: juData, backgroundColor: '#639922', borderRadius: 3, borderSkipped: false, barPercentage: 0.55, categoryPercentage: 0.7 },
-          { label: 'Charles', data: chData, backgroundColor: '#378ADD', borderRadius: 3, borderSkipped: false, barPercentage: 0.55, categoryPercentage: 0.7 }
+          { label: 'Julian',  data: juData, backgroundColor: '#639922', borderRadius: 4, borderSkipped: false, barPercentage: 0.5, categoryPercentage: 0.75 },
+          { label: 'Charles', data: chData, backgroundColor: '#378ADD', borderRadius: 4, borderSkipped: false, barPercentage: 0.5, categoryPercentage: 0.75 }
         ]
       },
       options: {
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { position: 'top', labels: { font: { family: 'DM Mono', size: 11 }, color: '#6b6966', boxWidth: 10, padding: 16 } },
-          tooltip: { callbacks: { label: c => c.dataset.label + ': $' + Math.round(c.raw).toLocaleString() } }
+          tooltip: { callbacks: { label: c => c.dataset.label + ': $' + Math.round(c.raw || 0).toLocaleString() } }
         },
         scales: {
-          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#a8a5a0' }, border: { display: false }, stacked: false },
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#a8a5a0' }, border: { display: false } },
           y: {
-            grid: { color: 'rgba(0,0,0,0.05)' },
+            grid: { color: 'rgba(0,0,0,0.04)' },
             ticks: { font: { size: 10 }, color: '#a8a5a0', callback: v => v >= 1000 ? '$' + Math.round(v/1000) + 'k' : '$' + v },
             border: { display: false }, beginAtZero: true
           }
@@ -741,55 +772,67 @@
     });
   }
 
+  // Active deals — single table, all closers, totals at bottom
   function renderDeals(d) {
-    const allDeals = d.agent_deals || [];
-    const juDeals  = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian'));
-    const chDeals  = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles'));
-    const pipe     = d.pipeline_by_agent || {};
+    const allDeals = (d.agent_deals || []).slice().sort((a, b) => {
+      // Sort: Julian first, then Charles; within each, pending before available
+      const aA = (a.agent||'').toLowerCase().includes('julian') ? 0 : 1;
+      const bA = (b.agent||'').toLowerCase().includes('julian') ? 0 : 1;
+      if (aA !== bA) return aA - bA;
+      const aS = (a.status||'').toLowerCase().includes('pending') ? 0 : 1;
+      const bS = (b.status||'').toLowerCase().includes('pending') ? 0 : 1;
+      return aS - bS;
+    });
 
-    document.getElementById('deals-grid').innerHTML =
-      dealCardHTML('JU', 'av-ju', 'Julian',  juDeals, pipe['Julian']  || 0) +
-      dealCardHTML('CH', 'av-ch', 'Charles', chDeals, pipe['Charles'] || 0);
-  }
+    if (!allDeals.length) {
+      document.getElementById('deals-table').innerHTML = '<div class="empty-msg">No active deals</div>';
+      return;
+    }
 
-  function dealCardHTML(initials, avClass, name, deals, pipeTotal) {
-    const rows = deals.length === 0
-      ? `<div class="empty-msg">No active deals this period</div>`
-      : deals.map(dl => {
-          const addr   = dl.address || 'Address not available';
-          const value  = dl.value   || 0;
-          const status = (dl.status || '').toLowerCase();
-          const days   = dl.days_in_pipeline || '';
-          const badgeCls  = status.includes('clos') ? 'b-closed'
-                          : status.includes('title') || status.includes('pending') ? 'b-title'
-                          : status.includes('dead') ? 'b-dead' : 'b-avail';
-          const badgeText = status.includes('pending') || status.includes('title') ? 'PENDING'
-                          : status.includes('clos') ? 'CLOSED'
-                          : status.includes('dead') ? 'DEAD' : 'AVAILABLE';
-          return `
-          <div class="deal-row">
-            <div>
-              <div class="deal-addr">${addr}</div>
-              ${days ? `<div class="deal-meta">${days}d in pipeline</div>` : ''}
-            </div>
-            <div class="deal-right">
-              <div class="deal-val">${value ? fmtMoneyFull(value) : '—'}</div>
-              <span class="badge ${badgeCls}">${badgeText}</span>
-            </div>
-          </div>`;
-        }).join('');
+    const totalVal    = allDeals.reduce((s, dl) => s + (dl.value || 0), 0);
+    const juTotal     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian')).reduce((s,dl) => s+(dl.value||0), 0);
+    const chTotal     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles')).reduce((s,dl) => s+(dl.value||0), 0);
+    const juCount     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian')).length;
+    const chCount     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles')).length;
 
-    return `
-    <div class="deal-card">
-      <div class="deal-head">
-        <div class="deal-head-left">
-          <div class="av ${avClass} av-sm">${initials}</div>
-          <span class="deal-head-name">${name} — active deals</span>
+    const rows = allDeals.map(dl => {
+      const addr    = dl.address || 'Address not available';
+      const value   = dl.value   || 0;
+      const status  = (dl.status || '').toLowerCase();
+      const days    = dl.days_in_pipeline || '';
+      const isJu    = (dl.agent||'').toLowerCase().includes('julian');
+      const badgeCls  = status.includes('pending') || status.includes('title') ? 'b-title' : 'b-avail';
+      const badgeText = status.includes('pending') || status.includes('title') ? 'PENDING' : 'AVAILABLE';
+      return `
+      <div class="deal-tr">
+        <div>
+          <div class="deal-addr">${addr}</div>
+          ${days ? `<div class="deal-meta">${days}d in pipeline</div>` : ''}
         </div>
-        <span class="deal-head-pipe">${pipeTotal ? fmtMoney(pipeTotal) + ' pipeline' : '—'}</span>
+        <div><span class="deal-agent-tag ${isJu ? 'tag-ju' : 'tag-ch'}">${isJu ? 'Julian' : 'Charles'}</span></div>
+        <div><span class="badge ${badgeCls}">${badgeText}</span></div>
+        <div class="deal-val">${value ? fmtMoneyFull(value) : '—'}</div>
+        <div></div>
+      </div>`;
+    }).join('');
+
+    document.getElementById('deals-table').innerHTML = `
+      <div class="deals-table-head">
+        <span>Address</span>
+        <span>Closer</span>
+        <span>Status</span>
+        <span>GP</span>
+        <span></span>
       </div>
-      <div class="deal-list">${rows}</div>
-    </div>`;
+      ${rows}
+      <div class="deal-tr totals-row">
+        <div style="font-size:12px;font-weight:700;">Total — ${allDeals.length} deals</div>
+        <div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);">JU ${juCount} · CH ${chCount}</div>
+        <div></div>
+        <div style="font-family:'DM Mono',monospace;font-size:13px;color:var(--green);font-weight:700;">${fmtMoneyFull(totalVal)}</div>
+        <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--faint);">JU ${fmtMoney(juTotal)} · CH ${fmtMoney(chTotal)}</div>
+      </div>
+    `;
   }
 
   boot();

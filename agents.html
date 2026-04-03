@@ -241,21 +241,50 @@
     .rev-chart-wrap { height: 200px; }
 
     /* ── Deals table ── */
-    .deals-table-wrap {
+    .deals-grid-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 1.5rem;
+    }
+    .deal-card-2 {
       background: var(--surface);
       border: 0.5px solid var(--border);
       border-radius: 12px;
       overflow: hidden;
-      margin-bottom: 1.5rem;
     }
-    .deals-table-head {
+    .deal-card-header {
+      padding: 14px 16px 12px;
+      border-bottom: 0.5px solid var(--border);
+    }
+    .deal-card-agent-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .deal-card-agent-row .ag-name { font-size: 14px; font-weight: 700; }
+    .deal-card-agent-row .ag-role { font-size: 11px; color: var(--muted); }
+    .deal-totals-row {
       display: grid;
-      grid-template-columns: 1fr 80px 90px 80px 90px;
-      padding: 9px 16px;
-      background: var(--surface2);
-      border-bottom: 0.5px solid var(--border2);
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
     }
-    .deals-table-head span {
+    .deal-total-cell {
+      background: var(--surface2);
+      border-radius: 8px;
+      padding: 8px 10px;
+    }
+    .deal-total-label { font-size: 10px; color: var(--faint); margin-bottom: 3px; }
+    .deal-total-val { font-family: 'DM Mono', monospace; font-size: 13px; font-weight: 600; }
+    .deal-table-head {
+      display: grid;
+      grid-template-columns: 1fr 80px 90px;
+      padding: 7px 16px;
+      background: var(--surface2);
+      border-bottom: 0.5px solid var(--border);
+    }
+    .deal-table-head span {
       font-family: 'DM Mono', monospace;
       font-size: 10px;
       font-weight: 500;
@@ -263,33 +292,18 @@
       text-transform: uppercase;
       letter-spacing: 0.06em;
     }
-    .deals-table-head span:not(:first-child) { text-align: right; }
+    .deal-table-head span:not(:first-child) { text-align: right; }
     .deal-tr {
       display: grid;
-      grid-template-columns: 1fr 80px 90px 80px 90px;
-      padding: 10px 16px;
+      grid-template-columns: 1fr 80px 90px;
+      padding: 9px 16px;
       border-bottom: 0.5px solid var(--border);
       align-items: center;
     }
     .deal-tr:last-child { border-bottom: none; }
-    .deal-tr.totals-row {
-      background: var(--surface2);
-      border-top: 0.5px solid var(--border2);
-      font-weight: 700;
-    }
     .deal-tr > div:not(:first-child) { text-align: right; }
-    .deal-addr { font-size: 12px; font-weight: 500; }
-    .deal-meta { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--faint); margin-top: 2px; }
+    .deal-addr { font-size: 12px; font-weight: 500; line-height: 1.3; }
     .deal-val { font-family: 'DM Mono', monospace; font-size: 12px; }
-    .deal-agent-tag {
-      font-family: 'DM Mono', monospace;
-      font-size: 10px;
-      padding: 2px 7px;
-      border-radius: 4px;
-      display: inline-block;
-    }
-    .tag-ju { background: var(--ju-dim); color: var(--ju); }
-    .tag-ch { background: var(--ch-dim); color: var(--ch); }
     .badge {
       font-family: 'DM Mono', monospace;
       font-size: 9px;
@@ -367,7 +381,7 @@
 
   <!-- Active deals -->
   <div class="section-label">Active Deals — Whiteboard (Available + Pending)</div>
-  <div class="deals-table-wrap" id="deals-table"></div>
+  <div class="deals-grid-2col" id="deals-table"></div>
 
 </div>
 
@@ -777,67 +791,73 @@
     });
   }
 
-  // Active deals — single table, all closers, totals at bottom
+  // Active deals — Julian left, Charles right, totals at top
   function renderDeals(d) {
-    const allDeals = (d.agent_deals || []).slice().sort((a, b) => {
-      // Sort: Julian first, then Charles; within each, pending before available
-      const aA = (a.agent||'').toLowerCase().includes('julian') ? 0 : 1;
-      const bA = (b.agent||'').toLowerCase().includes('julian') ? 0 : 1;
-      if (aA !== bA) return aA - bA;
-      const aS = (a.status||'').toLowerCase().includes('pending') ? 0 : 1;
-      const bS = (b.status||'').toLowerCase().includes('pending') ? 0 : 1;
-      return aS - bS;
-    });
+    const allDeals = d.agent_deals || [];
+    const juDeals  = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian'))
+                              .sort((a,b) => ((b.value||0)-(a.value||0)));
+    const chDeals  = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles'))
+                              .sort((a,b) => ((b.value||0)-(a.value||0)));
+    const pipe     = d.pipeline_by_agent || {};
 
-    if (!allDeals.length) {
-      document.getElementById('deals-table').innerHTML = '<div class="empty-msg">No active deals</div>';
-      return;
-    }
+    document.getElementById('deals-table').innerHTML =
+      agentDealCard('JU', 'av-ju', 'Julian',  juDeals, pipe['Julian']  || 0) +
+      agentDealCard('CH', 'av-ch', 'Charles', chDeals, pipe['Charles'] || 0);
+  }
 
-    const totalVal    = allDeals.reduce((s, dl) => s + (dl.value || 0), 0);
-    const juTotal     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian')).reduce((s,dl) => s+(dl.value||0), 0);
-    const chTotal     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles')).reduce((s,dl) => s+(dl.value||0), 0);
-    const juCount     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian')).length;
-    const chCount     = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles')).length;
+  function agentDealCard(initials, avClass, name, deals, pipeTotal) {
+    const totalGP  = deals.reduce((s,dl) => s+(dl.value||0), 0);
+    const pending  = deals.filter(dl => (dl.status||'').toLowerCase().includes('pending')).length;
+    const avail    = deals.filter(dl => !(dl.status||'').toLowerCase().includes('pending')).length;
 
-    const rows = allDeals.map(dl => {
-      const addr    = dl.address || 'Address not available';
-      const value   = dl.value   || 0;
-      const status  = (dl.status || '').toLowerCase();
-      const days    = dl.days_in_pipeline || '';
-      const isJu    = (dl.agent||'').toLowerCase().includes('julian');
-      const badgeCls  = status.includes('pending') || status.includes('title') ? 'b-title' : 'b-avail';
-      const badgeText = status.includes('pending') || status.includes('title') ? 'PENDING' : 'AVAILABLE';
-      return `
-      <div class="deal-tr">
-        <div>
-          <div class="deal-addr">${addr}</div>
-          ${days ? `<div class="deal-meta">${days}d in pipeline</div>` : ''}
+    const rows = deals.length === 0
+      ? `<div class="empty-msg">No active deals</div>`
+      : deals.map(dl => {
+          const addr   = dl.address || '—';
+          const value  = dl.value   || 0;
+          const status = (dl.status||'').toLowerCase();
+          const badgeCls  = status.includes('pending') || status.includes('title') ? 'b-title' : 'b-avail';
+          const badgeText = status.includes('pending') || status.includes('title') ? 'PENDING' : 'AVAILABLE';
+          return `
+          <div class="deal-tr">
+            <div><div class="deal-addr">${addr}</div></div>
+            <div><span class="badge ${badgeCls}">${badgeText}</span></div>
+            <div class="deal-val">${value ? fmtMoneyFull(value) : '—'}</div>
+          </div>`;
+        }).join('');
+
+    return `
+    <div class="deal-card-2">
+      <div class="deal-card-header">
+        <div class="deal-card-agent-row">
+          <div class="av ${avClass} av-sm">${initials}</div>
+          <div>
+            <div class="ag-name">${name}</div>
+            <div class="ag-role">Closer · ${deals.length} deal${deals.length!==1?'s':''}</div>
+          </div>
         </div>
-        <div><span class="deal-agent-tag ${isJu ? 'tag-ju' : 'tag-ch'}">${isJu ? 'Julian' : 'Charles'}</span></div>
-        <div><span class="badge ${badgeCls}">${badgeText}</span></div>
-        <div class="deal-val">${value ? fmtMoneyFull(value) : '—'}</div>
-        <div></div>
-      </div>`;
-    }).join('');
-
-    document.getElementById('deals-table').innerHTML = `
-      <div class="deals-table-head">
+        <div class="deal-totals-row">
+          <div class="deal-total-cell">
+            <div class="deal-total-label">Total GP</div>
+            <div class="deal-total-val" style="color:var(--green)">${fmtMoneyFull(totalGP)}</div>
+          </div>
+          <div class="deal-total-cell">
+            <div class="deal-total-label">Pending</div>
+            <div class="deal-total-val" style="color:var(--amber)">${pending}</div>
+          </div>
+          <div class="deal-total-cell">
+            <div class="deal-total-label">Available</div>
+            <div class="deal-total-val">${avail}</div>
+          </div>
+        </div>
+      </div>
+      <div class="deal-table-head">
         <span>Address</span>
-        <span>Closer</span>
         <span>Status</span>
         <span>GP</span>
-        <span></span>
       </div>
       ${rows}
-      <div class="deal-tr totals-row">
-        <div style="font-size:12px;font-weight:700;">Total — ${allDeals.length} deals</div>
-        <div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);">JU ${juCount} · CH ${chCount}</div>
-        <div></div>
-        <div style="font-family:'DM Mono',monospace;font-size:13px;color:var(--green);font-weight:700;">${fmtMoneyFull(totalVal)}</div>
-        <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--faint);">JU ${fmtMoney(juTotal)} · CH ${fmtMoney(chTotal)}</div>
-      </div>
-    `;
+    </div>`;
   }
 
   boot();

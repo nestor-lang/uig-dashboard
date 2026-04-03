@@ -509,6 +509,9 @@
       });
       await Promise.all(fetches);
 
+      // Filter to only months that actually have data, keep newest-first
+      availMonths = availMonths.filter(k => !!allMonthData[k]);
+
       // Populate month dropdown
       const menu = document.getElementById('drop-m-menu');
       availMonths.forEach(k => {

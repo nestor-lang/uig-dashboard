@@ -575,8 +575,6 @@
     const teamOff  = (ju.offers||0)      + (ch.offers||0);
     const teamCon  = (ju.contracts||0)   + (ch.contracts||0);
     const teamRev  = (ju.revenue||0)     + (ch.revenue||0);
-    const teamPipe = (pipe['Julian']||0) + (pipe['Charles']||0);
-
     document.getElementById('team-strip').innerHTML = `
       <div class="tkpi">
         <div class="tkpi-label">Discoveries</div>
@@ -603,11 +601,11 @@
         </div>
       </div>
       <div class="tkpi">
-        <div class="tkpi-label">Pipeline value</div>
-        <div class="tkpi-value">${teamPipe ? fmtMoney(teamPipe) : '—'}</div>
+        <div class="tkpi-label">Revenue Closed</div>
+        <div class="tkpi-value">${fmtMoney((ju.revenue||0)+(ch.revenue||0))}</div>
         <div class="tkpi-split">
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${pipe['Julian'] ? fmtMoney(pipe['Julian']) : '—'}</div>
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${pipe['Charles'] ? fmtMoney(pipe['Charles']) : '—'}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${fmtMoney(ju.revenue||0)}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${fmtMoney(ch.revenue||0)}</div>
         </div>
       </div>
     `;

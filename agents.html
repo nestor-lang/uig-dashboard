@@ -1,317 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ultra Homebuyers — Agent Performance</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultra Homebuyers — Closer Scorecard</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:       #F1EFE8;
-      --surface:  #FFFFFF;
-      --surface2: #F7F6F1;
-      --border:   rgba(0,0,0,0.10);
-      --border2:  rgba(0,0,0,0.18);
-      --text:     #1A1A18;
-      --muted:    #6B6A64;
-      --faint:    #A8A7A1;
-      --green:    #3B6D11;
-      --green-bg: #EAF3DE;
-      --green-mid:#639922;
-      --amber:    #BA7517;
-      --amber-bg: #FAEEDA;
-      --amber-mid:#EF9F27;
-      --blue:     #0C447C;
-      --blue-bg:  #E6F1FB;
-      --blue-mid: #378ADD;
-      --red:      #791F1F;
-      --red-bg:   #FCEBEB;
-      --mono:     'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+      --bg:         #f5f5f4;
+      --surface:    #ffffff;
+      --surface2:   #f0efed;
+      --border:     rgba(0,0,0,0.08);
+      --border2:    rgba(0,0,0,0.12);
+      --text:       #1a1a1a;
+      --muted:      #6b6966;
+      --faint:      #a8a5a0;
+      --green:      #16a34a;
+      --green-dim:  rgba(22,163,74,0.08);
+      --amber:      #d97706;
+      --amber-dim:  rgba(217,119,6,0.08);
+      --red:        #dc2626;
+      --red-dim:    rgba(220,38,38,0.08);
+      --blue:       #2563eb;
+      --blue-dim:   rgba(37,99,235,0.06);
+      --ju:         #639922;
+      --ju-dim:     rgba(99,153,34,0.10);
+      --ch:         #378ADD;
+      --ch-dim:     rgba(55,138,221,0.10);
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: var(--bg);
       color: var(--text);
-      font-size: 14px;
-      line-height: 1.5;
+      font-family: 'Syne', sans-serif;
       min-height: 100vh;
+      padding: 2rem 1.5rem 4rem;
     }
 
-    /* ── NAV ── */
-    .nav {
-      background: var(--surface);
-      border-bottom: 0.5px solid var(--border);
-      padding: 0 24px;
+    /* ── Header ── */
+    .header {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
-      height: 52px;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.5px solid var(--border2);
     }
-    .nav-brand { display: flex; align-items: baseline; gap: 10px; }
-    .nav-eyebrow {
-      font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
-      text-transform: uppercase; color: var(--muted);
-    }
-    .nav-title {
-      font-size: 18px; font-weight: 800; letter-spacing: -0.02em;
+    .logo { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+    .report-title { font-size: 26px; font-weight: 800; line-height: 1.1; margin-top: 6px; }
+    .report-title span { color: var(--green); }
+    .header-right { text-align: right; }
+    .report-date { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--muted); }
+    .last-updated { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--faint); margin-top: 4px; }
+    .month-picker {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
       color: var(--text);
+      background: var(--surface);
+      border: 0.5px solid var(--border2);
+      border-radius: 6px;
+      padding: 4px 8px;
+      margin-top: 8px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a8a5a0'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      padding-right: 24px;
     }
-    .nav-title span { color: var(--green-mid); }
-    .nav-links { display: flex; gap: 4px; }
+    .month-picker:focus { outline: none; border-color: var(--green); }
+
+    /* ── Nav ── */
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 2rem;
+    }
     .nav-link {
-      padding: 5px 12px; font-size: 12px; font-weight: 500;
-      color: var(--muted); text-decoration: none;
-      border-radius: 6px; border: none; background: none;
-      cursor: pointer; font-family: inherit;
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      padding: 5px 12px;
+      border-radius: 6px;
+      border: 0.5px solid var(--border2);
+      background: var(--surface);
+      color: var(--muted);
+      text-decoration: none;
+      cursor: pointer;
       transition: background 0.12s, color 0.12s;
     }
     .nav-link:hover { background: var(--surface2); color: var(--text); }
-    .nav-link.active {
-      background: var(--green-bg); color: var(--green);
+    .nav-link.active { background: var(--green-dim); color: var(--green); border-color: rgba(22,163,74,0.2); }
+
+    /* ── Section label ── */
+    .section-label {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--faint);
+      margin-bottom: 0.75rem;
     }
 
-    /* ── PAGE HEADER ── */
-    .page-header {
-      padding: 24px 24px 0;
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
-    }
-    .page-heading { }
-    .page-eyebrow {
-      font-size: 11px; font-weight: 600; letter-spacing: 0.1em;
-      text-transform: uppercase; color: var(--muted); margin-bottom: 4px;
-    }
-    .page-title {
-      font-size: 34px; font-weight: 800; line-height: 1;
-      letter-spacing: -0.025em; color: var(--text);
-    }
-    .page-title span { color: var(--green-mid); }
-
-    /* ── CONTROLS ── */
-    .controls-bar {
-      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
-      padding: 0 24px;
-      margin-bottom: 20px;
-    }
-    .seg {
-      display: flex;
-      background: var(--surface);
-      border: 0.5px solid var(--border2);
-      border-radius: 8px;
-      padding: 3px;
-      gap: 2px;
-    }
-    .seg-btn {
-      padding: 5px 13px; font-size: 12px; font-weight: 500;
-      border-radius: 6px; cursor: pointer; color: var(--muted);
-      border: none; background: transparent;
-      font-family: inherit; white-space: nowrap;
-      transition: all 0.12s;
-    }
-    .seg-btn.on {
-      background: var(--surface); color: var(--text);
-      border: 0.5px solid var(--border2);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
-    }
-    .ctrl-div {
-      width: 0.5px; height: 20px;
-      background: var(--border2); flex-shrink: 0;
-    }
-
-    /* custom dropdowns */
-    .drop-wrap { position: relative; }
-    .drop-trigger {
-      display: flex; align-items: center; gap: 6px;
-      background: var(--surface); border: 0.5px solid var(--border2);
-      border-radius: 8px; padding: 6px 12px;
-      font-size: 12px; font-weight: 500; color: var(--muted);
-      cursor: pointer; user-select: none; white-space: nowrap;
-      transition: all 0.12s;
-    }
-    .drop-trigger.has-val { color: var(--text); }
-    .drop-trigger:hover { border-color: var(--border2); }
-    .drop-caret {
-      width: 0; height: 0;
-      border-left: 3.5px solid transparent;
-      border-right: 3.5px solid transparent;
-      border-top: 4px solid currentColor;
-      opacity: 0.5; flex-shrink: 0;
-    }
-    .drop-menu {
-      display: none;
-      position: absolute; top: calc(100% + 4px); left: 0;
-      background: var(--surface);
-      border: 0.5px solid var(--border2);
-      border-radius: 8px;
-      min-width: 140px;
-      z-index: 100;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
-    .drop-menu.open { display: block; }
-    .drop-item {
-      padding: 9px 14px; font-size: 12px; color: var(--text);
-      cursor: pointer; white-space: nowrap;
-      transition: background 0.1s;
-    }
-    .drop-item:hover { background: var(--surface2); }
-    .drop-item.sel { font-weight: 600; color: var(--green); }
-    .drop-item.dim { color: var(--faint); cursor: default; pointer-events: none; }
-
-    .period-chip {
-      font-size: 11px; color: var(--muted); margin-left: 2px;
-    }
-
-    /* ── MAIN CONTENT ── */
-    .main { padding: 0 24px 32px; }
-
-    /* ── TEAM STRIP ── */
+    /* ── Team strip ── */
     .team-strip {
       display: grid;
-      grid-template-columns: repeat(5, minmax(0,1fr));
-      gap: 8px;
-      margin-bottom: 16px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 1.5rem;
     }
     .tkpi {
       background: var(--surface);
       border: 0.5px solid var(--border);
-      border-radius: 12px;
+      border-radius: 10px;
       padding: 14px 16px;
     }
     .tkpi-label { font-size: 11px; color: var(--muted); margin-bottom: 6px; }
-    .tkpi-value {
-      font-size: 24px; font-weight: 600; font-family: var(--mono);
-      color: var(--text); line-height: 1;
-    }
-    .tkpi-split { display: flex; gap: 10px; margin-top: 7px; }
-    .tkpi-agent {
-      font-size: 11px; color: var(--muted);
-      display: flex; align-items: center; gap: 4px;
-    }
-    .dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+    .tkpi-value { font-size: 24px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .tkpi-split { display: flex; gap: 12px; }
+    .tkpi-agent { display: flex; align-items: center; gap: 5px; font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
+    .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 
-    /* ── AGENT CARDS ── */
+    /* ── Agent cards ── */
     .agents-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 12px;
-      margin-bottom: 12px;
-      align-items: stretch;
+      margin-bottom: 1.5rem;
     }
     .agent-card {
       background: var(--surface);
       border: 0.5px solid var(--border);
       border-radius: 12px;
       overflow: hidden;
-      display: grid;
-      grid-template-rows: auto auto auto 1fr;
     }
-
-    /* card head */
     .card-head {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 18px 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 16px 18px 14px;
       border-bottom: 0.5px solid var(--border);
     }
-    .agent-id { display: flex; align-items: center; gap: 12px; }
     .av {
-      width: 36px; height: 36px; border-radius: 50%;
+      width: 36px; height: 36px;
+      border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      font-size: 11px; font-weight: 700;
-      font-family: var(--mono); flex-shrink: 0;
+      font-size: 13px; font-weight: 700; color: #fff;
+      flex-shrink: 0;
     }
-    .av-ju { background: #C0DD97; color: #27500A; }
-    .av-ch { background: #B5D4F4; color: #0C447C; }
-    .av-sm { width: 26px; height: 26px; font-size: 10px; }
-    .ag-name { font-size: 15px; font-weight: 600; color: var(--text); }
+    .av-ju { background: var(--ju); }
+    .av-ch { background: var(--ch); }
+    .agent-id { display: flex; align-items: center; gap: 10px; }
+    .ag-name { font-size: 15px; font-weight: 700; }
     .ag-role { font-size: 11px; color: var(--muted); margin-top: 2px; }
-    .head-rev { text-align: right; flex-shrink: 0; }
-    .rev-val { font-size: 19px; font-weight: 600; font-family: var(--mono); }
-    .rev-lbl { font-size: 10px; color: var(--muted); margin-top: 3px; }
+    .head-rev { text-align: right; }
+    .rev-val { font-size: 20px; font-weight: 700; color: var(--green); }
+    .rev-lbl { font-size: 11px; color: var(--faint); margin-top: 2px; }
 
-    /* metrics */
     .metrics-row {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0,1fr));
-      gap: 1px; background: var(--border);
-      border-bottom: 0.5px solid var(--border);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
     }
     .met {
       background: var(--surface);
-      padding: 16px 16px 14px;
+      padding: 14px 18px;
+      text-align: center;
     }
-    .met-label {
-      font-size: 10px; font-weight: 600; color: var(--muted);
-      text-transform: uppercase; letter-spacing: 0.07em;
-      margin-bottom: 8px;
-    }
-    .met-value {
-      font-size: 26px; font-weight: 600;
-      font-family: var(--mono); line-height: 1;
-    }
-    .met-sub {
-      font-size: 10px; color: var(--muted);
-      margin-top: 6px; height: 14px;
-    }
+    .met-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+    .met-value { font-size: 22px; font-weight: 700; }
+    .met-sub { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--faint); margin-top: 3px; }
 
-    /* rates */
     .rates-row {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0,1fr));
-      gap: 1px; background: var(--border);
-      border-bottom: 0.5px solid var(--border);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-top: 0.5px solid var(--border);
     }
     .rate {
       background: var(--surface2);
-      padding: 12px 16px;
-      display: flex; align-items: center;
-      justify-content: space-between;
-      gap: 8px; min-height: 44px;
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
     }
-    .rate-label { font-size: 11px; color: var(--muted); white-space: nowrap; }
-    .rate-value {
-      font-size: 13px; font-weight: 600;
-      font-family: var(--mono); white-space: nowrap; flex-shrink: 0;
-    }
+    .rate-label { font-size: 10px; color: var(--faint); }
+    .rate-value { font-family: 'DM Mono', monospace; font-size: 13px; font-weight: 500; }
 
-    /* activity section */
-    .activity-sec { padding: 18px 20px 20px; }
-    .sec-title {
-      font-size: 10px; font-weight: 600;
-      text-transform: uppercase; letter-spacing: 0.08em;
-      color: var(--muted); margin-bottom: 14px;
-    }
-    .chart-wrap { position: relative; width: 100%; height: 100px; }
+    .activity-sec { padding: 14px 18px; }
+    .sec-title { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
+    .chart-wrap { height: 80px; margin-bottom: 10px; }
 
-    /* close rate tiles */
-    .cr-grid {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: 1px; background: var(--border);
-      margin-top: 16px; border-radius: 8px; overflow: hidden;
-    }
-    .cr-cell { background: var(--surface2); padding: 12px 14px; }
-    .cr-label { font-size: 10px; color: var(--muted); margin-bottom: 6px; }
-    .cr-value {
-      font-size: 18px; font-weight: 600;
-      font-family: var(--mono); height: 24px;
-    }
-    .cr-bar-bg {
-      height: 3px; background: var(--border2);
-      border-radius: 99px; margin-top: 8px; overflow: hidden;
-    }
-    .cr-bar { height: 3px; border-radius: 99px; transition: width 0.4s ease; }
+    .conv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .conv-cell { background: var(--surface2); border-radius: 8px; padding: 10px 12px; }
+    .conv-label { font-size: 10px; color: var(--faint); margin-bottom: 4px; }
+    .conv-value { font-family: 'DM Mono', monospace; font-size: 14px; font-weight: 500; }
+    .conv-bar-bg { height: 4px; background: var(--border2); border-radius: 2px; margin-top: 6px; }
+    .conv-bar { height: 4px; border-radius: 2px; }
 
-    /* ── DEALS GRID ── */
+    /* ── Revenue chart ── */
+    .section {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 1.25rem;
+    }
+    .section-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .section-sub { font-size: 12px; color: var(--muted); margin-bottom: 1.25rem; }
+    .rev-chart-wrap { height: 180px; }
+
+    /* ── Deals cards ── */
     .deals-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 12px;
+      margin-bottom: 1.5rem;
     }
     .deal-card {
       background: var(--surface);
@@ -320,455 +229,234 @@
       overflow: hidden;
     }
     .deal-head {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 13px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 13px 16px;
       border-bottom: 0.5px solid var(--border);
     }
-    .deal-head-left { display: flex; align-items: center; gap: 10px; }
-    .deal-head-name { font-size: 13px; font-weight: 600; color: var(--text); }
-    .deal-head-pipe { font-size: 11px; color: var(--muted); font-family: var(--mono); }
-
-    .deal-list { padding: 0 20px; }
+    .deal-head-left { display: flex; align-items: center; gap: 8px; }
+    .av-sm { width: 26px; height: 26px; font-size: 10px; }
+    .deal-head-name { font-size: 13px; font-weight: 600; }
+    .deal-head-pipe { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--green); }
+    .deal-list { padding: 8px 0; }
     .deal-row {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 11px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 16px;
       border-bottom: 0.5px solid var(--border);
     }
     .deal-row:last-child { border-bottom: none; }
-    .deal-addr { font-size: 12px; font-weight: 500; color: var(--text); }
-    .deal-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .deal-addr { font-size: 12px; font-weight: 500; }
+    .deal-meta { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--faint); margin-top: 2px; }
     .deal-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; margin-left: 12px; }
-    .deal-val { font-size: 12px; font-weight: 600; font-family: var(--mono); color: var(--text); }
-
+    .deal-val { font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 500; }
     .badge {
-      font-size: 10px; font-weight: 600;
-      padding: 2px 7px; border-radius: 99px; white-space: nowrap;
+      font-family: 'DM Mono', monospace;
+      font-size: 9px;
+      font-weight: 500;
+      padding: 2px 7px;
+      border-radius: 4px;
+      white-space: nowrap;
     }
-    .b-avail  { background: var(--amber-bg); color: #633806; }
-    .b-title  { background: var(--blue-bg);  color: var(--blue); }
-    .b-closed { background: var(--green-bg); color: var(--green); }
-    .b-dead   { background: var(--red-bg);   color: var(--red); }
+    .b-avail  { background: var(--green-dim);  color: var(--green); }
+    .b-title  { background: var(--amber-dim);  color: var(--amber); }
+    .b-closed { background: var(--blue-dim);   color: var(--blue);  }
+    .b-dead   { background: var(--red-dim);    color: var(--red);   }
+    .empty-msg { padding: 20px 16px; font-size: 12px; color: var(--faint); }
 
-    .empty-msg {
-      padding: 20px 0; font-size: 12px;
-      color: var(--faint); text-align: center;
-    }
-
-    /* ── LOADING / ERROR ── */
-    .loading-state {
-      display: flex; align-items: center; justify-content: center;
-      min-height: 40vh; font-size: 13px; color: var(--muted);
-    }
-
-    /* ── LAST UPDATED ── */
-    .footer-bar {
-      padding: 12px 24px;
-      font-size: 11px; color: var(--faint);
-      border-top: 0.5px solid var(--border);
-      margin-top: 8px;
-    }
-
-    @media (max-width: 780px) {
+    /* ── Responsive ── */
+    @media (max-width: 700px) {
       .team-strip { grid-template-columns: repeat(2, 1fr); }
-      .agents-grid, .deals-grid { grid-template-columns: 1fr; }
-      .page-title { font-size: 26px; }
+      .agents-grid { grid-template-columns: 1fr; }
+      .deals-grid  { grid-template-columns: 1fr; }
+      .header { flex-direction: column; gap: 1rem; }
     }
   </style>
 </head>
 <body>
 
-  <nav class="nav">
-    <div class="nav-brand">
-      <span class="nav-eyebrow">Ultra Homebuyers</span>
-      <span class="nav-title">ROA <span>Dashboard</span></span>
-    </div>
-    <div class="nav-links">
-      <a class="nav-link" href="index.html">Overview</a>
-      <a class="nav-link active" href="agents.html">Agents</a>
-    </div>
-  </nav>
+<div style="max-width:1040px;margin:0 auto;">
 
-  <div class="page-header">
-    <div class="page-heading">
-      <div class="page-eyebrow">Ultra Homebuyers</div>
-      <div class="page-title">Agent <span>Performance</span></div>
+  <!-- Header -->
+  <div class="header">
+    <div>
+      <div class="logo">Ultra Homebuyers</div>
+      <div class="report-title">Closer <span>Scorecard</span></div>
+    </div>
+    <div class="header-right">
+      <div class="report-date" id="report-date">—</div>
+      <div class="last-updated" id="last-updated">—</div>
+      <select class="month-picker" id="month-picker" onchange="selectMonth(this.value)"></select>
     </div>
   </div>
 
-  <div class="controls-bar">
-    <div class="seg">
-      <button class="seg-btn" id="btn-qtd" onclick="setMode('qtd')">QTD</button>
-      <button class="seg-btn" id="btn-ytd" onclick="setMode('ytd')">YTD</button>
-    </div>
-    <div class="ctrl-div"></div>
-    <div class="drop-wrap">
-      <div class="drop-trigger" id="drop-q-trigger" onclick="toggleDrop('q')">
-        <span id="drop-q-text">Quarter</span>
-        <span class="drop-caret"></span>
-      </div>
-      <div class="drop-menu" id="drop-q-menu">
-        <div class="drop-item dim" id="dq-q1" onclick="pickQ('q1','Q1 2026',this)">Q1 2026</div>
-        <div class="drop-item sel" id="dq-q2" onclick="pickQ('q2','Q2 2026',this)">Q2 2026</div>
-        <div class="drop-item dim" id="dq-q3">Q3 2026</div>
-        <div class="drop-item dim" id="dq-q4">Q4 2026</div>
-      </div>
-    </div>
-    <div class="drop-wrap">
-      <div class="drop-trigger" id="drop-m-trigger" onclick="toggleDrop('m')">
-        <span id="drop-m-text">Month</span>
-        <span class="drop-caret"></span>
-      </div>
-      <div class="drop-menu" id="drop-m-menu" id="drop-m-menu">
-        <!-- populated dynamically from months.json -->
-      </div>
-    </div>
-    <span class="period-chip" id="period-chip">· Current quarter</span>
+  <!-- Nav -->
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">ROA Dashboard</a>
+    <a class="nav-link active" href="agents.html">Closer Scorecard</a>
+    <a class="nav-link" href="https://nestor-lang.github.io/uig-steven-scorecard/" target="_blank">Nurture Scorecard</a>
   </div>
 
-  <div class="main">
-    <div id="app-root">
-      <div class="loading-state">Loading agent data…</div>
-    </div>
+  <!-- Team strip -->
+  <div class="section-label">Team Overview</div>
+  <div class="team-strip" id="team-strip"></div>
+
+  <!-- Agent cards -->
+  <div class="section-label">Per Closer</div>
+  <div class="agents-grid" id="agents-grid"></div>
+
+  <!-- Revenue trend -->
+  <div class="section">
+    <div class="section-title">Revenue closed — by month</div>
+    <div class="section-sub">Total gross profit from closed deals, all channels</div>
+    <div class="rev-chart-wrap"><canvas id="rev-chart"></canvas></div>
   </div>
 
-  <div class="footer-bar" id="footer-bar"></div>
+  <!-- Active deals -->
+  <div class="section-label">Active Deals (Available + Pending)</div>
+  <div class="deals-grid" id="deals-grid"></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script>
-  /* ─────────────────────────────────────────────
-     CONFIG — match your existing dashboard paths
-  ───────────────────────────────────────────── */
-  const BASE_URL   = '';          // same origin — files sit in repo root
-  const MONTHS_URL = BASE_URL + 'months.json';
-  const DATA_URL   = (key) => BASE_URL + `data-${key}.json`;
+</div>
 
-  /* ─────────────────────────────────────────────
-     STATE
-  ───────────────────────────────────────────── */
-  let allMonthData = {};   // { "2026-04": {...}, "2026-03": {...}, ... }
-  let availMonths  = [];   // sorted newest-first e.g. ["2026-04","2026-03"]
-  let currentMode  = 'q2'; // qtd | ytd | q1 | q2 | q3 | q4 | YYYY-MM
-  let chartJU      = null;
-  let chartCH      = null;
+<script>
+  const BASE_URL    = 'https://nestor-lang.github.io/uig-dashboard/';
+  const MONTHS_URL  = BASE_URL + 'months.json';
+  const DATA_URL    = k => BASE_URL + `data-${k}.json`;
 
-  /* ─────────────────────────────────────────────
-     BOOT
-  ───────────────────────────────────────────── */
-  async function boot() {
-    try {
-      const mRes = await fetch(MONTHS_URL);
-      if (!mRes.ok) throw new Error('months.json not found');
-      availMonths = await mRes.json();
-      availMonths.sort((a,b) => b.localeCompare(a)); // newest first
-
-      // fetch all months in parallel
-      const fetches = availMonths.map(async (key) => {
-        const r = await fetch(DATA_URL(key));
-        if (r.ok) allMonthData[key] = await r.json();
-      });
-      await Promise.all(fetches);
-
-      populateMonthDropdown();
-      populateQuarterDropdown();
-
-      // default to current quarter
-      const now  = new Date();
-      const q    = Math.ceil((now.getMonth() + 1) / 3);
-      currentMode = 'q' + q;
-      render(currentMode);
-    } catch(e) {
-      document.getElementById('app-root').innerHTML =
-        `<div class="loading-state">Could not load data — ${e.message}</div>`;
-    }
-  }
-
-  /* ─────────────────────────────────────────────
-     DROPDOWN POPULATION
-  ───────────────────────────────────────────── */
-  function populateMonthDropdown() {
-    const menu = document.getElementById('drop-m-menu');
-    menu.innerHTML = '';
-    availMonths.forEach(key => {
-      const [y, m] = key.split('-');
-      const label  = new Date(+y, +m - 1, 1).toLocaleString('en-US', { month: 'short', year: 'numeric' });
-      const el     = document.createElement('div');
-      el.className = 'drop-item';
-      el.textContent = label;
-      el.dataset.key = key;
-      el.onclick = () => pickM(key, label, el);
-      menu.appendChild(el);
-    });
-  }
-
-  function populateQuarterDropdown() {
-    const now = new Date();
-    const currentQ = Math.ceil((now.getMonth() + 1) / 3);
-    ['q1','q2','q3','q4'].forEach((q, i) => {
-      const el = document.getElementById('dq-' + q);
-      if (!el) return;
-      if (i + 1 > currentQ) {
-        el.classList.add('dim');
-        el.onclick = null;
-      } else {
-        el.classList.remove('dim');
-        const labels = ['Q1 2026','Q2 2026','Q3 2026','Q4 2026'];
-        el.onclick = () => pickQ(q, labels[i], el);
-      }
-    });
-  }
-
-  /* ─────────────────────────────────────────────
-     DATA AGGREGATION HELPERS
-  ───────────────────────────────────────────── */
-  const QUARTER_MONTHS = { q1:['01','02','03'], q2:['04','05','06'], q3:['07','08','09'], q4:['10','11','12'] };
-  const YEAR = '2026';
-
-  function monthsForMode(mode) {
-    if (mode === 'ytd') {
-      const now = new Date();
-      const cur = now.getMonth() + 1;
-      return availMonths.filter(k => k.startsWith(YEAR + '-') && parseInt(k.split('-')[1]) <= cur);
-    }
-    if (mode === 'qtd') {
-      const now = new Date();
-      const q   = Math.ceil((now.getMonth() + 1) / 3);
-      const cur = now.getMonth() + 1;
-      return QUARTER_MONTHS['q'+q]
-        .filter(m => parseInt(m) <= cur)
-        .map(m => YEAR + '-' + m)
-        .filter(k => allMonthData[k]);
-    }
-    if (mode.startsWith('q')) {
-      return QUARTER_MONTHS[mode]
-        .map(m => YEAR + '-' + m)
-        .filter(k => allMonthData[k]);
-    }
-    // single month
-    return allMonthData[mode] ? [mode] : [];
-  }
-
-  function aggregateReps(months) {
-    const zero = () => ({ disc:0, offers:0, contracts:0, revenue:0 });
-    const ju = zero(), ch = zero();
-
-    months.forEach(key => {
-      const d = allMonthData[key];
-      if (!d) return;
-      const reps = d.reps || {};
-
-      // Julian — try various key spellings
-      const jd = reps['Julian'] || reps['julian'] || reps['Julian Leslie'] || {};
-      ju.disc      += jd.discoveries || jd.booked || 0;
-      ju.offers    += jd.offers || jd.offers_made || 0;
-      ju.contracts += jd.contracts || jd.accepted || jd.under_contract || 0;
-      ju.revenue   += jd.revenue || jd.closed_revenue || 0;
-
-      // Charles
-      const cd = reps['Charles'] || reps['charles'] || reps['Charles Schuhmann'] || {};
-      ch.disc      += cd.discoveries || cd.booked || 0;
-      ch.offers    += cd.offers || cd.offers_made || 0;
-      ch.contracts += cd.contracts || cd.accepted || cd.under_contract || 0;
-      ch.revenue   += cd.revenue || cd.closed_revenue || 0;
-    });
-
-    return { ju, ch };
-  }
-
-  function ytdContractsByMonth(agent) {
-    const months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
-    return months.map(m => {
-      const key = YEAR + '-' + m;
-      const d   = allMonthData[key];
-      if (!d || !d.reps) return 0;
-      const rd = d.reps[agent] || d.reps[agent === 'Julian' ? 'Julian Leslie' : 'Charles Schuhmann'] || {};
-      return rd.contracts || rd.accepted || 0;
-    });
-  }
-
-  function pipelineForAgent(agent) {
-    // pull from most recent month's pipeline data
-    const latest = availMonths[0];
-    if (!latest) return { deals: [], total: 0 };
-    const d = allMonthData[latest];
-    if (!d) return { deals: [], total: 0 };
-
-    // try agent_deals or deals array
-    const deals = (d.agent_deals || d.deals || []).filter(deal => {
-      const a = (deal.agent || deal.rep || '').toLowerCase();
-      return a.includes(agent.toLowerCase().split(' ')[0]);
-    });
-
-    const total = deals.reduce((s, deal) => s + (deal.value || deal.assignment_fee || 0), 0);
-    return { deals, total };
-  }
-
-  function periodLabel(mode) {
-    if (mode === 'ytd')  return 'YTD 2026';
-    if (mode === 'qtd')  {
-      const q = Math.ceil((new Date().getMonth() + 1) / 3);
-      return `Q${q} 2026 (QTD)`;
-    }
-    if (mode.startsWith('q')) return mode.toUpperCase() + ' 2026';
-    if (mode.match(/\d{4}-\d{2}/)) {
-      const [y,m] = mode.split('-');
-      return new Date(+y, +m-1, 1).toLocaleString('en-US', { month: 'long', year: 'numeric' });
-    }
-    return mode;
-  }
+  let availMonths  = [];
+  let allMonthData = {};
+  let currentMonth = null;
 
   function fmtMoney(v) {
+    if (!v) return '—';
     if (v >= 1000000) return '$' + (v/1000000).toFixed(1) + 'M';
     if (v >= 1000)    return '$' + Math.round(v/1000) + 'k';
     return '$' + Math.round(v).toLocaleString();
   }
   function fmtMoneyFull(v) {
+    if (!v) return '$0';
     return '$' + Math.round(v).toLocaleString();
   }
   function pct(num, den) {
-    if (!den || den === 0) return '—';
+    if (!den) return '—';
     return Math.round((num / den) * 100) + '%';
   }
   function pctNum(num, den) {
-    if (!den || den === 0) return 0;
+    if (!den) return 0;
     return Math.round((num / den) * 100);
   }
 
-  /* ─────────────────────────────────────────────
-     RENDER
-  ───────────────────────────────────────────── */
-  function render(mode) {
-    currentMode = mode;
-    const months   = monthsForMode(mode);
-    const { ju, ch } = aggregateReps(months);
-    const label    = periodLabel(mode);
+  async function boot() {
+    try {
+      const mr = await fetch(MONTHS_URL);
+      availMonths = await mr.json();
 
-    document.getElementById('period-chip').textContent = '· ' + label;
-    document.getElementById('footer-bar').textContent =
-      availMonths[0] ? 'Data as of ' + (allMonthData[availMonths[0]]?.last_updated || availMonths[0]) : '';
+      const fetches = availMonths.map(async k => {
+        const r = await fetch(DATA_URL(k));
+        if (r.ok) allMonthData[k] = await r.json();
+      });
+      await Promise.all(fetches);
 
-    // prev period for comparison
-    const prevMonths = getPrevMonths(mode);
-    const prev = aggregateReps(prevMonths);
+      // populate month picker
+      const picker = document.getElementById('month-picker');
+      availMonths.forEach(k => {
+        const [y, m] = k.split('-');
+        const label = new Date(+y, +m-1, 1).toLocaleString('en-US', {month:'long', year:'numeric'});
+        const opt = document.createElement('option');
+        opt.value = k;
+        opt.textContent = label;
+        picker.appendChild(opt);
+      });
 
-    renderTeamStrip(ju, ch);
-    renderAgentCards(ju, ch, prev);
-    renderDeals();
+      currentMonth = availMonths[0];
+      picker.value = currentMonth;
+      render(currentMonth);
+    } catch(e) {
+      console.error('Boot error:', e);
+    }
   }
 
-  function getPrevMonths(mode) {
-    if (mode === 'ytd' || mode === 'qtd') return [];
-    if (mode.startsWith('q')) {
-      const q = parseInt(mode[1]);
-      if (q <= 1) return [];
-      return QUARTER_MONTHS['q'+(q-1)].map(m => YEAR+'-'+m).filter(k => allMonthData[k]);
-    }
-    if (mode.match(/\d{4}-\d{2}/)) {
-      const [y,m] = mode.split('-');
-      const pm = parseInt(m) - 1;
-      if (pm < 1) return [];
-      const prevKey = y + '-' + String(pm).padStart(2,'0');
-      return allMonthData[prevKey] ? [prevKey] : [];
-    }
-    return [];
+  function selectMonth(k) {
+    currentMonth = k;
+    render(k);
   }
 
-  function renderTeamStrip(ju, ch) {
-    const teamDisc = ju.disc + ch.disc;
-    const teamOff  = ju.offers + ch.offers;
-    const teamCon  = ju.contracts + ch.contracts;
-    const teamRev  = ju.revenue + ch.revenue;
+  function render(mk) {
+    const d = allMonthData[mk] || {};
+    const [y, m] = mk.split('-');
+    const label = new Date(+y, +m-1, 1).toLocaleString('en-US', {month:'long', year:'numeric'});
 
-    // pipeline from latest JSON
-    const latest = availMonths[0];
-    const d = allMonthData[latest] || {};
-    const juPipe = (d.pipeline_by_agent || {})['Julian'] || (d.pipeline_by_agent || {})['Julian Leslie'] || 0;
-    const chPipe = (d.pipeline_by_agent || {})['Charles'] || (d.pipeline_by_agent || {})['Charles Schuhmann'] || 0;
-    const teamPipe = juPipe + chPipe;
+    document.getElementById('report-date').textContent = label;
+    document.getElementById('last-updated').textContent = d.last_updated ? 'Updated ' + d.last_updated : '';
 
-    document.getElementById('app-root').innerHTML = `
-      <div class="team-strip">
-        <div class="tkpi">
-          <div class="tkpi-label">Discoveries</div>
-          <div class="tkpi-value">${teamDisc}</div>
-          <div class="tkpi-split">
-            <div class="tkpi-agent"><div class="dot" style="background:#639922;"></div>JU ${ju.disc}</div>
-            <div class="tkpi-agent"><div class="dot" style="background:#378ADD;"></div>CH ${ch.disc}</div>
-          </div>
-        </div>
-        <div class="tkpi">
-          <div class="tkpi-label">Offers made</div>
-          <div class="tkpi-value">${teamOff}</div>
-          <div class="tkpi-split">
-            <div class="tkpi-agent"><div class="dot" style="background:#639922;"></div>JU ${ju.offers}</div>
-            <div class="tkpi-agent"><div class="dot" style="background:#378ADD;"></div>CH ${ch.offers}</div>
-          </div>
-        </div>
-        <div class="tkpi">
-          <div class="tkpi-label">Contracts</div>
-          <div class="tkpi-value">${teamCon}</div>
-          <div class="tkpi-split">
-            <div class="tkpi-agent"><div class="dot" style="background:#639922;"></div>JU ${ju.contracts}</div>
-            <div class="tkpi-agent"><div class="dot" style="background:#378ADD;"></div>CH ${ch.contracts}</div>
-          </div>
-        </div>
-        <div class="tkpi">
-          <div class="tkpi-label">Revenue closed</div>
-          <div class="tkpi-value">${fmtMoney(teamRev)}</div>
-          <div class="tkpi-split">
-            <div class="tkpi-agent"><div class="dot" style="background:#639922;"></div>JU ${fmtMoney(ju.revenue)}</div>
-            <div class="tkpi-agent"><div class="dot" style="background:#378ADD;"></div>CH ${fmtMoney(ch.revenue)}</div>
-          </div>
-        </div>
-        <div class="tkpi">
-          <div class="tkpi-label">Pipeline value</div>
-          <div class="tkpi-value">${teamPipe ? fmtMoney(teamPipe) : '—'}</div>
-          <div class="tkpi-split">
-            <div class="tkpi-agent"><div class="dot" style="background:#639922;"></div>JU ${juPipe ? fmtMoney(juPipe) : '—'}</div>
-            <div class="tkpi-agent"><div class="dot" style="background:#378ADD;"></div>CH ${chPipe ? fmtMoney(chPipe) : '—'}</div>
-          </div>
+    const reps = d.reps || {};
+    const ju   = reps['Julian']  || {};
+    const ch   = reps['Charles'] || {};
+    const pipe = d.pipeline_by_agent || {};
+
+    renderTeamStrip(ju, ch, pipe);
+    renderAgentCards(ju, ch, pipe, mk);
+    renderRevChart();
+    renderDeals(d);
+  }
+
+  function renderTeamStrip(ju, ch, pipe) {
+    const teamDisc = (ju.discoveries||0) + (ch.discoveries||0);
+    const teamOff  = (ju.offers||0)      + (ch.offers||0);
+    const teamCon  = (ju.contracts||0)   + (ch.contracts||0);
+    const teamRev  = (ju.revenue||0)     + (ch.revenue||0);
+    const teamPipe = (pipe['Julian']||0) + (pipe['Charles']||0);
+
+    document.getElementById('team-strip').innerHTML = `
+      <div class="tkpi">
+        <div class="tkpi-label">Discoveries</div>
+        <div class="tkpi-value">${teamDisc}</div>
+        <div class="tkpi-split">
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.discoveries||0}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.discoveries||0}</div>
         </div>
       </div>
-      <div class="agents-grid" id="agents-grid"></div>
-      <div class="deals-grid" id="deals-grid"></div>
+      <div class="tkpi">
+        <div class="tkpi-label">Offers made</div>
+        <div class="tkpi-value">${teamOff}</div>
+        <div class="tkpi-split">
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.offers||0}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.offers||0}</div>
+        </div>
+      </div>
+      <div class="tkpi">
+        <div class="tkpi-label">Contracts</div>
+        <div class="tkpi-value">${teamCon}</div>
+        <div class="tkpi-split">
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.contracts||0}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.contracts||0}</div>
+        </div>
+      </div>
+      <div class="tkpi">
+        <div class="tkpi-label">Pipeline value</div>
+        <div class="tkpi-value">${teamPipe ? fmtMoney(teamPipe) : '—'}</div>
+        <div class="tkpi-split">
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${pipe['Julian'] ? fmtMoney(pipe['Julian']) : '—'}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${pipe['Charles'] ? fmtMoney(pipe['Charles']) : '—'}</div>
+        </div>
+      </div>
     `;
-
-    renderAgentCards_inner(ju, ch, {});
   }
 
-  // called after DOM inserted
-  function renderAgentCards(ju, ch, prev) { /* placeholder — inner called by strip */ }
+  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, mk) {
+    const disc = data.discoveries || 0;
+    const off  = data.offers      || 0;
+    const con  = data.contracts   || 0;
+    const rev  = data.revenue     || 0;
+    const pipeVal = pipe || 0;
 
-  function renderAgentCards_inner(ju, ch, prev) {
-    const grid = document.getElementById('agents-grid');
-    if (!grid) return;
-
-    grid.innerHTML = agentCardHTML('ju', 'JU', 'Julian', 'av-ju', ju, prev.ju || {ju:0,ch:0,disc:0,offers:0,contracts:0,revenue:0}) +
-                     agentCardHTML('ch', 'CH', 'Charles', 'av-ch', ch, prev.ch || {ju:0,ch:0,disc:0,offers:0,contracts:0,revenue:0});
-
-    // charts
-    buildChart('chart-ju', ytdContractsByMonth('Julian'), '#639922');
-    buildChart('chart-ch', ytdContractsByMonth('Charles'), '#378ADD');
-
-    renderDeals_inner();
-  }
-
-  function agentCardHTML(pfx, initials, name, avClass, data, prevData) {
-    const revColor  = data.revenue > 0 ? 'color:var(--green)' : 'color:var(--text)';
-    const offColor  = data.offers > 0  ? 'color:var(--amber)' : 'color:var(--faint)';
-    const conColor  = data.contracts > 0 ? 'color:var(--green)' : 'color:var(--faint)';
-
-    const r1        = pct(data.offers, data.disc);
-    const r2        = pct(data.contracts, data.offers);
-    const r1Color   = data.offers > 0 ? 'color:var(--green)' : 'color:var(--faint)';
-    const r2Color   = data.contracts > 0 ? 'color:var(--green)' : 'color:var(--faint)';
-    const cr1p      = pctNum(data.offers, data.disc);
-    const cr2p      = pctNum(data.contracts, data.offers);
-
-    const prevDisc  = prevData.disc      || 0;
-    const prevOff   = prevData.offers    || 0;
-    const prevCon   = prevData.contracts || 0;
-
-    const subText = (cur, prev) => prev !== undefined ? `${prev} prev period` : '—';
+    const r1     = pct(off, disc);
+    const r2     = pct(con, off);
+    const r1n    = pctNum(off, disc);
+    const r2n    = pctNum(con, off);
+    const canvasId = 'chart-' + name.toLowerCase();
 
     return `
     <div class="agent-card">
@@ -781,161 +469,173 @@
           </div>
         </div>
         <div class="head-rev">
-          <div class="rev-val" style="${revColor}">${fmtMoneyFull(data.revenue)}</div>
-          <div class="rev-lbl">closed this period</div>
+          <div class="rev-val" style="${rev > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${fmtMoneyFull(rev)}</div>
+          <div class="rev-lbl">closed this month</div>
         </div>
       </div>
 
       <div class="metrics-row">
         <div class="met">
           <div class="met-label">Discoveries</div>
-          <div class="met-value" style="color:var(--text)">${data.disc}</div>
-          <div class="met-sub">${subText(data.disc, prevDisc)}</div>
+          <div class="met-value">${disc}</div>
+          <div class="met-sub">leads activated</div>
         </div>
         <div class="met">
           <div class="met-label">Offers</div>
-          <div class="met-value" style="${offColor}">${data.offers}</div>
-          <div class="met-sub">${subText(data.offers, prevOff)}</div>
+          <div class="met-value" style="${off > 0 ? 'color:var(--amber)' : 'color:var(--faint)'}">${off}</div>
+          <div class="met-sub">made this month</div>
         </div>
         <div class="met">
           <div class="met-label">Contracts</div>
-          <div class="met-value" style="${conColor}">${data.contracts}</div>
-          <div class="met-sub">${subText(data.contracts, prevCon)}</div>
+          <div class="met-value" style="${con > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${con}</div>
+          <div class="met-sub">under contract</div>
         </div>
       </div>
 
       <div class="rates-row">
         <div class="rate">
-          <span class="rate-label">Disc → offer</span>
-          <span class="rate-value" style="${r1Color}">${r1}</span>
+          <div class="rate-label">Disc → offer</div>
+          <div class="rate-value" style="${off > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${r1}</div>
         </div>
         <div class="rate">
-          <span class="rate-label">Offer → cont.</span>
-          <span class="rate-value" style="${r2Color}">${r2}</span>
+          <div class="rate-label">Offer → contract</div>
+          <div class="rate-value" style="${con > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${r2}</div>
         </div>
         <div class="rate">
-          <span class="rate-label">Pipeline</span>
-          <span class="rate-value">—</span>
+          <div class="rate-label">Pipeline</div>
+          <div class="rate-value" style="color:var(--green)">${pipeVal ? fmtMoney(pipeVal) : '—'}</div>
         </div>
       </div>
 
       <div class="activity-sec">
         <div class="sec-title">Contracts YTD</div>
-        <div class="chart-wrap">
-          <canvas id="chart-${pfx}"></canvas>
-        </div>
-        <div class="cr-grid">
-          <div class="cr-cell">
-            <div class="cr-label">Disc → offer</div>
-            <div class="cr-value" style="${r1Color}">${r1 === '—' ? '—' : r1}</div>
-            <div class="cr-bar-bg">
-              <div class="cr-bar" style="width:${cr1p}%;background:#EF9F27;"></div>
-            </div>
+        <div class="chart-wrap"><canvas id="${canvasId}"></canvas></div>
+        <div class="conv-grid">
+          <div class="conv-cell">
+            <div class="conv-label">Disc → offer</div>
+            <div class="conv-value" style="${off > 0 ? 'color:var(--amber)' : 'color:var(--faint)'}">${r1}</div>
+            <div class="conv-bar-bg"><div class="conv-bar" style="width:${r1n}%;background:var(--amber)"></div></div>
           </div>
-          <div class="cr-cell">
-            <div class="cr-label">Offer → contract</div>
-            <div class="cr-value" style="${r2Color}">${r2 === '—' ? '—' : r2}</div>
-            <div class="cr-bar-bg">
-              <div class="cr-bar" style="width:${cr2p}%;background:#639922;"></div>
-            </div>
+          <div class="conv-cell">
+            <div class="conv-label">Offer → contract</div>
+            <div class="conv-value" style="${con > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${r2}</div>
+            <div class="conv-bar-bg"><div class="conv-bar" style="width:${r2n}%;background:var(--green)"></div></div>
           </div>
         </div>
       </div>
     </div>`;
   }
 
-  function buildChart(canvasId, data, color) {
+  function renderAgentCards(ju, ch, pipe, mk) {
+    document.getElementById('agents-grid').innerHTML =
+      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  mk) +
+      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], mk);
+
+    buildContractsChart('chart-julian',  'Julian',  '#639922');
+    buildContractsChart('chart-charles', 'Charles', '#378ADD');
+  }
+
+  function buildContractsChart(canvasId, agent, color) {
     const existing = Chart.getChart(canvasId);
     if (existing) existing.destroy();
-
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
+
+    const months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+    const data = months.map(m => {
+      const key = '2026-' + m;
+      const d = allMonthData[key];
+      if (!d || !d.reps) return 0;
+      const r = d.reps[agent] || {};
+      return r.contracts || 0;
+    });
 
     new Chart(canvas, {
       type: 'bar',
       data: {
-        labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
-        datasets: [{
-          data: data,
-          backgroundColor: color,
-          borderRadius: 3,
-          borderSkipped: false,
-          barPercentage: 0.55,
-        }]
+        labels: ['J','F','M','A','M','J','J','A','S','O','N','D'],
+        datasets: [{ data, backgroundColor: color, borderRadius: 3, borderSkipped: false, barPercentage: 0.6 }]
       },
       options: {
-        responsive: true,
-        maintainAspectRatio: false,
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => c.raw + ' contract' + (c.raw !== 1 ? 's':'') } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 9 }, color: '#a8a5a0', maxRotation: 0 }, border: { display: false } },
+          y: { grid: { color: 'rgba(0,0,0,0.05)' }, ticks: { stepSize: 1, precision: 0, font: { size: 9 }, color: '#a8a5a0' }, border: { display: false }, beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  function renderRevChart() {
+    const existing = Chart.getChart('rev-chart');
+    if (existing) existing.destroy();
+
+    const months   = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+    const labels   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const juData   = months.map(m => { const d = allMonthData['2026-'+m]; return d?.reps?.['Julian']?.revenue  || 0; });
+    const chData   = months.map(m => { const d = allMonthData['2026-'+m]; return d?.reps?.['Charles']?.revenue || 0; });
+
+    new Chart(document.getElementById('rev-chart'), {
+      type: 'bar',
+      data: {
+        labels,
+        datasets: [
+          { label: 'Julian',  data: juData, backgroundColor: '#639922', borderRadius: 3, borderSkipped: false, barPercentage: 0.55, categoryPercentage: 0.7 },
+          { label: 'Charles', data: chData, backgroundColor: '#378ADD', borderRadius: 3, borderSkipped: false, barPercentage: 0.55, categoryPercentage: 0.7 }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
         plugins: {
-          legend: { display: false },
-          tooltip: { callbacks: { label: c => c.raw + ' contract' + (c.raw !== 1 ? 's' : '') } }
+          legend: { position: 'top', labels: { font: { family: 'DM Mono', size: 11 }, color: '#6b6966', boxWidth: 10, padding: 16 } },
+          tooltip: { callbacks: { label: c => c.dataset.label + ': $' + Math.round(c.raw).toLocaleString() } }
         },
         scales: {
-          x: {
-            grid: { display: false },
-            ticks: { font: { size: 10 }, color: '#A8A7A1', autoSkip: false, maxRotation: 0 },
-            border: { display: false }
-          },
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#a8a5a0' }, border: { display: false }, stacked: false },
           y: {
-            grid: { color: 'rgba(136,135,128,0.12)' },
-            ticks: { stepSize: 1, precision: 0, font: { size: 10 }, color: '#A8A7A1' },
-            border: { display: false },
-            beginAtZero: true,
-            max: Math.max(3, Math.max(...data) + 1)
+            grid: { color: 'rgba(0,0,0,0.05)' },
+            ticks: { font: { size: 10 }, color: '#a8a5a0', callback: v => v >= 1000 ? '$' + Math.round(v/1000) + 'k' : '$' + v },
+            border: { display: false }, beginAtZero: true
           }
         }
       }
     });
   }
 
-  function renderDeals_inner() {
-    const grid = document.getElementById('deals-grid');
-    if (!grid) return;
+  function renderDeals(d) {
+    const allDeals = d.agent_deals || [];
+    const juDeals  = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('julian'));
+    const chDeals  = allDeals.filter(dl => (dl.agent||'').toLowerCase().includes('charles'));
+    const pipe     = d.pipeline_by_agent || {};
 
-    const latest = availMonths[0];
-    const d = allMonthData[latest] || {};
-    const allDeals = d.agent_deals || d.deals || [];
-
-    const juDeals = allDeals.filter(deal => {
-      const a = (deal.agent || deal.rep || '').toLowerCase();
-      return a.includes('julian');
-    });
-    const chDeals = allDeals.filter(deal => {
-      const a = (deal.agent || deal.rep || '').toLowerCase();
-      return a.includes('charles');
-    });
-
-    const juPipe = juDeals.reduce((s,dl) => s + (dl.value || dl.assignment_fee || 0), 0);
-    const chPipe = chDeals.reduce((s,dl) => s + (dl.value || dl.assignment_fee || 0), 0);
-
-    grid.innerHTML = dealCardHTML('JU', 'av-ju', 'Julian', juDeals, juPipe) +
-                     dealCardHTML('CH', 'av-ch', 'Charles', chDeals, chPipe);
+    document.getElementById('deals-grid').innerHTML =
+      dealCardHTML('JU', 'av-ju', 'Julian',  juDeals, pipe['Julian']  || 0) +
+      dealCardHTML('CH', 'av-ch', 'Charles', chDeals, pipe['Charles'] || 0);
   }
 
-  function renderDeals() { /* called after DOM ready */ }
-
   function dealCardHTML(initials, avClass, name, deals, pipeTotal) {
-    const pipeStr = pipeTotal > 0 ? fmtMoney(pipeTotal) + ' pipeline' : 'no pipeline data';
-    const rowsHTML = deals.length === 0
-      ? `<div class="empty-msg">No active deals</div>`
+    const rows = deals.length === 0
+      ? `<div class="empty-msg">No active deals this period</div>`
       : deals.map(dl => {
-          const addr   = dl.address || dl.addr || 'Address not available';
-          const value  = dl.value || dl.assignment_fee || 0;
-          const status = (dl.status || dl.stage || '').toLowerCase();
-          const days   = dl.days_in_pipeline || dl.days || '';
-          const badgeCls = status.includes('clos') ? 'b-closed'
-                         : status.includes('title') ? 'b-title'
-                         : status.includes('dead') ? 'b-dead' : 'b-avail';
-          const badgeText = status.toUpperCase() || 'AVAIL';
-          const metaText = days ? `${days} days in pipeline` : '';
+          const addr   = dl.address || 'Address not available';
+          const value  = dl.value   || 0;
+          const status = (dl.status || '').toLowerCase();
+          const days   = dl.days_in_pipeline || '';
+          const badgeCls  = status.includes('clos') ? 'b-closed'
+                          : status.includes('title') || status.includes('pending') ? 'b-title'
+                          : status.includes('dead') ? 'b-dead' : 'b-avail';
+          const badgeText = status.includes('pending') || status.includes('title') ? 'PENDING'
+                          : status.includes('clos') ? 'CLOSED'
+                          : status.includes('dead') ? 'DEAD' : 'AVAILABLE';
           return `
           <div class="deal-row">
             <div>
               <div class="deal-addr">${addr}</div>
-              ${metaText ? `<div class="deal-meta">${metaText}</div>` : ''}
+              ${days ? `<div class="deal-meta">${days}d in pipeline</div>` : ''}
             </div>
             <div class="deal-right">
-              <div class="deal-val">${fmtMoneyFull(value)}</div>
+              <div class="deal-val">${value ? fmtMoneyFull(value) : '—'}</div>
               <span class="badge ${badgeCls}">${badgeText}</span>
             </div>
           </div>`;
@@ -948,71 +648,13 @@
           <div class="av ${avClass} av-sm">${initials}</div>
           <span class="deal-head-name">${name} — active deals</span>
         </div>
-        <span class="deal-head-pipe">${pipeStr}</span>
+        <span class="deal-head-pipe">${pipeTotal ? fmtMoney(pipeTotal) + ' pipeline' : '—'}</span>
       </div>
-      <div class="deal-list">${rowsHTML}</div>
+      <div class="deal-list">${rows}</div>
     </div>`;
   }
 
-  /* ─────────────────────────────────────────────
-     CONTROLS
-  ───────────────────────────────────────────── */
-  let openDrop = null;
-
-  function toggleDrop(d) {
-    const menu = document.getElementById('drop-' + d + '-menu');
-    if (openDrop && openDrop !== d) {
-      document.getElementById('drop-' + openDrop + '-menu').classList.remove('open');
-    }
-    menu.classList.toggle('open');
-    openDrop = menu.classList.contains('open') ? d : null;
-  }
-
-  document.addEventListener('click', e => {
-    if (!e.target.closest('.drop-wrap')) {
-      document.querySelectorAll('.drop-menu').forEach(m => m.classList.remove('open'));
-      openDrop = null;
-    }
-  });
-
-  function clearDrops() {
-    document.getElementById('drop-q-text').textContent = 'Quarter';
-    document.getElementById('drop-q-trigger').classList.remove('has-val');
-    document.getElementById('drop-m-text').textContent = 'Month';
-    document.getElementById('drop-m-trigger').classList.remove('has-val');
-    document.querySelectorAll('.drop-item.sel').forEach(el => el.classList.remove('sel'));
-    document.querySelectorAll('.drop-menu').forEach(m => m.classList.remove('open'));
-    openDrop = null;
-  }
-
-  function pickQ(key, label, el) {
-    clearDrops();
-    document.getElementById('drop-q-text').textContent = label;
-    document.getElementById('drop-q-trigger').classList.add('has-val');
-    el.classList.add('sel');
-    ['btn-qtd','btn-ytd'].forEach(id => document.getElementById(id).classList.remove('on'));
-    render(key);
-  }
-
-  function pickM(key, label, el) {
-    clearDrops();
-    document.getElementById('drop-m-text').textContent = label;
-    document.getElementById('drop-m-trigger').classList.add('has-val');
-    el.classList.add('sel');
-    ['btn-qtd','btn-ytd'].forEach(id => document.getElementById(id).classList.remove('on'));
-    render(key);
-  }
-
-  function setMode(key) {
-    clearDrops();
-    document.getElementById('btn-' + key).classList.add('on');
-    render(key);
-  }
-
-  /* ─────────────────────────────────────────────
-     KICK OFF
-  ───────────────────────────────────────────── */
   boot();
-  </script>
+</script>
 </body>
 </html>

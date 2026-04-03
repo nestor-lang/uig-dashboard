@@ -446,19 +446,20 @@
   function aggregateReps(months) {
     const zero = () => ({ discoveries:0, offers:0, contracts:0, revenue:0 });
     const ju = zero(), ch = zero();
+    // Always read from reps_by_month in the latest file — it has full history for all months
+    const latestD  = allMonthData[availMonths[0]] || {};
+    const repsHist = latestD.reps_by_month || {};
     months.forEach(k => {
-      const d = allMonthData[k];
-      if (!d || !d.reps) return;
-      const jd = d.reps['Julian']  || {};
-      const cd = d.reps['Charles'] || {};
+      const jd = (repsHist[k] || {})['Julian']  || {};
+      const cd = (repsHist[k] || {})['Charles'] || {};
       ju.discoveries += jd.discoveries || 0;
       ju.offers      += jd.offers      || 0;
-      ju.contracts   += jd.contracts   || 0;
-      ju.revenue     += jd.revenue     || 0;
+      ju.contracts   += jd.accepted    || 0;
+      ju.revenue     += jd.closed_revenue || 0;
       ch.discoveries += cd.discoveries || 0;
       ch.offers      += cd.offers      || 0;
-      ch.contracts   += cd.contracts   || 0;
-      ch.revenue     += cd.revenue     || 0;
+      ch.contracts   += cd.accepted    || 0;
+      ch.revenue     += cd.closed_revenue || 0;
     });
     return { ju, ch };
   }

@@ -807,8 +807,8 @@
   function agentDealCard(initials, avClass, name, deals, pipeTotal) {
     const totalGP  = deals.reduce((s,dl) => s+(dl.value||0), 0);
     const isPending = dl => { const s = (dl.status||'').toLowerCase(); return s.includes('pending') || s.includes('title') || s.includes('assigned'); };
-    const pending  = deals.filter(isPending).length;
-    const avail    = deals.filter(dl => !isPending(dl)).length;
+    const pendingGP = deals.filter(isPending).reduce((s,dl) => s+(dl.value||0), 0);
+    const avail     = deals.filter(dl => !isPending(dl)).length;
 
     const rows = deals.length === 0
       ? `<div class="empty-msg">No active deals</div>`
@@ -842,8 +842,8 @@
             <div class="deal-total-val" style="color:var(--green)">${fmtMoneyFull(totalGP)}</div>
           </div>
           <div class="deal-total-cell">
-            <div class="deal-total-label">Pending</div>
-            <div class="deal-total-val" style="color:var(--amber)">${pending}</div>
+            <div class="deal-total-label">Pending GP</div>
+            <div class="deal-total-val" style="color:var(--amber)">${pendingGP ? fmtMoney(pendingGP) : '—'}</div>
           </div>
           <div class="deal-total-cell">
             <div class="deal-total-label">Available</div>

@@ -596,7 +596,7 @@
     `;
   }
 
-  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, periodLabel) {
+  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, periodLabel, revLabel) {
     const disc    = data.discoveries || 0;
     const off     = data.offers      || 0;
     const con     = data.contracts   || 0;
@@ -620,7 +620,7 @@
         </div>
         <div class="head-rev">
           <div class="rev-val" style="${rev > 0 ? 'color:var(--green)' : 'color:var(--faint)'}">${fmtMoneyFull(rev)}</div>
-          <div class="rev-lbl">closed — ${periodLabel}</div>
+          <div class="rev-lbl">${revLabel}</div>
         </div>
       </div>
 
@@ -678,9 +678,14 @@
 
   function renderAgentCards(ju, ch, pipe, mode) {
     const lbl = periodLabel(mode);
+    const revLbl = mode === 'ytd' ? 'this year'
+                 : mode === 'qtd' ? 'this quarter'
+                 : mode.startsWith('q') ? mode.toUpperCase()
+                 : mode.match(/\d{4}-\d{2}/) ? 'this month'
+                 : lbl;
     document.getElementById('agents-grid').innerHTML =
-      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  lbl) +
-      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], lbl);
+      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  lbl, revLbl) +
+      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], lbl, revLbl);
 
     // Contracts YTD chart — always shows full YTD regardless of selected period
     buildContractsChart('chart-julian',  'Julian',  '#639922');
@@ -693,15 +698,18 @@
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
 
-    const curMonth = new Date().getMonth(); // 0-indexed
-    const months   = ['01','02','03','04','05','06','07','08','09','10','11','12'];
-    const labels   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const data     = months.map(m => {
-      const d = allMonthData['2026-'+m];
-      return (d?.reps?.[agent]?.contracts) || 0;
+    // Use reps_by_month from latest data — accurate historical source
+    const latestD  = allMonthData[availMonths[0]] || {};
+    const repsHist = latestD.reps_by_month || {};
+    const dataMonths = availMonths.filter(k => k.startsWith(YEAR+'-')).slice().reverse();
+    const labels = dataMonths.map(k => {
+      const [,m] = k.split('-');
+      return new Date(2026, +m-1, 1).toLocaleString('en-US', {month:'short'});
     });
-    // Null out future months so they don't show as 0
-    const chartData = data.map((v, i) => i > curMonth ? null : v);
+    const chartData = dataMonths.map(k => {
+      const rep = (repsHist[k] || {})[agent] || {};
+      return rep.accepted || rep.contracts || 0;
+    });
 
     new Chart(canvas, {
       type: 'line',
@@ -734,16 +742,20 @@
     });
   }
 
-  // Revenue chart — always shows all months YTD (period-agnostic)
+  // Revenue chart — only months with data, always full-year view
   function renderRevChart() {
     const existing = Chart.getChart('rev-chart');
     if (existing) existing.destroy();
 
-    const curMonth = new Date().getMonth();
-    const months   = ['01','02','03','04','05','06','07','08','09','10','11','12'];
-    const labels   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const juData   = months.map((m, i) => i > curMonth ? null : (allMonthData['2026-'+m]?.reps?.['Julian']?.revenue  || 0));
-    const chData   = months.map((m, i) => i > curMonth ? null : (allMonthData['2026-'+m]?.reps?.['Charles']?.revenue || 0));
+    const latestD  = allMonthData[availMonths[0]] || {};
+    const repsHist = latestD.reps_by_month || {};
+    const dataMonths = availMonths.filter(k => k.startsWith(YEAR+'-')).slice().reverse();
+    const labels = dataMonths.map(k => {
+      const [,m] = k.split('-');
+      return new Date(2026, +m-1, 1).toLocaleString('en-US', {month:'short'});
+    });
+    const juData = dataMonths.map(k => (repsHist[k]?.['Julian']?.closed_revenue)  || (allMonthData[k]?.reps?.['Julian']?.revenue)  || 0);
+    const chData = dataMonths.map(k => (repsHist[k]?.['Charles']?.closed_revenue) || (allMonthData[k]?.reps?.['Charles']?.revenue) || 0);
 
     new Chart(document.getElementById('rev-chart'), {
       type: 'bar',

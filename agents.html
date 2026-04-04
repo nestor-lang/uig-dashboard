@@ -611,10 +611,19 @@
       </div>
       <div class="tkpi">
         <div class="tkpi-label">Team Conv. Rates</div>
-        <div class="tkpi-value" style="font-size:18px;">${teamOff && teamDisc ? Math.round((teamOff/teamDisc)*100)+'%' : '—'}</div>
-        <div class="tkpi-split" style="flex-direction:column;gap:4px;">
-          <div class="tkpi-agent" style="font-size:10px;color:var(--muted);">Disc → Offer: ${teamDisc ? Math.round((teamOff/teamDisc)*100)+'%' : '—'}</div>
-          <div class="tkpi-agent" style="font-size:10px;color:var(--muted);">Offer → Contract: ${teamOff ? Math.round((teamCon/teamOff)*100)+'%' : '—'}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:8px;">
+          <div style="text-align:center;">
+            <div style="font-size:18px;font-weight:700;">${teamDisc ? Math.round((teamOff/teamDisc)*100)+'%' : '—'}</div>
+            <div style="font-size:9px;color:var(--faint);margin-top:3px;">D→O</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:18px;font-weight:700;">${teamOff ? Math.round((teamCon/teamOff)*100)+'%' : '—'}</div>
+            <div style="font-size:9px;color:var(--faint);margin-top:3px;">O→C</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:18px;font-weight:700;">${teamDisc ? Math.round((teamCon/teamDisc)*100)+'%' : '—'}</div>
+            <div style="font-size:9px;color:var(--faint);margin-top:3px;">D→C</div>
+          </div>
         </div>
       </div>
     `;

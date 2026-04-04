@@ -581,32 +581,32 @@
         <div class="tkpi-label">Discoveries</div>
         <div class="tkpi-value">${teamDisc}</div>
         <div class="tkpi-split">
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.discoveries||0}</div>
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.discoveries||0}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.discoveries||0}${teamDisc ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ju.discoveries||0)/teamDisc)*100) + '%)</span>' : ''}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.discoveries||0}${teamDisc ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ch.discoveries||0)/teamDisc)*100) + '%)</span>' : ''}</div>
         </div>
       </div>
       <div class="tkpi">
         <div class="tkpi-label">Offers made</div>
         <div class="tkpi-value">${teamOff}</div>
         <div class="tkpi-split">
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.offers||0}</div>
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.offers||0}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.offers||0}${teamOff ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ju.offers||0)/teamOff)*100) + '%)</span>' : ''}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.offers||0}${teamOff ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ch.offers||0)/teamOff)*100) + '%)</span>' : ''}</div>
         </div>
       </div>
       <div class="tkpi">
         <div class="tkpi-label">Contracts</div>
         <div class="tkpi-value">${teamCon}</div>
         <div class="tkpi-split">
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.contracts||0}</div>
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.contracts||0}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${ju.contracts||0}${teamCon ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ju.contracts||0)/teamCon)*100) + '%)</span>' : ''}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${ch.contracts||0}${teamCon ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ch.contracts||0)/teamCon)*100) + '%)</span>' : ''}</div>
         </div>
       </div>
       <div class="tkpi">
         <div class="tkpi-label">Revenue Closed</div>
         <div class="tkpi-value">${fmtMoney((ju.revenue||0)+(ch.revenue||0))}</div>
         <div class="tkpi-split">
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${fmtMoney(ju.revenue||0)}</div>
-          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${fmtMoney(ch.revenue||0)}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ju)"></div>JU ${fmtMoney(ju.revenue||0)}${teamRev ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ju.revenue||0)/teamRev)*100) + '%)</span>' : ''}</div>
+          <div class="tkpi-agent"><div class="dot" style="background:var(--ch)"></div>CH ${fmtMoney(ch.revenue||0)}${teamRev ? ' <span style="color:var(--faint);font-size:10px;">(' + Math.round(((ch.revenue||0)/teamRev)*100) + '%)</span>' : ''}</div>
         </div>
       </div>
     `;

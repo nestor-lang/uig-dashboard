@@ -858,16 +858,14 @@ function render(d, month) {
     </div>
     <div class="kpi-card">
       <div class="kpi-label">Google spend</div>
-      <div class="kpi-val" style="font-size:18px;">${fmt(gSpend)}</div>
+      <div class="kpi-val">${fmt(gSpend)}</div>
       <div class="kpi-sub" style="font-family:'DM Mono',monospace;">${isCurrentMonth && gTodaySpend ? fmt(gTodaySpend)+' today' : 'PPC'}</div>
     </div>
     <div class="kpi-card">
       <div class="kpi-label">Meta spend</div>
-      <div class="kpi-val" style="font-size:18px;">${fmt(mSpend)}</div>
+      <div class="kpi-val">${fmt(mSpend)}</div>
       <div class="kpi-sub" style="font-family:'DM Mono',monospace;">${isCurrentMonth && mTodaySpend ? fmt(mTodaySpend)+' today' : 'Facebook'}</div>
     </div>
-  </div>
-  <div class="kpi-strip" style="margin-top:10px;">
     <div class="kpi-card">
       <div class="kpi-label">CRM leads (30d)</div>
       <div class="kpi-val">${num(totalLeads)}</div>

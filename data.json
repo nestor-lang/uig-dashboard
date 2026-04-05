@@ -1,12 +1,12 @@
 {
-  "report_date": "April 04, 2026",
-  "last_updated": "2026-04-04 20:00 EST",
+  "report_date": "April 05, 2026",
+  "last_updated": "2026-04-05 05:57 AST",
   "google": {
-    "spend_mtd": 1131.75,
-    "clicks_mtd": 64,
+    "spend_mtd": 1175.02,
+    "clicks_mtd": 66,
     "crm_leads": 6,
-    "cpc": 17.68,
-    "cpl": 188.62,
+    "cpc": 17.8,
+    "cpl": 195.84,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,45 +14,45 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 66.41,
-        "spend_today": 12.86,
-        "clicks": 34,
-        "cpc": 1.95,
+        "spend": 67.56,
+        "spend_today": 1.15,
+        "clicks": 35,
+        "cpc": 1.93,
         "crm_leads": 0,
-        "cpl": 188.62
+        "cpl": 195.84
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1065.33,
-        "spend_today": 205.97,
-        "clicks": 30,
-        "cpc": 35.51,
+        "spend": 1107.45,
+        "spend_today": 0.0,
+        "clicks": 31,
+        "cpc": 35.72,
         "crm_leads": 0,
-        "cpl": 188.62
+        "cpl": 195.84
       }
     ]
   },
   "meta": {
-    "spend_30d": 521.25,
-    "clicks_30d": 189,
+    "spend_30d": 551.85,
+    "clicks_30d": 205,
     "crm_leads": 5,
-    "cpc": 2.76,
-    "cpl_crm": 104.25,
-    "cost_per_hot": 130.31,
+    "cpc": 2.69,
+    "cpl_crm": 110.37,
+    "cost_per_hot": 137.96,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 316.25,
-        "spend_today": 87.38,
-        "clicks": 115,
+        "spend": 331.96,
+        "spend_today": 3.63,
+        "clicks": 124,
         "crm_leads": 5,
-        "cpl_crm": 63.25
+        "cpl_crm": 66.39
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 205.0,
-        "spend_today": 67.74,
-        "clicks": 74,
+        "spend": 219.89,
+        "spend_today": 6.9,
+        "clicks": 81,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -98,13 +98,13 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1653.0
+      "spend": 1726.87
     }
   },
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 17,
+        "leads": 0,
         "active": 0,
         "booked": 7,
         "offers": 9,
@@ -114,11 +114,10 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 20450.0,
-        "closed_revenue": 0.0,
-        "discoveries": 17
+        "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 50,
+        "leads": 0,
         "active": 0,
         "booked": 25,
         "offers": 37,
@@ -128,13 +127,12 @@
         "dead": 2,
         "closed": 5,
         "pending_income": 40614.0,
-        "closed_revenue": 89841.95,
-        "discoveries": 50
+        "closed_revenue": 89841.95
       }
     },
     "2026-02": {
       "Charles": {
-        "leads": 21,
+        "leads": 11,
         "active": 5,
         "booked": 16,
         "offers": 19,
@@ -144,11 +142,10 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 42660.0,
-        "closed_revenue": 40116.5,
-        "discoveries": 21
+        "closed_revenue": 40116.5
       },
       "Julian": {
-        "leads": 46,
+        "leads": 5,
         "active": 2,
         "booked": 20,
         "offers": 34,
@@ -158,13 +155,12 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 92663.95,
-        "discoveries": 46
+        "closed_revenue": 92663.95
       }
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 19,
         "active": 10,
         "booked": 21,
         "offers": 24,
@@ -174,11 +170,10 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 34
+        "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 44,
+        "leads": 19,
         "active": 13,
         "booked": 30,
         "offers": 42,
@@ -188,13 +183,12 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 123504.59,
-        "discoveries": 44
+        "closed_revenue": 123504.59
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 6,
+        "leads": 4,
         "active": 4,
         "booked": 5,
         "offers": 5,
@@ -204,8 +198,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 42660.0,
-        "discoveries": 6
+        "closed_revenue": 42660.0
       },
       "Julian": {
         "leads": 1,
@@ -218,8 +211,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 1
+        "closed_revenue": 0.0
       }
     }
   },
@@ -291,100 +283,7 @@
           "closed": 140203
         },
         "total": 37
-      },
-      "deals": [
-        {
-          "address": "2324 Horton Rd, Knightdale, NC 27545, USA",
-          "value": 65659,
-          "status": "Available",
-          "days_in_pipeline": 3,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-          "value": 38549,
-          "status": "Available",
-          "days_in_pipeline": 9,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-          "value": 59549,
-          "status": "Available",
-          "days_in_pipeline": 10,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
-          "value": 34999,
-          "status": "Available",
-          "days_in_pipeline": 12,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "817 14th St, Radford, VA 24141, USA",
-          "value": 29869,
-          "status": "Sent to Title",
-          "days_in_pipeline": 15,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "166 Stanhope Cir NW, Atlanta, GA 30314, USA",
-          "value": 10000,
-          "status": "Available",
-          "days_in_pipeline": 16,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "2117 Etowah St, Birmingham, AL 35217, USA",
-          "value": 19875,
-          "status": "Available",
-          "days_in_pipeline": 22,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "115 Melton St, Griffin, GA 30223, USA",
-          "value": 13050,
-          "status": "Sent to Title",
-          "days_in_pipeline": 29,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
-          "value": 38650,
-          "status": "Sent to Title",
-          "days_in_pipeline": 37,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "1827 Gilmore St, Howell, MI 48855, USA",
-          "value": 27075,
-          "status": "Sent to Title",
-          "days_in_pipeline": 56,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-          "value": 1964,
-          "status": "Sent to Title",
-          "days_in_pipeline": 57,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "2537 Carmel Rd, Birmingham, AL 35235",
-          "value": 33288,
-          "status": "Available",
-          "days_in_pipeline": 59,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "601 E 107th Ter, Kansas City, MO 64131",
-          "value": 23949,
-          "status": "Available",
-          "days_in_pipeline": 67,
-          "contract_month": "2026-01"
-        }
-      ]
+      }
     },
     "Charles": {
       "by_month": {
@@ -448,58 +347,14 @@
           "pending": 44100
         },
         "total": 14
-      },
-      "deals": [
-        {
-          "address": "1010 6th Ave S, Jasper, AL 35501, USA",
-          "value": 27349,
-          "status": "Available",
-          "days_in_pipeline": 5,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "502 New Castle Ave, Wilmington, DE 19801, USA",
-          "value": 17000,
-          "status": "Available",
-          "days_in_pipeline": 10,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "2116 Bank St, Baltimore, MD 21231, USA",
-          "value": 49625,
-          "status": "Available",
-          "days_in_pipeline": 16,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-          "value": 21600,
-          "status": "Sent to Title",
-          "days_in_pipeline": 58,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "4805 Glenwood Dr, Acworth, GA 30101, USA",
-          "value": 20450,
-          "status": "Available",
-          "days_in_pipeline": 58,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "2327 Eastern Ave, Baltimore, MD 21224, USA",
-          "value": 22500,
-          "status": "Sent to Title",
-          "days_in_pipeline": 66,
-          "contract_month": "2026-01"
-        }
-      ]
+      }
     }
   },
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 1653.0
+    "2026-04": 1726.87
   },
   "channel_by_month": {
     "2026-01": {
@@ -565,12 +420,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 1131.75,
-      "meta_spend": 521.25,
+      "google_spend": 1175.02,
+      "meta_spend": 551.85,
       "ppc_leads": 6,
       "fb_leads": 5,
-      "google_cpc": 17.68,
-      "meta_cpc": 2.76,
+      "google_cpc": 17.8,
+      "meta_cpc": 2.69,
       "pipeline_ppc": {
         "leads": 6,
         "active": 5,
@@ -593,7 +448,6 @@
   },
   "pipeline": {
     "new_leads_30d": 11,
-    "dispositioned_mtd": 7,
     "hot": 5,
     "booked": 3,
     "offers": 3,
@@ -618,178 +472,6 @@
     "under_contract": 0,
     "closed": 0
   },
-  "reps": {
-    "Charles": {
-      "discoveries": 6,
-      "offers": 5,
-      "contracts": 0,
-      "revenue": 42660.0
-    },
-    "Julian": {
-      "discoveries": 1,
-      "offers": 1,
-      "contracts": 1,
-      "revenue": 0.0
-    }
-  },
-  "pipeline_by_agent": {
-    "Julian": 396476,
-    "Charles": 158524
-  },
-  "agent_deals": [
-    {
-      "address": "2324 Horton Rd, Knightdale, NC 27545, USA",
-      "value": 65659,
-      "status": "Available",
-      "days_in_pipeline": 3,
-      "contract_month": "2026-04",
-      "agent": "Julian"
-    },
-    {
-      "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-      "value": 38549,
-      "status": "Available",
-      "days_in_pipeline": 9,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-      "value": 59549,
-      "status": "Available",
-      "days_in_pipeline": 10,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
-      "value": 34999,
-      "status": "Available",
-      "days_in_pipeline": 12,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "817 14th St, Radford, VA 24141, USA",
-      "value": 29869,
-      "status": "Sent to Title",
-      "days_in_pipeline": 15,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "166 Stanhope Cir NW, Atlanta, GA 30314, USA",
-      "value": 10000,
-      "status": "Available",
-      "days_in_pipeline": 16,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "2117 Etowah St, Birmingham, AL 35217, USA",
-      "value": 19875,
-      "status": "Available",
-      "days_in_pipeline": 22,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "115 Melton St, Griffin, GA 30223, USA",
-      "value": 13050,
-      "status": "Sent to Title",
-      "days_in_pipeline": 29,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
-      "value": 38650,
-      "status": "Sent to Title",
-      "days_in_pipeline": 37,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "1827 Gilmore St, Howell, MI 48855, USA",
-      "value": 27075,
-      "status": "Sent to Title",
-      "days_in_pipeline": 56,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-      "value": 1964,
-      "status": "Sent to Title",
-      "days_in_pipeline": 57,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "2537 Carmel Rd, Birmingham, AL 35235",
-      "value": 33288,
-      "status": "Available",
-      "days_in_pipeline": 59,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "601 E 107th Ter, Kansas City, MO 64131",
-      "value": 23949,
-      "status": "Available",
-      "days_in_pipeline": 67,
-      "contract_month": "2026-01",
-      "agent": "Julian"
-    },
-    {
-      "address": "1010 6th Ave S, Jasper, AL 35501, USA",
-      "value": 27349,
-      "status": "Available",
-      "days_in_pipeline": 5,
-      "contract_month": "2026-03",
-      "agent": "Charles"
-    },
-    {
-      "address": "502 New Castle Ave, Wilmington, DE 19801, USA",
-      "value": 17000,
-      "status": "Available",
-      "days_in_pipeline": 10,
-      "contract_month": "2026-03",
-      "agent": "Charles"
-    },
-    {
-      "address": "2116 Bank St, Baltimore, MD 21231, USA",
-      "value": 49625,
-      "status": "Available",
-      "days_in_pipeline": 16,
-      "contract_month": "2026-03",
-      "agent": "Charles"
-    },
-    {
-      "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-      "value": 21600,
-      "status": "Sent to Title",
-      "days_in_pipeline": 58,
-      "contract_month": "2026-02",
-      "agent": "Charles"
-    },
-    {
-      "address": "4805 Glenwood Dr, Acworth, GA 30101, USA",
-      "value": 20450,
-      "status": "Available",
-      "days_in_pipeline": 58,
-      "contract_month": "2026-02",
-      "agent": "Charles"
-    },
-    {
-      "address": "2327 Eastern Ave, Baltimore, MD 21224, USA",
-      "value": 22500,
-      "status": "Sent to Title",
-      "days_in_pipeline": 66,
-      "contract_month": "2026-01",
-      "agent": "Charles"
-    }
-  ],
   "sources": {
     "ppc": 6,
     "facebook": 5,

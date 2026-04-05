@@ -1,6 +1,6 @@
 {
   "report_date": "April 05, 2026",
-  "last_updated": "2026-04-05 09:00 EST",
+  "last_updated": "2026-04-05 10:00 EST",
   "google": {
     "spend_mtd": 1293.79,
     "clicks_mtd": 70,
@@ -33,33 +33,33 @@
     ]
   },
   "meta": {
-    "spend_30d": 587.53,
-    "clicks_30d": 218,
+    "spend_30d": 601.86,
+    "clicks_30d": 224,
     "crm_leads": 5,
-    "cpc": 2.7,
-    "cpl_crm": 117.51,
-    "cost_per_hot": 146.88,
+    "cpc": 2.69,
+    "cpl_crm": 120.37,
+    "cost_per_hot": 150.47,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 348.01,
-        "spend_today": 19.33,
-        "clicks": 130,
+        "spend": 356.99,
+        "spend_today": 28.17,
+        "clicks": 133,
         "crm_leads": 5,
-        "cpl_crm": 69.6
+        "cpl_crm": 71.4
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 239.52,
-        "spend_today": 26.47,
-        "clicks": 88,
+        "spend": 244.87,
+        "spend_today": 31.82,
+        "clicks": 91,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "potential_income": 400292,
-  "assigned_income": 183895,
+  "assigned_income": 161395,
   "by_stage": {
     "Access Scheduled": 169557,
     "Initial Inspection Completed": 118049,
@@ -70,14 +70,13 @@
     "Virginia": 68519,
     "Georgia": 34650,
     "Alabama": 31152,
-    "Michigan": 27075,
-    "Maryland": 22500
+    "Michigan": 27075
   },
   "closed_by_month": {
     "2026-01": 194741,
     "2026-02": 181515,
     "2026-03": 229362,
-    "2026-04": 42660
+    "2026-04": 65160
   },
   "roa_by_month": {
     "2026-01": {
@@ -98,7 +97,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1881.32
+      "spend": 1895.65
     }
   },
   "reps_by_month": {
@@ -204,7 +203,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 42660.0,
+        "closed_revenue": 65160.0,
         "discoveries": 6
       },
       "Julian": {
@@ -391,14 +390,12 @@
         "2026-01": {
           "counts": {
             "on_hold": 1,
-            "pending": 1,
-            "closed": 1,
+            "closed": 2,
             "dead": 1
           },
           "gp": {
             "on_hold": 49659,
-            "pending": 22500,
-            "closed": 40116,
+            "closed": 62616,
             "dead": 12285
           },
           "total": 4
@@ -437,15 +434,15 @@
           "available": 4,
           "on_hold": 2,
           "dead": 4,
-          "closed": 2,
-          "pending": 2
+          "closed": 3,
+          "pending": 1
         },
         "gp": {
           "available": 114424,
           "on_hold": 99859,
           "dead": 82984,
-          "closed": 82776,
-          "pending": 44100
+          "closed": 105276,
+          "pending": 21600
         },
         "total": 14
       },
@@ -484,13 +481,6 @@
           "status": "Available",
           "days_in_pipeline": 59,
           "contract_month": "2026-02"
-        },
-        {
-          "address": "2327 Eastern Ave, Baltimore, MD 21224, USA",
-          "value": 22500,
-          "status": "Sent to Title",
-          "days_in_pipeline": 67,
-          "contract_month": "2026-01"
         }
       ]
     }
@@ -499,7 +489,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 1881.32
+    "2026-04": 1895.65
   },
   "channel_by_month": {
     "2026-01": {
@@ -566,11 +556,11 @@
     },
     "2026-04": {
       "google_spend": 1293.79,
-      "meta_spend": 587.53,
+      "meta_spend": 601.86,
       "ppc_leads": 6,
       "fb_leads": 5,
       "google_cpc": 18.48,
-      "meta_cpc": 2.7,
+      "meta_cpc": 2.69,
       "pipeline_ppc": {
         "leads": 6,
         "active": 5,
@@ -623,7 +613,7 @@
       "discoveries": 6,
       "offers": 5,
       "contracts": 0,
-      "revenue": 42660.0
+      "revenue": 65160.0
     },
     "Julian": {
       "discoveries": 1,
@@ -634,7 +624,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 396476,
-    "Charles": 158524
+    "Charles": 136024
   },
   "agent_deals": [
     {
@@ -779,14 +769,6 @@
       "status": "Available",
       "days_in_pipeline": 59,
       "contract_month": "2026-02",
-      "agent": "Charles"
-    },
-    {
-      "address": "2327 Eastern Ave, Baltimore, MD 21224, USA",
-      "value": 22500,
-      "status": "Sent to Title",
-      "days_in_pipeline": 67,
-      "contract_month": "2026-01",
       "agent": "Charles"
     }
   ],

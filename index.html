@@ -830,6 +830,8 @@ function render(d, month) {
   const isCurrent = !month || month === Object.keys(d.channel_by_month || {}).sort().reverse()[0];
   const gCPC = ch.google_cpc != null ? ch.google_cpc : (isCurrent ? g.cpc : null);
   const mCPC = ch.meta_cpc   != null ? ch.meta_cpc   : (isCurrent ? m.cpc : null);
+  const gTodaySpend = (g.campaigns || []).reduce((s, c) => s + (c.spend_today || 0), 0) || null;
+  const mTodaySpend = (m.campaigns || []).reduce((s, c) => s + (c.spend_today || 0), 0) || null;
 
   // (monthClosedRevenue is computed in showReport scope and injected into agent cards)
 
@@ -848,12 +850,24 @@ function render(d, month) {
   </div>
 
   <div class="section-label">Combined totals</div>
-  <div class="kpi-strip">
+  <div class="kpi-strip" style="grid-template-columns: repeat(3, 1fr);">
     <div class="kpi-card accent-green">
       <div class="kpi-label">Total spend</div>
       <div class="kpi-val">${fmt(totalSpend)}</div>
       <div class="kpi-sub">Google + Meta</div>
     </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Google spend</div>
+      <div class="kpi-val" style="font-size:18px;">${fmt(gSpend)}</div>
+      <div class="kpi-sub" style="font-family:'DM Mono',monospace;">${isCurrentMonth && gTodaySpend ? fmt(gTodaySpend)+' today' : 'PPC'}</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Meta spend</div>
+      <div class="kpi-val" style="font-size:18px;">${fmt(mSpend)}</div>
+      <div class="kpi-sub" style="font-family:'DM Mono',monospace;">${isCurrentMonth && mTodaySpend ? fmt(mTodaySpend)+' today' : 'Facebook'}</div>
+    </div>
+  </div>
+  <div class="kpi-strip" style="margin-top:10px;">
     <div class="kpi-card">
       <div class="kpi-label">CRM leads (30d)</div>
       <div class="kpi-val">${num(totalLeads)}</div>
@@ -879,6 +893,7 @@ function render(d, month) {
         <div class="channel-name">Google Ads</div>
         <div class="channel-badge badge-google">PPC</div>
       </div>
+      ${isCurrentMonth && gTodaySpend ? `<div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);margin-bottom:10px;">${fmt(gTodaySpend)} spent today</div>` : ''}
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(gSpend)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(ppcLeads)}</div></div>
@@ -901,6 +916,7 @@ function render(d, month) {
         <div class="channel-name">Meta Ads</div>
         <div class="channel-badge badge-meta">Facebook</div>
       </div>
+      ${isCurrentMonth && mTodaySpend ? `<div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);margin-bottom:10px;">${fmt(mTodaySpend)} spent today</div>` : ''}
       <div class="ch-kpis">
         <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(mSpend)}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(fbLeads)}</div></div>

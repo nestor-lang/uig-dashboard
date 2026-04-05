@@ -36,7 +36,7 @@
       background: var(--bg);
       color: var(--text);
       font-family: 'Syne', sans-serif;
-      min-height: 100vh;
+      min-height: 100vh; overflow-x: hidden;
       padding: 2rem 1.5rem 4rem;
     }
 
@@ -320,10 +320,16 @@
 
     /* ── Responsive ── */
     @media (max-width: 700px) {
-      .team-strip { grid-template-columns: repeat(2, 1fr); }
-      .agents-grid { grid-template-columns: 1fr; }
-      .deals-grid  { grid-template-columns: 1fr; }
-      .header { flex-direction: column; gap: 1rem; }
+      .team-strip      { grid-template-columns: repeat(2, 1fr); }
+      .agents-grid     { grid-template-columns: 1fr; }
+      .deals-grid      { grid-template-columns: 1fr; }
+      .deals-grid-2col { grid-template-columns: 1fr; }
+      .conv-grid       { grid-template-columns: 1fr; }
+      .deal-totals-row { grid-template-columns: repeat(3, 1fr); font-size: 11px; }
+      .header          { flex-direction: column; gap: 1rem; }
+      .period-controls { justify-content: flex-start; }
+      .tkpi-value      { font-size: 20px; }
+      .agent-card      { font-size: 13px; }
     }
   </style>
 </head>

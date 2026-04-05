@@ -131,7 +131,7 @@
   .badge-google { background: var(--blue-dim); color: var(--blue); border: 0.5px solid rgba(37,99,235,0.2); }
   .badge-meta { background: var(--purple-dim); color: var(--purple); border: 0.5px solid rgba(124,58,237,0.2); }
 
-  .ch-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 1rem; }
+  .ch-kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 1rem; }
   .ch-kpi { background: var(--surface2); border-radius: 8px; padding: 0.6rem 0.75rem; }
   .ch-kpi-label { font-size: 10px; color: var(--muted); margin-bottom: 3px; letter-spacing: 0.06em; }
   .ch-kpi-val { font-family: 'DM Mono', monospace; font-size: 16px; font-weight: 500; }
@@ -859,10 +859,11 @@ function render(d, month) {
         <div class="channel-name">Google Ads</div>
         <div class="channel-badge badge-google">PPC</div>
       </div>
-      ${isCurrentMonth && gTodaySpend ? `<div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);margin-bottom:10px;">${fmt(gTodaySpend)} spent today</div>` : ''}
       <div class="ch-kpis">
-        <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(gSpend)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">MTD Spend</div><div class="ch-kpi-val">${fmt(gSpend)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend Today</div><div class="ch-kpi-val">${isCurrentMonth && gTodaySpend ? fmt(gTodaySpend) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(ppcLeads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Leads Today</div><div class="ch-kpi-val">${isCurrentMonth ? num(g.crm_leads_today ?? 0) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${gCPC != null ? '$'+gCPC : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${gCPL != null ? '$'+gCPL : '—'}</div></div>
       </div>
@@ -882,10 +883,11 @@ function render(d, month) {
         <div class="channel-name">Meta Ads</div>
         <div class="channel-badge badge-meta">Facebook</div>
       </div>
-      ${isCurrentMonth && mTodaySpend ? `<div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);margin-bottom:10px;">${fmt(mTodaySpend)} spent today</div>` : ''}
       <div class="ch-kpis">
-        <div class="ch-kpi"><div class="ch-kpi-label">Spend</div><div class="ch-kpi-val">${fmt(mSpend)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">MTD Spend</div><div class="ch-kpi-val">${fmt(mSpend)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Spend Today</div><div class="ch-kpi-val">${isCurrentMonth && mTodaySpend ? fmt(mTodaySpend) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CRM Leads</div><div class="ch-kpi-val">${num(fbLeads)}</div></div>
+        <div class="ch-kpi"><div class="ch-kpi-label">Leads Today</div><div class="ch-kpi-val">${isCurrentMonth ? num(m.crm_leads_today ?? 0) : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPC</div><div class="ch-kpi-val">${mCPC != null ? '$'+mCPC : '—'}</div></div>
         <div class="ch-kpi"><div class="ch-kpi-label">CPL</div><div class="ch-kpi-val">${mCPL != null ? '$'+mCPL : '—'}</div></div>
       </div>

@@ -1,10 +1,11 @@
 {
   "report_date": "April 05, 2026",
-  "last_updated": "2026-04-05 18:00 EST",
+  "last_updated": "2026-04-05 18:20 EST",
   "google": {
     "spend_mtd": 1351.16,
     "clicks_mtd": 73,
     "crm_leads": 8,
+    "crm_leads_today": 2,
     "cpc": 18.51,
     "cpl": 168.9,
     "cost_per_booked": null,
@@ -33,26 +34,27 @@
     ]
   },
   "meta": {
-    "spend_30d": 704.24,
-    "clicks_30d": 257,
+    "spend_30d": 707.79,
+    "clicks_30d": 259,
     "crm_leads": 5,
-    "cpc": 2.74,
-    "cpl_crm": 140.85,
-    "cost_per_hot": 176.06,
+    "crm_leads_today": 0,
+    "cpc": 2.73,
+    "cpl_crm": 141.56,
+    "cost_per_hot": 176.95,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 412.65,
-        "spend_today": 83.27,
-        "clicks": 151,
+        "spend": 413.12,
+        "spend_today": 83.74,
+        "clicks": 152,
         "crm_leads": 5,
-        "cpl_crm": 82.53
+        "cpl_crm": 82.62
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 291.59,
-        "spend_today": 78.24,
-        "clicks": 106,
+        "spend": 294.67,
+        "spend_today": 81.32,
+        "clicks": 107,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -489,7 +491,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 2055.4
+    "2026-04": 2058.95
   },
   "channel_by_month": {
     "2026-01": {
@@ -556,11 +558,11 @@
     },
     "2026-04": {
       "google_spend": 1351.16,
-      "meta_spend": 704.24,
+      "meta_spend": 707.79,
       "ppc_leads": 8,
       "fb_leads": 5,
       "google_cpc": 18.51,
-      "meta_cpc": 2.74,
+      "meta_cpc": 2.73,
       "pipeline_ppc": {
         "leads": 8,
         "active": 7,

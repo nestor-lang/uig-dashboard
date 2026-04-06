@@ -1,6 +1,6 @@
 {
   "report_date": "April 06, 2026",
-  "last_updated": "2026-04-06 09:00 EST",
+  "last_updated": "2026-04-06 10:00 EST",
   "google": {
     "spend_mtd": 1479.28,
     "clicks_mtd": 81,
@@ -34,44 +34,44 @@
     ]
   },
   "meta": {
-    "spend_30d": 815.37,
-    "clicks_30d": 296,
+    "spend_30d": 828.45,
+    "clicks_30d": 300,
     "crm_leads": 10,
     "crm_leads_today": 2,
-    "cpc": 2.75,
-    "cpl_crm": 81.54,
-    "cost_per_hot": 203.84,
+    "cpc": 2.76,
+    "cpl_crm": 82.84,
+    "cost_per_hot": 207.11,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 460.19,
-        "spend_today": 25.6,
-        "clicks": 164,
+        "spend": 465.4,
+        "spend_today": 30.8,
+        "clicks": 165,
         "crm_leads": 10,
-        "cpl_crm": 46.02
+        "cpl_crm": 46.54
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 355.18,
-        "spend_today": 32.99,
-        "clicks": 132,
+        "spend": 363.05,
+        "spend_today": 40.86,
+        "clicks": 135,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 400292,
-  "assigned_income": 161395,
+  "potential_income": 402256,
+  "assigned_income": 159432,
   "by_stage": {
     "Access Scheduled": 169557,
     "Initial Inspection Completed": 118049,
     "On Market": 77687,
-    "Market Prep / Pre-Listing Marketing": 34999
+    "Market Prep / Pre-Listing Marketing": 36963
   },
   "by_agent": {
     "Virginia": 68519,
     "Georgia": 34650,
-    "Alabama": 31152,
+    "Alabama": 29188,
     "Michigan": 27075
   },
   "closed_by_month": {
@@ -99,7 +99,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2294.65
+      "spend": 2307.73
     }
   },
   "reps_by_month": {
@@ -196,7 +196,7 @@
     "2026-04": {
       "Charles": {
         "leads": 6,
-        "active": 4,
+        "active": 5,
         "booked": 5,
         "offers": 5,
         "accepted": 0,
@@ -210,7 +210,7 @@
       },
       "Julian": {
         "leads": 1,
-        "active": 1,
+        "active": 2,
         "booked": 0,
         "offers": 1,
         "accepted": 1,
@@ -243,15 +243,15 @@
         "2026-02": {
           "counts": {
             "on_hold": 2,
-            "pending": 3,
+            "pending": 2,
             "dead": 2,
-            "available": 1
+            "available": 2
           },
           "gp": {
             "on_hold": 88191,
-            "pending": 67689,
+            "pending": 65725,
             "dead": 54564,
-            "available": 33288
+            "available": 35252
           },
           "total": 8
         },
@@ -278,15 +278,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 8,
-          "pending": 5,
+          "available": 9,
+          "pending": 4,
           "on_hold": 2,
           "dead": 15,
           "closed": 7
         },
         "gp": {
-          "available": 285868,
-          "pending": 110607,
+          "available": 287832,
+          "pending": 108644,
           "on_hold": 88191,
           "dead": 331443,
           "closed": 140203
@@ -367,7 +367,7 @@
         {
           "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
           "value": 1964,
-          "status": "Sent to Title",
+          "status": "Available",
           "days_in_pipeline": 59,
           "contract_month": "2026-02"
         },
@@ -491,7 +491,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 2294.65
+    "2026-04": 2307.73
   },
   "channel_by_month": {
     "2026-01": {
@@ -558,11 +558,11 @@
     },
     "2026-04": {
       "google_spend": 1479.28,
-      "meta_spend": 815.37,
+      "meta_spend": 828.45,
       "ppc_leads": 8,
       "fb_leads": 10,
       "google_cpc": 18.26,
-      "meta_cpc": 2.75,
+      "meta_cpc": 2.76,
       "pipeline_ppc": {
         "leads": 8,
         "active": 7,
@@ -712,7 +712,7 @@
     {
       "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
       "value": 1964,
-      "status": "Sent to Title",
+      "status": "Available",
       "days_in_pipeline": 59,
       "contract_month": "2026-02",
       "agent": "Julian"

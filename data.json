@@ -1,13 +1,13 @@
 {
   "report_date": "April 08, 2026",
-  "last_updated": "2026-04-08 18:00 AST",
+  "last_updated": "2026-04-08 19:00 AST",
   "google": {
-    "spend_mtd": 2142.98,
-    "clicks_mtd": 117,
-    "crm_leads": 14,
-    "crm_leads_today": 2,
-    "cpc": 18.32,
-    "cpl": 153.07,
+    "spend_mtd": 2261.18,
+    "clicks_mtd": 118,
+    "crm_leads": 15,
+    "crm_leads_today": 3,
+    "cpc": 19.16,
+    "cpl": 150.75,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,49 +20,49 @@
         "clicks": 66,
         "cpc": 1.59,
         "crm_leads": 0,
-        "cpl": 153.07
+        "cpl": 150.75
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2037.88,
-        "spend_today": 257.19,
-        "clicks": 51,
-        "cpc": 39.96,
+        "spend": 2156.08,
+        "spend_today": 375.39,
+        "clicks": 52,
+        "cpc": 41.46,
         "crm_leads": 0,
-        "cpl": 153.07
+        "cpl": 150.75
       }
     ]
   },
   "meta": {
-    "spend_30d": 1655.41,
-    "clicks_30d": 625,
-    "crm_leads": 31,
-    "crm_leads_today": 11,
+    "spend_30d": 1663.09,
+    "clicks_30d": 627,
+    "crm_leads": 32,
+    "crm_leads_today": 12,
     "cpc": 2.65,
-    "cpl_crm": 53.4,
-    "cost_per_hot": 551.8,
+    "cpl_crm": 51.97,
+    "cost_per_hot": 554.36,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 740.04,
-        "spend_today": 85.07,
+        "spend": 742.44,
+        "spend_today": 87.47,
         "clicks": 244,
-        "crm_leads": 31,
-        "cpl_crm": 23.87
+        "crm_leads": 32,
+        "cpl_crm": 23.2
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 626.82,
-        "spend_today": 75.34,
-        "clicks": 244,
+        "spend": 628.31,
+        "spend_today": 76.83,
+        "clicks": 245,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 288.55,
-        "spend_today": 64.05,
-        "clicks": 137,
+        "spend": 292.34,
+        "spend_today": 67.84,
+        "clicks": 138,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -107,7 +107,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3798.3900000000003
+      "spend": 3924.2699999999995
     }
   },
   "reps_by_month": {
@@ -203,9 +203,9 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 12,
-        "active": 13,
-        "booked": 10,
+        "leads": 13,
+        "active": 14,
+        "booked": 11,
         "offers": 10,
         "accepted": 1,
         "available": 0,
@@ -214,13 +214,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 65160.0,
-        "discoveries": 12
+        "discoveries": 13
       },
       "Julian": {
         "leads": 7,
-        "active": 6,
+        "active": 7,
         "booked": 4,
-        "offers": 6,
+        "offers": 7,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -508,7 +508,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 3798.39
+    "2026-04": 3924.27
   },
   "channel_by_month": {
     "2026-01": {
@@ -574,24 +574,24 @@
       }
     },
     "2026-04": {
-      "google_spend": 2142.98,
-      "meta_spend": 1655.41,
-      "ppc_leads": 14,
-      "fb_leads": 31,
-      "google_cpc": 18.32,
+      "google_spend": 2261.18,
+      "meta_spend": 1663.09,
+      "ppc_leads": 15,
+      "fb_leads": 32,
+      "google_cpc": 19.16,
       "meta_cpc": 2.65,
       "pipeline_ppc": {
-        "leads": 14,
-        "active": 12,
-        "booked": 7,
-        "offered": 3,
+        "leads": 15,
+        "active": 13,
+        "booked": 8,
+        "offered": 4,
         "accepted": 0,
         "under_contract": 0,
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 31,
-        "active": 28,
+        "leads": 32,
+        "active": 29,
         "booked": 5,
         "offered": 3,
         "accepted": 0,
@@ -601,17 +601,17 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 45,
-    "dispositioned_mtd": 19,
-    "hot": 4,
-    "booked": 12,
-    "offers": 6,
+    "new_leads_30d": 47,
+    "dispositioned_mtd": 20,
+    "hot": 5,
+    "booked": 13,
+    "offers": 7,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 31,
-    "active": 28,
+    "leads": 32,
+    "active": 29,
     "booked": 5,
     "offered": 3,
     "accepted": 0,
@@ -619,24 +619,24 @@
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 14,
-    "active": 12,
-    "booked": 7,
-    "offered": 3,
+    "leads": 15,
+    "active": 13,
+    "booked": 8,
+    "offered": 4,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
   },
   "reps": {
     "Charles": {
-      "discoveries": 12,
+      "discoveries": 13,
       "offers": 10,
       "contracts": 1,
       "revenue": 65160.0
     },
     "Julian": {
       "discoveries": 7,
-      "offers": 6,
+      "offers": 7,
       "contracts": 1,
       "revenue": 0.0
     }
@@ -792,9 +792,9 @@
     }
   ],
   "sources": {
-    "ppc": 14,
-    "facebook": 31,
-    "ppc_inbound_call": 11
+    "ppc": 15,
+    "facebook": 32,
+    "ppc_inbound_call": 12
   },
   "hot_leads": [
     {
@@ -814,6 +814,12 @@
       "address": "1103 Ontario Ave, Niagara Falls, NY 14305, USA",
       "phone": "(716) 325-5207",
       "source": "Facebook"
+    },
+    {
+      "name": "155 Cold Water Cir",
+      "address": "155 Cold Water Cir, Myrtle Beach, SC 29588, USA",
+      "phone": "(239) 220-8132",
+      "source": "PPC"
     },
     {
       "name": "3128 Baker St",

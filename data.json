@@ -1,13 +1,13 @@
 {
   "report_date": "April 09, 2026",
-  "last_updated": "2026-04-09 12:00 AST",
+  "last_updated": "2026-04-09 13:00 AST",
   "google": {
-    "spend_mtd": 2406.24,
-    "clicks_mtd": 121,
+    "spend_mtd": 2406.75,
+    "clicks_mtd": 122,
     "crm_leads": 15,
     "crm_leads_today": 0,
-    "cpc": 19.89,
-    "cpl": 160.42,
+    "cpc": 19.73,
+    "cpl": 160.45,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 105.11,
-        "spend_today": 0.0,
-        "clicks": 66,
-        "cpc": 1.59,
+        "spend": 105.62,
+        "spend_today": 0.51,
+        "clicks": 67,
+        "cpc": 1.58,
         "crm_leads": 0,
-        "cpl": 160.42
+        "cpl": 160.45
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,56 +29,57 @@
         "clicks": 55,
         "cpc": 41.84,
         "crm_leads": 0,
-        "cpl": 160.42
+        "cpl": 160.45
       }
     ]
   },
   "meta": {
-    "spend_30d": 1833.37,
-    "clicks_30d": 705,
+    "spend_30d": 1854.34,
+    "clicks_30d": 706,
     "crm_leads": 32,
     "crm_leads_today": 0,
-    "cpc": 2.6,
-    "cpl_crm": 57.29,
-    "cost_per_hot": 611.12,
+    "cpc": 2.63,
+    "cpl_crm": 57.95,
+    "cost_per_hot": 618.11,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 793.36,
-        "spend_today": 32.02,
-        "clicks": 255,
+        "spend": 807.31,
+        "spend_today": 45.97,
+        "clicks": 256,
         "crm_leads": 32,
-        "cpl_crm": 24.79
+        "cpl_crm": 25.23
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 705.36,
-        "spend_today": 47.34,
+        "spend": 709.06,
+        "spend_today": 51.04,
         "clicks": 292,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 334.65,
-        "spend_today": 24.5,
+        "spend": 337.97,
+        "spend_today": 27.82,
         "clicks": 158,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 391529,
-  "assigned_income": 130244,
+  "potential_income": 347756,
+  "assigned_income": 174667,
   "by_stage": {
     "On Market": 106875,
-    "Market Prep / Pre-Listing Marketing": 101412,
     "Initial Inspection Completed": 89424,
+    "Market Prep / Pre-Listing Marketing": 57639,
     "Access Scheduled": 54959,
     "New Deal - Unscheduled": 38859
   },
   "by_agent": {
     "Virginia": 68519,
+    "Kentucky": 44423,
     "Georgia": 34650,
     "Michigan": 27075
   },
@@ -107,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4239.61
+      "spend": 4260.66
     }
   },
   "reps_by_month": {
@@ -265,11 +266,13 @@
         },
         "2026-03": {
           "counts": {
-            "available": 5,
+            "available": 4,
+            "other": 1,
             "pending": 2
           },
           "gp": {
-            "available": 171746,
+            "available": 127973,
+            "other": 44423,
             "pending": 42919
           },
           "total": 7
@@ -286,14 +289,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
+          "available": 8,
+          "other": 1,
           "pending": 4,
           "on_hold": 2,
           "dead": 15,
           "closed": 7
         },
         "gp": {
-          "available": 258557,
+          "available": 214784,
+          "other": 44423,
           "pending": 108644,
           "on_hold": 88191,
           "dead": 331443,
@@ -319,13 +324,6 @@
         {
           "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
           "value": 59549,
-          "status": "Available",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
-          "value": 43773,
           "status": "Available",
           "days_in_pipeline": 0,
           "contract_month": "2026-03"
@@ -508,7 +506,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 4239.61
+    "2026-04": 4261.09
   },
   "channel_by_month": {
     "2026-01": {
@@ -574,12 +572,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 2406.24,
-      "meta_spend": 1833.37,
+      "google_spend": 2406.75,
+      "meta_spend": 1854.34,
       "ppc_leads": 15,
       "fb_leads": 32,
-      "google_cpc": 19.89,
-      "meta_cpc": 2.6,
+      "google_cpc": 19.73,
+      "meta_cpc": 2.63,
       "pipeline_ppc": {
         "leads": 15,
         "active": 13,
@@ -642,7 +640,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 367201,
+    "Julian": 323428,
     "Charles": 125384
   },
   "agent_deals": [
@@ -665,14 +663,6 @@
     {
       "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
       "value": 59549,
-      "status": "Available",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
-      "value": 43773,
       "status": "Available",
       "days_in_pipeline": 0,
       "contract_month": "2026-03",

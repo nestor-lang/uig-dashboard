@@ -1,13 +1,13 @@
 {
   "report_date": "April 09, 2026",
-  "last_updated": "2026-04-09 16:00 AST",
+  "last_updated": "2026-04-09 17:00 AST",
   "google": {
-    "spend_mtd": 2452.4,
-    "clicks_mtd": 122,
+    "spend_mtd": 2571.5,
+    "clicks_mtd": 125,
     "crm_leads": 15,
     "crm_leads_today": 0,
-    "cpc": 20.1,
-    "cpl": 163.49,
+    "cpc": 20.57,
+    "cpl": 171.43,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,54 +15,54 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 105.11,
-        "spend_today": 0.0,
-        "clicks": 66,
-        "cpc": 1.59,
+        "spend": 106.0,
+        "spend_today": 0.9,
+        "clicks": 67,
+        "cpc": 1.58,
         "crm_leads": 0,
-        "cpl": 163.49
+        "cpl": 171.43
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2347.29,
-        "spend_today": 191.22,
-        "clicks": 56,
-        "cpc": 41.92,
+        "spend": 2465.5,
+        "spend_today": 309.43,
+        "clicks": 58,
+        "cpc": 42.51,
         "crm_leads": 0,
-        "cpl": 163.49
+        "cpl": 171.43
       }
     ]
   },
   "meta": {
-    "spend_30d": 1892.54,
-    "clicks_30d": 721,
+    "spend_30d": 1904.54,
+    "clicks_30d": 722,
     "crm_leads": 32,
     "crm_leads_today": 0,
-    "cpc": 2.62,
-    "cpl_crm": 59.14,
-    "cost_per_hot": 630.85,
+    "cpc": 2.64,
+    "cpl_crm": 59.52,
+    "cost_per_hot": 634.85,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 821.61,
-        "spend_today": 60.27,
+        "spend": 827.66,
+        "spend_today": 66.32,
         "clicks": 262,
         "crm_leads": 32,
-        "cpl_crm": 25.68
+        "cpl_crm": 25.86
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 725.37,
-        "spend_today": 66.94,
+        "spend": 727.06,
+        "spend_today": 68.63,
         "clicks": 295,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 345.56,
-        "spend_today": 35.41,
-        "clicks": 164,
+        "spend": 349.82,
+        "spend_today": 39.67,
+        "clicks": 165,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -73,9 +73,9 @@
   "by_stage": {
     "On Market": 106875,
     "Initial Inspection Completed": 89424,
-    "Market Prep / Pre-Listing Marketing": 57639,
-    "Access Scheduled": 54959,
-    "New Deal - Unscheduled": 38859
+    "Market Prep / Pre-Listing Marketing": 85249,
+    "New Deal - Unscheduled": 38859,
+    "Access Scheduled": 27349
   },
   "by_agent": {
     "Virginia": 68519,
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4344.9400000000005
+      "spend": 4476.04
     }
   },
   "reps_by_month": {
@@ -219,7 +219,7 @@
       },
       "Julian": {
         "leads": 10,
-        "active": 7,
+        "active": 8,
         "booked": 6,
         "offers": 8,
         "accepted": 1,
@@ -498,7 +498,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 4344.94
+    "2026-04": 4476.04
   },
   "channel_by_month": {
     "2026-01": {
@@ -564,12 +564,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 2452.4,
-      "meta_spend": 1892.54,
+      "google_spend": 2571.5,
+      "meta_spend": 1904.54,
       "ppc_leads": 15,
       "fb_leads": 32,
-      "google_cpc": 20.1,
-      "meta_cpc": 2.62,
+      "google_cpc": 20.57,
+      "meta_cpc": 2.64,
       "pipeline_ppc": {
         "leads": 15,
         "active": 13,

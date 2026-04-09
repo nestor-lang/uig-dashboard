@@ -1,13 +1,13 @@
 {
   "report_date": "April 09, 2026",
-  "last_updated": "2026-04-09 17:00 AST",
+  "last_updated": "2026-04-09 18:00 AST",
   "google": {
-    "spend_mtd": 2571.5,
-    "clicks_mtd": 125,
-    "crm_leads": 15,
-    "crm_leads_today": 0,
-    "cpc": 20.57,
-    "cpl": 171.43,
+    "spend_mtd": 2572.4,
+    "clicks_mtd": 126,
+    "crm_leads": 17,
+    "crm_leads_today": 2,
+    "cpc": 20.42,
+    "cpl": 151.32,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 106.0,
-        "spend_today": 0.9,
-        "clicks": 67,
-        "cpc": 1.58,
+        "spend": 106.9,
+        "spend_today": 1.79,
+        "clicks": 68,
+        "cpc": 1.57,
         "crm_leads": 0,
-        "cpl": 171.43
+        "cpl": 151.32
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,49 +29,49 @@
         "clicks": 58,
         "cpc": 42.51,
         "crm_leads": 0,
-        "cpl": 171.43
+        "cpl": 151.32
       }
     ]
   },
   "meta": {
-    "spend_30d": 1904.54,
-    "clicks_30d": 722,
+    "spend_30d": 1913.5,
+    "clicks_30d": 723,
     "crm_leads": 32,
     "crm_leads_today": 0,
-    "cpc": 2.64,
-    "cpl_crm": 59.52,
-    "cost_per_hot": 634.85,
+    "cpc": 2.65,
+    "cpl_crm": 59.8,
+    "cost_per_hot": 637.83,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 827.66,
-        "spend_today": 66.32,
-        "clicks": 262,
+        "spend": 831.11,
+        "spend_today": 69.77,
+        "clicks": 263,
         "crm_leads": 32,
-        "cpl_crm": 25.86
+        "cpl_crm": 25.97
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 727.06,
-        "spend_today": 68.63,
+        "spend": 729.75,
+        "spend_today": 71.32,
         "clicks": 295,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 349.82,
-        "spend_today": 39.67,
+        "spend": 352.64,
+        "spend_today": 42.49,
         "clicks": 165,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 347756,
+  "potential_income": 336049,
   "assigned_income": 152887,
   "by_stage": {
-    "On Market": 106875,
+    "On Market": 95168,
     "Initial Inspection Completed": 89424,
     "Market Prep / Pre-Listing Marketing": 85249,
     "New Deal - Unscheduled": 38859,
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4476.04
+      "spend": 4485.9
     }
   },
   "reps_by_month": {
@@ -204,9 +204,9 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 16,
-        "active": 14,
-        "booked": 12,
+        "leads": 17,
+        "active": 15,
+        "booked": 13,
         "offers": 13,
         "accepted": 1,
         "available": 0,
@@ -215,7 +215,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 86760.0,
-        "discoveries": 16
+        "discoveries": 17
       },
       "Julian": {
         "leads": 10,
@@ -420,7 +420,7 @@
           "gp": {
             "dead": 40699,
             "closed": 64260,
-            "available": 20450
+            "available": 8743
           },
           "total": 5
         },
@@ -455,7 +455,7 @@
           "closed": 4
         },
         "gp": {
-          "available": 103784,
+          "available": 92077,
           "dead": 99984,
           "on_hold": 99859,
           "closed": 126876
@@ -486,7 +486,7 @@
         },
         {
           "address": "4805 Glenwood Dr, Acworth, GA 30101, USA",
-          "value": 20450,
+          "value": 8743,
           "status": "Available",
           "days_in_pipeline": 0,
           "contract_month": "2026-02"
@@ -498,7 +498,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 4476.04
+    "2026-04": 4485.9
   },
   "channel_by_month": {
     "2026-01": {
@@ -564,16 +564,16 @@
       }
     },
     "2026-04": {
-      "google_spend": 2571.5,
-      "meta_spend": 1904.54,
-      "ppc_leads": 15,
+      "google_spend": 2572.4,
+      "meta_spend": 1913.5,
+      "ppc_leads": 17,
       "fb_leads": 32,
-      "google_cpc": 20.57,
-      "meta_cpc": 2.64,
+      "google_cpc": 20.42,
+      "meta_cpc": 2.65,
       "pipeline_ppc": {
-        "leads": 15,
-        "active": 13,
-        "booked": 8,
+        "leads": 17,
+        "active": 15,
+        "booked": 9,
         "offered": 6,
         "accepted": 0,
         "under_contract": 0,
@@ -591,10 +591,10 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 47,
-    "dispositioned_mtd": 26,
+    "new_leads_30d": 49,
+    "dispositioned_mtd": 27,
     "hot": 4,
-    "booked": 16,
+    "booked": 17,
     "offers": 9,
     "under_contract": 0,
     "closed": 0
@@ -609,9 +609,9 @@
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 15,
-    "active": 13,
-    "booked": 8,
+    "leads": 17,
+    "active": 15,
+    "booked": 9,
     "offered": 6,
     "accepted": 0,
     "under_contract": 0,
@@ -619,7 +619,7 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 16,
+      "discoveries": 17,
       "offers": 13,
       "contracts": 1,
       "revenue": 86760.0
@@ -633,7 +633,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 367671,
-    "Charles": 103784
+    "Charles": 92077
   },
   "agent_deals": [
     {
@@ -766,7 +766,7 @@
     },
     {
       "address": "4805 Glenwood Dr, Acworth, GA 30101, USA",
-      "value": 20450,
+      "value": 8743,
       "status": "Available",
       "days_in_pipeline": 0,
       "contract_month": "2026-02",
@@ -774,7 +774,7 @@
     }
   ],
   "sources": {
-    "ppc": 15,
+    "ppc": 17,
     "facebook": 32,
     "ppc_inbound_call": 12
   },

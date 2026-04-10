@@ -1,6 +1,6 @@
 {
   "report_date": "April 10, 2026",
-  "last_updated": "2026-04-10 09:00 EST",
+  "last_updated": "2026-04-10 10:00 EST",
   "google": {
     "spend_mtd": 2582.25,
     "clicks_mtd": 135,
@@ -34,48 +34,48 @@
     ]
   },
   "meta": {
-    "spend_30d": 2061.22,
-    "clicks_30d": 776,
+    "spend_30d": 2075.07,
+    "clicks_30d": 782,
     "crm_leads": 32,
     "crm_leads_today": 0,
-    "cpc": 2.66,
-    "cpl_crm": 64.41,
-    "cost_per_hot": 687.07,
+    "cpc": 2.65,
+    "cpl_crm": 64.85,
+    "cost_per_hot": 691.69,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 883.07,
-        "spend_today": 32.61,
-        "clicks": 280,
+        "spend": 889.74,
+        "spend_today": 39.21,
+        "clicks": 284,
         "crm_leads": 32,
-        "cpl_crm": 27.6
+        "cpl_crm": 27.8
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 783.73,
-        "spend_today": 29.73,
-        "clicks": 314,
+        "spend": 785.87,
+        "spend_today": 31.87,
+        "clicks": 315,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 394.42,
-        "spend_today": 22.66,
-        "clicks": 182,
+        "spend": 399.46,
+        "spend_today": 27.7,
+        "clicks": 183,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 389133,
+  "potential_income": 294133,
   "assigned_income": 152887,
   "by_stage": {
     "On Market": 95168,
-    "New Deal - Unscheduled": 92459,
     "Initial Inspection Completed": 89424,
     "Market Prep / Pre-Listing Marketing": 84733,
-    "Access Scheduled": 27349
+    "Access Scheduled": 27349,
+    "New Deal - Unscheduled": -2541
   },
   "by_agent": {
     "Virginia": 68519,
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4643.469999999999
+      "spend": 4657.32
     }
   },
   "reps_by_month": {
@@ -205,11 +205,11 @@
     "2026-04": {
       "Charles": {
         "leads": 17,
-        "active": 15,
+        "active": 14,
         "booked": 14,
         "offers": 13,
-        "accepted": 1,
-        "available": 0,
+        "accepted": 2,
+        "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
@@ -446,30 +446,37 @@
         },
         "2026-04": {
           "counts": {
-            "available": 1
+            "available": 2
           },
           "gp": {
-            "available": 38859
+            "available": -56141
           },
-          "total": 1
+          "total": 2
         }
       },
       "all_time": {
         "counts": {
-          "available": 4,
+          "available": 5,
           "dead": 5,
           "on_hold": 2,
           "closed": 4
         },
         "gp": {
-          "available": 92077,
+          "available": -2923,
           "dead": 99984,
           "on_hold": 99859,
           "closed": 337776
         },
-        "total": 15
+        "total": 16
       },
       "deals": [
+        {
+          "address": "3128 Baker St, Baltimore, MD 21216, USA",
+          "value": -95000,
+          "status": "Available",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
         {
           "address": "100 Winslow Ct, McDonough, GA 30253, USA",
           "value": 38859,
@@ -505,7 +512,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 4643.47
+    "2026-04": 4657.32
   },
   "channel_by_month": {
     "2026-01": {
@@ -553,7 +560,7 @@
       "meta_cpc": 1.98,
       "pipeline_ppc": {
         "leads": 15,
-        "active": 6,
+        "active": 5,
         "booked": 5,
         "offered": 5,
         "accepted": 0,
@@ -572,23 +579,23 @@
     },
     "2026-04": {
       "google_spend": 2582.25,
-      "meta_spend": 2061.22,
+      "meta_spend": 2075.07,
       "ppc_leads": 17,
       "fb_leads": 32,
       "google_cpc": 19.13,
-      "meta_cpc": 2.66,
+      "meta_cpc": 2.65,
       "pipeline_ppc": {
         "leads": 17,
-        "active": 15,
+        "active": 14,
         "booked": 9,
         "offered": 6,
-        "accepted": 0,
-        "under_contract": 0,
+        "accepted": 1,
+        "under_contract": 1,
         "closed": 0
       },
       "pipeline_fb": {
         "leads": 32,
-        "active": 29,
+        "active": 28,
         "booked": 8,
         "offered": 3,
         "accepted": 0,
@@ -600,15 +607,15 @@
   "pipeline": {
     "new_leads_30d": 49,
     "dispositioned_mtd": 27,
-    "hot": 4,
+    "hot": 3,
     "booked": 17,
     "offers": 9,
-    "under_contract": 0,
+    "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 32,
-    "active": 29,
+    "active": 28,
     "booked": 8,
     "offered": 3,
     "accepted": 0,
@@ -617,18 +624,18 @@
   },
   "pipeline_ppc": {
     "leads": 17,
-    "active": 15,
+    "active": 14,
     "booked": 9,
     "offered": 6,
-    "accepted": 0,
-    "under_contract": 0,
+    "accepted": 1,
+    "under_contract": 1,
     "closed": 0
   },
   "reps": {
     "Charles": {
       "discoveries": 17,
       "offers": 13,
-      "contracts": 1,
+      "contracts": 2,
       "revenue": 297660.0
     },
     "Julian": {
@@ -640,7 +647,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 420755,
-    "Charles": 92077
+    "Charles": -2923
   },
   "agent_deals": [
     {
@@ -756,6 +763,14 @@
       "agent": "Julian"
     },
     {
+      "address": "3128 Baker St, Baltimore, MD 21216, USA",
+      "value": -95000,
+      "status": "Available",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
+    },
+    {
       "address": "100 Winslow Ct, McDonough, GA 30253, USA",
       "value": 38859,
       "status": "Available",
@@ -811,12 +826,6 @@
       "address": "1103 Ontario Ave, Niagara Falls, NY 14305, USA",
       "phone": "(716) 325-5207",
       "source": "Facebook"
-    },
-    {
-      "name": "3128 Baker St",
-      "address": "3128 Baker St, Baltimore, MD 21216, USA",
-      "phone": "+14433179959",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

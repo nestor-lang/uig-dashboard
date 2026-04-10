@@ -1,6 +1,6 @@
 {
   "report_date": "April 10, 2026",
-  "last_updated": "2026-04-10 15:00 EST",
+  "last_updated": "2026-04-10 16:00 EST",
   "google": {
     "spend_mtd": 2684.57,
     "clicks_mtd": 141,
@@ -34,35 +34,35 @@
     ]
   },
   "meta": {
-    "spend_30d": 2123.16,
-    "clicks_30d": 795,
+    "spend_30d": 2133.81,
+    "clicks_30d": 802,
     "crm_leads": 40,
     "crm_leads_today": 8,
-    "cpc": 2.67,
-    "cpl_crm": 53.08,
-    "cost_per_hot": 707.72,
+    "cpc": 2.66,
+    "cpl_crm": 53.35,
+    "cost_per_hot": 1066.9,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 902.98,
-        "spend_today": 52.45,
-        "clicks": 288,
+        "spend": 907.36,
+        "spend_today": 56.83,
+        "clicks": 290,
         "crm_leads": 40,
-        "cpl_crm": 22.57
+        "cpl_crm": 22.68
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 803.0,
-        "spend_today": 48.89,
+        "spend": 806.78,
+        "spend_today": 52.66,
         "clicks": 319,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 417.18,
-        "spend_today": 45.42,
-        "clicks": 188,
+        "spend": 419.67,
+        "spend_today": 47.91,
+        "clicks": 193,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -72,9 +72,9 @@
   "assigned_income": 141986,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 138333,
+    "Initial Inspection Completed": 116773,
     "On Market": 95168,
-    "Initial Inspection Completed": 89424,
-    "Access Scheduled": -67741,
+    "Access Scheduled": -95090,
     "New Deal - Unscheduled": -146141
   },
   "by_agent": {
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4807.73
+      "spend": 4818.38
     }
   },
   "reps_by_month": {
@@ -207,7 +207,7 @@
         "leads": 17,
         "active": 16,
         "booked": 14,
-        "offers": 13,
+        "offers": 14,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -219,9 +219,9 @@
       },
       "Julian": {
         "leads": 11,
-        "active": 8,
+        "active": 9,
         "booked": 6,
-        "offers": 10,
+        "offers": 12,
         "accepted": 2,
         "available": 0,
         "pending": 0,
@@ -519,7 +519,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 4807.73
+    "2026-04": 4818.38
   },
   "channel_by_month": {
     "2026-01": {
@@ -586,11 +586,11 @@
     },
     "2026-04": {
       "google_spend": 2684.57,
-      "meta_spend": 2123.16,
+      "meta_spend": 2133.81,
       "ppc_leads": 17,
       "fb_leads": 40,
       "google_cpc": 19.04,
-      "meta_cpc": 2.67,
+      "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 17,
         "active": 13,
@@ -602,9 +602,9 @@
       },
       "pipeline_fb": {
         "leads": 40,
-        "active": 36,
+        "active": 35,
         "booked": 9,
-        "offered": 5,
+        "offered": 7,
         "accepted": 0,
         "under_contract": 0,
         "closed": 0
@@ -614,17 +614,17 @@
   "pipeline": {
     "new_leads_30d": 57,
     "dispositioned_mtd": 28,
-    "hot": 3,
+    "hot": 2,
     "booked": 17,
-    "offers": 10,
+    "offers": 12,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 40,
-    "active": 36,
+    "active": 35,
     "booked": 9,
-    "offered": 5,
+    "offered": 7,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
@@ -641,13 +641,13 @@
   "reps": {
     "Charles": {
       "discoveries": 17,
-      "offers": 13,
+      "offers": 14,
       "contracts": 3,
       "revenue": 297660.0
     },
     "Julian": {
       "discoveries": 11,
-      "offers": 10,
+      "offers": 12,
       "contracts": 2,
       "revenue": 0.0
     }
@@ -834,12 +834,6 @@
       "name": "407 College Ave NE",
       "address": "407 College Ave NE, Dawson, GA 39842, USA",
       "phone": "(470) 231-7852",
-      "source": "Facebook"
-    },
-    {
-      "name": "1103 Ontario Ave",
-      "address": "1103 Ontario Ave, Niagara Falls, NY 14305, USA",
-      "phone": "(716) 325-5207",
       "source": "Facebook"
     }
   ],

@@ -179,10 +179,29 @@
   .funnel-arrow { color: var(--faint); font-size: 14px; padding-top: 8px; flex-shrink: 0; }
   .funnel-step.hot .funnel-num { color: var(--amber); }
   .funnel-step.contract .funnel-num { color: var(--green); }
-  .funnel-step.avail    .funnel-num { color: var(--blue); }
-  .funnel-step.pend     .funnel-num { color: var(--amber); }
-  .funnel-step.closed-wb .funnel-num { color: var(--green); }
-  .funnel-step.dead-wb  .funnel-num { color: var(--faint); }
+  /* ─── Contract status grid (below funnel) ─── */
+  .contract-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .cg-card {
+    border-radius: 10px;
+    padding: 10px 8px;
+    text-align: center;
+    border: 0.5px solid transparent;
+  }
+  .cg-card.cg-avail   { background: var(--green-dim);  border-color: rgba(22,163,74,0.2); }
+  .cg-card.cg-assign  { background: var(--amber-dim);  border-color: rgba(217,119,6,0.2); }
+  .cg-card.cg-closed  { background: rgba(134,239,172,0.15); border-color: rgba(22,163,74,0.15); }
+  .cg-card.cg-dead    { background: var(--red-dim);    border-color: rgba(220,38,38,0.2); }
+  .cg-num  { font-family: 'DM Mono', monospace; font-size: 22px; font-weight: 500; }
+  .cg-card.cg-avail  .cg-num  { color: var(--green); }
+  .cg-card.cg-assign .cg-num  { color: var(--amber); }
+  .cg-card.cg-closed .cg-num  { color: #4ade80; }
+  .cg-card.cg-dead   .cg-num  { color: var(--red); }
+  .cg-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
 
   /* ─── Source breakdown ─── */
   .source-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
@@ -963,28 +982,24 @@ function render(d, month) {
             <div class="funnel-label">Offered</div>
             <div class="funnel-rate">${pct(ppc.offered, ppc.booked)}</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step avail">
-            <div class="funnel-num">${num(ppc.contract_available||0)}</div>
-            <div class="funnel-label">Available</div>
-            <div class="funnel-rate">${pct(ppc.contract_available||0, ppc.offered)}</div>
+        </div>
+        <div class="contract-grid">
+          <div class="cg-card cg-avail">
+            <div class="cg-num">${num(ppc.contract_available||0)}</div>
+            <div class="cg-label">Available</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step pend">
-            <div class="funnel-num">${num(ppc.contract_pending||0)}</div>
-            <div class="funnel-label">Pending</div>
+          <div class="cg-card cg-assign">
+            <div class="cg-num">${num(ppc.contract_pending||0)}</div>
+            <div class="cg-label">Assigned</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step closed-wb">
-            <div class="funnel-num">${num(ppc.contract_closed||0)}</div>
-            <div class="funnel-label">Closed</div>
+          <div class="cg-card cg-closed">
+            <div class="cg-num">${num(ppc.contract_closed||0)}</div>
+            <div class="cg-label">Closed</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step dead-wb">
-            <div class="funnel-num">${num(ppc.contract_dead||0)}</div>
-            <div class="funnel-label">Dead</div>
+          <div class="cg-card cg-dead">
+            <div class="cg-num">${num(ppc.contract_dead||0)}</div>
+            <div class="cg-label">Dead</div>
           </div>
-
         </div>
       </div>
     </div>
@@ -1018,28 +1033,24 @@ function render(d, month) {
             <div class="funnel-label">Offered</div>
             <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step avail">
-            <div class="funnel-num">${num(fb.contract_available||0)}</div>
-            <div class="funnel-label">Available</div>
-            <div class="funnel-rate">${pct(fb.contract_available||0, fb.offered)}</div>
+        </div>
+        <div class="contract-grid">
+          <div class="cg-card cg-avail">
+            <div class="cg-num">${num(fb.contract_available||0)}</div>
+            <div class="cg-label">Available</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step pend">
-            <div class="funnel-num">${num(fb.contract_pending||0)}</div>
-            <div class="funnel-label">Pending</div>
+          <div class="cg-card cg-assign">
+            <div class="cg-num">${num(fb.contract_pending||0)}</div>
+            <div class="cg-label">Assigned</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step closed-wb">
-            <div class="funnel-num">${num(fb.contract_closed||0)}</div>
-            <div class="funnel-label">Closed</div>
+          <div class="cg-card cg-closed">
+            <div class="cg-num">${num(fb.contract_closed||0)}</div>
+            <div class="cg-label">Closed</div>
           </div>
-          <div class="funnel-arrow">›</div>
-          <div class="funnel-step dead-wb">
-            <div class="funnel-num">${num(fb.contract_dead||0)}</div>
-            <div class="funnel-label">Dead</div>
+          <div class="cg-card cg-dead">
+            <div class="cg-num">${num(fb.contract_dead||0)}</div>
+            <div class="cg-label">Dead</div>
           </div>
-
         </div>
       </div>
     </div>

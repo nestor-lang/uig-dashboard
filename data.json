@@ -1,6 +1,6 @@
 {
   "report_date": "April 12, 2026",
-  "last_updated": "2026-04-12 04:33 EST",
+  "last_updated": "2026-04-12 04:38 EST",
   "google": {
     "spend_mtd": 2886.91,
     "clicks_mtd": 160,
@@ -34,34 +34,34 @@
     ]
   },
   "meta": {
-    "spend_30d": 2504.63,
+    "spend_30d": 2505.95,
     "clicks_30d": 925,
     "crm_leads": 46,
     "crm_leads_today": 0,
     "cpc": 2.71,
-    "cpl_crm": 54.45,
-    "cost_per_hot": 1252.32,
+    "cpl_crm": 54.48,
+    "cost_per_hot": 1252.97,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1030.29,
-        "spend_today": 7.08,
+        "spend": 1030.35,
+        "spend_today": 7.14,
         "clicks": 334,
         "crm_leads": 46,
         "cpl_crm": 22.4
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 919.16,
-        "spend_today": 14.14,
+        "spend": 919.5,
+        "spend_today": 14.48,
         "clicks": 361,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 555.18,
-        "spend_today": 18.71,
+        "spend": 556.1,
+        "spend_today": 19.63,
         "clicks": 230,
         "crm_leads": 0,
         "cpl_crm": null
@@ -519,7 +519,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 5391.54
+    "2026-04": 5392.86
   },
   "channel_by_month": {
     "2026-01": {
@@ -578,12 +578,12 @@
         "active": 5,
         "booked": 5,
         "offered": 5,
-        "accepted": 0,
-        "under_contract": 0,
+        "accepted": 1,
+        "under_contract": 1,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_dead": 1,
         "closed": 0
       },
       "pipeline_fb": {
@@ -602,7 +602,7 @@
     },
     "2026-04": {
       "google_spend": 2886.91,
-      "meta_spend": 2504.63,
+      "meta_spend": 2505.95,
       "ppc_leads": 18,
       "fb_leads": 46,
       "google_cpc": 18.04,

@@ -318,6 +318,29 @@
     .b-dead   { background: var(--red-dim);    color: var(--red);   }
     .empty-msg { padding: 20px 16px; font-size: 12px; color: var(--faint); }
 
+    /* ── Contract status row in agent card ── */
+    .contract-status-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-top: 0.5px solid var(--border);
+    }
+    .cs-cell {
+      padding: 10px 8px;
+      text-align: center;
+    }
+    .cs-cell.cs-avail  { background: var(--green-dim); }
+    .cs-cell.cs-assign { background: var(--amber-dim); }
+    .cs-cell.cs-closed { background: rgba(134,239,172,0.15); }
+    .cs-cell.cs-dead   { background: var(--red-dim); }
+    .cs-num  { font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 600; }
+    .cs-cell.cs-avail  .cs-num { color: var(--green); }
+    .cs-cell.cs-assign .cs-num { color: var(--amber); }
+    .cs-cell.cs-closed .cs-num { color: #16a34a; }
+    .cs-cell.cs-dead   .cs-num { color: var(--red); }
+    .cs-label { font-size: 9px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
+
     /* ── Responsive ── */
     @media (max-width: 700px) {
       .team-strip      { grid-template-columns: repeat(2, 1fr); }
@@ -519,6 +542,21 @@
     render(key);
   }
 
+  function aggregateWbPipeline(agent, months) {
+    const latestD = allMonthData[availMonths[0]] || {};
+    const wb = (latestD.wb_pipeline || {})[agent] || {};
+    const byMonth = wb.by_month || {};
+    let avail = 0, pending = 0, closed = 0, dead = 0;
+    months.forEach(k => {
+      const counts = (byMonth[k] || {}).counts || {};
+      avail   += counts.available || 0;
+      pending += counts.pending   || 0;
+      closed  += counts.closed    || 0;
+      dead    += counts.dead      || 0;
+    });
+    return { avail, pending, closed, dead };
+  }
+
   async function boot() {
     try {
       const mr = await fetch(MONTHS_URL);
@@ -635,7 +673,7 @@
     `;
   }
 
-  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, periodLabel, revLabel) {
+  function agentCardHTML(name, initials, avClass, accentVar, data, pipe, periodLabel, revLabel, wb) {
     const disc    = data.discoveries || 0;
     const off     = data.offers      || 0;
     const con     = data.contracts   || 0;
@@ -695,6 +733,24 @@
           <div class="rate-value" style="color:var(--green)">${pipeVal ? fmtMoney(pipeVal) : '—'}</div>
         </div>
       </div>
+      <div class="contract-status-row">
+        <div class="cs-cell cs-avail">
+          <div class="cs-num">${(wb||{}).avail||0}</div>
+          <div class="cs-label">Available</div>
+        </div>
+        <div class="cs-cell cs-assign">
+          <div class="cs-num">${(wb||{}).pending||0}</div>
+          <div class="cs-label">Assigned</div>
+        </div>
+        <div class="cs-cell cs-closed">
+          <div class="cs-num">${(wb||{}).closed||0}</div>
+          <div class="cs-label">Closed</div>
+        </div>
+        <div class="cs-cell cs-dead">
+          <div class="cs-num">${(wb||{}).dead||0}</div>
+          <div class="cs-label">Dead</div>
+        </div>
+      </div>
 
       <div class="activity-sec">
         <div class="sec-title">Contracts YTD</div>
@@ -710,9 +766,12 @@
                  : mode.startsWith('q') ? mode.toUpperCase()
                  : mode.match(/\d{4}-\d{2}/) ? 'this month'
                  : lbl;
+    const months = monthsForMode(mode);
+    const juWb = aggregateWbPipeline('Julian',  months);
+    const chWb = aggregateWbPipeline('Charles', months);
     document.getElementById('agents-grid').innerHTML =
-      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  lbl, revLbl) +
-      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], lbl, revLbl);
+      agentCardHTML('Julian',  'JU', 'av-ju', '--ju', ju, pipe['Julian'],  lbl, revLbl, juWb) +
+      agentCardHTML('Charles', 'CH', 'av-ch', '--ch', ch, pipe['Charles'], lbl, revLbl, chWb);
 
     // Contracts YTD chart — always shows full YTD regardless of selected period
     buildContractsChart('chart-julian',  'Julian',  '#639922');

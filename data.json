@@ -1,6 +1,6 @@
 {
   "report_date": "April 12, 2026",
-  "last_updated": "2026-04-12 15:00 EST",
+  "last_updated": "2026-04-12 17:00 AST",
   "google": {
     "spend_mtd": 3036.66,
     "clicks_mtd": 164,
@@ -34,35 +34,35 @@
     ]
   },
   "meta": {
-    "spend_30d": 2703.39,
-    "clicks_30d": 965,
-    "crm_leads": 48,
-    "crm_leads_today": 2,
+    "spend_30d": 2721.11,
+    "clicks_30d": 971,
+    "crm_leads": 49,
+    "crm_leads_today": 3,
     "cpc": 2.8,
-    "cpl_crm": 56.32,
-    "cost_per_hot": 1351.69,
+    "cpl_crm": 55.53,
+    "cost_per_hot": 1360.55,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1097.3,
-        "spend_today": 74.04,
-        "clicks": 344,
-        "crm_leads": 48,
-        "cpl_crm": 22.86
+        "spend": 1103.86,
+        "spend_today": 80.6,
+        "clicks": 346,
+        "crm_leads": 49,
+        "cpl_crm": 22.53
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 985.33,
-        "spend_today": 80.3,
-        "clicks": 373,
+        "spend": 989.96,
+        "spend_today": 84.93,
+        "clicks": 375,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 620.76,
-        "spend_today": 84.23,
-        "clicks": 248,
+        "spend": 627.29,
+        "spend_today": 90.76,
+        "clicks": 250,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5740.049999999999
+      "spend": 5757.77
     }
   },
   "reps_by_month": {
@@ -519,7 +519,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 5740.05
+    "2026-04": 5757.77
   },
   "channel_by_month": {
     "2026-01": {
@@ -602,9 +602,9 @@
     },
     "2026-04": {
       "google_spend": 3036.66,
-      "meta_spend": 2703.39,
+      "meta_spend": 2721.11,
       "ppc_leads": 18,
-      "fb_leads": 48,
+      "fb_leads": 49,
       "google_cpc": 18.52,
       "meta_cpc": 2.8,
       "pipeline_ppc": {
@@ -621,8 +621,8 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 48,
-        "active": 43,
+        "leads": 49,
+        "active": 44,
         "booked": 12,
         "offered": 8,
         "accepted": 0,
@@ -636,7 +636,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 66,
+    "new_leads_30d": 67,
     "dispositioned_mtd": 32,
     "hot": 2,
     "booked": 21,
@@ -645,8 +645,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 48,
-    "active": 43,
+    "leads": 49,
+    "active": 44,
     "booked": 12,
     "offered": 8,
     "accepted": 0,
@@ -852,7 +852,7 @@
   ],
   "sources": {
     "ppc": 18,
-    "facebook": 48,
+    "facebook": 49,
     "ppc_inbound_call": 13
   },
   "hot_leads": [

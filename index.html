@@ -964,6 +964,9 @@ function render(d, month) {
             <div class="funnel-num">${num(ppc.under_contract)}</div>
             <div class="funnel-label">Contract</div>
             <div class="funnel-rate">${pct(ppc.under_contract, ppc.offered)}</div>
+            <div class="funnel-breakdown" style="font-size:10px;color:var(--muted);margin-top:4px;line-height:1.6;">
+              ${ppc.contract_available||0} avail &middot; ${ppc.contract_pending||0} pending<br>${ppc.contract_closed||0} closed &middot; ${ppc.contract_dead||0} dead
+            </div>
           </div>
           <div class="funnel-arrow">›</div>
           <div class="funnel-step">
@@ -1008,6 +1011,9 @@ function render(d, month) {
             <div class="funnel-num">${num(fb.under_contract)}</div>
             <div class="funnel-label">Contract</div>
             <div class="funnel-rate">${pct(fb.under_contract, fb.offered)}</div>
+            <div class="funnel-breakdown" style="font-size:10px;color:var(--muted);margin-top:4px;line-height:1.6;">
+              ${fb.contract_available||0} avail &middot; ${fb.contract_pending||0} pending<br>${fb.contract_closed||0} closed &middot; ${fb.contract_dead||0} dead
+            </div>
           </div>
           <div class="funnel-arrow">›</div>
           <div class="funnel-step">

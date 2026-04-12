@@ -1,6 +1,6 @@
 {
   "report_date": "April 12, 2026",
-  "last_updated": "2026-04-12 04:14 EST",
+  "last_updated": "2026-04-12 04:21 EST",
   "google": {
     "spend_mtd": 2886.91,
     "clicks_mtd": 160,
@@ -34,13 +34,13 @@
     ]
   },
   "meta": {
-    "spend_30d": 2502.5,
-    "clicks_30d": 923,
+    "spend_30d": 2503.31,
+    "clicks_30d": 924,
     "crm_leads": 46,
     "crm_leads_today": 0,
     "cpc": 2.71,
-    "cpl_crm": 54.4,
-    "cost_per_hot": 1251.25,
+    "cpl_crm": 54.42,
+    "cost_per_hot": 1251.66,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
@@ -52,37 +52,26 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 917.27,
-        "spend_today": 12.25,
-        "clicks": 359,
+        "spend": 918.07,
+        "spend_today": 13.05,
+        "clicks": 360,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 555.1,
-        "spend_today": 18.63,
+        "spend": 555.11,
+        "spend_today": 18.64,
         "clicks": 230,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 494541,
-  "assigned_income": 141986,
-  "by_stage": {
-    "Initial Inspection Completed": 143932,
-    "On Market": 95168,
-    "Access Scheduled": 92459,
-    "Market Prep / Pre-Listing Marketing": 84733,
-    "New Deal - Unscheduled": 78249
-  },
-  "by_agent": {
-    "Virginia": 68519,
-    "Kentucky": 44243,
-    "Michigan": 16175,
-    "Georgia": 13050
-  },
+  "potential_income": 0,
+  "assigned_income": 0,
+  "by_stage": {},
+  "by_agent": {},
   "closed_by_month": {
     "2026-01": 194741,
     "2026-02": 181515,
@@ -519,7 +508,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 5389.41
+    "2026-04": 5390.22
   },
   "channel_by_month": {
     "2026-01": {
@@ -546,6 +535,10 @@
         "offered": 0,
         "accepted": 0,
         "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 0
       },
       "pipeline_fb": {
@@ -555,6 +548,10 @@
         "offered": 6,
         "accepted": 0,
         "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 0
       }
     },
@@ -572,6 +569,10 @@
         "offered": 5,
         "accepted": 0,
         "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 0
       },
       "pipeline_fb": {
@@ -581,12 +582,16 @@
         "offered": 15,
         "accepted": 2,
         "under_contract": 2,
+        "contract_available": 2,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 0
       }
     },
     "2026-04": {
       "google_spend": 2886.91,
-      "meta_spend": 2502.5,
+      "meta_spend": 2503.31,
       "ppc_leads": 18,
       "fb_leads": 46,
       "google_cpc": 18.04,
@@ -598,6 +603,10 @@
         "offered": 5,
         "accepted": 1,
         "under_contract": 1,
+        "contract_available": 1,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 0
       },
       "pipeline_fb": {
@@ -607,6 +616,10 @@
         "offered": 8,
         "accepted": 0,
         "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 0
       }
     }
@@ -627,6 +640,10 @@
     "offered": 8,
     "accepted": 0,
     "under_contract": 0,
+    "contract_available": 0,
+    "contract_pending": 0,
+    "contract_closed": 0,
+    "contract_dead": 0,
     "closed": 0
   },
   "pipeline_ppc": {
@@ -636,6 +653,10 @@
     "offered": 5,
     "accepted": 1,
     "under_contract": 1,
+    "contract_available": 1,
+    "contract_pending": 0,
+    "contract_closed": 0,
+    "contract_dead": 0,
     "closed": 0
   },
   "reps": {

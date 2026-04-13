@@ -279,7 +279,7 @@
     .deal-total-val { font-family: 'DM Mono', monospace; font-size: 13px; font-weight: 600; }
     .deal-table-head {
       display: grid;
-      grid-template-columns: 1fr 80px 90px;
+      grid-template-columns: 1fr 100px 70px 80px;
       padding: 7px 16px;
       background: var(--surface2);
       border-bottom: 0.5px solid var(--border);
@@ -295,7 +295,7 @@
     .deal-table-head span:not(:first-child) { text-align: right; }
     .deal-tr {
       display: grid;
-      grid-template-columns: 1fr 80px 90px;
+      grid-template-columns: 1fr 100px 70px 80px;
       padding: 9px 16px;
       border-bottom: 0.5px solid var(--border);
       align-items: center;
@@ -898,11 +898,13 @@
           const addr   = dl.address || '—';
           const value  = dl.value   || 0;
           const status = (dl.status||'').toLowerCase();
+          const stage  = dl.stage  || '—';
           const badgeCls  = status.includes('pending') || status.includes('title') ? 'b-title' : 'b-avail';
           const badgeText = status.includes('pending') || status.includes('title') ? 'PENDING' : 'AVAILABLE';
           return `
           <div class="deal-tr">
             <div><div class="deal-addr">${addr}</div></div>
+            <div style="font-size:10px;color:var(--muted);text-align:right;line-height:1.3;">${stage}</div>
             <div><span class="badge ${badgeCls}">${badgeText}</span></div>
             <div class="deal-val">${value ? fmtMoneyFull(value) : '—'}</div>
           </div>`;
@@ -935,6 +937,7 @@
       </div>
       <div class="deal-table-head">
         <span>Address</span>
+        <span>Stage</span>
         <span>Status</span>
         <span>GP</span>
       </div>

@@ -179,33 +179,34 @@
   .funnel-arrow { color: var(--faint); font-size: 14px; padding-top: 8px; flex-shrink: 0; }
   .funnel-step.hot .funnel-num { color: var(--amber); }
   .funnel-step.contract .funnel-num { color: var(--green); }
-  /* ─── Lead status breakdown (above funnel) ─── */
-  .status-breakdown {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-bottom: 10px;
+  /* ─── Lead status grid (below contract grid) ─── */
+  .lead-status-grid {
+    display: grid;
+    gap: 6px;
+    margin-top: 10px;
   }
-  .sb-pill {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    font-weight: 500;
-    padding: 2px 9px;
-    border-radius: 20px;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    white-space: nowrap;
+  .ls-cell {
+    border-radius: 8px;
+    padding: 8px 6px;
+    text-align: center;
     border: 0.5px solid transparent;
   }
-  .sb-count { font-weight: 700; }
-  .sb-pill.sb-hot  { background: rgba(220,38,38,0.08);  border-color: rgba(220,38,38,0.2);  color: var(--red);   }
-  .sb-pill.sb-warm { background: rgba(217,119,6,0.08);  border-color: rgba(217,119,6,0.2);  color: var(--amber); }
-  .sb-pill.sb-cold { background: rgba(37,99,235,0.06);  border-color: rgba(37,99,235,0.15); color: var(--blue);  }
-  .sb-pill.sb-ntc  { background: rgba(37,99,235,0.06);  border-color: rgba(37,99,235,0.15); color: var(--blue);  }
-  .sb-pill.sb-uc   { background: rgba(22,163,74,0.08);  border-color: rgba(22,163,74,0.2);  color: var(--green); }
-  .sb-pill.sb-dead { background: rgba(0,0,0,0.04);      border-color: rgba(0,0,0,0.08);     color: var(--faint); }
-  .sb-pill.sb-misc { background: var(--surface2);        border-color: var(--border);        color: var(--muted); }
+  .ls-cell.ls-hot  { background: rgba(220,38,38,0.08);  border-color: rgba(220,38,38,0.2);  }
+  .ls-cell.ls-warm { background: rgba(217,119,6,0.08);  border-color: rgba(217,119,6,0.2);  }
+  .ls-cell.ls-cold { background: rgba(37,99,235,0.06);  border-color: rgba(37,99,235,0.15); }
+  .ls-cell.ls-ntc  { background: rgba(37,99,235,0.06);  border-color: rgba(37,99,235,0.15); }
+  .ls-cell.ls-uc   { background: rgba(22,163,74,0.08);  border-color: rgba(22,163,74,0.2);  }
+  .ls-cell.ls-dead { background: rgba(0,0,0,0.04);      border-color: rgba(0,0,0,0.06);     }
+  .ls-cell.ls-misc { background: var(--surface2);        border-color: var(--border);        }
+  .ls-num  { font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 600; }
+  .ls-cell.ls-hot  .ls-num { color: var(--red);   }
+  .ls-cell.ls-warm .ls-num { color: var(--amber); }
+  .ls-cell.ls-cold .ls-num { color: var(--blue);  }
+  .ls-cell.ls-ntc  .ls-num { color: var(--blue);  }
+  .ls-cell.ls-uc   .ls-num { color: var(--green); }
+  .ls-cell.ls-dead .ls-num { color: var(--faint); }
+  .ls-cell.ls-misc .ls-num { color: var(--muted); }
+  .ls-label { font-size: 9px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
 
   /* ─── Contract status grid (below funnel) ─── */
   .contract-grid {
@@ -812,20 +813,19 @@ function formatMonthLabel(ym) {
 function renderStatusBreakdown(breakdown) {
     if (!breakdown || !Object.keys(breakdown).length) return '';
     const CLS = {
-      'Hot':              'sb-hot',
-      'Warm':             'sb-warm',
-      'Cold':             'sb-cold',
-      'Need to Contact':  'sb-ntc',
-      'Under Contract':   'sb-uc',
-      'Sold':             'sb-uc',
-      'Dead':             'sb-dead',
-      'Wrong Number':     'sb-dead',
-      'No Longer Selling':'sb-dead',
-      'Not Workable':     'sb-dead',
-      'Owes too Much':    'sb-dead',
-      'Listed':           'sb-dead',
+      'Hot':              'ls-hot',
+      'Warm':             'ls-warm',
+      'Cold':             'ls-cold',
+      'Need to Contact':  'ls-ntc',
+      'Under Contract':   'ls-uc',
+      'Sold':             'ls-uc',
+      'Dead':             'ls-dead',
+      'Wrong Number':     'ls-dead',
+      'No Longer Selling':'ls-dead',
+      'Not Workable':     'ls-dead',
+      'Owes too Much':    'ls-dead',
+      'Listed':           'ls-dead',
     };
-    // Sort: hot first, then warm, cold, ntc, uc, rest
     const ORDER = ['Hot','Warm','Cold','Need to Contact','Under Contract','Sold'];
     const entries = Object.entries(breakdown).sort(([a],[b]) => {
       const ai = ORDER.indexOf(a), bi = ORDER.indexOf(b);
@@ -834,9 +834,15 @@ function renderStatusBreakdown(breakdown) {
       if (bi !== -1) return 1;
       return b[1] - a[1];
     });
-    return `<div class="status-breakdown">${entries.map(([label, count]) =>
-      `<span class="sb-pill ${CLS[label]||'sb-misc'}"><span class="sb-count">${count}</span>${label}</span>`
-    ).join('')}</div>`;
+    const cols = Math.min(entries.length, 4);
+    return `<div class="lead-status-grid" style="grid-template-columns:repeat(${cols},1fr);">${
+      entries.map(([label, count]) =>
+        `<div class="ls-cell ${CLS[label]||'ls-misc'}">
+          <div class="ls-num">${count}</div>
+          <div class="ls-label">${label}</div>
+        </div>`
+      ).join('')
+    }</div>`;
   }
 
   function fmt(n) {
@@ -1017,7 +1023,6 @@ function render(d, month) {
         <div class="channel-badge badge-google">PPC</div>
       </div>
       <div class="funnel">
-        ${renderStatusBreakdown(ppc.status_breakdown)}
         <div class="funnel-row">
           <div class="funnel-step">
             <div class="funnel-num">${num(ppc.leads)}</div>
@@ -1060,6 +1065,7 @@ function render(d, month) {
             <div class="cg-label">Dead</div>
           </div>
         </div>
+        ${renderStatusBreakdown(ppc.status_breakdown)}
       </div>
     </div>
 
@@ -1069,7 +1075,6 @@ function render(d, month) {
         <div class="channel-badge badge-meta">META</div>
       </div>
       <div class="funnel">
-        ${renderStatusBreakdown(fb.status_breakdown)}
         <div class="funnel-row">
           <div class="funnel-step">
             <div class="funnel-num">${num(fb.leads)}</div>
@@ -1112,6 +1117,7 @@ function render(d, month) {
             <div class="cg-label">Dead</div>
           </div>
         </div>
+        ${renderStatusBreakdown(fb.status_breakdown)}
       </div>
     </div>
 

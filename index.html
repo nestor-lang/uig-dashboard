@@ -812,7 +812,8 @@ function renderStatusBreakdown(breakdown) {
         const count = typeof val === 'object' ? (val.count||0) : val;
         const hex   = typeof val === 'object' ? (val.color||'') : '';
         const bg    = hex || '#f0efed';
-        const tc    = darken(bg.replace('#','').padEnd(6,'0'));
+        const _h = bg.replace('#','').padEnd(6,'0');
+        const tc = 'rgb('+[0,2,4].map(i=>Math.round(parseInt(_h.slice(i,i+2),16)*0.45)).join(',')+')';
         const bc    = hex ? bg : 'rgba(0,0,0,0.06)';
         return `<div class="ls-cell" style="background:${bg};border-color:${bc};">
           <div class="ls-num" style="color:${tc};">${count}</div>

@@ -417,7 +417,7 @@
 <script>
   const BASE_URL    = 'https://nestor-lang.github.io/uig-dashboard/';
   const MONTHS_URL  = BASE_URL + 'months.json';
-  const DATA_URL    = k => BASE_URL + `data-${k}.json`;
+  const DATA_URL    = k => BASE_URL + `data-${k}.json?t=${Date.now()}`;
 
   let availMonths  = [];
   let allMonthData = {};

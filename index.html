@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ultra Homebuyers — ROA Dashboard</title>
@@ -204,7 +202,7 @@
   .cg-card.cg-assign .cg-num  { color: var(--amber); }
   .cg-card.cg-closed .cg-num  { color: #4ade80; }
   .cg-card.cg-dead   .cg-num  { color: var(--red); }
-  .cg-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
+  .cg-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
 
   /* ─── Source breakdown ─── */
   .source-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
@@ -740,10 +738,10 @@
     .agent-scorecard-grid { grid-template-columns: 1fr; }
     .roas-cards-row { grid-template-columns: 1fr; }
   }
-  /* ─── Lead status grid ─── */
+  /* Lead status grid */
   .lead-status-grid { display:grid; gap:6px; margin-top:10px; }
-  .ls-cell { border-radius:8px; padding:8px 6px; text-align:center; border:0.5px solid transparent; }
-  .ls-num  { font-family:'DM Mono',monospace; font-size:18px; font-weight:600; }
+  .ls-cell { border-radius:8px; padding:6px 4px; text-align:center; border:0.5px solid transparent; }
+  .ls-num  { font-family:'DM Mono',monospace; font-size:16px; font-weight:600; }
   .ls-label { font-size:9px; font-weight:600; letter-spacing:0.07em; text-transform:uppercase; color:var(--muted); margin-top:3px; }
 </style>
 </head>
@@ -791,27 +789,29 @@ function formatMonthLabel(ym) {
 
 function renderStatusBreakdown(breakdown) {
     if (!breakdown || !Object.keys(breakdown).length) return '';
-    const ORDER = ['Hot','Warm','Cold','Need to Contact','Under Contract','Sold'];
-    const entries = Object.entries(breakdown).sort(([a],[b]) => {
-      const ai=ORDER.indexOf(a), bi=ORDER.indexOf(b);
-      if(ai!==-1&&bi!==-1) return ai-bi;
-      if(ai!==-1) return -1; if(bi!==-1) return 1;
-      const av=typeof breakdown[a]==='object'?(breakdown[a].count||0):0;
-      const bv=typeof breakdown[b]==='object'?(breakdown[b].count||0):0;
+    var ORDER = ['Hot','Warm','Cold','Need to Contact','Under Contract','Sold'];
+    var entries = Object.entries(breakdown).sort(function(a,b){
+      var ai=ORDER.indexOf(a[0]), bi=ORDER.indexOf(b[0]);
+      if(ai>-1&&bi>-1) return ai-bi;
+      if(ai>-1) return -1; if(bi>-1) return 1;
+      var av=typeof a[1]==='object'?(a[1].count||0):0;
+      var bv=typeof b[1]==='object'?(b[1].count||0):0;
       return bv-av;
     });
-    const cols=Math.min(entries.length,4);
-    return '<div style="margin-top:10px;"><div style="font-size:9px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:6px;">Lead Statuses</div><div class="lead-status-grid" style="grid-template-columns:repeat('+cols+',1fr);">'+
-      entries.map(function(e){
-        var label=e[0], val=e[1];
-        var count=typeof val==='object'?(val.count||0):(val||0);
-        var hex=typeof val==='object'?(val.color||''):'';
-        var bg=hex||'#f0efed';
-        var hx=bg.replace('#','').padEnd(6,'0');
-        var tc='rgb('+[0,2,4].map(function(i){return Math.round(parseInt(hx.slice(i,i+2),16)*0.45);}).join(',')+')';
-        return '<div class="ls-cell" style="background:'+bg+';border-color:'+bg+';"><div class="ls-num" style="color:'+tc+';">'+count+'</div><div class="ls-label">'+label+'</div></div>';
-      }).join('')+
-    '</div></div>';
+    var cols=Math.min(entries.length,4);
+    var out='<div style="margin-top:10px;"><div style="font-size:9px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:6px;">Lead Statuses</div>';
+    out+='<div class="lead-status-grid" style="grid-template-columns:repeat('+cols+',1fr);">';
+    entries.forEach(function(e){
+      var label=e[0], val=e[1];
+      var count=typeof val==='object'?(val.count||0):(val||0);
+      var hex=typeof val==='object'?(val.color||''):'';
+      var bg=hex||'#f0efed';
+      var hx=bg.replace('#','').padEnd(6,'0');
+      var tc='rgb('+[0,2,4].map(function(i){return Math.round(parseInt(hx.slice(i,i+2),16)*0.45);}).join(',')+')';
+      out+='<div class="ls-cell" style="background:'+bg+';border-color:'+bg+';"><div class="ls-num" style="color:'+tc+';">'+count+'</div><div class="ls-label">'+label+'</div></div>';
+    });
+    out+='</div></div>';
+    return out;
   }
 
 function fmt(n) {
@@ -1016,28 +1016,25 @@ function render(d, month) {
             <div class="funnel-rate">${pct(ppc.offered, ppc.booked)}</div>
           </div>
         </div>
-        <div class="contract-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:10px;">
-          <div style="background:rgba(22,163,74,0.08);border:0.5px solid rgba(22,163,74,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--green);">${num(ppc${num(fb.contract_available||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Available</div>
+        <div class="contract-grid">
+          <div class="cg-card cg-avail">
+            <div class="cg-num">${num(ppc.contract_available||0)}</div>
+            <div class="cg-label">Available</div>
           </div>
-          <div style="background:rgba(217,119,6,0.08);border:0.5px solid rgba(217,119,6,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--amber);">${num(ppc${num(fb.contract_pending||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Assigned</div>
+          <div class="cg-card cg-assign">
+            <div class="cg-num">${num(ppc.contract_pending||0)}</div>
+            <div class="cg-label">Assigned</div>
           </div>
-          <div style="background:rgba(134,239,172,0.15);border:0.5px solid rgba(22,163,74,0.15);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:#4ade80;">${num(ppc${num(fb.contract_closed||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Closed</div>
+          <div class="cg-card cg-closed">
+            <div class="cg-num">${num(ppc.contract_closed||0)}</div>
+            <div class="cg-label">Closed</div>
           </div>
-          <div style="background:rgba(220,38,38,0.08);border:0.5px solid rgba(220,38,38,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--red);">${num(ppc${num(fb.contract_dead||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Dead</div>
+          <div class="cg-card cg-dead">
+            <div class="cg-num">${num(ppc.contract_dead||0)}</div>
+            <div class="cg-label">Dead</div>
           </div>
-
-
-
-      ${renderStatusBreakdown(ppc.status_breakdown)}
         </div>
+      ${renderStatusBreakdown(ppc.status_breakdown)}
       </div>
     </div>
 
@@ -1071,34 +1068,29 @@ function render(d, month) {
             <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
           </div>
         </div>
-        <div class="contract-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:10px;">
-          <div style="background:rgba(22,163,74,0.08);border:0.5px solid rgba(22,163,74,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--green);">.contract_available||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Available</div>
+        <div class="contract-grid">
+          <div class="cg-card cg-avail">
+            <div class="cg-num">${num(fb.contract_available||0)}</div>
+            <div class="cg-label">Available</div>
           </div>
-          <div style="background:rgba(217,119,6,0.08);border:0.5px solid rgba(217,119,6,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--amber);">.contract_pending||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Assigned</div>
+          <div class="cg-card cg-assign">
+            <div class="cg-num">${num(fb.contract_pending||0)}</div>
+            <div class="cg-label">Assigned</div>
           </div>
-          <div style="background:rgba(134,239,172,0.15);border:0.5px solid rgba(22,163,74,0.15);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:#4ade80;">.contract_closed||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Closed</div>
+          <div class="cg-card cg-closed">
+            <div class="cg-num">${num(fb.contract_closed||0)}</div>
+            <div class="cg-label">Closed</div>
           </div>
-          <div style="background:rgba(220,38,38,0.08);border:0.5px solid rgba(220,38,38,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
-            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--red);">.contract_dead||0)}</div>
-            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Dead</div>
+          <div class="cg-card cg-dead">
+            <div class="cg-num">${num(fb.contract_dead||0)}</div>
+            <div class="cg-label">Dead</div>
           </div>
-
-
-
-      ${renderStatusBreakdown(fb.status_breakdown)}
         </div>
+      ${renderStatusBreakdown(fb.status_breakdown)}
       </div>
     </div>
 
   </div>
-
-
 
   <!-- ============================================================ -->
   <!-- SECTION DIVIDER -->

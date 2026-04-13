@@ -1,13 +1,13 @@
 {
   "report_date": "April 13, 2026",
-  "last_updated": "2026-04-13 11:18 EST",
+  "last_updated": "2026-04-13 11:21 EST",
   "google": {
-    "spend_mtd": 3150.1,
-    "clicks_mtd": 166,
+    "spend_mtd": 3160.2,
+    "clicks_mtd": 167,
     "crm_leads": 18,
     "crm_leads_today": 0,
-    "cpc": 18.98,
-    "cpl": 175.01,
+    "cpc": 18.92,
+    "cpl": 175.57,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,48 +20,48 @@
         "clicks": 91,
         "cpc": 1.39,
         "crm_leads": 0,
-        "cpl": 175.01
+        "cpl": 175.57
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3023.89,
-        "spend_today": 14.85,
-        "clicks": 75,
-        "cpc": 40.32,
+        "spend": 3033.99,
+        "spend_today": 24.95,
+        "clicks": 76,
+        "cpc": 39.92,
         "crm_leads": 0,
-        "cpl": 175.01
+        "cpl": 175.57
       }
     ]
   },
   "meta": {
-    "spend_30d": 2982.22,
+    "spend_30d": 2982.99,
     "clicks_30d": 1031,
     "crm_leads": 51,
     "crm_leads_today": 1,
     "cpc": 2.89,
-    "cpl_crm": 58.47,
-    "cost_per_hot": 1491.11,
+    "cpl_crm": 58.49,
+    "cost_per_hot": 1491.49,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1183.33,
-        "spend_today": 45.78,
+        "spend": 1183.45,
+        "spend_today": 45.9,
         "clicks": 367,
         "crm_leads": 51,
         "cpl_crm": 23.2
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1087.63,
-        "spend_today": 62.63,
+        "spend": 1088.05,
+        "spend_today": 63.05,
         "clicks": 395,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 711.26,
-        "spend_today": 49.95,
+        "spend": 711.49,
+        "spend_today": 50.18,
         "clicks": 269,
         "crm_leads": 0,
         "cpl_crm": null
@@ -559,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 6132.32
+    "2026-04": 6143.19
   },
   "channel_by_month": {
     "2026-01": {
@@ -606,11 +606,11 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Offered": 6,
-          "No Contact": 4,
-          "Not an Opportunity": 4,
-          "Potential": 2,
-          "Need to Offer": 1
+          "Cold": 10,
+          "Need to Contact": 4,
+          "Not Workable": 1,
+          "Owes too Much": 1,
+          "Listed": 1
         }
       }
     },
@@ -634,10 +634,11 @@
         "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
-          "Not an Opportunity": 8,
-          "Offered": 4,
-          "No Contact": 2,
-          "Dead": 1
+          "Wrong Number": 5,
+          "Cold": 4,
+          "Dead": 3,
+          "Need to Contact": 2,
+          "Under Contract": 1
         }
       },
       "pipeline_fb": {
@@ -653,20 +654,25 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Offered": 13,
-          "No Contact": 10,
-          "Not an Opportunity": 3,
-          "Available": 2,
-          "Potential": 2
+          "Need to Contact": 11,
+          "Cold": 8,
+          "Warm": 2,
+          "Under Contract": 2,
+          "Hot": 2,
+          "No Longer Selling": 1,
+          "Dead": 1,
+          "Sold": 1,
+          "Owes too Much": 1,
+          "Listed": 1
         }
       }
     },
     "2026-04": {
-      "google_spend": 3150.1,
-      "meta_spend": 2982.22,
+      "google_spend": 3160.2,
+      "meta_spend": 2982.99,
       "ppc_leads": 18,
       "fb_leads": 51,
-      "google_cpc": 18.98,
+      "google_cpc": 18.92,
       "meta_cpc": 2.89,
       "pipeline_ppc": {
         "leads": 18,
@@ -681,19 +687,19 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Offer": 4,
-          "Potential": 4,
-          "Offered": 4,
-          "Not an Opportunity": 4,
-          "Available": 1,
-          "No Contact": 1
+          "Cold": 5,
+          "Warm": 4,
+          "Need to Contact": 4,
+          "Wrong Number": 2,
+          "Listed": 2,
+          "Under Contract": 1
         }
       },
       "pipeline_fb": {
         "leads": 51,
         "active": 45,
         "booked": 13,
-        "offered": 8,
+        "offered": 9,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -702,11 +708,13 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Potential": 32,
-          "Offered": 8,
-          "Need to Offer": 5,
-          "Not an Opportunity": 5,
-          "No Contact": 1
+          "Need to Contact": 32,
+          "Cold": 9,
+          "Warm": 4,
+          "Wrong Number": 2,
+          "Dead": 2,
+          "Listed": 1,
+          "Owes too Much": 1
         }
       }
     }
@@ -716,7 +724,7 @@
     "dispositioned_mtd": 33,
     "hot": 2,
     "booked": 22,
-    "offers": 13,
+    "offers": 14,
     "under_contract": 1,
     "closed": 0
   },
@@ -724,7 +732,7 @@
     "leads": 51,
     "active": 45,
     "booked": 13,
-    "offered": 8,
+    "offered": 9,
     "accepted": 0,
     "under_contract": 0,
     "contract_available": 0,
@@ -733,11 +741,13 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Potential": 32,
-      "Offered": 8,
-      "Need to Offer": 5,
-      "Not an Opportunity": 5,
-      "No Contact": 1
+      "Need to Contact": 32,
+      "Cold": 9,
+      "Warm": 4,
+      "Wrong Number": 2,
+      "Dead": 2,
+      "Listed": 1,
+      "Owes too Much": 1
     }
   },
   "pipeline_ppc": {
@@ -753,12 +763,12 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Offer": 4,
-      "Potential": 4,
-      "Offered": 4,
-      "Not an Opportunity": 4,
-      "Available": 1,
-      "No Contact": 1
+      "Cold": 5,
+      "Warm": 4,
+      "Need to Contact": 4,
+      "Wrong Number": 2,
+      "Listed": 2,
+      "Under Contract": 1
     }
   },
   "reps": {

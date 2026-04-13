@@ -179,21 +179,6 @@
   .funnel-arrow { color: var(--faint); font-size: 14px; padding-top: 8px; flex-shrink: 0; }
   .funnel-step.hot .funnel-num { color: var(--amber); }
   .funnel-step.contract .funnel-num { color: var(--green); }
-  /* ─── Lead status grid (below contract grid) ─── */
-  .lead-status-grid {
-    display: grid;
-    gap: 6px;
-    margin-top: 10px;
-  }
-  .ls-cell {
-    border-radius: 8px;
-    padding: 8px 6px;
-    text-align: center;
-    border: 0.5px solid transparent;
-  }
-  .ls-num   { font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 600; }
-  .ls-label { font-size: 9px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
-
   /* ─── Contract status grid (below funnel) ─── */
   .contract-grid {
     display: grid;
@@ -752,6 +737,11 @@
     .agent-scorecard-grid { grid-template-columns: 1fr; }
     .roas-cards-row { grid-template-columns: 1fr; }
   }
+  /* ─── Lead status grid ─── */
+  .lead-status-grid { display:grid; gap:6px; margin-top:10px; }
+  .ls-cell { border-radius:8px; padding:8px 6px; text-align:center; border:0.5px solid transparent; }
+  .ls-num  { font-family:'DM Mono',monospace; font-size:18px; font-weight:600; }
+  .ls-label { font-size:9px; font-weight:600; letter-spacing:0.07em; text-transform:uppercase; color:var(--muted); margin-top:3px; }
 </style>
 </head>
 <body>
@@ -772,8 +762,6 @@ async function loadData(month) {
     if (!res.ok) throw new Error(file + ' not found');
     return await res.json();
   } catch (e) {
-    console.error('loadData error:', e);
-    document.getElementById('app').innerHTML = '<div class="loading">⚠ load error: ' + e.message + '</div>';
     return null;
   }
 }
@@ -802,30 +790,28 @@ function renderStatusBreakdown(breakdown) {
     if (!breakdown || !Object.keys(breakdown).length) return '';
     const ORDER = ['Hot','Warm','Cold','Need to Contact','Under Contract','Sold'];
     const entries = Object.entries(breakdown).sort(([a],[b]) => {
-      const ai = ORDER.indexOf(a), bi = ORDER.indexOf(b);
-      if (ai !== -1 && bi !== -1) return ai - bi;
-      if (ai !== -1) return -1;
-      if (bi !== -1) return 1;
-      return (b[1].count||0) - (a[1].count||0);
+      const ai=ORDER.indexOf(a), bi=ORDER.indexOf(b);
+      if(ai!==-1&&bi!==-1) return ai-bi;
+      if(ai!==-1) return -1; if(bi!==-1) return 1;
+      const av=typeof breakdown[a]==='object'?(breakdown[a].count||0):0;
+      const bv=typeof breakdown[b]==='object'?(breakdown[b].count||0):0;
+      return bv-av;
     });
-    const cols = Math.min(entries.length, 4);
-    return `<div class="lead-status-grid" style="grid-template-columns:repeat(${cols},1fr);">${
-      entries.map(([label, val]) => {
-        const count = typeof val === 'object' ? (val.count||0) : val;
-        const hex   = typeof val === 'object' ? (val.color||'') : '';
-        const bg    = hex || '#f0efed';
-        const _h = bg.replace('#','').padEnd(6,'0');
-        const tc = 'rgb('+[0,2,4].map(i=>Math.round(parseInt(_h.slice(i,i+2),16)*0.45)).join(',')+')';
-        const bc    = hex ? bg : 'rgba(0,0,0,0.06)';
-        return `<div class="ls-cell" style="background:${bg};border-color:${bc};">
-          <div class="ls-num" style="color:${tc};">${count}</div>
-          <div class="ls-label">${label}</div>
-        </div>`;
-      }).join('')
-    }</div>`;
+    const cols=Math.min(entries.length,4);
+    return '<div class="lead-status-grid" style="grid-template-columns:repeat('+cols+',1fr);">'+
+      entries.map(function(e){
+        var label=e[0], val=e[1];
+        var count=typeof val==='object'?(val.count||0):(val||0);
+        var hex=typeof val==='object'?(val.color||''):'';
+        var bg=hex||'#f0efed';
+        var hx=bg.replace('#','').padEnd(6,'0');
+        var tc='rgb('+[0,2,4].map(function(i){return Math.round(parseInt(hx.slice(i,i+2),16)*0.45);}).join(',')+')';
+        return '<div class="ls-cell" style="background:'+bg+';border-color:'+bg+';"><div class="ls-num" style="color:'+tc+';">'+count+'</div><div class="ls-label">'+label+'</div></div>';
+      }).join('')+
+    '</div>';
   }
 
-  function fmt(n) {
+function fmt(n) {
   if (n == null || n === '') return '—';
   return '$' + Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
 }
@@ -1541,7 +1527,7 @@ async function showReport(month) {
 
 
   // ── END NEW SECTIONS ──────────────────────────────────────────
-  } catch(e) { console.error('KPI section error:', e); document.getElementById('app').insertAdjacentHTML('afterbegin','<div style="color:red;padding:10px;">KPI error: '+e.message+'</div>'); }
+  } catch(e) { console.error('KPI section error:', e); }
 }
 
 async function init() {

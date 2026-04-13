@@ -179,6 +179,33 @@
   .funnel-arrow { color: var(--faint); font-size: 14px; padding-top: 8px; flex-shrink: 0; }
   .funnel-step.hot .funnel-num { color: var(--amber); }
   .funnel-step.contract .funnel-num { color: var(--green); }
+  /* ─── Lead status breakdown (below contract grid) ─── */
+  .status-breakdown {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0 2px;
+  }
+  .sb-pill {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: var(--surface2);
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+  }
+  .sb-pill .sb-count { font-weight: 700; color: var(--text); }
+  .sb-pill.sb-green  { background: rgba(22,163,74,0.08);  color: var(--green); }
+  .sb-pill.sb-amber  { background: rgba(217,119,6,0.08);  color: var(--amber); }
+  .sb-pill.sb-dead   { background: rgba(0,0,0,0.04);      color: var(--faint); }
+  .sb-pill.sb-red    { background: rgba(220,38,38,0.08);  color: var(--red);   }
+
   /* ─── Contract status grid (below funnel) ─── */
   .contract-grid {
     display: grid;
@@ -781,7 +808,30 @@ function formatMonthLabel(ym) {
   return names[parseInt(m)] + ' ' + y;
 }
 
-function fmt(n) {
+function renderStatusBreakdown(breakdown) {
+    if (!breakdown || !Object.keys(breakdown).length) return '';
+    const COLOR_MAP = {
+      'Available':            'sb-green',
+      'Assigned':             'sb-green',
+      'Closed':               'sb-green',
+      'Offered':              'sb-amber',
+      'Need to Offer':        'sb-amber',
+      'Accepted':             'sb-amber',
+      'Potential':            '',
+      'No Contact':           'sb-dead',
+      'Not an Opportunity':   'sb-dead',
+      'Dead':                 'sb-red',
+      'Unknown':              'sb-dead',
+    };
+    return `<div class="status-breakdown">${
+      Object.entries(breakdown).map(([label, count]) => {
+        const cls = COLOR_MAP[label] !== undefined ? COLOR_MAP[label] : '';
+        return `<span class="sb-pill ${cls}"><span class="sb-count">${count}</span>&nbsp;${label}</span>`;
+      }).join('')
+    }</div>`;
+  }
+
+  function fmt(n) {
   if (n == null || n === '') return '—';
   return '$' + Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
 }
@@ -1001,6 +1051,7 @@ function render(d, month) {
             <div class="cg-label">Dead</div>
           </div>
         </div>
+        ${renderStatusBreakdown(ppc.status_breakdown)}
       </div>
     </div>
 
@@ -1052,6 +1103,7 @@ function render(d, month) {
             <div class="cg-label">Dead</div>
           </div>
         </div>
+        ${renderStatusBreakdown(fb.status_breakdown)}
       </div>
     </div>
 

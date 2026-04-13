@@ -205,6 +205,7 @@
   .sb-pill.sb-amber  { background: rgba(217,119,6,0.08);  color: var(--amber); }
   .sb-pill.sb-dead   { background: rgba(0,0,0,0.04);      color: var(--faint); }
   .sb-pill.sb-red    { background: rgba(220,38,38,0.08);  color: var(--red);   }
+  .sb-pill.sb-blue   { background: rgba(37,99,235,0.08);  color: var(--blue);  }
 
   /* ─── Contract status grid (below funnel) ─── */
   .contract-grid {
@@ -811,17 +812,19 @@ function formatMonthLabel(ym) {
 function renderStatusBreakdown(breakdown) {
     if (!breakdown || !Object.keys(breakdown).length) return '';
     const COLOR_MAP = {
-      'Available':            'sb-green',
-      'Assigned':             'sb-green',
-      'Closed':               'sb-green',
-      'Offered':              'sb-amber',
-      'Need to Offer':        'sb-amber',
-      'Accepted':             'sb-amber',
-      'Potential':            '',
-      'No Contact':           'sb-dead',
-      'Not an Opportunity':   'sb-dead',
-      'Dead':                 'sb-red',
-      'Unknown':              'sb-dead',
+      'Hot':              'sb-red',
+      'Warm':             'sb-amber',
+      'Cold':             'sb-blue',
+      'Need to Contact':  'sb-blue',
+      'Under Contract':   'sb-green',
+      'Sold':             'sb-green',
+      'Dead':             'sb-dead',
+      'Wrong Number':     'sb-dead',
+      'Listed':           'sb-dead',
+      'No Longer Selling':'sb-dead',
+      'Owes too Much':    'sb-dead',
+      'Not Workable':     'sb-dead',
+      'Unknown':          'sb-dead',
     };
     return `<div class="status-breakdown">${
       Object.entries(breakdown).map(([label, count]) => {

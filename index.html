@@ -183,15 +183,12 @@
   .contract-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
-    margin-top: 12px;
-  }
-  @media (max-width: 768px) {
-    .contract-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    gap: 6px;
+    margin-top: 10px;
   }
   .cg-card {
-    border-radius: 10px;
-    padding: 10px 8px;
+    border-radius: 8px;
+    padding: 8px 6px;
     text-align: center;
     border: 0.5px solid transparent;
   }
@@ -199,12 +196,12 @@
   .cg-card.cg-assign  { background: var(--amber-dim);  border-color: rgba(217,119,6,0.2); }
   .cg-card.cg-closed  { background: rgba(134,239,172,0.15); border-color: rgba(22,163,74,0.15); }
   .cg-card.cg-dead    { background: var(--red-dim);    border-color: rgba(220,38,38,0.2); }
-  .cg-num  { font-family: 'DM Mono', monospace; font-size: 22px; font-weight: 500; }
+  .cg-num  { font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 600; }
   .cg-card.cg-avail  .cg-num  { color: var(--green); }
   .cg-card.cg-assign .cg-num  { color: var(--amber); }
   .cg-card.cg-closed .cg-num  { color: #4ade80; }
   .cg-card.cg-dead   .cg-num  { color: var(--red); }
-  .cg-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+  .cg-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
 
   /* ─── Source breakdown ─── */
   .source-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }

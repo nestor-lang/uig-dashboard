@@ -1016,22 +1016,22 @@ function render(d, month) {
             <div class="funnel-rate">${pct(ppc.offered, ppc.booked)}</div>
           </div>
         </div>
-        <div class="contract-grid">
-          <div class="cg-card cg-avail">
-            <div class="cg-num">${num(ppc.contract_available||0)}</div>
-            <div class="cg-label">Available</div>
+        <div class="contract-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:10px;">
+          <div style="background:rgba(22,163,74,0.08);border:0.5px solid rgba(22,163,74,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--green);">${num(ppc.contract_available||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Available</div>
           </div>
-          <div class="cg-card cg-assign">
-            <div class="cg-num">${num(ppc.contract_pending||0)}</div>
-            <div class="cg-label">Assigned</div>
+          <div style="background:rgba(217,119,6,0.08);border:0.5px solid rgba(217,119,6,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--amber);">${num(ppc.contract_pending||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Assigned</div>
           </div>
-          <div class="cg-card cg-closed">
-            <div class="cg-num">${num(ppc.contract_closed||0)}</div>
-            <div class="cg-label">Closed</div>
+          <div style="background:rgba(134,239,172,0.15);border:0.5px solid rgba(22,163,74,0.15);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:#4ade80;">${num(ppc.contract_closed||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Closed</div>
           </div>
-          <div class="cg-card cg-dead">
-            <div class="cg-num">${num(ppc.contract_dead||0)}</div>
-            <div class="cg-label">Dead</div>
+          <div style="background:rgba(220,38,38,0.08);border:0.5px solid rgba(220,38,38,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--red);">${num(ppc.contract_dead||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Dead</div>
           </div>
 
 
@@ -1071,22 +1071,22 @@ function render(d, month) {
             <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
           </div>
         </div>
-        <div class="contract-grid">
-          <div class="cg-card cg-avail">
-            <div class="cg-num">${num(fb.contract_available||0)}</div>
-            <div class="cg-label">Available</div>
+        <div class="contract-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:10px;">
+          <div style="background:rgba(22,163,74,0.08);border:0.5px solid rgba(22,163,74,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--green);">.contract_available||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Available</div>
           </div>
-          <div class="cg-card cg-assign">
-            <div class="cg-num">${num(fb.contract_pending||0)}</div>
-            <div class="cg-label">Assigned</div>
+          <div style="background:rgba(217,119,6,0.08);border:0.5px solid rgba(217,119,6,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--amber);">.contract_pending||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Assigned</div>
           </div>
-          <div class="cg-card cg-closed">
-            <div class="cg-num">${num(fb.contract_closed||0)}</div>
-            <div class="cg-label">Closed</div>
+          <div style="background:rgba(134,239,172,0.15);border:0.5px solid rgba(22,163,74,0.15);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:#4ade80;">.contract_closed||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Closed</div>
           </div>
-          <div class="cg-card cg-dead">
-            <div class="cg-num">${num(fb.contract_dead||0)}</div>
-            <div class="cg-label">Dead</div>
+          <div style="background:rgba(220,38,38,0.08);border:0.5px solid rgba(220,38,38,0.2);border-radius:8px;padding:6px 4px;text-align:center;">
+            <div style="font-family:'DM Mono',monospace;font-size:16px;font-weight:600;color:var(--red);">.contract_dead||0)}</div>
+            <div style="font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;">Dead</div>
           </div>
 
 

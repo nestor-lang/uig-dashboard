@@ -767,7 +767,7 @@ let ytdData = {};
 
 async function loadData(month) {
   try {
-    const file = month ? `data-${month}.json` : 'data.json';
+    const file = (month ? `data-${month}.json` : 'data.json') + `?t=${Date.now()}`;
     const res = await fetch(file + '?t=' + Date.now());
     if (!res.ok) throw new Error(file + ' not found');
     return await res.json();

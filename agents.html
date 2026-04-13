@@ -334,11 +334,13 @@
     .cs-cell.cs-assign { background: var(--amber-dim); }
     .cs-cell.cs-closed { background: rgba(134,239,172,0.15); }
     .cs-cell.cs-dead   { background: var(--red-dim); }
+    .cs-cell.cs-hold   { background: var(--blue-dim);  }
     .cs-num  { font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 600; }
     .cs-cell.cs-avail  .cs-num { color: var(--green); }
     .cs-cell.cs-assign .cs-num { color: var(--amber); }
     .cs-cell.cs-closed .cs-num { color: #16a34a; }
     .cs-cell.cs-dead   .cs-num { color: var(--red); }
+    .cs-cell.cs-hold   .cs-num { color: var(--blue); }
     .cs-label { font-size: 9px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
 
     /* ── Responsive ── */
@@ -555,15 +557,16 @@
     const latestD = allMonthData[availMonths[0]] || {};
     const wb = (latestD.wb_pipeline || {})[agent] || {};
     const byMonth = wb.by_month || {};
-    let avail = 0, pending = 0, closed = 0, dead = 0;
+    let avail = 0, pending = 0, closed = 0, dead = 0, onHold = 0;
     months.forEach(k => {
       const counts = (byMonth[k] || {}).counts || {};
       avail   += counts.available || 0;
       pending += counts.pending   || 0;
       closed  += counts.closed    || 0;
       dead    += counts.dead      || 0;
+      onHold  += counts.on_hold   || 0;
     });
-    return { avail, pending, closed, dead };
+    return { avail, pending, closed, dead, onHold };
   }
 
   async function boot() {
@@ -742,7 +745,7 @@
           <div class="rate-value" style="color:var(--green)">${pipeVal ? fmtMoney(pipeVal) : '—'}</div>
         </div>
       </div>
-      <div class="contract-status-row">
+      <div class="contract-status-row" style="grid-template-columns:repeat(5,1fr);">
         <div class="cs-cell cs-avail">
           <div class="cs-num">${(wb||{}).avail||0}</div>
           <div class="cs-label">Available</div>
@@ -758,6 +761,10 @@
         <div class="cs-cell cs-dead">
           <div class="cs-num">${(wb||{}).dead||0}</div>
           <div class="cs-label">Dead</div>
+        </div>
+        <div class="cs-cell cs-hold">
+          <div class="cs-num">${(wb||{}).onHold||0}</div>
+          <div class="cs-label">On Hold</div>
         </div>
       </div>
 

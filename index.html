@@ -1030,6 +1030,8 @@ function render(d, month) {
             <div class="cg-num">${num(ppc.contract_dead||0)}</div>
             <div class="cg-label">Dead</div>
           </div>
+
+${(()=>{ const bd=ppc.status_breakdown; if(!bd||!Object.keys(bd).length) return ''; const ORDER=['Hot','Warm','Cold','Need to Contact','Under Contract','Sold']; const entries=Object.entries(bd).sort(([a],[b])=>{const ai=ORDER.indexOf(a),bi=ORDER.indexOf(b);if(ai>-1&&bi>-1)return ai-bi;if(ai>-1)return -1;if(bi>-1)return 1;return(bd[b].count||0)-(bd[a].count||0);}); const cols=Math.min(entries.length,4); return '<div style="margin-top:10px;"><div style="font-size:9px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:6px;">Lead Statuses</div><div class=\"lead-status-grid\" style=\"grid-template-columns:repeat('+cols+',1fr);\">'+entries.map(([label,val])=>{const count=typeof val==='object'?(val.count||0):val;const hex=typeof val==='object'?(val.color||''):'';const bg=hex||'#f0efed';const hx=bg.replace('#','').padEnd(6,'0');const tc='rgb('+[0,2,4].map(i=>Math.round(parseInt(hx.slice(i,i+2),16)*0.45)).join(',')+')';return '<div class=\"ls-cell\" style=\"background:'+bg+';border-color:'+bg+';\"><div class=\"ls-num\" style=\"color:'+tc+';">'+count+'</div><div class=\"ls-label\">'+label+'</div></div>';}).join('')+'</div></div>'; })()}
         </div>
       </div>
     </div>
@@ -1081,29 +1083,15 @@ function render(d, month) {
             <div class="cg-num">${num(fb.contract_dead||0)}</div>
             <div class="cg-label">Dead</div>
           </div>
+
+${(()=>{ const bd=fb.status_breakdown; if(!bd||!Object.keys(bd).length) return ''; const ORDER=['Hot','Warm','Cold','Need to Contact','Under Contract','Sold']; const entries=Object.entries(bd).sort(([a],[b])=>{const ai=ORDER.indexOf(a),bi=ORDER.indexOf(b);if(ai>-1&&bi>-1)return ai-bi;if(ai>-1)return -1;if(bi>-1)return 1;return(bd[b].count||0)-(bd[a].count||0);}); const cols=Math.min(entries.length,4); return '<div style=\"margin-top:10px;\"><div style=\"font-size:9px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);margin-bottom:6px;\">Lead Statuses</div><div class=\"lead-status-grid\" style=\"grid-template-columns:repeat('+cols+',1fr);\">'+entries.map(([label,val])=>{const count=typeof val==='object'?(val.count||0):val;const hex=typeof val==='object'?(val.color||''):'';const bg=hex||'#f0efed';const hx=bg.replace('#','').padEnd(6,'0');const tc='rgb('+[0,2,4].map(i=>Math.round(parseInt(hx.slice(i,i+2),16)*0.45)).join(',')+')';return '<div class=\"ls-cell\" style=\"background:'+bg+';border-color:'+bg+';\"><div class=\"ls-num\" style=\"color:'+tc+';">'+count+'</div><div class=\"ls-label\">'+label+'</div></div>';}).join('')+'</div></div>'; })()}
         </div>
       </div>
     </div>
 
   </div>
 
-  <div class="section-label" style="margin-top:1.5rem;">Lead Statuses <span class="section-source">Podio · by channel</span></div>
-  <div class="channels">
-    <div class="channel-block">
-      <div class="channel-header">
-        <div class="channel-name">Google Ads</div>
-        <div class="channel-badge badge-google">PPC</div>
-      </div>
-      ${(()=>{ const bd=ppc.status_breakdown; if(!bd||!Object.keys(bd).length) return '<div style="font-size:11px;color:var(--faint);padding:8px 0;">No status data</div>'; const ORDER=['Hot','Warm','Cold','Need to Contact','Under Contract','Sold']; const entries=Object.entries(bd).sort(([a],[b])=>{const ai=ORDER.indexOf(a),bi=ORDER.indexOf(b);if(ai>-1&&bi>-1)return ai-bi;if(ai>-1)return -1;if(bi>-1)return 1;return(bd[b].count||0)-(bd[a].count||0);}); const cols=Math.min(entries.length,4); return '<div class="lead-status-grid" style="grid-template-columns:repeat('+cols+',1fr);">'+entries.map(([label,val])=>{const count=typeof val==='object'?(val.count||0):val;const hex=typeof val==='object'?(val.color||''):'';const bg=hex||'#f0efed';const hx=bg.replace('#','').padEnd(6,'0');const tc='rgb('+[0,2,4].map(i=>Math.round(parseInt(hx.slice(i,i+2),16)*0.45)).join(',')+')';return '<div class="ls-cell" style="background:'+bg+';border-color:'+bg+';"><div class="ls-num" style="color:'+tc+';">'+count+'</div><div class="ls-label">'+label+'</div></div>';}).join('')+'</div>'; })()}
-    </div>
-    <div class="channel-block">
-      <div class="channel-header">
-        <div class="channel-name">Facebook</div>
-        <div class="channel-badge badge-meta">META</div>
-      </div>
-      ${(()=>{ const bd=fb.status_breakdown; if(!bd||!Object.keys(bd).length) return '<div style="font-size:11px;color:var(--faint);padding:8px 0;">No status data</div>'; const ORDER=['Hot','Warm','Cold','Need to Contact','Under Contract','Sold']; const entries=Object.entries(bd).sort(([a],[b])=>{const ai=ORDER.indexOf(a),bi=ORDER.indexOf(b);if(ai>-1&&bi>-1)return ai-bi;if(ai>-1)return -1;if(bi>-1)return 1;return(bd[b].count||0)-(bd[a].count||0);}); const cols=Math.min(entries.length,4); return '<div class="lead-status-grid" style="grid-template-columns:repeat('+cols+',1fr);">'+entries.map(([label,val])=>{const count=typeof val==='object'?(val.count||0):val;const hex=typeof val==='object'?(val.color||''):'';const bg=hex||'#f0efed';const hx=bg.replace('#','').padEnd(6,'0');const tc='rgb('+[0,2,4].map(i=>Math.round(parseInt(hx.slice(i,i+2),16)*0.45)).join(',')+')';return '<div class="ls-cell" style="background:'+bg+';border-color:'+bg+';"><div class="ls-num" style="color:'+tc+';">'+count+'</div><div class="ls-label">'+label+'</div></div>';}).join('')+'</div>'; })()}
-    </div>
-  </div>
+
 
   <!-- ============================================================ -->
   <!-- SECTION DIVIDER -->

@@ -772,6 +772,8 @@ async function loadData(month) {
     if (!res.ok) throw new Error(file + ' not found');
     return await res.json();
   } catch (e) {
+    console.error('loadData error:', e);
+    document.getElementById('app').innerHTML = '<div class="loading">⚠ load error: ' + e.message + '</div>';
     return null;
   }
 }
@@ -1539,7 +1541,7 @@ async function showReport(month) {
 
 
   // ── END NEW SECTIONS ──────────────────────────────────────────
-  } catch(e) { console.error('KPI section error:', e); }
+  } catch(e) { console.error('KPI section error:', e); document.getElementById('app').insertAdjacentHTML('afterbegin','<div style="color:red;padding:10px;">KPI error: '+e.message+'</div>'); }
 }
 
 async function init() {

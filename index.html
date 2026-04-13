@@ -1031,7 +1031,6 @@ function render(d, month) {
             <div class="cg-label">Dead</div>
           </div>
         </div>
-        ${renderStatusBreakdown(ppc.status_breakdown)}
       </div>
     </div>
 
@@ -1083,10 +1082,26 @@ function render(d, month) {
             <div class="cg-label">Dead</div>
           </div>
         </div>
-        ${renderStatusBreakdown(fb.status_breakdown)}
       </div>
     </div>
 
+  </div>
+
+  <div class="channels" style="margin-top:12px;">
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Google Ads</div>
+        <div class="channel-badge badge-google" style="font-size:9px;">LEAD STATUSES</div>
+      </div>
+      ${renderStatusBreakdown(ppc.status_breakdown)}
+    </div>
+    <div class="channel-block">
+      <div class="channel-header">
+        <div class="channel-name">Facebook</div>
+        <div class="channel-badge badge-meta" style="font-size:9px;">LEAD STATUSES</div>
+      </div>
+      ${renderStatusBreakdown(fb.status_breakdown)}
+    </div>
   </div>
 
   <!-- ============================================================ -->

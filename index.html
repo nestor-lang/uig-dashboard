@@ -179,33 +179,27 @@
   .funnel-arrow { color: var(--faint); font-size: 14px; padding-top: 8px; flex-shrink: 0; }
   .funnel-step.hot .funnel-num { color: var(--amber); }
   .funnel-step.contract .funnel-num { color: var(--green); }
-  /* ─── Lead status breakdown (below contract grid) ─── */
+  /* ─── Lead status breakdown (Hot/Warm/Cold) ─── */
   .status-breakdown {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
     margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding: 0 2px;
   }
-  .sb-pill {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    font-weight: 500;
-    padding: 2px 8px;
-    border-radius: 20px;
-    background: var(--surface2);
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    white-space: nowrap;
+  .sb-cell {
+    border-radius: 8px;
+    padding: 8px 6px;
+    text-align: center;
+    border: 0.5px solid transparent;
   }
-  .sb-pill .sb-count { font-weight: 700; color: var(--text); }
-  .sb-pill.sb-green  { background: rgba(22,163,74,0.08);  color: var(--green); }
-  .sb-pill.sb-amber  { background: rgba(217,119,6,0.08);  color: var(--amber); }
-  .sb-pill.sb-dead   { background: rgba(0,0,0,0.04);      color: var(--faint); }
-  .sb-pill.sb-red    { background: rgba(220,38,38,0.08);  color: var(--red);   }
-  .sb-pill.sb-blue   { background: rgba(37,99,235,0.08);  color: var(--blue);  }
+  .sb-cell.sb-hot   { background: rgba(220,38,38,0.08);   border-color: rgba(220,38,38,0.2); }
+  .sb-cell.sb-warm  { background: rgba(217,119,6,0.08);   border-color: rgba(217,119,6,0.2); }
+  .sb-cell.sb-cold  { background: rgba(37,99,235,0.06);   border-color: rgba(37,99,235,0.15); }
+  .sb-num  { font-family: 'DM Mono', monospace; font-size: 20px; font-weight: 600; }
+  .sb-cell.sb-hot  .sb-num { color: var(--red); }
+  .sb-cell.sb-warm .sb-num { color: var(--amber); }
+  .sb-cell.sb-cold .sb-num { color: var(--blue); }
+  .sb-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
 
   /* ─── Contract status grid (below funnel) ─── */
   .contract-grid {
@@ -810,28 +804,25 @@ function formatMonthLabel(ym) {
 }
 
 function renderStatusBreakdown(breakdown) {
-    if (!breakdown || !Object.keys(breakdown).length) return '';
-    const COLOR_MAP = {
-      'Hot':              'sb-red',
-      'Warm':             'sb-amber',
-      'Cold':             'sb-blue',
-      'Need to Contact':  'sb-blue',
-      'Under Contract':   'sb-green',
-      'Sold':             'sb-green',
-      'Dead':             'sb-dead',
-      'Wrong Number':     'sb-dead',
-      'Listed':           'sb-dead',
-      'No Longer Selling':'sb-dead',
-      'Owes too Much':    'sb-dead',
-      'Not Workable':     'sb-dead',
-      'Unknown':          'sb-dead',
-    };
-    return `<div class="status-breakdown">${
-      Object.entries(breakdown).map(([label, count]) => {
-        const cls = COLOR_MAP[label] !== undefined ? COLOR_MAP[label] : '';
-        return `<span class="sb-pill ${cls}"><span class="sb-count">${count}</span>&nbsp;${label}</span>`;
-      }).join('')
-    }</div>`;
+    if (!breakdown) return '';
+    const hot  = breakdown['Hot']  || 0;
+    const warm = breakdown['Warm'] || 0;
+    const cold = breakdown['Cold'] || 0;
+    if (!hot && !warm && !cold) return '';
+    return `<div class="status-breakdown">
+      <div class="sb-cell sb-hot">
+        <div class="sb-num">${hot}</div>
+        <div class="sb-label">Hot</div>
+      </div>
+      <div class="sb-cell sb-warm">
+        <div class="sb-num">${warm}</div>
+        <div class="sb-label">Warm</div>
+      </div>
+      <div class="sb-cell sb-cold">
+        <div class="sb-num">${cold}</div>
+        <div class="sb-label">Cold</div>
+      </div>
+    </div>`;
   }
 
   function fmt(n) {

@@ -1,13 +1,13 @@
 {
   "report_date": "April 13, 2026",
-  "last_updated": "2026-04-13 11:29 EST",
+  "last_updated": "2026-04-13 11:40 EST",
   "google": {
-    "spend_mtd": 3160.2,
-    "clicks_mtd": 167,
+    "spend_mtd": 3170.3,
+    "clicks_mtd": 168,
     "crm_leads": 18,
     "crm_leads_today": 0,
-    "cpc": 18.92,
-    "cpl": 175.57,
+    "cpc": 18.87,
+    "cpl": 176.13,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,49 +20,49 @@
         "clicks": 91,
         "cpc": 1.39,
         "crm_leads": 0,
-        "cpl": 175.57
+        "cpl": 176.13
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3033.99,
-        "spend_today": 24.95,
-        "clicks": 76,
-        "cpc": 39.92,
+        "spend": 3044.09,
+        "spend_today": 35.05,
+        "clicks": 77,
+        "cpc": 39.53,
         "crm_leads": 0,
-        "cpl": 175.57
+        "cpl": 176.13
       }
     ]
   },
   "meta": {
-    "spend_30d": 2987.74,
-    "clicks_30d": 1032,
+    "spend_30d": 2991.1,
+    "clicks_30d": 1034,
     "crm_leads": 51,
     "crm_leads_today": 1,
-    "cpc": 2.9,
-    "cpl_crm": 58.58,
-    "cost_per_hot": 1493.87,
+    "cpc": 2.89,
+    "cpl_crm": 58.65,
+    "cost_per_hot": 1495.55,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1184.95,
-        "spend_today": 47.4,
-        "clicks": 367,
+        "spend": 1186.07,
+        "spend_today": 48.52,
+        "clicks": 368,
         "crm_leads": 51,
-        "cpl_crm": 23.23
+        "cpl_crm": 23.26
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1088.89,
-        "spend_today": 63.89,
+        "spend": 1089.44,
+        "spend_today": 64.44,
         "clicks": 395,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 713.9,
-        "spend_today": 52.59,
-        "clicks": 270,
+        "spend": 715.59,
+        "spend_today": 54.28,
+        "clicks": 271,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -559,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 6147.94
+    "2026-04": 6161.4
   },
   "channel_by_month": {
     "2026-01": {
@@ -606,11 +606,26 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Cold": 10,
-          "Need to Contact": 4,
-          "Not Workable": 1,
-          "Owes too Much": 1,
-          "Listed": 1
+          "Cold": {
+            "count": 10,
+            "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 4,
+            "color": "#FFD5C2"
+          },
+          "Not Workable": {
+            "count": 1,
+            "color": "#D1F3EC"
+          },
+          "Owes too Much": {
+            "count": 1,
+            "color": "#D1F3EC"
+          },
+          "Listed": {
+            "count": 1,
+            "color": "#C8C8C8"
+          }
         }
       }
     },
@@ -634,11 +649,26 @@
         "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
-          "Wrong Number": 5,
-          "Cold": 4,
-          "Dead": 3,
-          "Need to Contact": 2,
-          "Under Contract": 1
+          "Wrong Number": {
+            "count": 5,
+            "color": "#DCEBD8"
+          },
+          "Cold": {
+            "count": 4,
+            "color": "#D2E4EB"
+          },
+          "Dead": {
+            "count": 3,
+            "color": "#F3F3F3"
+          },
+          "Need to Contact": {
+            "count": 2,
+            "color": "#FFD5C2"
+          },
+          "Under Contract": {
+            "count": 1,
+            "color": "#DCEBD8"
+          }
         }
       },
       "pipeline_fb": {
@@ -654,26 +684,56 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": 11,
-          "Cold": 8,
-          "Warm": 2,
-          "Under Contract": 2,
-          "Hot": 2,
-          "No Longer Selling": 1,
-          "Dead": 1,
-          "Sold": 1,
-          "Owes too Much": 1,
-          "Listed": 1
+          "Need to Contact": {
+            "count": 11,
+            "color": "#FFD5C2"
+          },
+          "Cold": {
+            "count": 8,
+            "color": "#D2E4EB"
+          },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
+          },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
+          },
+          "No Longer Selling": {
+            "count": 1,
+            "color": "#F3F3F3"
+          },
+          "Dead": {
+            "count": 1,
+            "color": "#F3F3F3"
+          },
+          "Sold": {
+            "count": 1,
+            "color": "#C8C8C8"
+          },
+          "Owes too Much": {
+            "count": 1,
+            "color": "#D1F3EC"
+          },
+          "Listed": {
+            "count": 1,
+            "color": "#C8C8C8"
+          }
         }
       }
     },
     "2026-04": {
-      "google_spend": 3160.2,
-      "meta_spend": 2987.74,
+      "google_spend": 3170.3,
+      "meta_spend": 2991.1,
       "ppc_leads": 18,
       "fb_leads": 51,
-      "google_cpc": 18.92,
-      "meta_cpc": 2.9,
+      "google_cpc": 18.87,
+      "meta_cpc": 2.89,
       "pipeline_ppc": {
         "leads": 18,
         "active": 13,
@@ -687,12 +747,30 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Cold": 5,
-          "Warm": 4,
-          "Need to Contact": 4,
-          "Wrong Number": 2,
-          "Listed": 2,
-          "Under Contract": 1
+          "Cold": {
+            "count": 5,
+            "color": "#D2E4EB"
+          },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
+          "Need to Contact": {
+            "count": 4,
+            "color": "#FFD5C2"
+          },
+          "Wrong Number": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
+          "Listed": {
+            "count": 2,
+            "color": "#C8C8C8"
+          },
+          "Under Contract": {
+            "count": 1,
+            "color": "#DCEBD8"
+          }
         }
       },
       "pipeline_fb": {
@@ -708,13 +786,34 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": 32,
-          "Cold": 9,
-          "Warm": 4,
-          "Wrong Number": 2,
-          "Dead": 2,
-          "Listed": 1,
-          "Owes too Much": 1
+          "Need to Contact": {
+            "count": 32,
+            "color": "#FFD5C2"
+          },
+          "Cold": {
+            "count": 9,
+            "color": "#D2E4EB"
+          },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
+          "Wrong Number": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
+          "Listed": {
+            "count": 1,
+            "color": "#C8C8C8"
+          },
+          "Owes too Much": {
+            "count": 1,
+            "color": "#D1F3EC"
+          }
         }
       }
     }
@@ -741,13 +840,34 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": 32,
-      "Cold": 9,
-      "Warm": 4,
-      "Wrong Number": 2,
-      "Dead": 2,
-      "Listed": 1,
-      "Owes too Much": 1
+      "Need to Contact": {
+        "count": 32,
+        "color": "#FFD5C2"
+      },
+      "Cold": {
+        "count": 9,
+        "color": "#D2E4EB"
+      },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
+      "Wrong Number": {
+        "count": 2,
+        "color": "#DCEBD8"
+      },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
+      },
+      "Listed": {
+        "count": 1,
+        "color": "#C8C8C8"
+      },
+      "Owes too Much": {
+        "count": 1,
+        "color": "#D1F3EC"
+      }
     }
   },
   "pipeline_ppc": {
@@ -763,12 +883,30 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Cold": 5,
-      "Warm": 4,
-      "Need to Contact": 4,
-      "Wrong Number": 2,
-      "Listed": 2,
-      "Under Contract": 1
+      "Cold": {
+        "count": 5,
+        "color": "#D2E4EB"
+      },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
+      "Need to Contact": {
+        "count": 4,
+        "color": "#FFD5C2"
+      },
+      "Wrong Number": {
+        "count": 2,
+        "color": "#DCEBD8"
+      },
+      "Listed": {
+        "count": 2,
+        "color": "#C8C8C8"
+      },
+      "Under Contract": {
+        "count": 1,
+        "color": "#DCEBD8"
+      }
     }
   },
   "reps": {

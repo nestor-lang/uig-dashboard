@@ -1,6 +1,6 @@
 {
   "report_date": "April 14, 2026",
-  "last_updated": "2026-04-14 12:00 EST",
+  "last_updated": "2026-04-14 13:00 EST",
   "google": {
     "spend_mtd": 3479.25,
     "clicks_mtd": 177,
@@ -34,46 +34,46 @@
     ]
   },
   "meta": {
-    "spend_30d": 3367.61,
-    "clicks_30d": 1139,
-    "crm_leads": 62,
-    "crm_leads_today": 2,
-    "cpc": 2.96,
-    "cpl_crm": 54.32,
-    "cost_per_hot": 3367.61,
+    "spend_30d": 3382.67,
+    "clicks_30d": 1145,
+    "crm_leads": 63,
+    "crm_leads_today": 3,
+    "cpc": 2.95,
+    "cpl_crm": 53.69,
+    "cost_per_hot": 3382.67,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1297.52,
-        "spend_today": 48.67,
-        "clicks": 402,
-        "crm_leads": 62,
-        "cpl_crm": 20.93
+        "spend": 1303.31,
+        "spend_today": 53.97,
+        "clicks": 403,
+        "crm_leads": 63,
+        "cpl_crm": 20.69
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1221.2,
-        "spend_today": 55.84,
-        "clicks": 429,
+        "spend": 1224.33,
+        "spend_today": 58.93,
+        "clicks": 434,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 848.89,
-        "spend_today": 50.72,
+        "spend": 855.03,
+        "spend_today": 56.86,
         "clicks": 308,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 494065,
+  "potential_income": 489401,
   "assigned_income": 141986,
   "by_stage": {
     "Initial Inspection Completed": 182453,
-    "On Market": 95168,
-    "Market Prep / Pre-Listing Marketing": 84595,
+    "On Market": 90653,
+    "Market Prep / Pre-Listing Marketing": 84446,
     "New Deal - Unscheduled": 78249,
     "Access Scheduled": 53600
   },
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6846.860000000001
+      "spend": 6861.92
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 34,
         "active": 11,
         "booked": 21,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 43,
+        "leads": 42,
         "active": 11,
         "booked": 29,
         "offers": 41,
@@ -199,13 +199,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 43
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
         "leads": 26,
-        "active": 21,
+        "active": 22,
         "booked": 24,
         "offers": 18,
         "accepted": 3,
@@ -218,9 +218,9 @@
         "discoveries": 26
       },
       "Julian": {
-        "leads": 18,
-        "active": 15,
-        "booked": 16,
+        "leads": 19,
+        "active": 17,
+        "booked": 17,
         "offers": 17,
         "accepted": 2,
         "available": 0,
@@ -229,7 +229,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 18
+        "discoveries": 19
       }
     }
   },
@@ -245,7 +245,7 @@
           "gp": {
             "closed": 140203,
             "dead": 276879,
-            "available": 23949
+            "available": 19434
           },
           "total": 21
         },
@@ -260,7 +260,7 @@
             "on_hold": 88191,
             "pending": 54825,
             "dead": 54564,
-            "available": 35114
+            "available": 34965
           },
           "total": 8
         },
@@ -294,7 +294,7 @@
           "closed": 7
         },
         "gp": {
-          "available": 267512,
+          "available": 262848,
           "pending": 141986,
           "on_hold": 88191,
           "dead": 331443,
@@ -404,7 +404,7 @@
         },
         {
           "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-          "value": 1826,
+          "value": 1677,
           "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
@@ -422,7 +422,7 @@
         },
         {
           "address": "601 E 107th Ter, Kansas City, MO 64131",
-          "value": 23949,
+          "value": 19434,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -559,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 6846.86
+    "2026-04": 6861.92
   },
   "channel_by_month": {
     "2026-01": {
@@ -729,11 +729,11 @@
     },
     "2026-04": {
       "google_spend": 3479.25,
-      "meta_spend": 3367.61,
+      "meta_spend": 3382.67,
       "ppc_leads": 20,
-      "fb_leads": 62,
+      "fb_leads": 63,
       "google_cpc": 19.66,
-      "meta_cpc": 2.96,
+      "meta_cpc": 2.95,
       "pipeline_ppc": {
         "leads": 20,
         "active": 15,
@@ -774,9 +774,9 @@
         }
       },
       "pipeline_fb": {
-        "leads": 62,
-        "active": 55,
-        "booked": 22,
+        "leads": 63,
+        "active": 56,
+        "booked": 23,
         "offered": 16,
         "accepted": 0,
         "under_contract": 0,
@@ -787,15 +787,15 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 33,
+            "count": 32,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 17,
+            "count": 18,
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 5,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -819,18 +819,18 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 82,
-    "dispositioned_mtd": 44,
+    "new_leads_30d": 83,
+    "dispositioned_mtd": 45,
     "hot": 1,
-    "booked": 32,
+    "booked": 33,
     "offers": 22,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 62,
-    "active": 55,
-    "booked": 22,
+    "leads": 63,
+    "active": 56,
+    "booked": 23,
     "offered": 16,
     "accepted": 0,
     "under_contract": 0,
@@ -841,15 +841,15 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 33,
+        "count": 32,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 17,
+        "count": 18,
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 5,
+        "count": 6,
         "color": "#F7F0C5"
       },
       "Dead": {
@@ -917,14 +917,14 @@
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 18,
+      "discoveries": 19,
       "offers": 17,
       "contracts": 2,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 409499,
+    "Julian": 404835,
     "Charles": 197365
   },
   "agent_deals": [
@@ -1040,7 +1040,7 @@
     },
     {
       "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-      "value": 1826,
+      "value": 1677,
       "status": "Available",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
@@ -1060,7 +1060,7 @@
     },
     {
       "address": "601 E 107th Ter, Kansas City, MO 64131",
-      "value": 23949,
+      "value": 19434,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1131,7 +1131,7 @@
   ],
   "sources": {
     "ppc": 20,
-    "facebook": 62,
+    "facebook": 63,
     "ppc_inbound_call": 14
   },
   "hot_leads": [

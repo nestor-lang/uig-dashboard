@@ -1,6 +1,6 @@
 {
   "report_date": "April 14, 2026",
-  "last_updated": "2026-04-14 17:00 EST",
+  "last_updated": "2026-04-14 18:00 EST",
   "google": {
     "spend_mtd": 3747.51,
     "clicks_mtd": 181,
@@ -34,42 +34,42 @@
     ]
   },
   "meta": {
-    "spend_30d": 3447.98,
-    "clicks_30d": 1166,
+    "spend_30d": 3462.97,
+    "clicks_30d": 1170,
     "crm_leads": 64,
     "crm_leads_today": 4,
     "cpc": 2.96,
-    "cpl_crm": 53.87,
-    "cost_per_hot": 1149.33,
+    "cpl_crm": 54.11,
+    "cost_per_hot": 1154.32,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1326.55,
-        "spend_today": 77.19,
+        "spend": 1330.36,
+        "spend_today": 81.0,
         "clicks": 408,
         "crm_leads": 64,
-        "cpl_crm": 20.73
+        "cpl_crm": 20.79
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1249.48,
-        "spend_today": 84.08,
-        "clicks": 446,
+        "spend": 1253.85,
+        "spend_today": 88.45,
+        "clicks": 447,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 871.95,
-        "spend_today": 73.78,
-        "clicks": 312,
+        "spend": 878.76,
+        "spend_today": 80.59,
+        "clicks": 315,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "potential_income": 667783,
-  "assigned_income": 141986,
+  "assigned_income": 125812,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 271946,
     "Initial Inspection Completed": 236053,
@@ -79,14 +79,13 @@
   "by_agent": {
     "Virginia": 68519,
     "Kentucky": 44243,
-    "Michigan": 16175,
     "Georgia": 13050
   },
   "closed_by_month": {
     "2026-01": 194741,
     "2026-02": 181515,
     "2026-03": 229362,
-    "2026-04": 86760
+    "2026-04": 102935
   },
   "roa_by_month": {
     "2026-01": {
@@ -107,7 +106,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7195.49
+      "spend": 7210.48
     }
   },
   "reps_by_month": {
@@ -217,7 +216,7 @@
         "discoveries": 27
       },
       "Julian": {
-        "leads": 21,
+        "leads": 20,
         "active": 20,
         "booked": 19,
         "offers": 19,
@@ -227,8 +226,8 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 21
+        "closed_revenue": 16174.81,
+        "discoveries": 20
       }
     }
   },
@@ -251,14 +250,16 @@
         "2026-02": {
           "counts": {
             "on_hold": 2,
-            "pending": 2,
+            "pending": 1,
             "dead": 2,
+            "closed": 1,
             "available": 2
           },
           "gp": {
             "on_hold": 88191,
-            "pending": 54825,
+            "pending": 38650,
             "dead": 54564,
+            "closed": 16175,
             "available": 34965
           },
           "total": 8
@@ -287,17 +288,17 @@
       "all_time": {
         "counts": {
           "available": 9,
-          "pending": 5,
+          "pending": 4,
           "on_hold": 2,
           "dead": 15,
-          "closed": 7
+          "closed": 8
         },
         "gp": {
           "available": 262473,
-          "pending": 141986,
+          "pending": 125812,
           "on_hold": 88191,
           "dead": 331443,
-          "closed": 140203
+          "closed": 156378
         },
         "total": 38
       },
@@ -386,15 +387,6 @@
         {
           "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
           "value": 38650,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "1827 Gilmore St, Howell, MI 48855, USA",
-          "value": 16175,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -558,7 +550,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7195.49
+    "2026-04": 7210.48
   },
   "channel_by_month": {
     "2026-01": {
@@ -606,12 +598,16 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 10,
+            "count": 9,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
             "count": 4,
             "color": "#FFD5C2"
+          },
+          "Dead": {
+            "count": 1,
+            "color": "#F3F3F3"
           },
           "Not Workable": {
             "count": 1,
@@ -728,7 +724,7 @@
     },
     "2026-04": {
       "google_spend": 3747.51,
-      "meta_spend": 3447.98,
+      "meta_spend": 3462.97,
       "ppc_leads": 21,
       "fb_leads": 64,
       "google_cpc": 20.7,
@@ -737,7 +733,7 @@
         "leads": 21,
         "active": 15,
         "booked": 11,
-        "offered": 7,
+        "offered": 8,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -747,7 +743,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 7,
+            "count": 8,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -755,7 +751,7 @@
             "color": "#FFD5C2"
           },
           "Warm": {
-            "count": 4,
+            "count": 3,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -823,10 +819,10 @@
   },
   "pipeline": {
     "new_leads_30d": 85,
-    "dispositioned_mtd": 48,
+    "dispositioned_mtd": 47,
     "hot": 3,
     "booked": 35,
-    "offers": 25,
+    "offers": 26,
     "under_contract": 1,
     "closed": 0
   },
@@ -881,7 +877,7 @@
     "leads": 21,
     "active": 15,
     "booked": 11,
-    "offered": 7,
+    "offered": 8,
     "accepted": 1,
     "under_contract": 1,
     "contract_available": 1,
@@ -891,7 +887,7 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 7,
+        "count": 8,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
@@ -899,7 +895,7 @@
         "color": "#FFD5C2"
       },
       "Warm": {
-        "count": 4,
+        "count": 3,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -924,14 +920,14 @@
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 21,
+      "discoveries": 20,
       "offers": 19,
       "contracts": 2,
-      "revenue": 0.0
+      "revenue": 16174.81
     }
   },
   "pipeline_by_agent": {
-    "Julian": 404460,
+    "Julian": 388285,
     "Charles": 376122
   },
   "agent_deals": [
@@ -1028,16 +1024,6 @@
     {
       "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
       "value": 38650,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "1827 Gilmore St, Howell, MI 48855, USA",
-      "value": 16175,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",

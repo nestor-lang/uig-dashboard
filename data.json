@@ -1,6 +1,6 @@
 {
   "report_date": "April 14, 2026",
-  "last_updated": "2026-04-14 14:00 EST",
+  "last_updated": "2026-04-14 15:00 EST",
   "google": {
     "spend_mtd": 3601.0,
     "clicks_mtd": 179,
@@ -34,46 +34,46 @@
     ]
   },
   "meta": {
-    "spend_30d": 3400.2,
-    "clicks_30d": 1149,
+    "spend_30d": 3416.44,
+    "clicks_30d": 1155,
     "crm_leads": 63,
     "crm_leads_today": 3,
     "cpc": 2.96,
-    "cpl_crm": 53.97,
-    "cost_per_hot": 1133.4,
+    "cpl_crm": 54.23,
+    "cost_per_hot": 1138.81,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1308.85,
-        "spend_today": 59.49,
-        "clicks": 404,
+        "spend": 1315.76,
+        "spend_today": 66.4,
+        "clicks": 405,
         "crm_leads": 63,
-        "cpl_crm": 20.78
+        "cpl_crm": 20.89
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1232.44,
-        "spend_today": 67.04,
-        "clicks": 436,
+        "spend": 1238.02,
+        "spend_today": 72.62,
+        "clicks": 441,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 858.91,
-        "spend_today": 60.74,
+        "spend": 862.66,
+        "spend_today": 64.49,
         "clicks": 309,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 489401,
+  "potential_income": 668158,
   "assigned_income": 141986,
   "by_stage": {
+    "Market Prep / Pre-Listing Marketing": 271946,
     "Initial Inspection Completed": 182453,
-    "On Market": 90653,
-    "Market Prep / Pre-Listing Marketing": 84446,
+    "On Market": 81910,
     "New Deal - Unscheduled": 78249,
     "Access Scheduled": 53600
   },
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7001.2
+      "spend": 7017.4400000000005
     }
   },
   "reps_by_month": {
@@ -204,8 +204,8 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 26,
-        "active": 22,
+        "leads": 27,
+        "active": 23,
         "booked": 24,
         "offers": 19,
         "accepted": 3,
@@ -215,13 +215,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 86760.0,
-        "discoveries": 26
+        "discoveries": 27
       },
       "Julian": {
         "leads": 20,
         "active": 17,
         "booked": 18,
-        "offers": 17,
+        "offers": 18,
         "accepted": 2,
         "available": 0,
         "pending": 0,
@@ -448,14 +448,14 @@
         },
         "2026-02": {
           "counts": {
-            "dead": 2,
-            "closed": 2,
+            "dead": 3,
+            "closed": 1,
             "available": 1
           },
           "gp": {
-            "dead": 40699,
-            "closed": 275160,
-            "available": 8743
+            "dead": 49442,
+            "closed": 42660,
+            "available": 187500
           },
           "total": 5
         },
@@ -485,15 +485,15 @@
       "all_time": {
         "counts": {
           "available": 6,
-          "dead": 5,
+          "dead": 6,
           "on_hold": 2,
-          "closed": 4
+          "closed": 3
         },
         "gp": {
-          "available": 197365,
-          "dead": 99984,
+          "available": 376122,
+          "dead": 108727,
           "on_hold": 99859,
-          "closed": 337776
+          "closed": 105276
         },
         "total": 17
       },
@@ -544,10 +544,10 @@
           "contract_month": "2026-03"
         },
         {
-          "address": "4805 Glenwood Dr, Acworth, GA 30101, USA",
-          "value": 8743,
+          "address": "8910 Club River Dr, Roswell, GA 30076, USA",
+          "value": 187500,
           "status": "Available",
-          "stage": "On Market",
+          "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-02"
@@ -559,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7001.2
+    "2026-04": 7017.84
   },
   "channel_by_month": {
     "2026-01": {
@@ -729,14 +729,14 @@
     },
     "2026-04": {
       "google_spend": 3601.0,
-      "meta_spend": 3400.2,
+      "meta_spend": 3416.84,
       "ppc_leads": 20,
       "fb_leads": 63,
       "google_cpc": 20.12,
       "meta_cpc": 2.96,
       "pipeline_ppc": {
         "leads": 20,
-        "active": 15,
+        "active": 14,
         "booked": 10,
         "offered": 7,
         "accepted": 1,
@@ -775,9 +775,9 @@
       },
       "pipeline_fb": {
         "leads": 63,
-        "active": 56,
+        "active": 54,
         "booked": 24,
-        "offered": 16,
+        "offered": 17,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -787,28 +787,28 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 31,
+            "count": 28,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 18,
+            "count": 20,
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 5,
+            "count": 4,
             "color": "#F7F0C5"
           },
           "Dead": {
-            "count": 3,
+            "count": 4,
             "color": "#F3F3F3"
+          },
+          "Wrong Number": {
+            "count": 3,
+            "color": "#DCEBD8"
           },
           "Hot": {
             "count": 2,
             "color": "#F7D1D0"
-          },
-          "Wrong Number": {
-            "count": 2,
-            "color": "#DCEBD8"
           },
           "Listed": {
             "count": 1,
@@ -824,18 +824,18 @@
   },
   "pipeline": {
     "new_leads_30d": 83,
-    "dispositioned_mtd": 46,
+    "dispositioned_mtd": 47,
     "hot": 3,
     "booked": 34,
-    "offers": 23,
+    "offers": 24,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 63,
-    "active": 56,
+    "active": 54,
     "booked": 24,
-    "offered": 16,
+    "offered": 17,
     "accepted": 0,
     "under_contract": 0,
     "contract_available": 0,
@@ -845,28 +845,28 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 31,
+        "count": 28,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 18,
+        "count": 20,
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 5,
+        "count": 4,
         "color": "#F7F0C5"
       },
       "Dead": {
-        "count": 3,
+        "count": 4,
         "color": "#F3F3F3"
+      },
+      "Wrong Number": {
+        "count": 3,
+        "color": "#DCEBD8"
       },
       "Hot": {
         "count": 2,
         "color": "#F7D1D0"
-      },
-      "Wrong Number": {
-        "count": 2,
-        "color": "#DCEBD8"
       },
       "Listed": {
         "count": 1,
@@ -880,7 +880,7 @@
   },
   "pipeline_ppc": {
     "leads": 20,
-    "active": 15,
+    "active": 14,
     "booked": 10,
     "offered": 7,
     "accepted": 1,
@@ -919,21 +919,21 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 26,
+      "discoveries": 27,
       "offers": 19,
       "contracts": 3,
       "revenue": 86760.0
     },
     "Julian": {
       "discoveries": 20,
-      "offers": 17,
+      "offers": 18,
       "contracts": 2,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
     "Julian": 404835,
-    "Charles": 197365
+    "Charles": 376122
   },
   "agent_deals": [
     {
@@ -1127,10 +1127,10 @@
       "agent": "Charles"
     },
     {
-      "address": "4805 Glenwood Dr, Acworth, GA 30101, USA",
-      "value": 8743,
+      "address": "8910 Club River Dr, Roswell, GA 30076, USA",
+      "value": 187500,
       "status": "Available",
-      "stage": "On Market",
+      "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-02",

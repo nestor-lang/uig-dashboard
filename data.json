@@ -1,6 +1,6 @@
 {
   "report_date": "April 15, 2026",
-  "last_updated": "2026-04-15 05:43 EST",
+  "last_updated": "2026-04-15 06:00 EST",
   "google": {
     "spend_mtd": 3799.46,
     "clicks_mtd": 182,
@@ -34,34 +34,34 @@
     ]
   },
   "meta": {
-    "spend_30d": 3592.75,
+    "spend_30d": 3595.59,
     "clicks_30d": 1230,
     "crm_leads": 67,
-    "crm_leads_today": 2,
+    "crm_leads_today": 3,
     "cpc": 2.92,
-    "cpl_crm": 53.62,
-    "cost_per_hot": 1796.38,
+    "cpl_crm": 53.67,
+    "cost_per_hot": 1797.8,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1370.05,
-        "spend_today": 10.39,
+        "spend": 1370.36,
+        "spend_today": 10.7,
         "clicks": 421,
         "crm_leads": 67,
         "cpl_crm": 20.45
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1299.13,
-        "spend_today": 21.32,
+        "spend": 1299.75,
+        "spend_today": 21.71,
         "clicks": 474,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 923.57,
-        "spend_today": 17.44,
+        "spend": 925.48,
+        "spend_today": 19.35,
         "clicks": 335,
         "crm_leads": 0,
         "cpl_crm": null
@@ -106,7 +106,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7354.1900000000005
+      "spend": 7395.05
     }
   },
   "reps_by_month": {
@@ -172,7 +172,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 34,
         "active": 11,
         "booked": 21,
         "offers": 24,
@@ -183,10 +183,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 43,
+        "leads": 42,
         "active": 11,
         "booked": 29,
         "offers": 41,
@@ -197,13 +197,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 43
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
         "leads": 28,
-        "active": 25,
+        "active": 26,
         "booked": 26,
         "offers": 19,
         "accepted": 3,
@@ -559,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7392.21
+    "2026-04": 7395.05
   },
   "channel_by_month": {
     "2026-01": {
@@ -733,7 +733,7 @@
     },
     "2026-04": {
       "google_spend": 3799.46,
-      "meta_spend": 3592.75,
+      "meta_spend": 3595.59,
       "ppc_leads": 22,
       "fb_leads": 67,
       "google_cpc": 20.88,
@@ -779,7 +779,7 @@
       },
       "pipeline_fb": {
         "leads": 67,
-        "active": 58,
+        "active": 59,
         "booked": 25,
         "offered": 18,
         "accepted": 1,
@@ -791,7 +791,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 31,
+            "count": 32,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -803,7 +803,7 @@
             "color": "#F7F0C5"
           },
           "Dead": {
-            "count": 4,
+            "count": 3,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
@@ -841,7 +841,7 @@
   },
   "pipeline_fb": {
     "leads": 67,
-    "active": 58,
+    "active": 59,
     "booked": 25,
     "offered": 18,
     "accepted": 1,
@@ -853,7 +853,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 31,
+        "count": 32,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -865,7 +865,7 @@
         "color": "#F7F0C5"
       },
       "Dead": {
-        "count": 4,
+        "count": 3,
         "color": "#F3F3F3"
       },
       "Wrong Number": {
@@ -1152,7 +1152,7 @@
   "sources": {
     "ppc": 22,
     "facebook": 67,
-    "ppc_inbound_call": 14
+    "ppc_inbound_call": 15
   },
   "hot_leads": [
     {

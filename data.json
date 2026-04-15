@@ -1,6 +1,6 @@
 {
   "report_date": "April 15, 2026",
-  "last_updated": "2026-04-15 17:00 EST",
+  "last_updated": "2026-04-15 18:00 EST",
   "google": {
     "spend_mtd": 3811.8,
     "clicks_mtd": 183,
@@ -34,51 +34,51 @@
     ]
   },
   "meta": {
-    "spend_30d": 3783.25,
-    "clicks_30d": 1288,
+    "spend_30d": 3796.3,
+    "clicks_30d": 1294,
     "crm_leads": 69,
     "crm_leads_today": 6,
-    "cpc": 2.94,
-    "cpl_crm": 54.83,
-    "cost_per_hot": 3783.25,
+    "cpc": 2.93,
+    "cpl_crm": 55.02,
+    "cost_per_hot": 1898.15,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1432.1,
-        "spend_today": 71.28,
+        "spend": 1435.82,
+        "spend_today": 75.0,
         "clicks": 444,
         "crm_leads": 69,
-        "cpl_crm": 20.76
+        "cpl_crm": 20.81
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1363.29,
-        "spend_today": 84.98,
-        "clicks": 492,
+        "spend": 1368.54,
+        "spend_today": 90.23,
+        "clicks": 496,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 987.86,
-        "spend_today": 81.48,
-        "clicks": 352,
+        "spend": 991.94,
+        "spend_today": 85.56,
+        "clicks": 354,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "potential_income": 696513,
-  "assigned_income": 108195,
+  "assigned_income": 108010,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 326423,
-    "Initial Inspection Completed": 198894,
+    "Market Prep / Pre-Listing Marketing": 365162,
+    "Initial Inspection Completed": 160155,
     "New Deal - Unscheduled": 118849,
     "On Market": 52347
   },
   "by_agent": {
     "Virginia": 68519,
-    "Alabama": 26626,
+    "Alabama": 26441,
     "Georgia": 13050
   },
   "closed_by_month": {
@@ -106,7 +106,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7595.05
+      "spend": 7608.1
     }
   },
   "reps_by_month": {
@@ -202,7 +202,7 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 29,
+        "leads": 28,
         "active": 27,
         "booked": 27,
         "offers": 20,
@@ -213,12 +213,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 86760.0,
-        "discoveries": 29
+        "discoveries": 28
       },
       "Julian": {
-        "leads": 23,
+        "leads": 24,
         "active": 25,
-        "booked": 25,
+        "booked": 26,
         "offers": 21,
         "accepted": 3,
         "available": 1,
@@ -227,7 +227,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 16174.81,
-        "discoveries": 23
+        "discoveries": 24
       }
     }
   },
@@ -513,8 +513,8 @@
           "address": "100 Winslow Ct, McDonough, GA 30253, USA",
           "value": 38739,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
         },
@@ -552,7 +552,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7595.05
+    "2026-04": 7608.1
   },
   "channel_by_month": {
     "2026-01": {
@@ -722,11 +722,11 @@
     },
     "2026-04": {
       "google_spend": 3811.8,
-      "meta_spend": 3783.25,
+      "meta_spend": 3796.3,
       "ppc_leads": 22,
       "fb_leads": 69,
       "google_cpc": 20.83,
-      "meta_cpc": 2.94,
+      "meta_cpc": 2.93,
       "pipeline_ppc": {
         "leads": 22,
         "active": 16,
@@ -769,7 +769,7 @@
       "pipeline_fb": {
         "leads": 69,
         "active": 59,
-        "booked": 29,
+        "booked": 30,
         "offered": 21,
         "accepted": 1,
         "under_contract": 1,
@@ -780,28 +780,28 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 29,
+            "count": 28,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 21,
+            "count": 20,
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 8,
+            "count": 9,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
           },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
+          },
           "Dead": {
             "count": 2,
             "color": "#F3F3F3"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 1,
@@ -822,8 +822,8 @@
   "pipeline": {
     "new_leads_30d": 91,
     "dispositioned_mtd": 52,
-    "hot": 1,
-    "booked": 40,
+    "hot": 2,
+    "booked": 41,
     "offers": 29,
     "under_contract": 2,
     "closed": 0
@@ -831,7 +831,7 @@
   "pipeline_fb": {
     "leads": 69,
     "active": 59,
-    "booked": 29,
+    "booked": 30,
     "offered": 21,
     "accepted": 1,
     "under_contract": 1,
@@ -842,28 +842,28 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 29,
+        "count": 28,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 21,
+        "count": 20,
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 8,
+        "count": 9,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 5,
         "color": "#DCEBD8"
       },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
+      },
       "Dead": {
         "count": 2,
         "color": "#F3F3F3"
-      },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
       },
       "Under Contract": {
         "count": 1,
@@ -920,13 +920,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 29,
+      "discoveries": 28,
       "offers": 20,
       "contracts": 3,
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 23,
+      "discoveries": 24,
       "offers": 21,
       "contracts": 3,
       "revenue": 16174.81
@@ -1091,8 +1091,8 @@
       "address": "100 Winslow Ct, McDonough, GA 30253, USA",
       "value": 38739,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Charles"
@@ -1138,6 +1138,12 @@
       "name": "1643 Bagpipe Pl",
       "address": "1643 Bagpipe Pl, Conley, GA 30288, USA",
       "phone": "(404) 234-0738",
+      "source": "Facebook"
+    },
+    {
+      "name": "509 Ave D",
+      "address": "509 Ave D, Rochester, NY 14621, USA",
+      "phone": "(585) 957-6465",
       "source": "Facebook"
     }
   ],

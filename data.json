@@ -1,6 +1,6 @@
 {
   "report_date": "April 15, 2026",
-  "last_updated": "2026-04-15 11:00 EST",
+  "last_updated": "2026-04-15 12:00 EST",
   "google": {
     "spend_mtd": 3799.46,
     "clicks_mtd": 182,
@@ -34,51 +34,50 @@
     ]
   },
   "meta": {
-    "spend_30d": 3685.35,
-    "clicks_30d": 1260,
+    "spend_30d": 3703.14,
+    "clicks_30d": 1263,
     "crm_leads": 68,
     "crm_leads_today": 5,
-    "cpc": 2.92,
-    "cpl_crm": 54.2,
-    "cost_per_hot": 1842.67,
+    "cpc": 2.93,
+    "cpl_crm": 54.46,
+    "cost_per_hot": 1851.57,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1399.87,
-        "spend_today": 39.05,
+        "spend": 1406.97,
+        "spend_today": 46.15,
         "clicks": 435,
         "crm_leads": 68,
-        "cpl_crm": 20.59
+        "cpl_crm": 20.69
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1332.05,
-        "spend_today": 53.74,
-        "clicks": 483,
+        "spend": 1336.78,
+        "spend_today": 58.47,
+        "clicks": 485,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 953.43,
-        "spend_today": 47.05,
-        "clicks": 342,
+        "spend": 959.39,
+        "spend_today": 53.01,
+        "clicks": 343,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 708383,
-  "assigned_income": 125736,
+  "potential_income": 752550,
+  "assigned_income": 81569,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 271946,
+    "Market Prep / Pre-Listing Marketing": 316113,
     "Initial Inspection Completed": 236053,
     "New Deal - Unscheduled": 118849,
     "On Market": 81535
   },
   "by_agent": {
     "Virginia": 68519,
-    "Kentucky": 44167,
     "Georgia": 13050
   },
   "closed_by_month": {
@@ -106,7 +105,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7484.8099999999995
+      "spend": 7502.6
     }
   },
   "reps_by_month": {
@@ -175,7 +174,7 @@
         "leads": 33,
         "active": 11,
         "booked": 21,
-        "offers": 24,
+        "offers": 25,
         "accepted": 5,
         "available": 4,
         "pending": 0,
@@ -266,12 +265,12 @@
         },
         "2026-03": {
           "counts": {
-            "available": 4,
-            "pending": 3
+            "available": 5,
+            "pending": 2
           },
           "gp": {
-            "available": 127239,
-            "pending": 87086
+            "available": 171406,
+            "pending": 42919
           },
           "total": 7
         },
@@ -287,15 +286,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 10,
-          "pending": 4,
+          "available": 11,
+          "pending": 3,
           "on_hold": 2,
           "dead": 15,
           "closed": 8
         },
         "gp": {
-          "available": 303073,
-          "pending": 125736,
+          "available": 347240,
+          "pending": 81569,
           "on_hold": 88191,
           "dead": 331443,
           "closed": 156378
@@ -351,7 +350,7 @@
         {
           "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
           "value": 44167,
-          "status": "Sent to Title",
+          "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -559,7 +558,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7484.81
+    "2026-04": 7502.6
   },
   "channel_by_month": {
     "2026-01": {
@@ -733,11 +732,11 @@
     },
     "2026-04": {
       "google_spend": 3799.46,
-      "meta_spend": 3685.35,
+      "meta_spend": 3703.14,
       "ppc_leads": 22,
       "fb_leads": 68,
       "google_cpc": 20.88,
-      "meta_cpc": 2.92,
+      "meta_cpc": 2.93,
       "pipeline_ppc": {
         "leads": 22,
         "active": 16,
@@ -1001,7 +1000,7 @@
     {
       "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
       "value": 44167,
-      "status": "Sent to Title",
+      "status": "Available",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,

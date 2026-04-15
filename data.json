@@ -1,13 +1,13 @@
 {
   "report_date": "April 15, 2026",
-  "last_updated": "2026-04-15 16:00 EST",
+  "last_updated": "2026-04-15 17:00 EST",
   "google": {
-    "spend_mtd": 3799.46,
-    "clicks_mtd": 182,
+    "spend_mtd": 3811.8,
+    "clicks_mtd": 183,
     "crm_leads": 22,
     "crm_leads_today": 0,
-    "cpc": 20.88,
-    "cpl": 172.7,
+    "cpc": 20.83,
+    "cpl": 173.26,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,58 +20,58 @@
         "clicks": 91,
         "cpc": 1.39,
         "crm_leads": 0,
-        "cpl": 172.7
+        "cpl": 173.26
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3673.25,
-        "spend_today": 51.95,
-        "clicks": 91,
-        "cpc": 40.37,
+        "spend": 3685.59,
+        "spend_today": 64.29,
+        "clicks": 92,
+        "cpc": 40.06,
         "crm_leads": 0,
-        "cpl": 172.7
+        "cpl": 173.26
       }
     ]
   },
   "meta": {
-    "spend_30d": 3770.94,
-    "clicks_30d": 1285,
-    "crm_leads": 68,
-    "crm_leads_today": 5,
-    "cpc": 2.93,
-    "cpl_crm": 55.45,
-    "cost_per_hot": 3770.94,
+    "spend_30d": 3783.25,
+    "clicks_30d": 1288,
+    "crm_leads": 69,
+    "crm_leads_today": 6,
+    "cpc": 2.94,
+    "cpl_crm": 54.83,
+    "cost_per_hot": 3783.25,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1430.65,
-        "spend_today": 69.83,
-        "clicks": 443,
-        "crm_leads": 68,
-        "cpl_crm": 21.04
+        "spend": 1432.1,
+        "spend_today": 71.28,
+        "clicks": 444,
+        "crm_leads": 69,
+        "cpl_crm": 20.76
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1358.43,
-        "spend_today": 80.12,
+        "spend": 1363.29,
+        "spend_today": 84.98,
         "clicks": 492,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 981.86,
-        "spend_today": 75.48,
-        "clicks": 350,
+        "spend": 987.86,
+        "spend_today": 81.48,
+        "clicks": 352,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 711137,
+  "potential_income": 696513,
   "assigned_income": 108195,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 341047,
+    "Market Prep / Pre-Listing Marketing": 326423,
     "Initial Inspection Completed": 198894,
     "New Deal - Unscheduled": 118849,
     "On Market": 52347
@@ -106,7 +106,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7570.4
+      "spend": 7595.05
     }
   },
   "reps_by_month": {
@@ -172,7 +172,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 32,
         "active": 11,
         "booked": 21,
         "offers": 25,
@@ -183,10 +183,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 43,
+        "leads": 44,
         "active": 10,
         "booked": 28,
         "offers": 41,
@@ -197,15 +197,15 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 43
+        "discoveries": 44
       }
     },
     "2026-04": {
       "Charles": {
         "leads": 29,
-        "active": 26,
+        "active": 27,
         "booked": 27,
-        "offers": 19,
+        "offers": 20,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -216,9 +216,9 @@
         "discoveries": 29
       },
       "Julian": {
-        "leads": 22,
-        "active": 22,
-        "booked": 24,
+        "leads": 23,
+        "active": 25,
+        "booked": 25,
         "offers": 21,
         "accepted": 3,
         "available": 1,
@@ -227,7 +227,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 16174.81,
-        "discoveries": 22
+        "discoveries": 23
       }
     }
   },
@@ -271,7 +271,7 @@
             "on_hold": 1
           },
           "gp": {
-            "available": 146606,
+            "available": 131982,
             "pending": 42919,
             "on_hold": 10000
           },
@@ -296,7 +296,7 @@
           "closed": 8
         },
         "gp": {
-          "available": 331815,
+          "available": 317191,
           "pending": 81569,
           "on_hold": 98191,
           "dead": 331443,
@@ -334,7 +334,7 @@
         },
         {
           "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-          "value": 23233,
+          "value": 8609,
           "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
@@ -552,7 +552,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7570.4
+    "2026-04": 7595.05
   },
   "channel_by_month": {
     "2026-01": {
@@ -721,12 +721,12 @@
       }
     },
     "2026-04": {
-      "google_spend": 3799.46,
-      "meta_spend": 3770.94,
+      "google_spend": 3811.8,
+      "meta_spend": 3783.25,
       "ppc_leads": 22,
-      "fb_leads": 68,
-      "google_cpc": 20.88,
-      "meta_cpc": 2.93,
+      "fb_leads": 69,
+      "google_cpc": 20.83,
+      "meta_cpc": 2.94,
       "pipeline_ppc": {
         "leads": 22,
         "active": 16,
@@ -767,10 +767,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 68,
-        "active": 60,
-        "booked": 28,
-        "offered": 20,
+        "leads": 69,
+        "active": 59,
+        "booked": 29,
+        "offered": 21,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -780,11 +780,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 30,
+            "count": 29,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 20,
+            "count": 21,
             "color": "#D2E4EB"
           },
           "Warm": {
@@ -794,6 +794,10 @@
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
+          },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
           },
           "Hot": {
             "count": 1,
@@ -810,29 +814,25 @@
           "Owes too Much": {
             "count": 1,
             "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           }
         }
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 90,
-    "dispositioned_mtd": 51,
+    "new_leads_30d": 91,
+    "dispositioned_mtd": 52,
     "hot": 1,
-    "booked": 39,
-    "offers": 28,
+    "booked": 40,
+    "offers": 29,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 68,
-    "active": 60,
-    "booked": 28,
-    "offered": 20,
+    "leads": 69,
+    "active": 59,
+    "booked": 29,
+    "offered": 21,
     "accepted": 1,
     "under_contract": 1,
     "contract_available": 1,
@@ -842,11 +842,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 30,
+        "count": 29,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 20,
+        "count": 21,
         "color": "#D2E4EB"
       },
       "Warm": {
@@ -856,6 +856,10 @@
       "Wrong Number": {
         "count": 5,
         "color": "#DCEBD8"
+      },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
       },
       "Hot": {
         "count": 1,
@@ -872,10 +876,6 @@
       "Owes too Much": {
         "count": 1,
         "color": "#D1F3EC"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
       }
     }
   },
@@ -921,19 +921,19 @@
   "reps": {
     "Charles": {
       "discoveries": 29,
-      "offers": 19,
+      "offers": 20,
       "contracts": 3,
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 22,
+      "discoveries": 23,
       "offers": 21,
       "contracts": 3,
       "revenue": 16174.81
     }
   },
   "pipeline_by_agent": {
-    "Julian": 413384,
+    "Julian": 398760,
     "Charles": 379322
   },
   "agent_deals": [
@@ -969,7 +969,7 @@
     },
     {
       "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-      "value": 23233,
+      "value": 8609,
       "status": "Available",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
@@ -1130,7 +1130,7 @@
   ],
   "sources": {
     "ppc": 22,
-    "facebook": 68,
+    "facebook": 69,
     "ppc_inbound_call": 15
   },
   "hot_leads": [

@@ -1,6 +1,6 @@
 {
   "report_date": "April 15, 2026",
-  "last_updated": "2026-04-15 09:00 EST",
+  "last_updated": "2026-04-15 10:00 EST",
   "google": {
     "spend_mtd": 3799.46,
     "clicks_mtd": 182,
@@ -34,35 +34,35 @@
     ]
   },
   "meta": {
-    "spend_30d": 3651.36,
-    "clicks_30d": 1252,
+    "spend_30d": 3667.32,
+    "clicks_30d": 1258,
     "crm_leads": 68,
     "crm_leads_today": 5,
     "cpc": 2.92,
-    "cpl_crm": 53.7,
-    "cost_per_hot": 1825.68,
+    "cpl_crm": 53.93,
+    "cost_per_hot": 1833.66,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1389.4,
-        "spend_today": 29.66,
-        "clicks": 431,
+        "spend": 1395.56,
+        "spend_today": 34.74,
+        "clicks": 434,
         "crm_leads": 68,
-        "cpl_crm": 20.43
+        "cpl_crm": 20.52
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1319.05,
-        "spend_today": 40.93,
+        "spend": 1324.95,
+        "spend_today": 46.83,
         "clicks": 483,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 942.91,
-        "spend_today": 36.78,
-        "clicks": 338,
+        "spend": 946.81,
+        "spend_today": 40.68,
+        "clicks": 341,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -106,7 +106,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7450.82
+      "spend": 7466.780000000001
     }
   },
   "reps_by_month": {
@@ -172,7 +172,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 34,
         "active": 11,
         "booked": 21,
         "offers": 24,
@@ -183,10 +183,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 43,
+        "leads": 42,
         "active": 11,
         "booked": 29,
         "offers": 41,
@@ -197,7 +197,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 43
+        "discoveries": 42
       }
     },
     "2026-04": {
@@ -559,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7450.82
+    "2026-04": 7466.78
   },
   "channel_by_month": {
     "2026-01": {
@@ -733,7 +733,7 @@
     },
     "2026-04": {
       "google_spend": 3799.46,
-      "meta_spend": 3651.36,
+      "meta_spend": 3667.32,
       "ppc_leads": 22,
       "fb_leads": 68,
       "google_cpc": 20.88,
@@ -779,7 +779,7 @@
       },
       "pipeline_fb": {
         "leads": 68,
-        "active": 62,
+        "active": 60,
         "booked": 25,
         "offered": 18,
         "accepted": 1,
@@ -791,20 +791,20 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 35,
+            "count": 33,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 20,
             "color": "#D2E4EB"
           },
+          "Wrong Number": {
+            "count": 5,
+            "color": "#DCEBD8"
+          },
           "Warm": {
             "count": 5,
             "color": "#F7F0C5"
-          },
-          "Wrong Number": {
-            "count": 3,
-            "color": "#DCEBD8"
           },
           "Hot": {
             "count": 1,
@@ -841,7 +841,7 @@
   },
   "pipeline_fb": {
     "leads": 68,
-    "active": 62,
+    "active": 60,
     "booked": 25,
     "offered": 18,
     "accepted": 1,
@@ -853,20 +853,20 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 35,
+        "count": 33,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 20,
         "color": "#D2E4EB"
       },
+      "Wrong Number": {
+        "count": 5,
+        "color": "#DCEBD8"
+      },
       "Warm": {
         "count": 5,
         "color": "#F7F0C5"
-      },
-      "Wrong Number": {
-        "count": 3,
-        "color": "#DCEBD8"
       },
       "Hot": {
         "count": 1,

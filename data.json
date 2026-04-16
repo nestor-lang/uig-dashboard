@@ -1,13 +1,13 @@
 {
   "report_date": "April 15, 2026",
-  "last_updated": "2026-04-15 19:00 EST",
+  "last_updated": "2026-04-15 20:00 EST",
   "google": {
-    "spend_mtd": 3821.58,
-    "clicks_mtd": 184,
-    "crm_leads": 22,
-    "crm_leads_today": 0,
-    "cpc": 20.77,
-    "cpl": 173.71,
+    "spend_mtd": 3862.92,
+    "clicks_mtd": 185,
+    "crm_leads": 23,
+    "crm_leads_today": 1,
+    "cpc": 20.88,
+    "cpl": 167.95,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,49 +20,49 @@
         "clicks": 91,
         "cpc": 1.39,
         "crm_leads": 0,
-        "cpl": 173.71
+        "cpl": 167.95
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3695.37,
-        "spend_today": 74.07,
-        "clicks": 93,
-        "cpc": 39.74,
+        "spend": 3736.71,
+        "spend_today": 115.41,
+        "clicks": 94,
+        "cpc": 39.75,
         "crm_leads": 0,
-        "cpl": 173.71
+        "cpl": 167.95
       }
     ]
   },
   "meta": {
-    "spend_30d": 3815.72,
-    "clicks_30d": 1302,
+    "spend_30d": 3839.74,
+    "clicks_30d": 1306,
     "crm_leads": 70,
     "crm_leads_today": 7,
-    "cpc": 2.93,
-    "cpl_crm": 54.51,
-    "cost_per_hot": 1907.86,
+    "cpc": 2.94,
+    "cpl_crm": 54.85,
+    "cost_per_hot": 1919.87,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1438.29,
-        "spend_today": 77.47,
-        "clicks": 445,
+        "spend": 1443.64,
+        "spend_today": 82.82,
+        "clicks": 447,
         "crm_leads": 70,
-        "cpl_crm": 20.55
+        "cpl_crm": 20.62
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1377.22,
-        "spend_today": 98.91,
-        "clicks": 501,
+        "spend": 1385.46,
+        "spend_today": 107.15,
+        "clicks": 502,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1000.21,
-        "spend_today": 93.83,
-        "clicks": 356,
+        "spend": 1010.64,
+        "spend_today": 104.26,
+        "clicks": 357,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -107,7 +107,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7637.299999999999
+      "spend": 7702.66
     }
   },
   "reps_by_month": {
@@ -268,14 +268,12 @@
         "2026-03": {
           "counts": {
             "available": 3,
-            "other": 1,
-            "pending": 2,
+            "pending": 3,
             "on_hold": 1
           },
           "gp": {
             "available": 87815,
-            "other": 39422,
-            "pending": 42919,
+            "pending": 82341,
             "on_hold": 10000
           },
           "total": 7
@@ -293,16 +291,14 @@
       "all_time": {
         "counts": {
           "available": 9,
-          "other": 1,
-          "pending": 3,
+          "pending": 4,
           "on_hold": 3,
           "dead": 15,
           "closed": 8
         },
         "gp": {
           "available": 273024,
-          "other": 39422,
-          "pending": 81569,
+          "pending": 120991,
           "on_hold": 98191,
           "dead": 331443,
           "closed": 156378
@@ -352,6 +348,15 @@
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
+          "value": 39422,
+          "status": "Sent to Title",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-03"
         },
@@ -557,7 +562,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7637.3
+    "2026-04": 7702.66
   },
   "channel_by_month": {
     "2026-01": {
@@ -726,15 +731,15 @@
       }
     },
     "2026-04": {
-      "google_spend": 3821.58,
-      "meta_spend": 3815.72,
-      "ppc_leads": 22,
+      "google_spend": 3862.92,
+      "meta_spend": 3839.74,
+      "ppc_leads": 23,
       "fb_leads": 70,
-      "google_cpc": 20.77,
-      "meta_cpc": 2.93,
+      "google_cpc": 20.88,
+      "meta_cpc": 2.94,
       "pipeline_ppc": {
-        "leads": 22,
-        "active": 16,
+        "leads": 23,
+        "active": 17,
         "booked": 11,
         "offered": 8,
         "accepted": 1,
@@ -750,7 +755,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 6,
+            "count": 7,
             "color": "#FFD5C2"
           },
           "Warm": {
@@ -825,7 +830,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 92,
+    "new_leads_30d": 93,
     "dispositioned_mtd": 52,
     "hot": 2,
     "booked": 41,
@@ -885,8 +890,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 22,
-    "active": 16,
+    "leads": 23,
+    "active": 17,
     "booked": 11,
     "offered": 8,
     "accepted": 1,
@@ -902,7 +907,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 6,
+        "count": 7,
         "color": "#FFD5C2"
       },
       "Warm": {
@@ -938,7 +943,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 354593,
+    "Julian": 394015,
     "Charles": 184322
   },
   "agent_deals": [
@@ -988,6 +993,16 @@
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Julian"
+    },
+    {
+      "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
+      "value": 39422,
+      "status": "Sent to Title",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-03",
       "agent": "Julian"
@@ -1134,7 +1149,7 @@
     }
   ],
   "sources": {
-    "ppc": 22,
+    "ppc": 23,
     "facebook": 70,
     "ppc_inbound_call": 15
   },

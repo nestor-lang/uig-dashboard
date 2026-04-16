@@ -1,13 +1,13 @@
 {
   "report_date": "April 16, 2026",
-  "last_updated": "2026-04-16 13:00 EST",
+  "last_updated": "2026-04-16 14:00 EST",
   "google": {
-    "spend_mtd": 4259.58,
-    "clicks_mtd": 192,
-    "crm_leads": 26,
-    "crm_leads_today": 3,
-    "cpc": 22.19,
-    "cpl": 163.83,
+    "spend_mtd": 4166.94,
+    "clicks_mtd": 190,
+    "crm_leads": 27,
+    "crm_leads_today": 4,
+    "cpc": 21.93,
+    "cpl": 154.33,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,58 +20,58 @@
         "clicks": 91,
         "cpc": 1.39,
         "crm_leads": 0,
-        "cpl": 163.83
+        "cpl": 154.33
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4133.37,
-        "spend_today": 387.78,
-        "clicks": 101,
-        "cpc": 40.92,
+        "spend": 4040.74,
+        "spend_today": 295.15,
+        "clicks": 99,
+        "cpc": 40.82,
         "crm_leads": 0,
-        "cpl": 163.83
+        "cpl": 154.33
       }
     ]
   },
   "meta": {
-    "spend_30d": 4069.39,
-    "clicks_30d": 1387,
+    "spend_30d": 4083.4,
+    "clicks_30d": 1396,
     "crm_leads": 73,
     "crm_leads_today": 1,
     "cpc": 2.93,
-    "cpl_crm": 55.75,
-    "cost_per_hot": 1356.46,
+    "cpl_crm": 55.94,
+    "cost_per_hot": 1361.13,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1517.78,
-        "spend_today": 49.74,
-        "clicks": 469,
+        "spend": 1522.25,
+        "spend_today": 54.2,
+        "clicks": 473,
         "crm_leads": 73,
-        "cpl_crm": 20.79
+        "cpl_crm": 20.85
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1469.3,
-        "spend_today": 53.89,
-        "clicks": 527,
+        "spend": 1472.69,
+        "spend_today": 57.37,
+        "clicks": 531,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1082.31,
-        "spend_today": 49.93,
-        "clicks": 391,
+        "spend": 1088.46,
+        "spend_today": 56.08,
+        "clicks": 392,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 682345,
-  "assigned_income": 147432,
+  "potential_income": 675219,
+  "assigned_income": 154558,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 310995,
+    "Market Prep / Pre-Listing Marketing": 303869,
     "Initial Inspection Completed": 160155,
     "New Deal - Unscheduled": 158848,
     "On Market": 52347
@@ -80,7 +80,8 @@
     "Virginia": 68519,
     "Kentucky": 39422,
     "Alabama": 26441,
-    "Georgia": 13050
+    "Georgia": 13050,
+    "Maryland": 7126
   },
   "closed_by_month": {
     "2026-01": 194741,
@@ -107,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8328.97
+      "spend": 8249.55
     }
   },
   "reps_by_month": {
@@ -173,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 11,
         "booked": 21,
         "offers": 25,
@@ -184,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 42,
+        "leads": 44,
         "active": 10,
         "booked": 28,
         "offers": 41,
@@ -198,7 +199,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 44
       }
     },
     "2026-04": {
@@ -217,9 +218,9 @@
         "discoveries": 30
       },
       "Julian": {
-        "leads": 24,
-        "active": 28,
-        "booked": 27,
+        "leads": 25,
+        "active": 29,
+        "booked": 28,
         "offers": 23,
         "accepted": 3,
         "available": 1,
@@ -228,7 +229,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 16174.81,
-        "discoveries": 24
+        "discoveries": 25
       }
     }
   },
@@ -455,13 +456,15 @@
         },
         "2026-03": {
           "counts": {
-            "available": 2,
+            "available": 1,
             "dead": 2,
+            "pending": 1,
             "on_hold": 1
           },
           "gp": {
-            "available": 34475,
+            "available": 27349,
             "dead": 47000,
+            "pending": 7126,
             "on_hold": 50200
           },
           "total": 5
@@ -478,14 +481,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 6,
           "dead": 6,
+          "pending": 1,
           "on_hold": 2,
           "closed": 3
         },
         "gp": {
-          "available": 409321,
+          "available": 402195,
           "dead": 108727,
+          "pending": 7126,
           "on_hold": 99859,
           "closed": 105276
         },
@@ -540,7 +545,7 @@
         {
           "address": "2116 Bank St, Baltimore, MD 21231, USA",
           "value": 7126,
-          "status": "Available",
+          "status": "Sent to Title",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -562,7 +567,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 8328.97
+    "2026-04": 8250.45
   },
   "channel_by_month": {
     "2026-01": {
@@ -731,16 +736,16 @@
       }
     },
     "2026-04": {
-      "google_spend": 4259.58,
-      "meta_spend": 4069.39,
-      "ppc_leads": 26,
+      "google_spend": 4166.94,
+      "meta_spend": 4083.51,
+      "ppc_leads": 27,
       "fb_leads": 73,
-      "google_cpc": 22.19,
+      "google_cpc": 21.93,
       "meta_cpc": 2.93,
       "pipeline_ppc": {
-        "leads": 26,
-        "active": 20,
-        "booked": 11,
+        "leads": 27,
+        "active": 21,
+        "booked": 12,
         "offered": 8,
         "accepted": 1,
         "under_contract": 1,
@@ -759,7 +764,7 @@
             "color": "#FFD5C2"
           },
           "Warm": {
-            "count": 2,
+            "count": 3,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -830,10 +835,10 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 99,
-    "dispositioned_mtd": 54,
+    "new_leads_30d": 100,
+    "dispositioned_mtd": 55,
     "hot": 3,
-    "booked": 42,
+    "booked": 43,
     "offers": 31,
     "under_contract": 2,
     "closed": 0
@@ -890,9 +895,9 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 26,
-    "active": 20,
-    "booked": 11,
+    "leads": 27,
+    "active": 21,
+    "booked": 12,
     "offered": 8,
     "accepted": 1,
     "under_contract": 1,
@@ -911,7 +916,7 @@
         "color": "#FFD5C2"
       },
       "Warm": {
-        "count": 2,
+        "count": 3,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -936,7 +941,7 @@
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 24,
+      "discoveries": 25,
       "offers": 23,
       "contracts": 3,
       "revenue": 16174.81
@@ -1130,7 +1135,7 @@
     {
       "address": "2116 Bank St, Baltimore, MD 21231, USA",
       "value": 7126,
-      "status": "Available",
+      "status": "Sent to Title",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
@@ -1149,7 +1154,7 @@
     }
   ],
   "sources": {
-    "ppc": 26,
+    "ppc": 27,
     "facebook": 73,
     "ppc_inbound_call": 17
   },

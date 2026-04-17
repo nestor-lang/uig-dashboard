@@ -1,6 +1,6 @@
 {
   "report_date": "April 16, 2026",
-  "last_updated": "2026-04-16 19:01 EST",
+  "last_updated": "2026-04-16 20:00 EST",
   "google": {
     "spend_mtd": 4216.32,
     "clicks_mtd": 191,
@@ -34,34 +34,34 @@
     ]
   },
   "meta": {
-    "spend_30d": 4153.07,
-    "clicks_30d": 1431,
+    "spend_30d": 4171.82,
+    "clicks_30d": 1437,
     "crm_leads": 76,
     "crm_leads_today": 4,
     "cpc": 2.9,
-    "cpl_crm": 54.65,
-    "cost_per_hot": 1384.36,
+    "cpl_crm": 54.89,
+    "cost_per_hot": 1390.61,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1545.9,
-        "spend_today": 76.75,
-        "clicks": 481,
+        "spend": 1548.63,
+        "spend_today": 79.48,
+        "clicks": 485,
         "crm_leads": 76,
-        "cpl_crm": 20.34
+        "cpl_crm": 20.38
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
-        "spend": 1492.42,
-        "spend_today": 76.98,
-        "clicks": 545,
+        "spend": 1503.24,
+        "spend_today": 87.82,
+        "clicks": 547,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1114.75,
-        "spend_today": 82.37,
+        "spend": 1119.95,
+        "spend_today": 87.57,
         "clicks": 405,
         "crm_leads": 0,
         "cpl_crm": null
@@ -71,9 +71,9 @@
   "potential_income": 674785,
   "assigned_income": 154558,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 303435,
-    "Initial Inspection Completed": 160155,
+    "Market Prep / Pre-Listing Marketing": 357035,
     "New Deal - Unscheduled": 158848,
+    "Initial Inspection Completed": 106555,
     "On Market": 52347
   },
   "by_agent": {
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8369.39
+      "spend": 8386.95
     }
   },
   "reps_by_month": {
@@ -117,7 +117,7 @@
         "leads": 17,
         "active": 0,
         "booked": 7,
-        "offers": 9,
+        "offers": 5,
         "accepted": 4,
         "available": 0,
         "pending": 1,
@@ -131,7 +131,7 @@
         "leads": 50,
         "active": 0,
         "booked": 25,
-        "offers": 37,
+        "offers": 24,
         "accepted": 21,
         "available": 3,
         "pending": 2,
@@ -147,7 +147,7 @@
         "leads": 21,
         "active": 6,
         "booked": 17,
-        "offers": 19,
+        "offers": 15,
         "accepted": 5,
         "available": 2,
         "pending": 1,
@@ -161,7 +161,7 @@
         "leads": 43,
         "active": 2,
         "booked": 20,
-        "offers": 31,
+        "offers": 13,
         "accepted": 8,
         "available": 1,
         "pending": 0,
@@ -174,10 +174,10 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 11,
         "booked": 21,
-        "offers": 25,
+        "offers": 20,
         "accepted": 5,
         "available": 4,
         "pending": 0,
@@ -185,13 +185,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 44,
+        "leads": 42,
         "active": 10,
         "booked": 28,
-        "offers": 41,
+        "offers": 28,
         "accepted": 7,
         "available": 4,
         "pending": 0,
@@ -199,7 +199,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 44
+        "discoveries": 42
       }
     },
     "2026-04": {
@@ -207,7 +207,7 @@
         "leads": 33,
         "active": 32,
         "booked": 32,
-        "offers": 26,
+        "offers": 24,
         "accepted": 4,
         "available": 1,
         "pending": 0,
@@ -221,7 +221,7 @@
         "leads": 27,
         "active": 29,
         "booked": 29,
-        "offers": 25,
+        "offers": 22,
         "accepted": 4,
         "available": 1,
         "pending": 0,
@@ -320,8 +320,8 @@
           "address": "7753 Keister Rd, Middletown, OH 45042, USA",
           "value": 53600,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
         },
@@ -567,7 +567,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 8369.39
+    "2026-04": 8388.16
   },
   "channel_by_month": {
     "2026-01": {
@@ -737,7 +737,7 @@
     },
     "2026-04": {
       "google_spend": 4216.32,
-      "meta_spend": 4153.07,
+      "meta_spend": 4171.84,
       "ppc_leads": 28,
       "fb_leads": 76,
       "google_cpc": 22.07,
@@ -952,13 +952,13 @@
   "reps": {
     "Charles": {
       "discoveries": 33,
-      "offers": 26,
+      "offers": 24,
       "contracts": 4,
       "revenue": 86760.0
     },
     "Julian": {
       "discoveries": 27,
-      "offers": 25,
+      "offers": 22,
       "contracts": 4,
       "revenue": 16174.81
     }
@@ -982,8 +982,8 @@
       "address": "7753 Keister Rd, Middletown, OH 45042, USA",
       "value": 53600,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Julian"

@@ -1,13 +1,13 @@
 {
   "report_date": "April 20, 2026",
-  "last_updated": "2026-04-20 17:00 EST",
+  "last_updated": "2026-04-20 18:00 EST",
   "google": {
-    "spend_mtd": 5059.29,
-    "clicks_mtd": 212,
+    "spend_mtd": 5083.59,
+    "clicks_mtd": 213,
     "crm_leads": 32,
     "crm_leads_today": 1,
-    "cpc": 23.86,
-    "cpl": 158.1,
+    "cpc": 23.87,
+    "cpl": 158.86,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,35 +20,35 @@
         "clicks": 90,
         "cpc": 1.4,
         "crm_leads": 0,
-        "cpl": 158.1
+        "cpl": 158.86
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4933.61,
-        "spend_today": 223.76,
-        "clicks": 122,
-        "cpc": 40.44,
+        "spend": 4957.91,
+        "spend_today": 248.06,
+        "clicks": 123,
+        "cpc": 40.31,
         "crm_leads": 0,
-        "cpl": 158.1
+        "cpl": 158.86
       }
     ]
   },
   "meta": {
-    "spend_30d": 5368.03,
-    "clicks_30d": 1825,
-    "crm_leads": 96,
-    "crm_leads_today": 6,
+    "spend_30d": 5390.3,
+    "clicks_30d": 1832,
+    "crm_leads": 97,
+    "crm_leads_today": 7,
     "cpc": 2.94,
-    "cpl_crm": 55.92,
-    "cost_per_hot": 2684.02,
+    "cpl_crm": 55.57,
+    "cost_per_hot": 2695.15,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1920.19,
-        "spend_today": 82.24,
-        "clicks": 599,
-        "crm_leads": 96,
-        "cpl_crm": 20.0
+        "spend": 1930.9,
+        "spend_today": 92.95,
+        "clicks": 601,
+        "crm_leads": 97,
+        "cpl_crm": 19.91
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1807.46,
-        "spend_today": 135.53,
-        "clicks": 637,
+        "spend": 1819.02,
+        "spend_today": 147.09,
+        "clicks": 642,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -71,10 +71,10 @@
   "potential_income": 650977,
   "assigned_income": 154558,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 309221,
+    "Market Prep / Pre-Listing Marketing": 281611,
     "New Deal - Unscheduled": 158848,
-    "Initial Inspection Completed": 92256,
-    "On Market": 90653
+    "On Market": 118263,
+    "Initial Inspection Completed": 92256
   },
   "by_agent": {
     "Virginia": 68519,
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10427.32
+      "spend": 10473.89
     }
   },
   "reps_by_month": {
@@ -218,9 +218,9 @@
         "discoveries": 35
       },
       "Julian": {
-        "leads": 32,
-        "active": 42,
-        "booked": 37,
+        "leads": 33,
+        "active": 43,
+        "booked": 38,
         "offers": 31,
         "accepted": 3,
         "available": 1,
@@ -229,7 +229,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 16174.81,
-        "discoveries": 32
+        "discoveries": 33
       }
     }
   },
@@ -329,7 +329,7 @@
           "address": "2324 Horton Rd, Knightdale, NC 27545, USA",
           "value": 27610,
           "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
@@ -558,7 +558,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 10427.32
+    "2026-04": 10473.89
   },
   "channel_by_month": {
     "2026-01": {
@@ -727,11 +727,11 @@
       }
     },
     "2026-04": {
-      "google_spend": 5059.29,
-      "meta_spend": 5368.03,
+      "google_spend": 5083.59,
+      "meta_spend": 5390.3,
       "ppc_leads": 32,
-      "fb_leads": 96,
-      "google_cpc": 23.86,
+      "fb_leads": 97,
+      "google_cpc": 23.87,
       "meta_cpc": 2.94,
       "pipeline_ppc": {
         "leads": 32,
@@ -754,13 +754,13 @@
             "count": 8,
             "color": "#FFD5C2"
           },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
-          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 2,
@@ -769,6 +769,10 @@
           "Dead": {
             "count": 1,
             "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           },
           "Owes too Much": {
             "count": 1,
@@ -781,9 +785,9 @@
         }
       },
       "pipeline_fb": {
-        "leads": 96,
-        "active": 71,
-        "booked": 39,
+        "leads": 97,
+        "active": 72,
+        "booked": 40,
         "offered": 34,
         "accepted": 1,
         "under_contract": 1,
@@ -810,7 +814,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 4,
+            "count": 5,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
@@ -842,18 +846,18 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 128,
-    "dispositioned_mtd": 67,
-    "hot": 2,
-    "booked": 53,
+    "new_leads_30d": 129,
+    "dispositioned_mtd": 68,
+    "hot": 3,
+    "booked": 54,
     "offers": 44,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 96,
-    "active": 71,
-    "booked": 39,
+    "leads": 97,
+    "active": 72,
+    "booked": 40,
     "offered": 34,
     "accepted": 1,
     "under_contract": 1,
@@ -880,7 +884,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 4,
+        "count": 5,
         "color": "#F7F0C5"
       },
       "Owes too Much": {
@@ -930,13 +934,13 @@
         "count": 8,
         "color": "#FFD5C2"
       },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
-      },
       "Wrong Number": {
         "count": 4,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 3,
+        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 2,
@@ -945,6 +949,10 @@
       "Dead": {
         "count": 1,
         "color": "#F3F3F3"
+      },
+      "Hot": {
+        "count": 1,
+        "color": "#F7D1D0"
       },
       "Owes too Much": {
         "count": 1,
@@ -964,7 +972,7 @@
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 32,
+      "discoveries": 33,
       "offers": 31,
       "contracts": 3,
       "revenue": 16174.81
@@ -999,7 +1007,7 @@
       "address": "2324 Horton Rd, Knightdale, NC 27545, USA",
       "value": 27610,
       "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
@@ -1168,7 +1176,7 @@
   ],
   "sources": {
     "ppc": 32,
-    "facebook": 96,
+    "facebook": 97,
     "ppc_inbound_call": 17
   },
   "hot_leads": [
@@ -1183,6 +1191,12 @@
       "address": "509 Ave D, Rochester, NY 14621, USA",
       "phone": "(585) 957-6465",
       "source": "Facebook"
+    },
+    {
+      "name": "931 Sundew Dr",
+      "address": "931 Sundew Dr, Alpharetta, GA 30005, USA",
+      "phone": "(714) 235-8106",
+      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

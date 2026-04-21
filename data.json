@@ -1,6 +1,6 @@
 {
   "report_date": "April 21, 2026",
-  "last_updated": "2026-04-21 13:00 EST",
+  "last_updated": "2026-04-21 14:00 EST",
   "google": {
     "spend_mtd": 5214.18,
     "clicks_mtd": 216,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 5633.64,
-    "clicks_30d": 1923,
+    "spend_30d": 5648.91,
+    "clicks_30d": 1932,
     "crm_leads": 100,
     "crm_leads_today": 2,
-    "cpc": 2.93,
-    "cpl_crm": 56.34,
-    "cost_per_hot": 2816.82,
+    "cpc": 2.92,
+    "cpl_crm": 56.49,
+    "cost_per_hot": 1882.97,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2018.65,
-        "spend_today": 55.06,
-        "clicks": 633,
+        "spend": 2024.06,
+        "spend_today": 60.47,
+        "clicks": 638,
         "crm_leads": 100,
-        "cpl_crm": 20.19
+        "cpl_crm": 20.24
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1974.61,
-        "spend_today": 89.44,
-        "clicks": 701,
+        "spend": 1984.47,
+        "spend_today": 99.3,
+        "clicks": 705,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10847.82
+      "spend": 10863.09
     }
   },
   "reps_by_month": {
@@ -219,7 +219,7 @@
       },
       "Julian": {
         "leads": 36,
-        "active": 44,
+        "active": 43,
         "booked": 43,
         "offers": 31,
         "accepted": 3,
@@ -558,7 +558,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 10847.82
+    "2026-04": 10863.09
   },
   "channel_by_month": {
     "2026-01": {
@@ -728,11 +728,11 @@
     },
     "2026-04": {
       "google_spend": 5214.18,
-      "meta_spend": 5633.64,
+      "meta_spend": 5648.91,
       "ppc_leads": 35,
       "fb_leads": 100,
       "google_cpc": 24.14,
-      "meta_cpc": 2.93,
+      "meta_cpc": 2.92,
       "pipeline_ppc": {
         "leads": 35,
         "active": 25,
@@ -786,7 +786,7 @@
       },
       "pipeline_fb": {
         "leads": 100,
-        "active": 73,
+        "active": 72,
         "booked": 42,
         "offered": 34,
         "accepted": 1,
@@ -798,32 +798,32 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 38,
+            "count": 37,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 34,
             "color": "#D2E4EB"
           },
-          "Warm": {
-            "count": 7,
-            "color": "#F7F0C5"
-          },
           "Dead": {
-            "count": 7,
+            "count": 8,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
             "count": 6,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 6,
+            "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 3,
+            "color": "#F7D1D0"
+          },
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
           },
           "Not Workable": {
             "count": 1,
@@ -848,7 +848,7 @@
   "pipeline": {
     "new_leads_30d": 135,
     "dispositioned_mtd": 71,
-    "hot": 4,
+    "hot": 5,
     "booked": 57,
     "offers": 44,
     "under_contract": 2,
@@ -856,7 +856,7 @@
   },
   "pipeline_fb": {
     "leads": 100,
-    "active": 73,
+    "active": 72,
     "booked": 42,
     "offered": 34,
     "accepted": 1,
@@ -868,32 +868,32 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 38,
+        "count": 37,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 34,
         "color": "#D2E4EB"
       },
-      "Warm": {
-        "count": 7,
-        "color": "#F7F0C5"
-      },
       "Dead": {
-        "count": 7,
+        "count": 8,
         "color": "#F3F3F3"
       },
       "Wrong Number": {
         "count": 6,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 6,
+        "color": "#F7F0C5"
+      },
+      "Hot": {
+        "count": 3,
+        "color": "#F7D1D0"
+      },
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
-      },
-      "Hot": {
-        "count": 2,
-        "color": "#F7D1D0"
       },
       "Not Workable": {
         "count": 1,
@@ -1180,6 +1180,12 @@
     "ppc_inbound_call": 18
   },
   "hot_leads": [
+    {
+      "name": "390 Emslie St",
+      "address": "390 Emslie St, Buffalo, NY 14206, USA",
+      "phone": "(716) 444-1046",
+      "source": "Facebook"
+    },
     {
       "name": "6169 Remington Park",
       "address": "6169 Remington Park, Lithonia, GA 30058, USA",

@@ -1,6 +1,6 @@
 {
   "report_date": "April 21, 2026",
-  "last_updated": "2026-04-21 14:00 EST",
+  "last_updated": "2026-04-21 15:00 EST",
   "google": {
     "spend_mtd": 5214.18,
     "clicks_mtd": 216,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 5648.91,
-    "clicks_30d": 1932,
-    "crm_leads": 100,
-    "crm_leads_today": 2,
+    "spend_30d": 5658.97,
+    "clicks_30d": 1938,
+    "crm_leads": 101,
+    "crm_leads_today": 3,
     "cpc": 2.92,
-    "cpl_crm": 56.49,
-    "cost_per_hot": 1882.97,
+    "cpl_crm": 56.03,
+    "cost_per_hot": 1886.32,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2024.06,
-        "spend_today": 60.47,
-        "clicks": 638,
-        "crm_leads": 100,
-        "cpl_crm": 20.24
+        "spend": 2026.17,
+        "spend_today": 62.58,
+        "clicks": 640,
+        "crm_leads": 101,
+        "cpl_crm": 20.06
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1984.47,
-        "spend_today": 99.3,
-        "clicks": 705,
+        "spend": 1992.42,
+        "spend_today": 107.25,
+        "clicks": 709,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -72,9 +72,10 @@
   "assigned_income": 154558,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 252152,
-    "New Deal - Unscheduled": 158848,
     "On Market": 142595,
-    "Initial Inspection Completed": 91927
+    "New Deal - Unscheduled": 118248,
+    "Initial Inspection Completed": 91927,
+    "Access Scheduled": 40600
   },
   "by_agent": {
     "Virginia": 68519,
@@ -108,7 +109,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10863.09
+      "spend": 10873.150000000001
     }
   },
   "reps_by_month": {
@@ -174,7 +175,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 21,
         "offers": 24,
@@ -185,10 +186,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 44,
+        "leads": 42,
         "active": 10,
         "booked": 28,
         "offers": 41,
@@ -199,13 +200,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 44
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
         "leads": 35,
-        "active": 37,
+        "active": 38,
         "booked": 35,
         "offers": 29,
         "accepted": 4,
@@ -221,7 +222,7 @@
         "leads": 36,
         "active": 43,
         "booked": 43,
-        "offers": 31,
+        "offers": 32,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -311,8 +312,8 @@
           "address": "3765 Cannonwolde Dr, Snellville, GA 30039, USA",
           "value": 40600,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
         },
@@ -558,7 +559,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 10863.09
+    "2026-04": 10873.15
   },
   "channel_by_month": {
     "2026-01": {
@@ -688,7 +689,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 14,
+            "count": 13,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -704,7 +705,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 1,
+            "count": 2,
             "color": "#F3F3F3"
           },
           "Dead": {
@@ -728,9 +729,9 @@
     },
     "2026-04": {
       "google_spend": 5214.18,
-      "meta_spend": 5648.91,
+      "meta_spend": 5658.97,
       "ppc_leads": 35,
-      "fb_leads": 100,
+      "fb_leads": 101,
       "google_cpc": 24.14,
       "meta_cpc": 2.92,
       "pipeline_ppc": {
@@ -785,10 +786,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 100,
-        "active": 72,
+        "leads": 101,
+        "active": 73,
         "booked": 42,
-        "offered": 34,
+        "offered": 35,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -798,7 +799,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 37,
+            "count": 38,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -846,19 +847,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 135,
+    "new_leads_30d": 136,
     "dispositioned_mtd": 71,
     "hot": 5,
     "booked": 57,
-    "offers": 44,
+    "offers": 45,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 100,
-    "active": 72,
+    "leads": 101,
+    "active": 73,
     "booked": 42,
-    "offered": 34,
+    "offered": 35,
     "accepted": 1,
     "under_contract": 1,
     "contract_available": 1,
@@ -868,7 +869,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 37,
+        "count": 38,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -973,7 +974,7 @@
     },
     "Julian": {
       "discoveries": 36,
-      "offers": 31,
+      "offers": 32,
       "contracts": 3,
       "revenue": 16174.81
     }
@@ -987,8 +988,8 @@
       "address": "3765 Cannonwolde Dr, Snellville, GA 30039, USA",
       "value": 40600,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Julian"
@@ -1176,7 +1177,7 @@
   ],
   "sources": {
     "ppc": 35,
-    "facebook": 100,
+    "facebook": 101,
     "ppc_inbound_call": 18
   },
   "hot_leads": [

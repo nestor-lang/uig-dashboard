@@ -1,6 +1,6 @@
 {
   "report_date": "April 24, 2026",
-  "last_updated": "2026-04-24 12:00 EST",
+  "last_updated": "2026-04-24 13:13 EST",
   "google": {
     "spend_mtd": 5895.51,
     "clicks_mtd": 232,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 6522.53,
-    "clicks_30d": 2268,
+    "spend_30d": 6541.84,
+    "clicks_30d": 2272,
     "crm_leads": 118,
     "crm_leads_today": 3,
     "cpc": 2.88,
-    "cpl_crm": 55.28,
-    "cost_per_hot": 2174.18,
+    "cpl_crm": 55.44,
+    "cost_per_hot": 2180.61,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2299.68,
-        "spend_today": 50.92,
-        "clicks": 728,
+        "spend": 2309.65,
+        "spend_today": 60.89,
+        "clicks": 729,
         "crm_leads": 118,
-        "cpl_crm": 19.49
+        "cpl_crm": 19.57
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,22 +60,22 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 2582.47,
-        "spend_today": 91.44,
-        "clicks": 951,
+        "spend": 2591.81,
+        "spend_today": 100.78,
+        "clicks": 954,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 634824,
+  "potential_income": 514824,
   "assigned_income": 85267,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 229565,
     "On Market": 157533,
     "Initial Inspection Completed": 149476,
-    "New Deal - Unscheduled": 78249,
-    "Access Scheduled": 20000
+    "Access Scheduled": 20000,
+    "New Deal - Unscheduled": -41751
   },
   "by_agent": {
     "Virginia": 38650,
@@ -108,7 +108,7 @@
     "2026-04": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12416.470000000001
+      "spend": 12437.35
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 21,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 42,
+        "leads": 44,
         "active": 10,
         "booked": 28,
         "offers": 41,
@@ -199,28 +199,28 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 44
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 47,
+        "leads": 46,
         "active": 45,
-        "booked": 44,
-        "offers": 38,
-        "accepted": 5,
+        "booked": 45,
+        "offers": 40,
+        "accepted": 6,
         "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 86760.0,
-        "discoveries": 47
+        "discoveries": 46
       },
       "Julian": {
-        "leads": 42,
-        "active": 48,
-        "booked": 52,
+        "leads": 45,
+        "active": 49,
+        "booked": 53,
         "offers": 41,
         "accepted": 4,
         "available": 2,
@@ -229,7 +229,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 42
+        "discoveries": 45
       }
     }
   },
@@ -448,32 +448,41 @@
         },
         "2026-04": {
           "counts": {
-            "available": 5
+            "available": 6
           },
           "gp": {
-            "available": 200886
+            "available": 80886
           },
-          "total": 5
+          "total": 6
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 8,
           "dead": 6,
           "pending": 1,
           "on_hold": 2,
           "closed": 3
         },
         "gp": {
-          "available": 388550,
+          "available": 268550,
           "dead": 108727,
           "pending": 7126,
           "on_hold": 99859,
           "closed": 105276
         },
-        "total": 19
+        "total": 20
       },
       "deals": [
+        {
+          "address": "1501 N New York Ave, Alamogordo, NM 88310, USA",
+          "value": -120000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
         {
           "address": "2910 Grantley Ave, Baltimore, MD 21215, USA",
           "value": 20000,
@@ -553,7 +562,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 12416.47
+    "2026-04": 12437.35
   },
   "channel_by_month": {
     "2026-01": {
@@ -723,7 +732,7 @@
     },
     "2026-04": {
       "google_spend": 5895.51,
-      "meta_spend": 6520.96,
+      "meta_spend": 6541.84,
       "ppc_leads": 42,
       "fb_leads": 118,
       "google_cpc": 25.41,
@@ -782,8 +791,8 @@
       "pipeline_fb": {
         "leads": 118,
         "active": 85,
-        "booked": 53,
-        "offered": 44,
+        "booked": 55,
+        "offered": 45,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -792,13 +801,17 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 42,
-            "color": "#FFD5C2"
-          },
           "Cold": {
             "count": 41,
             "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 40,
+            "color": "#FFD5C2"
+          },
+          "Warm": {
+            "count": 9,
+            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 9,
@@ -807,10 +820,6 @@
           "Wrong Number": {
             "count": 7,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 7,
-            "color": "#F7F0C5"
           },
           "Owes too Much": {
             "count": 4,
@@ -842,18 +851,18 @@
   },
   "pipeline": {
     "new_leads_30d": 160,
-    "dispositioned_mtd": 89,
+    "dispositioned_mtd": 91,
     "hot": 6,
-    "booked": 71,
-    "offers": 58,
+    "booked": 73,
+    "offers": 59,
     "under_contract": 3,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 118,
     "active": 85,
-    "booked": 53,
-    "offered": 44,
+    "booked": 55,
+    "offered": 45,
     "accepted": 1,
     "under_contract": 1,
     "contract_available": 1,
@@ -862,13 +871,17 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 42,
-        "color": "#FFD5C2"
-      },
       "Cold": {
         "count": 41,
         "color": "#D2E4EB"
+      },
+      "Need to Contact": {
+        "count": 40,
+        "color": "#FFD5C2"
+      },
+      "Warm": {
+        "count": 9,
+        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 9,
@@ -877,10 +890,6 @@
       "Wrong Number": {
         "count": 7,
         "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 7,
-        "color": "#F7F0C5"
       },
       "Owes too Much": {
         "count": 4,
@@ -961,13 +970,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 47,
-      "offers": 38,
-      "contracts": 5,
+      "discoveries": 46,
+      "offers": 40,
+      "contracts": 6,
       "revenue": 86760.0
     },
     "Julian": {
-      "discoveries": 42,
+      "discoveries": 45,
       "offers": 41,
       "contracts": 4,
       "revenue": 46043.35
@@ -975,7 +984,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 297974,
-    "Charles": 395676
+    "Charles": 275676
   },
   "agent_deals": [
     {
@@ -1077,6 +1086,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-01",
       "agent": "Julian"
+    },
+    {
+      "address": "1501 N New York Ave, Alamogordo, NM 88310, USA",
+      "value": -120000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
     },
     {
       "address": "2910 Grantley Ave, Baltimore, MD 21215, USA",

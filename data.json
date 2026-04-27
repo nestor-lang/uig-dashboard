@@ -1,6 +1,6 @@
 {
   "report_date": "April 27, 2026",
-  "last_updated": "2026-04-27 19:11 EST",
+  "last_updated": "2026-04-27 19:13 EST",
   "google": {
     "spend_mtd": 6779.41,
     "clicks_mtd": 250,
@@ -750,10 +750,10 @@
         "leads": 48,
         "active": 33,
         "booked": 21,
-        "offered": 16,
-        "accepted": 3,
-        "under_contract": 3,
-        "contract_available": 3,
+        "offered": 15,
+        "accepted": 2,
+        "under_contract": 2,
+        "contract_available": 2,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -764,15 +764,11 @@
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 13,
+            "count": 14,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
             "count": 6,
-            "color": "#DCEBD8"
-          },
-          "Under Contract": {
-            "count": 3,
             "color": "#DCEBD8"
           },
           "Warm": {
@@ -786,6 +782,10 @@
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
+          },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
           },
           "Dead": {
             "count": 2,
@@ -863,8 +863,8 @@
     "dispositioned_mtd": 101,
     "hot": 7,
     "booked": 82,
-    "offers": 63,
-    "under_contract": 4,
+    "offers": 62,
+    "under_contract": 3,
     "closed": 0
   },
   "pipeline_fb": {
@@ -930,10 +930,10 @@
     "leads": 48,
     "active": 33,
     "booked": 21,
-    "offered": 16,
-    "accepted": 3,
-    "under_contract": 3,
-    "contract_available": 3,
+    "offered": 15,
+    "accepted": 2,
+    "under_contract": 2,
+    "contract_available": 2,
     "contract_pending": 0,
     "contract_closed": 0,
     "contract_dead": 0,
@@ -944,15 +944,11 @@
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 13,
+        "count": 14,
         "color": "#D2E4EB"
       },
       "Wrong Number": {
         "count": 6,
-        "color": "#DCEBD8"
-      },
-      "Under Contract": {
-        "count": 3,
         "color": "#DCEBD8"
       },
       "Warm": {
@@ -966,6 +962,10 @@
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
+      },
+      "Under Contract": {
+        "count": 2,
+        "color": "#DCEBD8"
       },
       "Dead": {
         "count": 2,

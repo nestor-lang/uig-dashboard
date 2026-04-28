@@ -1,6 +1,6 @@
 {
   "report_date": "April 28, 2026",
-  "last_updated": "2026-04-28 09:00 EST",
+  "last_updated": "2026-04-28 10:00 EST",
   "google": {
     "spend_mtd": 6910.75,
     "clicks_mtd": 254,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 7768.69,
-    "clicks_30d": 2650,
+    "spend_30d": 7786.56,
+    "clicks_30d": 2656,
     "crm_leads": 132,
     "crm_leads_today": 2,
     "cpc": 2.93,
-    "cpl_crm": 58.85,
-    "cost_per_hot": 1942.17,
+    "cpl_crm": 58.99,
+    "cost_per_hot": 1946.64,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2734.35,
-        "spend_today": 30.62,
-        "clicks": 873,
+        "spend": 2742.24,
+        "spend_today": 38.51,
+        "clicks": 876,
         "crm_leads": 132,
-        "cpl_crm": 20.71
+        "cpl_crm": 20.77
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3393.96,
-        "spend_today": 66.3,
-        "clicks": 1188,
+        "spend": 3403.94,
+        "spend_today": 76.28,
+        "clicks": 1191,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -571,7 +571,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 14679.44
+    "2026-04": 14697.31
   },
   "channel_by_month": {
     "2026-01": {
@@ -741,7 +741,7 @@
     },
     "2026-04": {
       "google_spend": 6910.75,
-      "meta_spend": 7768.69,
+      "meta_spend": 7786.56,
       "ppc_leads": 49,
       "fb_leads": 132,
       "google_cpc": 27.21,
@@ -759,13 +759,13 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 15,
-            "color": "#FFD5C2"
-          },
           "Cold": {
-            "count": 14,
+            "count": 15,
             "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 14,
+            "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 6,
@@ -939,13 +939,13 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 15,
-        "color": "#FFD5C2"
-      },
       "Cold": {
-        "count": 14,
+        "count": 15,
         "color": "#D2E4EB"
+      },
+      "Need to Contact": {
+        "count": 14,
+        "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 6,

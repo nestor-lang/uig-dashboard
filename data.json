@@ -1,13 +1,13 @@
 {
   "report_date": "April 28, 2026",
-  "last_updated": "2026-04-28 17:00 EST",
+  "last_updated": "2026-04-28 18:00 EST",
   "google": {
-    "spend_mtd": 6962.02,
-    "clicks_mtd": 257,
+    "spend_mtd": 6972.81,
+    "clicks_mtd": 258,
     "crm_leads": 49,
     "crm_leads_today": 1,
-    "cpc": 27.09,
-    "cpl": 142.08,
+    "cpc": 27.03,
+    "cpl": 142.3,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,35 +20,35 @@
         "clicks": 90,
         "cpc": 1.4,
         "crm_leads": 0,
-        "cpl": 142.08
+        "cpl": 142.3
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6836.35,
-        "spend_today": 129.32,
-        "clicks": 167,
-        "cpc": 40.94,
+        "spend": 6847.14,
+        "spend_today": 140.1,
+        "clicks": 168,
+        "cpc": 40.76,
         "crm_leads": 0,
-        "cpl": 142.08
+        "cpl": 142.3
       }
     ]
   },
   "meta": {
-    "spend_30d": 7913.11,
-    "clicks_30d": 2698,
+    "spend_30d": 7919.29,
+    "clicks_30d": 2700,
     "crm_leads": 133,
     "crm_leads_today": 3,
     "cpc": 2.93,
-    "cpl_crm": 59.5,
-    "cost_per_hot": 1978.28,
+    "cpl_crm": 59.54,
+    "cost_per_hot": 1979.82,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2788.12,
-        "spend_today": 84.39,
-        "clicks": 888,
+        "spend": 2791.22,
+        "spend_today": 87.31,
+        "clicks": 889,
         "crm_leads": 133,
-        "cpl_crm": 20.96
+        "cpl_crm": 20.99
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3484.61,
-        "spend_today": 156.95,
-        "clicks": 1221,
+        "spend": 3487.69,
+        "spend_today": 160.03,
+        "clicks": 1222,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -548,7 +548,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 14875.13
+    "2026-04": 14892.1
   },
   "channel_by_month": {
     "2026-01": {
@@ -721,11 +721,11 @@
       }
     },
     "2026-04": {
-      "google_spend": 6962.02,
-      "meta_spend": 7913.11,
+      "google_spend": 6972.81,
+      "meta_spend": 7919.29,
       "ppc_leads": 49,
       "fb_leads": 133,
-      "google_cpc": 27.09,
+      "google_cpc": 27.03,
       "meta_cpc": 2.93,
       "pipeline_ppc": {
         "leads": 49,
@@ -780,7 +780,7 @@
       },
       "pipeline_fb": {
         "leads": 133,
-        "active": 95,
+        "active": 94,
         "booked": 64,
         "offered": 49,
         "accepted": 2,
@@ -791,13 +791,13 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 43,
-            "color": "#FFD5C2"
-          },
           "Cold": {
             "count": 43,
             "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 42,
+            "color": "#FFD5C2"
           },
           "Warm": {
             "count": 10,
@@ -816,7 +816,7 @@
             "color": "#F3F3F3"
           },
           "Listed": {
-            "count": 4,
+            "count": 5,
             "color": "#C8C8C8"
           },
           "Hot": {
@@ -850,7 +850,7 @@
   },
   "pipeline_fb": {
     "leads": 133,
-    "active": 95,
+    "active": 94,
     "booked": 64,
     "offered": 49,
     "accepted": 2,
@@ -861,13 +861,13 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 43,
-        "color": "#FFD5C2"
-      },
       "Cold": {
         "count": 43,
         "color": "#D2E4EB"
+      },
+      "Need to Contact": {
+        "count": 42,
+        "color": "#FFD5C2"
       },
       "Warm": {
         "count": 10,
@@ -886,7 +886,7 @@
         "color": "#F3F3F3"
       },
       "Listed": {
-        "count": 4,
+        "count": 5,
         "color": "#C8C8C8"
       },
       "Hot": {

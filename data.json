@@ -1,6 +1,6 @@
 {
   "report_date": "April 29, 2026",
-  "last_updated": "2026-04-29 06:01 EST",
+  "last_updated": "2026-04-29 07:00 EST",
   "google": {
     "spend_mtd": 7141.87,
     "clicks_mtd": 263,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8045.3,
-    "clicks_30d": 2757,
+    "spend_30d": 8063.09,
+    "clicks_30d": 2758,
     "crm_leads": 133,
     "crm_leads_today": 0,
     "cpc": 2.92,
-    "cpl_crm": 60.49,
-    "cost_per_hot": 2011.33,
+    "cpl_crm": 60.62,
+    "cost_per_hot": 2015.77,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2832.32,
-        "spend_today": 14.7,
+        "spend": 2837.01,
+        "spend_today": 18.95,
         "clicks": 906,
         "crm_leads": 133,
-        "cpl_crm": 21.3
+        "cpl_crm": 21.33
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3572.6,
-        "spend_today": 29.18,
-        "clicks": 1262,
+        "spend": 3585.7,
+        "spend_today": 42.28,
+        "clicks": 1263,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 21,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 42,
+        "leads": 44,
         "active": 10,
         "booked": 28,
         "offers": 41,
@@ -199,12 +199,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 44
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 53,
+        "leads": 52,
         "active": 50,
         "booked": 52,
         "offers": 41,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 53
+        "discoveries": 52
       },
       "Julian": {
-        "leads": 54,
+        "leads": 55,
         "active": 61,
         "booked": 62,
         "offers": 45,
@@ -229,16 +229,326 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 55
       }
     }
   },
-  "wb_pipeline": {},
+  "wb_pipeline": {
+    "Julian": {
+      "by_month": {
+        "2026-01": {
+          "counts": {
+            "closed": 7,
+            "dead": 13,
+            "available": 1
+          },
+          "gp": {
+            "closed": 140203,
+            "dead": 276879,
+            "available": 19059
+          },
+          "total": 21
+        },
+        "2026-02": {
+          "counts": {
+            "dead": 4,
+            "pending": 1,
+            "on_hold": 1,
+            "closed": 1,
+            "available": 1
+          },
+          "gp": {
+            "dead": 116153,
+            "pending": 38650,
+            "on_hold": 49890,
+            "closed": 16175,
+            "available": 11052
+          },
+          "total": 8
+        },
+        "2026-03": {
+          "counts": {
+            "dead": 3,
+            "available": 2,
+            "closed": 1,
+            "pending": 1
+          },
+          "gp": {
+            "dead": 28484,
+            "available": 98393,
+            "closed": 29869,
+            "pending": 13050
+          },
+          "total": 7
+        },
+        "2026-04": {
+          "counts": {
+            "available": 4,
+            "on_hold": 1
+          },
+          "gp": {
+            "available": 178948,
+            "on_hold": 27610
+          },
+          "total": 5
+        }
+      },
+      "all_time": {
+        "counts": {
+          "available": 8,
+          "on_hold": 2,
+          "dead": 20,
+          "closed": 9,
+          "pending": 2
+        },
+        "gp": {
+          "available": 307451,
+          "on_hold": 77500,
+          "dead": 421516,
+          "closed": 186246,
+          "pending": 51700
+        },
+        "total": 41
+      },
+      "deals": [
+        {
+          "address": "1207 Chennault Dr, Dublin, GA 31021, USA",
+          "value": 59999,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "5816 Royal Ridge Dr UNIT P, Springfield, VA 22152, USA",
+          "value": 34449,
+          "status": "Available",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "3765 Cannonwolde Dr, Snellville, GA 30039, USA",
+          "value": 40600,
+          "status": "Available",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "7753 Keister Rd, Middletown, OH 45042, USA",
+          "value": 43900,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
+          "value": 58894,
+          "status": "Available",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
+          "value": 39498,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "115 Melton St, Griffin, GA 30223, USA",
+          "value": 13050,
+          "status": "Sent to Title",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
+          "value": 38650,
+          "status": "Sent to Title",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-02"
+        },
+        {
+          "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
+          "value": 11052,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-02"
+        },
+        {
+          "address": "601 E 107th Ter, Kansas City, MO 64131",
+          "value": 19059,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-01"
+        }
+      ]
+    },
+    "Charles": {
+      "by_month": {
+        "2026-01": {
+          "counts": {
+            "on_hold": 1,
+            "closed": 2,
+            "dead": 1
+          },
+          "gp": {
+            "on_hold": 49659,
+            "closed": 62616,
+            "dead": 12285
+          },
+          "total": 4
+        },
+        "2026-02": {
+          "counts": {
+            "dead": 3,
+            "closed": 1,
+            "available": 1
+          },
+          "gp": {
+            "dead": 49442,
+            "closed": 42660,
+            "available": 158064
+          },
+          "total": 5
+        },
+        "2026-03": {
+          "counts": {
+            "available": 1,
+            "dead": 2,
+            "closed": 1,
+            "on_hold": 1
+          },
+          "gp": {
+            "available": 13050,
+            "dead": 47000,
+            "closed": 7126,
+            "on_hold": 50200
+          },
+          "total": 5
+        },
+        "2026-04": {
+          "counts": {
+            "available": 4,
+            "pending": 1,
+            "on_hold": 1
+          },
+          "gp": {
+            "available": 108149,
+            "pending": 20000,
+            "on_hold": 78249
+          },
+          "total": 6
+        }
+      },
+      "all_time": {
+        "counts": {
+          "available": 6,
+          "pending": 1,
+          "on_hold": 3,
+          "dead": 6,
+          "closed": 4
+        },
+        "gp": {
+          "available": 279262,
+          "pending": 20000,
+          "on_hold": 178108,
+          "dead": 108727,
+          "closed": 112402
+        },
+        "total": 20
+      },
+      "deals": [
+        {
+          "address": "1501 N New York Ave, Alamogordo, NM 88310, USA",
+          "value": 30449,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "2910 Grantley Ave, Baltimore, MD 21215, USA",
+          "value": 19840,
+          "status": "Available",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "191 Rollin Ct, Camden, DE 19934, USA",
+          "value": 20000,
+          "status": "Sent to Title",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "3128 Baker St, Baltimore, MD 21216, USA",
+          "value": 19554,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "100 Winslow Ct, McDonough, GA 30253, USA",
+          "value": 38306,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-04"
+        },
+        {
+          "address": "1010 6th Ave S, Jasper, AL 35501, USA",
+          "value": 13050,
+          "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "8910 Club River Dr, Roswell, GA 30076, USA",
+          "value": 158064,
+          "status": "Available",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-02"
+        }
+      ]
+    }
+  },
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 15188.68
+    "2026-04": 15205.25
   },
   "channel_by_month": {
     "2026-01": {
@@ -412,7 +722,7 @@
     },
     "2026-04": {
       "google_spend": 7141.87,
-      "meta_spend": 8046.81,
+      "meta_spend": 8063.38,
       "ppc_leads": 49,
       "fb_leads": 133,
       "google_cpc": 27.16,
@@ -650,23 +960,194 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 53,
+      "discoveries": 52,
       "offers": 41,
       "contracts": 6,
       "revenue": 93886.0
     },
     "Julian": {
-      "discoveries": 54,
+      "discoveries": 55,
       "offers": 45,
       "contracts": 5,
       "revenue": 46043.35
     }
   },
   "pipeline_by_agent": {
-    "Julian": 0,
-    "Charles": 0
+    "Julian": 359151,
+    "Charles": 299263
   },
-  "agent_deals": [],
+  "agent_deals": [
+    {
+      "address": "1207 Chennault Dr, Dublin, GA 31021, USA",
+      "value": 59999,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Julian"
+    },
+    {
+      "address": "5816 Royal Ridge Dr UNIT P, Springfield, VA 22152, USA",
+      "value": 34449,
+      "status": "Available",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Julian"
+    },
+    {
+      "address": "3765 Cannonwolde Dr, Snellville, GA 30039, USA",
+      "value": 40600,
+      "status": "Available",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Julian"
+    },
+    {
+      "address": "7753 Keister Rd, Middletown, OH 45042, USA",
+      "value": 43900,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Julian"
+    },
+    {
+      "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
+      "value": 58894,
+      "status": "Available",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Julian"
+    },
+    {
+      "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
+      "value": 39498,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Julian"
+    },
+    {
+      "address": "115 Melton St, Griffin, GA 30223, USA",
+      "value": 13050,
+      "status": "Sent to Title",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Julian"
+    },
+    {
+      "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
+      "value": 38650,
+      "status": "Sent to Title",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-02",
+      "agent": "Julian"
+    },
+    {
+      "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
+      "value": 11052,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-02",
+      "agent": "Julian"
+    },
+    {
+      "address": "601 E 107th Ter, Kansas City, MO 64131",
+      "value": 19059,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-01",
+      "agent": "Julian"
+    },
+    {
+      "address": "1501 N New York Ave, Alamogordo, NM 88310, USA",
+      "value": 30449,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
+    },
+    {
+      "address": "2910 Grantley Ave, Baltimore, MD 21215, USA",
+      "value": 19840,
+      "status": "Available",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
+    },
+    {
+      "address": "191 Rollin Ct, Camden, DE 19934, USA",
+      "value": 20000,
+      "status": "Sent to Title",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
+    },
+    {
+      "address": "3128 Baker St, Baltimore, MD 21216, USA",
+      "value": 19554,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
+    },
+    {
+      "address": "100 Winslow Ct, McDonough, GA 30253, USA",
+      "value": 38306,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-04",
+      "agent": "Charles"
+    },
+    {
+      "address": "1010 6th Ave S, Jasper, AL 35501, USA",
+      "value": 13050,
+      "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Charles"
+    },
+    {
+      "address": "8910 Club River Dr, Roswell, GA 30076, USA",
+      "value": 158064,
+      "status": "Available",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-02",
+      "agent": "Charles"
+    }
+  ],
   "sources": {
     "ppc": 49,
     "facebook": 133,

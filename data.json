@@ -1,6 +1,6 @@
 {
   "report_date": "April 29, 2026",
-  "last_updated": "2026-04-29 11:02 EST",
+  "last_updated": "2026-04-29 12:00 EST",
   "google": {
     "spend_mtd": 7251.68,
     "clicks_mtd": 264,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8137.94,
-    "clicks_30d": 2776,
+    "spend_30d": 8155.36,
+    "clicks_30d": 2779,
     "crm_leads": 134,
     "crm_leads_today": 1,
     "cpc": 2.93,
-    "cpl_crm": 60.73,
-    "cost_per_hot": 2034.49,
+    "cpl_crm": 60.86,
+    "cost_per_hot": 2038.84,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2863.16,
-        "spend_today": 44.93,
+        "spend": 2872.81,
+        "spend_today": 54.58,
         "clicks": 910,
         "crm_leads": 134,
-        "cpl_crm": 21.37
+        "cpl_crm": 21.44
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,16 +60,16 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3634.4,
-        "spend_today": 90.88,
-        "clicks": 1277,
+        "spend": 3642.17,
+        "spend_today": 98.65,
+        "clicks": 1280,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "potential_income": 547215,
-  "assigned_income": 136814,
+  "assigned_income": 112409,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 198664,
     "On Market": 144920,
@@ -78,10 +78,10 @@
     "Access Scheduled": 34449
   },
   "by_agent": {
-    "Kentucky": 39498,
     "Virginia": 38650,
     "Alabama": 25616,
     "Delaware": 20000,
+    "Kentucky": 15093,
     "Georgia": 13050
   },
   "closed_by_month": {
@@ -159,10 +159,10 @@
         "discoveries": 21
       },
       "Julian": {
-        "leads": 42,
+        "leads": 41,
         "active": 2,
         "booked": 21,
-        "offers": 30,
+        "offers": 29,
         "accepted": 8,
         "available": 1,
         "pending": 0,
@@ -170,7 +170,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 92798.35,
-        "discoveries": 42
+        "discoveries": 41
       }
     },
     "2026-03": {
@@ -219,7 +219,7 @@
         "discoveries": 54
       },
       "Julian": {
-        "leads": 56,
+        "leads": 57,
         "active": 60,
         "booked": 62,
         "offers": 47,
@@ -230,7 +230,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 56
+        "discoveries": 57
       }
     }
   },
@@ -278,7 +278,7 @@
           "gp": {
             "dead": 28484,
             "available": 58894,
-            "other": 39498,
+            "other": 15093,
             "closed": 29869,
             "pending": 13050
           },
@@ -309,7 +309,7 @@
           "available": 267953,
           "on_hold": 77500,
           "dead": 421516,
-          "other": 39498,
+          "other": 15093,
           "closed": 186246,
           "pending": 51700
         },
@@ -544,7 +544,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 15389.62
+    "2026-04": 15407.04
   },
   "channel_by_month": {
     "2026-01": {
@@ -718,7 +718,7 @@
     },
     "2026-04": {
       "google_spend": 7251.68,
-      "meta_spend": 8137.94,
+      "meta_spend": 8155.36,
       "ppc_leads": 50,
       "fb_leads": 134,
       "google_cpc": 27.47,
@@ -748,9 +748,9 @@
             "count": 6,
             "color": "#DCEBD8"
           },
-          "Warm": {
+          "Dead": {
             "count": 4,
-            "color": "#F7F0C5"
+            "color": "#F3F3F3"
           },
           "Owes too Much": {
             "count": 3,
@@ -760,9 +760,9 @@
             "count": 3,
             "color": "#F7D1D0"
           },
-          "Dead": {
+          "Warm": {
             "count": 3,
-            "color": "#F3F3F3"
+            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 3,
@@ -788,24 +788,24 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 43,
+            "count": 44,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 42,
+            "count": 40,
             "color": "#FFD5C2"
           },
           "Warm": {
             "count": 11,
             "color": "#F7F0C5"
           },
+          "Owes too Much": {
+            "count": 10,
+            "color": "#D1F3EC"
+          },
           "Wrong Number": {
             "count": 9,
             "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 9,
-            "color": "#D1F3EC"
           },
           "Dead": {
             "count": 6,
@@ -837,7 +837,7 @@
   },
   "pipeline": {
     "new_leads_30d": 184,
-    "dispositioned_mtd": 110,
+    "dispositioned_mtd": 111,
     "hot": 7,
     "booked": 88,
     "offers": 66,
@@ -858,24 +858,24 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 43,
+        "count": 44,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 42,
+        "count": 40,
         "color": "#FFD5C2"
       },
       "Warm": {
         "count": 11,
         "color": "#F7F0C5"
       },
+      "Owes too Much": {
+        "count": 10,
+        "color": "#D1F3EC"
+      },
       "Wrong Number": {
         "count": 9,
         "color": "#DCEBD8"
-      },
-      "Owes too Much": {
-        "count": 9,
-        "color": "#D1F3EC"
       },
       "Dead": {
         "count": 6,
@@ -928,9 +928,9 @@
         "count": 6,
         "color": "#DCEBD8"
       },
-      "Warm": {
+      "Dead": {
         "count": 4,
-        "color": "#F7F0C5"
+        "color": "#F3F3F3"
       },
       "Owes too Much": {
         "count": 3,
@@ -940,9 +940,9 @@
         "count": 3,
         "color": "#F7D1D0"
       },
-      "Dead": {
+      "Warm": {
         "count": 3,
-        "color": "#F3F3F3"
+        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 3,
@@ -962,7 +962,7 @@
       "revenue": 93886.0
     },
     "Julian": {
-      "discoveries": 56,
+      "discoveries": 57,
       "offers": 47,
       "contracts": 5,
       "revenue": 46043.35

@@ -1,6 +1,6 @@
 {
   "report_date": "April 29, 2026",
-  "last_updated": "2026-04-29 13:00 EST",
+  "last_updated": "2026-04-29 14:00 EST",
   "google": {
     "spend_mtd": 7251.68,
     "clicks_mtd": 264,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8171.24,
-    "clicks_30d": 2787,
+    "spend_30d": 8191.14,
+    "clicks_30d": 2799,
     "crm_leads": 134,
     "crm_leads_today": 1,
     "cpc": 2.93,
-    "cpl_crm": 60.98,
-    "cost_per_hot": 2042.81,
+    "cpl_crm": 61.13,
+    "cost_per_hot": 1638.23,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2878.94,
-        "spend_today": 60.42,
-        "clicks": 915,
+        "spend": 2883.99,
+        "spend_today": 65.46,
+        "clicks": 922,
         "crm_leads": 134,
-        "cpl_crm": 21.48
+        "cpl_crm": 21.52
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,20 +60,20 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3651.92,
-        "spend_today": 108.4,
-        "clicks": 1283,
+        "spend": 3666.77,
+        "spend_today": 123.25,
+        "clicks": 1288,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 487216,
+  "potential_income": 467376,
   "assigned_income": 112409,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 198664,
     "On Market": 144920,
-    "Initial Inspection Completed": 78734,
+    "Initial Inspection Completed": 58894,
     "Access Scheduled": 34449,
     "New Deal - Unscheduled": 30449
   },
@@ -271,16 +271,14 @@
           "counts": {
             "dead": 3,
             "available": 1,
-            "other": 1,
-            "closed": 1,
-            "pending": 1
+            "pending": 2,
+            "closed": 1
           },
           "gp": {
             "dead": 28484,
             "available": 58894,
-            "other": 15093,
-            "closed": 29869,
-            "pending": 13050
+            "pending": 28143,
+            "closed": 29869
           },
           "total": 7
         },
@@ -303,17 +301,15 @@
           "dead": 21,
           "available": 6,
           "on_hold": 2,
-          "other": 1,
-          "closed": 9,
-          "pending": 2
+          "pending": 3,
+          "closed": 9
         },
         "gp": {
           "dead": 481515,
           "available": 207954,
           "on_hold": 77500,
-          "other": 15093,
-          "closed": 186246,
-          "pending": 51700
+          "pending": 66793,
+          "closed": 186246
         },
         "total": 41
       },
@@ -351,6 +347,15 @@
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
+          "value": 15093,
+          "status": "Sent to Title",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-03"
         },
@@ -437,12 +442,14 @@
         },
         "2026-04": {
           "counts": {
-            "available": 4,
+            "available": 3,
+            "dead": 1,
             "pending": 1,
             "on_hold": 1
           },
           "gp": {
-            "available": 108149,
+            "available": 88309,
+            "dead": 19840,
             "pending": 20000,
             "on_hold": 78249
           },
@@ -451,17 +458,17 @@
       },
       "all_time": {
         "counts": {
-          "available": 6,
+          "available": 5,
+          "dead": 7,
           "pending": 1,
           "on_hold": 3,
-          "dead": 6,
           "closed": 4
         },
         "gp": {
-          "available": 279262,
+          "available": 259422,
+          "dead": 128567,
           "pending": 20000,
           "on_hold": 178108,
-          "dead": 108727,
           "closed": 112402
         },
         "total": 20
@@ -473,15 +480,6 @@
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "2910 Grantley Ave, Baltimore, MD 21215, USA",
-          "value": 19840,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
         },
@@ -537,7 +535,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 15422.92
+    "2026-04": 15442.82
   },
   "channel_by_month": {
     "2026-01": {
@@ -711,7 +709,7 @@
     },
     "2026-04": {
       "google_spend": 7251.68,
-      "meta_spend": 8171.24,
+      "meta_spend": 8191.14,
       "ppc_leads": 50,
       "fb_leads": 134,
       "google_cpc": 27.47,
@@ -789,7 +787,7 @@
             "color": "#FFD5C2"
           },
           "Warm": {
-            "count": 11,
+            "count": 10,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
@@ -809,7 +807,7 @@
             "color": "#C8C8C8"
           },
           "Hot": {
-            "count": 3,
+            "count": 4,
             "color": "#F7D1D0"
           },
           "Under Contract": {
@@ -831,7 +829,7 @@
   "pipeline": {
     "new_leads_30d": 184,
     "dispositioned_mtd": 111,
-    "hot": 7,
+    "hot": 8,
     "booked": 88,
     "offers": 66,
     "under_contract": 4,
@@ -859,7 +857,7 @@
         "color": "#FFD5C2"
       },
       "Warm": {
-        "count": 11,
+        "count": 10,
         "color": "#F7F0C5"
       },
       "Owes too Much": {
@@ -879,7 +877,7 @@
         "color": "#C8C8C8"
       },
       "Hot": {
-        "count": 3,
+        "count": 4,
         "color": "#F7D1D0"
       },
       "Under Contract": {
@@ -962,8 +960,8 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 259654,
-    "Charles": 299263
+    "Julian": 274747,
+    "Charles": 279423
   },
   "agent_deals": [
     {
@@ -1002,6 +1000,16 @@
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Julian"
+    },
+    {
+      "address": "1263 Speedwell Rd, Richmond, KY 40475, USA",
+      "value": 15093,
+      "status": "Sent to Title",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-03",
       "agent": "Julian"
@@ -1052,16 +1060,6 @@
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
-      "address": "2910 Grantley Ave, Baltimore, MD 21215, USA",
-      "value": 19840,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Charles"
@@ -1124,6 +1122,12 @@
   },
   "hot_leads": [
     {
+      "name": "38010 Robin Hood Rd",
+      "address": "38010 Robin Hood Rd, Delmar, DE 19940, USA",
+      "phone": "(443) 783-3098",
+      "source": "Facebook"
+    },
+    {
       "name": "335 Howell Dr SW",
       "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
       "phone": "(404) 437-8166",
@@ -1146,12 +1150,6 @@
       "address": "4250 W Highland Pkwy, Buffalo, NY 14219, USA",
       "phone": "(716) 563-5099",
       "source": "Facebook"
-    },
-    {
-      "name": "5118 Amberland Square",
-      "address": "5118 Amberland Square, Atlanta, GA 30349, USA",
-      "phone": "(334) 473-9382",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

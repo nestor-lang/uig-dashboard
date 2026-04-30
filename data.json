@@ -1,6 +1,6 @@
 {
   "report_date": "April 30, 2026",
-  "last_updated": "2026-04-30 15:00 EST",
+  "last_updated": "2026-04-30 16:00 EST",
   "google": {
     "spend_mtd": 7402.08,
     "clicks_mtd": 267,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8514.23,
-    "clicks_30d": 2934,
+    "spend_30d": 8529.99,
+    "clicks_30d": 2943,
     "crm_leads": 145,
     "crm_leads_today": 6,
     "cpc": 2.9,
-    "cpl_crm": 58.72,
-    "cost_per_hot": 1702.85,
+    "cpl_crm": 58.83,
+    "cost_per_hot": 1706.0,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3003.6,
-        "spend_today": 60.33,
-        "clicks": 961,
+        "spend": 3011.66,
+        "spend_today": 68.38,
+        "clicks": 964,
         "crm_leads": 145,
-        "cpl_crm": 20.71
+        "cpl_crm": 20.77
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3870.25,
-        "spend_today": 109.49,
-        "clicks": 1384,
+        "spend": 3877.95,
+        "spend_today": 117.19,
+        "clicks": 1390,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -73,8 +73,7 @@
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 198664,
     "On Market": 144920,
-    "Initial Inspection Completed": 58894,
-    "Access Scheduled": 34449,
+    "Initial Inspection Completed": 93343,
     "New Deal - Unscheduled": 30449
   },
   "by_agent": {
@@ -115,7 +114,7 @@
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 17,
+        "leads": 18,
         "active": 0,
         "booked": 7,
         "offers": 9,
@@ -126,7 +125,7 @@
         "closed": 0,
         "pending_income": 8743.0,
         "closed_revenue": 0.0,
-        "discoveries": 17
+        "discoveries": 18
       },
       "Julian": {
         "leads": 50,
@@ -205,7 +204,7 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 54,
+        "leads": 55,
         "active": 53,
         "booked": 54,
         "offers": 42,
@@ -216,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 54
+        "discoveries": 55
       },
       "Julian": {
-        "leads": 59,
+        "leads": 60,
         "active": 64,
         "booked": 66,
         "offers": 49,
@@ -230,7 +229,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 59
+        "discoveries": 60
       }
     }
   },
@@ -318,8 +317,8 @@
           "address": "5816 Royal Ridge Dr UNIT P, Springfield, VA 22152, USA",
           "value": 34449,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
         },
@@ -535,7 +534,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 15916.5
+    "2026-04": 15931.95
   },
   "channel_by_month": {
     "2026-01": {
@@ -705,7 +704,7 @@
     },
     "2026-04": {
       "google_spend": 7402.08,
-      "meta_spend": 8514.42,
+      "meta_spend": 8529.87,
       "ppc_leads": 51,
       "fb_leads": 145,
       "google_cpc": 27.72,
@@ -764,7 +763,7 @@
       "pipeline_fb": {
         "leads": 145,
         "active": 99,
-        "booked": 69,
+        "booked": 71,
         "offered": 53,
         "accepted": 2,
         "under_contract": 2,
@@ -775,11 +774,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 47,
+            "count": 48,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 46,
+            "count": 44,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -791,7 +790,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 7,
+            "count": 8,
             "color": "#F7F0C5"
           },
           "Listed": {
@@ -824,9 +823,9 @@
   },
   "pipeline": {
     "new_leads_30d": 196,
-    "dispositioned_mtd": 113,
+    "dispositioned_mtd": 116,
     "hot": 7,
-    "booked": 93,
+    "booked": 95,
     "offers": 70,
     "under_contract": 4,
     "closed": 0
@@ -834,7 +833,7 @@
   "pipeline_fb": {
     "leads": 145,
     "active": 99,
-    "booked": 69,
+    "booked": 71,
     "offered": 53,
     "accepted": 2,
     "under_contract": 2,
@@ -845,11 +844,11 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 47,
+        "count": 48,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 46,
+        "count": 44,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -861,7 +860,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 7,
+        "count": 8,
         "color": "#F7F0C5"
       },
       "Listed": {
@@ -943,13 +942,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 54,
+      "discoveries": 55,
       "offers": 42,
       "contracts": 6,
       "revenue": 93886.0
     },
     "Julian": {
-      "discoveries": 59,
+      "discoveries": 60,
       "offers": 49,
       "contracts": 5,
       "revenue": 46043.35
@@ -964,8 +963,8 @@
       "address": "5816 Royal Ridge Dr UNIT P, Springfield, VA 22152, USA",
       "value": 34449,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Julian"

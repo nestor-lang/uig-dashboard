@@ -1,6 +1,6 @@
 {
   "report_date": "April 30, 2026",
-  "last_updated": "2026-04-30 17:00 EST",
+  "last_updated": "2026-04-30 18:00 EST",
   "google": {
     "spend_mtd": 7402.08,
     "clicks_mtd": 267,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8544.17,
-    "clicks_30d": 2958,
+    "spend_30d": 8558.55,
+    "clicks_30d": 2963,
     "crm_leads": 145,
     "crm_leads_today": 6,
     "cpc": 2.89,
-    "cpl_crm": 58.93,
-    "cost_per_hot": 1424.03,
+    "cpl_crm": 59.02,
+    "cost_per_hot": 1711.71,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3017.52,
-        "spend_today": 74.24,
-        "clicks": 969,
+        "spend": 3023.38,
+        "spend_today": 80.1,
+        "clicks": 973,
         "crm_leads": 145,
-        "cpl_crm": 20.81
+        "cpl_crm": 20.85
       },
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad - Copy",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3886.27,
-        "spend_today": 125.51,
-        "clicks": 1400,
+        "spend": 3894.79,
+        "spend_today": 134.03,
+        "clicks": 1401,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -207,7 +207,7 @@
         "leads": 56,
         "active": 53,
         "booked": 55,
-        "offers": 42,
+        "offers": 43,
         "accepted": 6,
         "available": 1,
         "pending": 0,
@@ -534,7 +534,7 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 15946.25
+    "2026-04": 15960.63
   },
   "channel_by_month": {
     "2026-01": {
@@ -704,7 +704,7 @@
     },
     "2026-04": {
       "google_spend": 7402.08,
-      "meta_spend": 8544.17,
+      "meta_spend": 8558.55,
       "ppc_leads": 51,
       "fb_leads": 145,
       "google_cpc": 27.72,
@@ -764,7 +764,7 @@
         "leads": 145,
         "active": 99,
         "booked": 71,
-        "offered": 53,
+        "offered": 54,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 1,
@@ -774,7 +774,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 47,
+            "count": 48,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -802,7 +802,7 @@
             "color": "#F3F3F3"
           },
           "Hot": {
-            "count": 5,
+            "count": 4,
             "color": "#F7D1D0"
           },
           "Not Workable": {
@@ -824,9 +824,9 @@
   "pipeline": {
     "new_leads_30d": 196,
     "dispositioned_mtd": 116,
-    "hot": 8,
+    "hot": 7,
     "booked": 95,
-    "offers": 70,
+    "offers": 71,
     "under_contract": 4,
     "closed": 0
   },
@@ -834,7 +834,7 @@
     "leads": 145,
     "active": 99,
     "booked": 71,
-    "offered": 53,
+    "offered": 54,
     "accepted": 2,
     "under_contract": 2,
     "contract_available": 1,
@@ -844,7 +844,7 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 47,
+        "count": 48,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
@@ -872,7 +872,7 @@
         "color": "#F3F3F3"
       },
       "Hot": {
-        "count": 5,
+        "count": 4,
         "color": "#F7D1D0"
       },
       "Not Workable": {
@@ -943,7 +943,7 @@
   "reps": {
     "Charles": {
       "discoveries": 56,
-      "offers": 42,
+      "offers": 43,
       "contracts": 6,
       "revenue": 93886.0
     },
@@ -1117,12 +1117,6 @@
   },
   "hot_leads": [
     {
-      "name": "6074 Foresttown Dr",
-      "address": "6074 Foresttown Dr, Norfolk, VA 23502, USA",
-      "phone": "(757) 717-1521",
-      "source": "Facebook"
-    },
-    {
       "name": "38010 Robin Hood Rd",
       "address": "38010 Robin Hood Rd, Delmar, DE 19940, USA",
       "phone": "(443) 783-3098",
@@ -1144,6 +1138,12 @@
       "name": "6169 Remington Park",
       "address": "6169 Remington Park, Lithonia, GA 30058, USA",
       "phone": "(678) 292-8518",
+      "source": "Facebook"
+    },
+    {
+      "name": "4250 W Highland Pkwy",
+      "address": "4250 W Highland Pkwy, Buffalo, NY 14219, USA",
+      "phone": "(716) 563-5099",
       "source": "Facebook"
     }
   ],

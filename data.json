@@ -1,6 +1,6 @@
 {
   "report_date": "May 01, 2026",
-  "last_updated": "2026-05-01 07:00 EST",
+  "last_updated": "2026-05-01 08:00 EST",
   "google": {
     "spend_mtd": 0,
     "clicks_mtd": 0,
@@ -15,27 +15,27 @@
     "campaigns": []
   },
   "meta": {
-    "spend_30d": 81.34,
-    "clicks_30d": 41,
-    "crm_leads": 0,
-    "crm_leads_today": 0,
-    "cpc": 1.98,
-    "cpl_crm": null,
-    "cost_per_hot": 16.27,
+    "spend_30d": 101.65,
+    "clicks_30d": 47,
+    "crm_leads": 1,
+    "crm_leads_today": 1,
+    "cpc": 2.16,
+    "cpl_crm": 101.65,
+    "cost_per_hot": 20.33,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 30.24,
-        "spend_today": 30.24,
-        "clicks": 11,
-        "crm_leads": 0,
-        "cpl_crm": null
+        "spend": 34.89,
+        "spend_today": 34.89,
+        "clicks": 13,
+        "crm_leads": 1,
+        "cpl_crm": 34.89
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 51.1,
-        "spend_today": 51.1,
-        "clicks": 30,
+        "spend": 66.76,
+        "spend_today": 66.76,
+        "clicks": 34,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -542,8 +542,8 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 16067.83,
-    "2026-05": 81.34
+    "2026-04": 16068.18,
+    "2026-05": 101.65
   },
   "channel_by_month": {
     "2026-01": {
@@ -713,7 +713,7 @@
     },
     "2026-04": {
       "google_spend": 7402.08,
-      "meta_spend": 8665.75,
+      "meta_spend": 8666.1,
       "ppc_leads": 51,
       "fb_leads": 147,
       "google_cpc": 27.72,
@@ -831,17 +831,48 @@
     },
     "2026-05": {
       "google_spend": 0,
-      "meta_spend": 81.34,
+      "meta_spend": 101.65,
       "ppc_leads": 0,
-      "fb_leads": 0,
+      "fb_leads": 1,
       "google_cpc": null,
-      "meta_cpc": 1.98,
-      "pipeline_ppc": {},
-      "pipeline_fb": {}
+      "meta_cpc": 2.16,
+      "pipeline_ppc": {
+        "leads": 0,
+        "active": 0,
+        "booked": 0,
+        "offered": 0,
+        "accepted": 0,
+        "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
+        "closed": 0,
+        "status_breakdown": {}
+      },
+      "pipeline_fb": {
+        "leads": 1,
+        "active": 1,
+        "booked": 0,
+        "offered": 0,
+        "accepted": 0,
+        "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
+        "closed": 0,
+        "status_breakdown": {
+          "Need to Contact": {
+            "count": 1,
+            "color": "#FFD5C2"
+          }
+        }
+      }
     }
   },
   "pipeline": {
-    "new_leads_30d": 0,
+    "new_leads_30d": 1,
     "dispositioned_mtd": 0,
     "hot": 7,
     "booked": 0,
@@ -850,8 +881,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 0,
-    "active": 0,
+    "leads": 1,
+    "active": 1,
     "booked": 0,
     "offered": 0,
     "accepted": 0,
@@ -861,7 +892,12 @@
     "contract_closed": 0,
     "contract_dead": 0,
     "closed": 0,
-    "status_breakdown": {}
+    "status_breakdown": {
+      "Need to Contact": {
+        "count": 1,
+        "color": "#FFD5C2"
+      }
+    }
   },
   "pipeline_ppc": {
     "leads": 0,
@@ -1049,7 +1085,7 @@
   ],
   "sources": {
     "ppc": 0,
-    "facebook": 0,
+    "facebook": 1,
     "ppc_inbound_call": 15
   },
   "hot_leads": [

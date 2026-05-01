@@ -1,51 +1,61 @@
 {
   "report_date": "May 01, 2026",
-  "last_updated": "2026-05-01 12:00 EST",
+  "last_updated": "2026-05-01 13:00 EST",
   "google": {
-    "spend_mtd": 0,
-    "clicks_mtd": 0,
+    "spend_mtd": 9.9,
+    "clicks_mtd": 1,
     "crm_leads": 1,
     "crm_leads_today": 1,
-    "cpc": null,
-    "cpl": 0.0,
+    "cpc": 9.9,
+    "cpl": 9.9,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
     "accepted": 0,
-    "campaigns": []
+    "campaigns": [
+      {
+        "name": "Ultra Homebuyers Search Only",
+        "spend": 9.9,
+        "spend_today": 9.9,
+        "clicks": 1,
+        "cpc": 9.9,
+        "crm_leads": 0,
+        "cpl": 9.9
+      }
+    ]
   },
   "meta": {
-    "spend_30d": 184.61,
-    "clicks_30d": 74,
-    "crm_leads": 0,
-    "crm_leads_today": 0,
-    "cpc": 2.49,
-    "cpl_crm": null,
-    "cost_per_hot": 36.92,
+    "spend_30d": 205.44,
+    "clicks_30d": 88,
+    "crm_leads": 1,
+    "crm_leads_today": 1,
+    "cpc": 2.33,
+    "cpl_crm": 205.44,
+    "cost_per_hot": 41.09,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 65.89,
-        "spend_today": 65.89,
-        "clicks": 25,
-        "crm_leads": 0,
-        "cpl_crm": null
+        "spend": 72.03,
+        "spend_today": 72.03,
+        "clicks": 30,
+        "crm_leads": 1,
+        "cpl_crm": 72.03
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 118.72,
-        "spend_today": 118.72,
-        "clicks": 49,
+        "spend": 133.41,
+        "spend_today": 133.41,
+        "clicks": 58,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 467167,
+  "potential_income": 454117,
   "assigned_income": 112328,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 198664,
-    "On Market": 144920,
+    "On Market": 131870,
     "Initial Inspection Completed": 93184,
     "Access Scheduled": 30399
   },
@@ -152,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 21,
         "offers": 24,
@@ -163,10 +173,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 44,
+        "leads": 42,
         "active": 9,
         "booked": 27,
         "offers": 41,
@@ -177,12 +187,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 44
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 56,
+        "leads": 57,
         "active": 54,
         "booked": 55,
         "offers": 43,
@@ -193,10 +203,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 56
+        "discoveries": 57
       },
       "Julian": {
-        "leads": 61,
+        "leads": 60,
         "active": 64,
         "booked": 67,
         "offers": 49,
@@ -207,15 +217,15 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 61
+        "discoveries": 60
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 1,
+        "leads": 2,
         "active": 1,
         "booked": 0,
-        "offers": 0,
+        "offers": 1,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -223,7 +233,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 1
+        "discoveries": 2
       },
       "Julian": {
         "leads": 1,
@@ -434,14 +444,12 @@
         },
         "2026-03": {
           "counts": {
-            "available": 1,
-            "dead": 2,
+            "dead": 3,
             "closed": 1,
             "on_hold": 1
           },
           "gp": {
-            "available": 13050,
-            "dead": 47000,
+            "dead": 60050,
             "closed": 7126,
             "on_hold": 50200
           },
@@ -465,15 +473,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 5,
-          "dead": 7,
+          "available": 4,
+          "dead": 8,
           "pending": 1,
           "on_hold": 3,
           "closed": 4
         },
         "gp": {
-          "available": 259372,
-          "dead": 128567,
+          "available": 246322,
+          "dead": 141617,
           "pending": 20000,
           "on_hold": 178108,
           "closed": 112402
@@ -518,15 +526,6 @@
           "contract_month": "2026-04"
         },
         {
-          "address": "1010 6th Ave S, Jasper, AL 35501, USA",
-          "value": 13050,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
-        },
-        {
           "address": "8910 Club River Dr, Roswell, GA 30076, USA",
           "value": 158064,
           "status": "Available",
@@ -543,7 +542,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.49,
-    "2026-05": 184.61
+    "2026-05": 215.34
   },
   "channel_by_month": {
     "2026-01": {
@@ -666,10 +665,10 @@
         "offered": 12,
         "accepted": 2,
         "under_contract": 2,
-        "contract_available": 2,
+        "contract_available": 1,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
@@ -826,33 +825,14 @@
       }
     },
     "2026-05": {
-      "google_spend": 0,
-      "meta_spend": 184.61,
+      "google_spend": 9.9,
+      "meta_spend": 205.44,
       "ppc_leads": 1,
-      "fb_leads": 0,
-      "google_cpc": null,
-      "meta_cpc": 2.49,
+      "fb_leads": 1,
+      "google_cpc": 9.9,
+      "meta_cpc": 2.33,
       "pipeline_ppc": {
         "leads": 1,
-        "active": 1,
-        "booked": 0,
-        "offered": 0,
-        "accepted": 0,
-        "under_contract": 0,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Need to Contact": {
-            "count": 1,
-            "color": "#FFD5C2"
-          }
-        }
-      },
-      "pipeline_fb": {
-        "leads": 0,
         "active": 0,
         "booked": 0,
         "offered": 0,
@@ -863,21 +843,64 @@
         "contract_closed": 0,
         "contract_dead": 0,
         "closed": 0,
-        "status_breakdown": {}
+        "status_breakdown": {
+          "Dead": {
+            "count": 1,
+            "color": "#F3F3F3"
+          }
+        }
+      },
+      "pipeline_fb": {
+        "leads": 1,
+        "active": 1,
+        "booked": 1,
+        "offered": 1,
+        "accepted": 0,
+        "under_contract": 0,
+        "contract_available": 0,
+        "contract_pending": 0,
+        "contract_closed": 0,
+        "contract_dead": 0,
+        "closed": 0,
+        "status_breakdown": {
+          "Cold": {
+            "count": 1,
+            "color": "#D2E4EB"
+          }
+        }
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 1,
-    "dispositioned_mtd": 2,
+    "new_leads_30d": 2,
+    "dispositioned_mtd": 3,
     "hot": 7,
-    "booked": 0,
-    "offers": 0,
+    "booked": 1,
+    "offers": 1,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 0,
+    "leads": 1,
+    "active": 1,
+    "booked": 1,
+    "offered": 1,
+    "accepted": 0,
+    "under_contract": 0,
+    "contract_available": 0,
+    "contract_pending": 0,
+    "contract_closed": 0,
+    "contract_dead": 0,
+    "closed": 0,
+    "status_breakdown": {
+      "Cold": {
+        "count": 1,
+        "color": "#D2E4EB"
+      }
+    }
+  },
+  "pipeline_ppc": {
+    "leads": 1,
     "active": 0,
     "booked": 0,
     "offered": 0,
@@ -888,31 +911,17 @@
     "contract_closed": 0,
     "contract_dead": 0,
     "closed": 0,
-    "status_breakdown": {}
-  },
-  "pipeline_ppc": {
-    "leads": 1,
-    "active": 1,
-    "booked": 0,
-    "offered": 0,
-    "accepted": 0,
-    "under_contract": 0,
-    "contract_available": 0,
-    "contract_pending": 0,
-    "contract_closed": 0,
-    "contract_dead": 0,
-    "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
+      "Dead": {
         "count": 1,
-        "color": "#FFD5C2"
+        "color": "#F3F3F3"
       }
     }
   },
   "reps": {
     "Charles": {
-      "discoveries": 1,
-      "offers": 0,
+      "discoveries": 2,
+      "offers": 1,
       "contracts": 0,
       "revenue": 0.0
     },
@@ -925,7 +934,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 274507,
-    "Charles": 279373
+    "Charles": 266323
   },
   "agent_deals": [
     {
@@ -1059,16 +1068,6 @@
       "agent": "Charles"
     },
     {
-      "address": "1010 6th Ave S, Jasper, AL 35501, USA",
-      "value": 13050,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Charles"
-    },
-    {
       "address": "8910 Club River Dr, Roswell, GA 30076, USA",
       "value": 158064,
       "status": "Available",
@@ -1081,7 +1080,7 @@
   ],
   "sources": {
     "ppc": 1,
-    "facebook": 0,
+    "facebook": 1,
     "ppc_inbound_call": 15
   },
   "hot_leads": [

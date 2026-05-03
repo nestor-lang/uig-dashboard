@@ -1,6 +1,6 @@
 {
   "report_date": "May 03, 2026",
-  "last_updated": "2026-05-03 11:34 EST",
+  "last_updated": "2026-05-03 11:43 EST",
   "google": {
     "spend_mtd": 369.23,
     "clicks_mtd": 12,
@@ -25,36 +25,48 @@
     ]
   },
   "meta": {
-    "spend_30d": 832.58,
+    "spend_30d": 838.23,
     "clicks_30d": 497,
     "crm_leads": 11,
     "crm_leads_today": 1,
-    "cpc": 1.68,
-    "cpl_crm": 75.69,
-    "cost_per_hot": 208.15,
+    "cpc": 1.69,
+    "cpl_crm": 76.2,
+    "cost_per_hot": 209.56,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 289.24,
-        "spend_today": 50.35,
+        "spend": 291.18,
+        "spend_today": 52.29,
         "clicks": 119,
         "crm_leads": 11,
-        "cpl_crm": 26.29
+        "cpl_crm": 26.47
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 543.34,
-        "spend_today": 102.55,
+        "spend": 547.05,
+        "spend_today": 106.26,
         "clicks": 378,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 0,
-  "assigned_income": 0,
-  "by_stage": {},
-  "by_agent": {},
+  "potential_income": 251780,
+  "assigned_income": 112328,
+  "by_stage": {
+    "Market Prep / Pre-Listing Marketing": 193039,
+    "On Market": 155158,
+    "Initial Inspection Completed": 93184,
+    "Access Scheduled": 30399,
+    "New Deal - Unscheduled": -220000
+  },
+  "by_agent": {
+    "Virginia": 38650,
+    "Alabama": 25616,
+    "Delaware": 20000,
+    "Kentucky": 15012,
+    "Georgia": 13050
+  },
   "closed_by_month": {
     "2026-01": 194741,
     "2026-02": 181515,
@@ -85,7 +97,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1201.81
+      "spend": 1207.29
     }
   },
   "reps_by_month": {
@@ -558,7 +570,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 1202.76
+    "2026-05": 1207.73
   },
   "channel_by_month": {
     "2026-01": {
@@ -842,11 +854,11 @@
     },
     "2026-05": {
       "google_spend": 369.23,
-      "meta_spend": 833.53,
+      "meta_spend": 838.5,
       "ppc_leads": 6,
       "fb_leads": 11,
       "google_cpc": 30.77,
-      "meta_cpc": 1.68,
+      "meta_cpc": 1.69,
       "pipeline_ppc": {
         "leads": 6,
         "active": 5,

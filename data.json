@@ -1,12 +1,12 @@
 {
   "report_date": "May 04, 2026",
-  "last_updated": "2026-05-04 14:14 AST",
+  "last_updated": "2026-05-04 18:19 AST",
   "google": {
-    "spend_mtd": 603.03,
-    "clicks_mtd": 21,
-    "crm_leads": 6,
-    "cpc": 28.72,
-    "cpl": 100.51,
+    "spend_mtd": 974.06,
+    "clicks_mtd": 25,
+    "crm_leads": 8,
+    "cpc": 38.96,
+    "cpl": 121.76,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,36 +14,36 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 603.03,
-        "spend_today": 0.0,
-        "clicks": 21,
-        "cpc": 28.72,
+        "spend": 974.06,
+        "spend_today": 371.02,
+        "clicks": 25,
+        "cpc": 38.96,
         "crm_leads": 0,
-        "cpl": 100.51
+        "cpl": 121.76
       }
     ]
   },
   "meta": {
-    "spend_30d": 1263.61,
-    "clicks_30d": 641,
-    "crm_leads": 22,
-    "cpc": 1.97,
-    "cpl_crm": 57.44,
-    "cost_per_hot": 315.9,
+    "spend_30d": 1332.61,
+    "clicks_30d": 659,
+    "crm_leads": 23,
+    "cpc": 2.02,
+    "cpl_crm": 57.94,
+    "cost_per_hot": 333.15,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 452.08,
-        "spend_today": 62.91,
-        "clicks": 174,
-        "crm_leads": 22,
-        "cpl_crm": 20.55
+        "spend": 481.11,
+        "spend_today": 91.84,
+        "clicks": 183,
+        "crm_leads": 23,
+        "cpl_crm": 20.92
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 811.53,
-        "spend_today": 113.67,
-        "clicks": 467,
+        "spend": 851.5,
+        "spend_today": 153.53,
+        "clicks": 476,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -52,10 +52,10 @@
   "potential_income": 515039,
   "assigned_income": 112328,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 193039,
-    "On Market": 155158,
+    "On Market": 307597,
     "Initial Inspection Completed": 93184,
     "New Deal - Unscheduled": 43259,
+    "Market Prep / Pre-Listing Marketing": 40600,
     "Access Scheduled": 30399
   },
   "by_agent": {
@@ -95,7 +95,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1866.6299999999999
+      "spend": 2306.67
     }
   },
   "reps_by_month": {
@@ -187,7 +187,7 @@
       "Charles": {
         "leads": 57,
         "active": 55,
-        "booked": 56,
+        "booked": 67,
         "offers": 43,
         "accepted": 6,
         "available": 1,
@@ -198,14 +198,14 @@
         "closed_revenue": 224724.64
       },
       "Julian": {
-        "leads": 61,
+        "leads": 60,
         "active": 64,
-        "booked": 69,
-        "offers": 49,
+        "booked": 93,
+        "offers": 48,
         "accepted": 5,
-        "available": 3,
+        "available": 5,
         "pending": 0,
-        "dead": 1,
+        "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35
@@ -213,9 +213,9 @@
     },
     "2026-05": {
       "Charles": {
-        "leads": 2,
-        "active": 7,
-        "booked": 1,
+        "leads": 3,
+        "active": 9,
+        "booked": 3,
         "offers": 2,
         "accepted": 0,
         "available": 0,
@@ -226,10 +226,10 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 2,
+        "leads": 3,
         "active": 4,
-        "booked": 0,
-        "offers": 2,
+        "booked": 1,
+        "offers": 3,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -410,7 +410,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 1866.63
+    "2026-05": 2306.67
   },
   "channel_by_month": {
     "2026-01": {
@@ -502,25 +502,25 @@
       }
     },
     "2026-05": {
-      "google_spend": 603.03,
-      "meta_spend": 1263.6,
-      "ppc_leads": 6,
-      "fb_leads": 22,
-      "google_cpc": 28.72,
-      "meta_cpc": 1.97,
+      "google_spend": 974.06,
+      "meta_spend": 1332.61,
+      "ppc_leads": 8,
+      "fb_leads": 23,
+      "google_cpc": 38.96,
+      "meta_cpc": 2.02,
       "pipeline_ppc": {
-        "leads": 6,
-        "active": 5,
-        "booked": 0,
-        "offered": 0,
+        "leads": 8,
+        "active": 6,
+        "booked": 1,
+        "offered": 1,
         "accepted": 0,
         "under_contract": 0,
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 22,
-        "active": 21,
-        "booked": 1,
+        "leads": 23,
+        "active": 22,
+        "booked": 2,
         "offered": 1,
         "accepted": 0,
         "under_contract": 0,
@@ -529,34 +529,34 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 28,
-    "hot": 5,
-    "booked": 1,
-    "offers": 1,
+    "new_leads_30d": 31,
+    "hot": 6,
+    "booked": 3,
+    "offers": 2,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 22,
-    "active": 21,
-    "booked": 1,
+    "leads": 23,
+    "active": 22,
+    "booked": 2,
     "offered": 1,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 6,
-    "active": 5,
-    "booked": 0,
-    "offered": 0,
+    "leads": 8,
+    "active": 6,
+    "booked": 1,
+    "offered": 1,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
   },
   "sources": {
-    "ppc": 6,
-    "facebook": 22,
+    "ppc": 8,
+    "facebook": 23,
     "ppc_inbound_call": 14
   },
   "hot_leads": [
@@ -585,9 +585,9 @@
       "source": "Facebook"
     },
     {
-      "name": "325 Belview Ave",
-      "address": "325 Belview Ave, Canton, MS 39046, USA",
-      "phone": "(601) 291-6033",
+      "name": "308 Paul Rd",
+      "address": "308 Paul Rd, Rochester, NY 14624, USA",
+      "phone": "(585) 957-2586",
       "source": "PPC"
     }
   ],

@@ -1,12 +1,12 @@
 {
   "report_date": "May 04, 2026",
-  "last_updated": "2026-05-04 18:19 AST",
+  "last_updated": "2026-05-04 20:20 AST",
   "google": {
-    "spend_mtd": 974.06,
-    "clicks_mtd": 25,
-    "crm_leads": 8,
-    "cpc": 38.96,
-    "cpl": 121.76,
+    "spend_mtd": 1060.47,
+    "clicks_mtd": 26,
+    "crm_leads": 7,
+    "cpc": 40.79,
+    "cpl": 151.5,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,49 +14,48 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 974.06,
-        "spend_today": 371.02,
-        "clicks": 25,
-        "cpc": 38.96,
+        "spend": 1060.47,
+        "spend_today": 457.43,
+        "clicks": 26,
+        "cpc": 40.79,
         "crm_leads": 0,
-        "cpl": 121.76
+        "cpl": 151.5
       }
     ]
   },
   "meta": {
-    "spend_30d": 1332.61,
-    "clicks_30d": 659,
-    "crm_leads": 23,
-    "cpc": 2.02,
-    "cpl_crm": 57.94,
-    "cost_per_hot": 333.15,
+    "spend_30d": 1378.96,
+    "clicks_30d": 669,
+    "crm_leads": 22,
+    "cpc": 2.06,
+    "cpl_crm": 62.68,
+    "cost_per_hot": 275.79,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 481.11,
-        "spend_today": 91.84,
-        "clicks": 183,
-        "crm_leads": 23,
-        "cpl_crm": 20.92
+        "spend": 501.78,
+        "spend_today": 112.51,
+        "clicks": 188,
+        "crm_leads": 22,
+        "cpl_crm": 22.81
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 851.5,
-        "spend_today": 153.53,
-        "clicks": 476,
+        "spend": 877.18,
+        "spend_today": 179.15,
+        "clicks": 481,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 515039,
+  "potential_income": 488642,
   "assigned_income": 112328,
   "by_stage": {
-    "On Market": 307597,
-    "Initial Inspection Completed": 93184,
+    "On Market": 281201,
+    "Initial Inspection Completed": 123583,
     "New Deal - Unscheduled": 43259,
-    "Market Prep / Pre-Listing Marketing": 40600,
-    "Access Scheduled": 30399
+    "Market Prep / Pre-Listing Marketing": 40600
   },
   "by_agent": {
     "Virginia": 38650,
@@ -95,7 +94,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2306.67
+      "spend": 2439.4300000000003
     }
   },
   "reps_by_month": {
@@ -171,8 +170,8 @@
       },
       "Julian": {
         "leads": 44,
-        "active": 9,
-        "booked": 27,
+        "active": 8,
+        "booked": 26,
         "offers": 41,
         "accepted": 7,
         "available": 4,
@@ -186,9 +185,9 @@
     "2026-04": {
       "Charles": {
         "leads": 57,
-        "active": 55,
+        "active": 54,
         "booked": 67,
-        "offers": 43,
+        "offers": 42,
         "accepted": 6,
         "available": 1,
         "pending": 0,
@@ -199,7 +198,7 @@
       },
       "Julian": {
         "leads": 60,
-        "active": 64,
+        "active": 63,
         "booked": 93,
         "offers": 48,
         "accepted": 5,
@@ -214,9 +213,9 @@
     "2026-05": {
       "Charles": {
         "leads": 3,
-        "active": 9,
+        "active": 7,
         "booked": 3,
-        "offers": 2,
+        "offers": 4,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -227,7 +226,7 @@
       },
       "Julian": {
         "leads": 3,
-        "active": 4,
+        "active": 5,
         "booked": 1,
         "offers": 3,
         "accepted": 1,
@@ -252,7 +251,7 @@
           "gp": {
             "closed": 140203,
             "dead": 276879,
-            "available": 19059
+            "available": 16684
           },
           "total": 21
         },
@@ -296,7 +295,7 @@
           },
           "gp": {
             "dead": 59999,
-            "available": 118949,
+            "available": 109449,
             "on_hold": 27610
           },
           "total": 5
@@ -320,7 +319,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 274342,
+          "available": 262467,
           "dead": 458227,
           "on_hold": 77500,
           "pending": 66712,
@@ -378,7 +377,7 @@
             "on_hold": 1
           },
           "gp": {
-            "available": 88259,
+            "available": 73737,
             "dead": 19840,
             "pending": 20000,
             "on_hold": 78249
@@ -395,7 +394,7 @@
           "closed": 4
         },
         "gp": {
-          "available": 240697,
+          "available": 226176,
           "dead": 141617,
           "pending": 20000,
           "on_hold": 178108,
@@ -410,7 +409,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 2306.67
+    "2026-05": 2439.43
   },
   "channel_by_month": {
     "2026-01": {
@@ -427,7 +426,7 @@
       "google_spend": 0,
       "meta_spend": 1731.32,
       "ppc_leads": 0,
-      "fb_leads": 17,
+      "fb_leads": 16,
       "google_cpc": null,
       "meta_cpc": 2.12,
       "pipeline_ppc": {
@@ -440,9 +439,9 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 17,
-        "active": 9,
-        "booked": 8,
+        "leads": 16,
+        "active": 8,
+        "booked": 7,
         "offered": 6,
         "accepted": 0,
         "under_contract": 0,
@@ -478,12 +477,12 @@
     "2026-04": {
       "google_spend": 7402.08,
       "meta_spend": 8666.51,
-      "ppc_leads": 51,
+      "ppc_leads": 49,
       "fb_leads": 147,
       "google_cpc": 27.72,
       "meta_cpc": 2.88,
       "pipeline_ppc": {
-        "leads": 51,
+        "leads": 49,
         "active": 30,
         "booked": 26,
         "offered": 17,
@@ -493,7 +492,7 @@
       },
       "pipeline_fb": {
         "leads": 147,
-        "active": 97,
+        "active": 93,
         "booked": 72,
         "offered": 56,
         "accepted": 2,
@@ -502,15 +501,15 @@
       }
     },
     "2026-05": {
-      "google_spend": 974.06,
-      "meta_spend": 1332.61,
-      "ppc_leads": 8,
-      "fb_leads": 23,
-      "google_cpc": 38.96,
-      "meta_cpc": 2.02,
+      "google_spend": 1060.47,
+      "meta_spend": 1378.96,
+      "ppc_leads": 7,
+      "fb_leads": 22,
+      "google_cpc": 40.79,
+      "meta_cpc": 2.06,
       "pipeline_ppc": {
-        "leads": 8,
-        "active": 6,
+        "leads": 7,
+        "active": 4,
         "booked": 1,
         "offered": 1,
         "accepted": 0,
@@ -518,8 +517,8 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 23,
-        "active": 22,
+        "leads": 22,
+        "active": 21,
         "booked": 2,
         "offered": 1,
         "accepted": 0,
@@ -529,16 +528,16 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 31,
-    "hot": 6,
+    "new_leads_30d": 29,
+    "hot": 7,
     "booked": 3,
     "offers": 2,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 23,
-    "active": 22,
+    "leads": 22,
+    "active": 21,
     "booked": 2,
     "offered": 1,
     "accepted": 0,
@@ -546,8 +545,8 @@
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 8,
-    "active": 6,
+    "leads": 7,
+    "active": 4,
     "booked": 1,
     "offered": 1,
     "accepted": 0,
@@ -555,11 +554,17 @@
     "closed": 0
   },
   "sources": {
-    "ppc": 8,
-    "facebook": 23,
-    "ppc_inbound_call": 14
+    "ppc": 7,
+    "facebook": 22,
+    "ppc_inbound_call": 16
   },
   "hot_leads": [
+    {
+      "name": "15905 Narrows Terrace",
+      "address": "15905 Narrows Terrace, Silver Spring, MD 20906, USA",
+      "phone": "(202) 573-1185",
+      "source": "Facebook"
+    },
     {
       "name": "3019 Flint Mill Run SE",
       "address": "3019 Flint Mill Run SE, Owens Cross Roads, AL 35763, USA",
@@ -583,12 +588,6 @@
       "address": "6169 Remington Park, Lithonia, GA 30058, USA",
       "phone": "(678) 292-8518",
       "source": "Facebook"
-    },
-    {
-      "name": "308 Paul Rd",
-      "address": "308 Paul Rd, Rochester, NY 14624, USA",
-      "phone": "(585) 957-2586",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

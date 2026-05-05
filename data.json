@@ -1,12 +1,12 @@
 {
   "report_date": "May 05, 2026",
-  "last_updated": "2026-05-05 16:29 AST",
+  "last_updated": "2026-05-05 18:14 AST",
   "google": {
-    "spend_mtd": 1068.2,
-    "clicks_mtd": 27,
+    "spend_mtd": 1217.16,
+    "clicks_mtd": 29,
     "crm_leads": 9,
-    "cpc": 39.56,
-    "cpl": 118.69,
+    "cpc": 41.97,
+    "cpl": 135.24,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,48 +14,48 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1068.2,
-        "spend_today": 7.73,
-        "clicks": 27,
-        "cpc": 39.56,
+        "spend": 1217.16,
+        "spend_today": 156.7,
+        "clicks": 29,
+        "cpc": 41.97,
         "crm_leads": 0,
-        "cpl": 118.69
+        "cpl": 135.24
       }
     ]
   },
   "meta": {
-    "spend_30d": 1733.86,
-    "clicks_30d": 790,
+    "spend_30d": 1768.49,
+    "clicks_30d": 798,
     "crm_leads": 28,
-    "cpc": 2.19,
-    "cpl_crm": 61.92,
-    "cost_per_hot": 346.77,
+    "cpc": 2.22,
+    "cpl_crm": 63.16,
+    "cost_per_hot": 442.12,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 629.24,
-        "spend_today": 67.93,
-        "clicks": 238,
+        "spend": 644.94,
+        "spend_today": 83.57,
+        "clicks": 242,
         "crm_leads": 28,
-        "cpl_crm": 22.47
+        "cpl_crm": 23.03
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1104.62,
-        "spend_today": 117.45,
-        "clicks": 552,
+        "spend": 1123.55,
+        "spend_today": 136.38,
+        "clicks": 556,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 566791,
+  "potential_income": 565291,
   "assigned_income": 112328,
   "by_stage": {
-    "On Market": 281101,
+    "On Market": 257813,
     "Initial Inspection Completed": 123583,
     "Access Scheduled": 121508,
-    "Market Prep / Pre-Listing Marketing": 40600
+    "Market Prep / Pre-Listing Marketing": 62388
   },
   "by_agent": {
     "Virginia": 38650,
@@ -94,7 +94,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2802.06
+      "spend": 2985.65
     }
   },
   "reps_by_month": {
@@ -226,7 +226,7 @@
       },
       "Julian": {
         "leads": 4,
-        "active": 5,
+        "active": 6,
         "booked": 2,
         "offers": 4,
         "accepted": 1,
@@ -268,7 +268,7 @@
             "pending": 38650,
             "on_hold": 49890,
             "closed": 16175,
-            "available": 34340
+            "available": 32840
           },
           "total": 8
         },
@@ -319,7 +319,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 262467,
+          "available": 260967,
           "dead": 458227,
           "on_hold": 77500,
           "pending": 66712,
@@ -407,7 +407,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 2802.06
+    "2026-05": 2985.65
   },
   "channel_by_month": {
     "2026-01": {
@@ -499,12 +499,12 @@
       }
     },
     "2026-05": {
-      "google_spend": 1068.2,
-      "meta_spend": 1733.86,
+      "google_spend": 1217.16,
+      "meta_spend": 1768.49,
       "ppc_leads": 9,
       "fb_leads": 28,
-      "google_cpc": 39.56,
-      "meta_cpc": 2.19,
+      "google_cpc": 41.97,
+      "meta_cpc": 2.22,
       "pipeline_ppc": {
         "leads": 9,
         "active": 3,
@@ -527,7 +527,7 @@
   },
   "pipeline": {
     "new_leads_30d": 37,
-    "hot": 7,
+    "hot": 6,
     "booked": 4,
     "offers": 3,
     "under_contract": 0,
@@ -558,12 +558,6 @@
   },
   "hot_leads": [
     {
-      "name": "15905 Narrows Terrace",
-      "address": "15905 Narrows Terrace, Silver Spring, MD 20906, USA",
-      "phone": "(202) 573-1185",
-      "source": "Facebook"
-    },
-    {
       "name": "3019 Flint Mill Run SE",
       "address": "3019 Flint Mill Run SE, Owens Cross Roads, AL 35763, USA",
       "phone": "(256) 479-3080",
@@ -586,6 +580,12 @@
       "address": "6169 Remington Park, Lithonia, GA 30058, USA",
       "phone": "(678) 292-8518",
       "source": "Facebook"
+    },
+    {
+      "name": "308 Paul Rd",
+      "address": "308 Paul Rd, Rochester, NY 14624, USA",
+      "phone": "(585) 957-2586",
+      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

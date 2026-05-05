@@ -1,12 +1,12 @@
 {
   "report_date": "May 05, 2026",
-  "last_updated": "2026-05-05 11:19 AST",
+  "last_updated": "2026-05-05 16:29 AST",
   "google": {
-    "spend_mtd": 1060.47,
-    "clicks_mtd": 26,
-    "crm_leads": 8,
-    "cpc": 40.79,
-    "cpl": 132.56,
+    "spend_mtd": 1068.2,
+    "clicks_mtd": 27,
+    "crm_leads": 9,
+    "cpc": 39.56,
+    "cpl": 118.69,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,47 +14,47 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1060.47,
-        "spend_today": 0.0,
-        "clicks": 26,
-        "cpc": 40.79,
+        "spend": 1068.2,
+        "spend_today": 7.73,
+        "clicks": 27,
+        "cpc": 39.56,
         "crm_leads": 0,
-        "cpl": 132.56
+        "cpl": 118.69
       }
     ]
   },
   "meta": {
-    "spend_30d": 1611.44,
-    "clicks_30d": 751,
-    "crm_leads": 26,
-    "cpc": 2.15,
-    "cpl_crm": 61.98,
-    "cost_per_hot": 322.29,
+    "spend_30d": 1733.86,
+    "clicks_30d": 790,
+    "crm_leads": 28,
+    "cpc": 2.19,
+    "cpl_crm": 61.92,
+    "cost_per_hot": 346.77,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 576.87,
-        "spend_today": 17.87,
-        "clicks": 221,
-        "crm_leads": 26,
-        "cpl_crm": 22.19
+        "spend": 629.24,
+        "spend_today": 67.93,
+        "clicks": 238,
+        "crm_leads": 28,
+        "cpl_crm": 22.47
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1034.57,
-        "spend_today": 47.81,
-        "clicks": 530,
+        "spend": 1104.62,
+        "spend_today": 117.45,
+        "clicks": 552,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 488642,
+  "potential_income": 566791,
   "assigned_income": 112328,
   "by_stage": {
-    "On Market": 281201,
+    "On Market": 281101,
     "Initial Inspection Completed": 123583,
-    "Access Scheduled": 43259,
+    "Access Scheduled": 121508,
     "Market Prep / Pre-Listing Marketing": 40600
   },
   "by_agent": {
@@ -94,7 +94,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2671.91
+      "spend": 2802.06
     }
   },
   "reps_by_month": {
@@ -194,11 +194,11 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 224724.64
+        "closed_revenue": 224624.64
       },
       "Julian": {
         "leads": 60,
-        "active": 62,
+        "active": 61,
         "booked": 93,
         "offers": 48,
         "accepted": 5,
@@ -215,7 +215,7 @@
         "leads": 3,
         "active": 7,
         "booked": 3,
-        "offers": 4,
+        "offers": 5,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -225,9 +225,9 @@
         "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 3,
-        "active": 4,
-        "booked": 1,
+        "leads": 4,
+        "active": 5,
+        "booked": 2,
         "offers": 4,
         "accepted": 1,
         "available": 0,
@@ -352,7 +352,7 @@
           "gp": {
             "dead": 49442,
             "closed": 42660,
-            "available": 152439
+            "available": 152339
           },
           "total": 5
         },
@@ -371,34 +371,32 @@
         },
         "2026-04": {
           "counts": {
-            "available": 3,
+            "available": 4,
             "dead": 1,
-            "pending": 1,
-            "on_hold": 1
+            "pending": 1
           },
           "gp": {
-            "available": 73737,
+            "available": 151986,
             "dead": 19840,
-            "pending": 20000,
-            "on_hold": 78249
+            "pending": 20000
           },
           "total": 6
         }
       },
       "all_time": {
         "counts": {
-          "available": 4,
+          "available": 5,
           "dead": 8,
           "pending": 1,
-          "on_hold": 3,
-          "closed": 4
+          "closed": 4,
+          "on_hold": 2
         },
         "gp": {
-          "available": 226176,
+          "available": 304325,
           "dead": 141617,
           "pending": 20000,
-          "on_hold": 178108,
-          "closed": 112402
+          "closed": 112402,
+          "on_hold": 99859
         },
         "total": 20
       }
@@ -409,7 +407,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 2671.91
+    "2026-05": 2802.06
   },
   "channel_by_month": {
     "2026-01": {
@@ -492,7 +490,7 @@
       },
       "pipeline_fb": {
         "leads": 146,
-        "active": 92,
+        "active": 89,
         "booked": 72,
         "offered": 56,
         "accepted": 2,
@@ -501,15 +499,15 @@
       }
     },
     "2026-05": {
-      "google_spend": 1060.47,
-      "meta_spend": 1611.44,
-      "ppc_leads": 8,
-      "fb_leads": 26,
-      "google_cpc": 40.79,
-      "meta_cpc": 2.15,
+      "google_spend": 1068.2,
+      "meta_spend": 1733.86,
+      "ppc_leads": 9,
+      "fb_leads": 28,
+      "google_cpc": 39.56,
+      "meta_cpc": 2.19,
       "pipeline_ppc": {
-        "leads": 8,
-        "active": 4,
+        "leads": 9,
+        "active": 3,
         "booked": 1,
         "offered": 1,
         "accepted": 0,
@@ -517,10 +515,10 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 26,
+        "leads": 28,
         "active": 24,
-        "booked": 2,
-        "offered": 1,
+        "booked": 3,
+        "offered": 2,
         "accepted": 0,
         "under_contract": 0,
         "closed": 0
@@ -528,25 +526,25 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 34,
+    "new_leads_30d": 37,
     "hot": 7,
-    "booked": 3,
-    "offers": 2,
+    "booked": 4,
+    "offers": 3,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 26,
+    "leads": 28,
     "active": 24,
-    "booked": 2,
-    "offered": 1,
+    "booked": 3,
+    "offered": 2,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 8,
-    "active": 4,
+    "leads": 9,
+    "active": 3,
     "booked": 1,
     "offered": 1,
     "accepted": 0,
@@ -554,8 +552,8 @@
     "closed": 0
   },
   "sources": {
-    "ppc": 8,
-    "facebook": 26,
+    "ppc": 9,
+    "facebook": 28,
     "ppc_inbound_call": 16
   },
   "hot_leads": [

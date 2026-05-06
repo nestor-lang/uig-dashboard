@@ -1,6 +1,6 @@
 {
   "report_date": "May 06, 2026",
-  "last_updated": "2026-05-06 15:01 EST",
+  "last_updated": "2026-05-06 16:00 EST",
   "google": {
     "spend_mtd": 1551.93,
     "clicks_mtd": 37,
@@ -25,39 +25,39 @@
     ]
   },
   "meta": {
-    "spend_30d": 2192.01,
-    "clicks_30d": 919,
+    "spend_30d": 2216.64,
+    "clicks_30d": 927,
     "crm_leads": 37,
     "crm_leads_today": 5,
     "cpc": 2.39,
-    "cpl_crm": 59.24,
-    "cost_per_hot": 548.0,
+    "cpl_crm": 59.91,
+    "cost_per_hot": 554.16,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 778.06,
-        "spend_today": 96.18,
-        "clicks": 281,
+        "spend": 789.75,
+        "spend_today": 107.87,
+        "clicks": 283,
         "crm_leads": 37,
-        "cpl_crm": 21.03
+        "cpl_crm": 21.34
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1413.95,
-        "spend_today": 171.65,
-        "clicks": 638,
+        "spend": 1426.89,
+        "spend_today": 184.59,
+        "clicks": 644,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 585291,
+  "potential_income": 602900,
   "assigned_income": 113968,
   "by_stage": {
     "On Market": 257813,
     "Initial Inspection Completed": 123583,
     "Access Scheduled": 121508,
-    "Market Prep / Pre-Listing Marketing": 62388,
+    "Market Prep / Pre-Listing Marketing": 79997,
     "New Deal - Unscheduled": 20000
   },
   "by_agent": {
@@ -97,7 +97,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3743.9400000000005
+      "spend": 3766.0299999999997
     }
   },
   "reps_by_month": {
@@ -163,7 +163,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -174,10 +174,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 42,
+        "leads": 44,
         "active": 9,
         "booked": 19,
         "offers": 41,
@@ -188,15 +188,15 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 44
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 53,
+        "leads": 51,
         "active": 54,
         "booked": 44,
-        "offers": 39,
+        "offers": 38,
         "accepted": 6,
         "available": 1,
         "pending": 0,
@@ -204,10 +204,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 53
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 54,
+        "leads": 55,
         "active": 61,
         "booked": 54,
         "offers": 43,
@@ -218,15 +218,15 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 55
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 8,
+        "leads": 10,
         "active": 10,
         "booked": 2,
-        "offers": 10,
+        "offers": 12,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -234,13 +234,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 8
+        "discoveries": 10
       },
       "Julian": {
         "leads": 9,
         "active": 9,
         "booked": 5,
-        "offers": 9,
+        "offers": 10,
         "accepted": 2,
         "available": 0,
         "pending": 0,
@@ -287,16 +287,16 @@
         },
         "2026-03": {
           "counts": {
-            "dead": 3,
-            "available": 1,
+            "available": 2,
             "pending": 2,
-            "closed": 1
+            "closed": 1,
+            "dead": 2
           },
           "gp": {
-            "dead": 28484,
-            "available": 58735,
+            "available": 76344,
             "pending": 29702,
-            "closed": 29869
+            "closed": 29869,
+            "dead": 19875
           },
           "total": 7
         },
@@ -325,15 +325,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
-          "dead": 20,
+          "available": 10,
+          "dead": 19,
           "on_hold": 2,
           "pending": 3,
           "closed": 9
         },
         "gp": {
-          "available": 280967,
-          "dead": 458227,
+          "available": 298576,
+          "dead": 449618,
           "on_hold": 77500,
           "pending": 68352,
           "closed": 186246
@@ -385,6 +385,15 @@
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
+        },
+        {
+          "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
+          "value": 17609,
+          "status": "Available",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
         },
         {
           "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
@@ -584,7 +593,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 3743.94
+    "2026-05": 3768.57
   },
   "channel_by_month": {
     "2026-01": {
@@ -769,7 +778,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 16,
+            "count": 15,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -781,7 +790,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 4,
+            "count": 5,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -828,11 +837,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 52,
+            "count": 55,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 36,
+            "count": 34,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -844,7 +853,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 9,
+            "count": 8,
             "color": "#F7F0C5"
           },
           "Listed": {
@@ -876,7 +885,7 @@
     },
     "2026-05": {
       "google_spend": 1551.93,
-      "meta_spend": 2192.01,
+      "meta_spend": 2216.64,
       "ppc_leads": 10,
       "fb_leads": 37,
       "google_cpc": 41.94,
@@ -924,7 +933,7 @@
         "leads": 37,
         "active": 30,
         "booked": 6,
-        "offered": 4,
+        "offered": 5,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -938,20 +947,20 @@
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 13,
+            "count": 14,
             "color": "#D2E4EB"
           },
           "Dead": {
             "count": 3,
             "color": "#F3F3F3"
           },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
           "Wrong Number": {
             "count": 2,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 1,
@@ -967,10 +976,10 @@
   },
   "pipeline": {
     "new_leads_30d": 47,
-    "dispositioned_mtd": 18,
+    "dispositioned_mtd": 20,
     "hot": 6,
     "booked": 7,
-    "offers": 5,
+    "offers": 6,
     "under_contract": 0,
     "closed": 0
   },
@@ -978,7 +987,7 @@
     "leads": 37,
     "active": 30,
     "booked": 6,
-    "offered": 4,
+    "offered": 5,
     "accepted": 0,
     "under_contract": 0,
     "contract_available": 0,
@@ -992,20 +1001,20 @@
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 13,
+        "count": 14,
         "color": "#D2E4EB"
       },
       "Dead": {
         "count": 3,
         "color": "#F3F3F3"
       },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
-      },
       "Wrong Number": {
         "count": 2,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 1,
+        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 1,
@@ -1058,20 +1067,20 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 8,
-      "offers": 10,
+      "discoveries": 10,
+      "offers": 12,
       "contracts": 0,
       "revenue": 0.0
     },
     "Julian": {
       "discoveries": 9,
-      "offers": 9,
+      "offers": 10,
       "contracts": 2,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 349319,
+    "Julian": 366928,
     "Charles": 324325
   },
   "agent_deals": [
@@ -1123,6 +1132,16 @@
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
+      "agent": "Julian"
+    },
+    {
+      "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
+      "value": 17609,
+      "status": "Available",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
       "agent": "Julian"
     },
     {

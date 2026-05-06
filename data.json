@@ -1,6 +1,6 @@
 {
   "report_date": "May 06, 2026",
-  "last_updated": "2026-05-06 13:02 EST",
+  "last_updated": "2026-05-06 14:00 EST",
   "google": {
     "spend_mtd": 1551.93,
     "clicks_mtd": 37,
@@ -25,27 +25,27 @@
     ]
   },
   "meta": {
-    "spend_30d": 2162.49,
-    "clicks_30d": 907,
+    "spend_30d": 2179.87,
+    "clicks_30d": 912,
     "crm_leads": 35,
     "crm_leads_today": 3,
-    "cpc": 2.38,
-    "cpl_crm": 61.79,
-    "cost_per_hot": 540.62,
+    "cpc": 2.39,
+    "cpl_crm": 62.28,
+    "cost_per_hot": 544.97,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 766.09,
-        "spend_today": 84.21,
-        "clicks": 278,
+        "spend": 772.87,
+        "spend_today": 90.99,
+        "clicks": 280,
         "crm_leads": 35,
-        "cpl_crm": 21.89
+        "cpl_crm": 22.08
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1396.4,
-        "spend_today": 154.15,
-        "clicks": 629,
+        "spend": 1407.0,
+        "spend_today": 164.75,
+        "clicks": 632,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -97,7 +97,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3714.42
+      "spend": 3731.33
     }
   },
   "reps_by_month": {
@@ -193,10 +193,10 @@
     },
     "2026-04": {
       "Charles": {
-        "leads": 57,
+        "leads": 56,
         "active": 54,
         "booked": 44,
-        "offers": 42,
+        "offers": 41,
         "accepted": 6,
         "available": 1,
         "pending": 0,
@@ -204,13 +204,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 57
+        "discoveries": 56
       },
       "Julian": {
-        "leads": 59,
+        "leads": 58,
         "active": 61,
         "booked": 54,
-        "offers": 48,
+        "offers": 47,
         "accepted": 5,
         "available": 3,
         "pending": 0,
@@ -218,7 +218,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 59
+        "discoveries": 58
       }
     },
     "2026-05": {
@@ -240,7 +240,7 @@
         "leads": 8,
         "active": 9,
         "booked": 5,
-        "offers": 6,
+        "offers": 7,
         "accepted": 2,
         "available": 0,
         "pending": 0,
@@ -586,7 +586,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 3714.42
+    "2026-05": 3731.8
   },
   "channel_by_month": {
     "2026-01": {
@@ -820,7 +820,7 @@
         "leads": 146,
         "active": 89,
         "booked": 72,
-        "offered": 56,
+        "offered": 57,
         "accepted": 3,
         "under_contract": 3,
         "contract_available": 2,
@@ -830,7 +830,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 54,
+            "count": 56,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -849,20 +849,20 @@
             "count": 7,
             "color": "#C8C8C8"
           },
-          "Dead": {
-            "count": 7,
-            "color": "#F3F3F3"
-          },
           "Warm": {
             "count": 6,
             "color": "#F7F0C5"
+          },
+          "Dead": {
+            "count": 6,
+            "color": "#F3F3F3"
           },
           "Hot": {
             "count": 4,
             "color": "#F7D1D0"
           },
           "Not Workable": {
-            "count": 4,
+            "count": 3,
             "color": "#D1F3EC"
           },
           "Under Contract": {
@@ -878,11 +878,11 @@
     },
     "2026-05": {
       "google_spend": 1551.93,
-      "meta_spend": 2162.49,
+      "meta_spend": 2179.87,
       "ppc_leads": 10,
       "fb_leads": 35,
       "google_cpc": 41.94,
-      "meta_cpc": 2.38,
+      "meta_cpc": 2.39,
       "pipeline_ppc": {
         "leads": 10,
         "active": 3,
@@ -1067,7 +1067,7 @@
     },
     "Julian": {
       "discoveries": 8,
-      "offers": 6,
+      "offers": 7,
       "contracts": 2,
       "revenue": 0.0
     }

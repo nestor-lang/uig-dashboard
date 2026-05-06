@@ -1,6 +1,6 @@
 {
   "report_date": "May 06, 2026",
-  "last_updated": "2026-05-06 11:02 EST",
+  "last_updated": "2026-05-06 12:02 EST",
   "google": {
     "spend_mtd": 1463.4,
     "clicks_mtd": 35,
@@ -25,40 +25,40 @@
     ]
   },
   "meta": {
-    "spend_30d": 2124.08,
-    "clicks_30d": 895,
+    "spend_30d": 2140.52,
+    "clicks_30d": 898,
     "crm_leads": 35,
     "crm_leads_today": 3,
-    "cpc": 2.37,
-    "cpl_crm": 60.69,
-    "cost_per_hot": 531.02,
+    "cpc": 2.38,
+    "cpl_crm": 61.16,
+    "cost_per_hot": 535.13,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 754.04,
-        "spend_today": 72.16,
+        "spend": 759.63,
+        "spend_today": 77.77,
         "clicks": 276,
         "crm_leads": 35,
-        "cpl_crm": 21.54
+        "cpl_crm": 21.7
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1370.04,
-        "spend_today": 127.79,
-        "clicks": 619,
+        "spend": 1380.89,
+        "spend_today": 138.64,
+        "clicks": 622,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 525291,
+  "potential_income": 585291,
   "assigned_income": 113968,
   "by_stage": {
     "On Market": 257813,
     "Initial Inspection Completed": 123583,
     "Access Scheduled": 121508,
     "Market Prep / Pre-Listing Marketing": 62388,
-    "New Deal - Unscheduled": -40000
+    "New Deal - Unscheduled": 20000
   },
   "by_agent": {
     "Virginia": 38650,
@@ -97,7 +97,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3587.26
+      "spend": 3603.83
     }
   },
   "reps_by_month": {
@@ -163,7 +163,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -174,10 +174,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 44,
+        "leads": 42,
         "active": 9,
         "booked": 19,
         "offers": 41,
@@ -188,12 +188,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 44
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 56,
+        "leads": 57,
         "active": 54,
         "booked": 44,
         "offers": 42,
@@ -204,10 +204,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 56
+        "discoveries": 57
       },
       "Julian": {
-        "leads": 60,
+        "leads": 59,
         "active": 61,
         "booked": 54,
         "offers": 48,
@@ -218,7 +218,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 60
+        "discoveries": 59
       }
     },
     "2026-05": {
@@ -318,7 +318,7 @@
             "available": 2
           },
           "gp": {
-            "available": 3259
+            "available": 63259
           },
           "total": 2
         }
@@ -332,7 +332,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 220967,
+          "available": 280967,
           "dead": 458227,
           "on_hold": 77500,
           "pending": 68352,
@@ -343,7 +343,7 @@
       "deals": [
         {
           "address": "3309 McElderry St, Baltimore, MD 21205, USA",
-          "value": -40000,
+          "value": 20000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -586,7 +586,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 3587.52
+    "2026-05": 3603.94
   },
   "channel_by_month": {
     "2026-01": {
@@ -783,7 +783,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 5,
+            "count": 4,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -805,6 +805,10 @@
           "No Longer Selling": {
             "count": 1,
             "color": "#F3F3F3"
+          },
+          "Sold": {
+            "count": 1,
+            "color": "#C8C8C8"
           },
           "Hot": {
             "count": 1,
@@ -874,11 +878,11 @@
     },
     "2026-05": {
       "google_spend": 1463.4,
-      "meta_spend": 2124.12,
+      "meta_spend": 2140.54,
       "ppc_leads": 10,
       "fb_leads": 35,
       "google_cpc": 41.81,
-      "meta_cpc": 2.37,
+      "meta_cpc": 2.38,
       "pipeline_ppc": {
         "leads": 10,
         "active": 3,
@@ -1053,13 +1057,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 289319,
+    "Julian": 349319,
     "Charles": 324325
   },
   "agent_deals": [
     {
       "address": "3309 McElderry St, Baltimore, MD 21205, USA",
-      "value": -40000,
+      "value": 20000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

@@ -1,6 +1,6 @@
 {
   "report_date": "May 07, 2026",
-  "last_updated": "2026-05-07 15:00 EST",
+  "last_updated": "2026-05-07 16:00 EST",
   "google": {
     "spend_mtd": 1778.6,
     "clicks_mtd": 41,
@@ -25,39 +25,39 @@
     ]
   },
   "meta": {
-    "spend_30d": 2628.03,
-    "clicks_30d": 1089,
+    "spend_30d": 2645.21,
+    "clicks_30d": 1096,
     "crm_leads": 45,
     "crm_leads_today": 5,
     "cpc": 2.41,
-    "cpl_crm": 58.4,
-    "cost_per_hot": 657.01,
+    "cpl_crm": 58.78,
+    "cost_per_hot": 661.3,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 936.05,
-        "spend_today": 79.65,
+        "spend": 942.67,
+        "spend_today": 86.27,
         "clicks": 338,
         "crm_leads": 45,
-        "cpl_crm": 20.8
+        "cpl_crm": 20.95
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1691.98,
-        "spend_today": 125.14,
-        "clicks": 751,
+        "spend": 1702.54,
+        "spend_today": 135.68,
+        "clicks": 758,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 618775,
+  "potential_income": 588376,
   "assigned_income": 113968,
   "by_stage": {
     "On Market": 257813,
     "Access Scheduled": 141508,
-    "Initial Inspection Completed": 123583,
-    "Market Prep / Pre-Listing Marketing": 95872
+    "Market Prep / Pre-Listing Marketing": 95872,
+    "Initial Inspection Completed": 93184
   },
   "by_agent": {
     "Virginia": 38650,
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4406.63
+      "spend": 4423.8099999999995
     }
   },
   "reps_by_month": {
@@ -162,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -173,10 +173,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 42,
+        "leads": 44,
         "active": 9,
         "booked": 19,
         "offers": 41,
@@ -187,12 +187,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 44
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 52,
+        "leads": 51,
         "active": 52,
         "booked": 44,
         "offers": 38,
@@ -203,10 +203,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 52
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 55,
         "offers": 42,
@@ -217,13 +217,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
       "Charles": {
         "leads": 11,
-        "active": 10,
+        "active": 11,
         "booked": 4,
         "offers": 11,
         "accepted": 0,
@@ -236,9 +236,9 @@
         "discoveries": 11
       },
       "Julian": {
-        "leads": 9,
+        "leads": 10,
         "active": 12,
-        "booked": 5,
+        "booked": 6,
         "offers": 11,
         "accepted": 2,
         "available": 0,
@@ -247,7 +247,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 9
+        "discoveries": 10
       }
     }
   },
@@ -500,45 +500,36 @@
         },
         "2026-04": {
           "counts": {
-            "available": 4,
-            "dead": 1,
-            "pending": 1
+            "dead": 2,
+            "pending": 1,
+            "available": 3
           },
           "gp": {
-            "available": 151986,
-            "dead": 19840,
-            "pending": 20000
+            "dead": 50239,
+            "pending": 20000,
+            "available": 121587
           },
           "total": 6
         }
       },
       "all_time": {
         "counts": {
-          "available": 5,
-          "dead": 9,
+          "dead": 10,
           "pending": 1,
+          "available": 4,
           "closed": 4,
           "on_hold": 1
         },
         "gp": {
-          "available": 304325,
-          "dead": 191276,
+          "dead": 221675,
           "pending": 20000,
+          "available": 273926,
           "closed": 112402,
           "on_hold": 50200
         },
         "total": 20
       },
       "deals": [
-        {
-          "address": "1501 N New York Ave, Alamogordo, NM 88310, USA",
-          "value": 30399,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
         {
           "address": "191 Rollin Ct, Camden, DE 19934, USA",
           "value": 20000,
@@ -592,7 +583,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 4406.63
+    "2026-05": 4423.81
   },
   "channel_by_month": {
     "2026-01": {
@@ -888,7 +879,7 @@
     },
     "2026-05": {
       "google_spend": 1778.6,
-      "meta_spend": 2628.03,
+      "meta_spend": 2645.21,
       "ppc_leads": 11,
       "fb_leads": 45,
       "google_cpc": 43.38,
@@ -918,9 +909,9 @@
             "count": 2,
             "color": "#DCEBD8"
           },
-          "Warm": {
+          "Hot": {
             "count": 1,
-            "color": "#F7F0C5"
+            "color": "#F7D1D0"
           },
           "Need to Contact": {
             "count": 1,
@@ -931,7 +922,7 @@
       "pipeline_fb": {
         "leads": 45,
         "active": 36,
-        "booked": 7,
+        "booked": 8,
         "offered": 6,
         "accepted": 0,
         "under_contract": 0,
@@ -941,25 +932,25 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 19,
-            "color": "#FFD5C2"
-          },
           "Cold": {
-            "count": 18,
+            "count": 19,
             "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 17,
+            "color": "#FFD5C2"
           },
           "Dead": {
             "count": 3,
             "color": "#F3F3F3"
           },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
+          },
           "Wrong Number": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 1,
@@ -975,9 +966,9 @@
   },
   "pipeline": {
     "new_leads_30d": 56,
-    "dispositioned_mtd": 21,
-    "hot": 5,
-    "booked": 9,
+    "dispositioned_mtd": 22,
+    "hot": 6,
+    "booked": 10,
     "offers": 7,
     "under_contract": 0,
     "closed": 0
@@ -985,7 +976,7 @@
   "pipeline_fb": {
     "leads": 45,
     "active": 36,
-    "booked": 7,
+    "booked": 8,
     "offered": 6,
     "accepted": 0,
     "under_contract": 0,
@@ -995,25 +986,25 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 19,
-        "color": "#FFD5C2"
-      },
       "Cold": {
-        "count": 18,
+        "count": 19,
         "color": "#D2E4EB"
+      },
+      "Need to Contact": {
+        "count": 17,
+        "color": "#FFD5C2"
       },
       "Dead": {
         "count": 3,
         "color": "#F3F3F3"
       },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
+      },
       "Wrong Number": {
         "count": 2,
         "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 1,
-        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 1,
@@ -1050,9 +1041,9 @@
         "count": 2,
         "color": "#DCEBD8"
       },
-      "Warm": {
+      "Hot": {
         "count": 1,
-        "color": "#F7F0C5"
+        "color": "#F7D1D0"
       },
       "Need to Contact": {
         "count": 1,
@@ -1068,7 +1059,7 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 9,
+      "discoveries": 10,
       "offers": 11,
       "contracts": 2,
       "revenue": 0.0
@@ -1076,7 +1067,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 382803,
-    "Charles": 324325
+    "Charles": 293926
   },
   "agent_deals": [
     {
@@ -1210,16 +1201,6 @@
       "agent": "Julian"
     },
     {
-      "address": "1501 N New York Ave, Alamogordo, NM 88310, USA",
-      "value": 30399,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
       "address": "191 Rollin Ct, Camden, DE 19934, USA",
       "value": 20000,
       "status": "Sent to Title",
@@ -1301,9 +1282,9 @@
       "source": "Facebook"
     },
     {
-      "name": "325 Belview Ave",
-      "address": "325 Belview Ave, Canton, MS 39046, USA",
-      "phone": "(601) 291-6033",
+      "name": "214 Liberty St",
+      "address": "214 Liberty St, Petersburg, VA 23803, USA",
+      "phone": "(804) 253-2902",
       "source": "PPC"
     }
   ],

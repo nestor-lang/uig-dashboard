@@ -1,13 +1,13 @@
 {
   "report_date": "May 08, 2026",
-  "last_updated": "2026-05-08 11:00 EST",
+  "last_updated": "2026-05-08 12:02 EST",
   "google": {
-    "spend_mtd": 1841.84,
-    "clicks_mtd": 44,
+    "spend_mtd": 1857.71,
+    "clicks_mtd": 45,
     "crm_leads": 15,
     "crm_leads_today": 0,
-    "cpc": 41.86,
-    "cpl": 122.79,
+    "cpc": 41.28,
+    "cpl": 123.85,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,50 +15,50 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1841.84,
-        "spend_today": 33.52,
-        "clicks": 44,
-        "cpc": 41.86,
+        "spend": 1857.71,
+        "spend_today": 49.4,
+        "clicks": 45,
+        "cpc": 41.28,
         "crm_leads": 0,
-        "cpl": 122.79
+        "cpl": 123.85
       }
     ]
   },
   "meta": {
-    "spend_30d": 2985.59,
-    "clicks_30d": 1238,
+    "spend_30d": 3000.88,
+    "clicks_30d": 1245,
     "crm_leads": 49,
     "crm_leads_today": 2,
     "cpc": 2.41,
-    "cpl_crm": 60.93,
-    "cost_per_hot": 746.4,
+    "cpl_crm": 61.24,
+    "cost_per_hot": 750.22,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1060.16,
-        "spend_today": 71.8,
-        "clicks": 378,
+        "spend": 1066.73,
+        "spend_today": 78.35,
+        "clicks": 382,
         "crm_leads": 49,
-        "cpl_crm": 21.64
+        "cpl_crm": 21.77
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1925.43,
-        "spend_today": 128.9,
-        "clicks": 860,
+        "spend": 1934.15,
+        "spend_today": 137.62,
+        "clicks": 863,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 584876,
+  "potential_income": 634876,
   "assigned_income": 113968,
   "by_stage": {
     "On Market": 257813,
     "Initial Inspection Completed": 214692,
     "Market Prep / Pre-Listing Marketing": 95872,
-    "Access Scheduled": 20000,
-    "New Deal - Unscheduled": -3500
+    "New Deal - Unscheduled": 46500,
+    "Access Scheduled": 20000
   },
   "by_agent": {
     "Virginia": 38650,
@@ -97,7 +97,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4826.79
+      "spend": 4858.08
     }
   },
   "reps_by_month": {
@@ -163,7 +163,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -174,10 +174,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 44,
+        "leads": 42,
         "active": 9,
         "booked": 19,
         "offers": 41,
@@ -188,12 +188,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 44
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 51,
+        "leads": 52,
         "active": 52,
         "booked": 44,
         "offers": 38,
@@ -204,10 +204,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 51
+        "discoveries": 52
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 55,
         "offers": 42,
@@ -218,7 +218,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -517,7 +517,7 @@
             "available": 2
           },
           "gp": {
-            "available": -3500
+            "available": 46500
           },
           "total": 2
         }
@@ -531,7 +531,7 @@
           "on_hold": 1
         },
         "gp": {
-          "available": 270426,
+          "available": 320426,
           "dead": 221675,
           "pending": 20000,
           "closed": 112402,
@@ -542,7 +542,7 @@
       "deals": [
         {
           "address": "325 Belview Ave, Canton, MS 39046, USA",
-          "value": -28500,
+          "value": 21500,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -611,7 +611,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 4827.43
+    "2026-05": 4858.59
   },
   "channel_by_month": {
     "2026-01": {
@@ -659,20 +659,20 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 8,
+            "count": 7,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
             "count": 4,
             "color": "#FFD5C2"
           },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Not Workable": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           },
           "Owes too Much": {
             "count": 1,
@@ -745,16 +745,16 @@
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 9,
+            "count": 8,
             "color": "#D2E4EB"
+          },
+          "Listed": {
+            "count": 4,
+            "color": "#C8C8C8"
           },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 2,
-            "color": "#C8C8C8"
           },
           "Dead": {
             "count": 1,
@@ -763,10 +763,6 @@
           "No Longer Selling": {
             "count": 1,
             "color": "#F3F3F3"
-          },
-          "Sold": {
-            "count": 1,
-            "color": "#C8C8C8"
           },
           "Owes too Much": {
             "count": 1,
@@ -796,16 +792,16 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 10,
+            "count": 11,
             "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 8,
-            "color": "#FFD5C2"
           },
           "Listed": {
             "count": 7,
             "color": "#C8C8C8"
+          },
+          "Need to Contact": {
+            "count": 7,
+            "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 6,
@@ -855,7 +851,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 56,
+            "count": 54,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -870,16 +866,16 @@
             "count": 10,
             "color": "#DCEBD8"
           },
+          "Listed": {
+            "count": 10,
+            "color": "#C8C8C8"
+          },
           "Warm": {
             "count": 7,
             "color": "#F7F0C5"
           },
-          "Listed": {
-            "count": 7,
-            "color": "#C8C8C8"
-          },
           "Dead": {
-            "count": 7,
+            "count": 6,
             "color": "#F3F3F3"
           },
           "Hot": {
@@ -902,11 +898,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 1841.84,
-      "meta_spend": 2985.59,
+      "google_spend": 1857.71,
+      "meta_spend": 3000.88,
       "ppc_leads": 15,
       "fb_leads": 49,
-      "google_cpc": 41.86,
+      "google_cpc": 41.28,
       "meta_cpc": 2.41,
       "pipeline_ppc": {
         "leads": 15,
@@ -957,11 +953,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 20,
+            "count": 21,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 19,
+            "count": 18,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
@@ -1011,11 +1007,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 20,
+        "count": 21,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 19,
+        "count": 18,
         "color": "#D2E4EB"
       },
       "Wrong Number": {
@@ -1091,7 +1087,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 382803,
-    "Charles": 290426
+    "Charles": 340426
   },
   "agent_deals": [
     {
@@ -1226,7 +1222,7 @@
     },
     {
       "address": "325 Belview Ave, Canton, MS 39046, USA",
-      "value": -28500,
+      "value": 21500,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

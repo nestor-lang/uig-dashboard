@@ -1,6 +1,6 @@
 {
   "report_date": "May 08, 2026",
-  "last_updated": "2026-05-08 15:00 EST",
+  "last_updated": "2026-05-08 16:00 EST",
   "google": {
     "spend_mtd": 1857.71,
     "clicks_mtd": 45,
@@ -25,36 +25,36 @@
     ]
   },
   "meta": {
-    "spend_30d": 3067.89,
-    "clicks_30d": 1264,
+    "spend_30d": 3082.34,
+    "clicks_30d": 1267,
     "crm_leads": 49,
     "crm_leads_today": 2,
     "cpc": 2.43,
-    "cpl_crm": 62.61,
-    "cost_per_hot": 613.58,
+    "cpl_crm": 62.9,
+    "cost_per_hot": 616.47,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1093.28,
-        "spend_today": 104.87,
-        "clicks": 388,
+        "spend": 1101.15,
+        "spend_today": 112.74,
+        "clicks": 389,
         "crm_leads": 49,
-        "cpl_crm": 22.31
+        "cpl_crm": 22.47
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 1974.61,
-        "spend_today": 178.08,
-        "clicks": 876,
+        "spend": 1981.19,
+        "spend_today": 184.66,
+        "clicks": 878,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 634876,
+  "potential_income": 622938,
   "assigned_income": 113968,
   "by_stage": {
-    "On Market": 257813,
+    "On Market": 245874,
     "Initial Inspection Completed": 214692,
     "Market Prep / Pre-Listing Marketing": 95872,
     "New Deal - Unscheduled": 46500,
@@ -97,7 +97,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4925.6
+      "spend": 4940.04
     }
   },
   "reps_by_month": {
@@ -223,7 +223,7 @@
     },
     "2026-05": {
       "Charles": {
-        "leads": 12,
+        "leads": 13,
         "active": 6,
         "booked": 4,
         "offers": 12,
@@ -234,7 +234,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 12
+        "discoveries": 13
       },
       "Julian": {
         "leads": 13,
@@ -308,7 +308,7 @@
           },
           "gp": {
             "dead": 59999,
-            "available": 109449,
+            "available": 104699,
             "on_hold": 27610
           },
           "total": 5
@@ -332,7 +332,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 314451,
+          "available": 309701,
           "dead": 449618,
           "on_hold": 77500,
           "pending": 68352,
@@ -379,7 +379,7 @@
         },
         {
           "address": "7753 Keister Rd, Middletown, OH 45042, USA",
-          "value": 34400,
+          "value": 29650,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -508,7 +508,7 @@
           "gp": {
             "dead": 50239,
             "pending": 20000,
-            "available": 121587
+            "available": 114399
           },
           "total": 6
         },
@@ -531,7 +531,7 @@
           "on_hold": 1
         },
         "gp": {
-          "available": 320426,
+          "available": 313237,
           "dead": 221675,
           "pending": 20000,
           "closed": 112402,
@@ -578,7 +578,7 @@
         },
         {
           "address": "3128 Baker St, Baltimore, MD 21216, USA",
-          "value": 14582,
+          "value": 12243,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -587,7 +587,7 @@
         },
         {
           "address": "100 Winslow Ct, McDonough, GA 30253, USA",
-          "value": 28756,
+          "value": 23907,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -611,7 +611,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 4925.6
+    "2026-05": 4940.05
   },
   "channel_by_month": {
     "2026-01": {
@@ -847,7 +847,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 52,
+            "count": 54,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -866,13 +866,13 @@
             "count": 8,
             "color": "#F7F0C5"
           },
-          "Listed": {
-            "count": 8,
-            "color": "#C8C8C8"
-          },
           "Dead": {
             "count": 6,
             "color": "#F3F3F3"
+          },
+          "Listed": {
+            "count": 6,
+            "color": "#C8C8C8"
           },
           "Not Workable": {
             "count": 5,
@@ -891,7 +891,7 @@
     },
     "2026-05": {
       "google_spend": 1857.71,
-      "meta_spend": 3067.89,
+      "meta_spend": 3082.34,
       "ppc_leads": 15,
       "fb_leads": 49,
       "google_cpc": 41.28,
@@ -986,7 +986,7 @@
   },
   "pipeline": {
     "new_leads_30d": 64,
-    "dispositioned_mtd": 26,
+    "dispositioned_mtd": 27,
     "hot": 5,
     "booked": 13,
     "offers": 9,
@@ -1081,7 +1081,7 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 12,
+      "discoveries": 13,
       "offers": 12,
       "contracts": 2,
       "revenue": 0.0
@@ -1094,8 +1094,8 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 382803,
-    "Charles": 340426
+    "Julian": 378053,
+    "Charles": 333238
   },
   "agent_deals": [
     {
@@ -1140,7 +1140,7 @@
     },
     {
       "address": "7753 Keister Rd, Middletown, OH 45042, USA",
-      "value": 34400,
+      "value": 29650,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1270,7 +1270,7 @@
     },
     {
       "address": "3128 Baker St, Baltimore, MD 21216, USA",
-      "value": 14582,
+      "value": 12243,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1280,7 +1280,7 @@
     },
     {
       "address": "100 Winslow Ct, McDonough, GA 30253, USA",
-      "value": 28756,
+      "value": 23907,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",

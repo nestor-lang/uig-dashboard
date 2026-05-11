@@ -1,6 +1,6 @@
 {
   "report_date": "May 11, 2026",
-  "last_updated": "2026-05-11 17:00 EST",
+  "last_updated": "2026-05-11 18:00 EST",
   "google": {
     "spend_mtd": 2636.99,
     "clicks_mtd": 62,
@@ -25,34 +25,34 @@
     ]
   },
   "meta": {
-    "spend_30d": 4313.48,
-    "clicks_30d": 1828,
+    "spend_30d": 4336.17,
+    "clicks_30d": 1830,
     "crm_leads": 64,
     "crm_leads_today": 3,
-    "cpc": 2.36,
-    "cpl_crm": 67.4,
-    "cost_per_hot": 1437.83,
+    "cpc": 2.37,
+    "cpl_crm": 67.75,
+    "cost_per_hot": 1445.39,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1520.08,
-        "spend_today": 90.22,
-        "clicks": 521,
+        "spend": 1528.81,
+        "spend_today": 98.95,
+        "clicks": 522,
         "crm_leads": 64,
-        "cpl_crm": 23.75
+        "cpl_crm": 23.89
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 2793.4,
-        "spend_today": 148.53,
-        "clicks": 1307,
+        "spend": 2807.36,
+        "spend_today": 162.49,
+        "clicks": 1308,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "potential_income": 337727,
-  "assigned_income": 242855,
+  "assigned_income": 244805,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 103572,
     "On Market": 93535,
@@ -60,7 +60,7 @@
     "New Deal - Unscheduled": 48229
   },
   "by_agent": {
-    "Georgia": 158589,
+    "Georgia": 160539,
     "Virginia": 38650,
     "Alabama": 25616,
     "Delaware": 20000
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6950.2
+      "spend": 6973.16
     }
   },
   "reps_by_month": {
@@ -162,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -173,10 +173,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 41,
+        "leads": 43,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -187,12 +187,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 41
+        "discoveries": 43
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 51,
+        "leads": 50,
         "active": 50,
         "booked": 44,
         "offers": 37,
@@ -203,10 +203,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 51
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 56,
         "offers": 42,
@@ -217,7 +217,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -293,9 +293,9 @@
           },
           "gp": {
             "available": 22926,
-            "closed": 40536,
+            "closed": 45421,
             "dead": 19875,
-            "pending": 13050
+            "pending": 15000
           },
           "total": 7
         },
@@ -334,8 +334,8 @@
           "available": 229128,
           "dead": 449618,
           "on_hold": 111949,
-          "closed": 196914,
-          "pending": 51700
+          "closed": 201799,
+          "pending": 53650
         },
         "total": 44
       },
@@ -405,7 +405,7 @@
         },
         {
           "address": "115 Melton St, Griffin, GA 30223, USA",
-          "value": 13050,
+          "value": 15000,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -601,7 +601,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 6950.47
+    "2026-05": 6973.16
   },
   "channel_by_month": {
     "2026-01": {
@@ -894,11 +894,11 @@
     },
     "2026-05": {
       "google_spend": 2636.99,
-      "meta_spend": 4313.48,
+      "meta_spend": 4336.17,
       "ppc_leads": 17,
       "fb_leads": 64,
       "google_cpc": 42.53,
-      "meta_cpc": 2.36,
+      "meta_cpc": 2.37,
       "pipeline_ppc": {
         "leads": 17,
         "active": 5,
@@ -936,7 +936,7 @@
       },
       "pipeline_fb": {
         "leads": 64,
-        "active": 40,
+        "active": 39,
         "booked": 11,
         "offered": 8,
         "accepted": 0,
@@ -948,11 +948,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 26,
+            "count": 25,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 19,
+            "count": 20,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -994,7 +994,7 @@
   },
   "pipeline_fb": {
     "leads": 64,
-    "active": 40,
+    "active": 39,
     "booked": 11,
     "offered": 8,
     "accepted": 0,
@@ -1006,11 +1006,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 26,
+        "count": 25,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 19,
+        "count": 20,
         "color": "#D2E4EB"
       },
       "Dead": {
@@ -1089,7 +1089,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 280828,
+    "Julian": 282778,
     "Charles": 274139
   },
   "agent_deals": [
@@ -1165,7 +1165,7 @@
     },
     {
       "address": "115 Melton St, Griffin, GA 30223, USA",
-      "value": 13050,
+      "value": 15000,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",

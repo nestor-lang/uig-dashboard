@@ -1,6 +1,6 @@
 {
   "report_date": "May 11, 2026",
-  "last_updated": "2026-05-11 15:00 EST",
+  "last_updated": "2026-05-11 16:00 EST",
   "google": {
     "spend_mtd": 2636.99,
     "clicks_mtd": 62,
@@ -25,26 +25,26 @@
     ]
   },
   "meta": {
-    "spend_30d": 4295.39,
+    "spend_30d": 4304.47,
     "clicks_30d": 1825,
     "crm_leads": 64,
     "crm_leads_today": 3,
-    "cpc": 2.35,
-    "cpl_crm": 67.12,
-    "cost_per_hot": 1431.8,
+    "cpc": 2.36,
+    "cpl_crm": 67.26,
+    "cost_per_hot": 2152.24,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1507.93,
-        "spend_today": 78.07,
+        "spend": 1516.53,
+        "spend_today": 86.67,
         "clicks": 520,
         "crm_leads": 64,
-        "cpl_crm": 23.56
+        "cpl_crm": 23.7
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 2787.46,
-        "spend_today": 142.59,
+        "spend": 2787.94,
+        "spend_today": 143.07,
         "clicks": 1305,
         "crm_leads": 0,
         "cpl_crm": null
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6932.38
+      "spend": 6941.46
     }
   },
   "reps_by_month": {
@@ -162,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -173,10 +173,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 43,
+        "leads": 41,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -187,12 +187,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 43
+        "discoveries": 41
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 51,
         "active": 50,
         "booked": 44,
         "offers": 37,
@@ -203,10 +203,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 56,
         "offers": 42,
@@ -217,13 +217,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
         "leads": 13,
-        "active": 7,
+        "active": 8,
         "booked": 4,
         "offers": 12,
         "accepted": 2,
@@ -239,7 +239,7 @@
         "leads": 15,
         "active": 12,
         "booked": 9,
-        "offers": 16,
+        "offers": 17,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -610,7 +610,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 6932.38
+    "2026-05": 6941.46
   },
   "channel_by_month": {
     "2026-01": {
@@ -626,13 +626,13 @@
     "2026-02": {
       "google_spend": 0,
       "meta_spend": 1731.32,
-      "ppc_leads": 0,
+      "ppc_leads": 1,
       "fb_leads": 17,
       "google_cpc": null,
       "meta_cpc": 2.12,
       "pipeline_ppc": {
-        "leads": 0,
-        "active": 0,
+        "leads": 1,
+        "active": 1,
         "booked": 0,
         "offered": 0,
         "accepted": 0,
@@ -642,7 +642,12 @@
         "contract_closed": 0,
         "contract_dead": 0,
         "closed": 0,
-        "status_breakdown": {}
+        "status_breakdown": {
+          "Need to Contact": {
+            "count": 1,
+            "color": "#FFD5C2"
+          }
+        }
       },
       "pipeline_fb": {
         "leads": 17,
@@ -770,7 +775,7 @@
       "google_spend": 7402.08,
       "meta_spend": 8666.51,
       "ppc_leads": 49,
-      "fb_leads": 145,
+      "fb_leads": 144,
       "google_cpc": 27.72,
       "meta_cpc": 2.88,
       "pipeline_ppc": {
@@ -833,7 +838,7 @@
         }
       },
       "pipeline_fb": {
-        "leads": 145,
+        "leads": 144,
         "active": 84,
         "booked": 73,
         "offered": 60,
@@ -846,11 +851,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 56,
+            "count": 57,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 33,
+            "count": 32,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -877,13 +882,13 @@
             "count": 5,
             "color": "#D1F3EC"
           },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
-          },
           "Under Contract": {
             "count": 3,
             "color": "#DCEBD8"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           },
           "No Longer Selling": {
             "count": 2,
@@ -898,11 +903,11 @@
     },
     "2026-05": {
       "google_spend": 2636.99,
-      "meta_spend": 4295.39,
+      "meta_spend": 4304.47,
       "ppc_leads": 17,
       "fb_leads": 64,
       "google_cpc": 42.53,
-      "meta_cpc": 2.35,
+      "meta_cpc": 2.36,
       "pipeline_ppc": {
         "leads": 17,
         "active": 5,
@@ -942,7 +947,7 @@
         "leads": 64,
         "active": 40,
         "booked": 10,
-        "offered": 7,
+        "offered": 8,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -986,9 +991,9 @@
   "pipeline": {
     "new_leads_30d": 81,
     "dispositioned_mtd": 29,
-    "hot": 3,
+    "hot": 2,
     "booked": 13,
-    "offers": 10,
+    "offers": 11,
     "under_contract": 2,
     "closed": 0
   },
@@ -996,7 +1001,7 @@
     "leads": 64,
     "active": 40,
     "booked": 10,
-    "offered": 7,
+    "offered": 8,
     "accepted": 0,
     "under_contract": 0,
     "contract_available": 0,
@@ -1079,7 +1084,7 @@
     },
     "Julian": {
       "discoveries": 15,
-      "offers": 16,
+      "offers": 17,
       "contracts": 3,
       "revenue": 0.0
     }
@@ -1306,12 +1311,6 @@
       "name": "335 Howell Dr SW",
       "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
       "phone": "(404) 437-8166",
-      "source": "Facebook"
-    },
-    {
-      "name": "21 Emeralda Rd",
-      "address": "21 Emeralda Rd, Rochester, NY 14624, USA",
-      "phone": "(585) 415-2944",
       "source": "Facebook"
     }
   ],

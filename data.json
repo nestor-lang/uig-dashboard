@@ -1,6 +1,6 @@
 {
   "report_date": "May 11, 2026",
-  "last_updated": "2026-05-11 12:00 EST",
+  "last_updated": "2026-05-11 14:00 EST",
   "google": {
     "spend_mtd": 2636.99,
     "clicks_mtd": 62,
@@ -25,47 +25,46 @@
     ]
   },
   "meta": {
-    "spend_30d": 4274.02,
-    "clicks_30d": 1818,
+    "spend_30d": 4288.75,
+    "clicks_30d": 1825,
     "crm_leads": 64,
     "crm_leads_today": 3,
     "cpc": 2.35,
-    "cpl_crm": 66.78,
-    "cost_per_hot": 1424.67,
+    "cpl_crm": 67.01,
+    "cost_per_hot": 1429.58,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1493.41,
-        "spend_today": 63.58,
-        "clicks": 515,
+        "spend": 1501.56,
+        "spend_today": 71.7,
+        "clicks": 520,
         "crm_leads": 64,
-        "cpl_crm": 23.33
+        "cpl_crm": 23.46
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 2780.61,
-        "spend_today": 135.91,
-        "clicks": 1303,
+        "spend": 2787.19,
+        "spend_today": 142.32,
+        "clicks": 1305,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 546814,
-  "assigned_income": 113968,
+  "potential_income": 389270,
+  "assigned_income": 259507,
   "by_stage": {
-    "On Market": 239799,
-    "Initial Inspection Completed": 157943,
+    "Initial Inspection Completed": 143434,
     "Market Prep / Pre-Listing Marketing": 104072,
-    "New Deal - Unscheduled": 25000,
-    "Access Scheduled": 20000
+    "On Market": 93535,
+    "New Deal - Unscheduled": 48229
   },
   "by_agent": {
+    "Georgia": 158589,
     "Virginia": 38650,
     "Alabama": 25616,
     "Delaware": 20000,
-    "Kentucky": 16652,
-    "Georgia": 13050
+    "Kentucky": 16652
   },
   "closed_by_month": {
     "2026-01": 194741,
@@ -97,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6910.7699999999995
+      "spend": 6925.74
     }
   },
   "reps_by_month": {
@@ -177,10 +176,10 @@
         "discoveries": 31
       },
       "Julian": {
-        "leads": 44,
+        "leads": 43,
         "active": 9,
         "booked": 19,
-        "offers": 41,
+        "offers": 40,
         "accepted": 7,
         "available": 0,
         "pending": 1,
@@ -188,7 +187,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 44
+        "discoveries": 43
       }
     },
     "2026-04": {
@@ -224,7 +223,7 @@
     "2026-05": {
       "Charles": {
         "leads": 13,
-        "active": 8,
+        "active": 7,
         "booked": 4,
         "offers": 12,
         "accepted": 2,
@@ -238,11 +237,11 @@
       },
       "Julian": {
         "leads": 15,
-        "active": 11,
+        "active": 12,
         "booked": 9,
         "offers": 16,
-        "accepted": 2,
-        "available": 0,
+        "accepted": 3,
+        "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
@@ -303,50 +302,59 @@
         "2026-04": {
           "counts": {
             "dead": 1,
-            "available": 3,
-            "on_hold": 1
+            "on_hold": 2,
+            "available": 2
           },
           "gp": {
             "dead": 59999,
-            "available": 104699,
-            "on_hold": 27610
+            "on_hold": 62059,
+            "available": 70250
           },
           "total": 5
         },
         "2026-05": {
           "counts": {
-            "available": 2
+            "available": 3
           },
           "gp": {
-            "available": 63259
+            "available": 86428
           },
-          "total": 2
+          "total": 3
         }
       },
       "all_time": {
         "counts": {
           "available": 10,
           "dead": 19,
-          "on_hold": 2,
+          "on_hold": 3,
           "pending": 3,
           "closed": 9
         },
         "gp": {
-          "available": 291951,
+          "available": 280671,
           "dead": 449618,
-          "on_hold": 77500,
+          "on_hold": 111949,
           "pending": 68352,
           "closed": 186246
         },
-        "total": 43
+        "total": 44
       },
       "deals": [
         {
-          "address": "3309 McElderry St, Baltimore, MD 21205, USA",
-          "value": 20000,
+          "address": "232 Clifton St, Hampton, VA 23661, USA",
+          "value": 23229,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-05"
+        },
+        {
+          "address": "3309 McElderry St, Baltimore, MD 21205, USA",
+          "value": 19940,
+          "status": "Available",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -358,15 +366,6 @@
           "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
-        },
-        {
-          "address": "5816 Royal Ridge Dr UNIT P, Springfield, VA 22152, USA",
-          "value": 34449,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
         },
         {
           "address": "3765 Cannonwolde Dr, Snellville, GA 30039, USA",
@@ -477,12 +476,12 @@
           "counts": {
             "dead": 3,
             "closed": 1,
-            "available": 1
+            "pending": 1
           },
           "gp": {
             "dead": 49442,
             "closed": 42660,
-            "available": 146264
+            "pending": 145539
           },
           "total": 5
         },
@@ -524,16 +523,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 6,
+          "available": 5,
           "dead": 10,
-          "pending": 1,
+          "pending": 2,
           "closed": 4,
           "on_hold": 1
         },
         "gp": {
-          "available": 254863,
+          "available": 108600,
           "dead": 221675,
-          "pending": 20000,
+          "pending": 165539,
           "closed": 112402,
           "on_hold": 50200
         },
@@ -596,8 +595,8 @@
         },
         {
           "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-          "value": 146264,
-          "status": "Available",
+          "value": 145539,
+          "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -611,7 +610,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 6911.01
+    "2026-05": 6925.74
   },
   "channel_by_month": {
     "2026-01": {
@@ -709,21 +708,21 @@
             "count": 5,
             "color": "#DCEBD8"
           },
+          "Dead": {
+            "count": 4,
+            "color": "#F3F3F3"
+          },
           "Cold": {
             "count": 4,
             "color": "#D2E4EB"
           },
-          "Dead": {
-            "count": 3,
-            "color": "#F3F3F3"
-          },
-          "Need to Contact": {
-            "count": 2,
-            "color": "#FFD5C2"
-          },
           "Under Contract": {
             "count": 1,
             "color": "#DCEBD8"
+          },
+          "Need to Contact": {
+            "count": 1,
+            "color": "#FFD5C2"
           }
         }
       },
@@ -741,11 +740,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 12,
+            "count": 13,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 9,
+            "count": 8,
             "color": "#D2E4EB"
           },
           "Listed": {
@@ -851,7 +850,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 35,
+            "count": 34,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -885,13 +884,17 @@
           "Under Contract": {
             "count": 3,
             "color": "#DCEBD8"
+          },
+          "No Longer Selling": {
+            "count": 1,
+            "color": "#F3F3F3"
           }
         }
       }
     },
     "2026-05": {
       "google_spend": 2636.99,
-      "meta_spend": 4274.02,
+      "meta_spend": 4288.75,
       "ppc_leads": 17,
       "fb_leads": 64,
       "google_cpc": 42.53,
@@ -901,9 +904,9 @@
         "active": 5,
         "booked": 3,
         "offered": 3,
-        "accepted": 1,
-        "under_contract": 1,
-        "contract_available": 1,
+        "accepted": 2,
+        "under_contract": 2,
+        "contract_available": 2,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -925,19 +928,15 @@
             "count": 2,
             "color": "#FFD5C2"
           },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
-          },
           "Under Contract": {
-            "count": 1,
+            "count": 2,
             "color": "#DCEBD8"
           }
         }
       },
       "pipeline_fb": {
         "leads": 64,
-        "active": 43,
+        "active": 40,
         "booked": 10,
         "offered": 7,
         "accepted": 0,
@@ -949,15 +948,15 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 30,
+            "count": 27,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 18,
+            "count": 19,
             "color": "#D2E4EB"
           },
           "Dead": {
-            "count": 5,
+            "count": 7,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
@@ -983,15 +982,15 @@
   "pipeline": {
     "new_leads_30d": 81,
     "dispositioned_mtd": 29,
-    "hot": 4,
+    "hot": 3,
     "booked": 13,
     "offers": 10,
-    "under_contract": 1,
+    "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 64,
-    "active": 43,
+    "active": 40,
     "booked": 10,
     "offered": 7,
     "accepted": 0,
@@ -1003,15 +1002,15 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 30,
+        "count": 27,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 18,
+        "count": 19,
         "color": "#D2E4EB"
       },
       "Dead": {
-        "count": 5,
+        "count": 7,
         "color": "#F3F3F3"
       },
       "Wrong Number": {
@@ -1037,9 +1036,9 @@
     "active": 5,
     "booked": 3,
     "offered": 3,
-    "accepted": 1,
-    "under_contract": 1,
-    "contract_available": 1,
+    "accepted": 2,
+    "under_contract": 2,
+    "contract_available": 2,
     "contract_pending": 0,
     "contract_closed": 0,
     "contract_dead": 0,
@@ -1061,12 +1060,8 @@
         "count": 2,
         "color": "#FFD5C2"
       },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
-      },
       "Under Contract": {
-        "count": 1,
+        "count": 2,
         "color": "#DCEBD8"
       }
     }
@@ -1081,21 +1076,31 @@
     "Julian": {
       "discoveries": 15,
       "offers": 16,
-      "contracts": 2,
+      "contracts": 3,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 360303,
-    "Charles": 274864
+    "Julian": 349023,
+    "Charles": 274139
   },
   "agent_deals": [
     {
-      "address": "3309 McElderry St, Baltimore, MD 21205, USA",
-      "value": 20000,
+      "address": "232 Clifton St, Hampton, VA 23661, USA",
+      "value": 23229,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-05",
+      "agent": "Julian"
+    },
+    {
+      "address": "3309 McElderry St, Baltimore, MD 21205, USA",
+      "value": 19940,
+      "status": "Available",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Julian"
@@ -1108,16 +1113,6 @@
       "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "5816 Royal Ridge Dr UNIT P, Springfield, VA 22152, USA",
-      "value": 34449,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
       "agent": "Julian"
     },
     {
@@ -1282,8 +1277,8 @@
     },
     {
       "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-      "value": 146264,
-      "status": "Available",
+      "value": 145539,
+      "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
@@ -1314,12 +1309,6 @@
       "address": "21 Emeralda Rd, Rochester, NY 14624, USA",
       "phone": "(585) 415-2944",
       "source": "Facebook"
-    },
-    {
-      "name": "232 Clifton St",
-      "address": "232 Clifton St, Hampton, VA 23661, USA",
-      "phone": "(646) 633-7081",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

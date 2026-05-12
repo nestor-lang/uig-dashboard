@@ -1,6 +1,6 @@
 {
   "report_date": "May 12, 2026",
-  "last_updated": "2026-05-12 18:00 EST",
+  "last_updated": "2026-05-12 19:00 EST",
   "google": {
     "spend_mtd": 2842.12,
     "clicks_mtd": 64,
@@ -25,39 +25,39 @@
     ]
   },
   "meta": {
-    "spend_30d": 4856.27,
-    "clicks_30d": 2006,
+    "spend_30d": 4871.76,
+    "clicks_30d": 2010,
     "crm_leads": 70,
     "crm_leads_today": 5,
     "cpc": 2.42,
-    "cpl_crm": 69.38,
-    "cost_per_hot": 1618.76,
+    "cpl_crm": 69.6,
+    "cost_per_hot": 1623.92,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1712.04,
-        "spend_today": 121.81,
-        "clicks": 575,
+        "spend": 1716.9,
+        "spend_today": 126.66,
+        "clicks": 576,
         "crm_leads": 70,
-        "cpl_crm": 24.46
+        "cpl_crm": 24.53
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3144.23,
-        "spend_today": 214.94,
-        "clicks": 1431,
+        "spend": 3154.86,
+        "spend_today": 225.57,
+        "clicks": 1434,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 302779,
+  "potential_income": 302630,
   "assigned_income": 226880,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 108278,
     "On Market": 101582,
-    "Initial Inspection Completed": 70709,
-    "New Deal - Unscheduled": 22209
+    "Initial Inspection Completed": 70560,
+    "Access Scheduled": 22209
   },
   "by_agent": {
     "Georgia": 160539,
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7698.39
+      "spend": 7713.53
     }
   },
   "reps_by_month": {
@@ -162,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -173,10 +173,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 43,
+        "leads": 41,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -187,12 +187,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 43
+        "discoveries": 41
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 51,
         "active": 47,
         "booked": 44,
         "offers": 37,
@@ -203,10 +203,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 56,
         "offers": 42,
@@ -217,14 +217,14 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 17,
+        "leads": 18,
         "active": 10,
-        "booked": 6,
+        "booked": 7,
         "offers": 14,
         "accepted": 2,
         "available": 1,
@@ -233,7 +233,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 17
+        "discoveries": 18
       },
       "Julian": {
         "leads": 15,
@@ -344,8 +344,8 @@
           "address": "232 Clifton St, Hampton, VA 23661, USA",
           "value": 22209,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -516,7 +516,7 @@
             "available": 2
           },
           "gp": {
-            "available": 46500
+            "available": 46351
           },
           "total": 2
         }
@@ -530,7 +530,7 @@
           "on_hold": 1
         },
         "gp": {
-          "available": 108600,
+          "available": 108451,
           "dead": 221675,
           "pending": 165539,
           "closed": 112402,
@@ -541,7 +541,7 @@
       "deals": [
         {
           "address": "325 Belview Ave, Canton, MS 39046, USA",
-          "value": 21500,
+          "value": 21351,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -610,7 +610,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 7698.39
+    "2026-05": 7713.88
   },
   "channel_by_month": {
     "2026-01": {
@@ -903,7 +903,7 @@
     },
     "2026-05": {
       "google_spend": 2842.12,
-      "meta_spend": 4856.27,
+      "meta_spend": 4871.76,
       "ppc_leads": 18,
       "fb_leads": 70,
       "google_cpc": 44.41,
@@ -946,7 +946,7 @@
       "pipeline_fb": {
         "leads": 70,
         "active": 40,
-        "booked": 13,
+        "booked": 14,
         "offered": 10,
         "accepted": 0,
         "under_contract": 0,
@@ -957,7 +957,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 27,
+            "count": 26,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -969,7 +969,7 @@
             "color": "#F3F3F3"
           },
           "Warm": {
-            "count": 4,
+            "count": 5,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -994,9 +994,9 @@
   },
   "pipeline": {
     "new_leads_30d": 88,
-    "dispositioned_mtd": 33,
+    "dispositioned_mtd": 34,
     "hot": 3,
-    "booked": 16,
+    "booked": 17,
     "offers": 13,
     "under_contract": 2,
     "closed": 0
@@ -1004,7 +1004,7 @@
   "pipeline_fb": {
     "leads": 70,
     "active": 40,
-    "booked": 13,
+    "booked": 14,
     "offered": 10,
     "accepted": 0,
     "under_contract": 0,
@@ -1015,7 +1015,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 27,
+        "count": 26,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1027,7 +1027,7 @@
         "color": "#F3F3F3"
       },
       "Warm": {
-        "count": 4,
+        "count": 5,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -1085,7 +1085,7 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 17,
+      "discoveries": 18,
       "offers": 14,
       "contracts": 2,
       "revenue": 0.0
@@ -1099,15 +1099,15 @@
   },
   "pipeline_by_agent": {
     "Julian": 255521,
-    "Charles": 274139
+    "Charles": 273990
   },
   "agent_deals": [
     {
       "address": "232 Clifton St, Hampton, VA 23661, USA",
       "value": 22209,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Julian"
@@ -1234,7 +1234,7 @@
     },
     {
       "address": "325 Belview Ave, Canton, MS 39046, USA",
-      "value": 21500,
+      "value": 21351,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

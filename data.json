@@ -1,6 +1,6 @@
 {
   "report_date": "May 12, 2026",
-  "last_updated": "2026-05-12 09:00 EST",
+  "last_updated": "2026-05-12 10:00 EST",
   "google": {
     "spend_mtd": 2636.99,
     "clicks_mtd": 62,
@@ -25,27 +25,27 @@
     ]
   },
   "meta": {
-    "spend_30d": 4627.11,
-    "clicks_30d": 1931,
+    "spend_30d": 4649.25,
+    "clicks_30d": 1935,
     "crm_leads": 66,
     "crm_leads_today": 1,
     "cpc": 2.4,
-    "cpl_crm": 70.11,
-    "cost_per_hot": 1542.37,
+    "cpl_crm": 70.44,
+    "cost_per_hot": 1549.75,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1622.04,
-        "spend_today": 31.88,
-        "clicks": 557,
+        "spend": 1630.14,
+        "spend_today": 39.92,
+        "clicks": 558,
         "crm_leads": 66,
-        "cpl_crm": 24.58
+        "cpl_crm": 24.7
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3005.07,
-        "spend_today": 76.12,
-        "clicks": 1374,
+        "spend": 3019.11,
+        "spend_today": 90.11,
+        "clicks": 1377,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7264.099999999999
+      "spend": 7286.24
     }
   },
   "reps_by_month": {
@@ -162,7 +162,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -173,10 +173,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 41,
+        "leads": 43,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -187,13 +187,13 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 41
+        "discoveries": 43
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 51,
-        "active": 50,
+        "leads": 50,
+        "active": 47,
         "booked": 44,
         "offers": 37,
         "accepted": 6,
@@ -203,10 +203,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 51
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 56,
         "offers": 42,
@@ -217,13 +217,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
       "Charles": {
         "leads": 14,
-        "active": 8,
+        "active": 9,
         "booked": 5,
         "offers": 12,
         "accepted": 2,
@@ -610,7 +610,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 7264.1
+    "2026-05": 7286.24
   },
   "channel_by_month": {
     "2026-01": {
@@ -839,7 +839,7 @@
       },
       "pipeline_fb": {
         "leads": 144,
-        "active": 84,
+        "active": 81,
         "booked": 73,
         "offered": 60,
         "accepted": 3,
@@ -903,14 +903,14 @@
     },
     "2026-05": {
       "google_spend": 2636.99,
-      "meta_spend": 4627.11,
+      "meta_spend": 4649.25,
       "ppc_leads": 17,
       "fb_leads": 66,
       "google_cpc": 42.53,
       "meta_cpc": 2.4,
       "pipeline_ppc": {
         "leads": 17,
-        "active": 5,
+        "active": 4,
         "booked": 3,
         "offered": 3,
         "accepted": 2,
@@ -945,7 +945,7 @@
       },
       "pipeline_fb": {
         "leads": 66,
-        "active": 41,
+        "active": 35,
         "booked": 11,
         "offered": 8,
         "accepted": 0,
@@ -957,7 +957,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 27,
+            "count": 26,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -976,6 +976,10 @@
             "count": 4,
             "color": "#F7F0C5"
           },
+          "Listed": {
+            "count": 2,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
@@ -983,10 +987,6 @@
           "Hot": {
             "count": 1,
             "color": "#F7D1D0"
-          },
-          "Listed": {
-            "count": 1,
-            "color": "#C8C8C8"
           }
         }
       }
@@ -1003,7 +1003,7 @@
   },
   "pipeline_fb": {
     "leads": 66,
-    "active": 41,
+    "active": 35,
     "booked": 11,
     "offered": 8,
     "accepted": 0,
@@ -1015,7 +1015,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 27,
+        "count": 26,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1034,6 +1034,10 @@
         "count": 4,
         "color": "#F7F0C5"
       },
+      "Listed": {
+        "count": 2,
+        "color": "#C8C8C8"
+      },
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
@@ -1041,16 +1045,12 @@
       "Hot": {
         "count": 1,
         "color": "#F7D1D0"
-      },
-      "Listed": {
-        "count": 1,
-        "color": "#C8C8C8"
       }
     }
   },
   "pipeline_ppc": {
     "leads": 17,
-    "active": 5,
+    "active": 4,
     "booked": 3,
     "offered": 3,
     "accepted": 2,

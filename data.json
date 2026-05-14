@@ -1,13 +1,13 @@
 {
   "report_date": "May 14, 2026",
-  "last_updated": "2026-05-14 16:00 EST",
+  "last_updated": "2026-05-14 17:00 EST",
   "google": {
-    "spend_mtd": 3298.05,
-    "clicks_mtd": 74,
+    "spend_mtd": 3381.68,
+    "clicks_mtd": 75,
     "crm_leads": 20,
     "crm_leads_today": 2,
-    "cpc": 44.57,
-    "cpl": 164.9,
+    "cpc": 45.09,
+    "cpl": 169.08,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,37 +15,37 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3298.05,
-        "spend_today": 134.9,
-        "clicks": 74,
-        "cpc": 44.57,
+        "spend": 3381.68,
+        "spend_today": 218.53,
+        "clicks": 75,
+        "cpc": 45.09,
         "crm_leads": 0,
-        "cpl": 164.9
+        "cpl": 169.08
       }
     ]
   },
   "meta": {
-    "spend_30d": 5728.19,
-    "clicks_30d": 2359,
+    "spend_30d": 5745.95,
+    "clicks_30d": 2364,
     "crm_leads": 84,
     "crm_leads_today": 7,
     "cpc": 2.43,
-    "cpl_crm": 68.19,
-    "cost_per_hot": 1432.05,
+    "cpl_crm": 68.4,
+    "cost_per_hot": 1436.49,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2018.51,
-        "spend_today": 94.47,
-        "clicks": 674,
+        "spend": 2028.73,
+        "spend_today": 104.69,
+        "clicks": 676,
         "crm_leads": 84,
-        "cpl_crm": 24.03
+        "cpl_crm": 24.15
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3709.68,
-        "spend_today": 169.62,
-        "clicks": 1685,
+        "spend": 3717.22,
+        "spend_today": 177.16,
+        "clicks": 1688,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9026.24
+      "spend": 9127.63
     }
   },
   "reps_by_month": {
@@ -236,9 +236,9 @@
         "discoveries": 19
       },
       "Julian": {
-        "leads": 19,
-        "active": 19,
-        "booked": 12,
+        "leads": 20,
+        "active": 20,
+        "booked": 13,
         "offers": 20,
         "accepted": 3,
         "available": 1,
@@ -247,7 +247,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 19
+        "discoveries": 20
       }
     }
   },
@@ -286,14 +286,12 @@
         },
         "2026-03": {
           "counts": {
-            "pending": 2,
-            "other": 1,
+            "pending": 3,
             "closed": 2,
             "dead": 2
           },
           "gp": {
-            "pending": 46109,
-            "other": 7692,
+            "pending": 53801,
             "closed": 45421,
             "dead": 19875
           },
@@ -328,17 +326,17 @@
         "counts": {
           "available": 8,
           "dead": 19,
-          "other": 2,
+          "other": 1,
           "on_hold": 2,
-          "pending": 3,
+          "pending": 4,
           "closed": 10
         },
         "gp": {
           "available": 173845,
           "dead": 449618,
-          "other": 22692,
+          "other": 15000,
           "on_hold": 77500,
-          "pending": 84759,
+          "pending": 92451,
           "closed": 201799
         },
         "total": 44
@@ -395,6 +393,15 @@
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-03"
+        },
+        {
+          "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
+          "value": 7692,
+          "status": "Sent to Title",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-03"
         },
@@ -596,7 +603,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 9026.24
+    "2026-05": 9127.63
   },
   "channel_by_month": {
     "2026-01": {
@@ -888,11 +895,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 3298.05,
-      "meta_spend": 5728.19,
+      "google_spend": 3381.68,
+      "meta_spend": 5745.95,
       "ppc_leads": 20,
       "fb_leads": 84,
-      "google_cpc": 44.57,
+      "google_cpc": 45.09,
       "meta_cpc": 2.43,
       "pipeline_ppc": {
         "leads": 20,
@@ -932,7 +939,7 @@
       "pipeline_fb": {
         "leads": 84,
         "active": 40,
-        "booked": 16,
+        "booked": 17,
         "offered": 14,
         "accepted": 0,
         "under_contract": 0,
@@ -947,7 +954,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 27,
+            "count": 26,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -959,7 +966,7 @@
             "color": "#F3F3F3"
           },
           "Warm": {
-            "count": 5,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "No Longer Selling": {
@@ -984,9 +991,9 @@
   },
   "pipeline": {
     "new_leads_30d": 104,
-    "dispositioned_mtd": 38,
+    "dispositioned_mtd": 39,
     "hot": 4,
-    "booked": 19,
+    "booked": 20,
     "offers": 17,
     "under_contract": 2,
     "closed": 0
@@ -994,7 +1001,7 @@
   "pipeline_fb": {
     "leads": 84,
     "active": 40,
-    "booked": 16,
+    "booked": 17,
     "offered": 14,
     "accepted": 0,
     "under_contract": 0,
@@ -1009,7 +1016,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 27,
+        "count": 26,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1021,7 +1028,7 @@
         "color": "#F3F3F3"
       },
       "Warm": {
-        "count": 5,
+        "count": 6,
         "color": "#F7F0C5"
       },
       "No Longer Selling": {
@@ -1085,14 +1092,14 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 19,
+      "discoveries": 20,
       "offers": 20,
       "contracts": 3,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
-    "Julian": 258604,
+    "Julian": 266296,
     "Charles": 273919
   },
   "agent_deals": [
@@ -1152,6 +1159,16 @@
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-03",
+      "agent": "Julian"
+    },
+    {
+      "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
+      "value": 7692,
+      "status": "Sent to Title",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-03",
       "agent": "Julian"

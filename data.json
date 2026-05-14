@@ -1,13 +1,13 @@
 {
   "report_date": "May 14, 2026",
-  "last_updated": "2026-05-14 18:00 EST",
+  "last_updated": "2026-05-14 19:00 EST",
   "google": {
     "spend_mtd": 3381.68,
     "clicks_mtd": 75,
-    "crm_leads": 20,
-    "crm_leads_today": 2,
+    "crm_leads": 21,
+    "crm_leads_today": 3,
     "cpc": 45.09,
-    "cpl": 169.08,
+    "cpl": 161.03,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,32 +20,32 @@
         "clicks": 75,
         "cpc": 45.09,
         "crm_leads": 0,
-        "cpl": 169.08
+        "cpl": 161.03
       }
     ]
   },
   "meta": {
-    "spend_30d": 5763.27,
-    "clicks_30d": 2369,
+    "spend_30d": 5788.59,
+    "clicks_30d": 2373,
     "crm_leads": 85,
     "crm_leads_today": 8,
-    "cpc": 2.43,
-    "cpl_crm": 67.8,
-    "cost_per_hot": 1440.82,
+    "cpc": 2.44,
+    "cpl_crm": 68.1,
+    "cost_per_hot": 1157.72,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2034.18,
-        "spend_today": 110.14,
-        "clicks": 679,
+        "spend": 2043.74,
+        "spend_today": 119.7,
+        "clicks": 680,
         "crm_leads": 85,
-        "cpl_crm": 23.93
+        "cpl_crm": 24.04
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3729.09,
-        "spend_today": 189.03,
-        "clicks": 1690,
+        "spend": 3744.85,
+        "spend_today": 204.79,
+        "clicks": 1693,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9144.95
+      "spend": 9170.27
     }
   },
   "reps_by_month": {
@@ -237,7 +237,7 @@
       },
       "Julian": {
         "leads": 20,
-        "active": 20,
+        "active": 21,
         "booked": 13,
         "offers": 20,
         "accepted": 3,
@@ -603,7 +603,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 9144.95
+    "2026-05": 9170.72
   },
   "channel_by_month": {
     "2026-01": {
@@ -896,14 +896,14 @@
     },
     "2026-05": {
       "google_spend": 3381.68,
-      "meta_spend": 5763.27,
-      "ppc_leads": 20,
+      "meta_spend": 5789.04,
+      "ppc_leads": 21,
       "fb_leads": 85,
       "google_cpc": 45.09,
-      "meta_cpc": 2.43,
+      "meta_cpc": 2.44,
       "pipeline_ppc": {
-        "leads": 20,
-        "active": 6,
+        "leads": 21,
+        "active": 7,
         "booked": 3,
         "offered": 3,
         "accepted": 2,
@@ -919,7 +919,7 @@
             "color": "#DCEBD8"
           },
           "Need to Contact": {
-            "count": 4,
+            "count": 5,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -966,8 +966,12 @@
             "color": "#F3F3F3"
           },
           "Warm": {
-            "count": 6,
+            "count": 5,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           },
           "No Longer Selling": {
             "count": 2,
@@ -980,19 +984,15 @@
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           }
         }
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 105,
+    "new_leads_30d": 106,
     "dispositioned_mtd": 39,
-    "hot": 4,
+    "hot": 5,
     "booked": 20,
     "offers": 17,
     "under_contract": 2,
@@ -1028,8 +1028,12 @@
         "color": "#F3F3F3"
       },
       "Warm": {
-        "count": 6,
+        "count": 5,
         "color": "#F7F0C5"
+      },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
       },
       "No Longer Selling": {
         "count": 2,
@@ -1042,16 +1046,12 @@
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
-      },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
       }
     }
   },
   "pipeline_ppc": {
-    "leads": 20,
-    "active": 6,
+    "leads": 21,
+    "active": 7,
     "booked": 3,
     "offered": 3,
     "accepted": 2,
@@ -1067,7 +1067,7 @@
         "color": "#DCEBD8"
       },
       "Need to Contact": {
-        "count": 4,
+        "count": 5,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1295,11 +1295,17 @@
     }
   ],
   "sources": {
-    "ppc": 20,
+    "ppc": 21,
     "facebook": 85,
-    "ppc_inbound_call": 21
+    "ppc_inbound_call": 22
   },
   "hot_leads": [
+    {
+      "name": "779 Beasley's Mill Rd",
+      "address": "779 Beasley's Mill Rd, Warsaw, NC 28398, USA",
+      "phone": "(910) 961-6081",
+      "source": "Facebook"
+    },
     {
       "name": "5901 Brookside Oak Cir",
       "address": "5901 Brookside Oak Cir, Norcross, GA 30093, USA",

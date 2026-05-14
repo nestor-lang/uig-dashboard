@@ -1,13 +1,13 @@
 {
   "report_date": "May 14, 2026",
-  "last_updated": "2026-05-14 14:00 EST",
+  "last_updated": "2026-05-14 15:00 EST",
   "google": {
-    "spend_mtd": 3276.09,
-    "clicks_mtd": 73,
+    "spend_mtd": 3298.05,
+    "clicks_mtd": 74,
     "crm_leads": 19,
     "crm_leads_today": 1,
-    "cpc": 44.88,
-    "cpl": 172.43,
+    "cpc": 44.57,
+    "cpl": 173.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,37 +15,37 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3276.09,
-        "spend_today": 112.94,
-        "clicks": 73,
-        "cpc": 44.88,
+        "spend": 3298.05,
+        "spend_today": 134.9,
+        "clicks": 74,
+        "cpc": 44.57,
         "crm_leads": 0,
-        "cpl": 172.43
+        "cpl": 173.58
       }
     ]
   },
   "meta": {
-    "spend_30d": 5686.79,
-    "clicks_30d": 2347,
-    "crm_leads": 82,
-    "crm_leads_today": 5,
+    "spend_30d": 5702.88,
+    "clicks_30d": 2352,
+    "crm_leads": 84,
+    "crm_leads_today": 7,
     "cpc": 2.42,
-    "cpl_crm": 69.35,
-    "cost_per_hot": 1421.7,
+    "cpl_crm": 67.89,
+    "cost_per_hot": 1425.72,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2005.21,
-        "spend_today": 81.17,
-        "clicks": 669,
-        "crm_leads": 82,
-        "cpl_crm": 24.45
+        "spend": 2010.9,
+        "spend_today": 86.86,
+        "clicks": 673,
+        "crm_leads": 84,
+        "cpl_crm": 23.94
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3681.58,
-        "spend_today": 141.52,
-        "clicks": 1678,
+        "spend": 3691.98,
+        "spend_today": 151.92,
+        "clicks": 1679,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -96,7 +96,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8962.880000000001
+      "spend": 8998.86
     }
   },
   "reps_by_month": {
@@ -596,7 +596,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 8962.88
+    "2026-05": 9000.93
   },
   "channel_by_month": {
     "2026-01": {
@@ -888,11 +888,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 3276.09,
-      "meta_spend": 5686.79,
+      "google_spend": 3298.05,
+      "meta_spend": 5702.88,
       "ppc_leads": 19,
-      "fb_leads": 82,
-      "google_cpc": 44.88,
+      "fb_leads": 84,
+      "google_cpc": 44.57,
       "meta_cpc": 2.42,
       "pipeline_ppc": {
         "leads": 19,
@@ -930,8 +930,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 82,
-        "active": 41,
+        "leads": 84,
+        "active": 40,
         "booked": 16,
         "offered": 14,
         "accepted": 0,
@@ -950,13 +950,13 @@
             "count": 27,
             "color": "#FFD5C2"
           },
+          "Wrong Number": {
+            "count": 8,
+            "color": "#DCEBD8"
+          },
           "Dead": {
             "count": 8,
             "color": "#F3F3F3"
-          },
-          "Wrong Number": {
-            "count": 6,
-            "color": "#DCEBD8"
           },
           "Warm": {
             "count": 5,
@@ -983,7 +983,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 101,
+    "new_leads_30d": 103,
     "dispositioned_mtd": 38,
     "hot": 4,
     "booked": 19,
@@ -992,8 +992,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 82,
-    "active": 41,
+    "leads": 84,
+    "active": 40,
     "booked": 16,
     "offered": 14,
     "accepted": 0,
@@ -1012,13 +1012,13 @@
         "count": 27,
         "color": "#FFD5C2"
       },
+      "Wrong Number": {
+        "count": 8,
+        "color": "#DCEBD8"
+      },
       "Dead": {
         "count": 8,
         "color": "#F3F3F3"
-      },
-      "Wrong Number": {
-        "count": 6,
-        "color": "#DCEBD8"
       },
       "Warm": {
         "count": 5,
@@ -1279,7 +1279,7 @@
   ],
   "sources": {
     "ppc": 19,
-    "facebook": 82,
+    "facebook": 84,
     "ppc_inbound_call": 21
   },
   "hot_leads": [

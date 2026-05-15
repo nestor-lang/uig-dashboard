@@ -1,13 +1,13 @@
 {
   "report_date": "May 15, 2026",
-  "last_updated": "2026-05-15 13:00 EST",
+  "last_updated": "2026-05-15 14:00 EST",
   "google": {
-    "spend_mtd": 3544.84,
-    "clicks_mtd": 82,
-    "crm_leads": 22,
-    "crm_leads_today": 1,
-    "cpc": 43.23,
-    "cpl": 161.13,
+    "spend_mtd": 3590.47,
+    "clicks_mtd": 83,
+    "crm_leads": 24,
+    "crm_leads_today": 3,
+    "cpc": 43.26,
+    "cpl": 149.6,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,53 +20,53 @@
         "clicks": 4,
         "cpc": 10.0,
         "crm_leads": 0,
-        "cpl": 161.13
+        "cpl": 149.6
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3504.84,
-        "spend_today": 123.16,
-        "clicks": 78,
-        "cpc": 44.93,
+        "spend": 3550.47,
+        "spend_today": 168.79,
+        "clicks": 79,
+        "cpc": 44.94,
         "crm_leads": 0,
-        "cpl": 161.13
+        "cpl": 149.6
       }
     ]
   },
   "meta": {
-    "spend_30d": 6133.45,
-    "clicks_30d": 2481,
+    "spend_30d": 6148.83,
+    "clicks_30d": 2487,
     "crm_leads": 92,
     "crm_leads_today": 5,
     "cpc": 2.47,
-    "cpl_crm": 66.67,
-    "cost_per_hot": 1022.24,
+    "cpl_crm": 66.84,
+    "cost_per_hot": 1024.81,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2161.83,
-        "spend_today": 90.66,
-        "clicks": 713,
+        "spend": 2167.63,
+        "spend_today": 96.46,
+        "clicks": 715,
         "crm_leads": 92,
-        "cpl_crm": 23.5
+        "cpl_crm": 23.56
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 3971.62,
-        "spend_today": 154.25,
-        "clicks": 1768,
+        "spend": 3981.2,
+        "spend_today": 163.83,
+        "clicks": 1772,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 282225,
+  "potential_income": 287225,
   "assigned_income": 272989,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 108278,
     "On Market": 86177,
     "Initial Inspection Completed": 70560,
-    "Access Scheduled": 17209
+    "Access Scheduled": 22209
   },
   "by_agent": {
     "Georgia": 191648,
@@ -105,7 +105,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9678.29
+      "spend": 9739.3
     }
   },
   "reps_by_month": {
@@ -171,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -182,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 41,
+        "leads": 43,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -196,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 41
+        "discoveries": 43
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 44,
         "offers": 36,
@@ -212,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -226,13 +226,13 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
         "leads": 19,
-        "active": 12,
+        "active": 11,
         "booked": 7,
         "offers": 18,
         "accepted": 2,
@@ -326,7 +326,7 @@
             "available": 4
           },
           "gp": {
-            "available": 83146
+            "available": 88146
           },
           "total": 4
         }
@@ -341,7 +341,7 @@
           "closed": 10
         },
         "gp": {
-          "available": 173845,
+          "available": 178845,
           "dead": 449618,
           "other": 15000,
           "on_hold": 77500,
@@ -353,7 +353,7 @@
       "deals": [
         {
           "address": "232 Clifton St, Hampton, VA 23661, USA",
-          "value": 17209,
+          "value": 22209,
           "status": "Available",
           "stage": "Access Scheduled",
           "stage_color": "FAF2C4",
@@ -612,7 +612,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 9678.29
+    "2026-05": 9739.3
   },
   "channel_by_month": {
     "2026-01": {
@@ -899,15 +899,15 @@
       }
     },
     "2026-05": {
-      "google_spend": 3544.84,
-      "meta_spend": 6133.45,
-      "ppc_leads": 22,
+      "google_spend": 3590.47,
+      "meta_spend": 6148.83,
+      "ppc_leads": 24,
       "fb_leads": 92,
-      "google_cpc": 43.23,
+      "google_cpc": 43.26,
       "meta_cpc": 2.47,
       "pipeline_ppc": {
-        "leads": 22,
-        "active": 7,
+        "leads": 24,
+        "active": 8,
         "booked": 4,
         "offered": 3,
         "accepted": 2,
@@ -923,16 +923,16 @@
             "color": "#DCEBD8"
           },
           "Need to Contact": {
-            "count": 4,
+            "count": 5,
             "color": "#FFD5C2"
+          },
+          "Listed": {
+            "count": 5,
+            "color": "#C8C8C8"
           },
           "Cold": {
             "count": 4,
             "color": "#D2E4EB"
-          },
-          "Listed": {
-            "count": 4,
-            "color": "#C8C8C8"
           },
           "Under Contract": {
             "count": 2,
@@ -946,7 +946,7 @@
       },
       "pipeline_fb": {
         "leads": 92,
-        "active": 44,
+        "active": 43,
         "booked": 17,
         "offered": 14,
         "accepted": 0,
@@ -958,7 +958,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 33,
+            "count": 32,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -977,13 +977,13 @@
             "count": 5,
             "color": "#F7F0C5"
           },
+          "No Longer Selling": {
+            "count": 3,
+            "color": "#F3F3F3"
+          },
           "Hot": {
             "count": 2,
             "color": "#F7D1D0"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
           },
           "Listed": {
             "count": 2,
@@ -998,7 +998,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 114,
+    "new_leads_30d": 116,
     "dispositioned_mtd": 40,
     "hot": 7,
     "booked": 21,
@@ -1008,7 +1008,7 @@
   },
   "pipeline_fb": {
     "leads": 92,
-    "active": 44,
+    "active": 43,
     "booked": 17,
     "offered": 14,
     "accepted": 0,
@@ -1020,7 +1020,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 33,
+        "count": 32,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1039,13 +1039,13 @@
         "count": 5,
         "color": "#F7F0C5"
       },
+      "No Longer Selling": {
+        "count": 3,
+        "color": "#F3F3F3"
+      },
       "Hot": {
         "count": 2,
         "color": "#F7D1D0"
-      },
-      "No Longer Selling": {
-        "count": 2,
-        "color": "#F3F3F3"
       },
       "Listed": {
         "count": 2,
@@ -1058,8 +1058,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 22,
-    "active": 7,
+    "leads": 24,
+    "active": 8,
     "booked": 4,
     "offered": 3,
     "accepted": 2,
@@ -1075,16 +1075,16 @@
         "color": "#DCEBD8"
       },
       "Need to Contact": {
-        "count": 4,
+        "count": 5,
         "color": "#FFD5C2"
+      },
+      "Listed": {
+        "count": 5,
+        "color": "#C8C8C8"
       },
       "Cold": {
         "count": 4,
         "color": "#D2E4EB"
-      },
-      "Listed": {
-        "count": 4,
-        "color": "#C8C8C8"
       },
       "Under Contract": {
         "count": 2,
@@ -1111,13 +1111,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 266296,
+    "Julian": 271296,
     "Charles": 273919
   },
   "agent_deals": [
     {
       "address": "232 Clifton St, Hampton, VA 23661, USA",
-      "value": 17209,
+      "value": 22209,
       "status": "Available",
       "stage": "Access Scheduled",
       "stage_color": "FAF2C4",
@@ -1307,7 +1307,7 @@
     }
   ],
   "sources": {
-    "ppc": 22,
+    "ppc": 24,
     "facebook": 92,
     "ppc_inbound_call": 21
   },

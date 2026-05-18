@@ -1,6 +1,6 @@
 {
   "report_date": "May 18, 2026",
-  "last_updated": "2026-05-18 12:02 EST",
+  "last_updated": "2026-05-18 13:02 EST",
   "google": {
     "spend_mtd": 4502.42,
     "clicks_mtd": 108,
@@ -34,36 +34,36 @@
     ]
   },
   "meta": {
-    "spend_30d": 7610.29,
-    "clicks_30d": 2993,
-    "crm_leads": 111,
-    "crm_leads_today": 1,
+    "spend_30d": 7648.25,
+    "clicks_30d": 3006,
+    "crm_leads": 112,
+    "crm_leads_today": 2,
     "cpc": 2.54,
-    "cpl_crm": 68.56,
-    "cost_per_hot": 1522.06,
+    "cpl_crm": 68.29,
+    "cost_per_hot": 1529.65,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2681.44,
-        "spend_today": 103.21,
-        "clicks": 910,
-        "crm_leads": 111,
-        "cpl_crm": 24.16
+        "spend": 2695.11,
+        "spend_today": 116.86,
+        "clicks": 916,
+        "crm_leads": 112,
+        "cpl_crm": 24.06
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 4928.85,
-        "spend_today": 161.94,
-        "clicks": 2083,
+        "spend": 4953.14,
+        "spend_today": 186.23,
+        "clicks": 2090,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 287225,
+  "potential_income": 267226,
   "assigned_income": 272989,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 108278,
+    "Market Prep / Pre-Listing Marketing": 88279,
     "On Market": 86177,
     "Initial Inspection Completed": 70560,
     "Access Scheduled": 22209
@@ -105,7 +105,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12109.19
+      "spend": 12145.48
     }
   },
   "reps_by_month": {
@@ -232,7 +232,7 @@
     "2026-05": {
       "Charles": {
         "leads": 20,
-        "active": 16,
+        "active": 17,
         "booked": 9,
         "offers": 19,
         "accepted": 2,
@@ -245,9 +245,9 @@
         "discoveries": 20
       },
       "Julian": {
-        "leads": 22,
-        "active": 24,
-        "booked": 15,
+        "leads": 25,
+        "active": 25,
+        "booked": 17,
         "offers": 24,
         "accepted": 4,
         "available": 1,
@@ -256,7 +256,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 22
+        "discoveries": 25
       }
     }
   },
@@ -328,7 +328,7 @@
           },
           "gp": {
             "on_hold": 34549,
-            "available": 88146
+            "available": 68147
           },
           "total": 5
         }
@@ -344,7 +344,7 @@
         },
         "gp": {
           "on_hold": 112049,
-          "available": 178845,
+          "available": 158846,
           "dead": 449618,
           "other": 15000,
           "pending": 92451,
@@ -445,7 +445,7 @@
         },
         {
           "address": "2537 Carmel Rd, Birmingham, AL 35235",
-          "value": 21788,
+          "value": 1789,
           "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
@@ -614,7 +614,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 12112.71
+    "2026-05": 12150.67
   },
   "channel_by_month": {
     "2026-01": {
@@ -902,15 +902,15 @@
     },
     "2026-05": {
       "google_spend": 4502.42,
-      "meta_spend": 7610.29,
+      "meta_spend": 7648.25,
       "ppc_leads": 31,
-      "fb_leads": 111,
+      "fb_leads": 112,
       "google_cpc": 41.69,
       "meta_cpc": 2.54,
       "pipeline_ppc": {
         "leads": 31,
-        "active": 11,
-        "booked": 6,
+        "active": 12,
+        "booked": 7,
         "offered": 5,
         "accepted": 2,
         "under_contract": 2,
@@ -920,13 +920,13 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 7,
-            "color": "#FFD5C2"
-          },
           "Wrong Number": {
             "count": 7,
             "color": "#DCEBD8"
+          },
+          "Need to Contact": {
+            "count": 6,
+            "color": "#FFD5C2"
           },
           "Cold": {
             "count": 5,
@@ -935,6 +935,10 @@
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
+          },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 2,
@@ -947,17 +951,13 @@
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
           }
         }
       },
       "pipeline_fb": {
-        "leads": 111,
-        "active": 57,
-        "booked": 18,
+        "leads": 112,
+        "active": 58,
+        "booked": 19,
         "offered": 15,
         "accepted": 0,
         "under_contract": 0,
@@ -983,13 +983,13 @@
             "count": 8,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 5,
+            "color": "#F7F0C5"
+          },
           "Owes too Much": {
             "count": 4,
             "color": "#D1F3EC"
-          },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
           },
           "Hot": {
             "count": 2,
@@ -1008,18 +1008,18 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 142,
-    "dispositioned_mtd": 42,
+    "new_leads_30d": 143,
+    "dispositioned_mtd": 45,
     "hot": 7,
-    "booked": 24,
+    "booked": 26,
     "offers": 20,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 111,
-    "active": 57,
-    "booked": 18,
+    "leads": 112,
+    "active": 58,
+    "booked": 19,
     "offered": 15,
     "accepted": 0,
     "under_contract": 0,
@@ -1045,13 +1045,13 @@
         "count": 8,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 5,
+        "color": "#F7F0C5"
+      },
       "Owes too Much": {
         "count": 4,
         "color": "#D1F3EC"
-      },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
       },
       "Hot": {
         "count": 2,
@@ -1069,8 +1069,8 @@
   },
   "pipeline_ppc": {
     "leads": 31,
-    "active": 11,
-    "booked": 6,
+    "active": 12,
+    "booked": 7,
     "offered": 5,
     "accepted": 2,
     "under_contract": 2,
@@ -1080,13 +1080,13 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 7,
-        "color": "#FFD5C2"
-      },
       "Wrong Number": {
         "count": 7,
         "color": "#DCEBD8"
+      },
+      "Need to Contact": {
+        "count": 6,
+        "color": "#FFD5C2"
       },
       "Cold": {
         "count": 5,
@@ -1095,6 +1095,10 @@
       "Listed": {
         "count": 5,
         "color": "#C8C8C8"
+      },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 2,
@@ -1107,10 +1111,6 @@
       "Under Contract": {
         "count": 2,
         "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 1,
-        "color": "#F7F0C5"
       }
     }
   },
@@ -1122,14 +1122,14 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 22,
+      "discoveries": 25,
       "offers": 24,
       "contracts": 4,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
-    "Julian": 271296,
+    "Julian": 251297,
     "Charles": 273919
   },
   "agent_deals": [
@@ -1235,7 +1235,7 @@
     },
     {
       "address": "2537 Carmel Rd, Birmingham, AL 35235",
-      "value": 21788,
+      "value": 1789,
       "status": "Available",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
@@ -1326,7 +1326,7 @@
   ],
   "sources": {
     "ppc": 31,
-    "facebook": 111,
+    "facebook": 112,
     "ppc_inbound_call": 18
   },
   "hot_leads": [

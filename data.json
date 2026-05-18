@@ -1,13 +1,13 @@
 {
   "report_date": "May 18, 2026",
-  "last_updated": "2026-05-18 09:00 EST",
+  "last_updated": "2026-05-18 10:02 EST",
   "google": {
     "spend_mtd": 4437.69,
     "clicks_mtd": 107,
-    "crm_leads": 34,
+    "crm_leads": 33,
     "crm_leads_today": 1,
     "cpc": 41.47,
-    "cpl": 130.52,
+    "cpl": 134.48,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 17,
         "cpc": 5.12,
         "crm_leads": 0,
-        "cpl": 130.52
+        "cpl": 134.48
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,45 +29,45 @@
         "clicks": 90,
         "cpc": 48.34,
         "crm_leads": 0,
-        "cpl": 130.52
+        "cpl": 134.48
       }
     ]
   },
   "meta": {
-    "spend_30d": 7528.69,
-    "clicks_30d": 2972,
+    "spend_30d": 7553.72,
+    "clicks_30d": 2982,
     "crm_leads": 112,
     "crm_leads_today": 2,
     "cpc": 2.53,
-    "cpl_crm": 67.22,
-    "cost_per_hot": 1254.78,
+    "cpl_crm": 67.44,
+    "cost_per_hot": 1258.95,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2647.27,
-        "spend_today": 69.51,
-        "clicks": 900,
+        "spend": 2657.12,
+        "spend_today": 79.36,
+        "clicks": 904,
         "crm_leads": 112,
-        "cpl_crm": 23.64
+        "cpl_crm": 23.72
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 4881.42,
-        "spend_today": 114.54,
-        "clicks": 2072,
+        "spend": 4896.6,
+        "spend_today": 129.69,
+        "clicks": 2078,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 133725,
+  "potential_income": 321774,
   "assigned_income": 272989,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 108278,
     "On Market": 86177,
     "Initial Inspection Completed": 70560,
-    "Access Scheduled": 22209,
-    "New Deal - Unscheduled": -153500
+    "New Deal - Unscheduled": 34549,
+    "Access Scheduled": 22209
   },
   "by_agent": {
     "Georgia": 191648,
@@ -106,7 +106,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11966.38
+      "spend": 11990.869999999999
     }
   },
   "reps_by_month": {
@@ -232,9 +232,9 @@
     },
     "2026-05": {
       "Charles": {
-        "leads": 20,
+        "leads": 21,
         "active": 14,
-        "booked": 8,
+        "booked": 9,
         "offers": 19,
         "accepted": 2,
         "available": 1,
@@ -243,13 +243,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 20
+        "discoveries": 21
       },
       "Julian": {
         "leads": 22,
         "active": 24,
         "booked": 15,
-        "offers": 22,
+        "offers": 23,
         "accepted": 4,
         "available": 1,
         "pending": 0,
@@ -327,7 +327,7 @@
             "available": 5
           },
           "gp": {
-            "available": -65354
+            "available": 122695
           },
           "total": 5
         }
@@ -342,7 +342,7 @@
           "closed": 10
         },
         "gp": {
-          "available": 25345,
+          "available": 213394,
           "dead": 449618,
           "other": 15000,
           "on_hold": 77500,
@@ -354,7 +354,7 @@
       "deals": [
         {
           "address": "203 Cedar St, Tazewell, VA 24651, USA",
-          "value": -153500,
+          "value": 34549,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -622,7 +622,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 11966.38
+    "2026-05": 11991.41
   },
   "channel_by_month": {
     "2026-01": {
@@ -910,16 +910,16 @@
     },
     "2026-05": {
       "google_spend": 4437.69,
-      "meta_spend": 7528.69,
-      "ppc_leads": 34,
+      "meta_spend": 7553.72,
+      "ppc_leads": 33,
       "fb_leads": 112,
       "google_cpc": 41.47,
       "meta_cpc": 2.53,
       "pipeline_ppc": {
-        "leads": 34,
-        "active": 17,
-        "booked": 5,
-        "offered": 4,
+        "leads": 33,
+        "active": 15,
+        "booked": 6,
+        "offered": 5,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -929,7 +929,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 13,
+            "count": 11,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -944,13 +944,17 @@
             "count": 4,
             "color": "#D2E4EB"
           },
-          "Hot": {
+          "Warm": {
             "count": 2,
-            "color": "#F7D1D0"
+            "color": "#F7F0C5"
           },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           },
           "Dead": {
             "count": 1,
@@ -960,7 +964,7 @@
       },
       "pipeline_fb": {
         "leads": 112,
-        "active": 61,
+        "active": 60,
         "booked": 18,
         "offered": 15,
         "accepted": 0,
@@ -1012,17 +1016,17 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 146,
-    "dispositioned_mtd": 42,
-    "hot": 8,
-    "booked": 23,
-    "offers": 19,
+    "new_leads_30d": 145,
+    "dispositioned_mtd": 43,
+    "hot": 7,
+    "booked": 24,
+    "offers": 20,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 112,
-    "active": 61,
+    "active": 60,
     "booked": 18,
     "offered": 15,
     "accepted": 0,
@@ -1072,10 +1076,10 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 34,
-    "active": 17,
-    "booked": 5,
-    "offered": 4,
+    "leads": 33,
+    "active": 15,
+    "booked": 6,
+    "offered": 5,
     "accepted": 2,
     "under_contract": 2,
     "contract_available": 2,
@@ -1085,7 +1089,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 13,
+        "count": 11,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1100,13 +1104,17 @@
         "count": 4,
         "color": "#D2E4EB"
       },
-      "Hot": {
+      "Warm": {
         "count": 2,
-        "color": "#F7D1D0"
+        "color": "#F7F0C5"
       },
       "Under Contract": {
         "count": 2,
         "color": "#DCEBD8"
+      },
+      "Hot": {
+        "count": 1,
+        "color": "#F7D1D0"
       },
       "Dead": {
         "count": 1,
@@ -1116,26 +1124,26 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 20,
+      "discoveries": 21,
       "offers": 19,
       "contracts": 2,
       "revenue": 0.0
     },
     "Julian": {
       "discoveries": 22,
-      "offers": 22,
+      "offers": 23,
       "contracts": 4,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
-    "Julian": 117796,
+    "Julian": 305845,
     "Charles": 273919
   },
   "agent_deals": [
     {
       "address": "203 Cedar St, Tazewell, VA 24651, USA",
-      "value": -153500,
+      "value": 34549,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1335,9 +1343,9 @@
     }
   ],
   "sources": {
-    "ppc": 34,
+    "ppc": 33,
     "facebook": 112,
-    "ppc_inbound_call": 19
+    "ppc_inbound_call": 18
   },
   "hot_leads": [
     {

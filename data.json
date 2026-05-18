@@ -1,13 +1,13 @@
 {
   "report_date": "May 18, 2026",
-  "last_updated": "2026-05-18 10:02 EST",
+  "last_updated": "2026-05-18 11:02 EST",
   "google": {
-    "spend_mtd": 4437.69,
-    "clicks_mtd": 107,
-    "crm_leads": 33,
+    "spend_mtd": 4502.42,
+    "clicks_mtd": 108,
+    "crm_leads": 31,
     "crm_leads_today": 1,
-    "cpc": 41.47,
-    "cpl": 134.48,
+    "cpc": 41.69,
+    "cpl": 145.24,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,41 +20,41 @@
         "clicks": 17,
         "cpc": 5.12,
         "crm_leads": 0,
-        "cpl": 134.48
+        "cpl": 145.24
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4350.56,
-        "spend_today": 71.9,
-        "clicks": 90,
-        "cpc": 48.34,
+        "spend": 4415.29,
+        "spend_today": 136.63,
+        "clicks": 91,
+        "cpc": 48.52,
         "crm_leads": 0,
-        "cpl": 134.48
+        "cpl": 145.24
       }
     ]
   },
   "meta": {
-    "spend_30d": 7553.72,
-    "clicks_30d": 2982,
-    "crm_leads": 112,
-    "crm_leads_today": 2,
-    "cpc": 2.53,
-    "cpl_crm": 67.44,
-    "cost_per_hot": 1258.95,
+    "spend_30d": 7572.81,
+    "clicks_30d": 2985,
+    "crm_leads": 111,
+    "crm_leads_today": 1,
+    "cpc": 2.54,
+    "cpl_crm": 68.22,
+    "cost_per_hot": 1514.56,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2657.12,
-        "spend_today": 79.36,
-        "clicks": 904,
-        "crm_leads": 112,
-        "cpl_crm": 23.72
+        "spend": 2663.34,
+        "spend_today": 85.11,
+        "clicks": 905,
+        "crm_leads": 111,
+        "cpl_crm": 23.99
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 4896.6,
-        "spend_today": 129.69,
-        "clicks": 2078,
+        "spend": 4909.47,
+        "spend_today": 142.56,
+        "clicks": 2080,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -106,7 +106,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11990.869999999999
+      "spend": 12073.2
     }
   },
   "reps_by_month": {
@@ -186,7 +186,7 @@
         "discoveries": 33
       },
       "Julian": {
-        "leads": 41,
+        "leads": 40,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -197,7 +197,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 41
+        "discoveries": 40
       }
     },
     "2026-04": {
@@ -232,8 +232,8 @@
     },
     "2026-05": {
       "Charles": {
-        "leads": 21,
-        "active": 14,
+        "leads": 20,
+        "active": 15,
         "booked": 9,
         "offers": 19,
         "accepted": 2,
@@ -243,13 +243,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 21
+        "discoveries": 20
       },
       "Julian": {
         "leads": 22,
         "active": 24,
         "booked": 15,
-        "offers": 23,
+        "offers": 24,
         "accepted": 4,
         "available": 1,
         "pending": 0,
@@ -622,7 +622,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 11991.41
+    "2026-05": 12075.23
   },
   "channel_by_month": {
     "2026-01": {
@@ -885,13 +885,13 @@
             "count": 5,
             "color": "#D1F3EC"
           },
-          "Hot": {
-            "count": 4,
-            "color": "#F7D1D0"
-          },
           "Warm": {
-            "count": 3,
+            "count": 4,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 3,
+            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 3,
@@ -909,15 +909,15 @@
       }
     },
     "2026-05": {
-      "google_spend": 4437.69,
-      "meta_spend": 7553.72,
-      "ppc_leads": 33,
-      "fb_leads": 112,
-      "google_cpc": 41.47,
-      "meta_cpc": 2.53,
+      "google_spend": 4502.42,
+      "meta_spend": 7572.81,
+      "ppc_leads": 31,
+      "fb_leads": 111,
+      "google_cpc": 41.69,
+      "meta_cpc": 2.54,
       "pipeline_ppc": {
-        "leads": 33,
-        "active": 15,
+        "leads": 31,
+        "active": 11,
         "booked": 6,
         "offered": 5,
         "accepted": 2,
@@ -929,42 +929,42 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 11,
+            "count": 7,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 7,
             "color": "#DCEBD8"
           },
+          "Cold": {
+            "count": 5,
+            "color": "#D2E4EB"
+          },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
           },
-          "Cold": {
-            "count": 4,
-            "color": "#D2E4EB"
-          },
-          "Warm": {
+          "Dead": {
             "count": 2,
-            "color": "#F7F0C5"
+            "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
           },
-          "Hot": {
+          "Warm": {
             "count": 1,
-            "color": "#F7D1D0"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
+            "color": "#F7F0C5"
           }
         }
       },
       "pipeline_fb": {
-        "leads": 112,
-        "active": 60,
+        "leads": 111,
+        "active": 57,
         "booked": 18,
         "offered": 15,
         "accepted": 0,
@@ -976,11 +976,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 48,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 32,
+            "count": 34,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1016,8 +1016,8 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 145,
-    "dispositioned_mtd": 43,
+    "new_leads_30d": 142,
+    "dispositioned_mtd": 42,
     "hot": 7,
     "booked": 24,
     "offers": 20,
@@ -1025,8 +1025,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 112,
-    "active": 60,
+    "leads": 111,
+    "active": 57,
     "booked": 18,
     "offered": 15,
     "accepted": 0,
@@ -1038,11 +1038,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 48,
+        "count": 45,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 32,
+        "count": 34,
         "color": "#D2E4EB"
       },
       "Dead": {
@@ -1076,8 +1076,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 33,
-    "active": 15,
+    "leads": 31,
+    "active": 11,
     "booked": 6,
     "offered": 5,
     "accepted": 2,
@@ -1089,49 +1089,49 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 11,
+        "count": 7,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 7,
         "color": "#DCEBD8"
       },
+      "Cold": {
+        "count": 5,
+        "color": "#D2E4EB"
+      },
       "Listed": {
         "count": 5,
         "color": "#C8C8C8"
       },
-      "Cold": {
-        "count": 4,
-        "color": "#D2E4EB"
-      },
-      "Warm": {
+      "Dead": {
         "count": 2,
-        "color": "#F7F0C5"
+        "color": "#F3F3F3"
+      },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
       },
       "Under Contract": {
         "count": 2,
         "color": "#DCEBD8"
       },
-      "Hot": {
+      "Warm": {
         "count": 1,
-        "color": "#F7D1D0"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
+        "color": "#F7F0C5"
       }
     }
   },
   "reps": {
     "Charles": {
-      "discoveries": 21,
+      "discoveries": 20,
       "offers": 19,
       "contracts": 2,
       "revenue": 0.0
     },
     "Julian": {
       "discoveries": 22,
-      "offers": 23,
+      "offers": 24,
       "contracts": 4,
       "revenue": 39007.18
     }
@@ -1343,8 +1343,8 @@
     }
   ],
   "sources": {
-    "ppc": 33,
-    "facebook": 112,
+    "ppc": 31,
+    "facebook": 111,
     "ppc_inbound_call": 18
   },
   "hot_leads": [
@@ -1373,9 +1373,9 @@
       "source": "Facebook"
     },
     {
-      "name": "1302 Jimson Cir SE",
-      "address": "1302 Jimson Cir SE, Conyers, GA 30013, USA",
-      "phone": "404 216-8664",
+      "name": "21 Emeralda Rd",
+      "address": "21 Emeralda Rd, Rochester, NY 14624, USA",
+      "phone": "(585) 415-2944",
       "source": "Facebook"
     }
   ],

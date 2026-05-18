@@ -1,6 +1,6 @@
 {
   "report_date": "May 18, 2026",
-  "last_updated": "2026-05-18 15:00 EST",
+  "last_updated": "2026-05-18 16:00 EST",
   "google": {
     "spend_mtd": 4525.38,
     "clicks_mtd": 110,
@@ -34,44 +34,45 @@
     ]
   },
   "meta": {
-    "spend_30d": 7707.84,
-    "clicks_30d": 3032,
+    "spend_30d": 7727.56,
+    "clicks_30d": 3037,
     "crm_leads": 114,
     "crm_leads_today": 4,
     "cpc": 2.54,
-    "cpl_crm": 67.61,
-    "cost_per_hot": 1541.57,
+    "cpl_crm": 67.79,
+    "cost_per_hot": 1545.51,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2724.13,
-        "spend_today": 145.88,
-        "clicks": 932,
+        "spend": 2730.74,
+        "spend_today": 152.26,
+        "clicks": 934,
         "crm_leads": 114,
-        "cpl_crm": 23.9
+        "cpl_crm": 23.95
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 4983.71,
-        "spend_today": 216.8,
-        "clicks": 2100,
+        "spend": 4996.82,
+        "spend_today": 229.91,
+        "clicks": 2103,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 267226,
-  "assigned_income": 272989,
+  "potential_income": 250542,
+  "assigned_income": 283098,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 88279,
-    "On Market": 86177,
     "Initial Inspection Completed": 70560,
+    "On Market": 69493,
     "Access Scheduled": 22209
   },
   "by_agent": {
     "Georgia": 191648,
     "Virginia": 53650,
     "Delaware": 20000,
+    "Missouri": 10109,
     "Alabama": 7692
   },
   "closed_by_month": {
@@ -105,7 +106,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12232.69
+      "spend": 12250.96
     }
   },
   "reps_by_month": {
@@ -171,7 +172,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -182,10 +183,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 42,
+        "leads": 40,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -196,12 +197,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 48,
         "booked": 44,
         "offers": 36,
@@ -212,10 +213,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 61,
         "booked": 56,
         "offers": 41,
@@ -226,12 +227,12 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 20,
+        "leads": 21,
         "active": 18,
         "booked": 9,
         "offers": 19,
@@ -242,7 +243,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 20
+        "discoveries": 21
       },
       "Julian": {
         "leads": 26,
@@ -267,12 +268,12 @@
           "counts": {
             "closed": 7,
             "dead": 13,
-            "available": 1
+            "pending": 1
           },
           "gp": {
             "closed": 140203,
             "dead": 276879,
-            "available": 16684
+            "pending": 10109
           },
           "total": 21
         },
@@ -336,18 +337,18 @@
       "all_time": {
         "counts": {
           "on_hold": 3,
-          "available": 8,
+          "available": 7,
           "dead": 19,
           "other": 1,
-          "pending": 4,
+          "pending": 5,
           "closed": 10
         },
         "gp": {
           "on_hold": 112049,
-          "available": 158846,
+          "available": 142162,
           "dead": 449618,
           "other": 15000,
-          "pending": 92451,
+          "pending": 102560,
           "closed": 201799
         },
         "total": 45
@@ -454,8 +455,8 @@
         },
         {
           "address": "601 E 107th Ter, Kansas City, MO 64131",
-          "value": 16684,
-          "status": "Available",
+          "value": 10109,
+          "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -614,7 +615,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 12233.45
+    "2026-05": 12252.94
   },
   "channel_by_month": {
     "2026-01": {
@@ -902,7 +903,7 @@
     },
     "2026-05": {
       "google_spend": 4525.38,
-      "meta_spend": 7708.07,
+      "meta_spend": 7727.56,
       "ppc_leads": 31,
       "fb_leads": 114,
       "google_cpc": 41.14,
@@ -956,7 +957,7 @@
       },
       "pipeline_fb": {
         "leads": 114,
-        "active": 60,
+        "active": 59,
         "booked": 20,
         "offered": 15,
         "accepted": 0,
@@ -1009,7 +1010,7 @@
   },
   "pipeline": {
     "new_leads_30d": 145,
-    "dispositioned_mtd": 46,
+    "dispositioned_mtd": 47,
     "hot": 7,
     "booked": 27,
     "offers": 20,
@@ -1018,7 +1019,7 @@
   },
   "pipeline_fb": {
     "leads": 114,
-    "active": 60,
+    "active": 59,
     "booked": 20,
     "offered": 15,
     "accepted": 0,
@@ -1116,7 +1117,7 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 20,
+      "discoveries": 21,
       "offers": 19,
       "contracts": 2,
       "revenue": 0.0
@@ -1129,7 +1130,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 251297,
+    "Julian": 244722,
     "Charles": 273919
   },
   "agent_deals": [
@@ -1245,8 +1246,8 @@
     },
     {
       "address": "601 E 107th Ter, Kansas City, MO 64131",
-      "value": 16684,
-      "status": "Available",
+      "value": 10109,
+      "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
@@ -1327,7 +1328,7 @@
   "sources": {
     "ppc": 31,
     "facebook": 114,
-    "ppc_inbound_call": 18
+    "ppc_inbound_call": 19
   },
   "hot_leads": [
     {

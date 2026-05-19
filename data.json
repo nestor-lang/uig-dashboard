@@ -1,6 +1,6 @@
 {
   "report_date": "May 18, 2026",
-  "last_updated": "2026-05-18 19:00 EST",
+  "last_updated": "2026-05-18 20:00 EST",
   "google": {
     "spend_mtd": 4570.09,
     "clicks_mtd": 116,
@@ -34,27 +34,27 @@
     ]
   },
   "meta": {
-    "spend_30d": 7849.39,
-    "clicks_30d": 3073,
+    "spend_30d": 7869.46,
+    "clicks_30d": 3080,
     "crm_leads": 116,
     "crm_leads_today": 6,
-    "cpc": 2.55,
-    "cpl_crm": 67.67,
-    "cost_per_hot": 981.17,
+    "cpc": 2.56,
+    "cpl_crm": 67.84,
+    "cost_per_hot": 983.68,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2777.64,
-        "spend_today": 199.14,
-        "clicks": 955,
+        "spend": 2784.75,
+        "spend_today": 206.25,
+        "clicks": 960,
         "crm_leads": 116,
-        "cpl_crm": 23.95
+        "cpl_crm": 24.01
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 5071.75,
-        "spend_today": 304.84,
-        "clicks": 2118,
+        "spend": 5084.71,
+        "spend_today": 317.8,
+        "clicks": 2120,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -106,7 +106,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12419.48
+      "spend": 12439.55
     }
   },
   "reps_by_month": {
@@ -615,7 +615,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 12419.48
+    "2026-05": 12439.55
   },
   "channel_by_month": {
     "2026-01": {
@@ -903,11 +903,11 @@
     },
     "2026-05": {
       "google_spend": 4570.09,
-      "meta_spend": 7849.39,
+      "meta_spend": 7869.46,
       "ppc_leads": 31,
       "fb_leads": 116,
       "google_cpc": 39.4,
-      "meta_cpc": 2.55,
+      "meta_cpc": 2.56,
       "pipeline_ppc": {
         "leads": 31,
         "active": 12,
@@ -938,7 +938,7 @@
             "color": "#C8C8C8"
           },
           "Warm": {
-            "count": 3,
+            "count": 2,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -952,6 +952,10 @@
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
+          },
+          "Owes too Much": {
+            "count": 1,
+            "color": "#D1F3EC"
           }
         }
       },
@@ -1098,7 +1102,7 @@
         "color": "#C8C8C8"
       },
       "Warm": {
-        "count": 3,
+        "count": 2,
         "color": "#F7F0C5"
       },
       "Dead": {
@@ -1112,6 +1116,10 @@
       "Under Contract": {
         "count": 2,
         "color": "#DCEBD8"
+      },
+      "Owes too Much": {
+        "count": 1,
+        "color": "#D1F3EC"
       }
     }
   },

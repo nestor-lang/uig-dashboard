@@ -1,13 +1,13 @@
 {
   "report_date": "May 21, 2026",
-  "last_updated": "2026-05-21 11:00 EST",
+  "last_updated": "2026-05-21 12:00 EST",
   "google": {
-    "spend_mtd": 4997.95,
-    "clicks_mtd": 143,
+    "spend_mtd": 5095.2,
+    "clicks_mtd": 144,
     "crm_leads": 35,
     "crm_leads_today": 1,
-    "cpc": 34.95,
-    "cpl": 142.8,
+    "cpc": 35.38,
+    "cpl": 145.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,57 +20,57 @@
         "clicks": 37,
         "cpc": 4.1,
         "crm_leads": 0,
-        "cpl": 142.8
+        "cpl": 145.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4846.2,
-        "spend_today": 30.31,
-        "clicks": 106,
-        "cpc": 45.72,
+        "spend": 4943.45,
+        "spend_today": 127.56,
+        "clicks": 107,
+        "cpc": 46.2,
         "crm_leads": 0,
-        "cpl": 142.8
+        "cpl": 145.58
       }
     ]
   },
   "meta": {
-    "spend_30d": 9253.21,
-    "clicks_30d": 3569,
+    "spend_30d": 9279.56,
+    "clicks_30d": 3576,
     "crm_leads": 133,
     "crm_leads_today": 4,
     "cpc": 2.59,
-    "cpl_crm": 69.57,
-    "cost_per_hot": 1321.89,
+    "cpl_crm": 69.77,
+    "cost_per_hot": 1546.59,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3284.58,
-        "spend_today": 72.9,
-        "clicks": 1169,
+        "spend": 3292.74,
+        "spend_today": 81.06,
+        "clicks": 1172,
         "crm_leads": 133,
-        "cpl_crm": 24.7
+        "cpl_crm": 24.76
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 5968.63,
-        "spend_today": 122.24,
-        "clicks": 2400,
+        "spend": 5986.82,
+        "spend_today": 140.43,
+        "clicks": 2404,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 453877,
-  "assigned_income": 287876,
+  "potential_income": 298877,
+  "assigned_income": 287538,
   "by_stage": {
-    "New Deal - Unscheduled": 180308,
     "Access Scheduled": 82049,
     "On Market": 80843,
     "Market Prep / Pre-Listing Marketing": 61467,
-    "Initial Inspection Completed": 49209
+    "Initial Inspection Completed": 49209,
+    "New Deal - Unscheduled": 25308
   },
   "by_agent": {
-    "Georgia": 191286,
+    "Georgia": 190948,
     "Virginia": 55502,
     "Delaware": 20000,
     "Alabama": 10980,
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14251.16
+      "spend": 14374.310000000001
     }
   },
   "reps_by_month": {
@@ -157,10 +157,10 @@
         "discoveries": 21
       },
       "Julian": {
-        "leads": 41,
+        "leads": 40,
         "active": 2,
         "booked": 21,
-        "offers": 29,
+        "offers": 28,
         "accepted": 8,
         "available": 3,
         "pending": 0,
@@ -168,12 +168,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 92798.35,
-        "discoveries": 41
+        "discoveries": 40
       }
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 40,
+        "leads": 42,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 44,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -228,7 +228,7 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -251,8 +251,8 @@
         "active": 34,
         "booked": 26,
         "offers": 33,
-        "accepted": 6,
-        "available": 2,
+        "accepted": 7,
+        "available": 3,
         "pending": 0,
         "dead": 0,
         "closed": 0,
@@ -325,21 +325,21 @@
         },
         "2026-05": {
           "counts": {
-            "available": 5,
+            "available": 6,
             "on_hold": 1,
             "pending": 1
           },
           "gp": {
-            "available": 159275,
+            "available": 4275,
             "on_hold": 34549,
             "pending": 3288
           },
-          "total": 7
+          "total": 8
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 8,
           "on_hold": 4,
           "dead": 19,
           "other": 1,
@@ -347,16 +347,25 @@
           "closed": 10
         },
         "gp": {
-          "available": 192690,
+          "available": 37690,
           "on_hold": 152649,
           "dead": 449618,
           "other": 15000,
           "pending": 107699,
           "closed": 201799
         },
-        "total": 47
+        "total": 48
       },
       "deals": [
+        {
+          "address": "675 Transit Cir, College Park, GA 30349, USA",
+          "value": -155000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-05"
+        },
         {
           "address": "570 River Overlook Dr NW, Lawrenceville, GA 30043, USA",
           "value": 82049,
@@ -498,7 +507,7 @@
           "gp": {
             "dead": 49442,
             "closed": 42660,
-            "pending": 145177
+            "pending": 144839
           },
           "total": 5
         },
@@ -549,7 +558,7 @@
         "gp": {
           "available": 261187,
           "dead": 221675,
-          "pending": 165177,
+          "pending": 164839,
           "closed": 112402,
           "on_hold": 50200
         },
@@ -639,7 +648,7 @@
         },
         {
           "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-          "value": 145177,
+          "value": 144839,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -654,7 +663,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 14251.16
+    "2026-05": 14374.76
   },
   "channel_by_month": {
     "2026-01": {
@@ -941,11 +950,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 4997.95,
-      "meta_spend": 9253.21,
+      "google_spend": 5095.2,
+      "meta_spend": 9279.56,
       "ppc_leads": 35,
       "fb_leads": 133,
-      "google_cpc": 34.95,
+      "google_cpc": 35.38,
       "meta_cpc": 2.59,
       "pipeline_ppc": {
         "leads": 35,
@@ -999,9 +1008,9 @@
         "active": 71,
         "booked": 33,
         "offered": 24,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 4,
+        "accepted": 5,
+        "under_contract": 5,
+        "contract_available": 5,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1032,11 +1041,11 @@
             "color": "#D1F3EC"
           },
           "Under Contract": {
-            "count": 4,
+            "count": 5,
             "color": "#DCEBD8"
           },
           "Hot": {
-            "count": 4,
+            "count": 3,
             "color": "#F7D1D0"
           },
           "No Longer Selling": {
@@ -1054,10 +1063,10 @@
   "pipeline": {
     "new_leads_30d": 168,
     "dispositioned_mtd": 63,
-    "hot": 7,
+    "hot": 6,
     "booked": 41,
     "offers": 32,
-    "under_contract": 6,
+    "under_contract": 7,
     "closed": 0
   },
   "pipeline_fb": {
@@ -1065,9 +1074,9 @@
     "active": 71,
     "booked": 33,
     "offered": 24,
-    "accepted": 4,
-    "under_contract": 4,
-    "contract_available": 4,
+    "accepted": 5,
+    "under_contract": 5,
+    "contract_available": 5,
     "contract_pending": 0,
     "contract_closed": 0,
     "contract_dead": 0,
@@ -1098,11 +1107,11 @@
         "color": "#D1F3EC"
       },
       "Under Contract": {
-        "count": 4,
+        "count": 5,
         "color": "#DCEBD8"
       },
       "Hot": {
-        "count": 4,
+        "count": 3,
         "color": "#F7D1D0"
       },
       "No Longer Selling": {
@@ -1172,15 +1181,25 @@
     "Julian": {
       "discoveries": 35,
       "offers": 33,
-      "contracts": 6,
+      "contracts": 7,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
-    "Julian": 300390,
-    "Charles": 426364
+    "Julian": 145390,
+    "Charles": 426026
   },
   "agent_deals": [
+    {
+      "address": "675 Transit Cir, College Park, GA 30349, USA",
+      "value": -155000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-05",
+      "agent": "Julian"
+    },
     {
       "address": "570 River Overlook Dr NW, Lawrenceville, GA 30043, USA",
       "value": 82049,
@@ -1403,7 +1422,7 @@
     },
     {
       "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-      "value": 145177,
+      "value": 144839,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1437,15 +1456,15 @@
       "source": "Facebook"
     },
     {
-      "name": "675 Transit Cir",
-      "address": "675 Transit Cir, College Park, GA 30349, USA",
-      "phone": "(404) 453-5680",
-      "source": "Facebook"
-    },
-    {
       "name": "3019 Flint Mill Run SE",
       "address": "3019 Flint Mill Run SE, Owens Cross Roads, AL 35763, USA",
       "phone": "(256) 479-3080",
+      "source": "Facebook"
+    },
+    {
+      "name": "335 Howell Dr SW",
+      "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
+      "phone": "(404) 437-8166",
       "source": "Facebook"
     }
   ],

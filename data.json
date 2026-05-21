@@ -1,6 +1,6 @@
 {
   "report_date": "May 21, 2026",
-  "last_updated": "2026-05-21 14:00 EST",
+  "last_updated": "2026-05-21 15:00 EST",
   "google": {
     "spend_mtd": 5095.2,
     "clicks_mtd": 144,
@@ -34,37 +34,37 @@
     ]
   },
   "meta": {
-    "spend_30d": 9320.63,
-    "clicks_30d": 3581,
-    "crm_leads": 133,
-    "crm_leads_today": 4,
+    "spend_30d": 9338.83,
+    "clicks_30d": 3590,
+    "crm_leads": 134,
+    "crm_leads_today": 5,
     "cpc": 2.6,
-    "cpl_crm": 70.08,
-    "cost_per_hot": 1553.44,
+    "cpl_crm": 69.69,
+    "cost_per_hot": 1334.12,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3315.91,
-        "spend_today": 104.23,
-        "clicks": 1175,
-        "crm_leads": 133,
-        "cpl_crm": 24.93
+        "spend": 3327.12,
+        "spend_today": 115.27,
+        "clicks": 1181,
+        "crm_leads": 134,
+        "cpl_crm": 24.83
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 6004.72,
-        "spend_today": 158.33,
-        "clicks": 2406,
+        "spend": 6011.71,
+        "spend_today": 165.32,
+        "clicks": 2409,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 298877,
+  "potential_income": 298639,
   "assigned_income": 287538,
   "by_stage": {
     "Access Scheduled": 122049,
-    "On Market": 80843,
+    "On Market": 80605,
     "Market Prep / Pre-Listing Marketing": 61467,
     "Initial Inspection Completed": 49209,
     "New Deal - Unscheduled": -14692
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14415.829999999998
+      "spend": 14430.329999999998
     }
   },
   "reps_by_month": {
@@ -173,7 +173,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 42,
+        "leads": 40,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 44,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -228,7 +228,7 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -247,9 +247,9 @@
         "discoveries": 28
       },
       "Julian": {
-        "leads": 36,
-        "active": 36,
-        "booked": 27,
+        "leads": 37,
+        "active": 37,
+        "booked": 28,
         "offers": 34,
         "accepted": 7,
         "available": 3,
@@ -258,7 +258,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 36
+        "discoveries": 37
       }
     }
   },
@@ -291,7 +291,7 @@
             "pending": 40502,
             "on_hold": 49890,
             "closed": 16175,
-            "available": 3865
+            "available": 3627
           },
           "total": 7
         },
@@ -347,7 +347,7 @@
           "closed": 10
         },
         "gp": {
-          "available": 37690,
+          "available": 37452,
           "on_hold": 152649,
           "dead": 449618,
           "other": 15000,
@@ -458,7 +458,7 @@
         },
         {
           "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-          "value": 3865,
+          "value": 3627,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -663,7 +663,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 14415.83
+    "2026-05": 14434.03
   },
   "channel_by_month": {
     "2026-01": {
@@ -951,9 +951,9 @@
     },
     "2026-05": {
       "google_spend": 5095.2,
-      "meta_spend": 9320.63,
+      "meta_spend": 9338.83,
       "ppc_leads": 35,
-      "fb_leads": 133,
+      "fb_leads": 134,
       "google_cpc": 35.38,
       "meta_cpc": 2.6,
       "pipeline_ppc": {
@@ -1004,9 +1004,9 @@
         }
       },
       "pipeline_fb": {
-        "leads": 133,
-        "active": 73,
-        "booked": 34,
+        "leads": 134,
+        "active": 74,
+        "booked": 35,
         "offered": 25,
         "accepted": 5,
         "under_contract": 5,
@@ -1045,7 +1045,7 @@
             "color": "#DCEBD8"
           },
           "Hot": {
-            "count": 3,
+            "count": 4,
             "color": "#F7D1D0"
           },
           "No Longer Selling": {
@@ -1061,18 +1061,18 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 168,
-    "dispositioned_mtd": 64,
-    "hot": 6,
-    "booked": 42,
+    "new_leads_30d": 169,
+    "dispositioned_mtd": 65,
+    "hot": 7,
+    "booked": 43,
     "offers": 33,
     "under_contract": 7,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 133,
-    "active": 73,
-    "booked": 34,
+    "leads": 134,
+    "active": 74,
+    "booked": 35,
     "offered": 25,
     "accepted": 5,
     "under_contract": 5,
@@ -1111,7 +1111,7 @@
         "color": "#DCEBD8"
       },
       "Hot": {
-        "count": 3,
+        "count": 4,
         "color": "#F7D1D0"
       },
       "No Longer Selling": {
@@ -1179,14 +1179,14 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 36,
+      "discoveries": 37,
       "offers": 34,
       "contracts": 7,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
-    "Julian": 145390,
+    "Julian": 145152,
     "Charles": 426026
   },
   "agent_deals": [
@@ -1302,7 +1302,7 @@
     },
     {
       "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-      "value": 3865,
+      "value": 3627,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1433,10 +1433,16 @@
   ],
   "sources": {
     "ppc": 35,
-    "facebook": 133,
+    "facebook": 134,
     "ppc_inbound_call": 19
   },
   "hot_leads": [
+    {
+      "name": "238 Winchester Dr",
+      "address": "238 Winchester Dr, Douglas, GA 31535, USA",
+      "phone": "(912) 592-4177",
+      "source": "Facebook"
+    },
     {
       "name": "52 N 15th St",
       "address": "52 N 15th St, Wyandanch, NY 11798",
@@ -1459,12 +1465,6 @@
       "name": "3019 Flint Mill Run SE",
       "address": "3019 Flint Mill Run SE, Owens Cross Roads, AL 35763, USA",
       "phone": "(256) 479-3080",
-      "source": "Facebook"
-    },
-    {
-      "name": "335 Howell Dr SW",
-      "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
-      "phone": "(404) 437-8166",
       "source": "Facebook"
     }
   ],

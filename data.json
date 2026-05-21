@@ -1,13 +1,13 @@
 {
   "report_date": "May 21, 2026",
-  "last_updated": "2026-05-21 18:00 EST",
+  "last_updated": "2026-05-21 19:00 EST",
   "google": {
-    "spend_mtd": 5200.63,
-    "clicks_mtd": 151,
+    "spend_mtd": 5313.74,
+    "clicks_mtd": 153,
     "crm_leads": 35,
     "crm_leads_today": 1,
-    "cpc": 34.44,
-    "cpl": 148.59,
+    "cpc": 34.73,
+    "cpl": 151.82,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,59 +15,59 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 157.83,
-        "spend_today": 14.38,
-        "clicks": 40,
-        "cpc": 3.95,
+        "spend": 163.45,
+        "spend_today": 20.0,
+        "clicks": 41,
+        "cpc": 3.99,
         "crm_leads": 0,
-        "cpl": 148.59
+        "cpl": 151.82
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 5042.8,
-        "spend_today": 226.91,
-        "clicks": 111,
-        "cpc": 45.43,
+        "spend": 5150.29,
+        "spend_today": 334.4,
+        "clicks": 112,
+        "cpc": 45.98,
         "crm_leads": 0,
-        "cpl": 148.59
+        "cpl": 151.82
       }
     ]
   },
   "meta": {
-    "spend_30d": 9429.84,
-    "clicks_30d": 3615,
-    "crm_leads": 136,
-    "crm_leads_today": 7,
+    "spend_30d": 9449.15,
+    "clicks_30d": 3623,
+    "crm_leads": 137,
+    "crm_leads_today": 8,
     "cpc": 2.61,
-    "cpl_crm": 69.34,
-    "cost_per_hot": 1178.73,
+    "cpl_crm": 68.97,
+    "cost_per_hot": 1181.14,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3351.62,
-        "spend_today": 139.77,
-        "clicks": 1191,
-        "crm_leads": 136,
-        "cpl_crm": 24.64
+        "spend": 3358.04,
+        "spend_today": 146.19,
+        "clicks": 1197,
+        "crm_leads": 137,
+        "cpl_crm": 24.51
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 6078.22,
-        "spend_today": 231.83,
-        "clicks": 2424,
+        "spend": 6091.11,
+        "spend_today": 244.72,
+        "clicks": 2426,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 305139,
+  "potential_income": 493188,
   "assigned_income": 287538,
   "by_stage": {
+    "New Deal - Unscheduled": 173357,
     "Access Scheduled": 122049,
     "On Market": 87105,
     "Market Prep / Pre-Listing Marketing": 61467,
-    "Initial Inspection Completed": 49209,
-    "New Deal - Unscheduled": -14692
+    "Initial Inspection Completed": 49209
   },
   "by_agent": {
     "Georgia": 190948,
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14630.470000000001
+      "spend": 14762.89
     }
   },
   "reps_by_month": {
@@ -173,7 +173,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 42,
+        "leads": 40,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 44,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -228,7 +228,7 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -330,7 +330,7 @@
             "pending": 1
           },
           "gp": {
-            "available": 4275,
+            "available": 192324,
             "on_hold": 34549,
             "pending": 3288
           },
@@ -347,7 +347,7 @@
           "closed": 10
         },
         "gp": {
-          "available": 43952,
+          "available": 232001,
           "on_hold": 152649,
           "dead": 449618,
           "other": 15000,
@@ -359,7 +359,7 @@
       "deals": [
         {
           "address": "675 Transit Cir, College Park, GA 30349, USA",
-          "value": -155000,
+          "value": 33049,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -663,7 +663,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 14631.15
+    "2026-05": 14762.89
   },
   "channel_by_month": {
     "2026-01": {
@@ -950,11 +950,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 5200.63,
-      "meta_spend": 9430.52,
+      "google_spend": 5313.74,
+      "meta_spend": 9449.15,
       "ppc_leads": 35,
-      "fb_leads": 136,
-      "google_cpc": 34.44,
+      "fb_leads": 137,
+      "google_cpc": 34.73,
       "meta_cpc": 2.61,
       "pipeline_ppc": {
         "leads": 35,
@@ -1004,8 +1004,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 136,
-        "active": 74,
+        "leads": 137,
+        "active": 75,
         "booked": 37,
         "offered": 27,
         "accepted": 5,
@@ -1017,7 +1017,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 47,
+            "count": 48,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1061,7 +1061,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 171,
+    "new_leads_30d": 172,
     "dispositioned_mtd": 67,
     "hot": 8,
     "booked": 45,
@@ -1070,8 +1070,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 136,
-    "active": 74,
+    "leads": 137,
+    "active": 75,
     "booked": 37,
     "offered": 27,
     "accepted": 5,
@@ -1083,7 +1083,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 47,
+        "count": 48,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1186,13 +1186,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 151652,
+    "Julian": 339701,
     "Charles": 426026
   },
   "agent_deals": [
     {
       "address": "675 Transit Cir, College Park, GA 30349, USA",
-      "value": -155000,
+      "value": 33049,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1433,7 +1433,7 @@
   ],
   "sources": {
     "ppc": 35,
-    "facebook": 136,
+    "facebook": 137,
     "ppc_inbound_call": 20
   },
   "hot_leads": [

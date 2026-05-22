@@ -1,6 +1,6 @@
 {
   "report_date": "May 22, 2026",
-  "last_updated": "2026-05-22 09:00 EST",
+  "last_updated": "2026-05-22 10:00 EST",
   "google": {
     "spend_mtd": 5325.93,
     "clicks_mtd": 154,
@@ -34,34 +34,34 @@
     ]
   },
   "meta": {
-    "spend_30d": 9739.07,
-    "clicks_30d": 3712,
+    "spend_30d": 9777.58,
+    "clicks_30d": 3715,
     "crm_leads": 137,
     "crm_leads_today": 0,
-    "cpc": 2.62,
-    "cpl_crm": 71.09,
-    "cost_per_hot": 1217.38,
+    "cpc": 2.63,
+    "cpl_crm": 71.37,
+    "cost_per_hot": 1222.2,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3453.4,
-        "spend_today": 61.66,
-        "clicks": 1228,
+        "spend": 3465.54,
+        "spend_today": 73.8,
+        "clicks": 1229,
         "crm_leads": 137,
-        "cpl_crm": 25.21
+        "cpl_crm": 25.3
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 6285.67,
-        "spend_today": 116.17,
-        "clicks": 2484,
+        "spend": 6312.04,
+        "spend_today": 142.41,
+        "clicks": 2486,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
   "potential_income": 493188,
-  "assigned_income": 287538,
+  "assigned_income": 277187,
   "by_stage": {
     "New Deal - Unscheduled": 173357,
     "Access Scheduled": 122049,
@@ -70,7 +70,7 @@
     "Initial Inspection Completed": 49209
   },
   "by_agent": {
-    "Georgia": 190948,
+    "Georgia": 180597,
     "Virginia": 55502,
     "Delaware": 20000,
     "Alabama": 10980,
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15065.0
+      "spend": 15103.51
     }
   },
   "reps_by_month": {
@@ -173,7 +173,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 42,
+        "leads": 40,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 42
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 44,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -228,7 +228,7 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -507,7 +507,7 @@
           "gp": {
             "dead": 49442,
             "closed": 42660,
-            "pending": 144839
+            "pending": 134488
           },
           "total": 5
         },
@@ -558,7 +558,7 @@
         "gp": {
           "available": 261187,
           "dead": 221675,
-          "pending": 164839,
+          "pending": 154488,
           "closed": 112402,
           "on_hold": 50200
         },
@@ -648,7 +648,7 @@
         },
         {
           "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-          "value": 144839,
+          "value": 134488,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -663,7 +663,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 15065.0
+    "2026-05": 15103.51
   },
   "channel_by_month": {
     "2026-01": {
@@ -951,11 +951,11 @@
     },
     "2026-05": {
       "google_spend": 5325.93,
-      "meta_spend": 9739.07,
+      "meta_spend": 9777.58,
       "ppc_leads": 35,
       "fb_leads": 137,
       "google_cpc": 34.58,
-      "meta_cpc": 2.62,
+      "meta_cpc": 2.63,
       "pipeline_ppc": {
         "leads": 35,
         "active": 14,
@@ -1005,7 +1005,7 @@
       },
       "pipeline_fb": {
         "leads": 137,
-        "active": 74,
+        "active": 71,
         "booked": 37,
         "offered": 27,
         "accepted": 5,
@@ -1017,7 +1017,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 47,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1029,7 +1029,7 @@
             "color": "#F3F3F3"
           },
           "Wrong Number": {
-            "count": 9,
+            "count": 10,
             "color": "#DCEBD8"
           },
           "Warm": {
@@ -1048,13 +1048,13 @@
             "count": 5,
             "color": "#D1F3EC"
           },
+          "Listed": {
+            "count": 3,
+            "color": "#C8C8C8"
+          },
           "No Longer Selling": {
             "count": 3,
             "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 2,
-            "color": "#C8C8C8"
           }
         }
       }
@@ -1071,7 +1071,7 @@
   },
   "pipeline_fb": {
     "leads": 137,
-    "active": 74,
+    "active": 71,
     "booked": 37,
     "offered": 27,
     "accepted": 5,
@@ -1083,7 +1083,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 47,
+        "count": 45,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1095,7 +1095,7 @@
         "color": "#F3F3F3"
       },
       "Wrong Number": {
-        "count": 9,
+        "count": 10,
         "color": "#DCEBD8"
       },
       "Warm": {
@@ -1114,13 +1114,13 @@
         "count": 5,
         "color": "#D1F3EC"
       },
+      "Listed": {
+        "count": 3,
+        "color": "#C8C8C8"
+      },
       "No Longer Selling": {
         "count": 3,
         "color": "#F3F3F3"
-      },
-      "Listed": {
-        "count": 2,
-        "color": "#C8C8C8"
       }
     }
   },
@@ -1187,7 +1187,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 339701,
-    "Charles": 426026
+    "Charles": 415675
   },
   "agent_deals": [
     {
@@ -1422,7 +1422,7 @@
     },
     {
       "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-      "value": 144839,
+      "value": 134488,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",

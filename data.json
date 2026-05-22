@@ -1,13 +1,13 @@
 {
   "report_date": "May 22, 2026",
-  "last_updated": "2026-05-22 14:00 EST",
+  "last_updated": "2026-05-22 15:00 EST",
   "google": {
-    "spend_mtd": 5361.15,
-    "clicks_mtd": 156,
+    "spend_mtd": 5362.19,
+    "clicks_mtd": 157,
     "crm_leads": 35,
     "crm_leads_today": 0,
-    "cpc": 34.37,
-    "cpl": 153.18,
+    "cpc": 34.15,
+    "cpl": 153.21,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 175.75,
-        "spend_today": 12.3,
-        "clicks": 43,
-        "cpc": 4.09,
+        "spend": 176.8,
+        "spend_today": 13.35,
+        "clicks": 44,
+        "cpc": 4.02,
         "crm_leads": 0,
-        "cpl": 153.18
+        "cpl": 153.21
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,45 +29,45 @@
         "clicks": 113,
         "cpc": 45.89,
         "crm_leads": 0,
-        "cpl": 153.18
+        "cpl": 153.21
       }
     ]
   },
   "meta": {
-    "spend_30d": 9849.3,
-    "clicks_30d": 3740,
-    "crm_leads": 137,
-    "crm_leads_today": 0,
-    "cpc": 2.63,
-    "cpl_crm": 71.89,
-    "cost_per_hot": 1094.37,
+    "spend_30d": 9887.31,
+    "clicks_30d": 3749,
+    "crm_leads": 138,
+    "crm_leads_today": 1,
+    "cpc": 2.64,
+    "cpl_crm": 71.65,
+    "cost_per_hot": 1098.59,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3492.46,
-        "spend_today": 100.68,
-        "clicks": 1238,
-        "crm_leads": 137,
-        "cpl_crm": 25.49
+        "spend": 3504.4,
+        "spend_today": 113.03,
+        "clicks": 1243,
+        "crm_leads": 138,
+        "cpl_crm": 25.39
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 6356.84,
-        "spend_today": 187.12,
-        "clicks": 2502,
+        "spend": 6382.91,
+        "spend_today": 213.19,
+        "clicks": 2506,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 338188,
+  "potential_income": 526237,
   "assigned_income": 272747,
   "by_stage": {
+    "New Deal - Unscheduled": 173357,
     "Access Scheduled": 155098,
     "On Market": 87105,
     "Market Prep / Pre-Listing Marketing": 61467,
-    "Initial Inspection Completed": 49209,
-    "New Deal - Unscheduled": -14692
+    "Initial Inspection Completed": 49209
   },
   "by_agent": {
     "Georgia": 176157,
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15210.23
+      "spend": 15247.849999999999
     }
   },
   "reps_by_month": {
@@ -173,7 +173,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 40,
+        "leads": 42,
         "active": 9,
         "booked": 19,
         "offers": 40,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 42
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 44,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -228,13 +228,13 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
         "leads": 31,
-        "active": 25,
+        "active": 26,
         "booked": 17,
         "offers": 27,
         "accepted": 5,
@@ -247,9 +247,9 @@
         "discoveries": 31
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 38,
-        "booked": 29,
+        "booked": 30,
         "offers": 37,
         "accepted": 8,
         "available": 4,
@@ -258,7 +258,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 38
+        "discoveries": 40
       }
     }
   },
@@ -330,7 +330,7 @@
             "pending": 1
           },
           "gp": {
-            "available": 37324,
+            "available": 225373,
             "on_hold": 34549,
             "pending": 3288
           },
@@ -347,7 +347,7 @@
           "closed": 10
         },
         "gp": {
-          "available": 77001,
+          "available": 265050,
           "on_hold": 152649,
           "dead": 449618,
           "other": 15000,
@@ -359,7 +359,7 @@
       "deals": [
         {
           "address": "2598 N Daniels Creek Rd, Collinsville, VA 24078, USA",
-          "value": -155000,
+          "value": 33049,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -672,7 +672,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 15210.45
+    "2026-05": 15247.85
   },
   "channel_by_month": {
     "2026-01": {
@@ -959,12 +959,12 @@
       }
     },
     "2026-05": {
-      "google_spend": 5361.15,
-      "meta_spend": 9849.3,
+      "google_spend": 5362.19,
+      "meta_spend": 9885.66,
       "ppc_leads": 35,
-      "fb_leads": 137,
-      "google_cpc": 34.37,
-      "meta_cpc": 2.63,
+      "fb_leads": 138,
+      "google_cpc": 34.15,
+      "meta_cpc": 2.64,
       "pipeline_ppc": {
         "leads": 35,
         "active": 14,
@@ -1013,9 +1013,9 @@
         }
       },
       "pipeline_fb": {
-        "leads": 137,
-        "active": 71,
-        "booked": 37,
+        "leads": 138,
+        "active": 72,
+        "booked": 38,
         "offered": 27,
         "accepted": 5,
         "under_contract": 5,
@@ -1042,7 +1042,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 7,
+            "count": 8,
             "color": "#F7F0C5"
           },
           "Hot": {
@@ -1070,18 +1070,18 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 172,
-    "dispositioned_mtd": 69,
+    "new_leads_30d": 173,
+    "dispositioned_mtd": 71,
     "hot": 9,
-    "booked": 46,
+    "booked": 47,
     "offers": 36,
     "under_contract": 8,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 137,
-    "active": 71,
-    "booked": 37,
+    "leads": 138,
+    "active": 72,
+    "booked": 38,
     "offered": 27,
     "accepted": 5,
     "under_contract": 5,
@@ -1108,7 +1108,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 7,
+        "count": 8,
         "color": "#F7F0C5"
       },
       "Hot": {
@@ -1188,20 +1188,20 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 38,
+      "discoveries": 40,
       "offers": 37,
       "contracts": 8,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
-    "Julian": 184701,
+    "Julian": 372750,
     "Charles": 411235
   },
   "agent_deals": [
     {
       "address": "2598 N Daniels Creek Rd, Collinsville, VA 24078, USA",
-      "value": -155000,
+      "value": 33049,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1452,7 +1452,7 @@
   ],
   "sources": {
     "ppc": 35,
-    "facebook": 137,
+    "facebook": 138,
     "ppc_inbound_call": 19
   },
   "hot_leads": [

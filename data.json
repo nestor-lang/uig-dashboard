@@ -1,13 +1,13 @@
 {
   "report_date": "May 22, 2026",
-  "last_updated": "2026-05-22 17:00 EST",
+  "last_updated": "2026-05-22 18:00 EST",
   "google": {
-    "spend_mtd": 5368.85,
-    "clicks_mtd": 158,
+    "spend_mtd": 5386.28,
+    "clicks_mtd": 159,
     "crm_leads": 35,
     "crm_leads_today": 0,
-    "cpc": 33.98,
-    "cpl": 153.4,
+    "cpc": 33.88,
+    "cpl": 153.89,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,54 +20,54 @@
         "clicks": 45,
         "cpc": 4.08,
         "crm_leads": 0,
-        "cpl": 153.4
+        "cpl": 153.89
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 5185.39,
-        "spend_today": 35.1,
-        "clicks": 113,
-        "cpc": 45.89,
+        "spend": 5202.82,
+        "spend_today": 52.53,
+        "clicks": 114,
+        "cpc": 45.64,
         "crm_leads": 0,
-        "cpl": 153.4
+        "cpl": 153.89
       }
     ]
   },
   "meta": {
-    "spend_30d": 9952.45,
-    "clicks_30d": 3770,
-    "crm_leads": 139,
-    "crm_leads_today": 2,
+    "spend_30d": 9972.97,
+    "clicks_30d": 3777,
+    "crm_leads": 140,
+    "crm_leads_today": 3,
     "cpc": 2.64,
-    "cpl_crm": 71.6,
-    "cost_per_hot": 1105.83,
+    "cpl_crm": 71.24,
+    "cost_per_hot": 997.3,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3528.54,
-        "spend_today": 136.58,
-        "clicks": 1251,
-        "crm_leads": 139,
-        "cpl_crm": 25.39
+        "spend": 3536.32,
+        "spend_today": 144.07,
+        "clicks": 1252,
+        "crm_leads": 140,
+        "cpl_crm": 25.26
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 6423.91,
-        "spend_today": 254.19,
-        "clicks": 2519,
+        "spend": 6436.65,
+        "spend_today": 266.93,
+        "clicks": 2525,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 346237,
+  "potential_income": 562486,
   "assigned_income": 272747,
   "by_stage": {
+    "New Deal - Unscheduled": 209606,
     "Access Scheduled": 155098,
     "On Market": 87105,
     "Market Prep / Pre-Listing Marketing": 61467,
-    "Initial Inspection Completed": 49209,
-    "New Deal - Unscheduled": -6643
+    "Initial Inspection Completed": 49209
   },
   "by_agent": {
     "Georgia": 176157,
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15319.41
+      "spend": 15359.25
     }
   },
   "reps_by_month": {
@@ -234,7 +234,7 @@
     "2026-05": {
       "Charles": {
         "leads": 32,
-        "active": 27,
+        "active": 26,
         "booked": 18,
         "offers": 28,
         "accepted": 6,
@@ -247,10 +247,10 @@
         "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
-        "active": 38,
-        "booked": 30,
-        "offers": 37,
+        "leads": 41,
+        "active": 39,
+        "booked": 31,
+        "offers": 38,
         "accepted": 8,
         "available": 4,
         "pending": 0,
@@ -258,7 +258,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 40
+        "discoveries": 41
       }
     }
   },
@@ -551,7 +551,7 @@
             "available": 6
           },
           "gp": {
-            "available": 19158
+            "available": 235407
           },
           "total": 6
         }
@@ -565,7 +565,7 @@
           "on_hold": 1
         },
         "gp": {
-          "available": 81187,
+          "available": 297436,
           "dead": 221675,
           "pending": 150048,
           "closed": 112402,
@@ -576,7 +576,7 @@
       "deals": [
         {
           "address": "14 Frances St, Onancock, VA 23417, USA",
-          "value": -180000,
+          "value": 36249,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -681,7 +681,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 15321.3
+    "2026-05": 15359.25
   },
   "channel_by_month": {
     "2026-01": {
@@ -729,7 +729,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 7,
+            "count": 6,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -751,6 +751,10 @@
           "Listed": {
             "count": 1,
             "color": "#C8C8C8"
+          },
+          "No Longer Selling": {
+            "count": 1,
+            "color": "#F3F3F3"
           }
         }
       }
@@ -968,11 +972,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 5368.85,
-      "meta_spend": 9952.45,
+      "google_spend": 5386.28,
+      "meta_spend": 9972.97,
       "ppc_leads": 35,
-      "fb_leads": 139,
-      "google_cpc": 33.98,
+      "fb_leads": 140,
+      "google_cpc": 33.88,
       "meta_cpc": 2.64,
       "pipeline_ppc": {
         "leads": 35,
@@ -1022,10 +1026,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 139,
+        "leads": 140,
         "active": 73,
-        "booked": 39,
-        "offered": 28,
+        "booked": 40,
+        "offered": 29,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 6,
@@ -1054,13 +1058,13 @@
             "count": 8,
             "color": "#F7F0C5"
           },
+          "Hot": {
+            "count": 7,
+            "color": "#F7D1D0"
+          },
           "Under Contract": {
             "count": 6,
             "color": "#DCEBD8"
-          },
-          "Hot": {
-            "count": 6,
-            "color": "#F7D1D0"
           },
           "Owes too Much": {
             "count": 5,
@@ -1079,19 +1083,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 174,
-    "dispositioned_mtd": 72,
-    "hot": 9,
-    "booked": 48,
-    "offers": 37,
+    "new_leads_30d": 175,
+    "dispositioned_mtd": 73,
+    "hot": 10,
+    "booked": 49,
+    "offers": 38,
     "under_contract": 9,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 139,
+    "leads": 140,
     "active": 73,
-    "booked": 39,
-    "offered": 28,
+    "booked": 40,
+    "offered": 29,
     "accepted": 6,
     "under_contract": 6,
     "contract_available": 6,
@@ -1120,13 +1124,13 @@
         "count": 8,
         "color": "#F7F0C5"
       },
+      "Hot": {
+        "count": 7,
+        "color": "#F7D1D0"
+      },
       "Under Contract": {
         "count": 6,
         "color": "#DCEBD8"
-      },
-      "Hot": {
-        "count": 6,
-        "color": "#F7D1D0"
       },
       "Owes too Much": {
         "count": 5,
@@ -1197,15 +1201,15 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 40,
-      "offers": 37,
+      "discoveries": 41,
+      "offers": 38,
       "contracts": 8,
       "revenue": 39007.18
     }
   },
   "pipeline_by_agent": {
     "Julian": 372750,
-    "Charles": 231235
+    "Charles": 447484
   },
   "agent_deals": [
     {
@@ -1360,7 +1364,7 @@
     },
     {
       "address": "14 Frances St, Onancock, VA 23417, USA",
-      "value": -180000,
+      "value": 36249,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1471,7 +1475,7 @@
   ],
   "sources": {
     "ppc": 35,
-    "facebook": 139,
+    "facebook": 140,
     "ppc_inbound_call": 19
   },
   "hot_leads": [
@@ -1479,6 +1483,12 @@
       "name": "2928 Cedarhurst Rd",
       "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
       "phone": "(757) 635-4180",
+      "source": "Facebook"
+    },
+    {
+      "name": "204 S Main St",
+      "address": "204 S Main St, Bath, NC 27808, USA",
+      "phone": "(252) 945-4115",
       "source": "Facebook"
     },
     {
@@ -1497,12 +1507,6 @@
       "name": "52 N 15th St",
       "address": "52 N 15th St, Wyandanch, NY 11798",
       "phone": "(770) 715-1926",
-      "source": "Facebook"
-    },
-    {
-      "name": "16 Gumwood Dr",
-      "address": "16 Gumwood Dr, Hampton, VA 23666, USA",
-      "phone": "(757) 634-2196",
       "source": "Facebook"
     }
   ],

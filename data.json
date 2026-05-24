@@ -1,6 +1,6 @@
 {
   "report_date": "May 24, 2026",
-  "last_updated": "2026-05-24 16:00 EST",
+  "last_updated": "2026-05-24 17:00 EST",
   "google": {
     "spend_mtd": 5815.39,
     "clicks_mtd": 184,
@@ -34,27 +34,27 @@
     ]
   },
   "meta": {
-    "spend_30d": 11005.7,
-    "clicks_30d": 4171,
+    "spend_30d": 11041.38,
+    "clicks_30d": 4177,
     "crm_leads": 158,
     "crm_leads_today": 7,
     "cpc": 2.64,
-    "cpl_crm": 69.66,
-    "cost_per_hot": 1100.57,
+    "cpl_crm": 69.88,
+    "cost_per_hot": 1104.14,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3896.38,
-        "spend_today": 135.84,
-        "clicks": 1400,
+        "spend": 3911.54,
+        "spend_today": 151.0,
+        "clicks": 1404,
         "crm_leads": 158,
-        "cpl_crm": 24.66
+        "cpl_crm": 24.76
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 7109.32,
-        "spend_today": 267.67,
-        "clicks": 2771,
+        "spend": 7129.84,
+        "spend_today": 288.18,
+        "clicks": 2773,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -63,10 +63,10 @@
   "potential_income": 562486,
   "assigned_income": 272747,
   "by_stage": {
-    "New Deal - Unscheduled": 209606,
-    "Initial Inspection Completed": 131258,
+    "Initial Inspection Completed": 166807,
+    "New Deal - Unscheduled": 141008,
+    "Access Scheduled": 106098,
     "On Market": 87105,
-    "Access Scheduled": 73049,
     "Market Prep / Pre-Listing Marketing": 61467
   },
   "by_agent": {
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16820.73
+      "spend": 16856.010000000002
     }
   },
   "reps_by_month": {
@@ -361,8 +361,8 @@
           "address": "2598 N Daniels Creek Rd, Collinsville, VA 24078, USA",
           "value": 33049,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -605,8 +605,8 @@
           "address": "616 Mountain Heights Rd, Front Royal, VA 22630, USA",
           "value": 35549,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -681,7 +681,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 16821.09
+    "2026-05": 16856.77
   },
   "channel_by_month": {
     "2026-01": {
@@ -973,7 +973,7 @@
     },
     "2026-05": {
       "google_spend": 5815.39,
-      "meta_spend": 11005.7,
+      "meta_spend": 11041.38,
       "ppc_leads": 37,
       "fb_leads": 158,
       "google_cpc": 31.61,
@@ -1216,8 +1216,8 @@
       "address": "2598 N Daniels Creek Rd, Collinsville, VA 24078, USA",
       "value": 33049,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Julian"
@@ -1396,8 +1396,8 @@
       "address": "616 Mountain Heights Rd, Front Royal, VA 22630, USA",
       "value": 35549,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Charles"

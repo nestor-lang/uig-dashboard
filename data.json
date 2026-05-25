@@ -1,13 +1,13 @@
 {
   "report_date": "May 25, 2026",
-  "last_updated": "2026-05-25 15:00 EST",
+  "last_updated": "2026-05-25 16:00 EST",
   "google": {
-    "spend_mtd": 6154.43,
-    "clicks_mtd": 191,
+    "spend_mtd": 6156.01,
+    "clicks_mtd": 192,
     "crm_leads": 38,
     "crm_leads_today": 1,
-    "cpc": 32.22,
-    "cpl": 161.96,
+    "cpc": 32.06,
+    "cpl": 162.0,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 240.98,
-        "spend_today": 21.9,
-        "clicks": 57,
-        "cpc": 4.23,
+        "spend": 242.56,
+        "spend_today": 23.48,
+        "clicks": 58,
+        "cpc": 4.18,
         "crm_leads": 0,
-        "cpl": 161.96
+        "cpl": 162.0
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,31 +29,31 @@
         "clicks": 134,
         "cpc": 44.13,
         "crm_leads": 0,
-        "cpl": 161.96
+        "cpl": 162.0
       }
     ]
   },
   "meta": {
-    "spend_30d": 11522.22,
-    "clicks_30d": 4355,
+    "spend_30d": 11530.29,
+    "clicks_30d": 4359,
     "crm_leads": 160,
     "crm_leads_today": 2,
     "cpc": 2.65,
-    "cpl_crm": 72.01,
-    "cost_per_hot": 1152.22,
+    "cpl_crm": 72.06,
+    "cost_per_hot": 1153.03,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4121.36,
-        "spend_today": 148.86,
-        "clicks": 1487,
+        "spend": 4129.28,
+        "spend_today": 156.77,
+        "clicks": 1491,
         "crm_leads": 160,
-        "cpl_crm": 25.76
+        "cpl_crm": 25.81
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
-        "spend": 7400.86,
-        "spend_today": 171.46,
+        "spend": 7401.01,
+        "spend_today": 171.61,
         "clicks": 2868,
         "crm_leads": 0,
         "cpl_crm": null
@@ -64,8 +64,8 @@
   "assigned_income": 272747,
   "by_stage": {
     "Initial Inspection Completed": 166807,
-    "New Deal - Unscheduled": 141008,
-    "Access Scheduled": 106098,
+    "Access Scheduled": 142347,
+    "New Deal - Unscheduled": 104759,
     "On Market": 87105,
     "Market Prep / Pre-Listing Marketing": 61467
   },
@@ -107,7 +107,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 17675.46
+      "spend": 17686.22
     }
   },
   "reps_by_month": {
@@ -173,7 +173,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 41,
+        "leads": 39,
         "active": 10,
         "booked": 19,
         "offers": 39,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 41
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 44,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 62,
         "booked": 56,
         "offers": 41,
@@ -228,7 +228,7 @@
         "closed": 0,
         "pending_income": 15000.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -578,8 +578,8 @@
           "address": "14 Frances St, Onancock, VA 23417, USA",
           "value": 36249,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -681,7 +681,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 17676.65
+    "2026-05": 17686.3
   },
   "channel_by_month": {
     "2026-01": {
@@ -921,7 +921,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 59,
+            "count": 58,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -941,7 +941,7 @@
             "color": "#F3F3F3"
           },
           "Listed": {
-            "count": 6,
+            "count": 7,
             "color": "#C8C8C8"
           },
           "Not Workable": {
@@ -972,11 +972,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 6154.43,
-      "meta_spend": 11522.22,
+      "google_spend": 6156.01,
+      "meta_spend": 11530.29,
       "ppc_leads": 38,
       "fb_leads": 160,
-      "google_cpc": 32.22,
+      "google_cpc": 32.06,
       "meta_cpc": 2.65,
       "pipeline_ppc": {
         "leads": 38,
@@ -1366,8 +1366,8 @@
       "address": "14 Frances St, Onancock, VA 23417, USA",
       "value": 36249,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Charles"

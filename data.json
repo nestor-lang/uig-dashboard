@@ -1,13 +1,13 @@
 {
   "report_date": "May 27, 2026",
-  "last_updated": "2026-05-27 17:00 EST",
+  "last_updated": "2026-05-27 18:00 EST",
   "google": {
-    "spend_mtd": 6703.92,
-    "clicks_mtd": 212,
+    "spend_mtd": 6775.22,
+    "clicks_mtd": 213,
     "crm_leads": 44,
     "crm_leads_today": 3,
-    "cpc": 31.62,
-    "cpl": 152.36,
+    "cpc": 31.81,
+    "cpl": 153.98,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,41 +20,49 @@
         "clicks": 67,
         "cpc": 4.08,
         "crm_leads": 0,
-        "cpl": 152.36
+        "cpl": 153.98
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6430.39,
-        "spend_today": 287.63,
-        "clicks": 145,
-        "cpc": 44.35,
+        "spend": 6501.69,
+        "spend_today": 358.93,
+        "clicks": 146,
+        "cpc": 44.53,
         "crm_leads": 0,
-        "cpl": 152.36
+        "cpl": 153.98
       }
     ]
   },
   "meta": {
-    "spend_30d": 12023.08,
-    "clicks_30d": 4566,
-    "crm_leads": 172,
-    "crm_leads_today": 8,
+    "spend_30d": 12035.15,
+    "clicks_30d": 4574,
+    "crm_leads": 173,
+    "crm_leads_today": 9,
     "cpc": 2.63,
-    "cpl_crm": 69.9,
-    "cost_per_hot": 1202.31,
+    "cpl_crm": 69.57,
+    "cost_per_hot": 1203.51,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4620.29,
-        "spend_today": 189.95,
-        "clicks": 1698,
-        "crm_leads": 172,
-        "cpl_crm": 26.86
+        "spend": 4629.53,
+        "spend_today": 199.17,
+        "clicks": 1704,
+        "crm_leads": 173,
+        "cpl_crm": 26.76
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
         "spend": 7402.79,
         "spend_today": 0,
         "clicks": 2868,
+        "crm_leads": 0,
+        "cpl_crm": null
+      },
+      {
+        "name": "REIT\u00ae | Prospecting | May 27th | Broad",
+        "spend": 2.83,
+        "spend_today": 2.83,
+        "clicks": 2,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -108,7 +116,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18727.0
+      "spend": 18810.37
     }
   },
   "reps_by_month": {
@@ -248,10 +256,10 @@
         "discoveries": 37
       },
       "Julian": {
-        "leads": 51,
-        "active": 50,
-        "booked": 40,
-        "offers": 41,
+        "leads": 52,
+        "active": 51,
+        "booked": 41,
+        "offers": 48,
         "accepted": 8,
         "available": 4,
         "pending": 0,
@@ -259,7 +267,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 51
+        "discoveries": 52
       }
     }
   },
@@ -693,7 +701,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 18727.0
+    "2026-05": 18810.37
   },
   "channel_by_month": {
     "2026-01": {
@@ -864,7 +872,7 @@
         "leads": 49,
         "active": 27,
         "booked": 27,
-        "offered": 18,
+        "offered": 19,
         "accepted": 3,
         "under_contract": 3,
         "contract_available": 2,
@@ -984,11 +992,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 6703.92,
-      "meta_spend": 12023.08,
+      "google_spend": 6775.22,
+      "meta_spend": 12035.15,
       "ppc_leads": 44,
-      "fb_leads": 172,
-      "google_cpc": 31.62,
+      "fb_leads": 173,
+      "google_cpc": 31.81,
       "meta_cpc": 2.63,
       "pipeline_ppc": {
         "leads": 44,
@@ -1042,10 +1050,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 172,
-        "active": 92,
-        "booked": 51,
-        "offered": 34,
+        "leads": 173,
+        "active": 93,
+        "booked": 52,
+        "offered": 39,
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 8,
@@ -1055,16 +1063,12 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 62,
+            "count": 64,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 44,
+            "count": 48,
             "color": "#D2E4EB"
-          },
-          "Warm": {
-            "count": 14,
-            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 12,
@@ -1073,6 +1077,10 @@
           "Wrong Number": {
             "count": 11,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 9,
+            "color": "#F7F0C5"
           },
           "Hot": {
             "count": 8,
@@ -1099,19 +1107,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 216,
-    "dispositioned_mtd": 89,
+    "new_leads_30d": 217,
+    "dispositioned_mtd": 90,
     "hot": 10,
-    "booked": 64,
-    "offers": 45,
+    "booked": 65,
+    "offers": 50,
     "under_contract": 11,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 172,
-    "active": 92,
-    "booked": 51,
-    "offered": 34,
+    "leads": 173,
+    "active": 93,
+    "booked": 52,
+    "offered": 39,
     "accepted": 8,
     "under_contract": 8,
     "contract_available": 8,
@@ -1121,16 +1129,12 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 62,
+        "count": 64,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 44,
+        "count": 48,
         "color": "#D2E4EB"
-      },
-      "Warm": {
-        "count": 14,
-        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 12,
@@ -1139,6 +1143,10 @@
       "Wrong Number": {
         "count": 11,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 9,
+        "color": "#F7F0C5"
       },
       "Hot": {
         "count": 8,
@@ -1221,8 +1229,8 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 51,
-      "offers": 41,
+      "discoveries": 52,
+      "offers": 48,
       "contracts": 8,
       "revenue": 39007.18
     }
@@ -1505,20 +1513,20 @@
   ],
   "sources": {
     "ppc": 44,
-    "facebook": 172,
+    "facebook": 173,
     "ppc_inbound_call": 16
   },
   "hot_leads": [
     {
-      "name": "2016 Chase Ave",
-      "address": "2016 Chase Ave, Waynesboro, VA 22980, USA",
-      "phone": "(540) 447-6482",
+      "name": "42 Bikah Ln",
+      "address": "42 Bikah Ln, Lexington, VA 24450, USA",
+      "phone": "(540) 817-0987",
       "source": "Facebook"
     },
     {
-      "name": "20 Hoag Ave",
-      "address": "20 Hoag Ave, Akron, NY 14001, USA",
-      "phone": "(716) 225-0000",
+      "name": "2016 Chase Ave",
+      "address": "2016 Chase Ave, Waynesboro, VA 22980, USA",
+      "phone": "(540) 447-6482",
       "source": "Facebook"
     },
     {

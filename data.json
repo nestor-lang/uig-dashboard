@@ -1,11 +1,10 @@
 {
   "report_date": "May 27, 2026",
-  "last_updated": "2026-05-27 12:00 EST",
+  "last_updated": "2026-05-27 16:41 AST",
   "google": {
     "spend_mtd": 6459.57,
     "clicks_mtd": 207,
     "crm_leads": 42,
-    "crm_leads_today": 1,
     "cpc": 31.21,
     "cpl": 153.8,
     "cost_per_booked": null,
@@ -34,21 +33,20 @@
     ]
   },
   "meta": {
-    "spend_30d": 11942.67,
-    "clicks_30d": 4537,
-    "crm_leads": 167,
-    "crm_leads_today": 2,
+    "spend_30d": 11951.36,
+    "clicks_30d": 4540,
+    "crm_leads": 168,
     "cpc": 2.63,
-    "cpl_crm": 71.51,
-    "cost_per_hot": 1194.27,
+    "cpl_crm": 71.14,
+    "cost_per_hot": 1195.14,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4539.88,
-        "spend_today": 109.54,
-        "clicks": 1669,
-        "crm_leads": 167,
-        "cpl_crm": 27.18
+        "spend": 4548.57,
+        "spend_today": 118.23,
+        "clicks": 1672,
+        "crm_leads": 168,
+        "cpl_crm": 27.07
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
@@ -108,7 +106,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18402.239999999998
+      "spend": 18410.53
     }
   },
   "reps_by_month": {
@@ -124,8 +122,7 @@
         "dead": 1,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 17
+        "closed_revenue": 0.0
       },
       "Julian": {
         "leads": 50,
@@ -138,8 +135,7 @@
         "dead": 3,
         "closed": 5,
         "pending_income": 56054.0,
-        "closed_revenue": 89841.95,
-        "discoveries": 50
+        "closed_revenue": 89841.95
       }
     },
     "2026-02": {
@@ -154,8 +150,7 @@
         "dead": 0,
         "closed": 1,
         "pending_income": 20000.0,
-        "closed_revenue": 40116.5,
-        "discoveries": 21
+        "closed_revenue": 40116.5
       },
       "Julian": {
         "leads": 40,
@@ -168,8 +163,7 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 92798.35,
-        "discoveries": 40
+        "closed_revenue": 92663.95
       }
     },
     "2026-03": {
@@ -184,11 +178,10 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 33
+        "closed_revenue": 0.0
       },
       "Julian": {
-        "leads": 39,
+        "leads": 41,
         "active": 10,
         "booked": 19,
         "offers": 39,
@@ -198,8 +191,7 @@
         "dead": 2,
         "closed": 1,
         "pending_income": 0.0,
-        "closed_revenue": 123504.59,
-        "discoveries": 39
+        "closed_revenue": 123504.59
       }
     },
     "2026-04": {
@@ -214,11 +206,10 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 93886.0,
-        "discoveries": 50
+        "closed_revenue": 202333.9
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 55,
         "offers": 41,
@@ -228,8 +219,7 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 15000.0,
-        "closed_revenue": 46043.35,
-        "discoveries": 52
+        "closed_revenue": 46043.35
       }
     },
     "2026-05": {
@@ -244,8 +234,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 35
+        "closed_revenue": 0.0
       },
       "Julian": {
         "leads": 49,
@@ -258,8 +247,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 39007.18,
-        "discoveries": 49
+        "closed_revenue": 39007.18
       }
     }
   },
@@ -358,135 +346,7 @@
           "closed": 201799
         },
         "total": 49
-      },
-      "deals": [
-        {
-          "address": "2598 N Daniels Creek Rd, Collinsville, VA 24078, USA",
-          "value": 33049,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "675 Transit Cir, College Park, GA 30349, USA",
-          "value": 33049,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "570 River Overlook Dr NW, Lawrenceville, GA 30043, USA",
-          "value": 82049,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "779 Beasley's Mill Rd, Warsaw, NC 28398, USA",
-          "value": 17500,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "232 Clifton St, Hampton, VA 23661, USA",
-          "value": 15577,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "3309 McElderry St, Baltimore, MD 21205, USA",
-          "value": 14440,
-          "status": "Sent to Title",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "7753 Keister Rd, Middletown, OH 45042, USA",
-          "value": 29550,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-          "value": 31109,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-          "value": 7692,
-          "status": "Sent to Title",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "115 Melton St, Griffin, GA 30223, USA",
-          "value": 15000,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
-        },
-        {
-          "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
-          "value": 40502,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-          "value": 10127,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-02"
-        },
-        {
-          "address": "2537 Carmel Rd, Birmingham, AL 35235",
-          "value": 3288,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "601 E 107th Ter, Kansas City, MO 64131",
-          "value": 10109,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-01"
-        }
-      ]
+      }
     },
     "Charles": {
       "by_month": {
@@ -566,117 +426,7 @@
           "on_hold": 50200
         },
         "total": 27
-      },
-      "deals": [
-        {
-          "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
-          "value": 35049,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "14 Frances St, Onancock, VA 23417, USA",
-          "value": 36249,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "1140 Fairmount Ave, Elizabeth, NJ 07201, USA",
-          "value": 40000,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "6009 Trojan Dr, Gainesville, GA 30506, USA",
-          "value": 87259,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "616 Mountain Heights Rd, Front Royal, VA 22630, USA",
-          "value": 35549,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "325 Belview Ave, Canton, MS 39046, USA",
-          "value": 11350,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "214 Liberty St, Petersburg, VA 23803, USA",
-          "value": 25000,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "191 Rollin Ct, Camden, DE 19934, USA",
-          "value": 20000,
-          "status": "Sent to Title",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
-          "value": 20949,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "3128 Baker St, Baltimore, MD 21216, USA",
-          "value": 8830,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "100 Winslow Ct, McDonough, GA 30253, USA",
-          "value": 23836,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-          "value": 130048,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-02"
-        }
-      ]
+      }
     }
   },
   "spend_by_month": {
@@ -684,7 +434,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 18402.24
+    "2026-05": 18410.93
   },
   "channel_by_month": {
     "2026-01": {
@@ -711,12 +461,7 @@
         "offered": 0,
         "accepted": 0,
         "under_contract": 0,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {}
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 17,
@@ -725,41 +470,7 @@
         "offered": 6,
         "accepted": 0,
         "under_contract": 0,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 6,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 4,
-            "color": "#FFD5C2"
-          },
-          "Not Workable": {
-            "count": 2,
-            "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
-          },
-          "Listed": {
-            "count": 1,
-            "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
-          }
-        }
+        "closed": 0
       }
     },
     "2026-03": {
@@ -774,74 +485,18 @@
         "active": 5,
         "booked": 5,
         "offered": 5,
-        "accepted": 1,
-        "under_contract": 1,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 1,
-        "closed": 0,
-        "status_breakdown": {
-          "Dead": {
-            "count": 5,
-            "color": "#F3F3F3"
-          },
-          "Wrong Number": {
-            "count": 5,
-            "color": "#DCEBD8"
-          },
-          "Cold": {
-            "count": 3,
-            "color": "#D2E4EB"
-          },
-          "Under Contract": {
-            "count": 1,
-            "color": "#DCEBD8"
-          },
-          "Need to Contact": {
-            "count": 1,
-            "color": "#FFD5C2"
-          }
-        }
+        "accepted": 0,
+        "under_contract": 0,
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 30,
         "active": 14,
         "booked": 12,
         "offered": 12,
-        "accepted": 2,
-        "under_contract": 2,
-        "contract_available": 1,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 1,
-        "closed": 0,
-        "status_breakdown": {
-          "Need to Contact": {
-            "count": 12,
-            "color": "#FFD5C2"
-          },
-          "Cold": {
-            "count": 8,
-            "color": "#D2E4EB"
-          },
-          "Listed": {
-            "count": 6,
-            "color": "#C8C8C8"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
-          }
-        }
+        "accepted": 1,
+        "under_contract": 1,
+        "closed": 0
       }
     },
     "2026-04": {
@@ -858,127 +513,23 @@
         "offered": 18,
         "accepted": 3,
         "under_contract": 3,
-        "contract_available": 2,
-        "contract_pending": 1,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 11,
-            "color": "#D2E4EB"
-          },
-          "Listed": {
-            "count": 7,
-            "color": "#C8C8C8"
-          },
-          "Need to Contact": {
-            "count": 7,
-            "color": "#FFD5C2"
-          },
-          "Wrong Number": {
-            "count": 6,
-            "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 4,
-            "color": "#D1F3EC"
-          },
-          "Under Contract": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 3,
-            "color": "#F3F3F3"
-          },
-          "Sold": {
-            "count": 3,
-            "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Not Workable": {
-            "count": 1,
-            "color": "#D1F3EC"
-          }
-        }
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 143,
         "active": 82,
         "booked": 73,
         "offered": 60,
-        "accepted": 3,
-        "under_contract": 3,
-        "contract_available": 1,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 2,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 58,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 30,
-            "color": "#FFD5C2"
-          },
-          "Owes too Much": {
-            "count": 14,
-            "color": "#D1F3EC"
-          },
-          "Wrong Number": {
-            "count": 10,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 7,
-            "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 7,
-            "color": "#C8C8C8"
-          },
-          "Not Workable": {
-            "count": 5,
-            "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
-          },
-          "Under Contract": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Sold": {
-            "count": 1,
-            "color": "#C8C8C8"
-          }
-        }
+        "accepted": 1,
+        "under_contract": 1,
+        "closed": 0
       }
     },
     "2026-05": {
       "google_spend": 6459.57,
-      "meta_spend": 11942.67,
+      "meta_spend": 11951.36,
       "ppc_leads": 42,
-      "fb_leads": 167,
+      "fb_leads": 168,
       "google_cpc": 31.21,
       "meta_cpc": 2.63,
       "pipeline_ppc": {
@@ -988,110 +539,21 @@
         "offered": 11,
         "accepted": 3,
         "under_contract": 3,
-        "contract_available": 3,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 12,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 7,
-            "color": "#FFD5C2"
-          },
-          "Wrong Number": {
-            "count": 7,
-            "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 5,
-            "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
-          },
-          "Under Contract": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
-          }
-        }
+        "closed": 0
       },
       "pipeline_fb": {
-        "leads": 167,
-        "active": 88,
+        "leads": 168,
+        "active": 89,
         "booked": 47,
         "offered": 32,
         "accepted": 7,
         "under_contract": 7,
-        "contract_available": 7,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Need to Contact": {
-            "count": 62,
-            "color": "#FFD5C2"
-          },
-          "Cold": {
-            "count": 44,
-            "color": "#D2E4EB"
-          },
-          "Warm": {
-            "count": 12,
-            "color": "#F7F0C5"
-          },
-          "Dead": {
-            "count": 12,
-            "color": "#F3F3F3"
-          },
-          "Wrong Number": {
-            "count": 11,
-            "color": "#DCEBD8"
-          },
-          "Hot": {
-            "count": 7,
-            "color": "#F7D1D0"
-          },
-          "Under Contract": {
-            "count": 7,
-            "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 5,
-            "color": "#D1F3EC"
-          },
-          "No Longer Selling": {
-            "count": 4,
-            "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 3,
-            "color": "#C8C8C8"
-          }
-        }
+        "closed": 0
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 209,
-    "dispositioned_mtd": 85,
+    "new_leads_30d": 210,
     "hot": 10,
     "booked": 60,
     "offers": 43,
@@ -1099,59 +561,13 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 167,
-    "active": 88,
+    "leads": 168,
+    "active": 89,
     "booked": 47,
     "offered": 32,
     "accepted": 7,
     "under_contract": 7,
-    "contract_available": 7,
-    "contract_pending": 0,
-    "contract_closed": 0,
-    "contract_dead": 0,
-    "closed": 0,
-    "status_breakdown": {
-      "Need to Contact": {
-        "count": 62,
-        "color": "#FFD5C2"
-      },
-      "Cold": {
-        "count": 44,
-        "color": "#D2E4EB"
-      },
-      "Warm": {
-        "count": 12,
-        "color": "#F7F0C5"
-      },
-      "Dead": {
-        "count": 12,
-        "color": "#F3F3F3"
-      },
-      "Wrong Number": {
-        "count": 11,
-        "color": "#DCEBD8"
-      },
-      "Hot": {
-        "count": 7,
-        "color": "#F7D1D0"
-      },
-      "Under Contract": {
-        "count": 7,
-        "color": "#DCEBD8"
-      },
-      "Owes too Much": {
-        "count": 5,
-        "color": "#D1F3EC"
-      },
-      "No Longer Selling": {
-        "count": 4,
-        "color": "#F3F3F3"
-      },
-      "Listed": {
-        "count": 3,
-        "color": "#C8C8C8"
-      }
-    }
+    "closed": 0
   },
   "pipeline_ppc": {
     "leads": 42,
@@ -1160,333 +576,11 @@
     "offered": 11,
     "accepted": 3,
     "under_contract": 3,
-    "contract_available": 3,
-    "contract_pending": 0,
-    "contract_closed": 0,
-    "contract_dead": 0,
-    "closed": 0,
-    "status_breakdown": {
-      "Cold": {
-        "count": 12,
-        "color": "#D2E4EB"
-      },
-      "Need to Contact": {
-        "count": 7,
-        "color": "#FFD5C2"
-      },
-      "Wrong Number": {
-        "count": 7,
-        "color": "#DCEBD8"
-      },
-      "Listed": {
-        "count": 5,
-        "color": "#C8C8C8"
-      },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
-      },
-      "Under Contract": {
-        "count": 3,
-        "color": "#DCEBD8"
-      },
-      "Dead": {
-        "count": 2,
-        "color": "#F3F3F3"
-      },
-      "No Longer Selling": {
-        "count": 1,
-        "color": "#F3F3F3"
-      },
-      "Owes too Much": {
-        "count": 1,
-        "color": "#D1F3EC"
-      }
-    }
+    "closed": 0
   },
-  "reps": {
-    "Charles": {
-      "discoveries": 35,
-      "offers": 29,
-      "contracts": 7,
-      "revenue": 0.0
-    },
-    "Julian": {
-      "discoveries": 49,
-      "offers": 41,
-      "contracts": 8,
-      "revenue": 39007.18
-    }
-  },
-  "pipeline_by_agent": {
-    "Julian": 343041,
-    "Charles": 474119
-  },
-  "agent_deals": [
-    {
-      "address": "2598 N Daniels Creek Rd, Collinsville, VA 24078, USA",
-      "value": 33049,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "675 Transit Cir, College Park, GA 30349, USA",
-      "value": 33049,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "570 River Overlook Dr NW, Lawrenceville, GA 30043, USA",
-      "value": 82049,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "779 Beasley's Mill Rd, Warsaw, NC 28398, USA",
-      "value": 17500,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "232 Clifton St, Hampton, VA 23661, USA",
-      "value": 15577,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "3309 McElderry St, Baltimore, MD 21205, USA",
-      "value": 14440,
-      "status": "Sent to Title",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "7753 Keister Rd, Middletown, OH 45042, USA",
-      "value": 29550,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Julian"
-    },
-    {
-      "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-      "value": 31109,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-      "value": 7692,
-      "status": "Sent to Title",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "115 Melton St, Griffin, GA 30223, USA",
-      "value": 15000,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "693 Blackberry Ln, Appomattox, VA 24522, USA",
-      "value": 40502,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "852 Sun Valley Rd, Center Point, AL 35215, USA",
-      "value": 10127,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "2537 Carmel Rd, Birmingham, AL 35235",
-      "value": 3288,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Julian"
-    },
-    {
-      "address": "601 E 107th Ter, Kansas City, MO 64131",
-      "value": 10109,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-01",
-      "agent": "Julian"
-    },
-    {
-      "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
-      "value": 35049,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "14 Frances St, Onancock, VA 23417, USA",
-      "value": 36249,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "1140 Fairmount Ave, Elizabeth, NJ 07201, USA",
-      "value": 40000,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "6009 Trojan Dr, Gainesville, GA 30506, USA",
-      "value": 87259,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "616 Mountain Heights Rd, Front Royal, VA 22630, USA",
-      "value": 35549,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "325 Belview Ave, Canton, MS 39046, USA",
-      "value": 11350,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "214 Liberty St, Petersburg, VA 23803, USA",
-      "value": 25000,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "191 Rollin Ct, Camden, DE 19934, USA",
-      "value": 20000,
-      "status": "Sent to Title",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
-      "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
-      "value": 20949,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
-      "address": "3128 Baker St, Baltimore, MD 21216, USA",
-      "value": 8830,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
-      "address": "100 Winslow Ct, McDonough, GA 30253, USA",
-      "value": 23836,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
-      "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-      "value": 130048,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-02",
-      "agent": "Charles"
-    }
-  ],
   "sources": {
     "ppc": 42,
-    "facebook": 167,
+    "facebook": 168,
     "ppc_inbound_call": 16
   },
   "hot_leads": [

@@ -1,13 +1,13 @@
 {
   "report_date": "May 27, 2026",
-  "last_updated": "2026-05-27 14:00 EST",
+  "last_updated": "2026-05-27 15:00 EST",
   "google": {
-    "spend_mtd": 6585.85,
-    "clicks_mtd": 210,
+    "spend_mtd": 6591.67,
+    "clicks_mtd": 212,
     "crm_leads": 44,
     "crm_leads_today": 3,
-    "cpc": 31.36,
-    "cpl": 149.68,
+    "cpc": 31.09,
+    "cpl": 149.81,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 279.92,
-        "spend_today": 17.36,
-        "clicks": 67,
-        "cpc": 4.18,
+        "spend": 285.74,
+        "spend_today": 23.18,
+        "clicks": 69,
+        "cpc": 4.14,
         "crm_leads": 0,
-        "cpl": 149.68
+        "cpl": 149.81
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 143,
         "cpc": 44.1,
         "crm_leads": 0,
-        "cpl": 149.68
+        "cpl": 149.81
       }
     ]
   },
   "meta": {
-    "spend_30d": 11969.7,
-    "clicks_30d": 4547,
+    "spend_30d": 11993.75,
+    "clicks_30d": 4553,
     "crm_leads": 171,
     "crm_leads_today": 6,
     "cpc": 2.63,
-    "cpl_crm": 70.0,
-    "cost_per_hot": 1196.97,
+    "cpl_crm": 70.14,
+    "cost_per_hot": 1199.38,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4566.91,
-        "spend_today": 136.57,
-        "clicks": 1679,
+        "spend": 4590.96,
+        "spend_today": 160.62,
+        "clicks": 1685,
         "crm_leads": 171,
-        "cpl_crm": 26.71
+        "cpl_crm": 26.85
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
@@ -63,11 +63,11 @@
   "potential_income": 573347,
   "assigned_income": 287187,
   "by_stage": {
-    "Access Scheduled": 196557,
+    "Access Scheduled": 231606,
     "Initial Inspection Completed": 175647,
-    "New Deal - Unscheduled": 87549,
-    "On Market": 77067,
-    "Market Prep / Pre-Listing Marketing": 36526
+    "On Market": 98016,
+    "New Deal - Unscheduled": 52500,
+    "Market Prep / Pre-Listing Marketing": 15577
   },
   "by_agent": {
     "Georgia": 176157,
@@ -108,7 +108,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18555.550000000003
+      "spend": 18585.42
     }
   },
   "reps_by_month": {
@@ -234,9 +234,9 @@
     },
     "2026-05": {
       "Charles": {
-        "leads": 36,
+        "leads": 37,
         "active": 35,
-        "booked": 22,
+        "booked": 23,
         "offers": 30,
         "accepted": 8,
         "available": 7,
@@ -245,12 +245,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 36
+        "discoveries": 37
       },
       "Julian": {
-        "leads": 49,
-        "active": 48,
-        "booked": 38,
+        "leads": 50,
+        "active": 49,
+        "booked": 39,
         "offers": 41,
         "accepted": 8,
         "available": 4,
@@ -259,7 +259,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 39007.18,
-        "discoveries": 49
+        "discoveries": 50
       }
     }
   },
@@ -581,8 +581,8 @@
           "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
           "value": 35049,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -653,7 +653,7 @@
           "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
           "value": 20949,
           "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
@@ -693,7 +693,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 18555.55
+    "2026-05": 18585.42
   },
   "channel_by_month": {
     "2026-01": {
@@ -984,11 +984,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 6585.85,
-      "meta_spend": 11969.7,
+      "google_spend": 6591.67,
+      "meta_spend": 11993.75,
       "ppc_leads": 44,
       "fb_leads": 171,
-      "google_cpc": 31.36,
+      "google_cpc": 31.09,
       "meta_cpc": 2.63,
       "pipeline_ppc": {
         "leads": 44,
@@ -1044,7 +1044,7 @@
       "pipeline_fb": {
         "leads": 171,
         "active": 92,
-        "booked": 48,
+        "booked": 50,
         "offered": 33,
         "accepted": 8,
         "under_contract": 8,
@@ -1055,7 +1055,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 65,
+            "count": 63,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1063,7 +1063,7 @@
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 12,
+            "count": 14,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -1100,9 +1100,9 @@
   },
   "pipeline": {
     "new_leads_30d": 215,
-    "dispositioned_mtd": 86,
+    "dispositioned_mtd": 88,
     "hot": 10,
-    "booked": 61,
+    "booked": 63,
     "offers": 44,
     "under_contract": 11,
     "closed": 0
@@ -1110,7 +1110,7 @@
   "pipeline_fb": {
     "leads": 171,
     "active": 92,
-    "booked": 48,
+    "booked": 50,
     "offered": 33,
     "accepted": 8,
     "under_contract": 8,
@@ -1121,7 +1121,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 65,
+        "count": 63,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1129,7 +1129,7 @@
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 12,
+        "count": 14,
         "color": "#F7F0C5"
       },
       "Dead": {
@@ -1215,13 +1215,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 36,
+      "discoveries": 37,
       "offers": 30,
       "contracts": 8,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 49,
+      "discoveries": 50,
       "offers": 41,
       "contracts": 8,
       "revenue": 39007.18
@@ -1386,8 +1386,8 @@
       "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
       "value": 35049,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Charles"
@@ -1466,7 +1466,7 @@
       "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
       "value": 20949,
       "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-04",

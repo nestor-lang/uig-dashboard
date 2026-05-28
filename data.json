@@ -1,6 +1,6 @@
 {
   "report_date": "May 28, 2026",
-  "last_updated": "2026-05-28 10:00 EST",
+  "last_updated": "2026-05-28 11:00 EST",
   "google": {
     "spend_mtd": 6912.86,
     "clicks_mtd": 216,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 12223.42,
-    "clicks_30d": 4651,
+    "spend_30d": 12240.02,
+    "clicks_30d": 4658,
     "crm_leads": 181,
     "crm_leads_today": 3,
     "cpc": 2.63,
-    "cpl_crm": 67.53,
-    "cost_per_hot": 1222.34,
+    "cpl_crm": 67.62,
+    "cost_per_hot": 1224.0,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4751.67,
-        "spend_today": 69.42,
-        "clicks": 1764,
+        "spend": 4762.29,
+        "spend_today": 80.03,
+        "clicks": 1770,
         "crm_leads": 181,
-        "cpl_crm": 26.25
+        "cpl_crm": 26.31
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
@@ -60,9 +60,9 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | May 27th | Broad",
-        "spend": 68.96,
-        "spend_today": 26.96,
-        "clicks": 19,
+        "spend": 74.94,
+        "spend_today": 32.94,
+        "clicks": 20,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -116,7 +116,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19136.28
+      "spend": 19152.27
     }
   },
   "reps_by_month": {
@@ -701,7 +701,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 19136.28
+    "2026-05": 19152.88
   },
   "channel_by_month": {
     "2026-01": {
@@ -993,7 +993,7 @@
     },
     "2026-05": {
       "google_spend": 6912.86,
-      "meta_spend": 12223.42,
+      "meta_spend": 12240.02,
       "ppc_leads": 43,
       "fb_leads": 181,
       "google_cpc": 32.0,
@@ -1052,7 +1052,7 @@
       "pipeline_fb": {
         "leads": 181,
         "active": 96,
-        "booked": 52,
+        "booked": 53,
         "offered": 40,
         "accepted": 8,
         "under_contract": 8,
@@ -1063,11 +1063,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 70,
+            "count": 66,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 53,
+            "count": 55,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1079,20 +1079,20 @@
             "color": "#DCEBD8"
           },
           "Hot": {
-            "count": 8,
+            "count": 9,
             "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 8,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 6,
+            "color": "#F7F0C5"
+          },
           "Owes too Much": {
             "count": 6,
             "color": "#D1F3EC"
-          },
-          "Warm": {
-            "count": 5,
-            "color": "#F7F0C5"
           },
           "No Longer Selling": {
             "count": 4,
@@ -1108,9 +1108,9 @@
   },
   "pipeline": {
     "new_leads_30d": 224,
-    "dispositioned_mtd": 90,
+    "dispositioned_mtd": 91,
     "hot": 10,
-    "booked": 65,
+    "booked": 66,
     "offers": 51,
     "under_contract": 11,
     "closed": 0
@@ -1118,7 +1118,7 @@
   "pipeline_fb": {
     "leads": 181,
     "active": 96,
-    "booked": 52,
+    "booked": 53,
     "offered": 40,
     "accepted": 8,
     "under_contract": 8,
@@ -1129,11 +1129,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 70,
+        "count": 66,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 53,
+        "count": 55,
         "color": "#D2E4EB"
       },
       "Dead": {
@@ -1145,20 +1145,20 @@
         "color": "#DCEBD8"
       },
       "Hot": {
-        "count": 8,
+        "count": 9,
         "color": "#F7D1D0"
       },
       "Under Contract": {
         "count": 8,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 6,
+        "color": "#F7F0C5"
+      },
       "Owes too Much": {
         "count": 6,
         "color": "#D1F3EC"
-      },
-      "Warm": {
-        "count": 5,
-        "color": "#F7F0C5"
       },
       "No Longer Selling": {
         "count": 4,
@@ -1518,6 +1518,12 @@
   },
   "hot_leads": [
     {
+      "name": "332 E Prospect St",
+      "address": "332 E Prospect St, Covington, VA 24426, USA",
+      "phone": "(540) 649-2852",
+      "source": "Facebook"
+    },
+    {
       "name": "42 Bikah Ln",
       "address": "42 Bikah Ln, Lexington, VA 24450, USA",
       "phone": "(540) 817-0987",
@@ -1539,12 +1545,6 @@
       "name": "204 S Main St",
       "address": "204 S Main St, Bath, NC 27808, USA",
       "phone": "(252) 945-4115",
-      "source": "Facebook"
-    },
-    {
-      "name": "3010 John Paul Crossing",
-      "address": "3010 John Paul Crossing, Augusta, GA 30906, USA",
-      "phone": "7065132428",
       "source": "Facebook"
     }
   ],

@@ -1,13 +1,13 @@
 {
   "report_date": "May 30, 2026",
-  "last_updated": "2026-05-30 11:26 EST",
+  "last_updated": "2026-05-30 12:32 EST",
   "google": {
-    "spend_mtd": 7219.75,
-    "clicks_mtd": 236,
+    "spend_mtd": 7285.24,
+    "clicks_mtd": 239,
     "crm_leads": 45,
     "crm_leads_today": 0,
-    "cpc": 30.59,
-    "cpl": 160.44,
+    "cpc": 30.48,
+    "cpl": 161.89,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 307.01,
-        "spend_today": 7.25,
-        "clicks": 78,
-        "cpc": 3.94,
+        "spend": 307.82,
+        "spend_today": 8.06,
+        "clicks": 79,
+        "cpc": 3.9,
         "crm_leads": 0,
-        "cpl": 160.44
+        "cpl": 161.89
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6912.74,
-        "spend_today": 33.84,
-        "clicks": 158,
-        "cpc": 43.75,
+        "spend": 6977.42,
+        "spend_today": 98.52,
+        "clicks": 160,
+        "cpc": 43.61,
         "crm_leads": 0,
-        "cpl": 160.44
+        "cpl": 161.89
       }
     ]
   },
   "meta": {
-    "spend_30d": 12723.46,
-    "clicks_30d": 4857,
-    "crm_leads": 192,
-    "crm_leads_today": 1,
+    "spend_30d": 12735.06,
+    "clicks_30d": 4866,
+    "crm_leads": 193,
+    "crm_leads_today": 2,
     "cpc": 2.62,
-    "cpl_crm": 66.27,
-    "cost_per_hot": 1413.72,
+    "cpl_crm": 65.98,
+    "cost_per_hot": 1415.01,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5159.63,
-        "spend_today": 70.96,
-        "clicks": 1948,
-        "crm_leads": 192,
-        "cpl_crm": 26.87
+        "spend": 5171.21,
+        "spend_today": 82.41,
+        "clicks": 1957,
+        "crm_leads": 193,
+        "cpl_crm": 26.79
       },
       {
         "name": "REIT\u00ae | Prospecting |April 6th | Broad",
@@ -60,8 +60,8 @@
       },
       {
         "name": "REIT\u00ae | Prospecting | May 27th | Broad",
-        "spend": 161.04,
-        "spend_today": 0.94,
+        "spend": 161.06,
+        "spend_today": 0.96,
         "clicks": 41,
         "crm_leads": 0,
         "cpl_crm": null
@@ -115,7 +115,7 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19942.11
+      "spend": 20019.58
     }
   },
   "reps_by_month": {
@@ -242,7 +242,7 @@
     "2026-05": {
       "Charles": {
         "leads": 42,
-        "active": 41,
+        "active": 42,
         "booked": 28,
         "offers": 36,
         "accepted": 10,
@@ -673,7 +673,7 @@
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
-    "2026-05": 19943.49
+    "2026-05": 20020.3
   },
   "channel_by_month": {
     "2026-01": {
@@ -972,11 +972,11 @@
       }
     },
     "2026-05": {
-      "google_spend": 7219.75,
-      "meta_spend": 12723.74,
+      "google_spend": 7285.24,
+      "meta_spend": 12735.06,
       "ppc_leads": 45,
-      "fb_leads": 192,
-      "google_cpc": 30.59,
+      "fb_leads": 193,
+      "google_cpc": 30.48,
       "meta_cpc": 2.62,
       "pipeline_ppc": {
         "leads": 45,
@@ -1030,8 +1030,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 192,
-        "active": 104,
+        "leads": 193,
+        "active": 105,
         "booked": 61,
         "offered": 45,
         "accepted": 9,
@@ -1047,7 +1047,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 62,
+            "count": 63,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1087,7 +1087,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 237,
+    "new_leads_30d": 238,
     "dispositioned_mtd": 104,
     "hot": 9,
     "booked": 77,
@@ -1096,8 +1096,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 192,
-    "active": 104,
+    "leads": 193,
+    "active": 105,
     "booked": 61,
     "offered": 45,
     "accepted": 9,
@@ -1113,7 +1113,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 62,
+        "count": 63,
         "color": "#FFD5C2"
       },
       "Dead": {
@@ -1463,7 +1463,7 @@
   ],
   "sources": {
     "ppc": 45,
-    "facebook": 192,
+    "facebook": 193,
     "ppc_inbound_call": 17
   },
   "hot_leads": [

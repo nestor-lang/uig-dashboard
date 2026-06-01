@@ -1,13 +1,13 @@
 {
   "report_date": "June 01, 2026",
-  "last_updated": "2026-06-01 18:01 EST",
+  "last_updated": "2026-06-01 19:01 EST",
   "google": {
-    "spend_mtd": 74.53,
-    "clicks_mtd": 9,
-    "crm_leads": 4,
-    "crm_leads_today": 4,
-    "cpc": 8.28,
-    "cpl": 18.63,
+    "spend_mtd": 85.83,
+    "clicks_mtd": 10,
+    "crm_leads": 5,
+    "crm_leads_today": 5,
+    "cpc": 8.58,
+    "cpl": 17.17,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,37 +20,46 @@
         "clicks": 7,
         "cpc": 0.8,
         "crm_leads": 0,
-        "cpl": 18.63
+        "cpl": 17.17
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 68.92,
-        "spend_today": 68.92,
-        "clicks": 2,
-        "cpc": 34.46,
+        "spend": 80.23,
+        "spend_today": 80.23,
+        "clicks": 3,
+        "cpc": 26.74,
         "crm_leads": 0,
-        "cpl": 18.63
+        "cpl": 17.17
       }
     ]
   },
   "meta": {
-    "spend_30d": 0,
-    "clicks_30d": 0,
+    "spend_30d": 150.79,
+    "clicks_30d": 68,
     "crm_leads": 3,
     "crm_leads_today": 3,
-    "cpc": null,
-    "cpl_crm": 0.0,
-    "cost_per_hot": 0.0,
-    "campaigns": []
+    "cpc": 2.22,
+    "cpl_crm": 50.26,
+    "cost_per_hot": 18.85,
+    "campaigns": [
+      {
+        "name": "REIT\u00ae | Prospecting | March 17th | Broad",
+        "spend": 150.79,
+        "spend_today": 150.79,
+        "clicks": 68,
+        "crm_leads": 3,
+        "cpl_crm": 50.26
+      }
+    ]
   },
   "potential_income": 30964,
   "assigned_income": 131588,
   "by_stage": {
     "Initial Inspection Completed": 155308,
-    "Access Scheduled": 119298,
     "On Market": 33281,
+    "New Deal - Unscheduled": 17500,
     "Market Prep / Pre-Listing Marketing": 15577,
-    "New Deal - Unscheduled": -292500
+    "Access Scheduled": -190702
   },
   "by_agent": {
     "Georgia": 76059,
@@ -96,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 212.24
+      "spend": 236.32
     }
   },
   "reps_by_month": {
@@ -162,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 31,
+        "leads": 33,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -173,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 31
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 41,
+        "leads": 39,
         "active": 10,
         "booked": 19,
         "offers": 39,
@@ -187,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 41
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 48,
         "booked": 45,
         "offers": 36,
@@ -203,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 55,
         "offers": 41,
@@ -217,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -561,8 +570,8 @@
           "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
           "value": -310000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -647,7 +656,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 212.24
+    "2026-06": 236.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -1060,15 +1069,15 @@
       }
     },
     "2026-06": {
-      "google_spend": 74.53,
-      "meta_spend": 137.71,
-      "ppc_leads": 4,
+      "google_spend": 85.83,
+      "meta_spend": 150.79,
+      "ppc_leads": 5,
       "fb_leads": 3,
-      "google_cpc": 8.28,
-      "meta_cpc": 2.19,
+      "google_cpc": 8.58,
+      "meta_cpc": 2.22,
       "pipeline_ppc": {
-        "leads": 4,
-        "active": 1,
+        "leads": 5,
+        "active": 2,
         "booked": 1,
         "offered": 0,
         "accepted": 0,
@@ -1082,6 +1091,10 @@
           "Wrong Number": {
             "count": 2,
             "color": "#DCEBD8"
+          },
+          "Need to Contact": {
+            "count": 1,
+            "color": "#FFD5C2"
           },
           "Listed": {
             "count": 1,
@@ -1123,7 +1136,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 7,
+    "new_leads_30d": 8,
     "dispositioned_mtd": 7,
     "hot": 8,
     "booked": 1,
@@ -1159,8 +1172,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 4,
-    "active": 1,
+    "leads": 5,
+    "active": 2,
     "booked": 1,
     "offered": 0,
     "accepted": 0,
@@ -1174,6 +1187,10 @@
       "Wrong Number": {
         "count": 2,
         "color": "#DCEBD8"
+      },
+      "Need to Contact": {
+        "count": 1,
+        "color": "#FFD5C2"
       },
       "Listed": {
         "count": 1,
@@ -1318,8 +1335,8 @@
       "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
       "value": -310000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-05",
       "agent": "Charles"
@@ -1406,7 +1423,7 @@
     }
   ],
   "sources": {
-    "ppc": 4,
+    "ppc": 5,
     "facebook": 3,
     "ppc_inbound_call": 16
   },

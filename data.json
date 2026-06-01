@@ -1,43 +1,53 @@
 {
   "report_date": "June 01, 2026",
-  "last_updated": "2026-06-01 13:01 EST",
+  "last_updated": "2026-06-01 14:01 EST",
   "google": {
-    "spend_mtd": 0,
-    "clicks_mtd": 0,
+    "spend_mtd": 2.72,
+    "clicks_mtd": 2,
     "crm_leads": 0,
     "crm_leads_today": 0,
-    "cpc": null,
+    "cpc": 1.36,
     "cpl": null,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
     "accepted": 0,
-    "campaigns": []
-  },
-  "meta": {
-    "spend_30d": 90.83,
-    "clicks_30d": 43,
-    "crm_leads": 4,
-    "crm_leads_today": 4,
-    "cpc": 2.11,
-    "cpl_crm": 22.71,
-    "cost_per_hot": 11.35,
     "campaigns": [
       {
-        "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 90.83,
-        "spend_today": 90.83,
-        "clicks": 43,
-        "crm_leads": 4,
-        "cpl_crm": 22.71
+        "name": "Ultra Homebuyers Remarketing",
+        "spend": 2.72,
+        "spend_today": 2.72,
+        "clicks": 2,
+        "cpc": 1.36,
+        "crm_leads": 0,
+        "cpl": null
       }
     ]
   },
-  "potential_income": 114771,
+  "meta": {
+    "spend_30d": 100.08,
+    "clicks_30d": 47,
+    "crm_leads": 4,
+    "crm_leads_today": 4,
+    "cpc": 2.13,
+    "cpl_crm": 25.02,
+    "cost_per_hot": 12.51,
+    "campaigns": [
+      {
+        "name": "REIT\u00ae | Prospecting | March 17th | Broad",
+        "spend": 100.08,
+        "spend_today": 100.08,
+        "clicks": 47,
+        "crm_leads": 4,
+        "cpl_crm": 25.02
+      }
+    ]
+  },
+  "potential_income": 89771,
   "assigned_income": 261636,
   "by_stage": {
-    "Access Scheduled": 241606,
-    "Initial Inspection Completed": 93049,
+    "Initial Inspection Completed": 155308,
+    "Access Scheduled": 154347,
     "On Market": 57116,
     "Market Prep / Pre-Listing Marketing": 15577,
     "New Deal - Unscheduled": -292578
@@ -65,7 +75,7 @@
     "2026-02": {
       "closed": 85320.0,
       "pending": 40000.0,
-      "spend": 49291.24
+      "spend": 51022.56
     },
     "2026-03": {
       "closed": 0.0,
@@ -80,12 +90,12 @@
     "2026-05": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20672.739999999998
+      "spend": 20672.82
     },
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 90.59
+      "spend": 102.1
     }
   },
   "reps_by_month": {
@@ -216,9 +226,9 @@
         "booked": 29,
         "offers": 36,
         "accepted": 10,
-        "available": 7,
+        "available": 6,
         "pending": 0,
-        "dead": 1,
+        "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
@@ -226,8 +236,8 @@
       },
       "Julian": {
         "leads": 59,
-        "active": 64,
-        "booked": 49,
+        "active": 65,
+        "booked": 50,
         "offers": 54,
         "accepted": 8,
         "available": 4,
@@ -255,10 +265,10 @@
         "discoveries": 1
       },
       "Julian": {
-        "leads": 2,
+        "leads": 4,
         "active": 0,
         "booked": 0,
-        "offers": 0,
+        "offers": 1,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -266,7 +276,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 2
+        "discoveries": 4
       }
     }
   },
@@ -520,27 +530,27 @@
         },
         "2026-05": {
           "counts": {
-            "available": 8,
-            "dead": 2
+            "available": 6,
+            "dead": 4
           },
           "gp": {
-            "available": -41443,
-            "dead": 46899
+            "available": -101492,
+            "dead": 106948
           },
           "total": 10
         }
       },
       "all_time": {
         "counts": {
-          "available": 11,
-          "dead": 12,
+          "available": 9,
+          "dead": 14,
           "pending": 2,
           "closed": 4,
           "on_hold": 1
         },
         "gp": {
-          "available": 12172,
-          "dead": 268574,
+          "available": -47877,
+          "dead": 328623,
           "pending": 150048,
           "closed": 112402,
           "on_hold": 50200
@@ -576,15 +586,6 @@
           "contract_month": "2026-05"
         },
         {
-          "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
-          "value": 35049,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
           "address": "14 Frances St, Onancock, VA 23417, USA",
           "value": 36249,
           "status": "Available",
@@ -605,15 +606,6 @@
         {
           "address": "6009 Trojan Dr, Gainesville, GA 30506, USA",
           "value": 87259,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "214 Liberty St, Petersburg, VA 23803, USA",
-          "value": 25000,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -672,9 +664,9 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 16068.59,
-    "2026-05": 20672.74,
-    "2026-06": 90.83
+    "2026-04": 7402.08,
+    "2026-05": 20672.82,
+    "2026-06": 102.8
   },
   "channel_by_month": {
     "2026-01": {
@@ -840,11 +832,11 @@
     },
     "2026-04": {
       "google_spend": 7402.08,
-      "meta_spend": 8666.51,
+      "meta_spend": 0,
       "ppc_leads": 49,
       "fb_leads": 143,
       "google_cpc": 27.72,
-      "meta_cpc": 2.88,
+      "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 49,
         "active": 27,
@@ -974,7 +966,7 @@
     },
     "2026-05": {
       "google_spend": 7624.1,
-      "meta_spend": 13048.64,
+      "meta_spend": 13048.72,
       "ppc_leads": 46,
       "fb_leads": 201,
       "google_cpc": 29.55,
@@ -983,17 +975,17 @@
         "leads": 46,
         "active": 23,
         "booked": 17,
-        "offered": 14,
+        "offered": 15,
         "accepted": 3,
         "under_contract": 3,
-        "contract_available": 3,
+        "contract_available": 2,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 15,
+            "count": 16,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1017,7 +1009,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 2,
+            "count": 1,
             "color": "#F7F0C5"
           },
           "No Longer Selling": {
@@ -1032,8 +1024,8 @@
       },
       "pipeline_fb": {
         "leads": 201,
-        "active": 109,
-        "booked": 63,
+        "active": 110,
+        "booked": 64,
         "offered": 47,
         "accepted": 9,
         "under_contract": 9,
@@ -1048,7 +1040,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 67,
+            "count": 66,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1064,7 +1056,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 6,
+            "count": 7,
             "color": "#F7F0C5"
           },
           "Hot": {
@@ -1087,12 +1079,12 @@
       }
     },
     "2026-06": {
-      "google_spend": 0,
-      "meta_spend": 90.83,
+      "google_spend": 2.72,
+      "meta_spend": 100.08,
       "ppc_leads": 0,
       "fb_leads": 4,
-      "google_cpc": null,
-      "meta_cpc": 2.11,
+      "google_cpc": 1.36,
+      "meta_cpc": 2.13,
       "pipeline_ppc": {
         "leads": 0,
         "active": 0,
@@ -1138,7 +1130,7 @@
   },
   "pipeline": {
     "new_leads_30d": 4,
-    "dispositioned_mtd": 3,
+    "dispositioned_mtd": 5,
     "hot": 8,
     "booked": 0,
     "offers": 0,
@@ -1194,15 +1186,15 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 2,
-      "offers": 0,
+      "discoveries": 4,
+      "offers": 1,
       "contracts": 0,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
     "Julian": 199747,
-    "Charles": 162220
+    "Charles": 102171
   },
   "agent_deals": [
     {
@@ -1346,16 +1338,6 @@
       "agent": "Charles"
     },
     {
-      "address": "2928 Cedarhurst Rd, Finksburg, MD 21048, USA",
-      "value": 35049,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
       "address": "14 Frances St, Onancock, VA 23417, USA",
       "value": 36249,
       "status": "Available",
@@ -1378,16 +1360,6 @@
     {
       "address": "6009 Trojan Dr, Gainesville, GA 30506, USA",
       "value": 87259,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "214 Liberty St, Petersburg, VA 23803, USA",
-      "value": 25000,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

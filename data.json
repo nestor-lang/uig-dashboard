@@ -1,13 +1,13 @@
 {
   "report_date": "June 01, 2026",
-  "last_updated": "2026-06-01 14:01 EST",
+  "last_updated": "2026-06-01 15:01 EST",
   "google": {
-    "spend_mtd": 2.72,
-    "clicks_mtd": 2,
-    "crm_leads": 0,
-    "crm_leads_today": 0,
-    "cpc": 1.36,
-    "cpl": null,
+    "spend_mtd": 30.27,
+    "clicks_mtd": 8,
+    "crm_leads": 3,
+    "crm_leads_today": 3,
+    "cpc": 3.78,
+    "cpl": 10.09,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,45 +15,54 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 2.72,
-        "spend_today": 2.72,
-        "clicks": 2,
-        "cpc": 1.36,
+        "spend": 5.6,
+        "spend_today": 5.6,
+        "clicks": 7,
+        "cpc": 0.8,
         "crm_leads": 0,
-        "cpl": null
+        "cpl": 10.09
+      },
+      {
+        "name": "Ultra Homebuyers Search Only",
+        "spend": 24.67,
+        "spend_today": 24.67,
+        "clicks": 1,
+        "cpc": 24.67,
+        "crm_leads": 0,
+        "cpl": 10.09
       }
     ]
   },
   "meta": {
-    "spend_30d": 100.08,
-    "clicks_30d": 47,
+    "spend_30d": 104.75,
+    "clicks_30d": 52,
     "crm_leads": 4,
     "crm_leads_today": 4,
-    "cpc": 2.13,
-    "cpl_crm": 25.02,
-    "cost_per_hot": 12.51,
+    "cpc": 2.01,
+    "cpl_crm": 26.19,
+    "cost_per_hot": 13.09,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 100.08,
-        "spend_today": 100.08,
-        "clicks": 47,
+        "spend": 104.75,
+        "spend_today": 104.75,
+        "clicks": 52,
         "crm_leads": 4,
-        "cpl_crm": 25.02
+        "cpl_crm": 26.19
       }
     ]
   },
-  "potential_income": 89771,
-  "assigned_income": 261636,
+  "potential_income": 30964,
+  "assigned_income": 131588,
   "by_stage": {
     "Initial Inspection Completed": 155308,
-    "Access Scheduled": 154347,
-    "On Market": 57116,
+    "Access Scheduled": 119298,
+    "On Market": 33281,
     "Market Prep / Pre-Listing Marketing": 15577,
-    "New Deal - Unscheduled": -292578
+    "New Deal - Unscheduled": -292500
   },
   "by_agent": {
-    "Georgia": 206107,
+    "Georgia": 76059,
     "Delaware": 20000,
     "Maryland": 14440,
     "Alabama": 10980,
@@ -64,7 +73,8 @@
     "2026-02": 181515,
     "2026-03": 229362,
     "2026-04": 139929,
-    "2026-05": 94509
+    "2026-05": 94509,
+    "2026-06": 128948
   },
   "roa_by_month": {
     "2026-01": {
@@ -95,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 102.1
+      "spend": 134.96
     }
   },
   "reps_by_month": {
@@ -161,21 +171,21 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 10,
         "booked": 14,
         "offers": 24,
         "accepted": 5,
-        "available": 1,
+        "available": 0,
         "pending": 0,
-        "dead": 2,
+        "dead": 3,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 39,
+        "leads": 41,
         "active": 10,
         "booked": 19,
         "offers": 39,
@@ -186,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 41
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 45,
         "offers": 36,
@@ -202,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 55,
         "offers": 41,
@@ -216,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -226,9 +236,9 @@
         "booked": 29,
         "offers": 36,
         "accepted": 10,
-        "available": 6,
+        "available": 5,
         "pending": 0,
-        "dead": 2,
+        "dead": 3,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
@@ -251,9 +261,9 @@
     },
     "2026-06": {
       "Charles": {
-        "leads": 1,
-        "active": 0,
-        "booked": 0,
+        "leads": 2,
+        "active": 1,
+        "booked": 1,
         "offers": 2,
         "accepted": 0,
         "available": 0,
@@ -261,14 +271,14 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 1
+        "closed_revenue": 128947.9,
+        "discoveries": 2
       },
       "Julian": {
-        "leads": 4,
+        "leads": 3,
         "active": 0,
         "booked": 0,
-        "offers": 1,
+        "offers": 3,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -276,7 +286,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 4
+        "discoveries": 3
       }
     }
   },
@@ -346,7 +356,7 @@
             "dead": 1
           },
           "gp": {
-            "available": 99097,
+            "available": 99175,
             "pending": 33238,
             "on_hold": 34549,
             "other": 14440,
@@ -365,7 +375,7 @@
           "closed": 12
         },
         "gp": {
-          "available": 102599,
+          "available": 102677,
           "pending": 97148,
           "on_hold": 152649,
           "other": 14440,
@@ -404,7 +414,7 @@
         },
         {
           "address": "779 Beasley's Mill Rd, Warsaw, NC 28398, USA",
-          "value": 17422,
+          "value": 17500,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -492,13 +502,11 @@
         "2026-02": {
           "counts": {
             "dead": 3,
-            "closed": 1,
-            "pending": 1
+            "closed": 2
           },
           "gp": {
             "dead": 49442,
-            "closed": 42660,
-            "pending": 130048
+            "closed": 171608
           },
           "total": 5
         },
@@ -517,14 +525,14 @@
         },
         "2026-04": {
           "counts": {
-            "dead": 2,
+            "dead": 3,
             "pending": 1,
-            "available": 3
+            "available": 2
           },
           "gp": {
-            "dead": 50239,
+            "dead": 74075,
             "pending": 20000,
-            "available": 53615
+            "available": 29779
           },
           "total": 6
         },
@@ -542,17 +550,17 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
-          "dead": 14,
-          "pending": 2,
-          "closed": 4,
+          "available": 8,
+          "dead": 15,
+          "pending": 1,
+          "closed": 5,
           "on_hold": 1
         },
         "gp": {
-          "available": -47877,
-          "dead": 328623,
-          "pending": 150048,
-          "closed": 112402,
+          "available": -71713,
+          "dead": 352458,
+          "pending": 20000,
+          "closed": 241350,
           "on_hold": 50200
         },
         "total": 30
@@ -638,24 +646,6 @@
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
-        },
-        {
-          "address": "100 Winslow Ct, McDonough, GA 30253, USA",
-          "value": 23836,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        },
-        {
-          "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-          "value": 130048,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-02"
         }
       ]
     }
@@ -664,9 +654,9 @@
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
-    "2026-04": 7402.08,
+    "2026-04": 16068.59,
     "2026-05": 20672.82,
-    "2026-06": 102.8
+    "2026-06": 135.02
   },
   "channel_by_month": {
     "2026-01": {
@@ -797,10 +787,10 @@
         "offered": 12,
         "accepted": 2,
         "under_contract": 2,
-        "contract_available": 1,
+        "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 1,
+        "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
@@ -832,11 +822,11 @@
     },
     "2026-04": {
       "google_spend": 7402.08,
-      "meta_spend": 0,
+      "meta_spend": 8666.51,
       "ppc_leads": 49,
       "fb_leads": 143,
       "google_cpc": 27.72,
-      "meta_cpc": null,
+      "meta_cpc": 2.88,
       "pipeline_ppc": {
         "leads": 49,
         "active": 27,
@@ -1024,27 +1014,27 @@
       },
       "pipeline_fb": {
         "leads": 201,
-        "active": 110,
+        "active": 109,
         "booked": 64,
-        "offered": 47,
+        "offered": 49,
         "accepted": 9,
         "under_contract": 9,
-        "contract_available": 8,
+        "contract_available": 7,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 1,
+        "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 70,
+            "count": 72,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 66,
+            "count": 64,
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 16,
+            "count": 17,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
@@ -1056,7 +1046,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 7,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "Hot": {
@@ -1079,16 +1069,16 @@
       }
     },
     "2026-06": {
-      "google_spend": 2.72,
-      "meta_spend": 100.08,
-      "ppc_leads": 0,
+      "google_spend": 30.27,
+      "meta_spend": 104.75,
+      "ppc_leads": 3,
       "fb_leads": 4,
-      "google_cpc": 1.36,
-      "meta_cpc": 2.13,
+      "google_cpc": 3.78,
+      "meta_cpc": 2.01,
       "pipeline_ppc": {
-        "leads": 0,
-        "active": 0,
-        "booked": 0,
+        "leads": 3,
+        "active": 1,
+        "booked": 1,
         "offered": 0,
         "accepted": 0,
         "under_contract": 0,
@@ -1097,7 +1087,16 @@
         "contract_closed": 0,
         "contract_dead": 0,
         "closed": 0,
-        "status_breakdown": {}
+        "status_breakdown": {
+          "Wrong Number": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
+          }
+        }
       },
       "pipeline_fb": {
         "leads": 4,
@@ -1129,10 +1128,10 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 4,
+    "new_leads_30d": 7,
     "dispositioned_mtd": 5,
     "hot": 8,
-    "booked": 0,
+    "booked": 1,
     "offers": 0,
     "under_contract": 0,
     "closed": 0
@@ -1165,9 +1164,9 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 0,
-    "active": 0,
-    "booked": 0,
+    "leads": 3,
+    "active": 1,
+    "booked": 1,
     "offered": 0,
     "accepted": 0,
     "under_contract": 0,
@@ -1176,25 +1175,34 @@
     "contract_closed": 0,
     "contract_dead": 0,
     "closed": 0,
-    "status_breakdown": {}
+    "status_breakdown": {
+      "Wrong Number": {
+        "count": 2,
+        "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 1,
+        "color": "#F7F0C5"
+      }
+    }
   },
   "reps": {
     "Charles": {
-      "discoveries": 1,
+      "discoveries": 2,
       "offers": 2,
       "contracts": 0,
-      "revenue": 0.0
+      "revenue": 128947.9
     },
     "Julian": {
-      "discoveries": 4,
-      "offers": 1,
+      "discoveries": 3,
+      "offers": 3,
       "contracts": 0,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 199747,
-    "Charles": 102171
+    "Julian": 199825,
+    "Charles": -51713
   },
   "agent_deals": [
     {
@@ -1229,7 +1237,7 @@
     },
     {
       "address": "779 Beasley's Mill Rd, Warsaw, NC 28398, USA",
-      "value": 17422,
+      "value": 17500,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1396,30 +1404,10 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Charles"
-    },
-    {
-      "address": "100 Winslow Ct, McDonough, GA 30253, USA",
-      "value": 23836,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    },
-    {
-      "address": "8910 Club River Dr, Roswell, GA 30076, USA",
-      "value": 130048,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-02",
-      "agent": "Charles"
     }
   ],
   "sources": {
-    "ppc": 0,
+    "ppc": 3,
     "facebook": 4,
     "ppc_inbound_call": 16
   },

@@ -1,12 +1,12 @@
 {
   "report_date": "June 02, 2026",
-  "last_updated": "2026-06-02 18:44 AST",
+  "last_updated": "2026-06-02 21:53 AST",
   "google": {
-    "spend_mtd": 162.46,
-    "clicks_mtd": 19,
-    "crm_leads": 5,
-    "cpc": 8.55,
-    "cpl": 32.49,
+    "spend_mtd": 164.05,
+    "clicks_mtd": 21,
+    "crm_leads": 6,
+    "cpc": 7.81,
+    "cpl": 27.34,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,12 +14,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 12.56,
-        "spend_today": 0.26,
-        "clicks": 10,
-        "cpc": 1.26,
+        "spend": 14.15,
+        "spend_today": 1.84,
+        "clicks": 12,
+        "cpc": 1.18,
         "crm_leads": 0,
-        "cpl": 32.49
+        "cpl": 27.34
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,25 +28,25 @@
         "clicks": 9,
         "cpc": 16.66,
         "crm_leads": 0,
-        "cpl": 32.49
+        "cpl": 27.34
       }
     ]
   },
   "meta": {
-    "spend_30d": 338.26,
-    "clicks_30d": 151,
+    "spend_30d": 372.51,
+    "clicks_30d": 162,
     "crm_leads": 7,
-    "cpc": 2.24,
-    "cpl_crm": 48.32,
-    "cost_per_hot": 42.28,
+    "cpc": 2.3,
+    "cpl_crm": 53.22,
+    "cost_per_hot": 53.22,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 338.26,
-        "spend_today": 121.04,
-        "clicks": 151,
+        "spend": 372.51,
+        "spend_today": 155.26,
+        "clicks": 162,
         "crm_leads": 7,
-        "cpl_crm": 48.32
+        "cpl_crm": 53.22
       }
     ]
   },
@@ -102,7 +102,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 499.78999999999996
+      "spend": 536.56
     }
   },
   "reps_by_month": {
@@ -261,9 +261,9 @@
         "closed_revenue": 128947.9
       },
       "Julian": {
-        "leads": 5,
-        "active": 1,
-        "booked": 0,
+        "leads": 7,
+        "active": 2,
+        "booked": 2,
         "offers": 5,
         "accepted": 0,
         "available": 0,
@@ -457,7 +457,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 499.79
+    "2026-06": 536.56
   },
   "channel_by_month": {
     "2026-01": {
@@ -575,16 +575,16 @@
       }
     },
     "2026-06": {
-      "google_spend": 162.46,
-      "meta_spend": 337.33,
-      "ppc_leads": 5,
+      "google_spend": 164.05,
+      "meta_spend": 372.51,
+      "ppc_leads": 6,
       "fb_leads": 7,
-      "google_cpc": 8.55,
-      "meta_cpc": 2.23,
+      "google_cpc": 7.81,
+      "meta_cpc": 2.3,
       "pipeline_ppc": {
-        "leads": 5,
-        "active": 2,
-        "booked": 1,
+        "leads": 6,
+        "active": 3,
+        "booked": 2,
         "offered": 0,
         "accepted": 0,
         "under_contract": 0,
@@ -593,7 +593,7 @@
       "pipeline_fb": {
         "leads": 7,
         "active": 4,
-        "booked": 1,
+        "booked": 2,
         "offered": 1,
         "accepted": 0,
         "under_contract": 0,
@@ -602,9 +602,9 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 12,
-    "hot": 9,
-    "booked": 2,
+    "new_leads_30d": 13,
+    "hot": 8,
+    "booked": 4,
     "offers": 1,
     "under_contract": 0,
     "closed": 0
@@ -612,23 +612,23 @@
   "pipeline_fb": {
     "leads": 7,
     "active": 4,
-    "booked": 1,
+    "booked": 2,
     "offered": 1,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 5,
-    "active": 2,
-    "booked": 1,
+    "leads": 6,
+    "active": 3,
+    "booked": 2,
     "offered": 0,
     "accepted": 0,
     "under_contract": 0,
     "closed": 0
   },
   "sources": {
-    "ppc": 5,
+    "ppc": 6,
     "facebook": 7,
     "ppc_inbound_call": 16
   },
@@ -637,12 +637,6 @@
       "name": "4210 Farmer Pl",
       "address": "4210 Farmer Pl, Fort Washington, MD 20744, USA",
       "phone": "(301) 885-8929",
-      "source": "Facebook"
-    },
-    {
-      "name": "2016 Chase Ave",
-      "address": "2016 Chase Ave, Waynesboro, VA 22980, USA",
-      "phone": "(540) 447-6482",
       "source": "Facebook"
     },
     {
@@ -661,6 +655,12 @@
       "name": "52 N 15th St",
       "address": "52 N 15th St, Wyandanch, NY 11798",
       "phone": "(770) 715-1926",
+      "source": "Facebook"
+    },
+    {
+      "name": "16 Gumwood Dr",
+      "address": "16 Gumwood Dr, Hampton, VA 23666, USA",
+      "phone": "(757) 634-2196",
       "source": "Facebook"
     }
   ],

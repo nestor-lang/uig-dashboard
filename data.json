@@ -1,6 +1,6 @@
 {
   "report_date": "June 04, 2026",
-  "last_updated": "2026-06-04 09:00 EST",
+  "last_updated": "2026-06-04 10:00 EST",
   "google": {
     "spend_mtd": 1040.71,
     "clicks_mtd": 58,
@@ -34,30 +34,31 @@
     ]
   },
   "meta": {
-    "spend_30d": 688.43,
-    "clicks_30d": 257,
+    "spend_30d": 700.73,
+    "clicks_30d": 258,
     "crm_leads": 10,
     "crm_leads_today": 0,
-    "cpc": 2.68,
-    "cpl_crm": 68.84,
-    "cost_per_hot": 86.05,
+    "cpc": 2.72,
+    "cpl_crm": 70.07,
+    "cost_per_hot": 87.59,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 688.43,
-        "spend_today": 46.81,
-        "clicks": 257,
+        "spend": 700.73,
+        "spend_today": 58.97,
+        "clicks": 258,
         "crm_leads": 10,
-        "cpl_crm": 68.84
+        "cpl_crm": 70.07
       }
     ]
   },
-  "potential_income": 258634,
+  "potential_income": 278634,
   "assigned_income": 131588,
   "by_stage": {
     "Initial Inspection Completed": 174959,
     "Market Prep / Pre-Listing Marketing": 40577,
     "On Market": 33281,
+    "New Deal - Unscheduled": 20000,
     "Access Scheduled": 9817
   },
   "by_agent": {
@@ -104,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1729.1399999999999
+      "spend": 1741.44
     }
   },
   "reps_by_month": {
@@ -170,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -181,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 19,
         "offers": 38,
@@ -195,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 45,
         "offers": 36,
@@ -211,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 55,
         "offers": 41,
@@ -225,13 +226,13 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
         "leads": 42,
-        "active": 42,
+        "active": 41,
         "booked": 29,
         "offers": 36,
         "accepted": 10,
@@ -245,7 +246,7 @@
       },
       "Julian": {
         "leads": 59,
-        "active": 67,
+        "active": 66,
         "booked": 51,
         "offers": 54,
         "accepted": 8,
@@ -260,21 +261,21 @@
     },
     "2026-06": {
       "Charles": {
-        "leads": 5,
+        "leads": 6,
         "active": 4,
         "booked": 3,
-        "offers": 4,
-        "accepted": 0,
-        "available": 0,
+        "offers": 5,
+        "accepted": 1,
+        "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 128947.9,
-        "discoveries": 5
+        "discoveries": 6
       },
       "Julian": {
-        "leads": 12,
+        "leads": 13,
         "active": 4,
         "booked": 3,
         "offers": 7,
@@ -285,7 +286,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 12
+        "discoveries": 13
       }
     }
   },
@@ -525,24 +526,42 @@
             "dead": 106948
           },
           "total": 10
+        },
+        "2026-06": {
+          "counts": {
+            "available": 1
+          },
+          "gp": {
+            "available": 20000
+          },
+          "total": 1
         }
       },
       "all_time": {
         "counts": {
-          "available": 8,
+          "available": 9,
           "dead": 16,
           "pending": 1,
           "closed": 5
         },
         "gp": {
-          "available": 206506,
+          "available": 226506,
           "dead": 402658,
           "pending": 20000,
           "closed": 241350
         },
-        "total": 30
+        "total": 31
       },
       "deals": [
+        {
+          "address": "317 55th St, Newport News, VA 23607, USA",
+          "value": 20000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-06"
+        },
         {
           "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
           "value": 40000,
@@ -633,7 +652,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 1729.14
+    "2026-06": 1741.44
   },
   "channel_by_month": {
     "2026-01": {
@@ -936,7 +955,7 @@
       "meta_cpc": 2.62,
       "pipeline_ppc": {
         "leads": 46,
-        "active": 25,
+        "active": 24,
         "booked": 17,
         "offered": 15,
         "accepted": 3,
@@ -987,8 +1006,8 @@
       },
       "pipeline_fb": {
         "leads": 199,
-        "active": 103,
-        "booked": 65,
+        "active": 100,
+        "booked": 66,
         "offered": 51,
         "accepted": 9,
         "under_contract": 9,
@@ -1003,7 +1022,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 60,
+            "count": 58,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1023,8 +1042,12 @@
             "color": "#D1F3EC"
           },
           "Warm": {
-            "count": 5,
+            "count": 6,
             "color": "#F7F0C5"
+          },
+          "Listed": {
+            "count": 5,
+            "color": "#C8C8C8"
           },
           "Hot": {
             "count": 5,
@@ -1033,29 +1056,25 @@
           "No Longer Selling": {
             "count": 5,
             "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 4,
-            "color": "#C8C8C8"
           }
         }
       }
     },
     "2026-06": {
       "google_spend": 1040.71,
-      "meta_spend": 688.43,
+      "meta_spend": 700.73,
       "ppc_leads": 10,
       "fb_leads": 10,
       "google_cpc": 17.94,
-      "meta_cpc": 2.68,
+      "meta_cpc": 2.72,
       "pipeline_ppc": {
         "leads": 10,
         "active": 7,
         "booked": 3,
-        "offered": 0,
-        "accepted": 0,
-        "under_contract": 0,
-        "contract_available": 0,
+        "offered": 1,
+        "accepted": 1,
+        "under_contract": 1,
+        "contract_available": 1,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1077,9 +1096,9 @@
             "count": 1,
             "color": "#C8C8C8"
           },
-          "Hot": {
+          "Under Contract": {
             "count": 1,
-            "color": "#F7D1D0"
+            "color": "#DCEBD8"
           }
         }
       },
@@ -1130,11 +1149,11 @@
   },
   "pipeline": {
     "new_leads_30d": 20,
-    "dispositioned_mtd": 17,
-    "hot": 9,
+    "dispositioned_mtd": 19,
+    "hot": 8,
     "booked": 6,
-    "offers": 3,
-    "under_contract": 0,
+    "offers": 4,
+    "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
@@ -1184,10 +1203,10 @@
     "leads": 10,
     "active": 7,
     "booked": 3,
-    "offered": 0,
-    "accepted": 0,
-    "under_contract": 0,
-    "contract_available": 0,
+    "offered": 1,
+    "accepted": 1,
+    "under_contract": 1,
+    "contract_available": 1,
     "contract_pending": 0,
     "contract_closed": 0,
     "contract_dead": 0,
@@ -1209,21 +1228,21 @@
         "count": 1,
         "color": "#C8C8C8"
       },
-      "Hot": {
+      "Under Contract": {
         "count": 1,
-        "color": "#F7D1D0"
+        "color": "#DCEBD8"
       }
     }
   },
   "reps": {
     "Charles": {
-      "discoveries": 5,
-      "offers": 4,
-      "contracts": 0,
+      "discoveries": 6,
+      "offers": 5,
+      "contracts": 1,
       "revenue": 128947.9
     },
     "Julian": {
-      "discoveries": 12,
+      "discoveries": 13,
       "offers": 7,
       "contracts": 0,
       "revenue": 0.0
@@ -1231,7 +1250,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 149276,
-    "Charles": 226506
+    "Charles": 246506
   },
   "agent_deals": [
     {
@@ -1323,6 +1342,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-01",
       "agent": "Julian"
+    },
+    {
+      "address": "317 55th St, Newport News, VA 23607, USA",
+      "value": 20000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-06",
+      "agent": "Charles"
     },
     {
       "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",

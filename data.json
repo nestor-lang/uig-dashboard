@@ -1,13 +1,13 @@
 {
   "report_date": "June 05, 2026",
-  "last_updated": "2026-06-05 17:00 EST",
+  "last_updated": "2026-06-05 18:00 EST",
   "google": {
-    "spend_mtd": 1248.55,
-    "clicks_mtd": 79,
+    "spend_mtd": 1249.83,
+    "clicks_mtd": 80,
     "crm_leads": 11,
     "crm_leads_today": 0,
-    "cpc": 15.8,
-    "cpl": 113.5,
+    "cpc": 15.62,
+    "cpl": 113.62,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 52.11,
-        "spend_today": 7.44,
-        "clicks": 40,
+        "spend": 53.39,
+        "spend_today": 8.72,
+        "clicks": 41,
         "cpc": 1.3,
         "crm_leads": 0,
-        "cpl": 113.5
+        "cpl": 113.62
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,31 +29,31 @@
         "clicks": 39,
         "cpc": 30.68,
         "crm_leads": 0,
-        "cpl": 113.5
+        "cpl": 113.62
       }
     ]
   },
   "meta": {
-    "spend_30d": 971.28,
-    "clicks_30d": 373,
-    "crm_leads": 18,
-    "crm_leads_today": 0,
-    "cpc": 2.6,
-    "cpl_crm": 53.96,
-    "cost_per_hot": 107.92,
+    "spend_30d": 984.12,
+    "clicks_30d": 377,
+    "crm_leads": 19,
+    "crm_leads_today": 1,
+    "cpc": 2.61,
+    "cpl_crm": 51.8,
+    "cost_per_hot": 109.35,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 971.28,
-        "spend_today": 118.27,
-        "clicks": 373,
-        "crm_leads": 18,
-        "cpl_crm": 53.96
+        "spend": 984.12,
+        "spend_today": 131.11,
+        "clicks": 377,
+        "crm_leads": 19,
+        "cpl_crm": 51.8
       }
     ]
   },
   "potential_income": 171683,
-  "assigned_income": 168564,
+  "assigned_income": 166550,
   "by_stage": {
     "Initial Inspection Completed": 74759,
     "On Market": 33281,
@@ -66,7 +66,7 @@
     "Delaware": 20000,
     "Maryland": 14440,
     "Missouri": 10109,
-    "Alabama": 9706
+    "Alabama": 7692
   },
   "closed_by_month": {
     "2026-01": 194741,
@@ -74,7 +74,7 @@
     "2026-03": 229362,
     "2026-04": 139929,
     "2026-05": 94509,
-    "2026-06": 128948
+    "2026-06": 130962
   },
   "roa_by_month": {
     "2026-01": {
@@ -105,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2219.5299999999997
+      "spend": 2233.68
     }
   },
   "reps_by_month": {
@@ -171,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -182,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 19,
         "offers": 38,
@@ -196,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 45,
         "offers": 36,
@@ -212,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 55,
         "offers": 41,
@@ -226,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -262,7 +262,7 @@
     "2026-06": {
       "Charles": {
         "leads": 11,
-        "active": 7,
+        "active": 8,
         "booked": 6,
         "offers": 7,
         "accepted": 1,
@@ -285,7 +285,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
+        "closed_revenue": 2013.79,
         "discoveries": 18
       }
     }
@@ -351,16 +351,18 @@
           "counts": {
             "available": 2,
             "on_hold": 3,
-            "pending": 2,
+            "pending": 1,
             "other": 1,
-            "dead": 1
+            "dead": 1,
+            "closed": 1
           },
           "gp": {
             "available": 48626,
             "on_hold": 85098,
-            "pending": 31964,
+            "pending": 29950,
             "other": 14440,
-            "dead": 24209
+            "dead": 24209,
+            "closed": 2014
           },
           "total": 9
         }
@@ -369,18 +371,18 @@
         "counts": {
           "available": 3,
           "on_hold": 6,
-          "pending": 6,
+          "pending": 5,
           "other": 1,
           "dead": 21,
-          "closed": 12
+          "closed": 13
         },
         "gp": {
           "available": 52128,
           "on_hold": 203198,
-          "pending": 95874,
+          "pending": 93860,
           "other": 14440,
           "dead": 503377,
-          "closed": 257300
+          "closed": 259314
         },
         "total": 49
       },
@@ -447,15 +449,6 @@
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-02"
-        },
-        {
-          "address": "2537 Carmel Rd, Birmingham, AL 35235",
-          "value": 2014,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
         },
         {
           "address": "601 E 107th Ter, Kansas City, MO 64131",
@@ -638,7 +631,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 2219.83
+    "2026-06": 2233.95
   },
   "channel_by_month": {
     "2026-01": {
@@ -1047,12 +1040,12 @@
       }
     },
     "2026-06": {
-      "google_spend": 1248.55,
-      "meta_spend": 971.28,
+      "google_spend": 1249.83,
+      "meta_spend": 984.12,
       "ppc_leads": 11,
-      "fb_leads": 18,
-      "google_cpc": 15.8,
-      "meta_cpc": 2.6,
+      "fb_leads": 19,
+      "google_cpc": 15.62,
+      "meta_cpc": 2.61,
       "pipeline_ppc": {
         "leads": 11,
         "active": 8,
@@ -1093,8 +1086,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 18,
-        "active": 11,
+        "leads": 19,
+        "active": 12,
         "booked": 7,
         "offered": 7,
         "accepted": 0,
@@ -1105,25 +1098,25 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
+          "Need to Contact": {
+            "count": 5,
+            "color": "#FFD5C2"
+          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
           },
-          "Need to Contact": {
-            "count": 4,
-            "color": "#FFD5C2"
-          },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
           "Cold": {
-            "count": 2,
+            "count": 3,
             "color": "#D2E4EB"
           },
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
+          },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
           },
           "Hot": {
             "count": 2,
@@ -1138,7 +1131,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 29,
+    "new_leads_30d": 30,
     "dispositioned_mtd": 29,
     "hot": 9,
     "booked": 12,
@@ -1147,8 +1140,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 18,
-    "active": 11,
+    "leads": 19,
+    "active": 12,
     "booked": 7,
     "offered": 7,
     "accepted": 0,
@@ -1159,25 +1152,25 @@
     "contract_dead": 0,
     "closed": 0,
     "status_breakdown": {
+      "Need to Contact": {
+        "count": 5,
+        "color": "#FFD5C2"
+      },
       "Wrong Number": {
         "count": 4,
         "color": "#DCEBD8"
       },
-      "Need to Contact": {
-        "count": 4,
-        "color": "#FFD5C2"
-      },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
-      },
       "Cold": {
-        "count": 2,
+        "count": 3,
         "color": "#D2E4EB"
       },
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
+      },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
       },
       "Hot": {
         "count": 2,
@@ -1239,11 +1232,11 @@
       "discoveries": 18,
       "offers": 11,
       "contracts": 0,
-      "revenue": 0.0
+      "revenue": 2013.79
     }
   },
   "pipeline_by_agent": {
-    "Julian": 148002,
+    "Julian": 145988,
     "Charles": 139555
   },
   "agent_deals": [
@@ -1315,16 +1308,6 @@
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-02",
-      "agent": "Julian"
-    },
-    {
-      "address": "2537 Carmel Rd, Birmingham, AL 35235",
-      "value": 2014,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
       "agent": "Julian"
     },
     {
@@ -1420,7 +1403,7 @@
   ],
   "sources": {
     "ppc": 11,
-    "facebook": 18,
+    "facebook": 19,
     "ppc_inbound_call": 14
   },
   "hot_leads": [

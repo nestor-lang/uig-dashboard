@@ -1,13 +1,13 @@
 {
   "report_date": "June 05, 2026",
-  "last_updated": "2026-06-05 13:00 EST",
+  "last_updated": "2026-06-05 14:00 EST",
   "google": {
-    "spend_mtd": 1142.88,
-    "clicks_mtd": 72,
+    "spend_mtd": 1145.55,
+    "clicks_mtd": 74,
     "crm_leads": 11,
     "crm_leads_today": 0,
-    "cpc": 15.87,
-    "cpl": 103.9,
+    "cpc": 15.48,
+    "cpl": 104.14,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 47.37,
-        "spend_today": 2.7,
-        "clicks": 36,
+        "spend": 50.04,
+        "spend_today": 5.37,
+        "clicks": 38,
         "cpc": 1.32,
         "crm_leads": 0,
-        "cpl": 103.9
+        "cpl": 104.14
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 36,
         "cpc": 30.43,
         "crm_leads": 0,
-        "cpl": 103.9
+        "cpl": 104.14
       }
     ]
   },
   "meta": {
-    "spend_30d": 931.7,
-    "clicks_30d": 353,
+    "spend_30d": 940.85,
+    "clicks_30d": 358,
     "crm_leads": 18,
     "crm_leads_today": 0,
-    "cpc": 2.64,
-    "cpl_crm": 51.76,
-    "cost_per_hot": 116.46,
+    "cpc": 2.63,
+    "cpl_crm": 52.27,
+    "cost_per_hot": 104.54,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 931.7,
-        "spend_today": 78.74,
-        "clicks": 353,
+        "spend": 940.85,
+        "spend_today": 87.89,
+        "clicks": 358,
         "crm_leads": 18,
-        "cpl_crm": 51.76
+        "cpl_crm": 52.27
       }
     ]
   },
@@ -105,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2074.58
+      "spend": 2086.4
     }
   },
   "reps_by_month": {
@@ -171,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -182,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 19,
         "offers": 38,
@@ -196,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 45,
         "offers": 36,
@@ -212,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 55,
         "offers": 41,
@@ -226,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -638,7 +638,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 2074.58
+    "2026-06": 2086.4
   },
   "channel_by_month": {
     "2026-01": {
@@ -886,11 +886,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 61,
+            "count": 60,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 30,
+            "count": 29,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -913,6 +913,10 @@
             "count": 5,
             "color": "#D1F3EC"
           },
+          "No Longer Selling": {
+            "count": 4,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 3,
             "color": "#DCEBD8"
@@ -924,10 +928,6 @@
           "Sold": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
           }
         }
       }
@@ -1047,12 +1047,12 @@
       }
     },
     "2026-06": {
-      "google_spend": 1142.88,
-      "meta_spend": 931.7,
+      "google_spend": 1145.55,
+      "meta_spend": 940.85,
       "ppc_leads": 11,
       "fb_leads": 18,
-      "google_cpc": 15.87,
-      "meta_cpc": 2.64,
+      "google_cpc": 15.48,
+      "meta_cpc": 2.63,
       "pipeline_ppc": {
         "leads": 11,
         "active": 8,
@@ -1117,13 +1117,13 @@
             "count": 3,
             "color": "#F7F0C5"
           },
-          "Cold": {
-            "count": 2,
-            "color": "#D2E4EB"
-          },
           "Hot": {
-            "count": 1,
+            "count": 2,
             "color": "#F7D1D0"
+          },
+          "Cold": {
+            "count": 1,
+            "color": "#D2E4EB"
           },
           "Dead": {
             "count": 1,
@@ -1140,7 +1140,7 @@
   "pipeline": {
     "new_leads_30d": 29,
     "dispositioned_mtd": 28,
-    "hot": 8,
+    "hot": 9,
     "booked": 11,
     "offers": 8,
     "under_contract": 1,
@@ -1171,13 +1171,13 @@
         "count": 3,
         "color": "#F7F0C5"
       },
-      "Cold": {
-        "count": 2,
-        "color": "#D2E4EB"
-      },
       "Hot": {
-        "count": 1,
+        "count": 2,
         "color": "#F7D1D0"
+      },
+      "Cold": {
+        "count": 1,
+        "color": "#D2E4EB"
       },
       "Dead": {
         "count": 1,
@@ -1425,6 +1425,12 @@
   },
   "hot_leads": [
     {
+      "name": "404 Pennsylvania Ave",
+      "address": "404 Pennsylvania Ave, Salisbury, MD 21801, USA",
+      "phone": "(667) 428-8772",
+      "source": "Facebook"
+    },
+    {
       "name": "25556 Calima Dr",
       "address": "25556 Calima Dr, Abingdon, VA 24210, USA",
       "phone": "(276) 623-3566",
@@ -1446,12 +1452,6 @@
       "name": "3010 John Paul Crossing",
       "address": "3010 John Paul Crossing, Augusta, GA 30906, USA",
       "phone": "7065132428",
-      "source": "Facebook"
-    },
-    {
-      "name": "52 N 15th St",
-      "address": "52 N 15th St, Wyandanch, NY 11798",
-      "phone": "(770) 715-1926",
       "source": "Facebook"
     }
   ],

@@ -1,13 +1,13 @@
 {
   "report_date": "June 08, 2026",
-  "last_updated": "2026-06-08 12:00 EST",
+  "last_updated": "2026-06-08 13:00 EST",
   "google": {
-    "spend_mtd": 1707.89,
-    "clicks_mtd": 108,
+    "spend_mtd": 1708.7,
+    "clicks_mtd": 109,
     "crm_leads": 15,
     "crm_leads_today": 0,
-    "cpc": 15.81,
-    "cpl": 113.86,
+    "cpc": 15.68,
+    "cpl": 113.91,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 81.41,
-        "spend_today": 0.15,
-        "clicks": 52,
-        "cpc": 1.57,
+        "spend": 82.22,
+        "spend_today": 0.96,
+        "clicks": 53,
+        "cpc": 1.55,
         "crm_leads": 0,
-        "cpl": 113.86
+        "cpl": 113.91
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 56,
         "cpc": 29.04,
         "crm_leads": 0,
-        "cpl": 113.86
+        "cpl": 113.91
       }
     ]
   },
   "meta": {
-    "spend_30d": 1571.51,
-    "clicks_30d": 670,
-    "crm_leads": 34,
+    "spend_30d": 1581.9,
+    "clicks_30d": 672,
+    "crm_leads": 33,
     "crm_leads_today": 1,
     "cpc": 2.35,
-    "cpl_crm": 46.22,
-    "cost_per_hot": 157.15,
+    "cpl_crm": 47.94,
+    "cost_per_hot": 158.19,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1571.51,
-        "spend_today": 82.55,
-        "clicks": 670,
-        "crm_leads": 34,
-        "cpl_crm": 46.22
+        "spend": 1581.9,
+        "spend_today": 92.84,
+        "clicks": 672,
+        "crm_leads": 33,
+        "cpl_crm": 47.94
       }
     ]
   },
@@ -99,13 +99,13 @@
     },
     "2026-05": {
       "closed": 0.0,
-      "pending": 0.0,
+      "pending": 38250.0,
       "spend": 20672.89
     },
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3279.25
+      "spend": 3290.6000000000004
     }
   },
   "reps_by_month": {
@@ -236,11 +236,11 @@
         "booked": 31,
         "offers": 35,
         "accepted": 10,
-        "available": 4,
-        "pending": 0,
+        "available": 3,
+        "pending": 1,
         "dead": 4,
         "closed": 0,
-        "pending_income": 0.0,
+        "pending_income": 38250.0,
         "closed_revenue": 0.0,
         "discoveries": 41
       },
@@ -262,7 +262,7 @@
     "2026-06": {
       "Charles": {
         "leads": 13,
-        "active": 10,
+        "active": 11,
         "booked": 7,
         "offers": 7,
         "accepted": 1,
@@ -276,7 +276,7 @@
       },
       "Julian": {
         "leads": 22,
-        "active": 14,
+        "active": 13,
         "booked": 11,
         "offers": 13,
         "accepted": 0,
@@ -513,12 +513,12 @@
           "counts": {
             "available": 4,
             "dead": 5,
-            "other": 1
+            "pending": 1
           },
           "gp": {
             "available": 69027,
             "dead": 146948,
-            "other": 38250
+            "pending": 38250
           },
           "total": 10
         },
@@ -536,15 +536,13 @@
         "counts": {
           "available": 7,
           "dead": 17,
-          "other": 1,
-          "pending": 1,
+          "pending": 2,
           "closed": 5
         },
         "gp": {
           "available": 119555,
           "dead": 442658,
-          "other": 38250,
-          "pending": 20000,
+          "pending": 58250,
           "closed": 241350
         },
         "total": 31
@@ -583,6 +581,15 @@
           "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-05"
+        },
+        {
+          "address": "14 Frances St, Onancock, VA 23417, USA",
+          "value": 38250,
+          "status": "Sent to Title",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-05"
         },
@@ -631,7 +638,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 3279.4
+    "2026-06": 3290.91
   },
   "channel_by_month": {
     "2026-01": {
@@ -990,8 +997,8 @@
         "offered": 53,
         "accepted": 9,
         "under_contract": 9,
-        "contract_available": 6,
-        "contract_pending": 0,
+        "contract_available": 5,
+        "contract_pending": 1,
         "contract_closed": 0,
         "contract_dead": 3,
         "closed": 0,
@@ -1044,11 +1051,11 @@
       }
     },
     "2026-06": {
-      "google_spend": 1707.89,
-      "meta_spend": 1571.51,
+      "google_spend": 1708.7,
+      "meta_spend": 1582.21,
       "ppc_leads": 15,
-      "fb_leads": 34,
-      "google_cpc": 15.81,
+      "fb_leads": 33,
+      "google_cpc": 15.68,
       "meta_cpc": 2.35,
       "pipeline_ppc": {
         "leads": 15,
@@ -1094,7 +1101,7 @@
         }
       },
       "pipeline_fb": {
-        "leads": 34,
+        "leads": 33,
         "active": 27,
         "booked": 12,
         "offered": 10,
@@ -1110,21 +1117,21 @@
             "count": 15,
             "color": "#FFD5C2"
           },
-          "Warm": {
-            "count": 6,
-            "color": "#F7F0C5"
-          },
-          "Wrong Number": {
-            "count": 4,
-            "color": "#DCEBD8"
-          },
           "Cold": {
-            "count": 4,
+            "count": 5,
             "color": "#D2E4EB"
           },
           "Hot": {
-            "count": 3,
+            "count": 4,
             "color": "#F7D1D0"
+          },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
+          "Wrong Number": {
+            "count": 3,
+            "color": "#DCEBD8"
           },
           "Dead": {
             "count": 1,
@@ -1139,7 +1146,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 49,
+    "new_leads_30d": 48,
     "dispositioned_mtd": 35,
     "hot": 10,
     "booked": 18,
@@ -1148,7 +1155,7 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 34,
+    "leads": 33,
     "active": 27,
     "booked": 12,
     "offered": 10,
@@ -1164,21 +1171,21 @@
         "count": 15,
         "color": "#FFD5C2"
       },
-      "Warm": {
-        "count": 6,
-        "color": "#F7F0C5"
-      },
-      "Wrong Number": {
-        "count": 4,
-        "color": "#DCEBD8"
-      },
       "Cold": {
-        "count": 4,
+        "count": 5,
         "color": "#D2E4EB"
       },
       "Hot": {
-        "count": 3,
+        "count": 4,
         "color": "#F7D1D0"
+      },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
+      "Wrong Number": {
+        "count": 3,
+        "color": "#DCEBD8"
       },
       "Dead": {
         "count": 1,
@@ -1249,7 +1256,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 145013,
-    "Charles": 139555
+    "Charles": 177805
   },
   "agent_deals": [
     {
@@ -1373,6 +1380,16 @@
       "agent": "Charles"
     },
     {
+      "address": "14 Frances St, Onancock, VA 23417, USA",
+      "value": 38250,
+      "status": "Sent to Title",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-05",
+      "agent": "Charles"
+    },
+    {
       "address": "6009 Trojan Dr, Gainesville, GA 30506, USA",
       "value": 1710,
       "status": "Available",
@@ -1415,10 +1432,16 @@
   ],
   "sources": {
     "ppc": 15,
-    "facebook": 34,
+    "facebook": 33,
     "ppc_inbound_call": 11
   },
   "hot_leads": [
+    {
+      "name": "2413 Wakefield St",
+      "address": "2413 Wakefield St, Hopewell, VA 23860, USA",
+      "phone": "(727) 777-2230",
+      "source": "Facebook"
+    },
     {
       "name": "8035 Wynfield Dr",
       "address": "8035 Wynfield Dr, Cumming, GA 30040, USA",
@@ -1441,12 +1464,6 @@
       "name": "4210 Farmer Pl",
       "address": "4210 Farmer Pl, Fort Washington, MD 20744, USA",
       "phone": "(301) 885-8929",
-      "source": "Facebook"
-    },
-    {
-      "name": "204 S Main St",
-      "address": "204 S Main St, Bath, NC 27808, USA",
-      "phone": "(252) 945-4115",
       "source": "Facebook"
     }
   ],

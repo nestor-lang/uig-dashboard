@@ -1,6 +1,6 @@
 {
   "report_date": "June 11, 2026",
-  "last_updated": "2026-06-11 11:00 EST",
+  "last_updated": "2026-06-11 12:01 EST",
   "google": {
     "spend_mtd": 2800.42,
     "clicks_mtd": 165,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 2207.8,
-    "clicks_30d": 947,
+    "spend_30d": 2215.06,
+    "clicks_30d": 949,
     "crm_leads": 48,
     "crm_leads_today": 0,
     "cpc": 2.33,
-    "cpl_crm": 46.0,
-    "cost_per_hot": 315.4,
+    "cpl_crm": 46.15,
+    "cost_per_hot": 316.44,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2207.8,
-        "spend_today": 63.5,
-        "clicks": 947,
+        "spend": 2215.06,
+        "spend_today": 70.76,
+        "clicks": 949,
         "crm_leads": 48,
-        "cpl_crm": 46.0
+        "cpl_crm": 46.15
       }
     ]
   },
@@ -106,7 +106,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5008.22
+      "spend": 5015.48
     }
   },
   "reps_by_month": {
@@ -172,7 +172,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -183,10 +183,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 9,
         "booked": 19,
         "offers": 38,
@@ -197,12 +197,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -213,10 +213,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 58,
         "booked": 55,
         "offers": 41,
@@ -227,7 +227,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -276,7 +276,7 @@
         "discoveries": 24
       },
       "Julian": {
-        "leads": 32,
+        "leads": 33,
         "active": 20,
         "booked": 18,
         "offers": 25,
@@ -287,7 +287,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 2013.79,
-        "discoveries": 32
+        "discoveries": 33
       }
     }
   },
@@ -625,7 +625,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 5008.22
+    "2026-06": 5015.48
   },
   "channel_by_month": {
     "2026-01": {
@@ -1039,7 +1039,7 @@
     },
     "2026-06": {
       "google_spend": 2800.42,
-      "meta_spend": 2207.8,
+      "meta_spend": 2215.06,
       "ppc_leads": 20,
       "fb_leads": 48,
       "google_cpc": 16.97,
@@ -1109,7 +1109,7 @@
             "color": "#FFD5C2"
           },
           "Warm": {
-            "count": 5,
+            "count": 4,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -1123,6 +1123,10 @@
           "Listed": {
             "count": 1,
             "color": "#C8C8C8"
+          },
+          "Not Workable": {
+            "count": 1,
+            "color": "#D1F3EC"
           },
           "Dead": {
             "count": 1,
@@ -1138,7 +1142,7 @@
   },
   "pipeline": {
     "new_leads_30d": 68,
-    "dispositioned_mtd": 56,
+    "dispositioned_mtd": 57,
     "hot": 7,
     "booked": 34,
     "offers": 28,
@@ -1167,7 +1171,7 @@
         "color": "#FFD5C2"
       },
       "Warm": {
-        "count": 5,
+        "count": 4,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -1181,6 +1185,10 @@
       "Listed": {
         "count": 1,
         "color": "#C8C8C8"
+      },
+      "Not Workable": {
+        "count": 1,
+        "color": "#D1F3EC"
       },
       "Dead": {
         "count": 1,
@@ -1243,7 +1251,7 @@
       "revenue": 128947.9
     },
     "Julian": {
-      "discoveries": 32,
+      "discoveries": 33,
       "offers": 25,
       "contracts": 0,
       "revenue": 2013.79

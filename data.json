@@ -1,6 +1,6 @@
 {
   "report_date": "June 12, 2026",
-  "last_updated": "2026-06-12 13:11 EST",
+  "last_updated": "2026-06-12 13:25 EST",
   "google": {
     "spend_mtd": 3077.34,
     "clicks_mtd": 183,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 2413.05,
-    "clicks_30d": 1027,
-    "crm_leads": 54,
-    "crm_leads_today": 3,
-    "cpc": 2.35,
-    "cpl_crm": 44.69,
-    "cost_per_hot": 402.18,
+    "spend_30d": 2414.25,
+    "clicks_30d": 1030,
+    "crm_leads": 55,
+    "crm_leads_today": 4,
+    "cpc": 2.34,
+    "cpl_crm": 43.9,
+    "cost_per_hot": 402.38,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2413.05,
-        "spend_today": 85.08,
-        "clicks": 1027,
-        "crm_leads": 54,
-        "cpl_crm": 44.69
+        "spend": 2414.25,
+        "spend_today": 86.28,
+        "clicks": 1030,
+        "crm_leads": 55,
+        "cpl_crm": 43.9
       }
     ]
   },
@@ -171,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -182,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 19,
         "offers": 38,
@@ -196,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -212,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 58,
         "booked": 55,
         "offers": 41,
@@ -226,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -385,6 +385,25 @@
           "closed": 259314
         },
         "total": 49
+      },
+      "channel_counts": {
+        "ppc": {
+          "available": 2,
+          "other": 1,
+          "closed": 3,
+          "pending": 1
+        },
+        "fb": {
+          "on_hold": 3,
+          "dead": 2
+        },
+        "sms": {
+          "pending": 4,
+          "on_hold": 3,
+          "dead": 19,
+          "closed": 10,
+          "available": 1
+        }
       },
       "deals": [
         {
@@ -547,6 +566,23 @@
         },
         "total": 32
       },
+      "channel_counts": {
+        "ppc": {
+          "available": 2,
+          "dead": 5
+        },
+        "sms": {
+          "pending": 2,
+          "dead": 8,
+          "available": 1,
+          "closed": 5
+        },
+        "fb": {
+          "available": 1,
+          "pending": 2,
+          "dead": 6
+        }
+      },
       "deals": [
         {
           "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
@@ -641,7 +677,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 5490.39
+    "2026-06": 5491.59
   },
   "channel_by_month": {
     "2026-01": {
@@ -1051,11 +1087,11 @@
     },
     "2026-06": {
       "google_spend": 3077.34,
-      "meta_spend": 2413.05,
+      "meta_spend": 2414.25,
       "ppc_leads": 22,
-      "fb_leads": 54,
+      "fb_leads": 55,
       "google_cpc": 16.82,
-      "meta_cpc": 2.35,
+      "meta_cpc": 2.34,
       "pipeline_ppc": {
         "leads": 22,
         "active": 15,
@@ -1063,10 +1099,10 @@
         "offered": 7,
         "accepted": 2,
         "under_contract": 2,
-        "contract_available": 2,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_available": 4,
+        "contract_pending": 1,
+        "contract_closed": 3,
+        "contract_dead": 5,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
@@ -1104,16 +1140,16 @@
         }
       },
       "pipeline_fb": {
-        "leads": 54,
+        "leads": 55,
         "active": 45,
         "booked": 27,
         "offered": 23,
         "accepted": 0,
         "under_contract": 0,
-        "contract_available": 0,
-        "contract_pending": 0,
+        "contract_available": 1,
+        "contract_pending": 2,
         "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_dead": 8,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -1132,6 +1168,10 @@
             "count": 4,
             "color": "#DCEBD8"
           },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
@@ -1147,17 +1187,13 @@
           "Not Workable": {
             "count": 1,
             "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           }
         }
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 76,
+    "new_leads_30d": 77,
     "dispositioned_mtd": 63,
     "hot": 6,
     "booked": 37,
@@ -1166,16 +1202,16 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 54,
+    "leads": 55,
     "active": 45,
     "booked": 27,
     "offered": 23,
     "accepted": 0,
     "under_contract": 0,
-    "contract_available": 0,
-    "contract_pending": 0,
+    "contract_available": 1,
+    "contract_pending": 2,
     "contract_closed": 0,
-    "contract_dead": 0,
+    "contract_dead": 8,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -1194,6 +1230,10 @@
         "count": 4,
         "color": "#DCEBD8"
       },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
+      },
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
@@ -1209,10 +1249,6 @@
       "Not Workable": {
         "count": 1,
         "color": "#D1F3EC"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
       }
     }
   },
@@ -1223,10 +1259,10 @@
     "offered": 7,
     "accepted": 2,
     "under_contract": 2,
-    "contract_available": 2,
-    "contract_pending": 0,
-    "contract_closed": 0,
-    "contract_dead": 0,
+    "contract_available": 4,
+    "contract_pending": 1,
+    "contract_closed": 3,
+    "contract_dead": 5,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
@@ -1445,7 +1481,7 @@
   ],
   "sources": {
     "ppc": 22,
-    "facebook": 54,
+    "facebook": 55,
     "ppc_inbound_call": 10
   },
   "hot_leads": [

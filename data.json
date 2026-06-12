@@ -1,6 +1,6 @@
 {
   "report_date": "June 12, 2026",
-  "last_updated": "2026-06-12 13:05 EST",
+  "last_updated": "2026-06-12 13:11 EST",
   "google": {
     "spend_mtd": 3077.34,
     "clicks_mtd": 183,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 2412.58,
+    "spend_30d": 2413.05,
     "clicks_30d": 1027,
     "crm_leads": 54,
     "crm_leads_today": 3,
     "cpc": 2.35,
-    "cpl_crm": 44.68,
-    "cost_per_hot": 402.1,
+    "cpl_crm": 44.69,
+    "cost_per_hot": 402.18,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2412.58,
-        "spend_today": 84.63,
+        "spend": 2413.05,
+        "spend_today": 85.08,
         "clicks": 1027,
         "crm_leads": 54,
-        "cpl_crm": 44.68
+        "cpl_crm": 44.69
       }
     ]
   },
@@ -623,13 +623,25 @@
       ]
     }
   },
+  "pipeline_contracts": {
+    "available": 7,
+    "pending": 9,
+    "on_hold": 6,
+    "closed": 18,
+    "dead": 40,
+    "gp_available": 122548,
+    "gp_pending": 200153,
+    "gp_on_hold": 203198,
+    "gp_closed": 500664,
+    "gp_dead": 956575
+  },
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 5489.92
+    "2026-06": 5490.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -1039,7 +1051,7 @@
     },
     "2026-06": {
       "google_spend": 3077.34,
-      "meta_spend": 2412.58,
+      "meta_spend": 2413.05,
       "ppc_leads": 22,
       "fb_leads": 54,
       "google_cpc": 16.82,

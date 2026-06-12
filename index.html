@@ -1016,24 +1016,7 @@ function render(d, month) {
             <div class="funnel-rate">${pct(ppc.offered, ppc.booked)}</div>
           </div>
         </div>
-        <div class="contract-grid">
-          <div class="cg-card cg-avail">
-            <div class="cg-num">${num(ppc.contract_available||0)}</div>
-            <div class="cg-label">Available</div>
-          </div>
-          <div class="cg-card cg-assign">
-            <div class="cg-num">${num(ppc.contract_pending||0)}</div>
-            <div class="cg-label">Assigned</div>
-          </div>
-          <div class="cg-card cg-closed">
-            <div class="cg-num">${num(ppc.contract_closed||0)}</div>
-            <div class="cg-label">Closed</div>
-          </div>
-          <div class="cg-card cg-dead">
-            <div class="cg-num">${num(ppc.contract_dead||0)}</div>
-            <div class="cg-label">Dead</div>
-          </div>
-        </div>
+        <div class="contract-grid" style="display:none"></div>
       ${renderStatusBreakdown(ppc.status_breakdown)}
       </div>
     </div>
@@ -1068,29 +1051,48 @@ function render(d, month) {
             <div class="funnel-rate">${pct(fb.offered, fb.booked)}</div>
           </div>
         </div>
-        <div class="contract-grid">
-          <div class="cg-card cg-avail">
-            <div class="cg-num">${num(fb.contract_available||0)}</div>
-            <div class="cg-label">Available</div>
-          </div>
-          <div class="cg-card cg-assign">
-            <div class="cg-num">${num(fb.contract_pending||0)}</div>
-            <div class="cg-label">Assigned</div>
-          </div>
-          <div class="cg-card cg-closed">
-            <div class="cg-num">${num(fb.contract_closed||0)}</div>
-            <div class="cg-label">Closed</div>
-          </div>
-          <div class="cg-card cg-dead">
-            <div class="cg-num">${num(fb.contract_dead||0)}</div>
-            <div class="cg-label">Dead</div>
-          </div>
-        </div>
+        <div class="contract-grid" style="display:none"></div>
       ${renderStatusBreakdown(fb.status_breakdown)}
       </div>
     </div>
 
   </div>
+
+  <!-- ============================================================ -->
+  <!-- CONTRACT PIPELINE (Whiteboard source of truth) -->
+  <!-- ============================================================ -->
+  <div class="section-label" style="margin-top:1.5rem;">
+    Deal pipeline
+    <span class="section-source">Whiteboard · all channels</span>
+  </div>
+  ${(()=>{ const c = d.pipeline_contracts || {}; return `
+  <div class="contract-grid" style="grid-template-columns:repeat(5,1fr);max-width:520px;">
+    <div class="cg-card cg-avail">
+      <div class="cg-num">${num(c.available||0)}</div>
+      <div class="cg-label">Available</div>
+      ${c.gp_available ? `<div style="font-size:9px;color:var(--green);margin-top:2px;">${fmt(c.gp_available)}</div>` : ''}
+    </div>
+    <div class="cg-card cg-assign">
+      <div class="cg-num">${num(c.pending||0)}</div>
+      <div class="cg-label">Assigned</div>
+      ${c.gp_pending ? `<div style="font-size:9px;color:var(--amber);margin-top:2px;">${fmt(c.gp_pending)}</div>` : ''}
+    </div>
+    <div class="cg-card" style="background:rgba(99,153,34,0.08);border-color:rgba(99,153,34,0.2);">
+      <div class="cg-num" style="color:#639922">${num(c.on_hold||0)}</div>
+      <div class="cg-label">On Hold</div>
+      ${c.gp_on_hold ? `<div style="font-size:9px;color:#639922;margin-top:2px;">${fmt(c.gp_on_hold)}</div>` : ''}
+    </div>
+    <div class="cg-card cg-closed">
+      <div class="cg-num">${num(c.closed||0)}</div>
+      <div class="cg-label">Closed</div>
+      ${c.gp_closed ? `<div style="font-size:9px;color:#4ade80;margin-top:2px;">${fmt(c.gp_closed)}</div>` : ''}
+    </div>
+    <div class="cg-card cg-dead">
+      <div class="cg-num">${num(c.dead||0)}</div>
+      <div class="cg-label">Dead</div>
+    </div>
+  </div>
+  `; })()}
 
   <!-- ============================================================ -->
   <!-- SECTION DIVIDER -->

@@ -1,13 +1,13 @@
 {
   "report_date": "June 16, 2026",
-  "last_updated": "2026-06-16 12:00 EST",
+  "last_updated": "2026-06-16 13:00 EST",
   "google": {
-    "spend_mtd": 4474.17,
+    "spend_mtd": 4452.23,
     "clicks_mtd": 251,
     "crm_leads": 30,
     "crm_leads_today": 1,
-    "cpc": 17.83,
-    "cpl": 149.14,
+    "cpc": 17.74,
+    "cpl": 148.41,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,35 +20,35 @@
         "clicks": 118,
         "cpc": 1.37,
         "crm_leads": 0,
-        "cpl": 149.14
+        "cpl": 148.41
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4312.62,
-        "spend_today": 207.15,
+        "spend": 4290.68,
+        "spend_today": 185.21,
         "clicks": 133,
-        "cpc": 32.43,
+        "cpc": 32.26,
         "crm_leads": 0,
-        "cpl": 149.14
+        "cpl": 148.41
       }
     ]
   },
   "meta": {
-    "spend_30d": 3227.92,
-    "clicks_30d": 1331,
-    "crm_leads": 73,
-    "crm_leads_today": 1,
+    "spend_30d": 3241.17,
+    "clicks_30d": 1333,
+    "crm_leads": 74,
+    "crm_leads_today": 2,
     "cpc": 2.43,
-    "cpl_crm": 44.22,
-    "cost_per_hot": 358.66,
+    "cpl_crm": 43.8,
+    "cost_per_hot": 324.12,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3227.92,
-        "spend_today": 94.12,
-        "clicks": 1331,
-        "crm_leads": 73,
-        "cpl_crm": 44.22
+        "spend": 3241.17,
+        "spend_today": 107.02,
+        "clicks": 1333,
+        "crm_leads": 74,
+        "cpl_crm": 43.8
       }
     ]
   },
@@ -106,7 +106,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7702.09
+      "spend": 7693.4
     }
   },
   "reps_by_month": {
@@ -263,7 +263,7 @@
     "2026-06": {
       "Charles": {
         "leads": 31,
-        "active": 28,
+        "active": 27,
         "booked": 23,
         "offers": 22,
         "accepted": 3,
@@ -799,7 +799,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 7702.26
+    "2026-06": 7693.4
   },
   "channel_by_month": {
     "2026-01": {
@@ -1169,7 +1169,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 82,
+            "count": 83,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1193,7 +1193,7 @@
             "color": "#DCEBD8"
           },
           "Listed": {
-            "count": 5,
+            "count": 4,
             "color": "#C8C8C8"
           },
           "Warm": {
@@ -1216,11 +1216,11 @@
       }
     },
     "2026-06": {
-      "google_spend": 4474.17,
-      "meta_spend": 3228.09,
+      "google_spend": 4452.23,
+      "meta_spend": 3241.17,
       "ppc_leads": 30,
-      "fb_leads": 73,
-      "google_cpc": 17.83,
+      "fb_leads": 74,
+      "google_cpc": 17.74,
       "meta_cpc": 2.43,
       "pipeline_ppc": {
         "leads": 30,
@@ -1278,7 +1278,7 @@
         }
       },
       "pipeline_fb": {
-        "leads": 73,
+        "leads": 74,
         "active": 55,
         "booked": 34,
         "offered": 29,
@@ -1290,25 +1290,25 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Cold": {
-            "count": 24,
-            "color": "#D2E4EB"
-          },
           "Need to Contact": {
-            "count": 23,
+            "count": 24,
             "color": "#FFD5C2"
+          },
+          "Cold": {
+            "count": 23,
+            "color": "#D2E4EB"
           },
           "Wrong Number": {
             "count": 7,
             "color": "#DCEBD8"
           },
-          "Warm": {
-            "count": 6,
-            "color": "#F7F0C5"
-          },
           "Hot": {
-            "count": 5,
+            "count": 6,
             "color": "#F7D1D0"
+          },
+          "Warm": {
+            "count": 5,
+            "color": "#F7F0C5"
           },
           "Not Workable": {
             "count": 2,
@@ -1326,6 +1326,10 @@
             "count": 1,
             "color": "#DCEBD8"
           },
+          "No Longer Selling": {
+            "count": 1,
+            "color": "#F3F3F3"
+          },
           "Owes too Much": {
             "count": 1,
             "color": "#D1F3EC"
@@ -1335,7 +1339,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 103,
+    "new_leads_30d": 104,
     "dispositioned_mtd": 78,
     "hot": 10,
     "booked": 48,
@@ -1344,7 +1348,7 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 73,
+    "leads": 74,
     "active": 55,
     "booked": 34,
     "offered": 29,
@@ -1356,25 +1360,25 @@
     "contract_dead": 8,
     "closed": 0,
     "status_breakdown": {
-      "Cold": {
-        "count": 24,
-        "color": "#D2E4EB"
-      },
       "Need to Contact": {
-        "count": 23,
+        "count": 24,
         "color": "#FFD5C2"
+      },
+      "Cold": {
+        "count": 23,
+        "color": "#D2E4EB"
       },
       "Wrong Number": {
         "count": 7,
         "color": "#DCEBD8"
       },
-      "Warm": {
-        "count": 6,
-        "color": "#F7F0C5"
-      },
       "Hot": {
-        "count": 5,
+        "count": 6,
         "color": "#F7D1D0"
+      },
+      "Warm": {
+        "count": 5,
+        "color": "#F7F0C5"
       },
       "Not Workable": {
         "count": 2,
@@ -1391,6 +1395,10 @@
       "Under Contract": {
         "count": 1,
         "color": "#DCEBD8"
+      },
+      "No Longer Selling": {
+        "count": 1,
+        "color": "#F3F3F3"
       },
       "Owes too Much": {
         "count": 1,
@@ -1635,10 +1643,16 @@
   ],
   "sources": {
     "ppc": 30,
-    "facebook": 73,
+    "facebook": 74,
     "ppc_inbound_call": 10
   },
   "hot_leads": [
+    {
+      "name": "24033 Drummondtown Rd",
+      "address": "24033 Drummondtown Rd, Accomac, VA 23301, USA",
+      "phone": "(757) 710-3535",
+      "source": "Facebook"
+    },
     {
       "name": "219 N Governors Ave",
       "address": "219 N Governors Ave, Dover, DE 19904, USA",
@@ -1661,12 +1675,6 @@
       "name": "8035 Wynfield Dr",
       "address": "8035 Wynfield Dr, Cumming, GA 30040, USA",
       "phone": "(470) 807-8793",
-      "source": "Facebook"
-    },
-    {
-      "name": "25556 Calima Dr",
-      "address": "25556 Calima Dr, Abingdon, VA 24210, USA",
-      "phone": "(276) 623-3566",
       "source": "Facebook"
     }
   ],

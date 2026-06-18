@@ -1,6 +1,6 @@
 {
   "report_date": "June 18, 2026",
-  "last_updated": "2026-06-18 14:00 EST",
+  "last_updated": "2026-06-18 15:00 EST",
   "google": {
     "spend_mtd": 5075.75,
     "clicks_mtd": 282,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 3733.22,
-    "clicks_30d": 1536,
+    "spend_30d": 3738.97,
+    "clicks_30d": 1538,
     "crm_leads": 84,
     "crm_leads_today": 2,
     "cpc": 2.43,
-    "cpl_crm": 44.44,
-    "cost_per_hot": 533.32,
+    "cpl_crm": 44.51,
+    "cost_per_hot": 534.14,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3733.22,
-        "spend_today": 115.6,
-        "clicks": 1536,
+        "spend": 3738.97,
+        "spend_today": 121.34,
+        "clicks": 1538,
         "crm_leads": 84,
-        "cpl_crm": 44.44
+        "cpl_crm": 44.51
       }
     ]
   },
@@ -57,7 +57,8 @@
   "by_stage": {
     "Initial Inspection Completed": 109457,
     "On Market": 73774,
-    "New Deal - Unscheduled": 40000
+    "New Deal - Unscheduled": 25000,
+    "Access Scheduled": 15000
   },
   "by_agent": {
     "Virginia": 68055,
@@ -104,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8808.97
+      "spend": 8814.72
     }
   },
   "reps_by_month": {
@@ -170,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -181,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -195,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 50,
         "booked": 45,
         "offers": 36,
@@ -211,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 59,
         "booked": 56,
         "offers": 41,
@@ -225,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -277,7 +278,7 @@
         "leads": 57,
         "active": 34,
         "booked": 29,
-        "offers": 39,
+        "offers": 40,
         "accepted": 1,
         "available": 1,
         "pending": 0,
@@ -483,8 +484,8 @@
           "address": "219 N Governors Ave, Dover, DE 19904, USA",
           "value": 15000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -831,7 +832,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 8808.97
+    "2026-06": 8814.72
   },
   "channel_by_month": {
     "2026-01": {
@@ -1249,7 +1250,7 @@
     },
     "2026-06": {
       "google_spend": 5075.75,
-      "meta_spend": 3733.22,
+      "meta_spend": 3738.97,
       "ppc_leads": 36,
       "fb_leads": 84,
       "google_cpc": 18.0,
@@ -1311,9 +1312,9 @@
       },
       "pipeline_fb": {
         "leads": 84,
-        "active": 60,
+        "active": 59,
         "booked": 38,
-        "offered": 33,
+        "offered": 34,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -1323,11 +1324,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 30,
+            "count": 31,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 26,
+            "count": 24,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1335,12 +1336,20 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 6,
+            "count": 5,
             "color": "#F7F0C5"
+          },
+          "Listed": {
+            "count": 3,
+            "color": "#C8C8C8"
           },
           "Hot": {
             "count": 3,
             "color": "#F7D1D0"
+          },
+          "Owes too Much": {
+            "count": 2,
+            "color": "#D1F3EC"
           },
           "Under Contract": {
             "count": 2,
@@ -1354,17 +1363,9 @@
             "count": 2,
             "color": "#F3F3F3"
           },
-          "Listed": {
-            "count": 2,
-            "color": "#C8C8C8"
-          },
           "No Longer Selling": {
             "count": 1,
             "color": "#F3F3F3"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
           }
         }
       }
@@ -1375,15 +1376,15 @@
     "dispositioned_mtd": 91,
     "hot": 8,
     "booked": 54,
-    "offers": 44,
+    "offers": 45,
     "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 84,
-    "active": 60,
+    "active": 59,
     "booked": 38,
-    "offered": 33,
+    "offered": 34,
     "accepted": 13,
     "under_contract": 13,
     "contract_available": 3,
@@ -1393,11 +1394,11 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 30,
+        "count": 31,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 26,
+        "count": 24,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1405,12 +1406,20 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 6,
+        "count": 5,
         "color": "#F7F0C5"
+      },
+      "Listed": {
+        "count": 3,
+        "color": "#C8C8C8"
       },
       "Hot": {
         "count": 3,
         "color": "#F7D1D0"
+      },
+      "Owes too Much": {
+        "count": 2,
+        "color": "#D1F3EC"
       },
       "Under Contract": {
         "count": 2,
@@ -1424,17 +1433,9 @@
         "count": 2,
         "color": "#F3F3F3"
       },
-      "Listed": {
-        "count": 2,
-        "color": "#C8C8C8"
-      },
       "No Longer Selling": {
         "count": 1,
         "color": "#F3F3F3"
-      },
-      "Owes too Much": {
-        "count": 1,
-        "color": "#D1F3EC"
       }
     }
   },
@@ -1502,7 +1503,7 @@
     },
     "Julian": {
       "discoveries": 57,
-      "offers": 39,
+      "offers": 40,
       "contracts": 1,
       "revenue": 31963.79
     }
@@ -1516,8 +1517,8 @@
       "address": "219 N Governors Ave, Dover, DE 19904, USA",
       "value": 15000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Julian"

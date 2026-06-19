@@ -1,6 +1,6 @@
 {
   "report_date": "June 19, 2026",
-  "last_updated": "2026-06-19 11:00 EST",
+  "last_updated": "2026-06-19 12:01 EST",
   "google": {
     "spend_mtd": 5372.89,
     "clicks_mtd": 300,
@@ -34,31 +34,31 @@
     ]
   },
   "meta": {
-    "spend_30d": 3942.54,
-    "clicks_30d": 1627,
+    "spend_30d": 3951.25,
+    "clicks_30d": 1632,
     "crm_leads": 89,
     "crm_leads_today": 3,
     "cpc": 2.42,
-    "cpl_crm": 44.3,
-    "cost_per_hot": 492.82,
+    "cpl_crm": 44.4,
+    "cost_per_hot": 493.91,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3942.54,
-        "spend_today": 106.94,
-        "clicks": 1627,
+        "spend": 3951.25,
+        "spend_today": 115.65,
+        "clicks": 1632,
         "crm_leads": 89,
-        "cpl_crm": 44.3
+        "cpl_crm": 44.4
       }
     ]
   },
-  "potential_income": -73969,
+  "potential_income": 266431,
   "assigned_income": 166104,
   "by_stage": {
     "Initial Inspection Completed": 109457,
     "On Market": 73774,
-    "Access Scheduled": 15000,
-    "New Deal - Unscheduled": -272200
+    "New Deal - Unscheduled": 68200,
+    "Access Scheduled": 15000
   },
   "by_agent": {
     "Virginia": 68055,
@@ -104,7 +104,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9315.210000000001
+      "spend": 9324.14
     }
   },
   "reps_by_month": {
@@ -170,7 +170,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -181,10 +181,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -195,12 +195,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 50,
         "booked": 45,
         "offers": 36,
@@ -211,10 +211,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 59,
         "booked": 56,
         "offers": 41,
@@ -225,7 +225,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -263,7 +263,7 @@
         "leads": 36,
         "active": 35,
         "booked": 27,
-        "offers": 27,
+        "offers": 28,
         "accepted": 5,
         "available": 5,
         "pending": 0,
@@ -368,7 +368,7 @@
             "available": 2
           },
           "gp": {
-            "available": -162200
+            "available": 27800
           },
           "total": 2
         }
@@ -383,7 +383,7 @@
           "pending": 2
         },
         "gp": {
-          "available": -97194,
+          "available": 92806,
           "on_hold": 203198,
           "closed": 300111,
           "other": 14440,
@@ -478,7 +478,7 @@
       "deals": [
         {
           "address": "21 California Ave, Elmira, NY 14903, USA",
-          "value": -177200,
+          "value": 12800,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -616,7 +616,7 @@
             "available": 5
           },
           "gp": {
-            "available": -7541
+            "available": 142859
           },
           "total": 5
         }
@@ -629,7 +629,7 @@
           "closed": 5
         },
         "gp": {
-          "available": 23225,
+          "available": 173625,
           "pending": 105555,
           "dead": 453198,
           "closed": 241350
@@ -719,7 +719,7 @@
       "deals": [
         {
           "address": "11679 VA-47, Chase City, VA 23924, USA",
-          "value": -120000,
+          "value": 30400,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -825,7 +825,7 @@
     "on_hold": 6,
     "closed": 20,
     "dead": 40,
-    "gp_available": -73969,
+    "gp_available": 266431,
     "gp_pending": 151664,
     "gp_on_hold": 203198,
     "gp_closed": 541461,
@@ -837,7 +837,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 9315.43
+    "2026-06": 9324.14
   },
   "channel_by_month": {
     "2026-01": {
@@ -1255,7 +1255,7 @@
     },
     "2026-06": {
       "google_spend": 5372.89,
-      "meta_spend": 3942.54,
+      "meta_spend": 3951.25,
       "ppc_leads": 36,
       "fb_leads": 89,
       "google_cpc": 17.91,
@@ -1323,7 +1323,7 @@
         "leads": 89,
         "active": 63,
         "booked": 41,
-        "offered": 36,
+        "offered": 37,
         "accepted": 3,
         "under_contract": 3,
         "contract_available": 3,
@@ -1385,7 +1385,7 @@
     "dispositioned_mtd": 94,
     "hot": 9,
     "booked": 57,
-    "offers": 48,
+    "offers": 49,
     "under_contract": 6,
     "closed": 0
   },
@@ -1393,7 +1393,7 @@
     "leads": 89,
     "active": 63,
     "booked": 41,
-    "offered": 36,
+    "offered": 37,
     "accepted": 14,
     "under_contract": 14,
     "contract_available": 4,
@@ -1510,7 +1510,7 @@
   "reps": {
     "Charles": {
       "discoveries": 36,
-      "offers": 27,
+      "offers": 28,
       "contracts": 5,
       "revenue": 128947.9
     },
@@ -1522,13 +1522,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": -51085,
-    "Charles": 128780
+    "Julian": 138915,
+    "Charles": 279180
   },
   "agent_deals": [
     {
       "address": "21 California Ave, Elmira, NY 14903, USA",
-      "value": -177200,
+      "value": 12800,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1608,7 +1608,7 @@
     },
     {
       "address": "11679 VA-47, Chase City, VA 23924, USA",
-      "value": -120000,
+      "value": 30400,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

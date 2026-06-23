@@ -1,6 +1,6 @@
 {
   "report_date": "June 22, 2026",
-  "last_updated": "2026-06-22 19:00 EST",
+  "last_updated": "2026-06-22 20:00 EST",
   "google": {
     "spend_mtd": 6737.84,
     "clicks_mtd": 378,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 4777.56,
-    "clicks_30d": 1973,
-    "crm_leads": 103,
-    "crm_leads_today": 5,
+    "spend_30d": 4798.83,
+    "clicks_30d": 1980,
+    "crm_leads": 105,
+    "crm_leads_today": 7,
     "cpc": 2.42,
-    "cpl_crm": 46.38,
-    "cost_per_hot": 796.26,
+    "cpl_crm": 45.7,
+    "cost_per_hot": 799.8,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4777.56,
-        "spend_today": 231.9,
-        "clicks": 1973,
-        "crm_leads": 103,
-        "cpl_crm": 46.38
+        "spend": 4798.83,
+        "spend_today": 253.12,
+        "clicks": 1980,
+        "crm_leads": 105,
+        "cpl_crm": 45.7
       }
     ]
   },
@@ -103,7 +103,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11514.86
+      "spend": 11536.67
     }
   },
   "reps_by_month": {
@@ -169,7 +169,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -180,10 +180,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -194,12 +194,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -210,10 +210,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -224,7 +224,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -364,17 +364,17 @@
         },
         "2026-06": {
           "counts": {
-            "available": 2
+            "available": 3
           },
           "gp": {
-            "available": 27800
+            "available": 7800
           },
-          "total": 2
+          "total": 3
         }
       },
       "all_time": {
         "counts": {
-          "available": 6,
+          "available": 7,
           "on_hold": 6,
           "closed": 15,
           "other": 1,
@@ -382,18 +382,18 @@
           "pending": 2
         },
         "gp": {
-          "available": 74246,
+          "available": 54246,
           "on_hold": 203198,
           "closed": 300111,
           "other": 14440,
           "dead": 503377,
           "pending": 46109
         },
-        "total": 51
+        "total": 52
       },
       "channel_counts": {
         "fb": {
-          "available": 2,
+          "available": 3,
           "on_hold": 3,
           "dead": 2
         },
@@ -413,7 +413,7 @@
       "by_month_channel_counts": {
         "2026-06": {
           "fb": {
-            "available": 2
+            "available": 3
           }
         },
         "2026-05": {
@@ -475,6 +475,15 @@
         }
       },
       "deals": [
+        {
+          "address": "115 Cherry St, Sardinia, OH 45171, USA",
+          "value": -20000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-06"
+        },
         {
           "address": "21 California Ave, Elmira, NY 14903, USA",
           "value": 12800,
@@ -828,12 +837,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
+    "available": 15,
     "pending": 6,
     "on_hold": 6,
     "closed": 20,
     "dead": 40,
-    "gp_available": 277871,
+    "gp_available": 257871,
     "gp_pending": 151664,
     "gp_on_hold": 203198,
     "gp_closed": 541461,
@@ -845,7 +854,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 11515.4
+    "2026-06": 11540.61
   },
   "channel_by_month": {
     "2026-01": {
@@ -1267,11 +1276,11 @@
     },
     "2026-06": {
       "google_spend": 6737.84,
-      "meta_spend": 4777.56,
+      "meta_spend": 4802.77,
       "ppc_leads": 39,
-      "fb_leads": 103,
+      "fb_leads": 105,
       "google_cpc": 17.82,
-      "meta_cpc": 2.42,
+      "meta_cpc": 2.43,
       "pipeline_ppc": {
         "leads": 39,
         "active": 25,
@@ -1332,13 +1341,13 @@
         }
       },
       "pipeline_fb": {
-        "leads": 103,
-        "active": 74,
+        "leads": 105,
+        "active": 76,
         "booked": 44,
         "offered": 40,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 4,
+        "accepted": 5,
+        "under_contract": 5,
+        "contract_available": 5,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1349,7 +1358,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 33,
+            "count": 35,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1393,7 +1402,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 142,
+    "new_leads_30d": 144,
     "dispositioned_mtd": 102,
     "hot": 9,
     "booked": 62,
@@ -1402,13 +1411,13 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 103,
-    "active": 74,
+    "leads": 105,
+    "active": 76,
     "booked": 44,
     "offered": 40,
-    "accepted": 15,
-    "under_contract": 15,
-    "contract_available": 5,
+    "accepted": 16,
+    "under_contract": 16,
+    "contract_available": 6,
     "contract_pending": 2,
     "contract_closed": 0,
     "contract_dead": 8,
@@ -1419,7 +1428,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 33,
+        "count": 35,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1534,10 +1543,20 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 120355,
+    "Julian": 100355,
     "Charles": 309180
   },
   "agent_deals": [
+    {
+      "address": "115 Cherry St, Sardinia, OH 45171, USA",
+      "value": -20000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-06",
+      "agent": "Julian"
+    },
     {
       "address": "21 California Ave, Elmira, NY 14903, USA",
       "value": 12800,
@@ -1741,7 +1760,7 @@
   ],
   "sources": {
     "ppc": 39,
-    "facebook": 103,
+    "facebook": 105,
     "ppc_inbound_call": 13
   },
   "hot_leads": [

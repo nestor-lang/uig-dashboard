@@ -1,13 +1,13 @@
 {
   "report_date": "June 23, 2026",
-  "last_updated": "2026-06-23 16:00 EST",
+  "last_updated": "2026-06-23 17:00 EST",
   "google": {
-    "spend_mtd": 7004.55,
-    "clicks_mtd": 398,
+    "spend_mtd": 7010.0,
+    "clicks_mtd": 400,
     "crm_leads": 38,
     "crm_leads_today": 0,
-    "cpc": 17.6,
-    "cpl": 184.33,
+    "cpc": 17.53,
+    "cpl": 184.47,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 439.31,
-        "spend_today": 33.76,
-        "clicks": 196,
+        "spend": 440.55,
+        "spend_today": 35.01,
+        "clicks": 197,
         "cpc": 2.24,
         "crm_leads": 0,
-        "cpl": 184.33
+        "cpl": 184.47
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6565.24,
-        "spend_today": 236.11,
-        "clicks": 202,
-        "cpc": 32.5,
+        "spend": 6569.45,
+        "spend_today": 240.32,
+        "clicks": 203,
+        "cpc": 32.36,
         "crm_leads": 0,
-        "cpl": 184.33
+        "cpl": 184.47
       }
     ]
   },
   "meta": {
-    "spend_30d": 5079.62,
-    "clicks_30d": 2080,
+    "spend_30d": 5092.31,
+    "clicks_30d": 2085,
     "crm_leads": 114,
     "crm_leads_today": 7,
     "cpc": 2.44,
-    "cpl_crm": 44.56,
-    "cost_per_hot": 1269.9,
+    "cpl_crm": 44.67,
+    "cost_per_hot": 1697.44,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5079.62,
-        "spend_today": 203.36,
-        "clicks": 2080,
+        "spend": 5092.31,
+        "spend_today": 216.05,
+        "clicks": 2085,
         "crm_leads": 114,
-        "cpl_crm": 44.56
+        "cpl_crm": 44.67
       }
     ]
   },
@@ -103,7 +103,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12084.04
+      "spend": 12102.310000000001
     }
   },
   "reps_by_month": {
@@ -260,7 +260,7 @@
     "2026-06": {
       "Charles": {
         "leads": 40,
-        "active": 37,
+        "active": 38,
         "booked": 29,
         "offers": 30,
         "accepted": 6,
@@ -853,7 +853,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 12084.17
+    "2026-06": 12102.31
   },
   "channel_by_month": {
     "2026-01": {
@@ -1101,7 +1101,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 62,
+            "count": 63,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1139,10 +1139,6 @@
           "Sold": {
             "count": 3,
             "color": "#C8C8C8"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Warm": {
             "count": 1,
@@ -1274,11 +1270,11 @@
       }
     },
     "2026-06": {
-      "google_spend": 7004.55,
-      "meta_spend": 5079.62,
+      "google_spend": 7010.0,
+      "meta_spend": 5092.31,
       "ppc_leads": 38,
       "fb_leads": 114,
-      "google_cpc": 17.6,
+      "google_cpc": 17.53,
       "meta_cpc": 2.44,
       "pipeline_ppc": {
         "leads": 38,
@@ -1353,11 +1349,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 43,
+            "count": 44,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 36,
+            "count": 35,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1403,7 +1399,7 @@
   "pipeline": {
     "new_leads_30d": 152,
     "dispositioned_mtd": 103,
-    "hot": 7,
+    "hot": 6,
     "booked": 64,
     "offers": 56,
     "under_contract": 8,
@@ -1423,11 +1419,11 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 43,
+        "count": 44,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 36,
+        "count": 35,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1782,15 +1778,15 @@
       "source": "Facebook"
     },
     {
-      "name": "3019 Flint Mill Run SE",
-      "address": "3019 Flint Mill Run SE, Owens Cross Roads, AL 35763, USA",
-      "phone": "(256) 479-3080",
-      "source": "Facebook"
-    },
-    {
       "name": "712 Monroe St",
       "address": "712 Monroe St, Lynchburg, VA 24504, USA",
       "phone": "(434) 610-0599",
+      "source": "PPC"
+    },
+    {
+      "name": "106 Robin Hood Trail",
+      "address": "106 Robin Hood Trail, Ocean Pines, MD 21811, USA",
+      "phone": "(325) 202-4484",
       "source": "PPC"
     }
   ],

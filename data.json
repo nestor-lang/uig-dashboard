@@ -1,13 +1,13 @@
 {
   "report_date": "June 23, 2026",
-  "last_updated": "2026-06-23 08:00 EST",
+  "last_updated": "2026-06-23 09:01 EST",
   "google": {
-    "spend_mtd": 6742.52,
-    "clicks_mtd": 379,
+    "spend_mtd": 6749.83,
+    "clicks_mtd": 384,
     "crm_leads": 39,
     "crm_leads_today": 0,
-    "cpc": 17.79,
-    "cpl": 172.89,
+    "cpc": 17.58,
+    "cpl": 173.07,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 413.38,
-        "spend_today": 7.83,
-        "clicks": 183,
-        "cpc": 2.26,
+        "spend": 420.69,
+        "spend_today": 15.15,
+        "clicks": 188,
+        "cpc": 2.24,
         "crm_leads": 0,
-        "cpl": 172.89
+        "cpl": 173.07
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,34 +29,34 @@
         "clicks": 196,
         "cpc": 32.29,
         "crm_leads": 0,
-        "cpl": 172.89
+        "cpl": 173.07
       }
     ]
   },
   "meta": {
-    "spend_30d": 4938.09,
-    "clicks_30d": 2017,
-    "crm_leads": 108,
-    "crm_leads_today": 1,
+    "spend_30d": 4956.15,
+    "clicks_30d": 2024,
+    "crm_leads": 110,
+    "crm_leads_today": 3,
     "cpc": 2.45,
-    "cpl_crm": 45.72,
-    "cost_per_hot": 987.62,
+    "cpl_crm": 45.06,
+    "cost_per_hot": 991.23,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4938.09,
-        "spend_today": 63.95,
-        "clicks": 2017,
-        "crm_leads": 108,
-        "cpl_crm": 45.72
+        "spend": 4956.15,
+        "spend_today": 81.41,
+        "clicks": 2024,
+        "crm_leads": 110,
+        "cpl_crm": 45.06
       }
     ]
   },
-  "potential_income": 257871,
+  "potential_income": 297871,
   "assigned_income": 166104,
   "by_stage": {
+    "New Deal - Unscheduled": 118200,
     "Initial Inspection Completed": 105897,
-    "New Deal - Unscheduled": 78200,
     "On Market": 73774
   },
   "by_agent": {
@@ -103,7 +103,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11680.61
+      "spend": 11705.98
     }
   },
   "reps_by_month": {
@@ -367,7 +367,7 @@
             "available": 3
           },
           "gp": {
-            "available": 7800
+            "available": 47800
           },
           "total": 3
         }
@@ -382,7 +382,7 @@
           "pending": 2
         },
         "gp": {
-          "available": 54246,
+          "available": 94246,
           "on_hold": 203198,
           "closed": 300111,
           "other": 14440,
@@ -477,7 +477,7 @@
       "deals": [
         {
           "address": "115 Cherry St, Sardinia, OH 45171, USA",
-          "value": -20000,
+          "value": 20000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -842,7 +842,7 @@
     "on_hold": 6,
     "closed": 20,
     "dead": 40,
-    "gp_available": 257871,
+    "gp_available": 297871,
     "gp_pending": 151664,
     "gp_on_hold": 203198,
     "gp_closed": 541461,
@@ -854,7 +854,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 11680.61
+    "2026-06": 11705.98
   },
   "channel_by_month": {
     "2026-01": {
@@ -1275,11 +1275,11 @@
       }
     },
     "2026-06": {
-      "google_spend": 6742.52,
-      "meta_spend": 4938.09,
+      "google_spend": 6749.83,
+      "meta_spend": 4956.15,
       "ppc_leads": 39,
-      "fb_leads": 108,
-      "google_cpc": 17.79,
+      "fb_leads": 110,
+      "google_cpc": 17.58,
       "meta_cpc": 2.45,
       "pipeline_ppc": {
         "leads": 39,
@@ -1341,8 +1341,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 108,
-        "active": 79,
+        "leads": 110,
+        "active": 81,
         "booked": 44,
         "offered": 40,
         "accepted": 5,
@@ -1353,13 +1353,13 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
+          "Need to Contact": {
+            "count": 40,
+            "color": "#FFD5C2"
+          },
           "Cold": {
             "count": 40,
             "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 38,
-            "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 10,
@@ -1402,7 +1402,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 147,
+    "new_leads_30d": 149,
     "dispositioned_mtd": 102,
     "hot": 8,
     "booked": 62,
@@ -1411,8 +1411,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 108,
-    "active": 79,
+    "leads": 110,
+    "active": 81,
     "booked": 44,
     "offered": 40,
     "accepted": 16,
@@ -1423,13 +1423,13 @@
     "contract_dead": 8,
     "closed": 0,
     "status_breakdown": {
+      "Need to Contact": {
+        "count": 40,
+        "color": "#FFD5C2"
+      },
       "Cold": {
         "count": 40,
         "color": "#D2E4EB"
-      },
-      "Need to Contact": {
-        "count": 38,
-        "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 10,
@@ -1543,13 +1543,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 100355,
+    "Julian": 140355,
     "Charles": 309180
   },
   "agent_deals": [
     {
       "address": "115 Cherry St, Sardinia, OH 45171, USA",
-      "value": -20000,
+      "value": 20000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1760,7 +1760,7 @@
   ],
   "sources": {
     "ppc": 39,
-    "facebook": 108,
+    "facebook": 110,
     "ppc_inbound_call": 13
   },
   "hot_leads": [

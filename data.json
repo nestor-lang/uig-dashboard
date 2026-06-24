@@ -1,13 +1,13 @@
 {
   "report_date": "June 24, 2026",
-  "last_updated": "2026-06-24 15:01 EST",
+  "last_updated": "2026-06-24 16:00 EST",
   "google": {
-    "spend_mtd": 7407.11,
-    "clicks_mtd": 417,
-    "crm_leads": 40,
-    "crm_leads_today": 1,
-    "cpc": 17.76,
-    "cpl": 185.18,
+    "spend_mtd": 7444.81,
+    "clicks_mtd": 419,
+    "crm_leads": 41,
+    "crm_leads_today": 2,
+    "cpc": 17.77,
+    "cpl": 181.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,45 +20,45 @@
         "clicks": 207,
         "cpc": 2.21,
         "crm_leads": 0,
-        "cpl": 185.18
+        "cpl": 181.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6948.95,
-        "spend_today": 223.1,
-        "clicks": 210,
-        "cpc": 33.09,
+        "spend": 6986.65,
+        "spend_today": 260.8,
+        "clicks": 212,
+        "cpc": 32.96,
         "crm_leads": 0,
-        "cpl": 185.18
+        "cpl": 181.58
       }
     ]
   },
   "meta": {
-    "spend_30d": 5359.34,
-    "clicks_30d": 2195,
+    "spend_30d": 5384.31,
+    "clicks_30d": 2204,
     "crm_leads": 119,
     "crm_leads_today": 5,
     "cpc": 2.44,
-    "cpl_crm": 45.04,
-    "cost_per_hot": 1339.84,
+    "cpl_crm": 45.25,
+    "cost_per_hot": 1346.08,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5359.34,
-        "spend_today": 173.18,
-        "clicks": 2195,
+        "spend": 5384.31,
+        "spend_today": 198.11,
+        "clicks": 2204,
         "crm_leads": 119,
-        "cpl_crm": 45.04
+        "cpl_crm": 45.25
       }
     ]
   },
-  "potential_income": 287905,
+  "potential_income": 87905,
   "assigned_income": 166104,
   "by_stage": {
-    "New Deal - Unscheduled": 118200,
     "Initial Inspection Completed": 80931,
     "On Market": 73774,
-    "Market Prep / Pre-Listing Marketing": 15000
+    "Market Prep / Pre-Listing Marketing": 15000,
+    "New Deal - Unscheduled": -81800
   },
   "by_agent": {
     "Virginia": 68055,
@@ -104,7 +104,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12766.45
+      "spend": 12828.92
     }
   },
   "reps_by_month": {
@@ -170,7 +170,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -181,10 +181,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -195,12 +195,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -211,10 +211,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -225,7 +225,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -264,7 +264,7 @@
         "active": 40,
         "booked": 30,
         "offers": 31,
-        "accepted": 6,
+        "accepted": 7,
         "available": 6,
         "pending": 0,
         "dead": 0,
@@ -274,9 +274,9 @@
         "discoveries": 41
       },
       "Julian": {
-        "leads": 64,
-        "active": 46,
-        "booked": 36,
+        "leads": 65,
+        "active": 47,
+        "booked": 37,
         "offers": 46,
         "accepted": 3,
         "available": 2,
@@ -285,7 +285,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 42811.19,
-        "discoveries": 64
+        "discoveries": 65
       }
     }
   },
@@ -619,30 +619,36 @@
         },
         "2026-06": {
           "counts": {
-            "available": 6
+            "available": 7
           },
           "gp": {
-            "available": 172859
+            "available": -27141
           },
-          "total": 6
+          "total": 7
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 8,
           "pending": 4,
           "dead": 20,
           "closed": 5
         },
         "gp": {
-          "available": 193808,
+          "available": -6192,
           "pending": 105555,
           "dead": 463015,
           "closed": 241350
         },
-        "total": 36
+        "total": 37
       },
       "channel_counts": {
+        "sms": {
+          "available": 2,
+          "pending": 2,
+          "dead": 8,
+          "closed": 5
+        },
         "fb": {
           "available": 2,
           "dead": 7,
@@ -651,16 +657,13 @@
         "ppc": {
           "available": 4,
           "dead": 5
-        },
-        "sms": {
-          "pending": 2,
-          "dead": 8,
-          "available": 1,
-          "closed": 5
         }
       },
       "by_month_channel_counts": {
         "2026-06": {
+          "sms": {
+            "available": 1
+          },
           "fb": {
             "available": 2
           },
@@ -722,6 +725,15 @@
         }
       },
       "deals": [
+        {
+          "address": "2133 Sugar Creek Cl, Atlanta, GA 30316, USA",
+          "value": -200000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-06"
+        },
         {
           "address": "201 Jackson St, Jackson Center, OH 45334, USA",
           "value": 30000,
@@ -825,12 +837,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
+    "available": 15,
     "pending": 6,
     "on_hold": 5,
     "closed": 20,
     "dead": 42,
-    "gp_available": 287905,
+    "gp_available": 87905,
     "gp_pending": 151664,
     "gp_on_hold": 175588,
     "gp_closed": 541461,
@@ -842,7 +854,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 12766.45
+    "2026-06": 12829.12
   },
   "channel_by_month": {
     "2026-01": {
@@ -1263,16 +1275,16 @@
       }
     },
     "2026-06": {
-      "google_spend": 7407.11,
-      "meta_spend": 5359.34,
-      "ppc_leads": 40,
+      "google_spend": 7444.81,
+      "meta_spend": 5384.31,
+      "ppc_leads": 41,
       "fb_leads": 119,
-      "google_cpc": 17.76,
+      "google_cpc": 17.77,
       "meta_cpc": 2.44,
       "pipeline_ppc": {
-        "leads": 40,
-        "active": 22,
-        "booked": 18,
+        "leads": 41,
+        "active": 23,
+        "booked": 19,
         "offered": 14,
         "accepted": 4,
         "under_contract": 4,
@@ -1294,6 +1306,10 @@
             "count": 5,
             "color": "#FFD5C2"
           },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
           "Dead": {
             "count": 4,
             "color": "#F3F3F3"
@@ -1305,10 +1321,6 @@
           "Wrong Number": {
             "count": 3,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
           },
           "Hot": {
             "count": 2,
@@ -1390,10 +1402,10 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 159,
-    "dispositioned_mtd": 105,
+    "new_leads_30d": 160,
+    "dispositioned_mtd": 106,
     "hot": 6,
-    "booked": 66,
+    "booked": 67,
     "offers": 58,
     "under_contract": 8,
     "closed": 0
@@ -1458,9 +1470,9 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 40,
-    "active": 22,
-    "booked": 18,
+    "leads": 41,
+    "active": 23,
+    "booked": 19,
     "offered": 14,
     "accepted": 15,
     "under_contract": 15,
@@ -1482,6 +1494,10 @@
         "count": 5,
         "color": "#FFD5C2"
       },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
       "Dead": {
         "count": 4,
         "color": "#F3F3F3"
@@ -1493,10 +1509,6 @@
       "Wrong Number": {
         "count": 3,
         "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
       },
       "Hot": {
         "count": 2,
@@ -1520,11 +1532,11 @@
     "Charles": {
       "discoveries": 41,
       "offers": 31,
-      "contracts": 6,
+      "contracts": 7,
       "revenue": 128947.9
     },
     "Julian": {
-      "discoveries": 64,
+      "discoveries": 65,
       "offers": 46,
       "contracts": 3,
       "revenue": 42811.19
@@ -1532,7 +1544,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 140206,
-    "Charles": 299363
+    "Charles": 99363
   },
   "agent_deals": [
     {
@@ -1624,6 +1636,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-02",
       "agent": "Julian"
+    },
+    {
+      "address": "2133 Sugar Creek Cl, Atlanta, GA 30316, USA",
+      "value": -200000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-06",
+      "agent": "Charles"
     },
     {
       "address": "201 Jackson St, Jackson Center, OH 45334, USA",
@@ -1737,7 +1759,7 @@
     }
   ],
   "sources": {
-    "ppc": 40,
+    "ppc": 41,
     "facebook": 119,
     "ppc_inbound_call": 15
   },

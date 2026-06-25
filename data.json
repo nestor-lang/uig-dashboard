@@ -1,13 +1,13 @@
 {
   "report_date": "June 25, 2026",
-  "last_updated": "2026-06-25 15:01 EST",
+  "last_updated": "2026-06-25 16:00 EST",
   "google": {
-    "spend_mtd": 7748.95,
-    "clicks_mtd": 435,
+    "spend_mtd": 7793.76,
+    "clicks_mtd": 437,
     "crm_leads": 42,
     "crm_leads_today": 1,
-    "cpc": 17.81,
-    "cpl": 184.5,
+    "cpc": 17.83,
+    "cpl": 185.57,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,49 +15,50 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 487.27,
-        "spend_today": 28.83,
-        "clicks": 216,
-        "cpc": 2.26,
+        "spend": 501.6,
+        "spend_today": 43.16,
+        "clicks": 217,
+        "cpc": 2.31,
         "crm_leads": 0,
-        "cpl": 184.5
+        "cpl": 185.57
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7261.68,
-        "spend_today": 159.76,
-        "clicks": 219,
-        "cpc": 33.16,
+        "spend": 7292.15,
+        "spend_today": 190.23,
+        "clicks": 220,
+        "cpc": 33.15,
         "crm_leads": 0,
-        "cpl": 184.5
+        "cpl": 185.57
       }
     ]
   },
   "meta": {
-    "spend_30d": 5647.02,
-    "clicks_30d": 2317,
+    "spend_30d": 5663.86,
+    "clicks_30d": 2323,
     "crm_leads": 121,
     "crm_leads_today": 1,
     "cpc": 2.44,
-    "cpl_crm": 46.67,
-    "cost_per_hot": 1411.76,
+    "cpl_crm": 46.81,
+    "cost_per_hot": 1415.96,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5647.02,
-        "spend_today": 176.22,
-        "clicks": 2317,
+        "spend": 5663.86,
+        "spend_today": 193.06,
+        "clicks": 2323,
         "crm_leads": 121,
-        "cpl_crm": 46.67
+        "cpl_crm": 46.81
       }
     ]
   },
   "potential_income": 307905,
   "assigned_income": 186104,
   "by_stage": {
-    "New Deal - Unscheduled": 138200,
-    "Initial Inspection Completed": 80931,
+    "Initial Inspection Completed": 113731,
+    "New Deal - Unscheduled": 75400,
     "On Market": 73774,
+    "Access Scheduled": 30000,
     "Market Prep / Pre-Listing Marketing": 15000
   },
   "by_agent": {
@@ -104,7 +105,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13395.279999999999
+      "spend": 13457.619999999999
     }
   },
   "reps_by_month": {
@@ -170,7 +171,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -181,10 +182,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -195,12 +196,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -211,10 +212,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -225,7 +226,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -260,10 +261,10 @@
     },
     "2026-06": {
       "Charles": {
-        "leads": 42,
-        "active": 40,
-        "booked": 33,
-        "offers": 33,
+        "leads": 43,
+        "active": 41,
+        "booked": 34,
+        "offers": 34,
         "accepted": 7,
         "available": 6,
         "pending": 0,
@@ -271,7 +272,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 128947.9,
-        "discoveries": 42
+        "discoveries": 43
       },
       "Julian": {
         "leads": 70,
@@ -488,8 +489,8 @@
           "address": "21 California Ave, Elmira, NY 14903, USA",
           "value": 12800,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -729,8 +730,8 @@
           "address": "2133 Sugar Creek Cl, Atlanta, GA 30316, USA",
           "value": 20000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -738,8 +739,8 @@
           "address": "201 Jackson St, Jackson Center, OH 45334, USA",
           "value": 30000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -854,7 +855,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 13395.97
+    "2026-06": 13457.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -1275,11 +1276,11 @@
       }
     },
     "2026-06": {
-      "google_spend": 7748.95,
-      "meta_spend": 5647.02,
+      "google_spend": 7793.76,
+      "meta_spend": 5663.86,
       "ppc_leads": 42,
       "fb_leads": 121,
-      "google_cpc": 17.81,
+      "google_cpc": 17.83,
       "meta_cpc": 2.44,
       "pipeline_ppc": {
         "leads": 42,
@@ -1343,8 +1344,8 @@
       "pipeline_fb": {
         "leads": 121,
         "active": 81,
-        "booked": 52,
-        "offered": 47,
+        "booked": 53,
+        "offered": 48,
         "accepted": 5,
         "under_contract": 5,
         "contract_available": 5,
@@ -1403,18 +1404,18 @@
   },
   "pipeline": {
     "new_leads_30d": 163,
-    "dispositioned_mtd": 112,
+    "dispositioned_mtd": 113,
     "hot": 6,
-    "booked": 72,
-    "offers": 62,
+    "booked": 73,
+    "offers": 63,
     "under_contract": 8,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 121,
     "active": 81,
-    "booked": 52,
-    "offered": 47,
+    "booked": 53,
+    "offered": 48,
     "accepted": 16,
     "under_contract": 16,
     "contract_available": 5,
@@ -1530,8 +1531,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 42,
-      "offers": 33,
+      "discoveries": 43,
+      "offers": 34,
       "contracts": 7,
       "revenue": 128947.9
     },
@@ -1561,8 +1562,8 @@
       "address": "21 California Ave, Elmira, NY 14903, USA",
       "value": 12800,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Julian"
@@ -1641,8 +1642,8 @@
       "address": "2133 Sugar Creek Cl, Atlanta, GA 30316, USA",
       "value": 20000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"
@@ -1651,8 +1652,8 @@
       "address": "201 Jackson St, Jackson Center, OH 45334, USA",
       "value": 30000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"

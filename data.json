@@ -1,13 +1,13 @@
 {
   "report_date": "June 25, 2026",
-  "last_updated": "2026-06-25 12:01 EST",
+  "last_updated": "2026-06-25 13:00 EST",
   "google": {
-    "spend_mtd": 7647.0,
-    "clicks_mtd": 429,
+    "spend_mtd": 7649.25,
+    "clicks_mtd": 430,
     "crm_leads": 41,
     "crm_leads_today": 0,
-    "cpc": 17.83,
-    "cpl": 186.51,
+    "cpc": 17.79,
+    "cpl": 186.57,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 468.13,
-        "spend_today": 9.69,
-        "clicks": 213,
+        "spend": 470.38,
+        "spend_today": 11.94,
+        "clicks": 214,
         "cpc": 2.2,
         "crm_leads": 0,
-        "cpl": 186.51
+        "cpl": 186.57
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,31 +29,31 @@
         "clicks": 216,
         "cpc": 33.24,
         "crm_leads": 0,
-        "cpl": 186.51
+        "cpl": 186.57
       }
     ]
   },
   "meta": {
-    "spend_30d": 5604.67,
-    "clicks_30d": 2305,
+    "spend_30d": 5620.16,
+    "clicks_30d": 2307,
     "crm_leads": 122,
     "crm_leads_today": 1,
-    "cpc": 2.43,
-    "cpl_crm": 45.94,
-    "cost_per_hot": 1401.17,
+    "cpc": 2.44,
+    "cpl_crm": 46.07,
+    "cost_per_hot": 1405.04,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5604.67,
-        "spend_today": 133.89,
-        "clicks": 2305,
+        "spend": 5620.16,
+        "spend_today": 149.37,
+        "clicks": 2307,
         "crm_leads": 122,
-        "cpl_crm": 45.94
+        "cpl_crm": 46.07
       }
     ]
   },
   "potential_income": 307905,
-  "assigned_income": 166104,
+  "assigned_income": 186104,
   "by_stage": {
     "New Deal - Unscheduled": 138200,
     "Initial Inspection Completed": 80931,
@@ -61,7 +61,7 @@
     "Market Prep / Pre-Listing Marketing": 15000
   },
   "by_agent": {
-    "Virginia": 68055,
+    "Virginia": 88055,
     "Georgia": 46109,
     "Delaware": 20000,
     "West Virginia": 17500,
@@ -104,7 +104,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13251.67
+      "spend": 13268.93
     }
   },
   "reps_by_month": {
@@ -170,7 +170,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -181,10 +181,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -195,12 +195,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -211,10 +211,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -225,7 +225,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -274,7 +274,7 @@
         "discoveries": 42
       },
       "Julian": {
-        "leads": 70,
+        "leads": 71,
         "active": 49,
         "booked": 40,
         "offers": 48,
@@ -285,7 +285,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 42811.19,
-        "discoveries": 70
+        "discoveries": 71
       }
     }
   },
@@ -612,7 +612,7 @@
             "dead": 7
           },
           "gp": {
-            "pending": 85555,
+            "pending": 105555,
             "dead": 158475
           },
           "total": 10
@@ -636,7 +636,7 @@
         },
         "gp": {
           "available": 213808,
-          "pending": 105555,
+          "pending": 125555,
           "dead": 463015,
           "closed": 241350
         },
@@ -790,7 +790,7 @@
         },
         {
           "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
-          "value": 29805,
+          "value": 49805,
           "status": "Sent to Title",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -843,7 +843,7 @@
     "closed": 20,
     "dead": 42,
     "gp_available": 307905,
-    "gp_pending": 151664,
+    "gp_pending": 171664,
     "gp_on_hold": 175588,
     "gp_closed": 541461,
     "gp_dead": 994002
@@ -854,7 +854,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 13254.71
+    "2026-06": 13269.41
   },
   "channel_by_month": {
     "2026-01": {
@@ -1275,12 +1275,12 @@
       }
     },
     "2026-06": {
-      "google_spend": 7647.0,
-      "meta_spend": 5607.71,
+      "google_spend": 7649.25,
+      "meta_spend": 5620.16,
       "ppc_leads": 41,
       "fb_leads": 122,
-      "google_cpc": 17.83,
-      "meta_cpc": 2.43,
+      "google_cpc": 17.79,
+      "meta_cpc": 2.44,
       "pipeline_ppc": {
         "leads": 41,
         "active": 23,
@@ -1403,7 +1403,7 @@
   },
   "pipeline": {
     "new_leads_30d": 163,
-    "dispositioned_mtd": 112,
+    "dispositioned_mtd": 113,
     "hot": 6,
     "booked": 73,
     "offers": 62,
@@ -1536,7 +1536,7 @@
       "revenue": 128947.9
     },
     "Julian": {
-      "discoveries": 70,
+      "discoveries": 71,
       "offers": 48,
       "contracts": 3,
       "revenue": 42811.19
@@ -1544,7 +1544,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 140206,
-    "Charles": 319363
+    "Charles": 339363
   },
   "agent_deals": [
     {
@@ -1709,7 +1709,7 @@
     },
     {
       "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
-      "value": 29805,
+      "value": 49805,
       "status": "Sent to Title",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

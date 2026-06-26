@@ -1,6 +1,6 @@
 {
   "report_date": "June 25, 2026",
-  "last_updated": "2026-06-25 19:00 EST",
+  "last_updated": "2026-06-25 20:00 EST",
   "google": {
     "spend_mtd": 7855.99,
     "clicks_mtd": 439,
@@ -34,37 +34,37 @@
     ]
   },
   "meta": {
-    "spend_30d": 5704.3,
-    "clicks_30d": 2338,
-    "crm_leads": 123,
-    "crm_leads_today": 3,
-    "cpc": 2.44,
-    "cpl_crm": 46.38,
-    "cost_per_hot": 1426.08,
+    "spend_30d": 5715.97,
+    "clicks_30d": 2348,
+    "crm_leads": 124,
+    "crm_leads_today": 4,
+    "cpc": 2.43,
+    "cpl_crm": 46.1,
+    "cost_per_hot": 1428.99,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5704.3,
-        "spend_today": 233.48,
-        "clicks": 2338,
-        "crm_leads": 123,
-        "cpl_crm": 46.38
+        "spend": 5715.97,
+        "spend_today": 245.15,
+        "clicks": 2348,
+        "crm_leads": 124,
+        "cpl_crm": 46.1
       }
     ]
   },
-  "potential_income": 293804,
-  "assigned_income": 178104,
+  "potential_income": 273175,
+  "assigned_income": 170588,
   "by_stage": {
     "Initial Inspection Completed": 99630,
     "New Deal - Unscheduled": 75400,
-    "On Market": 73774,
+    "On Market": 53145,
     "Access Scheduled": 30000,
     "Market Prep / Pre-Listing Marketing": 15000
   },
   "by_agent": {
-    "Virginia": 80055,
-    "Georgia": 46109,
+    "Virginia": 100305,
     "Delaware": 20000,
+    "Georgia": 18343,
     "West Virginia": 17500,
     "Maryland": 14440
   },
@@ -104,8 +104,8 @@
     },
     "2026-06": {
       "closed": 0.0,
-      "pending": 0.0,
-      "spend": 13560.29
+      "pending": 20250.0,
+      "spend": 13571.689999999999
     }
   },
   "reps_by_month": {
@@ -266,11 +266,11 @@
         "booked": 35,
         "offers": 35,
         "accepted": 7,
-        "available": 6,
-        "pending": 0,
+        "available": 5,
+        "pending": 1,
         "dead": 0,
         "closed": 0,
-        "pending_income": 0.0,
+        "pending_income": 20250.0,
         "closed_revenue": 128947.9,
         "discoveries": 45
       },
@@ -327,7 +327,7 @@
             "dead": 2
           },
           "gp": {
-            "pending": 46109,
+            "pending": 18343,
             "available": 14092,
             "closed": 45421,
             "dead": 19875
@@ -389,7 +389,7 @@
           "on_hold": 175588,
           "closed": 300111,
           "other": 14440,
-          "pending": 46109
+          "pending": 18343
         },
         "total": 52
       },
@@ -516,7 +516,7 @@
         },
         {
           "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-          "value": 31109,
+          "value": 6268,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -534,7 +534,7 @@
         },
         {
           "address": "115 Melton St, Griffin, GA 30223, USA",
-          "value": 15000,
+          "value": 12075,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -613,24 +613,26 @@
         },
         "2026-06": {
           "counts": {
-            "available": 7
+            "available": 6,
+            "pending": 1
           },
           "gp": {
-            "available": 192859
+            "available": 172230,
+            "pending": 20250
           },
           "total": 7
         }
       },
       "all_time": {
         "counts": {
-          "available": 8,
-          "pending": 4,
+          "available": 7,
+          "pending": 5,
           "dead": 20,
           "closed": 5
         },
         "gp": {
-          "available": 213808,
-          "pending": 117555,
+          "available": 193179,
+          "pending": 137805,
           "dead": 463015,
           "closed": 241350
         },
@@ -649,7 +651,8 @@
           "pending": 2
         },
         "ppc": {
-          "available": 4,
+          "available": 3,
+          "pending": 1,
           "dead": 5
         }
       },
@@ -662,7 +665,8 @@
             "available": 2
           },
           "ppc": {
-            "available": 4
+            "available": 3,
+            "pending": 1
           }
         },
         "2026-05": {
@@ -775,8 +779,8 @@
         },
         {
           "address": "317 55th St, Newport News, VA 23607, USA",
-          "value": 20629,
-          "status": "Available",
+          "value": 20250,
+          "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -831,13 +835,13 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
-    "pending": 6,
+    "available": 13,
+    "pending": 7,
     "on_hold": 5,
     "closed": 20,
     "dead": 43,
-    "gp_available": 293804,
-    "gp_pending": 163664,
+    "gp_available": 273175,
+    "gp_pending": 156148,
     "gp_on_hold": 175588,
     "gp_closed": 541461,
     "gp_dead": 1008103
@@ -848,7 +852,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 13560.29
+    "2026-06": 13571.96
   },
   "channel_by_month": {
     "2026-01": {
@@ -1270,11 +1274,11 @@
     },
     "2026-06": {
       "google_spend": 7855.99,
-      "meta_spend": 5704.3,
+      "meta_spend": 5715.97,
       "ppc_leads": 42,
-      "fb_leads": 123,
+      "fb_leads": 124,
       "google_cpc": 17.9,
-      "meta_cpc": 2.44,
+      "meta_cpc": 2.43,
       "pipeline_ppc": {
         "leads": 42,
         "active": 24,
@@ -1282,8 +1286,8 @@
         "offered": 16,
         "accepted": 4,
         "under_contract": 4,
-        "contract_available": 4,
-        "contract_pending": 0,
+        "contract_available": 3,
+        "contract_pending": 1,
         "contract_closed": 0,
         "contract_dead": 0,
         "closed": 0,
@@ -1335,8 +1339,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 123,
-        "active": 84,
+        "leads": 124,
+        "active": 85,
         "booked": 55,
         "offered": 49,
         "accepted": 5,
@@ -1352,7 +1356,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 33,
+            "count": 34,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1396,7 +1400,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 165,
+    "new_leads_30d": 166,
     "dispositioned_mtd": 115,
     "hot": 6,
     "booked": 76,
@@ -1405,8 +1409,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 123,
-    "active": 84,
+    "leads": 124,
+    "active": 85,
     "booked": 55,
     "offered": 49,
     "accepted": 16,
@@ -1422,7 +1426,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 33,
+        "count": 34,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1470,8 +1474,8 @@
     "offered": 16,
     "accepted": 15,
     "under_contract": 15,
-    "contract_available": 6,
-    "contract_pending": 0,
+    "contract_available": 5,
+    "contract_pending": 1,
     "contract_closed": 3,
     "contract_dead": 6,
     "closed": 0,
@@ -1537,8 +1541,8 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 126105,
-    "Charles": 331363
+    "Julian": 98339,
+    "Charles": 330984
   },
   "agent_deals": [
     {
@@ -1583,7 +1587,7 @@
     },
     {
       "address": "3382 Trotters Ridge Trail, Gray, GA 31032, USA",
-      "value": 31109,
+      "value": 6268,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1603,7 +1607,7 @@
     },
     {
       "address": "115 Melton St, Griffin, GA 30223, USA",
-      "value": 15000,
+      "value": 12075,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1683,8 +1687,8 @@
     },
     {
       "address": "317 55th St, Newport News, VA 23607, USA",
-      "value": 20629,
-      "status": "Available",
+      "value": 20250,
+      "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
@@ -1744,7 +1748,7 @@
   ],
   "sources": {
     "ppc": 42,
-    "facebook": 123,
+    "facebook": 124,
     "ppc_inbound_call": 16
   },
   "hot_leads": [

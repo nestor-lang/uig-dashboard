@@ -1,6 +1,6 @@
 {
   "report_date": "June 27, 2026",
-  "last_updated": "2026-06-27 10:00 EST",
+  "last_updated": "2026-06-27 11:00 EST",
   "google": {
     "spend_mtd": 8107.66,
     "clicks_mtd": 458,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 6106.14,
-    "clicks_30d": 2487,
+    "spend_30d": 6122.76,
+    "clicks_30d": 2490,
     "crm_leads": 136,
     "crm_leads_today": 1,
     "cpc": 2.46,
-    "cpl_crm": 44.9,
-    "cost_per_hot": 1221.23,
+    "cpl_crm": 45.02,
+    "cost_per_hot": 1224.55,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6106.14,
-        "spend_today": 92.6,
-        "clicks": 2487,
+        "spend": 6122.76,
+        "spend_today": 109.22,
+        "clicks": 2490,
         "crm_leads": 136,
-        "cpl_crm": 44.9
+        "cpl_crm": 45.02
       }
     ]
   },
@@ -104,7 +104,7 @@
     "2026-06": {
       "closed": 0.0,
       "pending": 20250.0,
-      "spend": 14213.8
+      "spend": 14230.42
     }
   },
   "reps_by_month": {
@@ -845,7 +845,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 14213.8
+    "2026-06": 14230.42
   },
   "channel_by_month": {
     "2026-01": {
@@ -1156,7 +1156,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 19,
+            "count": 20,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1186,10 +1186,6 @@
           "Owes too Much": {
             "count": 1,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Dead": {
             "count": 1,
@@ -1267,7 +1263,7 @@
     },
     "2026-06": {
       "google_spend": 8107.66,
-      "meta_spend": 6106.14,
+      "meta_spend": 6122.76,
       "ppc_leads": 44,
       "fb_leads": 136,
       "google_cpc": 17.7,
@@ -1395,7 +1391,7 @@
   "pipeline": {
     "new_leads_30d": 180,
     "dispositioned_mtd": 124,
-    "hot": 8,
+    "hot": 7,
     "booked": 85,
     "offers": 74,
     "under_contract": 8,

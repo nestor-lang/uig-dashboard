@@ -1,13 +1,13 @@
 {
   "report_date": "June 29, 2026",
-  "last_updated": "2026-06-29 12:01 EST",
+  "last_updated": "2026-06-29 13:01 EST",
   "google": {
-    "spend_mtd": 8457.91,
-    "clicks_mtd": 485,
+    "spend_mtd": 8498.86,
+    "clicks_mtd": 487,
     "crm_leads": 47,
     "crm_leads_today": 0,
-    "cpc": 17.44,
-    "cpl": 179.96,
+    "cpc": 17.45,
+    "cpl": 180.83,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,45 +15,45 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 622.66,
-        "spend_today": 19.45,
-        "clicks": 248,
+        "spend": 624.06,
+        "spend_today": 20.86,
+        "clicks": 249,
         "cpc": 2.51,
         "crm_leads": 0,
-        "cpl": 179.96
+        "cpl": 180.83
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7835.25,
-        "spend_today": 16.44,
-        "clicks": 237,
-        "cpc": 33.06,
+        "spend": 7874.8,
+        "spend_today": 55.99,
+        "clicks": 238,
+        "cpc": 33.09,
         "crm_leads": 0,
-        "cpl": 179.96
+        "cpl": 180.83
       }
     ]
   },
   "meta": {
-    "spend_30d": 6687.82,
-    "clicks_30d": 2704,
+    "spend_30d": 6707.0,
+    "clicks_30d": 2708,
     "crm_leads": 145,
     "crm_leads_today": 4,
-    "cpc": 2.47,
-    "cpl_crm": 46.12,
-    "cost_per_hot": 1671.95,
+    "cpc": 2.48,
+    "cpl_crm": 46.26,
+    "cost_per_hot": 1341.4,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6687.82,
-        "spend_today": 121.68,
-        "clicks": 2704,
+        "spend": 6707.0,
+        "spend_today": 140.86,
+        "clicks": 2708,
         "crm_leads": 145,
-        "cpl_crm": 46.12
+        "cpl_crm": 46.26
       }
     ]
   },
   "potential_income": -236825,
-  "assigned_income": 170588,
+  "assigned_income": 138648,
   "by_stage": {
     "Initial Inspection Completed": 99630,
     "On Market": 53145,
@@ -63,9 +63,7 @@
   "by_agent": {
     "Virginia": 100305,
     "Delaware": 20000,
-    "Georgia": 18343,
-    "West Virginia": 17500,
-    "Maryland": 14440
+    "Georgia": 18343
   },
   "closed_by_month": {
     "2026-01": 194741,
@@ -73,7 +71,7 @@
     "2026-03": 229362,
     "2026-04": 139929,
     "2026-05": 94509,
-    "2026-06": 171759
+    "2026-06": 203699
   },
   "roa_by_month": {
     "2026-01": {
@@ -97,14 +95,14 @@
       "spend": 16068.59
     },
     "2026-05": {
-      "closed": 0.0,
-      "pending": 55750.0,
+      "closed": 17500.0,
+      "pending": 38250.0,
       "spend": 20672.89
     },
     "2026-06": {
       "closed": 0.0,
       "pending": 20250.0,
-      "spend": 15145.73
+      "spend": 15205.86
     }
   },
   "reps_by_month": {
@@ -236,11 +234,11 @@
         "offers": 32,
         "accepted": 10,
         "available": 0,
-        "pending": 2,
+        "pending": 1,
         "dead": 6,
-        "closed": 0,
-        "pending_income": 55750.0,
-        "closed_revenue": 0.0,
+        "closed": 1,
+        "pending_income": 38250.0,
+        "closed_revenue": 17500.0,
         "discoveries": 37
       },
       "Julian": {
@@ -270,11 +268,11 @@
         "dead": 1,
         "closed": 0,
         "pending_income": 20250.0,
-        "closed_revenue": 128947.9,
+        "closed_revenue": 146447.9,
         "discoveries": 48
       },
       "Julian": {
-        "leads": 77,
+        "leads": 78,
         "active": 64,
         "booked": 48,
         "offers": 57,
@@ -284,8 +282,8 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 42811.19,
-        "discoveries": 77
+        "closed_revenue": 57251.19,
+        "discoveries": 78
       }
     }
   },
@@ -327,7 +325,7 @@
           },
           "gp": {
             "pending": 18343,
-            "available": 14092,
+            "available": 15797,
             "closed": 45421,
             "dead": 19875
           },
@@ -350,16 +348,14 @@
           "counts": {
             "dead": 2,
             "on_hold": 3,
-            "closed": 2,
-            "available": 1,
-            "other": 1
+            "closed": 3,
+            "available": 1
           },
           "gp": {
             "dead": 38310,
             "on_hold": 85098,
-            "closed": 31964,
-            "available": 15577,
-            "other": 14440
+            "closed": 46404,
+            "available": 15577
           },
           "total": 9
         },
@@ -378,16 +374,14 @@
           "available": 7,
           "dead": 23,
           "on_hold": 5,
-          "closed": 15,
-          "other": 1,
+          "closed": 16,
           "pending": 2
         },
         "gp": {
-          "available": -160004,
+          "available": -158299,
           "dead": 545088,
           "on_hold": 175588,
-          "closed": 300111,
-          "other": 14440,
+          "closed": 314551,
           "pending": 18343
         },
         "total": 53
@@ -401,8 +395,7 @@
         "ppc": {
           "dead": 1,
           "available": 2,
-          "other": 1,
-          "closed": 3
+          "closed": 4
         },
         "sms": {
           "closed": 12,
@@ -422,7 +415,7 @@
           "ppc": {
             "dead": 1,
             "available": 1,
-            "other": 1
+            "closed": 1
           },
           "fb": {
             "on_hold": 2,
@@ -533,7 +526,7 @@
         },
         {
           "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-          "value": 14092,
+          "value": 15797,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -610,12 +603,14 @@
         },
         "2026-05": {
           "counts": {
-            "pending": 3,
-            "dead": 7
+            "pending": 2,
+            "dead": 7,
+            "closed": 1
           },
           "gp": {
-            "pending": 97555,
-            "dead": 158475
+            "pending": 80055,
+            "dead": 158475,
+            "closed": 17500
           },
           "total": 10
         },
@@ -637,14 +632,14 @@
         "counts": {
           "available": 7,
           "dead": 21,
-          "pending": 5,
-          "closed": 5
+          "pending": 4,
+          "closed": 6
         },
         "gp": {
           "available": -76821,
           "dead": 493015,
-          "pending": 137805,
-          "closed": 241350
+          "pending": 120305,
+          "closed": 258850
         },
         "total": 38
       },
@@ -658,7 +653,8 @@
         "fb": {
           "dead": 8,
           "available": 1,
-          "pending": 2
+          "closed": 1,
+          "pending": 1
         },
         "ppc": {
           "available": 3,
@@ -686,7 +682,8 @@
           },
           "fb": {
             "dead": 5,
-            "pending": 2
+            "closed": 1,
+            "pending": 1
           },
           "ppc": {
             "dead": 2
@@ -807,15 +804,6 @@
           "contract_month": "2026-05"
         },
         {
-          "address": "209 Spruce St, Fairmont, WV 26554, USA",
-          "value": 17500,
-          "status": "Sent to Title",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
           "address": "14 Frances St, Onancock, VA 23417, USA",
           "value": 38250,
           "status": "Sent to Title",
@@ -847,14 +835,14 @@
   },
   "pipeline_contracts": {
     "available": 14,
-    "pending": 7,
+    "pending": 6,
     "on_hold": 5,
-    "closed": 20,
+    "closed": 22,
     "dead": 44,
-    "gp_available": -236825,
-    "gp_pending": 156148,
+    "gp_available": -235120,
+    "gp_pending": 138648,
     "gp_on_hold": 175588,
-    "gp_closed": 541461,
+    "gp_closed": 573401,
     "gp_dead": 1038103
   },
   "spend_by_month": {
@@ -863,7 +851,7 @@
     "2026-03": 16442.64,
     "2026-04": 16068.59,
     "2026-05": 20672.89,
-    "2026-06": 15145.73
+    "2026-06": 15207.35
   },
   "channel_by_month": {
     "2026-01": {
@@ -1165,11 +1153,11 @@
         "active": 23,
         "booked": 18,
         "offered": 16,
-        "accepted": 4,
-        "under_contract": 4,
+        "accepted": 5,
+        "under_contract": 5,
         "contract_available": 1,
         "contract_pending": 0,
-        "contract_closed": 0,
+        "contract_closed": 1,
         "contract_dead": 3,
         "closed": 0,
         "status_breakdown": {
@@ -1223,10 +1211,10 @@
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 0,
-        "contract_pending": 2,
-        "contract_closed": 0,
+        "contract_pending": 1,
+        "contract_closed": 1,
         "contract_dead": 6,
-        "closed": 0,
+        "closed": 1,
         "status_breakdown": {
           "Cold": {
             "count": 85,
@@ -1244,13 +1232,13 @@
             "count": 12,
             "color": "#DCEBD8"
           },
-          "Under Contract": {
-            "count": 10,
-            "color": "#DCEBD8"
-          },
           "Owes too Much": {
             "count": 9,
             "color": "#D1F3EC"
+          },
+          "Under Contract": {
+            "count": 9,
+            "color": "#DCEBD8"
           },
           "Listed": {
             "count": 4,
@@ -1272,6 +1260,10 @@
             "count": 1,
             "color": "#D1F3EC"
           },
+          "Closed": {
+            "count": 1,
+            "color": "#DCEBD8"
+          },
           "Sold": {
             "count": 1,
             "color": "#C8C8C8"
@@ -1280,16 +1272,16 @@
       }
     },
     "2026-06": {
-      "google_spend": 8457.91,
-      "meta_spend": 6687.82,
+      "google_spend": 8498.86,
+      "meta_spend": 6708.49,
       "ppc_leads": 47,
       "fb_leads": 145,
-      "google_cpc": 17.44,
-      "meta_cpc": 2.47,
+      "google_cpc": 17.45,
+      "meta_cpc": 2.48,
       "pipeline_ppc": {
         "leads": 47,
         "active": 30,
-        "booked": 22,
+        "booked": 23,
         "offered": 17,
         "accepted": 4,
         "under_contract": 4,
@@ -1300,7 +1292,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 10,
+            "count": 9,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1312,7 +1304,7 @@
             "color": "#C8C8C8"
           },
           "Warm": {
-            "count": 5,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "Under Contract": {
@@ -1371,7 +1363,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 11,
+            "count": 10,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -1381,6 +1373,10 @@
           "Under Contract": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "Hot": {
+            "count": 3,
+            "color": "#F7D1D0"
           },
           "Listed": {
             "count": 3,
@@ -1397,10 +1393,6 @@
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
           }
         }
       }
@@ -1408,9 +1400,9 @@
   },
   "pipeline": {
     "new_leads_30d": 192,
-    "dispositioned_mtd": 125,
-    "hot": 6,
-    "booked": 86,
+    "dispositioned_mtd": 126,
+    "hot": 7,
+    "booked": 87,
     "offers": 75,
     "under_contract": 8,
     "closed": 0
@@ -1423,8 +1415,8 @@
     "accepted": 17,
     "under_contract": 17,
     "contract_available": 5,
-    "contract_pending": 2,
-    "contract_closed": 0,
+    "contract_pending": 1,
+    "contract_closed": 1,
     "contract_dead": 10,
     "closed": 0,
     "status_breakdown": {
@@ -1441,7 +1433,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 11,
+        "count": 10,
         "color": "#F7F0C5"
       },
       "Dead": {
@@ -1451,6 +1443,10 @@
       "Under Contract": {
         "count": 4,
         "color": "#DCEBD8"
+      },
+      "Hot": {
+        "count": 3,
+        "color": "#F7D1D0"
       },
       "Listed": {
         "count": 3,
@@ -1467,28 +1463,24 @@
       "Not Workable": {
         "count": 3,
         "color": "#D1F3EC"
-      },
-      "Hot": {
-        "count": 2,
-        "color": "#F7D1D0"
       }
     }
   },
   "pipeline_ppc": {
     "leads": 47,
     "active": 30,
-    "booked": 22,
+    "booked": 23,
     "offered": 17,
-    "accepted": 15,
-    "under_contract": 15,
+    "accepted": 16,
+    "under_contract": 16,
     "contract_available": 5,
     "contract_pending": 1,
-    "contract_closed": 3,
+    "contract_closed": 4,
     "contract_dead": 6,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 10,
+        "count": 9,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1500,7 +1492,7 @@
         "color": "#C8C8C8"
       },
       "Warm": {
-        "count": 5,
+        "count": 6,
         "color": "#F7F0C5"
       },
       "Under Contract": {
@@ -1538,18 +1530,18 @@
       "discoveries": 48,
       "offers": 41,
       "contracts": 8,
-      "revenue": 128947.9
+      "revenue": 146447.9
     },
     "Julian": {
-      "discoveries": 77,
+      "discoveries": 78,
       "offers": 57,
       "contracts": 4,
-      "revenue": 42811.19
+      "revenue": 57251.19
     }
   },
   "pipeline_by_agent": {
-    "Julian": -141661,
-    "Charles": 60984
+    "Julian": -139956,
+    "Charles": 43484
   },
   "agent_deals": [
     {
@@ -1614,7 +1606,7 @@
     },
     {
       "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-      "value": 14092,
+      "value": 15797,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -1723,16 +1715,6 @@
       "agent": "Charles"
     },
     {
-      "address": "209 Spruce St, Fairmont, WV 26554, USA",
-      "value": 17500,
-      "status": "Sent to Title",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
       "address": "14 Frances St, Onancock, VA 23417, USA",
       "value": 38250,
       "status": "Sent to Title",
@@ -1770,6 +1752,12 @@
   },
   "hot_leads": [
     {
+      "name": "1126 Ashford Dr",
+      "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
+      "phone": "(307) 331-7943",
+      "source": "Facebook"
+    },
+    {
       "name": "444 Walker Rd",
       "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
       "phone": "(541) 973-7372",
@@ -1792,12 +1780,6 @@
       "address": "52 N 15th St, Wyandanch, NY 11798",
       "phone": "(770) 715-1926",
       "source": "Facebook"
-    },
-    {
-      "name": "712 Monroe St",
-      "address": "712 Monroe St, Lynchburg, VA 24504, USA",
-      "phone": "(434) 610-0599",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

@@ -1,6 +1,6 @@
 {
   "report_date": "July 01, 2026",
-  "last_updated": "2026-07-01 10:01 EST",
+  "last_updated": "2026-07-01 11:01 EST",
   "google": {
     "spend_mtd": 158.59,
     "clicks_mtd": 7,
@@ -34,31 +34,31 @@
     ]
   },
   "meta": {
-    "spend_30d": 75.36,
-    "clicks_30d": 29,
+    "spend_30d": 89.94,
+    "clicks_30d": 32,
     "crm_leads": 2,
     "crm_leads_today": 2,
-    "cpc": 2.6,
-    "cpl_crm": 37.68,
-    "cost_per_hot": 12.56,
+    "cpc": 2.81,
+    "cpl_crm": 44.97,
+    "cost_per_hot": 14.99,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 75.36,
-        "spend_today": 75.36,
-        "clicks": 29,
+        "spend": 89.94,
+        "spend_today": 89.94,
+        "clicks": 32,
         "crm_leads": 2,
-        "cpl_crm": 37.68
+        "cpl_crm": 44.97
       }
     ]
   },
-  "potential_income": 295530,
+  "potential_income": 265530,
   "assigned_income": 125573,
   "by_stage": {
     "Initial Inspection Completed": 99630,
-    "New Deal - Unscheduled": 75400,
     "On Market": 53050,
     "Access Scheduled": 52450,
+    "New Deal - Unscheduled": 45400,
     "Market Prep / Pre-Listing Marketing": 15000
   },
   "by_agent": {
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 231.34
+      "spend": 247.74
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -269,7 +269,7 @@
         "booked": 38,
         "offers": 41,
         "accepted": 8,
-        "available": 4,
+        "available": 5,
         "pending": 1,
         "dead": 1,
         "closed": 0,
@@ -298,7 +298,7 @@
         "active": 0,
         "booked": 0,
         "offers": 0,
-        "accepted": 0,
+        "accepted": 1,
         "available": 0,
         "pending": 0,
         "dead": 0,
@@ -653,24 +653,38 @@
             "pending": 20250
           },
           "total": 8
+        },
+        "2026-07": {
+          "counts": {
+            "available": 1
+          },
+          "gp": {
+            "available": -30000
+          },
+          "total": 1
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 8,
           "dead": 21,
           "pending": 4,
           "closed": 6
         },
         "gp": {
-          "available": 187729,
+          "available": 157729,
           "dead": 493015,
           "pending": 119305,
           "closed": 258850
         },
-        "total": 38
+        "total": 39
       },
       "channel_counts": {
+        "ppc": {
+          "available": 4,
+          "pending": 1,
+          "dead": 5
+        },
         "sms": {
           "available": 3,
           "pending": 2,
@@ -682,14 +696,14 @@
           "available": 1,
           "closed": 1,
           "pending": 1
-        },
-        "ppc": {
-          "available": 3,
-          "pending": 1,
-          "dead": 5
         }
       },
       "by_month_channel_counts": {
+        "2026-07": {
+          "ppc": {
+            "available": 1
+          }
+        },
         "2026-06": {
           "sms": {
             "available": 2
@@ -758,6 +772,15 @@
         }
       },
       "deals": [
+        {
+          "address": "6169 Louisa Rd, Keswick, VA 22947, USA",
+          "value": -30000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-07"
+        },
         {
           "address": "3136 Joseph Ave, Chesapeake, VA 23324, USA",
           "value": 24550,
@@ -861,12 +884,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
+    "available": 15,
     "pending": 5,
     "on_hold": 5,
     "closed": 23,
     "dead": 44,
-    "gp_available": 295530,
+    "gp_available": 265530,
     "gp_pending": 125573,
     "gp_on_hold": 175588,
     "gp_closed": 583473,
@@ -879,7 +902,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16398.86,
-    "2026-07": 233.95
+    "2026-07": 248.53
   },
   "channel_by_month": {
     "2026-01": {
@@ -1335,13 +1358,13 @@
             "count": 5,
             "color": "#F7F0C5"
           },
+          "Under Contract": {
+            "count": 5,
+            "color": "#DCEBD8"
+          },
           "Dead": {
             "count": 4,
             "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 4,
-            "color": "#DCEBD8"
           },
           "Owes too Much": {
             "count": 3,
@@ -1352,7 +1375,7 @@
             "color": "#DCEBD8"
           },
           "Hot": {
-            "count": 2,
+            "count": 1,
             "color": "#F7D1D0"
           },
           "No Longer Selling": {
@@ -1427,19 +1450,19 @@
     },
     "2026-07": {
       "google_spend": 158.59,
-      "meta_spend": 75.36,
+      "meta_spend": 89.94,
       "ppc_leads": 2,
       "fb_leads": 2,
       "google_cpc": 22.66,
-      "meta_cpc": 2.6,
+      "meta_cpc": 2.81,
       "pipeline_ppc": {
         "leads": 2,
         "active": 2,
         "booked": 0,
         "offered": 0,
-        "accepted": 0,
-        "under_contract": 0,
-        "contract_available": 0,
+        "accepted": 1,
+        "under_contract": 1,
+        "contract_available": 1,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1475,7 +1498,7 @@
   "pipeline": {
     "new_leads_30d": 4,
     "dispositioned_mtd": 1,
-    "hot": 8,
+    "hot": 7,
     "booked": 0,
     "offers": 0,
     "under_contract": 0,
@@ -1505,9 +1528,9 @@
     "active": 2,
     "booked": 0,
     "offered": 0,
-    "accepted": 16,
-    "under_contract": 16,
-    "contract_available": 5,
+    "accepted": 17,
+    "under_contract": 17,
+    "contract_available": 6,
     "contract_pending": 1,
     "contract_closed": 4,
     "contract_dead": 6,
@@ -1523,7 +1546,7 @@
     "Charles": {
       "discoveries": 1,
       "offers": 0,
-      "contracts": 0,
+      "contracts": 1,
       "revenue": 0.0
     },
     "Julian": {
@@ -1535,7 +1558,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 114069,
-    "Charles": 307034
+    "Charles": 277034
   },
   "agent_deals": [
     {
@@ -1617,6 +1640,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-02",
       "agent": "Julian"
+    },
+    {
+      "address": "6169 Louisa Rd, Keswick, VA 22947, USA",
+      "value": -30000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-07",
+      "agent": "Charles"
     },
     {
       "address": "3136 Joseph Ave, Chesapeake, VA 23324, USA",

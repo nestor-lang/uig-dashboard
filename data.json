@@ -1,13 +1,13 @@
 {
   "report_date": "July 02, 2026",
-  "last_updated": "2026-07-02 10:01 EST",
+  "last_updated": "2026-07-02 11:01 EST",
   "google": {
-    "spend_mtd": 572.24,
+    "spend_mtd": 575.53,
     "clicks_mtd": 29,
     "crm_leads": 6,
     "crm_leads_today": 1,
-    "cpc": 19.73,
-    "cpl": 95.37,
+    "cpc": 19.85,
+    "cpl": 95.92,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 55.29,
-        "spend_today": 17.0,
+        "spend": 58.58,
+        "spend_today": 20.28,
         "clicks": 18,
-        "cpc": 3.07,
+        "cpc": 3.25,
         "crm_leads": 0,
-        "cpl": 95.37
+        "cpl": 95.92
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 11,
         "cpc": 47.0,
         "crm_leads": 0,
-        "cpl": 95.37
+        "cpl": 95.92
       }
     ]
   },
   "meta": {
-    "spend_30d": 353.1,
-    "clicks_30d": 148,
-    "crm_leads": 6,
-    "crm_leads_today": 1,
-    "cpc": 2.39,
-    "cpl_crm": 58.85,
-    "cost_per_hot": 70.62,
+    "spend_30d": 366.41,
+    "clicks_30d": 155,
+    "crm_leads": 7,
+    "crm_leads_today": 2,
+    "cpc": 2.36,
+    "cpl_crm": 52.34,
+    "cost_per_hot": 61.07,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 353.1,
-        "spend_today": 86.1,
-        "clicks": 148,
-        "crm_leads": 6,
-        "cpl_crm": 58.85
+        "spend": 366.41,
+        "spend_today": 99.38,
+        "clicks": 155,
+        "crm_leads": 7,
+        "cpl_crm": 52.34
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 925.34
+      "spend": 941.94
     }
   },
   "reps_by_month": {
@@ -266,7 +266,7 @@
       "Charles": {
         "leads": 48,
         "active": 60,
-        "booked": 40,
+        "booked": 41,
         "offers": 41,
         "accepted": 8,
         "available": 5,
@@ -902,7 +902,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 925.34
+    "2026-07": 942.95
   },
   "channel_by_month": {
     "2026-01": {
@@ -1391,8 +1391,8 @@
       "pipeline_fb": {
         "leads": 151,
         "active": 106,
-        "booked": 73,
-        "offered": 62,
+        "booked": 74,
+        "offered": 63,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 5,
@@ -1414,7 +1414,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 11,
+            "count": 10,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -1425,6 +1425,10 @@
             "count": 5,
             "color": "#D1F3EC"
           },
+          "Hot": {
+            "count": 4,
+            "color": "#F7D1D0"
+          },
           "No Longer Selling": {
             "count": 4,
             "color": "#F3F3F3"
@@ -1432,10 +1436,6 @@
           "Under Contract": {
             "count": 4,
             "color": "#DCEBD8"
-          },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
           },
           "Listed": {
             "count": 3,
@@ -1449,12 +1449,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 572.24,
-      "meta_spend": 353.1,
+      "google_spend": 575.53,
+      "meta_spend": 367.42,
       "ppc_leads": 6,
-      "fb_leads": 6,
-      "google_cpc": 19.73,
-      "meta_cpc": 2.39,
+      "fb_leads": 7,
+      "google_cpc": 19.85,
+      "meta_cpc": 2.37,
       "pipeline_ppc": {
         "leads": 6,
         "active": 6,
@@ -1475,7 +1475,7 @@
         }
       },
       "pipeline_fb": {
-        "leads": 6,
+        "leads": 7,
         "active": 6,
         "booked": 1,
         "offered": 1,
@@ -1491,6 +1491,10 @@
             "count": 5,
             "color": "#FFD5C2"
           },
+          "Wrong Number": {
+            "count": 1,
+            "color": "#DCEBD8"
+          },
           "Cold": {
             "count": 1,
             "color": "#D2E4EB"
@@ -1500,16 +1504,16 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 12,
+    "new_leads_30d": 13,
     "dispositioned_mtd": 7,
-    "hot": 6,
+    "hot": 7,
     "booked": 1,
     "offers": 1,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 6,
+    "leads": 7,
     "active": 6,
     "booked": 1,
     "offered": 1,
@@ -1524,6 +1528,10 @@
       "Need to Contact": {
         "count": 5,
         "color": "#FFD5C2"
+      },
+      "Wrong Number": {
+        "count": 1,
+        "color": "#DCEBD8"
       },
       "Cold": {
         "count": 1,
@@ -1772,10 +1780,16 @@
   ],
   "sources": {
     "ppc": 6,
-    "facebook": 6,
+    "facebook": 7,
     "ppc_inbound_call": 16
   },
   "hot_leads": [
+    {
+      "name": "4603 Gladys Ct",
+      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
+      "phone": "(203) 645-8822",
+      "source": "Facebook"
+    },
     {
       "name": "1126 Ashford Dr",
       "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
@@ -1798,12 +1812,6 @@
       "name": "46 S York Dr",
       "address": "46 S York Dr, Newnan, GA 30265, USA",
       "phone": "(706) 443-4652",
-      "source": "Facebook"
-    },
-    {
-      "name": "52 N 15th St",
-      "address": "52 N 15th St, Wyandanch, NY 11798",
-      "phone": "(770) 715-1926",
       "source": "Facebook"
     }
   ],

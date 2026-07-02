@@ -1,13 +1,13 @@
 {
   "report_date": "July 02, 2026",
-  "last_updated": "2026-07-02 18:01 EST",
+  "last_updated": "2026-07-02 19:01 EST",
   "google": {
-    "spend_mtd": 677.96,
-    "clicks_mtd": 34,
+    "spend_mtd": 710.24,
+    "clicks_mtd": 36,
     "crm_leads": 6,
     "crm_leads_today": 1,
-    "cpc": 19.94,
-    "cpl": 112.99,
+    "cpc": 19.73,
+    "cpl": 118.37,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,35 +20,35 @@
         "clicks": 21,
         "cpc": 3.88,
         "crm_leads": 0,
-        "cpl": 112.99
+        "cpl": 118.37
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 596.46,
-        "spend_today": 234.72,
-        "clicks": 13,
-        "cpc": 45.88,
+        "spend": 628.74,
+        "spend_today": 267.0,
+        "clicks": 15,
+        "cpc": 41.92,
         "crm_leads": 0,
-        "cpl": 112.99
+        "cpl": 118.37
       }
     ]
   },
   "meta": {
-    "spend_30d": 469.21,
-    "clicks_30d": 210,
+    "spend_30d": 488.98,
+    "clicks_30d": 217,
     "crm_leads": 9,
     "crm_leads_today": 4,
-    "cpc": 2.23,
-    "cpl_crm": 52.13,
-    "cost_per_hot": 78.2,
+    "cpc": 2.25,
+    "cpl_crm": 54.33,
+    "cost_per_hot": 81.5,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 469.21,
-        "spend_today": 202.14,
-        "clicks": 210,
+        "spend": 488.98,
+        "spend_today": 221.91,
+        "clicks": 217,
         "crm_leads": 9,
-        "cpl_crm": 52.13
+        "cpl_crm": 54.33
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1146.49
+      "spend": 1199.07
     }
   },
   "reps_by_month": {
@@ -311,7 +311,7 @@
         "leads": 7,
         "active": 8,
         "booked": 4,
-        "offers": 2,
+        "offers": 3,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -887,7 +887,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 1147.17
+    "2026-07": 1199.22
   },
   "channel_by_month": {
     "2026-01": {
@@ -1434,12 +1434,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 677.96,
-      "meta_spend": 469.21,
+      "google_spend": 710.24,
+      "meta_spend": 488.98,
       "ppc_leads": 6,
       "fb_leads": 9,
-      "google_cpc": 19.94,
-      "meta_cpc": 2.23,
+      "google_cpc": 19.73,
+      "meta_cpc": 2.25,
       "pipeline_ppc": {
         "leads": 6,
         "active": 6,
@@ -1467,7 +1467,7 @@
         "leads": 9,
         "active": 8,
         "booked": 6,
-        "offered": 2,
+        "offered": 3,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -1477,16 +1477,16 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 4,
+            "count": 5,
             "color": "#D2E4EB"
-          },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
           },
           "Need to Contact": {
             "count": 2,
             "color": "#FFD5C2"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 1,
@@ -1501,7 +1501,7 @@
     "dispositioned_mtd": 13,
     "hot": 7,
     "booked": 7,
-    "offers": 3,
+    "offers": 4,
     "under_contract": 0,
     "closed": 0
   },
@@ -1509,7 +1509,7 @@
     "leads": 9,
     "active": 8,
     "booked": 6,
-    "offered": 2,
+    "offered": 3,
     "accepted": 17,
     "under_contract": 17,
     "contract_available": 5,
@@ -1519,16 +1519,16 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 4,
+        "count": 5,
         "color": "#D2E4EB"
-      },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
       },
       "Need to Contact": {
         "count": 2,
         "color": "#FFD5C2"
+      },
+      "Warm": {
+        "count": 1,
+        "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 1,
@@ -1568,7 +1568,7 @@
     },
     "Julian": {
       "discoveries": 7,
-      "offers": 2,
+      "offers": 3,
       "contracts": 0,
       "revenue": 6267.96
     }

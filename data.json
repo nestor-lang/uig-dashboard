@@ -1,13 +1,13 @@
 {
   "report_date": "July 06, 2026",
-  "last_updated": "2026-07-06 11:01 EST",
+  "last_updated": "2026-07-06 12:01 EST",
   "google": {
-    "spend_mtd": 1683.39,
-    "clicks_mtd": 107,
+    "spend_mtd": 1742.27,
+    "clicks_mtd": 109,
     "crm_leads": 11,
     "crm_leads_today": 0,
-    "cpc": 15.73,
-    "cpl": 153.04,
+    "cpc": 15.98,
+    "cpl": 158.39,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,50 +20,51 @@
         "clicks": 72,
         "cpc": 2.71,
         "crm_leads": 0,
-        "cpl": 153.04
+        "cpl": 158.39
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1488.45,
-        "spend_today": 0.0,
-        "clicks": 35,
-        "cpc": 42.53,
+        "spend": 1547.33,
+        "spend_today": 58.88,
+        "clicks": 37,
+        "cpc": 41.82,
         "crm_leads": 0,
-        "cpl": 153.04
+        "cpl": 158.39
       }
     ]
   },
   "meta": {
-    "spend_30d": 1493.61,
-    "clicks_30d": 646,
-    "crm_leads": 38,
-    "crm_leads_today": 3,
+    "spend_30d": 1507.89,
+    "clicks_30d": 654,
+    "crm_leads": 39,
+    "crm_leads_today": 4,
     "cpc": 2.31,
-    "cpl_crm": 39.31,
-    "cost_per_hot": 248.93,
+    "cpl_crm": 38.66,
+    "cost_per_hot": 251.32,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1493.61,
-        "spend_today": 118.41,
-        "clicks": 646,
-        "crm_leads": 38,
-        "cpl_crm": 39.31
+        "spend": 1507.89,
+        "spend_today": 132.66,
+        "clicks": 654,
+        "crm_leads": 39,
+        "cpl_crm": 38.66
       }
     ]
   },
-  "potential_income": 322341,
-  "assigned_income": 118985,
+  "potential_income": 314492,
+  "assigned_income": 129777,
   "by_stage": {
     "Initial Inspection Completed": 187441,
     "New Deal - Unscheduled": 55400,
-    "On Market": 39950,
+    "On Market": 32101,
     "Access Scheduled": 24550,
     "Market Prep / Pre-Listing Marketing": 15000
   },
   "by_agent": {
     "Virginia": 99305,
-    "Delaware": 19680
+    "Delaware": 19680,
+    "Kentucky": 10792
   },
   "closed_by_month": {
     "2026-01": 194741,
@@ -108,7 +109,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3175.5200000000004
+      "spend": 3248.83
     }
   },
   "reps_by_month": {
@@ -294,10 +295,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 11,
+        "leads": 12,
         "active": 25,
-        "booked": 7,
-        "offers": 6,
+        "booked": 8,
+        "offers": 7,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -305,12 +306,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 11
+        "discoveries": 12
       },
       "Julian": {
-        "leads": 8,
+        "leads": 9,
         "active": 21,
-        "booked": 5,
+        "booked": 6,
         "offers": 6,
         "accepted": 0,
         "available": 0,
@@ -319,7 +320,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 8
+        "discoveries": 9
       }
     }
   },
@@ -604,12 +605,12 @@
           "counts": {
             "dead": 4,
             "pending": 1,
-            "available": 1
+            "other": 1
           },
           "gp": {
             "dead": 82905,
             "pending": 19680,
-            "available": 7849
+            "other": 10792
           },
           "total": 6
         },
@@ -651,16 +652,18 @@
       },
       "all_time": {
         "counts": {
-          "available": 8,
+          "available": 7,
           "dead": 21,
           "pending": 4,
-          "closed": 6
+          "closed": 6,
+          "other": 1
         },
         "gp": {
-          "available": 214629,
+          "available": 206780,
           "dead": 493015,
           "pending": 118985,
-          "closed": 258850
+          "closed": 258850,
+          "other": 10792
         },
         "total": 39
       },
@@ -671,9 +674,10 @@
           "dead": 5
         },
         "sms": {
-          "available": 3,
+          "available": 2,
           "pending": 2,
           "dead": 8,
+          "other": 1,
           "closed": 5
         },
         "fb": {
@@ -719,7 +723,7 @@
           "sms": {
             "dead": 2,
             "pending": 1,
-            "available": 1
+            "other": 1
           },
           "ppc": {
             "dead": 1
@@ -855,26 +859,17 @@
           "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-04"
-        },
-        {
-          "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
-          "value": 7849,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
         }
       ]
     }
   },
   "pipeline_contracts": {
-    "available": 15,
+    "available": 14,
     "pending": 4,
     "on_hold": 5,
     "closed": 24,
     "dead": 44,
-    "gp_available": 322341,
+    "gp_available": 314492,
     "gp_pending": 118985,
     "gp_on_hold": 175588,
     "gp_closed": 589741,
@@ -887,7 +882,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 3177.0
+    "2026-07": 3250.16
   },
   "channel_by_month": {
     "2026-01": {
@@ -1387,7 +1382,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 64,
+            "count": 65,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1403,7 +1398,7 @@
             "color": "#F3F3F3"
           },
           "Warm": {
-            "count": 7,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
@@ -1434,11 +1429,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 1683.39,
-      "meta_spend": 1493.61,
+      "google_spend": 1742.27,
+      "meta_spend": 1507.89,
       "ppc_leads": 11,
-      "fb_leads": 38,
-      "google_cpc": 15.73,
+      "fb_leads": 39,
+      "google_cpc": 15.98,
       "meta_cpc": 2.31,
       "pipeline_ppc": {
         "leads": 11,
@@ -1472,10 +1467,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 38,
+        "leads": 39,
         "active": 36,
-        "booked": 9,
-        "offered": 6,
+        "booked": 11,
+        "offered": 7,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -1485,19 +1480,19 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 26,
+            "count": 23,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 7,
+            "count": 9,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
-            "count": 2,
+            "count": 3,
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 1,
+            "count": 2,
             "color": "#F7F0C5"
           },
           "Hot": {
@@ -1513,19 +1508,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 49,
-    "dispositioned_mtd": 19,
+    "new_leads_30d": 50,
+    "dispositioned_mtd": 21,
     "hot": 8,
-    "booked": 12,
-    "offers": 9,
+    "booked": 14,
+    "offers": 10,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 38,
+    "leads": 39,
     "active": 36,
-    "booked": 9,
-    "offered": 6,
+    "booked": 11,
+    "offered": 7,
     "accepted": 17,
     "under_contract": 17,
     "contract_available": 5,
@@ -1535,19 +1530,19 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 26,
+        "count": 23,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 7,
+        "count": 9,
         "color": "#D2E4EB"
       },
       "Wrong Number": {
-        "count": 2,
+        "count": 3,
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 1,
+        "count": 2,
         "color": "#F7F0C5"
       },
       "Hot": {
@@ -1593,13 +1588,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 11,
-      "offers": 6,
+      "discoveries": 12,
+      "offers": 7,
       "contracts": 1,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 8,
+      "discoveries": 9,
       "offers": 6,
       "contracts": 0,
       "revenue": 6267.96
@@ -1607,7 +1602,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 107712,
-    "Charles": 333614
+    "Charles": 325765
   },
   "agent_deals": [
     {
@@ -1789,21 +1784,11 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-04",
       "agent": "Charles"
-    },
-    {
-      "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
-      "value": 7849,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
     }
   ],
   "sources": {
     "ppc": 11,
-    "facebook": 38,
+    "facebook": 39,
     "ppc_inbound_call": 17
   },
   "hot_leads": [

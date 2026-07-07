@@ -1,13 +1,13 @@
 {
   "report_date": "July 07, 2026",
-  "last_updated": "2026-07-07 09:01 EST",
+  "last_updated": "2026-07-07 10:01 EST",
   "google": {
-    "spend_mtd": 2131.31,
-    "clicks_mtd": 125,
+    "spend_mtd": 2140.06,
+    "clicks_mtd": 126,
     "crm_leads": 16,
     "crm_leads_today": 1,
-    "cpc": 17.05,
-    "cpl": 133.21,
+    "cpc": 16.98,
+    "cpl": 133.75,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,35 +20,35 @@
         "clicks": 83,
         "cpc": 2.94,
         "crm_leads": 0,
-        "cpl": 133.21
+        "cpl": 133.75
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1887.7,
-        "spend_today": 74.74,
-        "clicks": 42,
-        "cpc": 44.95,
+        "spend": 1896.45,
+        "spend_today": 83.49,
+        "clicks": 43,
+        "cpc": 44.1,
         "crm_leads": 0,
-        "cpl": 133.21
+        "cpl": 133.75
       }
     ]
   },
   "meta": {
-    "spend_30d": 1797.04,
-    "clicks_30d": 769,
-    "crm_leads": 42,
-    "crm_leads_today": 2,
-    "cpc": 2.34,
-    "cpl_crm": 42.79,
-    "cost_per_hot": 359.41,
+    "spend_30d": 1823.12,
+    "clicks_30d": 784,
+    "crm_leads": 43,
+    "crm_leads_today": 3,
+    "cpc": 2.33,
+    "cpl_crm": 42.4,
+    "cost_per_hot": 364.62,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1797.04,
-        "spend_today": 70.35,
-        "clicks": 769,
-        "crm_leads": 42,
-        "cpl_crm": 42.79
+        "spend": 1823.12,
+        "spend_today": 96.36,
+        "clicks": 784,
+        "crm_leads": 43,
+        "cpl_crm": 42.4
       }
     ]
   },
@@ -56,8 +56,9 @@
   "assigned_income": 131127,
   "by_stage": {
     "Initial Inspection Completed": 211991,
-    "New Deal - Unscheduled": 55400,
     "On Market": 32101,
+    "Access Scheduled": 30400,
+    "New Deal - Unscheduled": 25000,
     "Market Prep / Pre-Listing Marketing": 15000
   },
   "by_agent": {
@@ -108,7 +109,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3928.35
+      "spend": 3961.81
     }
   },
   "reps_by_month": {
@@ -174,7 +175,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -185,10 +186,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -199,12 +200,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +216,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -229,12 +230,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 38,
+        "leads": 37,
         "active": 46,
         "booked": 33,
         "offers": 32,
@@ -245,10 +246,10 @@
         "closed": 1,
         "pending_income": 39600.0,
         "closed_revenue": 17500.0,
-        "discoveries": 38
+        "discoveries": 37
       },
       "Julian": {
-        "leads": 48,
+        "leads": 49,
         "active": 64,
         "booked": 54,
         "offers": 46,
@@ -259,7 +260,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 94508.68,
-        "discoveries": 48
+        "discoveries": 49
       }
     },
     "2026-06": {
@@ -295,7 +296,7 @@
     "2026-07": {
       "Charles": {
         "leads": 14,
-        "active": 29,
+        "active": 30,
         "booked": 10,
         "offers": 10,
         "accepted": 1,
@@ -309,7 +310,7 @@
       },
       "Julian": {
         "leads": 9,
-        "active": 22,
+        "active": 24,
         "booked": 6,
         "offers": 7,
         "accepted": 0,
@@ -785,8 +786,8 @@
           "address": "11679 VA-47, Chase City, VA 23924, USA",
           "value": 30400,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -884,7 +885,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 3928.35
+    "2026-07": 3963.18
   },
   "channel_by_month": {
     "2026-01": {
@@ -1431,12 +1432,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 2131.31,
-      "meta_spend": 1797.04,
+      "google_spend": 2140.06,
+      "meta_spend": 1823.12,
       "ppc_leads": 16,
-      "fb_leads": 42,
-      "google_cpc": 17.05,
-      "meta_cpc": 2.34,
+      "fb_leads": 43,
+      "google_cpc": 16.98,
+      "meta_cpc": 2.33,
       "pipeline_ppc": {
         "leads": 16,
         "active": 15,
@@ -1469,8 +1470,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 42,
-        "active": 38,
+        "leads": 43,
+        "active": 39,
         "booked": 12,
         "offered": 10,
         "accepted": 0,
@@ -1482,7 +1483,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 24,
+            "count": 25,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1502,7 +1503,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 58,
+    "new_leads_30d": 59,
     "dispositioned_mtd": 23,
     "hot": 8,
     "booked": 16,
@@ -1511,8 +1512,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 42,
-    "active": 38,
+    "leads": 43,
+    "active": 39,
     "booked": 12,
     "offered": 10,
     "accepted": 17,
@@ -1524,7 +1525,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 24,
+        "count": 25,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1695,8 +1696,8 @@
       "address": "11679 VA-47, Chase City, VA 23924, USA",
       "value": 30400,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"
@@ -1784,7 +1785,7 @@
   ],
   "sources": {
     "ppc": 16,
-    "facebook": 42,
+    "facebook": 43,
     "ppc_inbound_call": 17
   },
   "hot_leads": [

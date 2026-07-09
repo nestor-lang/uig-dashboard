@@ -1,13 +1,13 @@
 {
   "report_date": "July 09, 2026",
-  "last_updated": "2026-07-09 09:02 EST",
+  "last_updated": "2026-07-09 10:01 EST",
   "google": {
-    "spend_mtd": 2724.73,
-    "clicks_mtd": 147,
+    "spend_mtd": 2734.67,
+    "clicks_mtd": 154,
     "crm_leads": 22,
     "crm_leads_today": 1,
-    "cpc": 18.54,
-    "cpl": 123.85,
+    "cpc": 17.76,
+    "cpl": 124.3,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 279.91,
-        "spend_today": 11.06,
-        "clicks": 91,
-        "cpc": 3.08,
+        "spend": 289.85,
+        "spend_today": 21.0,
+        "clicks": 98,
+        "cpc": 2.96,
         "crm_leads": 0,
-        "cpl": 123.85
+        "cpl": 124.3
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,37 +29,37 @@
         "clicks": 56,
         "cpc": 43.66,
         "crm_leads": 0,
-        "cpl": 123.85
+        "cpl": 124.3
       }
     ]
   },
   "meta": {
-    "spend_30d": 2490.6,
-    "clicks_30d": 1030,
+    "spend_30d": 2506.95,
+    "clicks_30d": 1036,
     "crm_leads": 53,
     "crm_leads_today": 1,
     "cpc": 2.42,
-    "cpl_crm": 46.99,
-    "cost_per_hot": 498.12,
+    "cpl_crm": 47.3,
+    "cost_per_hot": 501.39,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2490.6,
-        "spend_today": 64.96,
-        "clicks": 1030,
+        "spend": 2506.95,
+        "spend_today": 81.31,
+        "clicks": 1036,
         "crm_leads": 53,
-        "cpl_crm": 46.99
+        "cpl_crm": 47.3
       }
     ]
   },
-  "potential_income": 314492,
+  "potential_income": 253992,
   "assigned_income": 131127,
   "by_stage": {
     "Initial Inspection Completed": 211991,
     "On Market": 32101,
     "Access Scheduled": 30400,
-    "New Deal - Unscheduled": 25000,
-    "Market Prep / Pre-Listing Marketing": 15000
+    "Market Prep / Pre-Listing Marketing": 15000,
+    "New Deal - Unscheduled": -35500
   },
   "by_agent": {
     "Virginia": 100655,
@@ -109,7 +109,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5214.29
+      "spend": 5236.13
     }
   },
   "reps_by_month": {
@@ -299,8 +299,8 @@
         "active": 39,
         "booked": 15,
         "offers": 16,
-        "accepted": 1,
-        "available": 0,
+        "accepted": 2,
+        "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
@@ -310,7 +310,7 @@
       },
       "Julian": {
         "leads": 12,
-        "active": 25,
+        "active": 24,
         "booked": 8,
         "offers": 9,
         "accepted": 0,
@@ -640,32 +640,32 @@
         },
         "2026-07": {
           "counts": {
-            "available": 1
+            "available": 2
           },
           "gp": {
-            "available": 40000
+            "available": -20500
           },
-          "total": 1
+          "total": 2
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 8,
           "dead": 21,
           "pending": 5,
           "closed": 6
         },
         "gp": {
-          "available": 206780,
+          "available": 146280,
           "dead": 493015,
           "pending": 131127,
           "closed": 258850
         },
-        "total": 39
+        "total": 40
       },
       "channel_counts": {
         "ppc": {
-          "available": 4,
+          "available": 5,
           "pending": 1,
           "dead": 5
         },
@@ -685,7 +685,7 @@
       "by_month_channel_counts": {
         "2026-07": {
           "ppc": {
-            "available": 1
+            "available": 2
           }
         },
         "2026-06": {
@@ -755,6 +755,15 @@
         }
       },
       "deals": [
+        {
+          "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
+          "value": -60500,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-07"
+        },
         {
           "address": "6169 Louisa Rd, Keswick, VA 22947, USA",
           "value": 40000,
@@ -867,12 +876,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
+    "available": 15,
     "pending": 5,
     "on_hold": 5,
     "closed": 24,
     "dead": 44,
-    "gp_available": 314492,
+    "gp_available": 253992,
     "gp_pending": 131127,
     "gp_on_hold": 175588,
     "gp_closed": 589741,
@@ -885,7 +894,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 5215.33
+    "2026-07": 5241.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -1432,20 +1441,20 @@
       }
     },
     "2026-07": {
-      "google_spend": 2724.73,
-      "meta_spend": 2490.6,
+      "google_spend": 2734.67,
+      "meta_spend": 2506.95,
       "ppc_leads": 22,
       "fb_leads": 53,
-      "google_cpc": 18.54,
+      "google_cpc": 17.76,
       "meta_cpc": 2.42,
       "pipeline_ppc": {
         "leads": 22,
         "active": 18,
         "booked": 4,
         "offered": 4,
-        "accepted": 1,
-        "under_contract": 1,
-        "contract_available": 1,
+        "accepted": 2,
+        "under_contract": 2,
+        "contract_available": 2,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1456,12 +1465,16 @@
             "color": "#FFD5C2"
           },
           "Hot": {
-            "count": 3,
+            "count": 2,
             "color": "#F7D1D0"
           },
           "Cold": {
             "count": 2,
             "color": "#D2E4EB"
+          },
+          "Under Contract": {
+            "count": 1,
+            "color": "#DCEBD8"
           },
           "Owes too Much": {
             "count": 1,
@@ -1517,10 +1530,10 @@
   "pipeline": {
     "new_leads_30d": 75,
     "dispositioned_mtd": 32,
-    "hot": 10,
+    "hot": 9,
     "booked": 23,
     "offers": 19,
-    "under_contract": 0,
+    "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
@@ -1563,9 +1576,9 @@
     "active": 18,
     "booked": 4,
     "offered": 4,
-    "accepted": 17,
-    "under_contract": 17,
-    "contract_available": 6,
+    "accepted": 18,
+    "under_contract": 18,
+    "contract_available": 7,
     "contract_pending": 1,
     "contract_closed": 4,
     "contract_dead": 6,
@@ -1576,12 +1589,16 @@
         "color": "#FFD5C2"
       },
       "Hot": {
-        "count": 3,
+        "count": 2,
         "color": "#F7D1D0"
       },
       "Cold": {
         "count": 2,
         "color": "#D2E4EB"
+      },
+      "Under Contract": {
+        "count": 1,
+        "color": "#DCEBD8"
       },
       "Owes too Much": {
         "count": 1,
@@ -1601,7 +1618,7 @@
     "Charles": {
       "discoveries": 20,
       "offers": 16,
-      "contracts": 1,
+      "contracts": 2,
       "revenue": 0.0
     },
     "Julian": {
@@ -1613,7 +1630,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 107712,
-    "Charles": 337907
+    "Charles": 277407
   },
   "agent_deals": [
     {
@@ -1685,6 +1702,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-02",
       "agent": "Julian"
+    },
+    {
+      "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
+      "value": -60500,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-07",
+      "agent": "Charles"
     },
     {
       "address": "6169 Louisa Rd, Keswick, VA 22947, USA",

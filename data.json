@@ -1,13 +1,13 @@
 {
   "report_date": "July 10, 2026",
-  "last_updated": "2026-07-10 12:02 EST",
+  "last_updated": "2026-07-10 13:01 EST",
   "google": {
-    "spend_mtd": 2998.84,
-    "clicks_mtd": 170,
+    "spend_mtd": 3010.97,
+    "clicks_mtd": 176,
     "crm_leads": 21,
     "crm_leads_today": 1,
-    "cpc": 17.64,
-    "cpl": 142.8,
+    "cpc": 17.11,
+    "cpl": 143.38,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 323.86,
-        "spend_today": 11.56,
-        "clicks": 107,
-        "cpc": 3.03,
+        "spend": 335.99,
+        "spend_today": 23.69,
+        "clicks": 113,
+        "cpc": 2.97,
         "crm_leads": 0,
-        "cpl": 142.8
+        "cpl": 143.38
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,31 +29,31 @@
         "clicks": 63,
         "cpc": 42.46,
         "crm_leads": 0,
-        "cpl": 142.8
+        "cpl": 143.38
       }
     ]
   },
   "meta": {
-    "spend_30d": 2870.62,
-    "clicks_30d": 1161,
+    "spend_30d": 2883.92,
+    "clicks_30d": 1164,
     "crm_leads": 64,
     "crm_leads_today": 1,
-    "cpc": 2.47,
-    "cpl_crm": 44.85,
-    "cost_per_hot": 717.65,
+    "cpc": 2.48,
+    "cpl_crm": 45.06,
+    "cost_per_hot": 720.98,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2870.62,
-        "spend_today": 121.72,
-        "clicks": 1161,
+        "spend": 2883.92,
+        "spend_today": 135.02,
+        "clicks": 1164,
         "crm_leads": 64,
-        "cpl_crm": 44.85
+        "cpl_crm": 45.06
       }
     ]
   },
   "potential_income": 118992,
-  "assigned_income": 131127,
+  "assigned_income": 91527,
   "by_stage": {
     "Initial Inspection Completed": 187441,
     "Market Prep / Pre-Listing Marketing": 69950,
@@ -61,7 +61,7 @@
     "New Deal - Unscheduled": -170500
   },
   "by_agent": {
-    "Virginia": 100655,
+    "Virginia": 61055,
     "Delaware": 19680,
     "Kentucky": 10792
   },
@@ -72,7 +72,7 @@
     "2026-04": 139929,
     "2026-05": 94509,
     "2026-06": 213771,
-    "2026-07": 6268
+    "2026-07": 45868
   },
   "roa_by_month": {
     "2026-01": {
@@ -96,8 +96,8 @@
       "spend": 16068.59
     },
     "2026-05": {
-      "closed": 17500.0,
-      "pending": 39600.0,
+      "closed": 57100.0,
+      "pending": 0.0,
       "spend": 20672.89
     },
     "2026-06": {
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5868.64
+      "spend": 5894.34
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -240,11 +240,11 @@
         "offers": 32,
         "accepted": 10,
         "available": 0,
-        "pending": 1,
+        "pending": 0,
         "dead": 6,
-        "closed": 1,
-        "pending_income": 39600.0,
-        "closed_revenue": 17500.0,
+        "closed": 2,
+        "pending_income": 0.0,
+        "closed_revenue": 57100.0,
         "discoveries": 37
       },
       "Julian": {
@@ -304,7 +304,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
+        "closed_revenue": 39600.0,
         "discoveries": 22
       },
       "Julian": {
@@ -636,14 +636,14 @@
         },
         "2026-05": {
           "counts": {
-            "pending": 2,
+            "pending": 1,
             "dead": 7,
-            "closed": 1
+            "closed": 2
           },
           "gp": {
-            "pending": 80405,
+            "pending": 40805,
             "dead": 158475,
-            "closed": 17500
+            "closed": 57100
           },
           "total": 10
         },
@@ -674,14 +674,14 @@
         "counts": {
           "available": 8,
           "dead": 21,
-          "pending": 5,
-          "closed": 6
+          "pending": 4,
+          "closed": 7
         },
         "gp": {
           "available": 221280,
           "dead": 493015,
-          "pending": 131127,
-          "closed": 258850
+          "pending": 91527,
+          "closed": 298450
         },
         "total": 40
       },
@@ -700,8 +700,7 @@
         "fb": {
           "dead": 8,
           "available": 1,
-          "closed": 1,
-          "pending": 1
+          "closed": 2
         }
       },
       "by_month_channel_counts": {
@@ -729,8 +728,7 @@
           },
           "fb": {
             "dead": 5,
-            "closed": 1,
-            "pending": 1
+            "closed": 2
           },
           "ppc": {
             "dead": 2
@@ -868,15 +866,6 @@
           "contract_month": "2026-05"
         },
         {
-          "address": "14 Frances St, Onancock, VA 23417, USA",
-          "value": 39600,
-          "status": "Sent to Title",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
           "address": "191 Rollin Ct, Camden, DE 19934, USA",
           "value": 19680,
           "status": "Sent to Title",
@@ -899,14 +888,14 @@
   },
   "pipeline_contracts": {
     "available": 16,
-    "pending": 5,
+    "pending": 4,
     "on_hold": 5,
-    "closed": 24,
+    "closed": 25,
     "dead": 44,
     "gp_available": 118992,
-    "gp_pending": 131127,
+    "gp_pending": 91527,
     "gp_on_hold": 175588,
-    "gp_closed": 589741,
+    "gp_closed": 629341,
     "gp_dead": 1038103
   },
   "spend_by_month": {
@@ -916,7 +905,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 5869.46
+    "2026-07": 5894.89
   },
   "channel_by_month": {
     "2026-01": {
@@ -1224,7 +1213,7 @@
         "contract_pending": 0,
         "contract_closed": 1,
         "contract_dead": 3,
-        "closed": 0,
+        "closed": 1,
         "status_breakdown": {
           "Cold": {
             "count": 20,
@@ -1243,7 +1232,7 @@
             "color": "#C8C8C8"
           },
           "Under Contract": {
-            "count": 3,
+            "count": 2,
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
@@ -1253,6 +1242,10 @@
           "Warm": {
             "count": 1,
             "color": "#F7F0C5"
+          },
+          "Closed": {
+            "count": 1,
+            "color": "#DCEBD8"
           },
           "Owes too Much": {
             "count": 1,
@@ -1276,8 +1269,8 @@
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 0,
-        "contract_pending": 1,
-        "contract_closed": 1,
+        "contract_pending": 0,
+        "contract_closed": 2,
         "contract_dead": 6,
         "closed": 1,
         "status_breakdown": {
@@ -1463,12 +1456,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 2998.84,
-      "meta_spend": 2870.62,
+      "google_spend": 3010.97,
+      "meta_spend": 2883.92,
       "ppc_leads": 21,
       "fb_leads": 64,
-      "google_cpc": 17.64,
-      "meta_cpc": 2.47,
+      "google_cpc": 17.11,
+      "meta_cpc": 2.48,
       "pipeline_ppc": {
         "leads": 21,
         "active": 16,
@@ -1582,8 +1575,8 @@
     "accepted": 18,
     "under_contract": 18,
     "contract_available": 6,
-    "contract_pending": 1,
-    "contract_closed": 1,
+    "contract_pending": 0,
+    "contract_closed": 2,
     "contract_dead": 10,
     "closed": 0,
     "status_breakdown": {
@@ -1673,7 +1666,7 @@
       "discoveries": 22,
       "offers": 17,
       "contracts": 2,
-      "revenue": 0.0
+      "revenue": 39600.0
     },
     "Julian": {
       "discoveries": 16,
@@ -1684,7 +1677,7 @@
   },
   "pipeline_by_agent": {
     "Julian": -102288,
-    "Charles": 352407
+    "Charles": 312807
   },
   "agent_deals": [
     {
@@ -1860,16 +1853,6 @@
     {
       "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
       "value": 40805,
-      "status": "Sent to Title",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "14 Frances St, Onancock, VA 23417, USA",
-      "value": 39600,
       "status": "Sent to Title",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

@@ -1,13 +1,13 @@
 {
   "report_date": "July 10, 2026",
-  "last_updated": "2026-07-10 14:00 EST",
+  "last_updated": "2026-07-10 15:01 EST",
   "google": {
-    "spend_mtd": 3041.92,
-    "clicks_mtd": 187,
+    "spend_mtd": 3095.55,
+    "clicks_mtd": 192,
     "crm_leads": 21,
     "crm_leads_today": 1,
-    "cpc": 16.27,
-    "cpl": 144.85,
+    "cpc": 16.12,
+    "cpl": 147.41,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,50 +15,50 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 348.02,
-        "spend_today": 35.72,
-        "clicks": 123,
+        "spend": 358.91,
+        "spend_today": 46.61,
+        "clicks": 127,
         "cpc": 2.83,
         "crm_leads": 0,
-        "cpl": 144.85
+        "cpl": 147.41
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2693.9,
-        "spend_today": 175.43,
-        "clicks": 64,
-        "cpc": 42.09,
+        "spend": 2736.64,
+        "spend_today": 218.17,
+        "clicks": 65,
+        "cpc": 42.1,
         "crm_leads": 0,
-        "cpl": 144.85
+        "cpl": 147.41
       }
     ]
   },
   "meta": {
-    "spend_30d": 2911.95,
-    "clicks_30d": 1174,
+    "spend_30d": 2927.31,
+    "clicks_30d": 1180,
     "crm_leads": 64,
     "crm_leads_today": 1,
     "cpc": 2.48,
-    "cpl_crm": 45.5,
-    "cost_per_hot": 970.65,
+    "cpl_crm": 45.74,
+    "cost_per_hot": 975.77,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2911.95,
-        "spend_today": 163.05,
-        "clicks": 1174,
+        "spend": 2927.31,
+        "spend_today": 178.4,
+        "clicks": 1180,
         "crm_leads": 64,
-        "cpl_crm": 45.5
+        "cpl_crm": 45.74
       }
     ]
   },
-  "potential_income": -196008,
+  "potential_income": 67092,
   "assigned_income": 91527,
   "by_stage": {
     "Initial Inspection Completed": 187441,
     "Market Prep / Pre-Listing Marketing": 69950,
     "On Market": 32101,
-    "New Deal - Unscheduled": -485500
+    "New Deal - Unscheduled": -222400
   },
   "by_agent": {
     "Virginia": 61055,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5954.83
+      "spend": 6022.860000000001
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -407,7 +407,7 @@
             "available": 1
           },
           "gp": {
-            "available": -210000
+            "available": 53100
           },
           "total": 1
         }
@@ -420,7 +420,7 @@
           "closed": 18
         },
         "gp": {
-          "available": -102288,
+          "available": 160812,
           "dead": 545088,
           "on_hold": 175588,
           "closed": 330891
@@ -516,7 +516,7 @@
       "deals": [
         {
           "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
-          "value": -210000,
+          "value": 53100,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -904,7 +904,7 @@
     "on_hold": 5,
     "closed": 25,
     "dead": 44,
-    "gp_available": -196008,
+    "gp_available": 67092,
     "gp_pending": 91527,
     "gp_on_hold": 175588,
     "gp_closed": 629341,
@@ -917,7 +917,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 5953.87
+    "2026-07": 6022.86
   },
   "channel_by_month": {
     "2026-01": {
@@ -1161,7 +1161,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 62,
+            "count": 63,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1201,7 +1201,7 @@
             "color": "#C8C8C8"
           },
           "Warm": {
-            "count": 2,
+            "count": 1,
             "color": "#F7F0C5"
           }
         }
@@ -1468,11 +1468,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 3041.92,
-      "meta_spend": 2911.95,
+      "google_spend": 3095.55,
+      "meta_spend": 2927.31,
       "ppc_leads": 21,
       "fb_leads": 64,
-      "google_cpc": 16.27,
+      "google_cpc": 16.12,
       "meta_cpc": 2.48,
       "pipeline_ppc": {
         "leads": 21,
@@ -1547,16 +1547,16 @@
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 16,
+            "count": 17,
             "color": "#D2E4EB"
-          },
-          "Warm": {
-            "count": 5,
-            "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
           },
           "Owes too Much": {
             "count": 3,
@@ -1601,16 +1601,16 @@
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 16,
+        "count": 17,
         "color": "#D2E4EB"
-      },
-      "Warm": {
-        "count": 5,
-        "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 5,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
       },
       "Owes too Much": {
         "count": 3,
@@ -1696,13 +1696,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": -102288,
+    "Julian": 160812,
     "Charles": -2193
   },
   "agent_deals": [
     {
       "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
-      "value": -210000,
+      "value": 53100,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

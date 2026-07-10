@@ -1,13 +1,13 @@
 {
   "report_date": "July 10, 2026",
-  "last_updated": "2026-07-10 18:01 EST",
+  "last_updated": "2026-07-10 19:01 EST",
   "google": {
-    "spend_mtd": 3128.68,
-    "clicks_mtd": 192,
+    "spend_mtd": 3152.3,
+    "clicks_mtd": 194,
     "crm_leads": 21,
     "crm_leads_today": 1,
-    "cpc": 16.3,
-    "cpl": 148.98,
+    "cpc": 16.25,
+    "cpl": 150.11,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,42 +20,42 @@
         "clicks": 124,
         "cpc": 2.83,
         "crm_leads": 0,
-        "cpl": 148.98
+        "cpl": 150.11
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2777.99,
-        "spend_today": 259.52,
-        "clicks": 68,
-        "cpc": 40.85,
+        "spend": 2801.61,
+        "spend_today": 283.14,
+        "clicks": 70,
+        "cpc": 40.02,
         "crm_leads": 0,
-        "cpl": 148.98
+        "cpl": 150.11
       }
     ]
   },
   "meta": {
-    "spend_30d": 2980.09,
-    "clicks_30d": 1197,
-    "crm_leads": 65,
-    "crm_leads_today": 2,
+    "spend_30d": 2994.73,
+    "clicks_30d": 1204,
+    "crm_leads": 66,
+    "crm_leads_today": 3,
     "cpc": 2.49,
-    "cpl_crm": 45.85,
-    "cost_per_hot": 993.36,
+    "cpl_crm": 45.37,
+    "cost_per_hot": 998.24,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2980.09,
-        "spend_today": 231.18,
-        "clicks": 1197,
-        "crm_leads": 65,
-        "cpl_crm": 45.85
+        "spend": 2994.73,
+        "spend_today": 245.82,
+        "clicks": 1204,
+        "crm_leads": 66,
+        "cpl_crm": 45.37
       }
     ]
   },
-  "potential_income": 67092,
+  "potential_income": 57092,
   "assigned_income": 91527,
   "by_stage": {
-    "Initial Inspection Completed": 187441,
+    "Initial Inspection Completed": 177441,
     "Market Prep / Pre-Listing Marketing": 69950,
     "On Market": 32101,
     "New Deal - Unscheduled": -222400
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6084.379999999999
+      "spend": 6147.030000000001
     }
   },
   "reps_by_month": {
@@ -309,7 +309,7 @@
       },
       "Julian": {
         "leads": 17,
-        "active": 26,
+        "active": 27,
         "booked": 12,
         "offers": 11,
         "accepted": 1,
@@ -630,7 +630,7 @@
           },
           "gp": {
             "dead": 82905,
-            "pending": 30472
+            "pending": 30133
           },
           "total": 6
         },
@@ -654,7 +654,7 @@
             "pending": 1
           },
           "gp": {
-            "available": 166780,
+            "available": 156780,
             "dead": 30000,
             "pending": 20250
           },
@@ -678,9 +678,9 @@
           "closed": 7
         },
         "gp": {
-          "available": -93720,
+          "available": -103720,
           "dead": 493015,
-          "pending": 91527,
+          "pending": 91188,
           "closed": 298450
         },
         "total": 41
@@ -852,7 +852,7 @@
         },
         {
           "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
-          "value": 20000,
+          "value": 10000,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -879,7 +879,7 @@
         },
         {
           "address": "191 Rollin Ct, Camden, DE 19934, USA",
-          "value": 19680,
+          "value": 19341,
           "status": "Sent to Title",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -904,8 +904,8 @@
     "on_hold": 5,
     "closed": 25,
     "dead": 44,
-    "gp_available": 67092,
-    "gp_pending": 91527,
+    "gp_available": 57092,
+    "gp_pending": 91188,
     "gp_on_hold": 175588,
     "gp_closed": 629341,
     "gp_dead": 1038103
@@ -917,7 +917,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 6108.77
+    "2026-07": 6147.49
   },
   "channel_by_month": {
     "2026-01": {
@@ -1211,7 +1211,7 @@
       "google_spend": 7624.1,
       "meta_spend": 13048.79,
       "ppc_leads": 45,
-      "fb_leads": 197,
+      "fb_leads": 196,
       "google_cpc": 29.55,
       "meta_cpc": 2.62,
       "pipeline_ppc": {
@@ -1274,7 +1274,7 @@
         }
       },
       "pipeline_fb": {
-        "leads": 197,
+        "leads": 196,
         "active": 92,
         "booked": 70,
         "offered": 55,
@@ -1291,7 +1291,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 48,
+            "count": 47,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1468,11 +1468,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 3128.68,
-      "meta_spend": 2980.09,
+      "google_spend": 3152.3,
+      "meta_spend": 2995.19,
       "ppc_leads": 21,
-      "fb_leads": 65,
-      "google_cpc": 16.3,
+      "fb_leads": 66,
+      "google_cpc": 16.25,
       "meta_cpc": 2.49,
       "pipeline_ppc": {
         "leads": 21,
@@ -1530,8 +1530,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 65,
-        "active": 58,
+        "leads": 66,
+        "active": 59,
         "booked": 24,
         "offered": 17,
         "accepted": 2,
@@ -1543,7 +1543,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 33,
+            "count": 34,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1575,7 +1575,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 86,
+    "new_leads_30d": 87,
     "dispositioned_mtd": 40,
     "hot": 7,
     "booked": 29,
@@ -1584,8 +1584,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 65,
-    "active": 58,
+    "leads": 66,
+    "active": 59,
     "booked": 24,
     "offered": 17,
     "accepted": 19,
@@ -1597,7 +1597,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 33,
+        "count": 34,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1697,7 +1697,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 160812,
-    "Charles": -2193
+    "Charles": -12532
   },
   "agent_deals": [
     {
@@ -1862,7 +1862,7 @@
     },
     {
       "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
-      "value": 20000,
+      "value": 10000,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
@@ -1892,7 +1892,7 @@
     },
     {
       "address": "191 Rollin Ct, Camden, DE 19934, USA",
-      "value": 19680,
+      "value": 19341,
       "status": "Sent to Title",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
@@ -1913,7 +1913,7 @@
   ],
   "sources": {
     "ppc": 21,
-    "facebook": 65,
+    "facebook": 66,
     "ppc_inbound_call": 18
   },
   "hot_leads": [

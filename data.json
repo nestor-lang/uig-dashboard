@@ -1,13 +1,13 @@
 {
   "report_date": "July 10, 2026",
-  "last_updated": "2026-07-10 10:01 EST",
+  "last_updated": "2026-07-10 11:01 EST",
   "google": {
-    "spend_mtd": 2909.19,
-    "clicks_mtd": 167,
+    "spend_mtd": 2892.82,
+    "clicks_mtd": 169,
     "crm_leads": 21,
     "crm_leads_today": 1,
-    "cpc": 17.42,
-    "cpl": 138.53,
+    "cpc": 17.12,
+    "cpl": 137.75,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,49 +15,49 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 318.4,
-        "spend_today": 6.1,
-        "clicks": 104,
-        "cpc": 3.06,
+        "spend": 326.14,
+        "spend_today": 13.84,
+        "clicks": 107,
+        "cpc": 3.05,
         "crm_leads": 0,
-        "cpl": 138.53
+        "cpl": 137.75
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2590.8,
-        "spend_today": 72.33,
-        "clicks": 63,
-        "cpc": 41.12,
+        "spend": 2566.69,
+        "spend_today": 48.22,
+        "clicks": 62,
+        "cpc": 41.4,
         "crm_leads": 0,
-        "cpl": 138.53
+        "cpl": 137.75
       }
     ]
   },
   "meta": {
-    "spend_30d": 2834.16,
-    "clicks_30d": 1145,
+    "spend_30d": 2851.84,
+    "clicks_30d": 1151,
     "crm_leads": 64,
     "crm_leads_today": 1,
     "cpc": 2.48,
-    "cpl_crm": 44.28,
-    "cost_per_hot": 708.54,
+    "cpl_crm": 44.56,
+    "cost_per_hot": 712.96,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2834.16,
-        "spend_today": 85.26,
-        "clicks": 1145,
+        "spend": 2851.84,
+        "spend_today": 102.94,
+        "clicks": 1151,
         "crm_leads": 64,
-        "cpl_crm": 44.28
+        "cpl_crm": 44.56
       }
     ]
   },
   "potential_income": 118992,
   "assigned_income": 131127,
   "by_stage": {
-    "Initial Inspection Completed": 242391,
+    "Initial Inspection Completed": 211991,
+    "Market Prep / Pre-Listing Marketing": 45400,
     "On Market": 32101,
-    "Market Prep / Pre-Listing Marketing": 15000,
     "New Deal - Unscheduled": -170500
   },
   "by_agent": {
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5743.35
+      "spend": 5743.02
     }
   },
   "reps_by_month": {
@@ -294,10 +294,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 21,
+        "leads": 22,
         "active": 43,
-        "booked": 15,
-        "offers": 16,
+        "booked": 16,
+        "offers": 17,
         "accepted": 2,
         "available": 1,
         "pending": 0,
@@ -305,12 +305,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 21
+        "discoveries": 22
       },
       "Julian": {
-        "leads": 14,
+        "leads": 16,
         "active": 28,
-        "booked": 10,
+        "booked": 11,
         "offers": 10,
         "accepted": 1,
         "available": 0,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 14
+        "discoveries": 16
       }
     }
   },
@@ -817,8 +817,8 @@
           "address": "11679 VA-47, Chase City, VA 23924, USA",
           "value": 30400,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -916,7 +916,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 5743.35
+    "2026-07": 5744.66
   },
   "channel_by_month": {
     "2026-01": {
@@ -1463,11 +1463,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 2909.19,
-      "meta_spend": 2834.16,
+      "google_spend": 2892.82,
+      "meta_spend": 2851.84,
       "ppc_leads": 21,
       "fb_leads": 64,
-      "google_cpc": 17.42,
+      "google_cpc": 17.12,
       "meta_cpc": 2.48,
       "pipeline_ppc": {
         "leads": 21,
@@ -1519,8 +1519,8 @@
       "pipeline_fb": {
         "leads": 64,
         "active": 59,
-        "booked": 21,
-        "offered": 16,
+        "booked": 23,
+        "offered": 17,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -1530,7 +1530,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 38,
+            "count": 35,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1538,7 +1538,7 @@
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 4,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -1548,6 +1548,10 @@
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
+          },
+          "Listed": {
+            "count": 1,
+            "color": "#C8C8C8"
           },
           "No Longer Selling": {
             "count": 1,
@@ -1559,18 +1563,18 @@
   },
   "pipeline": {
     "new_leads_30d": 85,
-    "dispositioned_mtd": 35,
+    "dispositioned_mtd": 38,
     "hot": 8,
-    "booked": 25,
-    "offers": 20,
+    "booked": 27,
+    "offers": 21,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 64,
     "active": 59,
-    "booked": 21,
-    "offered": 16,
+    "booked": 23,
+    "offered": 17,
     "accepted": 18,
     "under_contract": 18,
     "contract_available": 6,
@@ -1580,7 +1584,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 38,
+        "count": 35,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1588,7 +1592,7 @@
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 4,
+        "count": 6,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -1598,6 +1602,10 @@
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
+      },
+      "Listed": {
+        "count": 1,
+        "color": "#C8C8C8"
       },
       "No Longer Selling": {
         "count": 1,
@@ -1654,13 +1662,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 21,
-      "offers": 16,
+      "discoveries": 22,
+      "offers": 17,
       "contracts": 2,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 14,
+      "discoveries": 16,
       "offers": 10,
       "contracts": 1,
       "revenue": 6267.96
@@ -1795,8 +1803,8 @@
       "address": "11679 VA-47, Chase City, VA 23924, USA",
       "value": 30400,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"

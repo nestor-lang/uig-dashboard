@@ -1,13 +1,13 @@
 {
   "report_date": "July 13, 2026",
-  "last_updated": "2026-07-13 16:01 EST",
+  "last_updated": "2026-07-13 17:01 EST",
   "google": {
-    "spend_mtd": 4253.08,
-    "clicks_mtd": 258,
+    "spend_mtd": 4404.29,
+    "clicks_mtd": 260,
     "crm_leads": 26,
     "crm_leads_today": 1,
-    "cpc": 16.48,
-    "cpl": 163.58,
+    "cpc": 16.94,
+    "cpl": 169.4,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,42 +20,42 @@
         "clicks": 161,
         "cpc": 2.87,
         "crm_leads": 0,
-        "cpl": 163.58
+        "cpl": 169.4
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3790.67,
-        "spend_today": 269.46,
-        "clicks": 97,
-        "cpc": 39.08,
+        "spend": 3941.88,
+        "spend_today": 420.67,
+        "clicks": 99,
+        "cpc": 39.82,
         "crm_leads": 0,
-        "cpl": 163.58
+        "cpl": 169.4
       }
     ]
   },
   "meta": {
-    "spend_30d": 3954.62,
-    "clicks_30d": 1553,
+    "spend_30d": 3971.58,
+    "clicks_30d": 1560,
     "crm_leads": 85,
     "crm_leads_today": 8,
     "cpc": 2.55,
-    "cpl_crm": 46.52,
-    "cost_per_hot": 790.92,
+    "cpl_crm": 46.72,
+    "cost_per_hot": 794.32,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3954.62,
-        "spend_today": 205.07,
-        "clicks": 1553,
+        "spend": 3971.58,
+        "spend_today": 222.03,
+        "clicks": 1560,
         "crm_leads": 85,
-        "cpl_crm": 46.52
+        "cpl_crm": 46.72
       }
     ]
   },
-  "potential_income": 37092,
+  "potential_income": 32092,
   "assigned_income": 71847,
   "by_stage": {
-    "Initial Inspection Completed": 157441,
+    "Initial Inspection Completed": 152441,
     "Market Prep / Pre-Listing Marketing": 69950,
     "Access Scheduled": 53100,
     "On Market": 32101,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8207.33
+      "spend": 8375.869999999999
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -295,7 +295,7 @@
     "2026-07": {
       "Charles": {
         "leads": 22,
-        "active": 48,
+        "active": 47,
         "booked": 17,
         "offers": 16,
         "accepted": 3,
@@ -308,10 +308,10 @@
         "discoveries": 22
       },
       "Julian": {
-        "leads": 18,
+        "leads": 19,
         "active": 34,
-        "booked": 14,
-        "offers": 13,
+        "booked": 15,
+        "offers": 14,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 18
+        "discoveries": 19
       }
     }
   },
@@ -656,7 +656,7 @@
             "pending": 1
           },
           "gp": {
-            "available": 136780,
+            "available": 131780,
             "dead": 50000,
             "pending": 20250
           },
@@ -680,7 +680,7 @@
           "closed": 8
         },
         "gp": {
-          "available": -123720,
+          "available": -128720,
           "dead": 513015,
           "pending": 71847,
           "closed": 307440
@@ -847,7 +847,7 @@
         },
         {
           "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
-          "value": 10000,
+          "value": 5000,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -890,7 +890,7 @@
     "on_hold": 5,
     "closed": 26,
     "dead": 45,
-    "gp_available": 37092,
+    "gp_available": 32092,
     "gp_pending": 71847,
     "gp_on_hold": 175588,
     "gp_closed": 638331,
@@ -903,7 +903,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 8207.7
+    "2026-07": 8375.87
   },
   "channel_by_month": {
     "2026-01": {
@@ -1454,15 +1454,15 @@
       }
     },
     "2026-07": {
-      "google_spend": 4253.08,
-      "meta_spend": 3954.62,
+      "google_spend": 4404.29,
+      "meta_spend": 3971.58,
       "ppc_leads": 26,
       "fb_leads": 85,
-      "google_cpc": 16.48,
+      "google_cpc": 16.94,
       "meta_cpc": 2.55,
       "pipeline_ppc": {
         "leads": 26,
-        "active": 19,
+        "active": 18,
         "booked": 5,
         "offered": 4,
         "accepted": 2,
@@ -1474,7 +1474,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 14,
+            "count": 13,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1512,14 +1512,18 @@
           "Sold": {
             "count": 1,
             "color": "#C8C8C8"
+          },
+          "Wrong Number": {
+            "count": 1,
+            "color": "#DCEBD8"
           }
         }
       },
       "pipeline_fb": {
         "leads": 85,
         "active": 78,
-        "booked": 28,
-        "offered": 21,
+        "booked": 29,
+        "offered": 22,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -1529,7 +1533,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 49,
+            "count": 48,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1537,7 +1541,7 @@
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 5,
+            "count": 6,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -1570,18 +1574,18 @@
   },
   "pipeline": {
     "new_leads_30d": 111,
-    "dispositioned_mtd": 42,
+    "dispositioned_mtd": 43,
     "hot": 9,
-    "booked": 33,
-    "offers": 25,
+    "booked": 34,
+    "offers": 26,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 85,
     "active": 78,
-    "booked": 28,
-    "offered": 21,
+    "booked": 29,
+    "offered": 22,
     "accepted": 19,
     "under_contract": 19,
     "contract_available": 7,
@@ -1591,7 +1595,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 49,
+        "count": 48,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1599,7 +1603,7 @@
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 5,
+        "count": 6,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -1630,7 +1634,7 @@
   },
   "pipeline_ppc": {
     "leads": 26,
-    "active": 19,
+    "active": 18,
     "booked": 5,
     "offered": 4,
     "accepted": 18,
@@ -1642,7 +1646,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 14,
+        "count": 13,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -1680,6 +1684,10 @@
       "Sold": {
         "count": 1,
         "color": "#C8C8C8"
+      },
+      "Wrong Number": {
+        "count": 1,
+        "color": "#DCEBD8"
       }
     }
   },
@@ -1691,15 +1699,15 @@
       "revenue": 48589.62
     },
     "Julian": {
-      "discoveries": 18,
-      "offers": 13,
+      "discoveries": 19,
+      "offers": 14,
       "contracts": 1,
       "revenue": 6267.96
     }
   },
   "pipeline_by_agent": {
     "Julian": 160812,
-    "Charles": -51873
+    "Charles": -56873
   },
   "agent_deals": [
     {
@@ -1854,7 +1862,7 @@
     },
     {
       "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
-      "value": 10000,
+      "value": 5000,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

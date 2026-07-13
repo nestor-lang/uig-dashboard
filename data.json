@@ -1,13 +1,13 @@
 {
   "report_date": "July 13, 2026",
-  "last_updated": "2026-07-13 13:01 EST",
+  "last_updated": "2026-07-13 14:01 EST",
   "google": {
-    "spend_mtd": 4125.8,
-    "clicks_mtd": 252,
-    "crm_leads": 27,
-    "crm_leads_today": 2,
-    "cpc": 16.37,
-    "cpl": 152.81,
+    "spend_mtd": 4176.98,
+    "clicks_mtd": 254,
+    "crm_leads": 28,
+    "crm_leads_today": 3,
+    "cpc": 16.44,
+    "cpl": 149.18,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 457.33,
-        "spend_today": 11.52,
-        "clicks": 158,
+        "spend": 459.75,
+        "spend_today": 13.94,
+        "clicks": 159,
         "cpc": 2.89,
         "crm_leads": 0,
-        "cpl": 152.81
+        "cpl": 149.18
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3668.47,
-        "spend_today": 147.26,
-        "clicks": 94,
-        "cpc": 39.03,
+        "spend": 3717.23,
+        "spend_today": 196.02,
+        "clicks": 95,
+        "cpc": 39.13,
         "crm_leads": 0,
-        "cpl": 152.81
+        "cpl": 149.18
       }
     ]
   },
   "meta": {
-    "spend_30d": 3905.83,
-    "clicks_30d": 1533,
-    "crm_leads": 81,
-    "crm_leads_today": 4,
+    "spend_30d": 3925.41,
+    "clicks_30d": 1538,
+    "crm_leads": 82,
+    "crm_leads_today": 5,
     "cpc": 2.55,
-    "cpl_crm": 48.22,
-    "cost_per_hot": 976.46,
+    "cpl_crm": 47.87,
+    "cost_per_hot": 785.08,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3905.83,
-        "spend_today": 156.3,
-        "clicks": 1533,
-        "crm_leads": 81,
-        "cpl_crm": 48.22
+        "spend": 3925.41,
+        "spend_today": 175.88,
+        "clicks": 1538,
+        "crm_leads": 82,
+        "cpl_crm": 47.87
       }
     ]
   },
@@ -107,7 +107,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8030.81
+      "spend": 8100.129999999999
     }
   },
   "reps_by_month": {
@@ -308,7 +308,7 @@
       },
       "Julian": {
         "leads": 18,
-        "active": 35,
+        "active": 36,
         "booked": 14,
         "offers": 13,
         "accepted": 1,
@@ -910,7 +910,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 8031.63
+    "2026-07": 8102.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -1461,15 +1461,15 @@
       }
     },
     "2026-07": {
-      "google_spend": 4125.8,
-      "meta_spend": 3905.83,
-      "ppc_leads": 27,
-      "fb_leads": 81,
-      "google_cpc": 16.37,
+      "google_spend": 4176.98,
+      "meta_spend": 3925.41,
+      "ppc_leads": 28,
+      "fb_leads": 82,
+      "google_cpc": 16.44,
       "meta_cpc": 2.55,
       "pipeline_ppc": {
-        "leads": 27,
-        "active": 21,
+        "leads": 28,
+        "active": 22,
         "booked": 5,
         "offered": 4,
         "accepted": 2,
@@ -1481,7 +1481,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 15,
+            "count": 16,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1523,10 +1523,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 81,
-        "active": 74,
-        "booked": 27,
-        "offered": 20,
+        "leads": 82,
+        "active": 75,
+        "booked": 28,
+        "offered": 21,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -1551,6 +1551,10 @@
             "count": 5,
             "color": "#DCEBD8"
           },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
+          },
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
@@ -1563,10 +1567,6 @@
             "count": 1,
             "color": "#F3F3F3"
           },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
-          },
           "No Longer Selling": {
             "count": 1,
             "color": "#F3F3F3"
@@ -1576,19 +1576,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 108,
-    "dispositioned_mtd": 41,
-    "hot": 8,
-    "booked": 32,
-    "offers": 24,
+    "new_leads_30d": 110,
+    "dispositioned_mtd": 42,
+    "hot": 9,
+    "booked": 33,
+    "offers": 25,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 81,
-    "active": 74,
-    "booked": 27,
-    "offered": 20,
+    "leads": 82,
+    "active": 75,
+    "booked": 28,
+    "offered": 21,
     "accepted": 19,
     "under_contract": 19,
     "contract_available": 7,
@@ -1613,6 +1613,10 @@
         "count": 5,
         "color": "#DCEBD8"
       },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
+      },
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
@@ -1625,10 +1629,6 @@
         "count": 1,
         "color": "#F3F3F3"
       },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
-      },
       "No Longer Selling": {
         "count": 1,
         "color": "#F3F3F3"
@@ -1636,8 +1636,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 27,
-    "active": 21,
+    "leads": 28,
+    "active": 22,
     "booked": 5,
     "offered": 4,
     "accepted": 18,
@@ -1649,7 +1649,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 15,
+        "count": 16,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -1911,11 +1911,17 @@
     }
   ],
   "sources": {
-    "ppc": 27,
-    "facebook": 81,
-    "ppc_inbound_call": 19
+    "ppc": 28,
+    "facebook": 82,
+    "ppc_inbound_call": 20
   },
   "hot_leads": [
+    {
+      "name": "3626 Bittersweet Dr",
+      "address": "3626 Bittersweet Dr, Columbiaville, MI 48421, USA",
+      "phone": "(810) 362-4077",
+      "source": "Facebook"
+    },
     {
       "name": "130 Cresthill Dr",
       "address": "130 Cresthill Dr, Lexington, VA 24450, USA",
@@ -1939,12 +1945,6 @@
       "address": "46 S York Dr, Newnan, GA 30265, USA",
       "phone": "(706) 443-4652",
       "source": "Facebook"
-    },
-    {
-      "name": "9201 Wayburn Street Detroit Michigan 48224",
-      "address": "9201 Wayburn St, Detroit, MI 48224, USA",
-      "phone": "+13139101062",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

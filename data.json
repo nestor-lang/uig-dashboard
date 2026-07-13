@@ -1,13 +1,13 @@
 {
   "report_date": "July 13, 2026",
-  "last_updated": "2026-07-13 14:01 EST",
+  "last_updated": "2026-07-13 15:01 EST",
   "google": {
-    "spend_mtd": 4176.98,
-    "clicks_mtd": 254,
-    "crm_leads": 28,
-    "crm_leads_today": 3,
-    "cpc": 16.44,
-    "cpl": 149.18,
+    "spend_mtd": 4178.87,
+    "clicks_mtd": 255,
+    "crm_leads": 27,
+    "crm_leads_today": 2,
+    "cpc": 16.39,
+    "cpl": 154.77,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 459.75,
-        "spend_today": 13.94,
-        "clicks": 159,
+        "spend": 461.64,
+        "spend_today": 15.83,
+        "clicks": 160,
         "cpc": 2.89,
         "crm_leads": 0,
-        "cpl": 149.18
+        "cpl": 154.77
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 95,
         "cpc": 39.13,
         "crm_leads": 0,
-        "cpl": 149.18
+        "cpl": 154.77
       }
     ]
   },
   "meta": {
-    "spend_30d": 3925.41,
-    "clicks_30d": 1538,
-    "crm_leads": 82,
-    "crm_leads_today": 5,
+    "spend_30d": 3938.18,
+    "clicks_30d": 1544,
+    "crm_leads": 84,
+    "crm_leads_today": 7,
     "cpc": 2.55,
-    "cpl_crm": 47.87,
-    "cost_per_hot": 785.08,
+    "cpl_crm": 46.88,
+    "cost_per_hot": 787.64,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3925.41,
-        "spend_today": 175.88,
-        "clicks": 1538,
-        "crm_leads": 82,
-        "cpl_crm": 47.87
+        "spend": 3938.18,
+        "spend_today": 188.63,
+        "clicks": 1544,
+        "crm_leads": 84,
+        "cpl_crm": 46.88
       }
     ]
   },
@@ -57,8 +57,9 @@
   "by_stage": {
     "Initial Inspection Completed": 177441,
     "Market Prep / Pre-Listing Marketing": 69950,
+    "Access Scheduled": 53100,
     "On Market": 32101,
-    "New Deal - Unscheduled": -222400
+    "New Deal - Unscheduled": -275500
   },
   "by_agent": {
     "Virginia": 61055,
@@ -107,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8100.129999999999
+      "spend": 8117.049999999999
     }
   },
   "reps_by_month": {
@@ -173,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 23,
@@ -184,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 37,
@@ -198,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -214,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 41,
@@ -228,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -278,7 +279,7 @@
       },
       "Julian": {
         "leads": 82,
-        "active": 77,
+        "active": 76,
         "booked": 58,
         "offers": 59,
         "accepted": 4,
@@ -294,7 +295,7 @@
     "2026-07": {
       "Charles": {
         "leads": 22,
-        "active": 49,
+        "active": 48,
         "booked": 17,
         "offers": 16,
         "accepted": 3,
@@ -308,7 +309,7 @@
       },
       "Julian": {
         "leads": 18,
-        "active": 36,
+        "active": 35,
         "booked": 14,
         "offers": 13,
         "accepted": 1,
@@ -517,8 +518,8 @@
           "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
           "value": 53100,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -910,7 +911,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 8102.39
+    "2026-07": 8117.05
   },
   "channel_by_month": {
     "2026-01": {
@@ -1402,7 +1403,7 @@
       },
       "pipeline_fb": {
         "leads": 150,
-        "active": 107,
+        "active": 106,
         "booked": 75,
         "offered": 66,
         "accepted": 6,
@@ -1418,7 +1419,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 34,
+            "count": 35,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1429,10 +1430,6 @@
             "count": 7,
             "color": "#F3F3F3"
           },
-          "Warm": {
-            "count": 6,
-            "color": "#F7F0C5"
-          },
           "Under Contract": {
             "count": 6,
             "color": "#DCEBD8"
@@ -1440,6 +1437,10 @@
           "No Longer Selling": {
             "count": 5,
             "color": "#F3F3F3"
+          },
+          "Warm": {
+            "count": 5,
+            "color": "#F7F0C5"
           },
           "Owes too Much": {
             "count": 5,
@@ -1461,15 +1462,15 @@
       }
     },
     "2026-07": {
-      "google_spend": 4176.98,
-      "meta_spend": 3925.41,
-      "ppc_leads": 28,
-      "fb_leads": 82,
-      "google_cpc": 16.44,
+      "google_spend": 4178.87,
+      "meta_spend": 3938.18,
+      "ppc_leads": 27,
+      "fb_leads": 84,
+      "google_cpc": 16.39,
       "meta_cpc": 2.55,
       "pipeline_ppc": {
-        "leads": 28,
-        "active": 22,
+        "leads": 27,
+        "active": 20,
         "booked": 5,
         "offered": 4,
         "accepted": 2,
@@ -1481,7 +1482,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 16,
+            "count": 15,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1523,8 +1524,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 82,
-        "active": 75,
+        "leads": 84,
+        "active": 77,
         "booked": 28,
         "offered": 21,
         "accepted": 2,
@@ -1536,7 +1537,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 46,
+            "count": 48,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1576,7 +1577,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 110,
+    "new_leads_30d": 111,
     "dispositioned_mtd": 42,
     "hot": 9,
     "booked": 33,
@@ -1585,8 +1586,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 82,
-    "active": 75,
+    "leads": 84,
+    "active": 77,
     "booked": 28,
     "offered": 21,
     "accepted": 19,
@@ -1598,7 +1599,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 46,
+        "count": 48,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1636,8 +1637,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 28,
-    "active": 22,
+    "leads": 27,
+    "active": 20,
     "booked": 5,
     "offered": 4,
     "accepted": 18,
@@ -1649,7 +1650,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 16,
+        "count": 15,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -1713,8 +1714,8 @@
       "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
       "value": 53100,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"
@@ -1911,8 +1912,8 @@
     }
   ],
   "sources": {
-    "ppc": 28,
-    "facebook": 82,
+    "ppc": 27,
+    "facebook": 84,
     "ppc_inbound_call": 20
   },
   "hot_leads": [

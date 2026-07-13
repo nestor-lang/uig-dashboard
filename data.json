@@ -1,6 +1,6 @@
 {
   "report_date": "July 13, 2026",
-  "last_updated": "2026-07-13 10:01 EST",
+  "last_updated": "2026-07-13 11:01 EST",
   "google": {
     "spend_mtd": 4125.28,
     "clicks_mtd": 250,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 3843.27,
-    "clicks_30d": 1523,
+    "spend_30d": 3864.37,
+    "clicks_30d": 1524,
     "crm_leads": 80,
     "crm_leads_today": 3,
-    "cpc": 2.52,
-    "cpl_crm": 48.04,
-    "cost_per_hot": 1281.09,
+    "cpc": 2.54,
+    "cpl_crm": 48.3,
+    "cost_per_hot": 966.09,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3843.27,
-        "spend_today": 95.44,
-        "clicks": 1523,
+        "spend": 3864.37,
+        "spend_today": 114.88,
+        "clicks": 1524,
         "crm_leads": 80,
-        "cpl_crm": 48.04
+        "cpl_crm": 48.3
       }
     ]
   },
@@ -107,7 +107,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7968.549999999999
+      "spend": 7989.58
     }
   },
   "reps_by_month": {
@@ -293,10 +293,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 21,
-        "active": 49,
-        "booked": 16,
-        "offers": 15,
+        "leads": 22,
+        "active": 48,
+        "booked": 17,
+        "offers": 16,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -304,7 +304,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 48589.62,
-        "discoveries": 21
+        "discoveries": 22
       },
       "Julian": {
         "leads": 17,
@@ -910,7 +910,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 7968.55
+    "2026-07": 7989.65
   },
   "channel_by_month": {
     "2026-01": {
@@ -1462,14 +1462,14 @@
     },
     "2026-07": {
       "google_spend": 4125.28,
-      "meta_spend": 3843.27,
+      "meta_spend": 3864.37,
       "ppc_leads": 26,
       "fb_leads": 80,
       "google_cpc": 16.5,
-      "meta_cpc": 2.52,
+      "meta_cpc": 2.54,
       "pipeline_ppc": {
         "leads": 26,
-        "active": 21,
+        "active": 20,
         "booked": 5,
         "offered": 4,
         "accepted": 2,
@@ -1481,8 +1481,12 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 15,
+            "count": 14,
             "color": "#FFD5C2"
+          },
+          "Owes too Much": {
+            "count": 2,
+            "color": "#D1F3EC"
           },
           "Hot": {
             "count": 2,
@@ -1499,10 +1503,6 @@
           "Under Contract": {
             "count": 1,
             "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
           },
           "Not Workable": {
             "count": 1,
@@ -1525,8 +1525,8 @@
       "pipeline_fb": {
         "leads": 80,
         "active": 73,
-        "booked": 24,
-        "offered": 17,
+        "booked": 26,
+        "offered": 19,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -1536,20 +1536,20 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 48,
+            "count": 46,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 17,
+            "count": 19,
             "color": "#D2E4EB"
-          },
-          "Warm": {
-            "count": 5,
-            "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
           },
           "Owes too Much": {
             "count": 2,
@@ -1563,6 +1563,10 @@
             "count": 1,
             "color": "#F3F3F3"
           },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
+          },
           "No Longer Selling": {
             "count": 1,
             "color": "#F3F3F3"
@@ -1573,18 +1577,18 @@
   },
   "pipeline": {
     "new_leads_30d": 106,
-    "dispositioned_mtd": 38,
-    "hot": 7,
-    "booked": 29,
-    "offers": 21,
+    "dispositioned_mtd": 40,
+    "hot": 8,
+    "booked": 31,
+    "offers": 23,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 80,
     "active": 73,
-    "booked": 24,
-    "offered": 17,
+    "booked": 26,
+    "offered": 19,
     "accepted": 19,
     "under_contract": 19,
     "contract_available": 7,
@@ -1594,20 +1598,20 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 48,
+        "count": 46,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 17,
+        "count": 19,
         "color": "#D2E4EB"
-      },
-      "Warm": {
-        "count": 5,
-        "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 5,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
       },
       "Owes too Much": {
         "count": 2,
@@ -1621,6 +1625,10 @@
         "count": 1,
         "color": "#F3F3F3"
       },
+      "Hot": {
+        "count": 1,
+        "color": "#F7D1D0"
+      },
       "No Longer Selling": {
         "count": 1,
         "color": "#F3F3F3"
@@ -1629,7 +1637,7 @@
   },
   "pipeline_ppc": {
     "leads": 26,
-    "active": 21,
+    "active": 20,
     "booked": 5,
     "offered": 4,
     "accepted": 18,
@@ -1641,8 +1649,12 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 15,
+        "count": 14,
         "color": "#FFD5C2"
+      },
+      "Owes too Much": {
+        "count": 2,
+        "color": "#D1F3EC"
       },
       "Hot": {
         "count": 2,
@@ -1659,10 +1671,6 @@
       "Under Contract": {
         "count": 1,
         "color": "#DCEBD8"
-      },
-      "Owes too Much": {
-        "count": 1,
-        "color": "#D1F3EC"
       },
       "Not Workable": {
         "count": 1,
@@ -1684,8 +1692,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 21,
-      "offers": 15,
+      "discoveries": 22,
+      "offers": 16,
       "contracts": 3,
       "revenue": 48589.62
     },
@@ -1909,6 +1917,12 @@
   },
   "hot_leads": [
     {
+      "name": "130 Cresthill Dr",
+      "address": "130 Cresthill Dr, Lexington, VA 24450, USA",
+      "phone": "(540) 460-5261",
+      "source": "Facebook"
+    },
+    {
       "name": "4603 Gladys Ct",
       "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
       "phone": "(203) 645-8822",
@@ -1931,12 +1945,6 @@
       "address": "9201 Wayburn St, Detroit, MI 48224, USA",
       "phone": "+13139101062",
       "source": "PPC - Inbound Call"
-    },
-    {
-      "name": "765 Moore Rd",
-      "address": "765 Moore Rd, Eldorado, IL 62930, USA",
-      "phone": "(270) 339-6073",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

@@ -1,13 +1,13 @@
 {
   "report_date": "July 14, 2026",
-  "last_updated": "2026-07-14 18:01 EST",
+  "last_updated": "2026-07-14 19:01 EST",
   "google": {
-    "spend_mtd": 4695.03,
-    "clicks_mtd": 285,
+    "spend_mtd": 4808.17,
+    "clicks_mtd": 287,
     "crm_leads": 27,
     "crm_leads_today": 2,
-    "cpc": 16.47,
-    "cpl": 173.89,
+    "cpc": 16.75,
+    "cpl": 178.08,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 509.03,
-        "spend_today": 39.05,
-        "clicks": 181,
-        "cpc": 2.81,
+        "spend": 514.21,
+        "spend_today": 44.23,
+        "clicks": 182,
+        "cpc": 2.83,
         "crm_leads": 0,
-        "cpl": 173.89
+        "cpl": 178.08
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4186.01,
-        "spend_today": 233.76,
-        "clicks": 104,
-        "cpc": 40.25,
+        "spend": 4293.97,
+        "spend_today": 341.72,
+        "clicks": 105,
+        "cpc": 40.89,
         "crm_leads": 0,
-        "cpl": 173.89
+        "cpl": 178.08
       }
     ]
   },
   "meta": {
-    "spend_30d": 4294.57,
-    "clicks_30d": 1668,
-    "crm_leads": 91,
-    "crm_leads_today": 4,
+    "spend_30d": 4306.54,
+    "clicks_30d": 1675,
+    "crm_leads": 92,
+    "crm_leads_today": 5,
     "cpc": 2.57,
-    "cpl_crm": 47.19,
-    "cost_per_hot": 536.82,
+    "cpl_crm": 46.81,
+    "cost_per_hot": 478.5,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4294.57,
-        "spend_today": 225.23,
-        "clicks": 1668,
-        "crm_leads": 91,
-        "cpl_crm": 47.19
+        "spend": 4306.54,
+        "spend_today": 235.66,
+        "clicks": 1675,
+        "crm_leads": 92,
+        "cpl_crm": 46.81
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8988.95
+      "spend": 9114.71
     }
   },
   "reps_by_month": {
@@ -294,10 +294,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 25,
+        "leads": 24,
         "active": 45,
         "booked": 20,
-        "offers": 21,
+        "offers": 20,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -305,13 +305,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 48589.62,
-        "discoveries": 25
+        "discoveries": 24
       },
       "Julian": {
         "leads": 27,
         "active": 37,
         "booked": 21,
-        "offers": 20,
+        "offers": 21,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -891,7 +891,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 8989.6
+    "2026-07": 9116.12
   },
   "channel_by_month": {
     "2026-01": {
@@ -1442,11 +1442,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 4695.03,
-      "meta_spend": 4294.57,
+      "google_spend": 4808.17,
+      "meta_spend": 4307.95,
       "ppc_leads": 27,
-      "fb_leads": 91,
-      "google_cpc": 16.47,
+      "fb_leads": 92,
+      "google_cpc": 16.75,
       "meta_cpc": 2.57,
       "pipeline_ppc": {
         "leads": 27,
@@ -1508,10 +1508,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 91,
-        "active": 82,
+        "leads": 92,
+        "active": 83,
         "booked": 36,
-        "offered": 24,
+        "offered": 25,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -1521,24 +1521,24 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 45,
+            "count": 46,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 27,
+            "count": 26,
             "color": "#D2E4EB"
           },
           "Warm": {
             "count": 6,
             "color": "#F7F0C5"
           },
+          "Hot": {
+            "count": 5,
+            "color": "#F7D1D0"
+          },
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
-          },
-          "Hot": {
-            "count": 4,
-            "color": "#F7D1D0"
           },
           "Listed": {
             "count": 2,
@@ -1553,19 +1553,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 118,
-    "dispositioned_mtd": 54,
+    "new_leads_30d": 119,
+    "dispositioned_mtd": 53,
     "hot": 10,
     "booked": 43,
-    "offers": 30,
+    "offers": 31,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 91,
-    "active": 82,
+    "leads": 92,
+    "active": 83,
     "booked": 36,
-    "offered": 24,
+    "offered": 25,
     "accepted": 19,
     "under_contract": 19,
     "contract_available": 7,
@@ -1575,24 +1575,24 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 45,
+        "count": 46,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 27,
+        "count": 26,
         "color": "#D2E4EB"
       },
       "Warm": {
         "count": 6,
         "color": "#F7F0C5"
       },
+      "Hot": {
+        "count": 5,
+        "color": "#F7D1D0"
+      },
       "Wrong Number": {
         "count": 5,
         "color": "#DCEBD8"
-      },
-      "Hot": {
-        "count": 4,
-        "color": "#F7D1D0"
       },
       "Listed": {
         "count": 2,
@@ -1665,14 +1665,14 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 25,
-      "offers": 21,
+      "discoveries": 24,
+      "offers": 20,
       "contracts": 3,
       "revenue": 48589.62
     },
     "Julian": {
       "discoveries": 27,
-      "offers": 20,
+      "offers": 21,
       "contracts": 1,
       "revenue": 6267.96
     }
@@ -1865,7 +1865,7 @@
   ],
   "sources": {
     "ppc": 27,
-    "facebook": 91,
+    "facebook": 92,
     "ppc_inbound_call": 21
   },
   "hot_leads": [
@@ -1894,9 +1894,9 @@
       "source": "Facebook"
     },
     {
-      "name": "4603 Gladys Ct",
-      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
-      "phone": "(203) 645-8822",
+      "name": "315 Forest Ave",
+      "address": "315 Forest Ave, Amsterdam, NY 12010, USA",
+      "phone": "(518) 332-0858",
       "source": "Facebook"
     }
   ],

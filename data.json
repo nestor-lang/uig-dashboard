@@ -1,13 +1,13 @@
 {
   "report_date": "July 14, 2026",
-  "last_updated": "2026-07-14 16:01 EST",
+  "last_updated": "2026-07-14 17:01 EST",
   "google": {
-    "spend_mtd": 4690.73,
-    "clicks_mtd": 284,
+    "spend_mtd": 4695.03,
+    "clicks_mtd": 285,
     "crm_leads": 26,
     "crm_leads_today": 1,
-    "cpc": 16.52,
-    "cpl": 180.41,
+    "cpc": 16.47,
+    "cpl": 180.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 504.72,
-        "spend_today": 34.75,
-        "clicks": 180,
-        "cpc": 2.8,
+        "spend": 509.03,
+        "spend_today": 39.05,
+        "clicks": 181,
+        "cpc": 2.81,
         "crm_leads": 0,
-        "cpl": 180.41
+        "cpl": 180.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 104,
         "cpc": 40.25,
         "crm_leads": 0,
-        "cpl": 180.41
+        "cpl": 180.58
       }
     ]
   },
   "meta": {
-    "spend_30d": 4253.03,
-    "clicks_30d": 1654,
+    "spend_30d": 4273.45,
+    "clicks_30d": 1661,
     "crm_leads": 91,
     "crm_leads_today": 4,
     "cpc": 2.57,
-    "cpl_crm": 46.74,
-    "cost_per_hot": 607.58,
+    "cpl_crm": 46.96,
+    "cost_per_hot": 610.49,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4253.03,
-        "spend_today": 183.69,
-        "clicks": 1654,
+        "spend": 4273.45,
+        "spend_today": 204.11,
+        "clicks": 1661,
         "crm_leads": 91,
-        "cpl_crm": 46.74
+        "cpl_crm": 46.96
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8943.48
+      "spend": 8968.48
     }
   },
   "reps_by_month": {
@@ -294,10 +294,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 24,
+        "leads": 25,
         "active": 45,
-        "booked": 19,
-        "offers": 20,
+        "booked": 20,
+        "offers": 21,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -305,7 +305,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 48589.62,
-        "discoveries": 24
+        "discoveries": 25
       },
       "Julian": {
         "leads": 26,
@@ -891,7 +891,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 8943.76
+    "2026-07": 8968.48
   },
   "channel_by_month": {
     "2026-01": {
@@ -1442,11 +1442,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 4690.73,
-      "meta_spend": 4253.03,
+      "google_spend": 4695.03,
+      "meta_spend": 4273.45,
       "ppc_leads": 26,
       "fb_leads": 91,
-      "google_cpc": 16.52,
+      "google_cpc": 16.47,
       "meta_cpc": 2.57,
       "pipeline_ppc": {
         "leads": 26,
@@ -1510,8 +1510,8 @@
       "pipeline_fb": {
         "leads": 91,
         "active": 82,
-        "booked": 34,
-        "offered": 23,
+        "booked": 35,
+        "offered": 24,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -1521,11 +1521,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 47,
+            "count": 46,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 24,
+            "count": 25,
             "color": "#D2E4EB"
           },
           "Warm": {
@@ -1554,18 +1554,18 @@
   },
   "pipeline": {
     "new_leads_30d": 117,
-    "dispositioned_mtd": 52,
+    "dispositioned_mtd": 53,
     "hot": 10,
-    "booked": 41,
-    "offers": 29,
+    "booked": 42,
+    "offers": 30,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 91,
     "active": 82,
-    "booked": 34,
-    "offered": 23,
+    "booked": 35,
+    "offered": 24,
     "accepted": 19,
     "under_contract": 19,
     "contract_available": 7,
@@ -1575,11 +1575,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 47,
+        "count": 46,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 24,
+        "count": 25,
         "color": "#D2E4EB"
       },
       "Warm": {
@@ -1665,8 +1665,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 24,
-      "offers": 20,
+      "discoveries": 25,
+      "offers": 21,
       "contracts": 3,
       "revenue": 48589.62
     },

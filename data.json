@@ -1,6 +1,6 @@
 {
   "report_date": "July 16, 2026",
-  "last_updated": "2026-07-16 15:01 EST",
+  "last_updated": "2026-07-16 16:01 EST",
   "google": {
     "spend_mtd": 5588.72,
     "clicks_mtd": 332,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 4828.63,
-    "clicks_30d": 1852,
+    "spend_30d": 4843.4,
+    "clicks_30d": 1861,
     "crm_leads": 99,
     "crm_leads_today": 2,
-    "cpc": 2.61,
-    "cpl_crm": 48.77,
-    "cost_per_hot": 482.86,
+    "cpc": 2.6,
+    "cpl_crm": 48.92,
+    "cost_per_hot": 484.34,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4828.63,
-        "spend_today": 163.67,
-        "clicks": 1852,
+        "spend": 4843.4,
+        "spend_today": 178.44,
+        "clicks": 1861,
         "crm_leads": 99,
-        "cpl_crm": 48.77
+        "cpl_crm": 48.92
       }
     ]
   },
@@ -107,7 +107,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10417.35
+      "spend": 10431.400000000001
     }
   },
   "reps_by_month": {
@@ -294,7 +294,7 @@
     "2026-07": {
       "Charles": {
         "leads": 32,
-        "active": 52,
+        "active": 50,
         "booked": 30,
         "offers": 28,
         "accepted": 3,
@@ -890,7 +890,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 10417.35
+    "2026-07": 10432.12
   },
   "channel_by_month": {
     "2026-01": {
@@ -1446,14 +1446,14 @@
     },
     "2026-07": {
       "google_spend": 5588.72,
-      "meta_spend": 4828.63,
+      "meta_spend": 4843.4,
       "ppc_leads": 32,
       "fb_leads": 99,
       "google_cpc": 16.83,
-      "meta_cpc": 2.61,
+      "meta_cpc": 2.6,
       "pipeline_ppc": {
         "leads": 32,
-        "active": 23,
+        "active": 22,
         "booked": 10,
         "offered": 9,
         "accepted": 2,
@@ -1465,20 +1465,20 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 13,
+            "count": 12,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 3,
             "color": "#D2E4EB"
           },
+          "Listed": {
+            "count": 3,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 3,
             "color": "#D1F3EC"
-          },
-          "Listed": {
-            "count": 2,
-            "color": "#C8C8C8"
           },
           "Hot": {
             "count": 2,
@@ -1516,7 +1516,7 @@
       },
       "pipeline_fb": {
         "leads": 99,
-        "active": 90,
+        "active": 89,
         "booked": 45,
         "offered": 34,
         "accepted": 2,
@@ -1528,7 +1528,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 40,
+            "count": 39,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1539,13 +1539,13 @@
             "count": 6,
             "color": "#F7D1D0"
           },
+          "Wrong Number": {
+            "count": 6,
+            "color": "#DCEBD8"
+          },
           "Warm": {
             "count": 5,
             "color": "#F7F0C5"
-          },
-          "Wrong Number": {
-            "count": 5,
-            "color": "#DCEBD8"
           },
           "Owes too Much": {
             "count": 3,
@@ -1574,7 +1574,7 @@
   },
   "pipeline_fb": {
     "leads": 99,
-    "active": 90,
+    "active": 89,
     "booked": 45,
     "offered": 34,
     "accepted": 19,
@@ -1586,7 +1586,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 40,
+        "count": 39,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1597,13 +1597,13 @@
         "count": 6,
         "color": "#F7D1D0"
       },
+      "Wrong Number": {
+        "count": 6,
+        "color": "#DCEBD8"
+      },
       "Warm": {
         "count": 5,
         "color": "#F7F0C5"
-      },
-      "Wrong Number": {
-        "count": 5,
-        "color": "#DCEBD8"
       },
       "Owes too Much": {
         "count": 3,
@@ -1621,7 +1621,7 @@
   },
   "pipeline_ppc": {
     "leads": 32,
-    "active": 23,
+    "active": 22,
     "booked": 10,
     "offered": 9,
     "accepted": 18,
@@ -1633,20 +1633,20 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 13,
+        "count": 12,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 3,
         "color": "#D2E4EB"
       },
+      "Listed": {
+        "count": 3,
+        "color": "#C8C8C8"
+      },
       "Owes too Much": {
         "count": 3,
         "color": "#D1F3EC"
-      },
-      "Listed": {
-        "count": 2,
-        "color": "#C8C8C8"
       },
       "Hot": {
         "count": 2,

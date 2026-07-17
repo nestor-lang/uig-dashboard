@@ -1,13 +1,13 @@
 {
   "report_date": "July 17, 2026",
-  "last_updated": "2026-07-17 12:01 EST",
+  "last_updated": "2026-07-17 13:01 EST",
   "google": {
-    "spend_mtd": 5710.93,
-    "clicks_mtd": 342,
+    "spend_mtd": 5745.56,
+    "clicks_mtd": 345,
     "crm_leads": 31,
     "crm_leads_today": 0,
-    "cpc": 16.7,
-    "cpl": 184.22,
+    "cpc": 16.65,
+    "cpl": 185.34,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 649.6,
-        "spend_today": 31.18,
-        "clicks": 212,
+        "spend": 654.9,
+        "spend_today": 36.48,
+        "clicks": 214,
         "cpc": 3.06,
         "crm_leads": 0,
-        "cpl": 184.22
+        "cpl": 185.34
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 5061.33,
-        "spend_today": 0.0,
-        "clicks": 130,
-        "cpc": 38.93,
+        "spend": 5090.65,
+        "spend_today": 29.32,
+        "clicks": 131,
+        "cpc": 38.86,
         "crm_leads": 0,
-        "cpl": 184.22
+        "cpl": 185.34
       }
     ]
   },
   "meta": {
-    "spend_30d": 5087.2,
-    "clicks_30d": 1967,
+    "spend_30d": 5102.67,
+    "clicks_30d": 1969,
     "crm_leads": 100,
     "crm_leads_today": 1,
     "cpc": 2.59,
-    "cpl_crm": 50.87,
-    "cost_per_hot": 565.24,
+    "cpl_crm": 51.03,
+    "cost_per_hot": 728.95,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5087.2,
-        "spend_today": 146.61,
-        "clicks": 1967,
+        "spend": 5102.67,
+        "spend_today": 161.67,
+        "clicks": 1969,
         "crm_leads": 100,
-        "cpl_crm": 50.87
+        "cpl_crm": 51.03
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10797.82
+      "spend": 10846.470000000001
     }
   },
   "reps_by_month": {
@@ -308,7 +308,7 @@
         "discoveries": 31
       },
       "Julian": {
-        "leads": 32,
+        "leads": 33,
         "active": 42,
         "booked": 26,
         "offers": 26,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 32
+        "discoveries": 33
       }
     }
   },
@@ -886,7 +886,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 10798.13
+    "2026-07": 10848.23
   },
   "channel_by_month": {
     "2026-01": {
@@ -1260,7 +1260,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 81,
+            "count": 82,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1302,10 +1302,6 @@
           "Not Workable": {
             "count": 1,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Closed": {
             "count": 1,
@@ -1394,11 +1390,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 66,
+            "count": 68,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 32,
+            "count": 31,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1429,23 +1425,23 @@
             "count": 4,
             "color": "#F7F0C5"
           },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
-          },
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           }
         }
       }
     },
     "2026-07": {
-      "google_spend": 5710.93,
-      "meta_spend": 5087.2,
+      "google_spend": 5745.56,
+      "meta_spend": 5102.67,
       "ppc_leads": 31,
       "fb_leads": 100,
-      "google_cpc": 16.7,
+      "google_cpc": 16.65,
       "meta_cpc": 2.59,
       "pipeline_ppc": {
         "leads": 31,
@@ -1565,7 +1561,7 @@
   },
   "pipeline": {
     "new_leads_30d": 131,
-    "dispositioned_mtd": 63,
+    "dispositioned_mtd": 64,
     "hot": 10,
     "booked": 57,
     "offers": 44,
@@ -1694,7 +1690,7 @@
       "revenue": 48589.62
     },
     "Julian": {
-      "discoveries": 32,
+      "discoveries": 33,
       "offers": 26,
       "contracts": 2,
       "revenue": 6267.96
@@ -1907,9 +1903,9 @@
       "source": "Facebook"
     },
     {
-      "name": "4603 Gladys Ct",
-      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
-      "phone": "(203) 645-8822",
+      "name": "444 Walker Rd",
+      "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
+      "phone": "(541) 973-7372",
       "source": "Facebook"
     }
   ],

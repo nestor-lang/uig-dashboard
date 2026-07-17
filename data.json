@@ -1,13 +1,13 @@
 {
   "report_date": "July 17, 2026",
-  "last_updated": "2026-07-17 14:01 EST",
+  "last_updated": "2026-07-17 15:01 EST",
   "google": {
-    "spend_mtd": 5858.47,
-    "clicks_mtd": 346,
+    "spend_mtd": 5949.08,
+    "clicks_mtd": 353,
     "crm_leads": 31,
     "crm_leads_today": 0,
-    "cpc": 16.93,
-    "cpl": 188.98,
+    "cpc": 16.85,
+    "cpl": 191.91,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,48 +15,48 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 651.9,
-        "spend_today": 33.48,
-        "clicks": 213,
+        "spend": 661.23,
+        "spend_today": 42.81,
+        "clicks": 216,
         "cpc": 3.06,
         "crm_leads": 0,
-        "cpl": 188.98
+        "cpl": 191.91
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 5206.57,
-        "spend_today": 145.24,
-        "clicks": 133,
-        "cpc": 39.15,
+        "spend": 5287.85,
+        "spend_today": 226.52,
+        "clicks": 137,
+        "cpc": 38.6,
         "crm_leads": 0,
-        "cpl": 188.98
+        "cpl": 191.91
       }
     ]
   },
   "meta": {
-    "spend_30d": 5108.82,
-    "clicks_30d": 1973,
+    "spend_30d": 5118.89,
+    "clicks_30d": 1977,
     "crm_leads": 100,
     "crm_leads_today": 1,
     "cpc": 2.59,
-    "cpl_crm": 51.09,
-    "cost_per_hot": 729.83,
+    "cpl_crm": 51.19,
+    "cost_per_hot": 731.27,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5108.82,
-        "spend_today": 167.82,
-        "clicks": 1973,
+        "spend": 5118.89,
+        "spend_today": 177.89,
+        "clicks": 1977,
         "crm_leads": 100,
-        "cpl_crm": 51.09
+        "cpl_crm": 51.19
       }
     ]
   },
-  "potential_income": 344159,
+  "potential_income": 324248,
   "assigned_income": 76047,
   "by_stage": {
-    "Initial Inspection Completed": 100911,
     "Market Prep / Pre-Listing Marketing": 97451,
+    "Initial Inspection Completed": 81000,
     "On Market": 62697,
     "New Deal - Unscheduled": 45000,
     "Access Scheduled": 38100
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10966.76
+      "spend": 11067.16
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -391,10 +391,12 @@
         },
         "2026-06": {
           "counts": {
-            "available": 4
+            "available": 3,
+            "on_hold": 1
           },
           "gp": {
-            "available": 89612
+            "available": 69701,
+            "on_hold": 19911
           },
           "total": 4
         },
@@ -410,15 +412,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 6,
+          "on_hold": 6,
           "dead": 25,
-          "on_hold": 5,
           "closed": 18
         },
         "gp": {
-          "available": 171609,
+          "available": 151698,
+          "on_hold": 195499,
           "dead": 568292,
-          "on_hold": 175588,
           "closed": 330891
         },
         "total": 55
@@ -430,8 +432,8 @@
           "closed": 4
         },
         "fb": {
-          "available": 5,
-          "on_hold": 3,
+          "available": 4,
+          "on_hold": 4,
           "dead": 2
         },
         "sms": {
@@ -451,7 +453,8 @@
         },
         "2026-06": {
           "fb": {
-            "available": 4
+            "available": 3,
+            "on_hold": 1
           }
         },
         "2026-05": {
@@ -531,15 +534,6 @@
         {
           "address": "705 Strange Rd, Taylors, SC 29687, USA",
           "value": 27900,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "115 Cherry St, Sardinia, OH 45171, USA",
-          "value": 19911,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -868,14 +862,14 @@
     }
   },
   "pipeline_contracts": {
-    "available": 13,
+    "available": 12,
     "pending": 4,
-    "on_hold": 6,
+    "on_hold": 7,
     "closed": 26,
     "dead": 47,
-    "gp_available": 344159,
+    "gp_available": 324248,
     "gp_pending": 76047,
-    "gp_on_hold": 222418,
+    "gp_on_hold": 242329,
     "gp_closed": 638331,
     "gp_dead": 1081307
   },
@@ -886,7 +880,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 10967.29
+    "2026-07": 11067.97
   },
   "channel_by_month": {
     "2026-01": {
@@ -1130,7 +1124,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 59,
+            "count": 60,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1169,10 +1163,6 @@
             "count": 3,
             "color": "#C8C8C8"
           },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
-          },
           "Hot": {
             "count": 1,
             "color": "#F7D1D0"
@@ -1201,7 +1191,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 19,
+            "count": 18,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
@@ -1216,6 +1206,10 @@
             "count": 4,
             "color": "#C8C8C8"
           },
+          "No Longer Selling": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
@@ -1223,10 +1217,6 @@
           "Sold": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
           },
           "Warm": {
             "count": 1,
@@ -1381,9 +1371,9 @@
         "active": 99,
         "booked": 74,
         "offered": 66,
-        "accepted": 5,
-        "under_contract": 5,
-        "contract_available": 4,
+        "accepted": 4,
+        "under_contract": 4,
+        "contract_available": 3,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
@@ -1437,11 +1427,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 5858.47,
-      "meta_spend": 5108.82,
+      "google_spend": 5949.08,
+      "meta_spend": 5118.89,
       "ppc_leads": 31,
       "fb_leads": 100,
-      "google_cpc": 16.93,
+      "google_cpc": 16.85,
       "meta_cpc": 2.59,
       "pipeline_ppc": {
         "leads": 31,
@@ -1573,9 +1563,9 @@
     "active": 90,
     "booked": 47,
     "offered": 35,
-    "accepted": 18,
-    "under_contract": 18,
-    "contract_available": 6,
+    "accepted": 17,
+    "under_contract": 17,
+    "contract_available": 5,
     "contract_pending": 0,
     "contract_closed": 2,
     "contract_dead": 10,
@@ -1697,7 +1687,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 171609,
+    "Julian": 151698,
     "Charles": 248597
   },
   "agent_deals": [
@@ -1724,16 +1714,6 @@
     {
       "address": "705 Strange Rd, Taylors, SC 29687, USA",
       "value": 27900,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Julian"
-    },
-    {
-      "address": "115 Cherry St, Sardinia, OH 45171, USA",
-      "value": 19911,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

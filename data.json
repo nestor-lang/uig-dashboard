@@ -1,11 +1,10 @@
 {
   "report_date": "July 18, 2026",
-  "last_updated": "2026-07-18 14:01 EST",
+  "last_updated": "2026-07-18 18:01 AST",
   "google": {
     "spend_mtd": 6315.62,
     "clicks_mtd": 369,
     "crm_leads": 32,
-    "crm_leads_today": 0,
     "cpc": 17.12,
     "cpl": 197.36,
     "cost_per_booked": null,
@@ -37,7 +36,6 @@
     "spend_30d": 5376.81,
     "clicks_30d": 2066,
     "crm_leads": 110,
-    "crm_leads_today": 6,
     "cpc": 2.6,
     "cpl_crm": 48.88,
     "cost_per_hot": 896.14,
@@ -108,7 +106,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11692.43
+      "spend": 11691.27
     }
   },
   "reps_by_month": {
@@ -124,8 +122,7 @@
         "dead": 1,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 17
+        "closed_revenue": 0.0
       },
       "Julian": {
         "leads": 48,
@@ -138,8 +135,7 @@
         "dead": 3,
         "closed": 5,
         "pending_income": 56054.0,
-        "closed_revenue": 89841.95,
-        "discoveries": 48
+        "closed_revenue": 89841.95
       }
     },
     "2026-02": {
@@ -154,8 +150,7 @@
         "dead": 0,
         "closed": 1,
         "pending_income": 8990.0,
-        "closed_revenue": 40116.5,
-        "discoveries": 21
+        "closed_revenue": 40116.5
       },
       "Julian": {
         "leads": 37,
@@ -168,13 +163,12 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 92798.35,
-        "discoveries": 37
+        "closed_revenue": 92663.95
       }
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,8 +178,7 @@
         "dead": 3,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 30
+        "closed_revenue": 0.0
       },
       "Julian": {
         "leads": 40,
@@ -198,13 +191,12 @@
         "dead": 2,
         "closed": 1,
         "pending_income": 0.0,
-        "closed_revenue": 123504.59,
-        "discoveries": 40
+        "closed_revenue": 123504.59
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -214,8 +206,7 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 93886.0,
-        "discoveries": 49
+        "closed_revenue": 201233.9
       },
       "Julian": {
         "leads": 53,
@@ -228,8 +219,7 @@
         "dead": 2,
         "closed": 1,
         "pending_income": 0.0,
-        "closed_revenue": 46043.35,
-        "discoveries": 53
+        "closed_revenue": 46043.35
       }
     },
     "2026-05": {
@@ -244,8 +234,7 @@
         "dead": 6,
         "closed": 2,
         "pending_income": 0.0,
-        "closed_revenue": 57100.0,
-        "discoveries": 35
+        "closed_revenue": 57100.0
       },
       "Julian": {
         "leads": 49,
@@ -258,8 +247,7 @@
         "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 94508.68,
-        "discoveries": 49
+        "closed_revenue": 94508.68
       }
     },
     "2026-06": {
@@ -274,8 +262,7 @@
         "dead": 1,
         "closed": 0,
         "pending_income": 25250.0,
-        "closed_revenue": 146447.9,
-        "discoveries": 48
+        "closed_revenue": 146447.9
       },
       "Julian": {
         "leads": 81,
@@ -288,8 +275,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 67323.19,
-        "discoveries": 81
+        "closed_revenue": 67323.19
       }
     },
     "2026-07": {
@@ -304,8 +290,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 48589.62,
-        "discoveries": 32
+        "closed_revenue": 48589.62
       },
       "Julian": {
         "leads": 34,
@@ -318,8 +303,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 6267.96,
-        "discoveries": 34
+        "closed_revenue": 6267.96
       }
     }
   },
@@ -424,150 +408,7 @@
           "closed": 330891
         },
         "total": 55
-      },
-      "channel_counts": {
-        "ppc": {
-          "available": 2,
-          "dead": 2,
-          "closed": 4
-        },
-        "fb": {
-          "available": 4,
-          "on_hold": 4,
-          "dead": 2
-        },
-        "sms": {
-          "closed": 14,
-          "on_hold": 2,
-          "dead": 21
-        }
-      },
-      "by_month_channel_counts": {
-        "2026-07": {
-          "ppc": {
-            "available": 1
-          },
-          "fb": {
-            "available": 1
-          }
-        },
-        "2026-06": {
-          "fb": {
-            "available": 3,
-            "on_hold": 1
-          }
-        },
-        "2026-05": {
-          "ppc": {
-            "dead": 2,
-            "closed": 1
-          },
-          "fb": {
-            "on_hold": 2,
-            "dead": 1
-          },
-          "sms": {
-            "closed": 2,
-            "on_hold": 1
-          }
-        },
-        "2026-04": {
-          "fb": {
-            "dead": 1,
-            "on_hold": 1
-          },
-          "ppc": {
-            "closed": 1
-          },
-          "sms": {
-            "dead": 2
-          }
-        },
-        "2026-03": {
-          "sms": {
-            "closed": 4,
-            "dead": 2
-          },
-          "ppc": {
-            "available": 1
-          }
-        },
-        "2026-02": {
-          "sms": {
-            "dead": 4,
-            "closed": 1,
-            "on_hold": 1
-          },
-          "ppc": {
-            "closed": 1
-          }
-        },
-        "2026-01": {
-          "sms": {
-            "closed": 7,
-            "dead": 13
-          },
-          "ppc": {
-            "closed": 1
-          }
-        }
-      },
-      "deals": [
-        {
-          "address": "463 Poplar St, Narrows, VA 24124, USA",
-          "value": 20000,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
-          "value": 53100,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "705 Strange Rd, Taylors, SC 29687, USA",
-          "value": 27900,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "21 California Ave, Elmira, NY 14903, USA",
-          "value": 12551,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "219 N Governors Ave, Dover, DE 19904, USA",
-          "value": 29250,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-          "value": 8897,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
-        }
-      ]
+      }
     },
     "Charles": {
       "by_month": {
@@ -671,216 +512,8 @@
           "closed": 307440
         },
         "total": 42
-      },
-      "channel_counts": {
-        "fb": {
-          "available": 2,
-          "dead": 8,
-          "on_hold": 1,
-          "closed": 2
-        },
-        "ppc": {
-          "available": 4,
-          "pending": 2,
-          "dead": 5
-        },
-        "sms": {
-          "available": 1,
-          "dead": 9,
-          "pending": 2,
-          "closed": 6
-        }
-      },
-      "by_month_channel_counts": {
-        "2026-07": {
-          "fb": {
-            "available": 2
-          },
-          "ppc": {
-            "available": 2
-          }
-        },
-        "2026-06": {
-          "sms": {
-            "available": 1,
-            "dead": 1
-          },
-          "fb": {
-            "dead": 1,
-            "on_hold": 1
-          },
-          "ppc": {
-            "available": 2,
-            "pending": 2
-          }
-        },
-        "2026-05": {
-          "sms": {
-            "pending": 1
-          },
-          "fb": {
-            "dead": 5,
-            "closed": 2
-          },
-          "ppc": {
-            "dead": 2
-          }
-        },
-        "2026-04": {
-          "sms": {
-            "dead": 2,
-            "closed": 1,
-            "pending": 1
-          },
-          "ppc": {
-            "dead": 1
-          },
-          "fb": {
-            "dead": 1
-          }
-        },
-        "2026-03": {
-          "fb": {
-            "dead": 1
-          },
-          "ppc": {
-            "dead": 1
-          },
-          "sms": {
-            "closed": 1,
-            "dead": 2
-          }
-        },
-        "2026-02": {
-          "sms": {
-            "dead": 2,
-            "closed": 2
-          },
-          "ppc": {
-            "dead": 1
-          }
-        },
-        "2026-01": {
-          "sms": {
-            "dead": 2,
-            "closed": 2
-          }
-        }
-      },
-      "deals": [
-        {
-          "address": "720 Steeles Ridge Rd, Camden Wyoming, DE 19934, USA",
-          "value": -385000,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "6589 Roanoke Rd, Fincastle, VA 24090, USA",
-          "value": 38100,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
-          "value": 14500,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "6169 Louisa Rd, Keswick, VA 22947, USA",
-          "value": 40000,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "3136 Joseph Ave, Chesapeake, VA 23324, USA",
-          "value": 24550,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "11679 VA-47, Chase City, VA 23924, USA",
-          "value": 30400,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "25 W 5th St, Emporium, PA 15834, USA",
-          "value": 25000,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
-          "value": 5000,
-          "status": "Sent to Title",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "317 55th St, Newport News, VA 23607, USA",
-          "value": 20250,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
-          "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
-          "value": 40005,
-          "status": "Sent to Title",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-05"
-        },
-        {
-          "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
-          "value": 10792,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-04"
-        }
-      ]
+      }
     }
-  },
-  "pipeline_contracts": {
-    "available": 13,
-    "pending": 4,
-    "on_hold": 7,
-    "closed": 26,
-    "dead": 47,
-    "gp_available": -60752,
-    "gp_pending": 76047,
-    "gp_on_hold": 242329,
-    "gp_closed": 638331,
-    "gp_dead": 1081307
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -914,14 +547,9 @@
         "active": 0,
         "booked": 0,
         "offered": 0,
-        "accepted": 2,
-        "under_contract": 2,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 1,
-        "closed": 0,
-        "status_breakdown": {}
+        "accepted": 0,
+        "under_contract": 0,
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 17,
@@ -930,41 +558,7 @@
         "offered": 6,
         "accepted": 0,
         "under_contract": 0,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 6,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 4,
-            "color": "#FFD5C2"
-          },
-          "Not Workable": {
-            "count": 2,
-            "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
-          },
-          "Listed": {
-            "count": 1,
-            "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
-          }
-        }
+        "closed": 0
       }
     },
     "2026-03": {
@@ -979,78 +573,18 @@
         "active": 5,
         "booked": 5,
         "offered": 5,
-        "accepted": 2,
-        "under_contract": 2,
-        "contract_available": 1,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 1,
-        "closed": 0,
-        "status_breakdown": {
-          "Wrong Number": {
-            "count": 5,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 4,
-            "color": "#F3F3F3"
-          },
-          "Cold": {
-            "count": 4,
-            "color": "#D2E4EB"
-          },
-          "Under Contract": {
-            "count": 1,
-            "color": "#DCEBD8"
-          },
-          "Need to Contact": {
-            "count": 1,
-            "color": "#FFD5C2"
-          }
-        }
+        "accepted": 0,
+        "under_contract": 0,
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 30,
         "active": 14,
         "booked": 13,
         "offered": 12,
-        "accepted": 1,
-        "under_contract": 1,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 1,
-        "closed": 0,
-        "status_breakdown": {
-          "Need to Contact": {
-            "count": 12,
-            "color": "#FFD5C2"
-          },
-          "Cold": {
-            "count": 10,
-            "color": "#D2E4EB"
-          },
-          "Listed": {
-            "count": 3,
-            "color": "#C8C8C8"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
-          },
-          "Sold": {
-            "count": 1,
-            "color": "#C8C8C8"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
-          }
-        }
+        "accepted": 0,
+        "under_contract": 0,
+        "closed": 0
       }
     },
     "2026-04": {
@@ -1065,59 +599,9 @@
         "active": 27,
         "booked": 27,
         "offered": 19,
-        "accepted": 2,
-        "under_contract": 2,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 1,
-        "closed": 1,
-        "status_breakdown": {
-          "Cold": {
-            "count": 14,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 6,
-            "color": "#FFD5C2"
-          },
-          "Wrong Number": {
-            "count": 6,
-            "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 5,
-            "color": "#C8C8C8"
-          },
-          "Owes too Much": {
-            "count": 4,
-            "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 4,
-            "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 3,
-            "color": "#F3F3F3"
-          },
-          "Dead": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
-          },
-          "Closed": {
-            "count": 1,
-            "color": "#DCEBD8"
-          },
-          "Not Workable": {
-            "count": 1,
-            "color": "#D1F3EC"
-          }
-        }
+        "accepted": 1,
+        "under_contract": 0,
+        "closed": 1
       },
       "pipeline_fb": {
         "leads": 142,
@@ -1126,57 +610,7 @@
         "offered": 62,
         "accepted": 2,
         "under_contract": 2,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 2,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 58,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 25,
-            "color": "#FFD5C2"
-          },
-          "Owes too Much": {
-            "count": 14,
-            "color": "#D1F3EC"
-          },
-          "Wrong Number": {
-            "count": 10,
-            "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 9,
-            "color": "#F3F3F3"
-          },
-          "Dead": {
-            "count": 9,
-            "color": "#F3F3F3"
-          },
-          "Not Workable": {
-            "count": 5,
-            "color": "#D1F3EC"
-          },
-          "Under Contract": {
-            "count": 4,
-            "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 4,
-            "color": "#C8C8C8"
-          },
-          "Sold": {
-            "count": 3,
-            "color": "#C8C8C8"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
-          }
-        }
+        "closed": 0
       }
     },
     "2026-05": {
@@ -1191,122 +625,18 @@
         "active": 23,
         "booked": 19,
         "offered": 17,
-        "accepted": 5,
-        "under_contract": 5,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 4,
-        "closed": 1,
-        "status_breakdown": {
-          "Cold": {
-            "count": 18,
-            "color": "#D2E4EB"
-          },
-          "Wrong Number": {
-            "count": 7,
-            "color": "#DCEBD8"
-          },
-          "Need to Contact": {
-            "count": 5,
-            "color": "#FFD5C2"
-          },
-          "Listed": {
-            "count": 4,
-            "color": "#C8C8C8"
-          },
-          "Sold": {
-            "count": 3,
-            "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
-          },
-          "Closed": {
-            "count": 1,
-            "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 1,
-            "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
-          }
-        }
+        "accepted": 1,
+        "under_contract": 0,
+        "closed": 1
       },
       "pipeline_fb": {
         "leads": 195,
         "active": 91,
         "booked": 70,
         "offered": 54,
-        "accepted": 8,
-        "under_contract": 8,
-        "contract_available": 0,
-        "contract_pending": 0,
-        "contract_closed": 2,
-        "contract_dead": 6,
-        "closed": 1,
-        "status_breakdown": {
-          "Cold": {
-            "count": 81,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 48,
-            "color": "#FFD5C2"
-          },
-          "Dead": {
-            "count": 25,
-            "color": "#F3F3F3"
-          },
-          "Wrong Number": {
-            "count": 12,
-            "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 9,
-            "color": "#D1F3EC"
-          },
-          "Under Contract": {
-            "count": 8,
-            "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 4,
-            "color": "#F3F3F3"
-          },
-          "Sold": {
-            "count": 2,
-            "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
-          "Listed": {
-            "count": 2,
-            "color": "#C8C8C8"
-          },
-          "Not Workable": {
-            "count": 1,
-            "color": "#D1F3EC"
-          },
-          "Closed": {
-            "count": 1,
-            "color": "#DCEBD8"
-          }
-        }
+        "accepted": 4,
+        "under_contract": 3,
+        "closed": 1
       }
     },
     "2026-06": {
@@ -1321,118 +651,18 @@
         "active": 28,
         "booked": 24,
         "offered": 18,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 2,
-        "contract_pending": 2,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 11,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 9,
-            "color": "#FFD5C2"
-          },
-          "Listed": {
-            "count": 8,
-            "color": "#C8C8C8"
-          },
-          "Dead": {
-            "count": 6,
-            "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 5,
-            "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 3,
-            "color": "#D1F3EC"
-          },
-          "Wrong Number": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Not Workable": {
-            "count": 1,
-            "color": "#D1F3EC"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
-          }
-        }
+        "accepted": 5,
+        "under_contract": 5,
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 148,
         "active": 99,
         "booked": 74,
         "offered": 66,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 3,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 1,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 68,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 32,
-            "color": "#FFD5C2"
-          },
-          "Wrong Number": {
-            "count": 13,
-            "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 7,
-            "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 6,
-            "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 5,
-            "color": "#F3F3F3"
-          },
-          "Owes too Much": {
-            "count": 5,
-            "color": "#D1F3EC"
-          },
-          "Listed": {
-            "count": 4,
-            "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
-          "Not Workable": {
-            "count": 3,
-            "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
-          }
-        }
+        "accepted": 5,
+        "under_contract": 5,
+        "closed": 0
       }
     },
     "2026-07": {
@@ -1447,120 +677,23 @@
         "active": 22,
         "booked": 11,
         "offered": 10,
-        "accepted": 3,
-        "under_contract": 3,
-        "contract_available": 3,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Need to Contact": {
-            "count": 12,
-            "color": "#FFD5C2"
-          },
-          "Cold": {
-            "count": 4,
-            "color": "#D2E4EB"
-          },
-          "Listed": {
-            "count": 3,
-            "color": "#C8C8C8"
-          },
-          "Owes too Much": {
-            "count": 3,
-            "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
-          },
-          "Not Workable": {
-            "count": 1,
-            "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 1,
-            "color": "#C8C8C8"
-          },
-          "Wrong Number": {
-            "count": 1,
-            "color": "#DCEBD8"
-          }
-        }
+        "accepted": 2,
+        "under_contract": 2,
+        "closed": 0
       },
       "pipeline_fb": {
         "leads": 110,
         "active": 98,
         "booked": 49,
         "offered": 36,
-        "accepted": 3,
-        "under_contract": 3,
-        "contract_available": 3,
-        "contract_pending": 0,
-        "contract_closed": 0,
-        "contract_dead": 0,
-        "closed": 0,
-        "status_breakdown": {
-          "Cold": {
-            "count": 45,
-            "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 44,
-            "color": "#FFD5C2"
-          },
-          "Wrong Number": {
-            "count": 5,
-            "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
-          },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
-          },
-          "Owes too Much": {
-            "count": 3,
-            "color": "#D1F3EC"
-          },
-          "Listed": {
-            "count": 2,
-            "color": "#C8C8C8"
-          },
-          "Dead": {
-            "count": 2,
-            "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 1,
-            "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
-          }
-        }
+        "accepted": 1,
+        "under_contract": 1,
+        "closed": 0
       }
     }
   },
   "pipeline": {
     "new_leads_30d": 142,
-    "dispositioned_mtd": 66,
     "hot": 10,
     "booked": 60,
     "offers": 46,
@@ -1572,305 +705,19 @@
     "active": 98,
     "booked": 49,
     "offered": 36,
-    "accepted": 18,
-    "under_contract": 18,
-    "contract_available": 6,
-    "contract_pending": 0,
-    "contract_closed": 2,
-    "contract_dead": 10,
-    "closed": 0,
-    "status_breakdown": {
-      "Cold": {
-        "count": 45,
-        "color": "#D2E4EB"
-      },
-      "Need to Contact": {
-        "count": 44,
-        "color": "#FFD5C2"
-      },
-      "Wrong Number": {
-        "count": 5,
-        "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
-      },
-      "Hot": {
-        "count": 3,
-        "color": "#F7D1D0"
-      },
-      "Owes too Much": {
-        "count": 3,
-        "color": "#D1F3EC"
-      },
-      "Listed": {
-        "count": 2,
-        "color": "#C8C8C8"
-      },
-      "Dead": {
-        "count": 2,
-        "color": "#F3F3F3"
-      },
-      "Under Contract": {
-        "count": 1,
-        "color": "#DCEBD8"
-      },
-      "No Longer Selling": {
-        "count": 1,
-        "color": "#F3F3F3"
-      }
-    }
+    "accepted": 1,
+    "under_contract": 1,
+    "closed": 0
   },
   "pipeline_ppc": {
     "leads": 32,
     "active": 22,
     "booked": 11,
     "offered": 10,
-    "accepted": 19,
-    "under_contract": 19,
-    "contract_available": 6,
-    "contract_pending": 2,
-    "contract_closed": 4,
-    "contract_dead": 7,
-    "closed": 0,
-    "status_breakdown": {
-      "Need to Contact": {
-        "count": 12,
-        "color": "#FFD5C2"
-      },
-      "Cold": {
-        "count": 4,
-        "color": "#D2E4EB"
-      },
-      "Listed": {
-        "count": 3,
-        "color": "#C8C8C8"
-      },
-      "Owes too Much": {
-        "count": 3,
-        "color": "#D1F3EC"
-      },
-      "Hot": {
-        "count": 2,
-        "color": "#F7D1D0"
-      },
-      "Under Contract": {
-        "count": 2,
-        "color": "#DCEBD8"
-      },
-      "No Longer Selling": {
-        "count": 2,
-        "color": "#F3F3F3"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
-      },
-      "Not Workable": {
-        "count": 1,
-        "color": "#D1F3EC"
-      },
-      "Sold": {
-        "count": 1,
-        "color": "#C8C8C8"
-      },
-      "Wrong Number": {
-        "count": 1,
-        "color": "#DCEBD8"
-      }
-    }
+    "accepted": 2,
+    "under_contract": 2,
+    "closed": 0
   },
-  "reps": {
-    "Charles": {
-      "discoveries": 32,
-      "offers": 28,
-      "contracts": 4,
-      "revenue": 48589.62
-    },
-    "Julian": {
-      "discoveries": 34,
-      "offers": 27,
-      "contracts": 2,
-      "revenue": 6267.96
-    }
-  },
-  "pipeline_by_agent": {
-    "Julian": 151698,
-    "Charles": -136403
-  },
-  "agent_deals": [
-    {
-      "address": "463 Poplar St, Narrows, VA 24124, USA",
-      "value": 20000,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Julian"
-    },
-    {
-      "address": "1126 Ashford Dr, Cheyenne, WY 82007, USA",
-      "value": 53100,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Julian"
-    },
-    {
-      "address": "705 Strange Rd, Taylors, SC 29687, USA",
-      "value": 27900,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Julian"
-    },
-    {
-      "address": "21 California Ave, Elmira, NY 14903, USA",
-      "value": 12551,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Julian"
-    },
-    {
-      "address": "219 N Governors Ave, Dover, DE 19904, USA",
-      "value": 29250,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Julian"
-    },
-    {
-      "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-      "value": 8897,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
-      "address": "720 Steeles Ridge Rd, Camden Wyoming, DE 19934, USA",
-      "value": -385000,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Charles"
-    },
-    {
-      "address": "6589 Roanoke Rd, Fincastle, VA 24090, USA",
-      "value": 38100,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Charles"
-    },
-    {
-      "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
-      "value": 14500,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Charles"
-    },
-    {
-      "address": "6169 Louisa Rd, Keswick, VA 22947, USA",
-      "value": 40000,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Charles"
-    },
-    {
-      "address": "3136 Joseph Ave, Chesapeake, VA 23324, USA",
-      "value": 24550,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "11679 VA-47, Chase City, VA 23924, USA",
-      "value": 30400,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "25 W 5th St, Emporium, PA 15834, USA",
-      "value": 25000,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
-      "value": 5000,
-      "status": "Sent to Title",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "317 55th St, Newport News, VA 23607, USA",
-      "value": 20250,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "135 MacGregor Ridge Rd, Stafford, VA 22554, USA",
-      "value": 40005,
-      "status": "Sent to Title",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-05",
-      "agent": "Charles"
-    },
-    {
-      "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
-      "value": 10792,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-04",
-      "agent": "Charles"
-    }
-  ],
   "sources": {
     "ppc": 32,
     "facebook": 110,

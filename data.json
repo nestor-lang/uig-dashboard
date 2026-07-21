@@ -1,13 +1,13 @@
 {
   "report_date": "July 21, 2026",
-  "last_updated": "2026-07-21 09:01 EST",
+  "last_updated": "2026-07-21 10:01 EST",
   "google": {
     "spend_mtd": 7601.78,
     "clicks_mtd": 422,
-    "crm_leads": 37,
+    "crm_leads": 36,
     "crm_leads_today": 1,
     "cpc": 18.01,
-    "cpl": 205.45,
+    "cpl": 211.16,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 258,
         "cpc": 3.09,
         "crm_leads": 0,
-        "cpl": 205.45
+        "cpl": 211.16
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 164,
         "cpc": 41.49,
         "crm_leads": 0,
-        "cpl": 205.45
+        "cpl": 211.16
       }
     ]
   },
   "meta": {
-    "spend_30d": 6314.24,
-    "clicks_30d": 2427,
+    "spend_30d": 6349.96,
+    "clicks_30d": 2434,
     "crm_leads": 127,
-    "crm_leads_today": 2,
-    "cpc": 2.6,
-    "cpl_crm": 49.72,
-    "cost_per_hot": 902.03,
+    "crm_leads_today": 3,
+    "cpc": 2.61,
+    "cpl_crm": 50.0,
+    "cost_per_hot": 793.75,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6314.24,
-        "spend_today": 87.07,
-        "clicks": 2427,
+        "spend": 6349.96,
+        "spend_today": 119.91,
+        "clicks": 2434,
         "crm_leads": 127,
-        "cpl_crm": 49.72
+        "cpl_crm": 50.0
       }
     ]
   },
@@ -107,7 +107,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13916.02
+      "spend": 13949.57
     }
   },
   "reps_by_month": {
@@ -173,7 +173,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -184,10 +184,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -198,12 +198,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -228,7 +228,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -236,7 +236,7 @@
         "leads": 35,
         "active": 42,
         "booked": 30,
-        "offers": 33,
+        "offers": 34,
         "accepted": 10,
         "available": 0,
         "pending": 0,
@@ -293,10 +293,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 34,
-        "active": 54,
-        "booked": 36,
-        "offers": 32,
+        "leads": 35,
+        "active": 56,
+        "booked": 38,
+        "offers": 33,
         "accepted": 5,
         "available": 3,
         "pending": 0,
@@ -304,12 +304,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 48589.62,
-        "discoveries": 34
+        "discoveries": 35
       },
       "Julian": {
         "leads": 39,
-        "active": 52,
-        "booked": 32,
+        "active": 51,
+        "booked": 33,
         "offers": 31,
         "accepted": 2,
         "available": 1,
@@ -881,7 +881,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 13916.02
+    "2026-07": 13951.74
   },
   "channel_by_month": {
     "2026-01": {
@@ -1385,7 +1385,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 68,
+            "count": 67,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1416,6 +1416,10 @@
             "count": 4,
             "color": "#C8C8C8"
           },
+          "Hot": {
+            "count": 3,
+            "color": "#F7D1D0"
+          },
           "Warm": {
             "count": 3,
             "color": "#F7F0C5"
@@ -1423,24 +1427,20 @@
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
           }
         }
       }
     },
     "2026-07": {
       "google_spend": 7601.78,
-      "meta_spend": 6314.24,
-      "ppc_leads": 37,
+      "meta_spend": 6349.96,
+      "ppc_leads": 36,
       "fb_leads": 127,
       "google_cpc": 18.01,
-      "meta_cpc": 2.6,
+      "meta_cpc": 2.61,
       "pipeline_ppc": {
-        "leads": 37,
-        "active": 26,
+        "leads": 36,
+        "active": 25,
         "booked": 12,
         "offered": 11,
         "accepted": 3,
@@ -1452,7 +1452,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 14,
+            "count": 13,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1463,13 +1463,13 @@
             "count": 4,
             "color": "#D2E4EB"
           },
-          "Dead": {
-            "count": 3,
-            "color": "#F3F3F3"
-          },
           "Listed": {
-            "count": 3,
+            "count": 4,
             "color": "#C8C8C8"
+          },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
           },
           "Hot": {
             "count": 2,
@@ -1499,9 +1499,9 @@
       },
       "pipeline_fb": {
         "leads": 127,
-        "active": 113,
-        "booked": 56,
-        "offered": 43,
+        "active": 110,
+        "booked": 59,
+        "offered": 45,
         "accepted": 4,
         "under_contract": 4,
         "contract_available": 3,
@@ -1511,36 +1511,36 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 52,
+            "count": 53,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 49,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Warm": {
-            "count": 6,
+            "count": 7,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
           },
+          "Listed": {
+            "count": 4,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 4,
             "color": "#D1F3EC"
           },
-          "Listed": {
+          "Dead": {
             "count": 3,
-            "color": "#C8C8C8"
+            "color": "#F3F3F3"
           },
           "Hot": {
             "count": 3,
             "color": "#F7D1D0"
-          },
-          "Dead": {
-            "count": 2,
-            "color": "#F3F3F3"
           },
           "Under Contract": {
             "count": 2,
@@ -1555,19 +1555,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 164,
-    "dispositioned_mtd": 73,
+    "new_leads_30d": 163,
+    "dispositioned_mtd": 74,
     "hot": 10,
-    "booked": 68,
-    "offers": 54,
+    "booked": 71,
+    "offers": 56,
     "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 127,
-    "active": 113,
-    "booked": 56,
-    "offered": 43,
+    "active": 110,
+    "booked": 59,
+    "offered": 45,
     "accepted": 20,
     "under_contract": 20,
     "contract_available": 5,
@@ -1577,36 +1577,36 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 52,
+        "count": 53,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 49,
+        "count": 45,
         "color": "#FFD5C2"
       },
       "Warm": {
-        "count": 6,
+        "count": 7,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 5,
         "color": "#DCEBD8"
       },
+      "Listed": {
+        "count": 4,
+        "color": "#C8C8C8"
+      },
       "Owes too Much": {
         "count": 4,
         "color": "#D1F3EC"
       },
-      "Listed": {
+      "Dead": {
         "count": 3,
-        "color": "#C8C8C8"
+        "color": "#F3F3F3"
       },
       "Hot": {
         "count": 3,
         "color": "#F7D1D0"
-      },
-      "Dead": {
-        "count": 2,
-        "color": "#F3F3F3"
       },
       "Under Contract": {
         "count": 2,
@@ -1619,8 +1619,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 37,
-    "active": 26,
+    "leads": 36,
+    "active": 25,
     "booked": 12,
     "offered": 11,
     "accepted": 19,
@@ -1632,7 +1632,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 14,
+        "count": 13,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -1643,13 +1643,13 @@
         "count": 4,
         "color": "#D2E4EB"
       },
-      "Dead": {
-        "count": 3,
-        "color": "#F3F3F3"
-      },
       "Listed": {
-        "count": 3,
+        "count": 4,
         "color": "#C8C8C8"
+      },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
       },
       "Hot": {
         "count": 2,
@@ -1679,8 +1679,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 34,
-      "offers": 32,
+      "discoveries": 35,
+      "offers": 33,
       "contracts": 5,
       "revenue": 48589.62
     },
@@ -1858,9 +1858,9 @@
     }
   ],
   "sources": {
-    "ppc": 37,
+    "ppc": 36,
     "facebook": 127,
-    "ppc_inbound_call": 17
+    "ppc_inbound_call": 16
   },
   "hot_leads": [
     {
@@ -1882,15 +1882,15 @@
       "source": "Facebook"
     },
     {
-      "name": "444 Walker Rd",
-      "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
-      "phone": "(541) 973-7372",
+      "name": "4603 Gladys Ct",
+      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
+      "phone": "(203) 645-8822",
       "source": "Facebook"
     },
     {
-      "name": "2203 Gordon St",
-      "address": "2203 Gordon St, Hopewell, VA 23860, USA",
-      "phone": "(804) 930-7297",
+      "name": "444 Walker Rd",
+      "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
+      "phone": "(541) 973-7372",
       "source": "Facebook"
     }
   ],

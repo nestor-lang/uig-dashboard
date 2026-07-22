@@ -1,13 +1,13 @@
 {
   "report_date": "July 22, 2026",
-  "last_updated": "2026-07-22 15:01 EST",
+  "last_updated": "2026-07-22 16:01 EST",
   "google": {
-    "spend_mtd": 8292.22,
-    "clicks_mtd": 463,
+    "spend_mtd": 8308.3,
+    "clicks_mtd": 464,
     "crm_leads": 39,
-    "crm_leads_today": 1,
+    "crm_leads_today": 2,
     "cpc": 17.91,
-    "cpl": 212.62,
+    "cpl": 213.03,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,46 +20,46 @@
         "clicks": 280,
         "cpc": 3.09,
         "crm_leads": 0,
-        "cpl": 212.62
+        "cpl": 213.03
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7428.08,
-        "spend_today": 205.32,
-        "clicks": 183,
-        "cpc": 40.59,
+        "spend": 7444.16,
+        "spend_today": 221.4,
+        "clicks": 184,
+        "cpc": 40.46,
         "crm_leads": 0,
-        "cpl": 212.62
+        "cpl": 213.03
       }
     ]
   },
   "meta": {
-    "spend_30d": 6776.71,
-    "clicks_30d": 2609,
-    "crm_leads": 137,
-    "crm_leads_today": 6,
-    "cpc": 2.6,
-    "cpl_crm": 49.47,
-    "cost_per_hot": 752.97,
+    "spend_30d": 6792.6,
+    "clicks_30d": 2618,
+    "crm_leads": 138,
+    "crm_leads_today": 7,
+    "cpc": 2.59,
+    "cpl_crm": 49.22,
+    "cost_per_hot": 849.08,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6776.71,
-        "spend_today": 182.0,
-        "clicks": 2609,
-        "crm_leads": 137,
-        "cpl_crm": 49.47
+        "spend": 6792.6,
+        "spend_today": 197.89,
+        "clicks": 2618,
+        "crm_leads": 138,
+        "cpl_crm": 49.22
       }
     ]
   },
-  "potential_income": 39027,
+  "potential_income": -85973,
   "assigned_income": 37242,
   "by_stage": {
     "On Market": 92278,
     "Market Prep / Pre-Listing Marketing": 64500,
     "Initial Inspection Completed": 38100,
     "Access Scheduled": 20000,
-    "New Deal - Unscheduled": -175851
+    "New Deal - Unscheduled": -300851
   },
   "by_agent": {
     "Virginia": 26450,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15068.759999999998
+      "spend": 15100.9
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -295,10 +295,10 @@
     "2026-07": {
       "Charles": {
         "leads": 40,
-        "active": 62,
+        "active": 61,
         "booked": 41,
         "offers": 38,
-        "accepted": 6,
+        "accepted": 7,
         "available": 3,
         "pending": 0,
         "dead": 0,
@@ -308,9 +308,9 @@
         "discoveries": 40
       },
       "Julian": {
-        "leads": 44,
-        "active": 54,
-        "booked": 36,
+        "leads": 45,
+        "active": 55,
+        "booked": 37,
         "offers": 35,
         "accepted": 2,
         "available": 1,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 44
+        "discoveries": 45
       }
     }
   },
@@ -629,34 +629,34 @@
         },
         "2026-07": {
           "counts": {
-            "available": 6
+            "available": 7
           },
           "gp": {
-            "available": -98251
+            "available": -223251
           },
-          "total": 6
+          "total": 7
         }
       },
       "all_time": {
         "counts": {
-          "available": 9,
+          "available": 10,
           "dead": 22,
           "on_hold": 1,
           "pending": 3,
           "closed": 9
         },
         "gp": {
-          "available": -18576,
+          "available": -143576,
           "dead": 513015,
           "on_hold": 46830,
           "pending": 37242,
           "closed": 347445
         },
-        "total": 44
+        "total": 45
       },
       "channel_counts": {
         "fb": {
-          "available": 4,
+          "available": 5,
           "dead": 8,
           "on_hold": 1,
           "pending": 1,
@@ -677,7 +677,7 @@
       "by_month_channel_counts": {
         "2026-07": {
           "fb": {
-            "available": 4
+            "available": 5
           },
           "ppc": {
             "available": 2
@@ -752,6 +752,15 @@
         }
       },
       "deals": [
+        {
+          "address": "214 Ivey Dr NW, Calhoun, GA 30701, USA",
+          "value": -125000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-07"
+        },
         {
           "address": "6782 Floyd Hwy N, Copper Hill, VA 24079, USA",
           "value": -225000,
@@ -864,12 +873,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 13,
+    "available": 14,
     "pending": 3,
     "on_hold": 6,
     "closed": 27,
     "dead": 50,
-    "gp_available": 39027,
+    "gp_available": -85973,
     "gp_pending": 37242,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -882,7 +891,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 15068.93
+    "2026-07": 15100.9
   },
   "channel_by_month": {
     "2026-01": {
@@ -1050,7 +1059,7 @@
       "google_spend": 7402.08,
       "meta_spend": 8666.51,
       "ppc_leads": 48,
-      "fb_leads": 142,
+      "fb_leads": 143,
       "google_cpc": 27.72,
       "meta_cpc": 2.88,
       "pipeline_ppc": {
@@ -1113,9 +1122,9 @@
         }
       },
       "pipeline_fb": {
-        "leads": 142,
-        "active": 82,
-        "booked": 75,
+        "leads": 143,
+        "active": 83,
+        "booked": 76,
         "offered": 62,
         "accepted": 2,
         "under_contract": 2,
@@ -1149,13 +1158,13 @@
             "count": 8,
             "color": "#F3F3F3"
           },
+          "Listed": {
+            "count": 6,
+            "color": "#C8C8C8"
+          },
           "Not Workable": {
             "count": 5,
             "color": "#D1F3EC"
-          },
-          "Listed": {
-            "count": 5,
-            "color": "#C8C8C8"
           },
           "Under Contract": {
             "count": 4,
@@ -1425,12 +1434,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 8292.22,
-      "meta_spend": 6776.71,
+      "google_spend": 8308.3,
+      "meta_spend": 6792.6,
       "ppc_leads": 39,
-      "fb_leads": 137,
+      "fb_leads": 138,
       "google_cpc": 17.91,
-      "meta_cpc": 2.6,
+      "meta_cpc": 2.59,
       "pipeline_ppc": {
         "leads": 39,
         "active": 26,
@@ -1491,13 +1500,13 @@
         }
       },
       "pipeline_fb": {
-        "leads": 137,
-        "active": 119,
-        "booked": 64,
+        "leads": 138,
+        "active": 120,
+        "booked": 65,
         "offered": 50,
-        "accepted": 5,
-        "under_contract": 5,
-        "contract_available": 4,
+        "accepted": 6,
+        "under_contract": 6,
+        "contract_available": 5,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
@@ -1511,10 +1520,6 @@
             "count": 50,
             "color": "#FFD5C2"
           },
-          "Hot": {
-            "count": 5,
-            "color": "#F7D1D0"
-          },
           "Owes too Much": {
             "count": 5,
             "color": "#D1F3EC"
@@ -1523,17 +1528,21 @@
             "count": 5,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
+          "Under Contract": {
+            "count": 4,
+            "color": "#DCEBD8"
+          },
           "Listed": {
             "count": 4,
             "color": "#C8C8C8"
           },
-          "Under Contract": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
+          "Hot": {
+            "count": 4,
+            "color": "#F7D1D0"
           },
           "Dead": {
             "count": 2,
@@ -1552,22 +1561,22 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 176,
-    "dispositioned_mtd": 84,
+    "new_leads_30d": 177,
+    "dispositioned_mtd": 85,
     "hot": 10,
-    "booked": 77,
+    "booked": 78,
     "offers": 63,
     "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 137,
-    "active": 119,
-    "booked": 64,
+    "leads": 138,
+    "active": 120,
+    "booked": 65,
     "offered": 50,
-    "accepted": 22,
-    "under_contract": 22,
-    "contract_available": 6,
+    "accepted": 23,
+    "under_contract": 23,
+    "contract_available": 7,
     "contract_pending": 1,
     "contract_closed": 2,
     "contract_dead": 13,
@@ -1581,10 +1590,6 @@
         "count": 50,
         "color": "#FFD5C2"
       },
-      "Hot": {
-        "count": 5,
-        "color": "#F7D1D0"
-      },
       "Owes too Much": {
         "count": 5,
         "color": "#D1F3EC"
@@ -1593,17 +1598,21 @@
         "count": 5,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
+      "Under Contract": {
+        "count": 4,
+        "color": "#DCEBD8"
+      },
       "Listed": {
         "count": 4,
         "color": "#C8C8C8"
       },
-      "Under Contract": {
-        "count": 3,
-        "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
+      "Hot": {
+        "count": 4,
+        "color": "#F7D1D0"
       },
       "Dead": {
         "count": 2,
@@ -1682,11 +1691,11 @@
     "Charles": {
       "discoveries": 40,
       "offers": 38,
-      "contracts": 6,
+      "contracts": 7,
       "revenue": 88594.62
     },
     "Julian": {
-      "discoveries": 44,
+      "discoveries": 45,
       "offers": 35,
       "contracts": 2,
       "revenue": 6267.96
@@ -1694,7 +1703,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 57603,
-    "Charles": 18666
+    "Charles": -106334
   },
   "agent_deals": [
     {
@@ -1736,6 +1745,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-03",
       "agent": "Julian"
+    },
+    {
+      "address": "214 Ivey Dr NW, Calhoun, GA 30701, USA",
+      "value": -125000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-07",
+      "agent": "Charles"
     },
     {
       "address": "6782 Floyd Hwy N, Copper Hill, VA 24079, USA",
@@ -1860,16 +1879,10 @@
   ],
   "sources": {
     "ppc": 39,
-    "facebook": 137,
-    "ppc_inbound_call": 19
+    "facebook": 138,
+    "ppc_inbound_call": 18
   },
   "hot_leads": [
-    {
-      "name": "214 Ivey Dr NW",
-      "address": "214 Ivey Dr NW, Calhoun, GA 30701, USA",
-      "phone": "(770) 548-2257",
-      "source": "Facebook"
-    },
     {
       "name": "3003 Mystic Forest",
       "address": "3003 Mystic Forest, Missouri City, TX 77459, USA",
@@ -1892,6 +1905,12 @@
       "name": "3626 Bittersweet Dr",
       "address": "3626 Bittersweet Dr, Columbiaville, MI 48421, USA",
       "phone": "(810) 362-4077",
+      "source": "Facebook"
+    },
+    {
+      "name": "4603 Gladys Ct",
+      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
+      "phone": "(203) 645-8822",
       "source": "Facebook"
     }
   ],

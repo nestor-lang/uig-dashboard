@@ -1,13 +1,13 @@
 {
   "report_date": "July 22, 2026",
-  "last_updated": "2026-07-22 17:01 EST",
+  "last_updated": "2026-07-22 18:01 EST",
   "google": {
-    "spend_mtd": 8374.53,
-    "clicks_mtd": 468,
+    "spend_mtd": 8481.74,
+    "clicks_mtd": 470,
     "crm_leads": 39,
     "crm_leads_today": 2,
-    "cpc": 17.89,
-    "cpl": 214.73,
+    "cpc": 18.05,
+    "cpl": 217.48,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,46 +20,46 @@
         "clicks": 280,
         "cpc": 3.09,
         "crm_leads": 0,
-        "cpl": 214.73
+        "cpl": 217.48
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7510.39,
-        "spend_today": 287.63,
-        "clicks": 188,
-        "cpc": 39.95,
+        "spend": 7617.6,
+        "spend_today": 394.84,
+        "clicks": 190,
+        "cpc": 40.09,
         "crm_leads": 0,
-        "cpl": 214.73
+        "cpl": 217.48
       }
     ]
   },
   "meta": {
-    "spend_30d": 6804.86,
-    "clicks_30d": 2625,
+    "spend_30d": 6818.61,
+    "clicks_30d": 2632,
     "crm_leads": 138,
     "crm_leads_today": 8,
     "cpc": 2.59,
-    "cpl_crm": 49.31,
-    "cost_per_hot": 850.61,
+    "cpl_crm": 49.41,
+    "cost_per_hot": 852.33,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6804.86,
-        "spend_today": 210.14,
-        "clicks": 2625,
+        "spend": 6818.61,
+        "spend_today": 223.84,
+        "clicks": 2632,
         "crm_leads": 138,
-        "cpl_crm": 49.31
+        "cpl_crm": 49.41
       }
     ]
   },
-  "potential_income": -85973,
+  "potential_income": -99683,
   "assigned_income": 37242,
   "by_stage": {
     "On Market": 92278,
     "Market Prep / Pre-Listing Marketing": 64500,
     "Initial Inspection Completed": 38100,
     "Access Scheduled": 20000,
-    "New Deal - Unscheduled": -300851
+    "New Deal - Unscheduled": -314560
   },
   "by_agent": {
     "Virginia": 26450,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15179.14
+      "spend": 15232.119999999999
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -294,10 +294,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 40,
-        "active": 62,
-        "booked": 41,
-        "offers": 38,
+        "leads": 41,
+        "active": 61,
+        "booked": 42,
+        "offers": 39,
         "accepted": 7,
         "available": 3,
         "pending": 0,
@@ -305,14 +305,14 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 88594.62,
-        "discoveries": 40
+        "discoveries": 41
       },
       "Julian": {
         "leads": 45,
-        "active": 56,
+        "active": 55,
         "booked": 37,
         "offers": 37,
-        "accepted": 2,
+        "accepted": 3,
         "available": 1,
         "pending": 0,
         "dead": 0,
@@ -402,32 +402,38 @@
         },
         "2026-07": {
           "counts": {
-            "available": 1,
+            "available": 2,
             "dead": 1
           },
           "gp": {
-            "available": 20000,
+            "available": 6500,
             "dead": 53100
           },
-          "total": 2
+          "total": 3
         }
       },
       "all_time": {
         "counts": {
-          "available": 4,
+          "available": 5,
           "dead": 28,
           "on_hold": 5,
           "closed": 18
         },
         "gp": {
-          "available": 57603,
+          "available": 44103,
           "dead": 669203,
           "on_hold": 175588,
           "closed": 330891
         },
-        "total": 55
+        "total": 56
       },
       "channel_counts": {
+        "sms": {
+          "available": 1,
+          "closed": 14,
+          "on_hold": 2,
+          "dead": 21
+        },
         "ppc": {
           "available": 2,
           "dead": 2,
@@ -437,15 +443,13 @@
           "dead": 5,
           "available": 2,
           "on_hold": 3
-        },
-        "sms": {
-          "closed": 14,
-          "on_hold": 2,
-          "dead": 21
         }
       },
       "by_month_channel_counts": {
         "2026-07": {
+          "sms": {
+            "available": 1
+          },
           "ppc": {
             "available": 1
           },
@@ -515,6 +519,15 @@
         }
       },
       "deals": [
+        {
+          "address": "60 Metcalf Ln, Emporia, VA 23847, USA",
+          "value": -13500,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-07"
+        },
         {
           "address": "463 Poplar St, Narrows, VA 24124, USA",
           "value": 20000,
@@ -632,7 +645,7 @@
             "available": 7
           },
           "gp": {
-            "available": -223251
+            "available": -223460
           },
           "total": 7
         }
@@ -646,7 +659,7 @@
           "closed": 9
         },
         "gp": {
-          "available": -143576,
+          "available": -143785,
           "dead": 513015,
           "on_hold": 46830,
           "pending": 37242,
@@ -754,7 +767,7 @@
       "deals": [
         {
           "address": "214 Ivey Dr NW, Calhoun, GA 30701, USA",
-          "value": -125000,
+          "value": -125209,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -873,12 +886,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
+    "available": 15,
     "pending": 3,
     "on_hold": 6,
     "closed": 27,
     "dead": 50,
-    "gp_available": -85973,
+    "gp_available": -99682,
     "gp_pending": 37242,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -891,7 +904,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 15179.39
+    "2026-07": 15300.6
   },
   "channel_by_month": {
     "2026-01": {
@@ -1434,11 +1447,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 8374.53,
-      "meta_spend": 6804.86,
+      "google_spend": 8481.74,
+      "meta_spend": 6818.86,
       "ppc_leads": 39,
       "fb_leads": 138,
-      "google_cpc": 17.89,
+      "google_cpc": 18.05,
       "meta_cpc": 2.59,
       "pipeline_ppc": {
         "leads": 39,
@@ -1461,21 +1474,21 @@
             "count": 6,
             "color": "#C8C8C8"
           },
+          "Cold": {
+            "count": 5,
+            "color": "#D2E4EB"
+          },
           "Owes too Much": {
             "count": 4,
             "color": "#D1F3EC"
           },
-          "Cold": {
-            "count": 4,
-            "color": "#D2E4EB"
-          },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
-          },
           "Dead": {
             "count": 3,
             "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 2,
@@ -1501,9 +1514,9 @@
       },
       "pipeline_fb": {
         "leads": 138,
-        "active": 119,
-        "booked": 65,
-        "offered": 51,
+        "active": 117,
+        "booked": 66,
+        "offered": 52,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 5,
@@ -1513,16 +1526,20 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 59,
+            "count": 60,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 48,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 6,
             "color": "#DCEBD8"
+          },
+          "Dead": {
+            "count": 5,
+            "color": "#F3F3F3"
           },
           "Warm": {
             "count": 4,
@@ -1544,10 +1561,6 @@
             "count": 4,
             "color": "#F7D1D0"
           },
-          "Dead": {
-            "count": 3,
-            "color": "#F3F3F3"
-          },
           "Sold": {
             "count": 1,
             "color": "#C8C8C8"
@@ -1562,18 +1575,18 @@
   },
   "pipeline": {
     "new_leads_30d": 177,
-    "dispositioned_mtd": 85,
+    "dispositioned_mtd": 86,
     "hot": 10,
-    "booked": 78,
-    "offers": 64,
+    "booked": 79,
+    "offers": 65,
     "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 138,
-    "active": 119,
-    "booked": 65,
-    "offered": 51,
+    "active": 117,
+    "booked": 66,
+    "offered": 52,
     "accepted": 23,
     "under_contract": 23,
     "contract_available": 7,
@@ -1583,16 +1596,20 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 59,
+        "count": 60,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 48,
+        "count": 45,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 6,
         "color": "#DCEBD8"
+      },
+      "Dead": {
+        "count": 5,
+        "color": "#F3F3F3"
       },
       "Warm": {
         "count": 4,
@@ -1613,10 +1630,6 @@
       "Hot": {
         "count": 4,
         "color": "#F7D1D0"
-      },
-      "Dead": {
-        "count": 3,
-        "color": "#F3F3F3"
       },
       "Sold": {
         "count": 1,
@@ -1649,21 +1662,21 @@
         "count": 6,
         "color": "#C8C8C8"
       },
+      "Cold": {
+        "count": 5,
+        "color": "#D2E4EB"
+      },
       "Owes too Much": {
         "count": 4,
         "color": "#D1F3EC"
       },
-      "Cold": {
-        "count": 4,
-        "color": "#D2E4EB"
-      },
-      "Hot": {
-        "count": 3,
-        "color": "#F7D1D0"
-      },
       "Dead": {
         "count": 3,
         "color": "#F3F3F3"
+      },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
       },
       "Under Contract": {
         "count": 2,
@@ -1689,23 +1702,33 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 40,
-      "offers": 38,
+      "discoveries": 41,
+      "offers": 39,
       "contracts": 7,
       "revenue": 88594.62
     },
     "Julian": {
       "discoveries": 45,
       "offers": 37,
-      "contracts": 2,
+      "contracts": 3,
       "revenue": 6267.96
     }
   },
   "pipeline_by_agent": {
-    "Julian": 57603,
-    "Charles": -106334
+    "Julian": 44103,
+    "Charles": -106543
   },
   "agent_deals": [
+    {
+      "address": "60 Metcalf Ln, Emporia, VA 23847, USA",
+      "value": -13500,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-07",
+      "agent": "Julian"
+    },
     {
       "address": "463 Poplar St, Narrows, VA 24124, USA",
       "value": 20000,
@@ -1748,7 +1771,7 @@
     },
     {
       "address": "214 Ivey Dr NW, Calhoun, GA 30701, USA",
-      "value": -125000,
+      "value": -125209,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

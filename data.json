@@ -1,6 +1,6 @@
 {
   "report_date": "July 22, 2026",
-  "last_updated": "2026-07-22 19:01 EST",
+  "last_updated": "2026-07-22 20:01 EST",
   "google": {
     "spend_mtd": 8600.94,
     "clicks_mtd": 473,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 6853.33,
-    "clicks_30d": 2636,
+    "spend_30d": 6870.8,
+    "clicks_30d": 2640,
     "crm_leads": 138,
     "crm_leads_today": 8,
     "cpc": 2.6,
-    "cpl_crm": 49.66,
-    "cost_per_hot": 856.67,
+    "cpl_crm": 49.79,
+    "cost_per_hot": 858.85,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6853.33,
-        "spend_today": 258.56,
-        "clicks": 2636,
+        "spend": 6870.8,
+        "spend_today": 276.03,
+        "clicks": 2640,
         "crm_leads": 138,
-        "cpl_crm": 49.66
+        "cpl_crm": 49.79
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15454.19
+      "spend": 15471.01
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -904,7 +904,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 15454.27
+    "2026-07": 15471.74
   },
   "channel_by_month": {
     "2026-01": {
@@ -1448,7 +1448,7 @@
     },
     "2026-07": {
       "google_spend": 8600.94,
-      "meta_spend": 6853.33,
+      "meta_spend": 6870.8,
       "ppc_leads": 39,
       "fb_leads": 138,
       "google_cpc": 18.18,
@@ -1537,21 +1537,17 @@
             "count": 6,
             "color": "#DCEBD8"
           },
+          "Owes too Much": {
+            "count": 5,
+            "color": "#D1F3EC"
+          },
           "Dead": {
             "count": 5,
             "color": "#F3F3F3"
           },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
-          },
           "Under Contract": {
             "count": 4,
             "color": "#DCEBD8"
-          },
-          "Owes too Much": {
-            "count": 4,
-            "color": "#D1F3EC"
           },
           "Listed": {
             "count": 4,
@@ -1560,6 +1556,10 @@
           "Hot": {
             "count": 4,
             "color": "#F7D1D0"
+          },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
           },
           "Sold": {
             "count": 1,
@@ -1607,21 +1607,17 @@
         "count": 6,
         "color": "#DCEBD8"
       },
+      "Owes too Much": {
+        "count": 5,
+        "color": "#D1F3EC"
+      },
       "Dead": {
         "count": 5,
         "color": "#F3F3F3"
       },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
-      },
       "Under Contract": {
         "count": 4,
         "color": "#DCEBD8"
-      },
-      "Owes too Much": {
-        "count": 4,
-        "color": "#D1F3EC"
       },
       "Listed": {
         "count": 4,
@@ -1630,6 +1626,10 @@
       "Hot": {
         "count": 4,
         "color": "#F7D1D0"
+      },
+      "Warm": {
+        "count": 3,
+        "color": "#F7F0C5"
       },
       "Sold": {
         "count": 1,

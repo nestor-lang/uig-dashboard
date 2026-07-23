@@ -1,13 +1,13 @@
 {
   "report_date": "July 23, 2026",
-  "last_updated": "2026-07-23 09:01 EST",
+  "last_updated": "2026-07-23 10:01 EST",
   "google": {
-    "spend_mtd": 8670.3,
-    "clicks_mtd": 478,
+    "spend_mtd": 8682.58,
+    "clicks_mtd": 480,
     "crm_leads": 39,
     "crm_leads_today": 0,
-    "cpc": 18.14,
-    "cpl": 222.32,
+    "cpc": 18.09,
+    "cpl": 222.63,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 876.08,
-        "spend_today": 11.94,
-        "clicks": 283,
-        "cpc": 3.1,
+        "spend": 876.56,
+        "spend_today": 12.41,
+        "clicks": 284,
+        "cpc": 3.09,
         "crm_leads": 0,
-        "cpl": 222.32
+        "cpl": 222.63
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7794.22,
-        "spend_today": 57.42,
-        "clicks": 195,
-        "cpc": 39.97,
+        "spend": 7806.03,
+        "spend_today": 69.23,
+        "clicks": 196,
+        "cpc": 39.83,
         "crm_leads": 0,
-        "cpl": 222.32
+        "cpl": 222.63
       }
     ]
   },
   "meta": {
-    "spend_30d": 7006.43,
-    "clicks_30d": 2691,
-    "crm_leads": 141,
-    "crm_leads_today": 1,
+    "spend_30d": 7019.79,
+    "clicks_30d": 2695,
+    "crm_leads": 142,
+    "crm_leads_today": 2,
     "cpc": 2.6,
-    "cpl_crm": 49.69,
-    "cost_per_hot": 875.8,
+    "cpl_crm": 49.44,
+    "cost_per_hot": 779.98,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7006.43,
-        "spend_today": 80.37,
-        "clicks": 2691,
-        "crm_leads": 141,
-        "cpl_crm": 49.69
+        "spend": 7019.79,
+        "spend_today": 93.25,
+        "clicks": 2695,
+        "crm_leads": 142,
+        "cpl_crm": 49.44
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15676.169999999998
+      "spend": 15702.220000000001
     }
   },
   "reps_by_month": {
@@ -294,9 +294,9 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 41,
-        "active": 61,
-        "booked": 42,
+        "leads": 42,
+        "active": 62,
+        "booked": 43,
         "offers": 39,
         "accepted": 7,
         "available": 3,
@@ -305,13 +305,13 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 88594.62,
-        "discoveries": 41
+        "discoveries": 42
       },
       "Julian": {
-        "leads": 45,
-        "active": 55,
-        "booked": 37,
-        "offers": 37,
+        "leads": 46,
+        "active": 56,
+        "booked": 38,
+        "offers": 38,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 45
+        "discoveries": 46
       }
     }
   },
@@ -904,7 +904,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 15676.73
+    "2026-07": 15702.37
   },
   "channel_by_month": {
     "2026-01": {
@@ -1447,11 +1447,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 8670.3,
-      "meta_spend": 7006.43,
+      "google_spend": 8682.58,
+      "meta_spend": 7019.79,
       "ppc_leads": 39,
-      "fb_leads": 141,
-      "google_cpc": 18.14,
+      "fb_leads": 142,
+      "google_cpc": 18.09,
       "meta_cpc": 2.6,
       "pipeline_ppc": {
         "leads": 39,
@@ -1513,10 +1513,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 141,
-        "active": 120,
-        "booked": 66,
-        "offered": 52,
+        "leads": 142,
+        "active": 121,
+        "booked": 68,
+        "offered": 53,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 5,
@@ -1526,24 +1526,28 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 60,
+            "count": 61,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 48,
+            "count": 47,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 6,
             "color": "#DCEBD8"
           },
+          "Hot": {
+            "count": 5,
+            "color": "#F7D1D0"
+          },
           "Owes too Much": {
             "count": 5,
             "color": "#D1F3EC"
           },
-          "Dead": {
-            "count": 5,
-            "color": "#F3F3F3"
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
           },
           "Under Contract": {
             "count": 4,
@@ -1553,40 +1557,36 @@
             "count": 4,
             "color": "#C8C8C8"
           },
-          "Hot": {
-            "count": 4,
-            "color": "#F7D1D0"
-          },
-          "Warm": {
+          "No Longer Selling": {
             "count": 3,
-            "color": "#F7F0C5"
+            "color": "#F3F3F3"
+          },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
           },
           "Sold": {
             "count": 1,
             "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
           }
         }
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 180,
-    "dispositioned_mtd": 86,
+    "new_leads_30d": 181,
+    "dispositioned_mtd": 88,
     "hot": 10,
-    "booked": 79,
-    "offers": 65,
+    "booked": 81,
+    "offers": 66,
     "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 141,
-    "active": 120,
-    "booked": 66,
-    "offered": 52,
+    "leads": 142,
+    "active": 121,
+    "booked": 68,
+    "offered": 53,
     "accepted": 23,
     "under_contract": 23,
     "contract_available": 7,
@@ -1596,24 +1596,28 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 60,
+        "count": 61,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 48,
+        "count": 47,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 6,
         "color": "#DCEBD8"
       },
+      "Hot": {
+        "count": 5,
+        "color": "#F7D1D0"
+      },
       "Owes too Much": {
         "count": 5,
         "color": "#D1F3EC"
       },
-      "Dead": {
-        "count": 5,
-        "color": "#F3F3F3"
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
       },
       "Under Contract": {
         "count": 4,
@@ -1623,21 +1627,17 @@
         "count": 4,
         "color": "#C8C8C8"
       },
-      "Hot": {
-        "count": 4,
-        "color": "#F7D1D0"
-      },
-      "Warm": {
+      "No Longer Selling": {
         "count": 3,
-        "color": "#F7F0C5"
+        "color": "#F3F3F3"
+      },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
       },
       "Sold": {
         "count": 1,
         "color": "#C8C8C8"
-      },
-      "No Longer Selling": {
-        "count": 1,
-        "color": "#F3F3F3"
       }
     }
   },
@@ -1702,14 +1702,14 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 41,
+      "discoveries": 42,
       "offers": 39,
       "contracts": 7,
       "revenue": 88594.62
     },
     "Julian": {
-      "discoveries": 45,
-      "offers": 37,
+      "discoveries": 46,
+      "offers": 38,
       "contracts": 3,
       "revenue": 6267.96
     }
@@ -1902,10 +1902,16 @@
   ],
   "sources": {
     "ppc": 39,
-    "facebook": 141,
+    "facebook": 142,
     "ppc_inbound_call": 17
   },
   "hot_leads": [
+    {
+      "name": "1201 Asbury Church Rd",
+      "address": "1201 Asbury Church Rd, Vernon Hill, VA 24597, USA",
+      "phone": "(434) 446-6697",
+      "source": "Facebook"
+    },
     {
       "name": "3003 Mystic Forest",
       "address": "3003 Mystic Forest, Missouri City, TX 77459, USA",
@@ -1928,12 +1934,6 @@
       "name": "3626 Bittersweet Dr",
       "address": "3626 Bittersweet Dr, Columbiaville, MI 48421, USA",
       "phone": "(810) 362-4077",
-      "source": "Facebook"
-    },
-    {
-      "name": "4603 Gladys Ct",
-      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
-      "phone": "(203) 645-8822",
       "source": "Facebook"
     }
   ],

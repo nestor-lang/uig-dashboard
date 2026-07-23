@@ -1,13 +1,13 @@
 {
   "report_date": "July 23, 2026",
-  "last_updated": "2026-07-23 11:01 EST",
+  "last_updated": "2026-07-23 12:01 EST",
   "google": {
-    "spend_mtd": 8682.58,
-    "clicks_mtd": 480,
+    "spend_mtd": 8695.88,
+    "clicks_mtd": 481,
     "crm_leads": 40,
     "crm_leads_today": 1,
-    "cpc": 18.09,
-    "cpl": 217.06,
+    "cpc": 18.08,
+    "cpl": 217.4,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 876.56,
-        "spend_today": 12.41,
-        "clicks": 284,
-        "cpc": 3.09,
+        "spend": 889.86,
+        "spend_today": 25.71,
+        "clicks": 285,
+        "cpc": 3.12,
         "crm_leads": 0,
-        "cpl": 217.06
+        "cpl": 217.4
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,37 +29,37 @@
         "clicks": 196,
         "cpc": 39.83,
         "crm_leads": 0,
-        "cpl": 217.06
+        "cpl": 217.4
       }
     ]
   },
   "meta": {
-    "spend_30d": 7032.29,
-    "clicks_30d": 2698,
+    "spend_30d": 7047.04,
+    "clicks_30d": 2705,
     "crm_leads": 141,
     "crm_leads_today": 2,
     "cpc": 2.61,
-    "cpl_crm": 49.87,
-    "cost_per_hot": 781.37,
+    "cpl_crm": 49.98,
+    "cost_per_hot": 783.0,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7032.29,
-        "spend_today": 105.71,
-        "clicks": 2698,
+        "spend": 7047.04,
+        "spend_today": 120.32,
+        "clicks": 2705,
         "crm_leads": 141,
-        "cpl_crm": 49.87
+        "cpl_crm": 49.98
       }
     ]
   },
-  "potential_income": 77817,
+  "potential_income": 338582,
   "assigned_income": 37242,
   "by_stage": {
+    "New Deal - Unscheduled": 123705,
     "On Market": 92278,
     "Market Prep / Pre-Listing Marketing": 64500,
     "Initial Inspection Completed": 38100,
-    "Access Scheduled": 20000,
-    "New Deal - Unscheduled": -137060
+    "Access Scheduled": 20000
   },
   "by_agent": {
     "Virginia": 26450,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15714.869999999999
+      "spend": 15742.32
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -308,9 +308,9 @@
         "discoveries": 42
       },
       "Julian": {
-        "leads": 46,
+        "leads": 47,
         "active": 55,
-        "booked": 38,
+        "booked": 39,
         "offers": 39,
         "accepted": 3,
         "available": 1,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 46
+        "discoveries": 47
       }
     }
   },
@@ -633,7 +633,7 @@
             "pending": 2
           },
           "gp": {
-            "available": 79675,
+            "available": 79575,
             "dead": 50000,
             "on_hold": 46830,
             "pending": 26450
@@ -645,7 +645,7 @@
             "available": 7
           },
           "gp": {
-            "available": -73460
+            "available": 187405
           },
           "total": 7
         }
@@ -659,7 +659,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 6215,
+          "available": 266980,
           "dead": 513015,
           "on_hold": 46830,
           "pending": 37242,
@@ -776,7 +776,7 @@
         },
         {
           "address": "6782 Floyd Hwy N, Copper Hill, VA 24079, USA",
-          "value": -225000,
+          "value": 35865,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -848,10 +848,10 @@
         },
         {
           "address": "25 W 5th St, Emporium, PA 15834, USA",
-          "value": 25000,
+          "value": 24900,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
         },
@@ -891,7 +891,7 @@
     "on_hold": 6,
     "closed": 27,
     "dead": 50,
-    "gp_available": 77818,
+    "gp_available": 338583,
     "gp_pending": 37242,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -904,7 +904,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 15714.87
+    "2026-07": 15742.92
   },
   "channel_by_month": {
     "2026-01": {
@@ -1447,11 +1447,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 8682.58,
-      "meta_spend": 7032.29,
+      "google_spend": 8695.88,
+      "meta_spend": 7047.04,
       "ppc_leads": 40,
       "fb_leads": 141,
-      "google_cpc": 18.09,
+      "google_cpc": 18.08,
       "meta_cpc": 2.61,
       "pipeline_ppc": {
         "leads": 40,
@@ -1515,7 +1515,7 @@
       "pipeline_fb": {
         "leads": 141,
         "active": 119,
-        "booked": 68,
+        "booked": 69,
         "offered": 54,
         "accepted": 6,
         "under_contract": 6,
@@ -1530,7 +1530,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 46,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1542,7 +1542,7 @@
             "color": "#F7D1D0"
           },
           "Warm": {
-            "count": 4,
+            "count": 5,
             "color": "#F7F0C5"
           },
           "Under Contract": {
@@ -1575,9 +1575,9 @@
   },
   "pipeline": {
     "new_leads_30d": 181,
-    "dispositioned_mtd": 88,
+    "dispositioned_mtd": 89,
     "hot": 10,
-    "booked": 81,
+    "booked": 82,
     "offers": 67,
     "under_contract": 4,
     "closed": 0
@@ -1585,7 +1585,7 @@
   "pipeline_fb": {
     "leads": 141,
     "active": 119,
-    "booked": 68,
+    "booked": 69,
     "offered": 54,
     "accepted": 23,
     "under_contract": 23,
@@ -1600,7 +1600,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 46,
+        "count": 45,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1612,7 +1612,7 @@
         "color": "#F7D1D0"
       },
       "Warm": {
-        "count": 4,
+        "count": 5,
         "color": "#F7F0C5"
       },
       "Under Contract": {
@@ -1708,7 +1708,7 @@
       "revenue": 88594.62
     },
     "Julian": {
-      "discoveries": 46,
+      "discoveries": 47,
       "offers": 39,
       "contracts": 3,
       "revenue": 6267.96
@@ -1716,7 +1716,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 71603,
-    "Charles": 43457
+    "Charles": 304222
   },
   "agent_deals": [
     {
@@ -1781,7 +1781,7 @@
     },
     {
       "address": "6782 Floyd Hwy N, Copper Hill, VA 24079, USA",
-      "value": -225000,
+      "value": 35865,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -1861,10 +1861,10 @@
     },
     {
       "address": "25 W 5th St, Emporium, PA 15834, USA",
-      "value": 25000,
+      "value": 24900,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"

@@ -1,12 +1,12 @@
 {
-  "report_date": "July 23, 2026",
-  "last_updated": "2026-07-23 20:20 AST",
+  "report_date": "July 24, 2026",
+  "last_updated": "2026-07-24 00:05 AST",
   "google": {
-    "spend_mtd": 8808.8,
-    "clicks_mtd": 484,
+    "spend_mtd": 8830.63,
+    "clicks_mtd": 485,
     "crm_leads": 42,
-    "cpc": 18.2,
-    "cpl": 209.73,
+    "cpc": 18.21,
+    "cpl": 210.25,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,38 +15,38 @@
       {
         "name": "Ultra Homebuyers Remarketing",
         "spend": 909.86,
-        "spend_today": 45.71,
+        "spend_today": 0.0,
         "clicks": 286,
         "cpc": 3.18,
         "crm_leads": 0,
-        "cpl": 209.73
+        "cpl": 210.25
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7898.95,
-        "spend_today": 162.15,
-        "clicks": 198,
-        "cpc": 39.89,
+        "spend": 7920.78,
+        "spend_today": 0.0,
+        "clicks": 199,
+        "cpc": 39.8,
         "crm_leads": 0,
-        "cpl": 209.73
+        "cpl": 210.25
       }
     ]
   },
   "meta": {
-    "spend_30d": 7125.66,
-    "clicks_30d": 2732,
+    "spend_30d": 7181.4,
+    "clicks_30d": 2752,
     "crm_leads": 139,
     "cpc": 2.61,
-    "cpl_crm": 51.26,
-    "cost_per_hot": 791.74,
+    "cpl_crm": 51.66,
+    "cost_per_hot": 897.67,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7125.66,
-        "spend_today": 198.57,
-        "clicks": 2732,
+        "spend": 7181.4,
+        "spend_today": 0,
+        "clicks": 2752,
         "crm_leads": 139,
-        "cpl_crm": 51.26
+        "cpl_crm": 51.66
       }
     ]
   },
@@ -54,8 +54,8 @@
   "assigned_income": 72392,
   "by_stage": {
     "New Deal - Unscheduled": 98805,
-    "Market Prep / Pre-Listing Marketing": 64500,
-    "On Market": 61878,
+    "On Market": 76378,
+    "Market Prep / Pre-Listing Marketing": 50000,
     "Access Scheduled": 44658,
     "Initial Inspection Completed": 38100
   },
@@ -106,7 +106,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15933.96
+      "spend": 16011.77
     }
   },
   "reps_by_month": {
@@ -265,8 +265,8 @@
         "closed_revenue": 146447.9
       },
       "Julian": {
-        "leads": 80,
-        "active": 71,
+        "leads": 79,
+        "active": 70,
         "booked": 57,
         "offers": 59,
         "accepted": 4,
@@ -280,10 +280,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 43,
-        "active": 63,
-        "booked": 44,
-        "offers": 42,
+        "leads": 44,
+        "active": 62,
+        "booked": 43,
+        "offers": 43,
         "accepted": 7,
         "available": 5,
         "pending": 0,
@@ -293,10 +293,10 @@
         "closed_revenue": 88594.62
       },
       "Julian": {
-        "leads": 47,
+        "leads": 48,
         "active": 55,
         "booked": 39,
-        "offers": 39,
+        "offers": 40,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -522,7 +522,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 15934.46
+    "2026-07": 16012.03
   },
   "channel_by_month": {
     "2026-01": {
@@ -657,20 +657,20 @@
       },
       "pipeline_fb": {
         "leads": 147,
-        "active": 96,
+        "active": 95,
         "booked": 74,
-        "offered": 68,
+        "offered": 69,
         "accepted": 4,
         "under_contract": 4,
         "closed": 0
       }
     },
     "2026-07": {
-      "google_spend": 8808.8,
-      "meta_spend": 7125.66,
+      "google_spend": 8830.63,
+      "meta_spend": 7181.4,
       "ppc_leads": 42,
       "fb_leads": 139,
-      "google_cpc": 18.2,
+      "google_cpc": 18.21,
       "meta_cpc": 2.61,
       "pipeline_ppc": {
         "leads": 42,
@@ -684,7 +684,7 @@
       "pipeline_fb": {
         "leads": 139,
         "active": 117,
-        "booked": 69,
+        "booked": 68,
         "offered": 55,
         "accepted": 4,
         "under_contract": 4,
@@ -695,7 +695,7 @@
   "pipeline": {
     "new_leads_30d": 181,
     "hot": 10,
-    "booked": 83,
+    "booked": 82,
     "offers": 69,
     "under_contract": 6,
     "closed": 0
@@ -703,7 +703,7 @@
   "pipeline_fb": {
     "leads": 139,
     "active": 117,
-    "booked": 69,
+    "booked": 68,
     "offered": 55,
     "accepted": 4,
     "under_contract": 4,
@@ -721,7 +721,7 @@
   "sources": {
     "ppc": 42,
     "facebook": 139,
-    "ppc_inbound_call": 17
+    "ppc_inbound_call": 15
   },
   "hot_leads": [
     {
@@ -749,9 +749,9 @@
       "source": "Facebook"
     },
     {
-      "name": "3626 Bittersweet Dr",
-      "address": "3626 Bittersweet Dr, Columbiaville, MI 48421, USA",
-      "phone": "(810) 362-4077",
+      "name": "4603 Gladys Ct",
+      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
+      "phone": "(203) 645-8822",
       "source": "Facebook"
     }
   ],

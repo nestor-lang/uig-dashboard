@@ -1,13 +1,13 @@
 {
   "report_date": "July 28, 2026",
-  "last_updated": "2026-07-28 15:01 EST",
+  "last_updated": "2026-07-28 16:01 EST",
   "google": {
-    "spend_mtd": 10627.17,
-    "clicks_mtd": 567,
+    "spend_mtd": 10794.88,
+    "clicks_mtd": 570,
     "crm_leads": 51,
     "crm_leads_today": 1,
-    "cpc": 18.74,
-    "cpl": 208.38,
+    "cpc": 18.94,
+    "cpl": 211.66,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1107.67,
-        "spend_today": 33.29,
-        "clicks": 325,
-        "cpc": 3.41,
+        "spend": 1128.32,
+        "spend_today": 53.94,
+        "clicks": 327,
+        "cpc": 3.45,
         "crm_leads": 0,
-        "cpl": 208.38
+        "cpl": 211.66
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 9519.51,
-        "spend_today": 196.0,
-        "clicks": 242,
-        "cpc": 39.34,
+        "spend": 9666.56,
+        "spend_today": 343.05,
+        "clicks": 243,
+        "cpc": 39.78,
         "crm_leads": 0,
-        "cpl": 208.38
+        "cpl": 211.66
       }
     ]
   },
   "meta": {
-    "spend_30d": 8733.56,
-    "clicks_30d": 3283,
+    "spend_30d": 8754.56,
+    "clicks_30d": 3288,
     "crm_leads": 170,
     "crm_leads_today": 3,
     "cpc": 2.66,
-    "cpl_crm": 51.37,
-    "cost_per_hot": 1091.69,
+    "cpl_crm": 51.5,
+    "cost_per_hot": 1094.32,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8733.56,
-        "spend_today": 217.41,
-        "clicks": 3283,
+        "spend": 8754.56,
+        "spend_today": 238.38,
+        "clicks": 3288,
         "crm_leads": 170,
-        "cpl_crm": 51.37
+        "cpl_crm": 51.5
       }
     ]
   },
@@ -58,8 +58,8 @@
     "Initial Inspection Completed": 104522,
     "Market Prep / Pre-Listing Marketing": 88100,
     "On Market": 86308,
-    "Access Scheduled": 42400,
-    "New Deal - Unscheduled": -383501
+    "Access Scheduled": 58900,
+    "New Deal - Unscheduled": -400001
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19360.73
+      "spend": 19548.86
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -309,9 +309,9 @@
       },
       "Julian": {
         "leads": 61,
-        "active": 69,
+        "active": 70,
         "booked": 51,
-        "offers": 49,
+        "offers": 50,
         "accepted": 7,
         "available": 5,
         "pending": 0,
@@ -560,8 +560,8 @@
           "address": "60 Metcalf Ln, Emporia, VA 23847, USA",
           "value": 16500,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -950,7 +950,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 19360.73
+    "2026-07": 19549.44
   },
   "channel_by_month": {
     "2026-01": {
@@ -1316,7 +1316,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 47,
+            "count": 46,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1343,6 +1343,10 @@
             "count": 2,
             "color": "#C8C8C8"
           },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
+          },
           "Listed": {
             "count": 2,
             "color": "#C8C8C8"
@@ -1350,10 +1354,6 @@
           "Closed": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
           },
           "Not Workable": {
             "count": 1,
@@ -1493,11 +1493,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 10627.17,
-      "meta_spend": 8733.56,
+      "google_spend": 10794.88,
+      "meta_spend": 8754.56,
       "ppc_leads": 51,
       "fb_leads": 170,
-      "google_cpc": 18.74,
+      "google_cpc": 18.94,
       "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 51,
@@ -1562,7 +1562,7 @@
         "leads": 170,
         "active": 140,
         "booked": 78,
-        "offered": 65,
+        "offered": 66,
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 7,
@@ -1572,11 +1572,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 73,
+            "count": 74,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 53,
+            "count": 52,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1624,7 +1624,7 @@
     "dispositioned_mtd": 110,
     "hot": 9,
     "booked": 99,
-    "offers": 84,
+    "offers": 85,
     "under_contract": 11,
     "closed": 0
   },
@@ -1632,7 +1632,7 @@
     "leads": 170,
     "active": 140,
     "booked": 78,
-    "offered": 65,
+    "offered": 66,
     "accepted": 25,
     "under_contract": 25,
     "contract_available": 9,
@@ -1642,11 +1642,11 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 73,
+        "count": 74,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 53,
+        "count": 52,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1755,7 +1755,7 @@
     },
     "Julian": {
       "discoveries": 61,
-      "offers": 49,
+      "offers": 50,
       "contracts": 7,
       "revenue": 6267.96
     }
@@ -1809,8 +1809,8 @@
       "address": "60 Metcalf Ln, Emporia, VA 23847, USA",
       "value": 16500,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"

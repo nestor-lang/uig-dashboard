@@ -1,13 +1,13 @@
 {
   "report_date": "July 28, 2026",
-  "last_updated": "2026-07-28 11:27 EST",
+  "last_updated": "2026-07-28 12:01 EST",
   "google": {
-    "spend_mtd": 10488.71,
-    "clicks_mtd": 560,
+    "spend_mtd": 10492.37,
+    "clicks_mtd": 562,
     "crm_leads": 50,
     "crm_leads_today": 0,
-    "cpc": 18.73,
-    "cpl": 209.77,
+    "cpc": 18.67,
+    "cpl": 209.85,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1099.14,
-        "spend_today": 24.76,
-        "clicks": 322,
-        "cpc": 3.41,
+        "spend": 1102.8,
+        "spend_today": 28.43,
+        "clicks": 324,
+        "cpc": 3.4,
         "crm_leads": 0,
-        "cpl": 209.77
+        "cpl": 209.85
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 238,
         "cpc": 39.45,
         "crm_leads": 0,
-        "cpl": 209.77
+        "cpl": 209.85
       }
     ]
   },
   "meta": {
-    "spend_30d": 8655.17,
-    "clicks_30d": 3260,
-    "crm_leads": 168,
+    "spend_30d": 8673.4,
+    "clicks_30d": 3262,
+    "crm_leads": 169,
     "crm_leads_today": 2,
-    "cpc": 2.65,
-    "cpl_crm": 51.52,
-    "cost_per_hot": 961.69,
+    "cpc": 2.66,
+    "cpl_crm": 51.32,
+    "cost_per_hot": 963.71,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8655.17,
-        "spend_today": 139.09,
-        "clicks": 3260,
-        "crm_leads": 168,
-        "cpl_crm": 51.52
+        "spend": 8673.4,
+        "spend_today": 157.32,
+        "clicks": 3262,
+        "crm_leads": 169,
+        "cpl_crm": 51.32
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19143.879999999997
+      "spend": 19164.64
     }
   },
   "reps_by_month": {
@@ -295,7 +295,7 @@
     "2026-07": {
       "Charles": {
         "leads": 49,
-        "active": 71,
+        "active": 70,
         "booked": 48,
         "offers": 49,
         "accepted": 8,
@@ -309,7 +309,7 @@
       },
       "Julian": {
         "leads": 58,
-        "active": 68,
+        "active": 69,
         "booked": 48,
         "offers": 49,
         "accepted": 5,
@@ -932,7 +932,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 19143.88
+    "2026-07": 19165.77
   },
   "channel_by_month": {
     "2026-01": {
@@ -1475,12 +1475,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 10488.71,
-      "meta_spend": 8655.17,
+      "google_spend": 10492.37,
+      "meta_spend": 8673.4,
       "ppc_leads": 50,
-      "fb_leads": 168,
-      "google_cpc": 18.73,
-      "meta_cpc": 2.65,
+      "fb_leads": 169,
+      "google_cpc": 18.67,
+      "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 50,
         "active": 33,
@@ -1545,7 +1545,7 @@
         }
       },
       "pipeline_fb": {
-        "leads": 168,
+        "leads": 169,
         "active": 140,
         "booked": 77,
         "offered": 65,
@@ -1558,11 +1558,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 70,
+            "count": 72,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 55,
+            "count": 54,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1606,7 +1606,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 218,
+    "new_leads_30d": 219,
     "dispositioned_mtd": 107,
     "hot": 10,
     "booked": 96,
@@ -1615,7 +1615,7 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 168,
+    "leads": 169,
     "active": 140,
     "booked": 77,
     "offered": 65,
@@ -1628,11 +1628,11 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 70,
+        "count": 72,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 55,
+        "count": 54,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1968,8 +1968,8 @@
   ],
   "sources": {
     "ppc": 50,
-    "facebook": 168,
-    "ppc_inbound_call": 15
+    "facebook": 169,
+    "ppc_inbound_call": 16
   },
   "hot_leads": [
     {

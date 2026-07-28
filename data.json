@@ -1,13 +1,13 @@
 {
   "report_date": "July 28, 2026",
-  "last_updated": "2026-07-28 13:01 EST",
+  "last_updated": "2026-07-28 14:01 EST",
   "google": {
-    "spend_mtd": 10493.94,
-    "clicks_mtd": 562,
+    "spend_mtd": 10574.39,
+    "clicks_mtd": 565,
     "crm_leads": 51,
     "crm_leads_today": 1,
-    "cpc": 18.67,
-    "cpl": 205.76,
+    "cpc": 18.72,
+    "cpl": 207.34,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,51 +15,51 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1104.37,
-        "spend_today": 29.99,
-        "clicks": 324,
+        "spend": 1107.37,
+        "spend_today": 32.99,
+        "clicks": 325,
         "cpc": 3.41,
         "crm_leads": 0,
-        "cpl": 205.76
+        "cpl": 207.34
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 9389.57,
-        "spend_today": 66.06,
-        "clicks": 238,
+        "spend": 9467.02,
+        "spend_today": 143.51,
+        "clicks": 240,
         "cpc": 39.45,
         "crm_leads": 0,
-        "cpl": 205.76
+        "cpl": 207.34
       }
     ]
   },
   "meta": {
-    "spend_30d": 8692.71,
-    "clicks_30d": 3267,
-    "crm_leads": 169,
-    "crm_leads_today": 2,
+    "spend_30d": 8711.21,
+    "clicks_30d": 3274,
+    "crm_leads": 170,
+    "crm_leads_today": 3,
     "cpc": 2.66,
-    "cpl_crm": 51.44,
-    "cost_per_hot": 965.86,
+    "cpl_crm": 51.24,
+    "cost_per_hot": 1088.9,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8692.71,
-        "spend_today": 176.57,
-        "clicks": 3267,
-        "crm_leads": 169,
-        "cpl_crm": 51.44
+        "spend": 8711.21,
+        "spend_today": 195.06,
+        "clicks": 3274,
+        "crm_leads": 170,
+        "cpl_crm": 51.24
       }
     ]
   },
-  "potential_income": 387829,
+  "potential_income": -62171,
   "assigned_income": 72297,
   "by_stage": {
-    "New Deal - Unscheduled": 119864,
+    "Initial Inspection Completed": 104522,
     "Market Prep / Pre-Listing Marketing": 88100,
     "On Market": 86308,
-    "Initial Inspection Completed": 68657,
-    "Access Scheduled": 24900
+    "Access Scheduled": 42400,
+    "New Deal - Unscheduled": -383501
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19186.4
+      "spend": 19285.23
     }
   },
   "reps_by_month": {
@@ -308,18 +308,18 @@
         "discoveries": 49
       },
       "Julian": {
-        "leads": 59,
+        "leads": 60,
         "active": 69,
-        "booked": 49,
+        "booked": 50,
         "offers": 49,
-        "accepted": 5,
-        "available": 3,
+        "accepted": 7,
+        "available": 5,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 59
+        "discoveries": 60
       }
     }
   },
@@ -402,39 +402,39 @@
         },
         "2026-07": {
           "counts": {
-            "available": 4,
+            "available": 6,
             "dead": 1
           },
           "gp": {
-            "available": 73758,
+            "available": -376242,
             "dead": 53100
           },
-          "total": 5
+          "total": 7
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 9,
           "dead": 28,
           "on_hold": 5,
           "closed": 18
         },
         "gp": {
-          "available": 111360,
+          "available": -338640,
           "dead": 669203,
           "on_hold": 175588,
           "closed": 330891
         },
-        "total": 58
+        "total": 60
       },
       "channel_counts": {
         "fb": {
-          "available": 3,
+          "available": 4,
           "dead": 5,
           "on_hold": 3
         },
         "ppc": {
-          "available": 3,
+          "available": 4,
           "dead": 2,
           "closed": 4
         },
@@ -448,11 +448,11 @@
       "by_month_channel_counts": {
         "2026-07": {
           "fb": {
-            "available": 1,
+            "available": 2,
             "dead": 1
           },
           "ppc": {
-            "available": 2
+            "available": 3
           },
           "sms": {
             "available": 1
@@ -521,6 +521,24 @@
       },
       "deals": [
         {
+          "address": "217 Eastwood Dr, Staunton, VA 24401, USA",
+          "value": -315000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-07"
+        },
+        {
+          "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
+          "value": -135000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-07"
+        },
+        {
           "address": "3003 Mystic Forest, Missouri City, TX 77459, USA",
           "value": 20000,
           "status": "Available",
@@ -533,8 +551,8 @@
           "address": "110 Millers Creek Rd, Max Meadows, VA 24360, USA",
           "value": 17500,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -806,8 +824,8 @@
           "address": "6782 Floyd Hwy N, Copper Hill, VA 24079, USA",
           "value": 35865,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -914,12 +932,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 17,
+    "available": 19,
     "pending": 4,
     "on_hold": 6,
     "closed": 27,
     "dead": 50,
-    "gp_available": 387829,
+    "gp_available": -62171,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -932,7 +950,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 19186.65
+    "2026-07": 19285.6
   },
   "channel_by_month": {
     "2026-01": {
@@ -1475,20 +1493,20 @@
       }
     },
     "2026-07": {
-      "google_spend": 10493.94,
-      "meta_spend": 8692.71,
+      "google_spend": 10574.39,
+      "meta_spend": 8711.21,
       "ppc_leads": 51,
-      "fb_leads": 169,
-      "google_cpc": 18.67,
+      "fb_leads": 170,
+      "google_cpc": 18.72,
       "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 51,
         "active": 34,
         "booked": 20,
         "offered": 19,
-        "accepted": 5,
-        "under_contract": 5,
-        "contract_available": 5,
+        "accepted": 6,
+        "under_contract": 6,
+        "contract_available": 6,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1506,13 +1524,13 @@
             "count": 6,
             "color": "#C8C8C8"
           },
+          "Under Contract": {
+            "count": 5,
+            "color": "#DCEBD8"
+          },
           "Dead": {
             "count": 4,
             "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 4,
-            "color": "#DCEBD8"
           },
           "Owes too Much": {
             "count": 4,
@@ -1530,10 +1548,6 @@
             "count": 2,
             "color": "#F7F0C5"
           },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
-          },
           "Not Workable": {
             "count": 1,
             "color": "#D1F3EC"
@@ -1545,13 +1559,13 @@
         }
       },
       "pipeline_fb": {
-        "leads": 169,
-        "active": 139,
-        "booked": 77,
+        "leads": 170,
+        "active": 140,
+        "booked": 78,
         "offered": 65,
-        "accepted": 7,
-        "under_contract": 7,
-        "contract_available": 6,
+        "accepted": 8,
+        "under_contract": 8,
+        "contract_available": 7,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
@@ -1570,24 +1584,24 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 6,
+            "count": 7,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
             "count": 6,
             "color": "#D1F3EC"
           },
-          "Hot": {
-            "count": 5,
-            "color": "#F7D1D0"
-          },
           "Under Contract": {
-            "count": 5,
+            "count": 6,
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
             "count": 5,
             "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 4,
+            "color": "#F7D1D0"
           },
           "Listed": {
             "count": 4,
@@ -1606,22 +1620,22 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 220,
-    "dispositioned_mtd": 108,
-    "hot": 10,
-    "booked": 97,
+    "new_leads_30d": 221,
+    "dispositioned_mtd": 109,
+    "hot": 9,
+    "booked": 98,
     "offers": 84,
-    "under_contract": 9,
+    "under_contract": 11,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 169,
-    "active": 139,
-    "booked": 77,
+    "leads": 170,
+    "active": 140,
+    "booked": 78,
     "offered": 65,
-    "accepted": 24,
-    "under_contract": 24,
-    "contract_available": 8,
+    "accepted": 25,
+    "under_contract": 25,
+    "contract_available": 9,
     "contract_pending": 1,
     "contract_closed": 2,
     "contract_dead": 13,
@@ -1640,24 +1654,24 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 6,
+        "count": 7,
         "color": "#F7F0C5"
       },
       "Owes too Much": {
         "count": 6,
         "color": "#D1F3EC"
       },
-      "Hot": {
-        "count": 5,
-        "color": "#F7D1D0"
-      },
       "Under Contract": {
-        "count": 5,
+        "count": 6,
         "color": "#DCEBD8"
       },
       "No Longer Selling": {
         "count": 5,
         "color": "#F3F3F3"
+      },
+      "Hot": {
+        "count": 4,
+        "color": "#F7D1D0"
       },
       "Listed": {
         "count": 4,
@@ -1678,9 +1692,9 @@
     "active": 34,
     "booked": 20,
     "offered": 19,
-    "accepted": 20,
-    "under_contract": 20,
-    "contract_available": 7,
+    "accepted": 21,
+    "under_contract": 21,
+    "contract_available": 8,
     "contract_pending": 2,
     "contract_closed": 4,
     "contract_dead": 7,
@@ -1698,13 +1712,13 @@
         "count": 6,
         "color": "#C8C8C8"
       },
+      "Under Contract": {
+        "count": 5,
+        "color": "#DCEBD8"
+      },
       "Dead": {
         "count": 4,
         "color": "#F3F3F3"
-      },
-      "Under Contract": {
-        "count": 4,
-        "color": "#DCEBD8"
       },
       "Owes too Much": {
         "count": 4,
@@ -1721,10 +1735,6 @@
       "Warm": {
         "count": 2,
         "color": "#F7F0C5"
-      },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
       },
       "Not Workable": {
         "count": 1,
@@ -1744,17 +1754,37 @@
       "revenue": 88594.62
     },
     "Julian": {
-      "discoveries": 59,
+      "discoveries": 60,
       "offers": 49,
-      "contracts": 5,
+      "contracts": 7,
       "revenue": 6267.96
     }
   },
   "pipeline_by_agent": {
-    "Julian": 111361,
+    "Julian": -338639,
     "Charles": 348766
   },
   "agent_deals": [
+    {
+      "address": "217 Eastwood Dr, Staunton, VA 24401, USA",
+      "value": -315000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-07",
+      "agent": "Julian"
+    },
+    {
+      "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
+      "value": -135000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-07",
+      "agent": "Julian"
+    },
     {
       "address": "3003 Mystic Forest, Missouri City, TX 77459, USA",
       "value": 20000,
@@ -1769,8 +1799,8 @@
       "address": "110 Millers Creek Rd, Max Meadows, VA 24360, USA",
       "value": 17500,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"
@@ -1849,8 +1879,8 @@
       "address": "6782 Floyd Hwy N, Copper Hill, VA 24079, USA",
       "value": 35865,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Charles"
@@ -1968,16 +1998,10 @@
   ],
   "sources": {
     "ppc": 51,
-    "facebook": 169,
+    "facebook": 170,
     "ppc_inbound_call": 16
   },
   "hot_leads": [
-    {
-      "name": "217 Eastwood Dr",
-      "address": "217 Eastwood Dr, Staunton, VA 24401, USA",
-      "phone": "(540) 332-6296",
-      "source": "Facebook"
-    },
     {
       "name": "1201 Asbury Church Rd",
       "address": "1201 Asbury Church Rd, Vernon Hill, VA 24597, USA",
@@ -2000,6 +2024,12 @@
       "name": "345 Ridge Ct",
       "address": "345 Ridge Ct, Roswell, GA 30076, USA",
       "phone": "(404) 729-0591",
+      "source": "Facebook"
+    },
+    {
+      "name": "4603 Gladys Ct",
+      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
+      "phone": "(203) 645-8822",
       "source": "Facebook"
     }
   ],

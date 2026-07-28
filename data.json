@@ -1,12 +1,12 @@
 {
   "report_date": "July 28, 2026",
-  "last_updated": "2026-07-28 02:52 AST",
+  "last_updated": "2026-07-28 14:31 AST",
   "google": {
-    "spend_mtd": 10397.89,
-    "clicks_mtd": 554,
+    "spend_mtd": 10481.99,
+    "clicks_mtd": 559,
     "crm_leads": 50,
-    "cpc": 18.77,
-    "cpl": 207.96,
+    "cpc": 18.75,
+    "cpl": 209.64,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,50 +14,50 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1074.38,
-        "spend_today": 0.0,
-        "clicks": 318,
-        "cpc": 3.38,
+        "spend": 1092.42,
+        "spend_today": 18.04,
+        "clicks": 321,
+        "cpc": 3.4,
         "crm_leads": 0,
-        "cpl": 207.96
+        "cpl": 209.64
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 9323.51,
-        "spend_today": 0.0,
-        "clicks": 236,
-        "cpc": 39.51,
+        "spend": 9389.57,
+        "spend_today": 66.06,
+        "clicks": 238,
+        "cpc": 39.45,
         "crm_leads": 0,
-        "cpl": 207.96
+        "cpl": 209.64
       }
     ]
   },
   "meta": {
-    "spend_30d": 8503.67,
-    "clicks_30d": 3191,
-    "crm_leads": 166,
+    "spend_30d": 8643.77,
+    "clicks_30d": 3254,
+    "crm_leads": 168,
     "cpc": 2.66,
-    "cpl_crm": 51.23,
-    "cost_per_hot": 850.37,
+    "cpl_crm": 51.45,
+    "cost_per_hot": 960.42,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8503.67,
-        "spend_today": 0,
-        "clicks": 3191,
-        "crm_leads": 166,
-        "cpl_crm": 51.23
+        "spend": 8643.77,
+        "spend_today": 127.73,
+        "clicks": 3254,
+        "crm_leads": 168,
+        "cpl_crm": 51.45
       }
     ]
   },
-  "potential_income": 367829,
+  "potential_income": -122171,
   "assigned_income": 72297,
   "by_stage": {
-    "New Deal - Unscheduled": 99864,
     "Market Prep / Pre-Listing Marketing": 88100,
     "On Market": 86308,
     "Initial Inspection Completed": 68657,
-    "Access Scheduled": 24900
+    "Access Scheduled": 24900,
+    "New Deal - Unscheduled": -390136
   },
   "by_agent": {
     "Virginia": 61505,
@@ -106,7 +106,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18901.48
+      "spend": 19125.41
     }
   },
   "reps_by_month": {
@@ -280,10 +280,10 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 50,
-        "active": 73,
-        "booked": 49,
-        "offers": 50,
+        "leads": 49,
+        "active": 71,
+        "booked": 48,
+        "offers": 49,
         "accepted": 8,
         "available": 6,
         "pending": 0,
@@ -293,12 +293,12 @@
         "closed_revenue": 88594.62
       },
       "Julian": {
-        "leads": 55,
-        "active": 65,
-        "booked": 46,
-        "offers": 46,
-        "accepted": 4,
-        "available": 2,
+        "leads": 57,
+        "active": 67,
+        "booked": 47,
+        "offers": 48,
+        "accepted": 5,
+        "available": 3,
         "pending": 0,
         "dead": 0,
         "closed": 0,
@@ -386,30 +386,30 @@
         },
         "2026-07": {
           "counts": {
-            "available": 3,
+            "available": 4,
             "dead": 1
           },
           "gp": {
-            "available": 53758,
+            "available": -436242,
             "dead": 53100
           },
-          "total": 4
+          "total": 5
         }
       },
       "all_time": {
         "counts": {
-          "available": 6,
+          "available": 7,
           "dead": 28,
           "on_hold": 5,
           "closed": 18
         },
         "gp": {
-          "available": 91360,
+          "available": -398640,
           "dead": 669203,
           "on_hold": 175588,
           "closed": 330891
         },
-        "total": 57
+        "total": 58
       }
     },
     "Charles": {
@@ -522,7 +522,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 18901.56
+    "2026-07": 19125.76
   },
   "channel_by_month": {
     "2026-01": {
@@ -666,11 +666,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 10397.89,
-      "meta_spend": 8503.67,
+      "google_spend": 10481.99,
+      "meta_spend": 8643.77,
       "ppc_leads": 50,
-      "fb_leads": 166,
-      "google_cpc": 18.77,
+      "fb_leads": 168,
+      "google_cpc": 18.75,
       "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 50,
@@ -682,31 +682,31 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 166,
+        "leads": 168,
         "active": 140,
         "booked": 77,
-        "offered": 64,
-        "accepted": 4,
-        "under_contract": 4,
+        "offered": 65,
+        "accepted": 5,
+        "under_contract": 5,
         "closed": 0
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 216,
+    "new_leads_30d": 218,
     "hot": 10,
     "booked": 95,
-    "offers": 82,
-    "under_contract": 8,
+    "offers": 83,
+    "under_contract": 9,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 166,
+    "leads": 168,
     "active": 140,
     "booked": 77,
-    "offered": 64,
-    "accepted": 4,
-    "under_contract": 4,
+    "offered": 65,
+    "accepted": 5,
+    "under_contract": 5,
     "closed": 0
   },
   "pipeline_ppc": {
@@ -720,7 +720,7 @@
   },
   "sources": {
     "ppc": 50,
-    "facebook": 166,
+    "facebook": 168,
     "ppc_inbound_call": 15
   },
   "hot_leads": [
@@ -737,12 +737,6 @@
       "source": "Facebook"
     },
     {
-      "name": "3003 Mystic Forest",
-      "address": "3003 Mystic Forest, Missouri City, TX 77459, USA",
-      "phone": "(405) 887-1321",
-      "source": "Facebook"
-    },
-    {
       "name": "1412 Cooper St",
       "address": "1412 Cooper St, Rocky Mount, NC 27803, USA",
       "phone": "+18132973806",
@@ -752,6 +746,12 @@
       "name": "152 Mosby Cir",
       "address": "152 Mosby Cir, Warrenton, VA 20186, USA",
       "phone": "(540) 270-1008",
+      "source": "Facebook"
+    },
+    {
+      "name": "345 Ridge Ct",
+      "address": "345 Ridge Ct, Roswell, GA 30076, USA",
+      "phone": "(404) 729-0591",
       "source": "Facebook"
     }
   ],

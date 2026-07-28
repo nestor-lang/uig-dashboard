@@ -1,6 +1,6 @@
 {
   "report_date": "July 28, 2026",
-  "last_updated": "2026-07-28 17:01 EST",
+  "last_updated": "2026-07-28 18:01 EST",
   "google": {
     "spend_mtd": 10852.87,
     "clicks_mtd": 571,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8775.43,
-    "clicks_30d": 3292,
-    "crm_leads": 170,
-    "crm_leads_today": 3,
-    "cpc": 2.67,
-    "cpl_crm": 51.62,
-    "cost_per_hot": 1096.93,
+    "spend_30d": 8801.47,
+    "clicks_30d": 3303,
+    "crm_leads": 172,
+    "crm_leads_today": 5,
+    "cpc": 2.66,
+    "cpl_crm": 51.17,
+    "cost_per_hot": 1100.18,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8775.43,
-        "spend_today": 259.21,
-        "clicks": 3292,
-        "crm_leads": 170,
-        "cpl_crm": 51.62
+        "spend": 8801.47,
+        "spend_today": 285.25,
+        "clicks": 3303,
+        "crm_leads": 172,
+        "cpl_crm": 51.17
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19628.300000000003
+      "spend": 19654.34
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 30,
+        "leads": 32,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 30
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 40,
+        "leads": 38,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 40
+        "discoveries": 38
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 53,
+        "leads": 52,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 52
       }
     },
     "2026-05": {
@@ -299,18 +299,18 @@
         "booked": 48,
         "offers": 49,
         "accepted": 8,
-        "available": 6,
+        "available": 5,
         "pending": 0,
-        "dead": 0,
+        "dead": 1,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 88594.62,
         "discoveries": 49
       },
       "Julian": {
-        "leads": 61,
-        "active": 70,
-        "booked": 51,
+        "leads": 63,
+        "active": 71,
+        "booked": 53,
         "offers": 50,
         "accepted": 7,
         "available": 5,
@@ -319,7 +319,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 61
+        "discoveries": 63
       }
     }
   },
@@ -679,18 +679,20 @@
         },
         "2026-07": {
           "counts": {
-            "available": 8
+            "available": 7,
+            "dead": 1
           },
           "gp": {
-            "available": 227364
+            "available": 227364,
+            "dead": 0
           },
           "total": 8
         }
       },
       "all_time": {
         "counts": {
-          "available": 10,
-          "dead": 22,
+          "available": 9,
+          "dead": 23,
           "pending": 4,
           "on_hold": 1,
           "closed": 9
@@ -711,8 +713,8 @@
           "dead": 5
         },
         "fb": {
-          "available": 5,
-          "dead": 8,
+          "available": 4,
+          "dead": 9,
           "on_hold": 1,
           "pending": 1,
           "closed": 2
@@ -730,7 +732,8 @@
             "available": 3
           },
           "fb": {
-            "available": 5
+            "available": 4,
+            "dead": 1
           }
         },
         "2026-06": {
@@ -839,15 +842,6 @@
           "contract_month": "2026-07"
         },
         {
-          "address": "720 Steeles Ridge Rd, Camden Wyoming, DE 19934, USA",
-          "value": 0,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
           "address": "6589 Roanoke Rd, Fincastle, VA 24090, USA",
           "value": 38100,
           "status": "Available",
@@ -932,11 +926,11 @@
     }
   },
   "pipeline_contracts": {
-    "available": 19,
+    "available": 18,
     "pending": 4,
     "on_hold": 6,
     "closed": 27,
-    "dead": 50,
+    "dead": 51,
     "gp_available": -62171,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
@@ -950,7 +944,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 19628.3
+    "2026-07": 19654.34
   },
   "channel_by_month": {
     "2026-01": {
@@ -1494,11 +1488,11 @@
     },
     "2026-07": {
       "google_spend": 10852.87,
-      "meta_spend": 8775.43,
+      "meta_spend": 8801.47,
       "ppc_leads": 51,
-      "fb_leads": 170,
+      "fb_leads": 172,
       "google_cpc": 19.01,
-      "meta_cpc": 2.67,
+      "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 51,
         "active": 34,
@@ -1513,7 +1507,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 12,
+            "count": 13,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1536,10 +1530,6 @@
             "count": 4,
             "color": "#D1F3EC"
           },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
           "Wrong Number": {
             "count": 3,
             "color": "#DCEBD8"
@@ -1547,6 +1537,10 @@
           "No Longer Selling": {
             "count": 3,
             "color": "#F3F3F3"
+          },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
           },
           "Not Workable": {
             "count": 1,
@@ -1559,16 +1553,16 @@
         }
       },
       "pipeline_fb": {
-        "leads": 170,
-        "active": 140,
-        "booked": 78,
+        "leads": 172,
+        "active": 142,
+        "booked": 80,
         "offered": 66,
         "accepted": 8,
         "under_contract": 8,
-        "contract_available": 7,
+        "contract_available": 6,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 1,
+        "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -1584,7 +1578,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 7,
+            "count": 9,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
@@ -1620,25 +1614,25 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 221,
-    "dispositioned_mtd": 110,
+    "new_leads_30d": 223,
+    "dispositioned_mtd": 112,
     "hot": 9,
-    "booked": 99,
+    "booked": 101,
     "offers": 85,
     "under_contract": 11,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 170,
-    "active": 140,
-    "booked": 78,
+    "leads": 172,
+    "active": 142,
+    "booked": 80,
     "offered": 66,
     "accepted": 25,
     "under_contract": 25,
-    "contract_available": 9,
+    "contract_available": 8,
     "contract_pending": 1,
     "contract_closed": 2,
-    "contract_dead": 13,
+    "contract_dead": 14,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -1654,7 +1648,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 7,
+        "count": 9,
         "color": "#F7F0C5"
       },
       "Owes too Much": {
@@ -1701,7 +1695,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 12,
+        "count": 13,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1724,10 +1718,6 @@
         "count": 4,
         "color": "#D1F3EC"
       },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
-      },
       "Wrong Number": {
         "count": 3,
         "color": "#DCEBD8"
@@ -1735,6 +1725,10 @@
       "No Longer Selling": {
         "count": 3,
         "color": "#F3F3F3"
+      },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
       },
       "Not Workable": {
         "count": 1,
@@ -1754,7 +1748,7 @@
       "revenue": 88594.62
     },
     "Julian": {
-      "discoveries": 61,
+      "discoveries": 63,
       "offers": 50,
       "contracts": 7,
       "revenue": 6267.96
@@ -1896,16 +1890,6 @@
       "agent": "Charles"
     },
     {
-      "address": "720 Steeles Ridge Rd, Camden Wyoming, DE 19934, USA",
-      "value": 0,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Charles"
-    },
-    {
       "address": "6589 Roanoke Rd, Fincastle, VA 24090, USA",
       "value": 38100,
       "status": "Available",
@@ -1998,7 +1982,7 @@
   ],
   "sources": {
     "ppc": 51,
-    "facebook": 170,
+    "facebook": 172,
     "ppc_inbound_call": 16
   },
   "hot_leads": [

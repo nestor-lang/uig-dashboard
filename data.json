@@ -1,13 +1,13 @@
 {
   "report_date": "July 29, 2026",
-  "last_updated": "2026-07-29 09:01 EST",
+  "last_updated": "2026-07-29 10:01 EST",
   "google": {
-    "spend_mtd": 10974.85,
-    "clicks_mtd": 580,
+    "spend_mtd": 11006.91,
+    "clicks_mtd": 584,
     "crm_leads": 52,
     "crm_leads_today": 1,
-    "cpc": 18.92,
-    "cpl": 211.05,
+    "cpc": 18.85,
+    "cpl": 211.67,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,51 +15,51 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1137.9,
-        "spend_today": 9.58,
-        "clicks": 331,
-        "cpc": 3.44,
+        "spend": 1147.0,
+        "spend_today": 18.69,
+        "clicks": 334,
+        "cpc": 3.43,
         "crm_leads": 0,
-        "cpl": 211.05
+        "cpl": 211.67
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 9836.95,
-        "spend_today": 53.36,
-        "clicks": 249,
-        "cpc": 39.51,
+        "spend": 9859.91,
+        "spend_today": 76.32,
+        "clicks": 250,
+        "cpc": 39.44,
         "crm_leads": 0,
-        "cpl": 211.05
+        "cpl": 211.67
       }
     ]
   },
   "meta": {
-    "spend_30d": 9018.36,
-    "clicks_30d": 3387,
+    "spend_30d": 9040.05,
+    "clicks_30d": 3394,
     "crm_leads": 175,
     "crm_leads_today": 1,
     "cpc": 2.66,
-    "cpl_crm": 51.53,
-    "cost_per_hot": 1127.3,
+    "cpl_crm": 51.66,
+    "cost_per_hot": 1130.01,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9018.36,
-        "spend_today": 99.07,
-        "clicks": 3387,
+        "spend": 9040.05,
+        "spend_today": 120.76,
+        "clicks": 3394,
         "crm_leads": 175,
-        "cpl_crm": 51.53
+        "cpl_crm": 51.66
       }
     ]
   },
-  "potential_income": -62171,
+  "potential_income": 92829,
   "assigned_income": 72297,
   "by_stage": {
     "Initial Inspection Completed": 124522,
     "Market Prep / Pre-Listing Marketing": 88100,
     "On Market": 86308,
     "Access Scheduled": 58900,
-    "New Deal - Unscheduled": -420001
+    "New Deal - Unscheduled": -265001
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19991.989999999998
+      "spend": 20046.72
     }
   },
   "reps_by_month": {
@@ -311,7 +311,7 @@
         "leads": 63,
         "active": 71,
         "booked": 53,
-        "offers": 51,
+        "offers": 52,
         "accepted": 7,
         "available": 5,
         "pending": 0,
@@ -406,7 +406,7 @@
             "dead": 1
           },
           "gp": {
-            "available": -226242,
+            "available": -221242,
             "dead": 53100
           },
           "total": 7
@@ -420,7 +420,7 @@
           "closed": 18
         },
         "gp": {
-          "available": -188640,
+          "available": -183640,
           "dead": 669203,
           "on_hold": 175588,
           "closed": 330891
@@ -531,7 +531,7 @@
         },
         {
           "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
-          "value": 15000,
+          "value": 20000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -931,7 +931,7 @@
     "on_hold": 6,
     "closed": 27,
     "dead": 51,
-    "gp_available": 87829,
+    "gp_available": 92829,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -944,7 +944,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 19993.21
+    "2026-07": 20046.96
   },
   "channel_by_month": {
     "2026-01": {
@@ -1487,11 +1487,11 @@
       }
     },
     "2026-07": {
-      "google_spend": 10974.85,
-      "meta_spend": 9018.36,
+      "google_spend": 11006.91,
+      "meta_spend": 9040.05,
       "ppc_leads": 52,
       "fb_leads": 175,
-      "google_cpc": 18.92,
+      "google_cpc": 18.85,
       "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 52,
@@ -1554,7 +1554,7 @@
       },
       "pipeline_fb": {
         "leads": 175,
-        "active": 145,
+        "active": 144,
         "booked": 80,
         "offered": 66,
         "accepted": 8,
@@ -1570,11 +1570,11 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 56,
+            "count": 55,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
-            "count": 9,
+            "count": 10,
             "color": "#DCEBD8"
           },
           "Warm": {
@@ -1624,7 +1624,7 @@
   },
   "pipeline_fb": {
     "leads": 175,
-    "active": 145,
+    "active": 144,
     "booked": 80,
     "offered": 66,
     "accepted": 25,
@@ -1640,11 +1640,11 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 56,
+        "count": 55,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
-        "count": 9,
+        "count": 10,
         "color": "#DCEBD8"
       },
       "Warm": {
@@ -1749,13 +1749,13 @@
     },
     "Julian": {
       "discoveries": 63,
-      "offers": 51,
+      "offers": 52,
       "contracts": 7,
       "revenue": 6267.96
     }
   },
   "pipeline_by_agent": {
-    "Julian": -188639,
+    "Julian": -183639,
     "Charles": 348766
   },
   "agent_deals": [
@@ -1771,7 +1771,7 @@
     },
     {
       "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
-      "value": 15000,
+      "value": 20000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

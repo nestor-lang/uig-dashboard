@@ -1,13 +1,13 @@
 {
   "report_date": "July 29, 2026",
-  "last_updated": "2026-07-29 16:01 EST",
+  "last_updated": "2026-07-29 17:01 EST",
   "google": {
-    "spend_mtd": 11272.59,
-    "clicks_mtd": 592,
+    "spend_mtd": 11281.14,
+    "clicks_mtd": 593,
     "crm_leads": 52,
     "crm_leads_today": 1,
-    "cpc": 19.04,
-    "cpl": 216.78,
+    "cpc": 19.02,
+    "cpl": 216.94,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1160.3,
-        "spend_today": 31.98,
-        "clicks": 337,
-        "cpc": 3.44,
+        "spend": 1168.85,
+        "spend_today": 40.53,
+        "clicks": 338,
+        "cpc": 3.46,
         "crm_leads": 0,
-        "cpl": 216.78
+        "cpl": 216.94
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 255,
         "cpc": 39.66,
         "crm_leads": 0,
-        "cpl": 216.78
+        "cpl": 216.94
       }
     ]
   },
   "meta": {
-    "spend_30d": 9126.43,
-    "clicks_30d": 3432,
+    "spend_30d": 9140.2,
+    "clicks_30d": 3446,
     "crm_leads": 176,
     "crm_leads_today": 2,
-    "cpc": 2.66,
-    "cpl_crm": 51.85,
-    "cost_per_hot": 1140.8,
+    "cpc": 2.65,
+    "cpl_crm": 51.93,
+    "cost_per_hot": 1015.58,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9126.43,
-        "spend_today": 206.72,
-        "clicks": 3432,
+        "spend": 9140.2,
+        "spend_today": 220.44,
+        "clicks": 3446,
         "crm_leads": 176,
-        "cpl_crm": 51.85
+        "cpl_crm": 51.93
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20398.489999999998
+      "spend": 20420.55
     }
   },
   "reps_by_month": {
@@ -159,8 +159,8 @@
       },
       "Julian": {
         "leads": 37,
-        "active": 2,
-        "booked": 21,
+        "active": 3,
+        "booked": 22,
         "offers": 28,
         "accepted": 8,
         "available": 3,
@@ -235,7 +235,7 @@
     "2026-05": {
       "Charles": {
         "leads": 35,
-        "active": 42,
+        "active": 41,
         "booked": 30,
         "offers": 33,
         "accepted": 10,
@@ -933,7 +933,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 20399.02
+    "2026-07": 20421.34
   },
   "channel_by_month": {
     "2026-01": {
@@ -969,9 +969,9 @@
       },
       "pipeline_fb": {
         "leads": 17,
-        "active": 8,
-        "booked": 8,
-        "offered": 6,
+        "active": 9,
+        "booked": 9,
+        "offered": 7,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -981,11 +981,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 6,
+            "count": 7,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 4,
+            "count": 3,
             "color": "#FFD5C2"
           },
           "Not Workable": {
@@ -1228,7 +1228,7 @@
       "meta_cpc": 2.62,
       "pipeline_ppc": {
         "leads": 44,
-        "active": 22,
+        "active": 21,
         "booked": 18,
         "offered": 16,
         "accepted": 5,
@@ -1240,7 +1240,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 20,
+            "count": 19,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
@@ -1259,13 +1259,13 @@
             "count": 3,
             "color": "#C8C8C8"
           },
+          "No Longer Selling": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 1,
-            "color": "#F3F3F3"
           },
           "Warm": {
             "count": 1,
@@ -1476,12 +1476,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 11272.59,
-      "meta_spend": 9126.43,
+      "google_spend": 11281.14,
+      "meta_spend": 9140.2,
       "ppc_leads": 52,
       "fb_leads": 176,
-      "google_cpc": 19.04,
-      "meta_cpc": 2.66,
+      "google_cpc": 19.02,
+      "meta_cpc": 2.65,
       "pipeline_ppc": {
         "leads": 52,
         "active": 35,
@@ -1543,7 +1543,7 @@
       },
       "pipeline_fb": {
         "leads": 176,
-        "active": 143,
+        "active": 140,
         "booked": 82,
         "offered": 69,
         "accepted": 8,
@@ -1555,19 +1555,19 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 74,
+            "count": 75,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 52,
+            "count": 50,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
-            "count": 11,
+            "count": 12,
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 10,
+            "count": 8,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
@@ -1578,17 +1578,17 @@
             "count": 6,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
-            "count": 5,
-            "color": "#F3F3F3"
-          },
           "Hot": {
-            "count": 4,
+            "count": 5,
             "color": "#F7D1D0"
           },
           "Listed": {
-            "count": 4,
+            "count": 5,
             "color": "#C8C8C8"
+          },
+          "No Longer Selling": {
+            "count": 5,
+            "color": "#F3F3F3"
           },
           "Dead": {
             "count": 2,
@@ -1605,7 +1605,7 @@
   "pipeline": {
     "new_leads_30d": 228,
     "dispositioned_mtd": 116,
-    "hot": 9,
+    "hot": 10,
     "booked": 103,
     "offers": 89,
     "under_contract": 11,
@@ -1613,7 +1613,7 @@
   },
   "pipeline_fb": {
     "leads": 176,
-    "active": 143,
+    "active": 140,
     "booked": 82,
     "offered": 69,
     "accepted": 25,
@@ -1625,19 +1625,19 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 74,
+        "count": 75,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 52,
+        "count": 50,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
-        "count": 11,
+        "count": 12,
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 10,
+        "count": 8,
         "color": "#F7F0C5"
       },
       "Owes too Much": {
@@ -1648,17 +1648,17 @@
         "count": 6,
         "color": "#DCEBD8"
       },
-      "No Longer Selling": {
-        "count": 5,
-        "color": "#F3F3F3"
-      },
       "Hot": {
-        "count": 4,
+        "count": 5,
         "color": "#F7D1D0"
       },
       "Listed": {
-        "count": 4,
+        "count": 5,
         "color": "#C8C8C8"
+      },
+      "No Longer Selling": {
+        "count": 5,
+        "color": "#F3F3F3"
       },
       "Dead": {
         "count": 2,
@@ -1966,6 +1966,12 @@
   },
   "hot_leads": [
     {
+      "name": "1040 McCormick Blvd",
+      "address": "1040 McCormick Blvd, Clifton Forge, VA 24422, USA",
+      "phone": "(336) 577-6538",
+      "source": "Facebook"
+    },
+    {
       "name": "1201 Asbury Church Rd",
       "address": "1201 Asbury Church Rd, Vernon Hill, VA 24597, USA",
       "phone": "(434) 446-6697",
@@ -1987,12 +1993,6 @@
       "name": "345 Ridge Ct",
       "address": "345 Ridge Ct, Roswell, GA 30076, USA",
       "phone": "(404) 729-0591",
-      "source": "Facebook"
-    },
-    {
-      "name": "4603 Gladys Ct",
-      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
-      "phone": "(203) 645-8822",
       "source": "Facebook"
     }
   ],

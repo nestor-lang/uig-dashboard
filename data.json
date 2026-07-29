@@ -1,13 +1,13 @@
 {
   "report_date": "July 29, 2026",
-  "last_updated": "2026-07-29 14:01 EST",
+  "last_updated": "2026-07-29 15:01 EST",
   "google": {
-    "spend_mtd": 11155.57,
-    "clicks_mtd": 588,
+    "spend_mtd": 11272.59,
+    "clicks_mtd": 592,
     "crm_leads": 52,
     "crm_leads_today": 1,
-    "cpc": 18.97,
-    "cpl": 214.53,
+    "cpc": 19.04,
+    "cpl": 216.78,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,51 +15,51 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1157.7,
-        "spend_today": 29.38,
-        "clicks": 335,
-        "cpc": 3.46,
+        "spend": 1160.3,
+        "spend_today": 31.98,
+        "clicks": 337,
+        "cpc": 3.44,
         "crm_leads": 0,
-        "cpl": 214.53
+        "cpl": 216.78
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 9997.87,
-        "spend_today": 214.28,
-        "clicks": 253,
-        "cpc": 39.52,
+        "spend": 10112.29,
+        "spend_today": 328.7,
+        "clicks": 255,
+        "cpc": 39.66,
         "crm_leads": 0,
-        "cpl": 214.53
+        "cpl": 216.78
       }
     ]
   },
   "meta": {
-    "spend_30d": 9096.98,
-    "clicks_30d": 3412,
+    "spend_30d": 9114.97,
+    "clicks_30d": 3427,
     "crm_leads": 177,
     "crm_leads_today": 3,
-    "cpc": 2.67,
-    "cpl_crm": 51.4,
-    "cost_per_hot": 1137.12,
+    "cpc": 2.66,
+    "cpl_crm": 51.5,
+    "cost_per_hot": 1139.37,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9096.98,
-        "spend_today": 177.37,
-        "clicks": 3412,
+        "spend": 9114.97,
+        "spend_today": 195.26,
+        "clicks": 3427,
         "crm_leads": 177,
-        "cpl_crm": 51.4
+        "cpl_crm": 51.5
       }
     ]
   },
-  "potential_income": 458354,
+  "potential_income": 434158,
   "assigned_income": 72297,
   "by_stage": {
-    "Initial Inspection Completed": 124522,
-    "Access Scheduled": 88899,
+    "Initial Inspection Completed": 119023,
     "Market Prep / Pre-Listing Marketing": 88100,
     "New Deal - Unscheduled": 80000,
-    "On Market": 76833
+    "Access Scheduled": 79099,
+    "On Market": 67936
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20251.25
+      "spend": 20387.21
     }
   },
   "reps_by_month": {
@@ -353,13 +353,11 @@
         "2026-03": {
           "counts": {
             "closed": 4,
-            "available": 1,
-            "dead": 2
+            "dead": 3
           },
           "gp": {
             "closed": 61761,
-            "available": 8897,
-            "dead": 19875
+            "dead": 28772
           },
           "total": 7
         },
@@ -414,14 +412,14 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
-          "dead": 28,
+          "available": 8,
+          "dead": 29,
           "on_hold": 5,
           "closed": 18
         },
         "gp": {
-          "available": 181886,
-          "dead": 669203,
+          "available": 172989,
+          "dead": 678099,
           "on_hold": 175588,
           "closed": 330891
         },
@@ -434,8 +432,8 @@
           "on_hold": 3
         },
         "ppc": {
-          "available": 4,
-          "dead": 2,
+          "available": 3,
+          "dead": 3,
           "closed": 4
         },
         "sms": {
@@ -496,7 +494,7 @@
             "dead": 2
           },
           "ppc": {
-            "available": 1
+            "dead": 1
           }
         },
         "2026-02": {
@@ -591,15 +589,6 @@
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-06"
-        },
-        {
-          "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-          "value": 8897,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-03"
         }
       ]
     },
@@ -683,7 +672,7 @@
             "dead": 1
           },
           "gp": {
-            "available": 227364,
+            "available": 212065,
             "dead": 0
           },
           "total": 8
@@ -698,7 +687,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 276469,
+          "available": 261170,
           "dead": 513015,
           "pending": 72297,
           "on_hold": 46830,
@@ -807,7 +796,7 @@
       "deals": [
         {
           "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
-          "value": 29999,
+          "value": 20199,
           "status": "Available",
           "stage": "Access Scheduled",
           "stage_color": "FAF2C4",
@@ -834,7 +823,7 @@
         },
         {
           "address": "513 E Hall St, Dawson Springs, KY 42408, USA",
-          "value": 24109,
+          "value": 18610,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -926,16 +915,16 @@
     }
   },
   "pipeline_contracts": {
-    "available": 18,
+    "available": 17,
     "pending": 4,
     "on_hold": 6,
     "closed": 27,
-    "dead": 51,
-    "gp_available": 458355,
+    "dead": 52,
+    "gp_available": 434159,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
-    "gp_dead": 1182218
+    "gp_dead": 1191114
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -944,7 +933,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 20252.55
+    "2026-07": 20387.21
   },
   "channel_by_month": {
     "2026-01": {
@@ -1036,10 +1025,10 @@
         "offered": 5,
         "accepted": 2,
         "under_contract": 2,
-        "contract_available": 1,
+        "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 1,
+        "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Wrong Number": {
@@ -1487,12 +1476,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 11155.57,
-      "meta_spend": 9096.98,
+      "google_spend": 11272.59,
+      "meta_spend": 9114.62,
       "ppc_leads": 52,
       "fb_leads": 177,
-      "google_cpc": 18.97,
-      "meta_cpc": 2.67,
+      "google_cpc": 19.04,
+      "meta_cpc": 2.66,
       "pipeline_ppc": {
         "leads": 52,
         "active": 35,
@@ -1688,10 +1677,10 @@
     "offered": 20,
     "accepted": 21,
     "under_contract": 21,
-    "contract_available": 8,
+    "contract_available": 7,
     "contract_pending": 2,
     "contract_closed": 4,
-    "contract_dead": 7,
+    "contract_dead": 8,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
@@ -1755,8 +1744,8 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 181886,
-    "Charles": 348766
+    "Julian": 172989,
+    "Charles": 333467
   },
   "agent_deals": [
     {
@@ -1840,18 +1829,8 @@
       "agent": "Julian"
     },
     {
-      "address": "615 Skyline Dr W, Mobile, AL 36609, USA",
-      "value": 8897,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-03",
-      "agent": "Julian"
-    },
-    {
       "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
-      "value": 29999,
+      "value": 20199,
       "status": "Available",
       "stage": "Access Scheduled",
       "stage_color": "FAF2C4",
@@ -1881,7 +1860,7 @@
     },
     {
       "address": "513 E Hall St, Dawson Springs, KY 42408, USA",
-      "value": 24109,
+      "value": 18610,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

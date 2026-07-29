@@ -1,13 +1,13 @@
 {
   "report_date": "July 29, 2026",
-  "last_updated": "2026-07-29 12:01 EST",
+  "last_updated": "2026-07-29 13:01 EST",
   "google": {
-    "spend_mtd": 11074.7,
+    "spend_mtd": 11074.75,
     "clicks_mtd": 586,
     "crm_leads": 52,
     "crm_leads_today": 1,
     "cpc": 18.9,
-    "cpl": 212.97,
+    "cpl": 212.98,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1157.48,
-        "spend_today": 29.16,
+        "spend": 1157.53,
+        "spend_today": 29.21,
         "clicks": 335,
         "cpc": 3.46,
         "crm_leads": 0,
-        "cpl": 212.97
+        "cpl": 212.98
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,37 +29,37 @@
         "clicks": 251,
         "cpc": 39.51,
         "crm_leads": 0,
-        "cpl": 212.97
+        "cpl": 212.98
       }
     ]
   },
   "meta": {
-    "spend_30d": 9068.88,
-    "clicks_30d": 3402,
+    "spend_30d": 9083.11,
+    "clicks_30d": 3405,
     "crm_leads": 176,
     "crm_leads_today": 2,
     "cpc": 2.67,
-    "cpl_crm": 51.53,
-    "cost_per_hot": 1133.61,
+    "cpl_crm": 51.61,
+    "cost_per_hot": 1135.39,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9068.88,
-        "spend_today": 149.29,
-        "clicks": 3402,
+        "spend": 9083.11,
+        "spend_today": 163.5,
+        "clicks": 3405,
         "crm_leads": 176,
-        "cpl_crm": 51.53
+        "cpl_crm": 51.61
       }
     ]
   },
-  "potential_income": 467829,
+  "potential_income": 458354,
   "assigned_income": 72297,
   "by_stage": {
     "Initial Inspection Completed": 124522,
     "Access Scheduled": 88899,
     "Market Prep / Pre-Listing Marketing": 88100,
-    "On Market": 86308,
-    "New Deal - Unscheduled": 80000
+    "New Deal - Unscheduled": 80000,
+    "On Market": 76833
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20143.58
+      "spend": 20157.46
     }
   },
   "reps_by_month": {
@@ -279,7 +279,7 @@
       },
       "Julian": {
         "leads": 79,
-        "active": 69,
+        "active": 68,
         "booked": 57,
         "offers": 59,
         "accepted": 4,
@@ -311,7 +311,7 @@
         "leads": 65,
         "active": 72,
         "booked": 55,
-        "offers": 52,
+        "offers": 53,
         "accepted": 7,
         "available": 5,
         "pending": 0,
@@ -396,7 +396,7 @@
           },
           "gp": {
             "dead": 47811,
-            "available": 28706
+            "available": 19231
           },
           "total": 4
         },
@@ -420,7 +420,7 @@
           "closed": 18
         },
         "gp": {
-          "available": 191360,
+          "available": 181886,
           "dead": 669203,
           "on_hold": 175588,
           "closed": 330891
@@ -585,7 +585,7 @@
         },
         {
           "address": "219 N Governors Ave, Dover, DE 19904, USA",
-          "value": 17375,
+          "value": 7900,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -931,7 +931,7 @@
     "on_hold": 6,
     "closed": 27,
     "dead": 51,
-    "gp_available": 467829,
+    "gp_available": 458355,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -944,7 +944,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 20143.58
+    "2026-07": 20157.86
   },
   "channel_by_month": {
     "2026-01": {
@@ -1369,7 +1369,7 @@
       "meta_cpc": 2.48,
       "pipeline_ppc": {
         "leads": 50,
-        "active": 26,
+        "active": 25,
         "booked": 23,
         "offered": 16,
         "accepted": 3,
@@ -1487,8 +1487,8 @@
       }
     },
     "2026-07": {
-      "google_spend": 11074.7,
-      "meta_spend": 9068.88,
+      "google_spend": 11074.75,
+      "meta_spend": 9083.11,
       "ppc_leads": 52,
       "fb_leads": 176,
       "google_cpc": 18.9,
@@ -1556,7 +1556,7 @@
         "leads": 176,
         "active": 145,
         "booked": 82,
-        "offered": 67,
+        "offered": 68,
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 6,
@@ -1618,7 +1618,7 @@
     "dispositioned_mtd": 114,
     "hot": 9,
     "booked": 103,
-    "offers": 87,
+    "offers": 88,
     "under_contract": 11,
     "closed": 0
   },
@@ -1626,7 +1626,7 @@
     "leads": 176,
     "active": 145,
     "booked": 82,
-    "offered": 67,
+    "offered": 68,
     "accepted": 25,
     "under_contract": 25,
     "contract_available": 8,
@@ -1749,13 +1749,13 @@
     },
     "Julian": {
       "discoveries": 65,
-      "offers": 52,
+      "offers": 53,
       "contracts": 7,
       "revenue": 6267.96
     }
   },
   "pipeline_by_agent": {
-    "Julian": 191361,
+    "Julian": 181886,
     "Charles": 348766
   },
   "agent_deals": [
@@ -1831,7 +1831,7 @@
     },
     {
       "address": "219 N Governors Ave, Dover, DE 19904, USA",
-      "value": 17375,
+      "value": 7900,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",

@@ -1,8 +1,8 @@
 {
   "report_date": "July 30, 2026",
-  "last_updated": "2026-07-30 09:01 EST",
+  "last_updated": "2026-07-30 10:01 EST",
   "google": {
-    "spend_mtd": 11532.97,
+    "spend_mtd": 11533.31,
     "clicks_mtd": 600,
     "crm_leads": 52,
     "crm_leads_today": 0,
@@ -15,8 +15,8 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1179.99,
-        "spend_today": 16.87,
+        "spend": 1180.34,
+        "spend_today": 17.21,
         "clicks": 341,
         "cpc": 3.46,
         "crm_leads": 0,
@@ -34,31 +34,31 @@
     ]
   },
   "meta": {
-    "spend_30d": 9308.62,
-    "clicks_30d": 3514,
+    "spend_30d": 9327.58,
+    "clicks_30d": 3519,
     "crm_leads": 175,
     "crm_leads_today": 0,
     "cpc": 2.65,
-    "cpl_crm": 53.19,
-    "cost_per_hot": 1163.58,
+    "cpl_crm": 53.3,
+    "cost_per_hot": 1165.95,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9308.62,
-        "spend_today": 54.22,
-        "clicks": 3514,
+        "spend": 9327.58,
+        "spend_today": 73.18,
+        "clicks": 3519,
         "crm_leads": 175,
-        "cpl_crm": 53.19
+        "cpl_crm": 53.3
       }
     ]
   },
   "potential_income": 174158,
   "assigned_income": 72297,
   "by_stage": {
-    "Initial Inspection Completed": 119023,
+    "Initial Inspection Completed": 139222,
     "Market Prep / Pre-Listing Marketing": 88100,
-    "Access Scheduled": 79099,
     "On Market": 67936,
+    "Access Scheduled": 58900,
     "New Deal - Unscheduled": -180000
   },
   "by_agent": {
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20841.59
+      "spend": 20860.89
     }
   },
   "reps_by_month": {
@@ -807,8 +807,8 @@
           "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
           "value": 20199,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -942,7 +942,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 20841.59
+    "2026-07": 20860.89
   },
   "channel_by_month": {
     "2026-01": {
@@ -1485,8 +1485,8 @@
       }
     },
     "2026-07": {
-      "google_spend": 11532.97,
-      "meta_spend": 9308.62,
+      "google_spend": 11533.31,
+      "meta_spend": 9327.58,
       "ppc_leads": 52,
       "fb_leads": 175,
       "google_cpc": 19.22,
@@ -1568,7 +1568,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 49,
+            "count": 48,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1576,7 +1576,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 10,
+            "count": 11,
             "color": "#F7F0C5"
           },
           "Under Contract": {
@@ -1638,7 +1638,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 49,
+        "count": 48,
         "color": "#FFD5C2"
       },
       "Wrong Number": {
@@ -1646,7 +1646,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 10,
+        "count": 11,
         "color": "#F7F0C5"
       },
       "Under Contract": {
@@ -1851,8 +1851,8 @@
       "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
       "value": 20199,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Charles"

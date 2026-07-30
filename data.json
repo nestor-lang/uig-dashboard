@@ -1,6 +1,6 @@
 {
   "report_date": "July 30, 2026",
-  "last_updated": "2026-07-30 11:01 EST",
+  "last_updated": "2026-07-30 12:01 EST",
   "google": {
     "spend_mtd": 11553.31,
     "clicks_mtd": 601,
@@ -34,32 +34,32 @@
     ]
   },
   "meta": {
-    "spend_30d": 9346.25,
-    "clicks_30d": 3523,
+    "spend_30d": 9354.24,
+    "clicks_30d": 3529,
     "crm_leads": 176,
     "crm_leads_today": 1,
     "cpc": 2.65,
-    "cpl_crm": 53.1,
-    "cost_per_hot": 1168.28,
+    "cpl_crm": 53.15,
+    "cost_per_hot": 1169.28,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9346.25,
-        "spend_today": 91.85,
-        "clicks": 3523,
+        "spend": 9354.24,
+        "spend_today": 99.84,
+        "clicks": 3529,
         "crm_leads": 176,
-        "cpl_crm": 53.1
+        "cpl_crm": 53.15
       }
     ]
   },
-  "potential_income": 466916,
+  "potential_income": 472166,
   "assigned_income": 72297,
   "by_stage": {
-    "Initial Inspection Completed": 139222,
+    "Market Prep / Pre-Listing Marketing": 137557,
+    "Initial Inspection Completed": 99266,
     "Access Scheduled": 91658,
-    "Market Prep / Pre-Listing Marketing": 88100,
     "New Deal - Unscheduled": 80000,
-    "On Market": 67936
+    "On Market": 63686
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20899.23
+      "spend": 20906.96
     }
   },
   "reps_by_month": {
@@ -295,7 +295,7 @@
     "2026-07": {
       "Charles": {
         "leads": 49,
-        "active": 66,
+        "active": 65,
         "booked": 48,
         "offers": 49,
         "accepted": 8,
@@ -311,7 +311,7 @@
         "leads": 68,
         "active": 70,
         "booked": 56,
-        "offers": 55,
+        "offers": 56,
         "accepted": 8,
         "available": 6,
         "pending": 0,
@@ -576,8 +576,8 @@
           "address": "463 Poplar St, Narrows, VA 24124, USA",
           "value": 19758,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -681,7 +681,7 @@
             "dead": 1
           },
           "gp": {
-            "available": 212065,
+            "available": 217315,
             "dead": 0
           },
           "total": 8
@@ -696,7 +696,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 261170,
+          "available": 266420,
           "dead": 513015,
           "pending": 72297,
           "on_hold": 46830,
@@ -805,10 +805,10 @@
       "deals": [
         {
           "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
-          "value": 20199,
+          "value": 29699,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -850,7 +850,7 @@
         },
         {
           "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
-          "value": 24500,
+          "value": 20250,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -929,7 +929,7 @@
     "on_hold": 6,
     "closed": 27,
     "dead": 52,
-    "gp_available": 466916,
+    "gp_available": 472166,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -942,7 +942,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 20899.56
+    "2026-07": 20907.55
   },
   "channel_by_month": {
     "2026-01": {
@@ -1127,7 +1127,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 14,
+            "count": 13,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1138,6 +1138,10 @@
             "count": 6,
             "color": "#DCEBD8"
           },
+          "Sold": {
+            "count": 5,
+            "color": "#C8C8C8"
+          },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
@@ -1145,10 +1149,6 @@
           "Owes too Much": {
             "count": 4,
             "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 4,
-            "color": "#C8C8C8"
           },
           "No Longer Selling": {
             "count": 3,
@@ -1486,7 +1486,7 @@
     },
     "2026-07": {
       "google_spend": 11553.31,
-      "meta_spend": 9346.25,
+      "meta_spend": 9354.24,
       "ppc_leads": 52,
       "fb_leads": 176,
       "google_cpc": 19.22,
@@ -1552,9 +1552,9 @@
       },
       "pipeline_fb": {
         "leads": 176,
-        "active": 132,
+        "active": 131,
         "booked": 83,
-        "offered": 70,
+        "offered": 71,
         "accepted": 9,
         "under_contract": 9,
         "contract_available": 7,
@@ -1616,15 +1616,15 @@
     "dispositioned_mtd": 117,
     "hot": 9,
     "booked": 104,
-    "offers": 90,
+    "offers": 91,
     "under_contract": 12,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 176,
-    "active": 132,
+    "active": 131,
     "booked": 83,
-    "offered": 70,
+    "offered": 71,
     "accepted": 26,
     "under_contract": 26,
     "contract_available": 9,
@@ -1747,14 +1747,14 @@
     },
     "Julian": {
       "discoveries": 68,
-      "offers": 55,
+      "offers": 56,
       "contracts": 8,
       "revenue": 6267.96
     }
   },
   "pipeline_by_agent": {
     "Julian": 205747,
-    "Charles": 333467
+    "Charles": 338717
   },
   "agent_deals": [
     {
@@ -1821,8 +1821,8 @@
       "address": "463 Poplar St, Narrows, VA 24124, USA",
       "value": 19758,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"
@@ -1849,10 +1849,10 @@
     },
     {
       "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
-      "value": 20199,
+      "value": 29699,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Charles"
@@ -1899,7 +1899,7 @@
     },
     {
       "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
-      "value": 24500,
+      "value": 20250,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",

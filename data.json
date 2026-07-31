@@ -1,13 +1,13 @@
 {
   "report_date": "July 31, 2026",
-  "last_updated": "2026-07-31 12:01 EST",
+  "last_updated": "2026-07-31 13:01 EST",
   "google": {
-    "spend_mtd": 11853.35,
+    "spend_mtd": 11853.72,
     "clicks_mtd": 611,
     "crm_leads": 52,
     "crm_leads_today": 0,
     "cpc": 19.4,
-    "cpl": 227.95,
+    "cpl": 227.96,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1220.36,
-        "spend_today": 20.02,
+        "spend": 1220.73,
+        "spend_today": 20.39,
         "clicks": 345,
         "cpc": 3.54,
         "crm_leads": 0,
-        "cpl": 227.95
+        "cpl": 227.96
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,37 +29,37 @@
         "clicks": 266,
         "cpc": 39.97,
         "crm_leads": 0,
-        "cpl": 227.95
+        "cpl": 227.96
       }
     ]
   },
   "meta": {
-    "spend_30d": 9669.63,
-    "clicks_30d": 3618,
+    "spend_30d": 9684.22,
+    "clicks_30d": 3620,
     "crm_leads": 184,
     "crm_leads_today": 3,
-    "cpc": 2.67,
-    "cpl_crm": 52.55,
-    "cost_per_hot": 1381.38,
+    "cpc": 2.68,
+    "cpl_crm": 52.63,
+    "cost_per_hot": 1383.46,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9669.63,
-        "spend_today": 134.57,
-        "clicks": 3618,
+        "spend": 9684.22,
+        "spend_today": 149.16,
+        "clicks": 3620,
         "crm_leads": 184,
-        "cpl_crm": 52.55
+        "cpl_crm": 52.63
       }
     ]
   },
-  "potential_income": -29165,
+  "potential_income": 486885,
   "assigned_income": 72297,
   "by_stage": {
     "Initial Inspection Completed": 110766,
     "Market Prep / Pre-Listing Marketing": 107858,
-    "On Market": 82054,
-    "Access Scheduled": 75158,
-    "New Deal - Unscheduled": -405000
+    "Access Scheduled": 95158,
+    "New Deal - Unscheduled": 91050,
+    "On Market": 82054
   },
   "by_agent": {
     "Virginia": 61505,
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21522.0
+      "spend": 21537.62
     }
   },
   "reps_by_month": {
@@ -174,7 +174,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -185,10 +185,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -199,12 +199,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -215,10 +215,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 60,
         "booked": 57,
         "offers": 43,
@@ -229,7 +229,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -540,8 +540,8 @@
           "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
           "value": 20000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -672,7 +672,7 @@
             "dead": 1
           },
           "gp": {
-            "available": -267685,
+            "available": 248365,
             "dead": 0
           },
           "total": 9
@@ -687,7 +687,7 @@
           "closed": 9
         },
         "gp": {
-          "available": -218580,
+          "available": 297470,
           "dead": 513015,
           "pending": 72297,
           "on_hold": 46830,
@@ -796,7 +796,7 @@
       "deals": [
         {
           "address": "345 Ridge Ct, Roswell, GA 30076, USA",
-          "value": -485000,
+          "value": 31050,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -929,7 +929,7 @@
     "on_hold": 6,
     "closed": 27,
     "dead": 53,
-    "gp_available": -29165,
+    "gp_available": 486885,
     "gp_pending": 72297,
     "gp_on_hold": 222418,
     "gp_closed": 678336,
@@ -942,7 +942,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 21522.98
+    "2026-07": 21537.94
   },
   "channel_by_month": {
     "2026-01": {
@@ -1485,12 +1485,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 11853.35,
-      "meta_spend": 9669.63,
+      "google_spend": 11853.72,
+      "meta_spend": 9684.22,
       "ppc_leads": 52,
       "fb_leads": 184,
       "google_cpc": 19.4,
-      "meta_cpc": 2.67,
+      "meta_cpc": 2.68,
       "pipeline_ppc": {
         "leads": 52,
         "active": 29,
@@ -1754,7 +1754,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 189416,
-    "Charles": -146283
+    "Charles": 369767
   },
   "agent_deals": [
     {
@@ -1781,8 +1781,8 @@
       "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
       "value": 20000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"
@@ -1839,7 +1839,7 @@
     },
     {
       "address": "345 Ridge Ct, Roswell, GA 30076, USA",
-      "value": -485000,
+      "value": 31050,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

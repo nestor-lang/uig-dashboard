@@ -1,12 +1,12 @@
 {
   "report_date": "July 31, 2026",
-  "last_updated": "2026-07-31 16:01 EST",
+  "last_updated": "2026-07-31 17:01 EST",
   "google": {
     "spend_mtd": 11909.79,
-    "clicks_mtd": 619,
+    "clicks_mtd": 618,
     "crm_leads": 54,
     "crm_leads_today": 2,
-    "cpc": 19.24,
+    "cpc": 19.27,
     "cpl": 220.55,
     "cost_per_booked": null,
     "booked": 0,
@@ -17,8 +17,8 @@
         "name": "Ultra Homebuyers Remarketing",
         "spend": 1229.82,
         "spend_today": 29.48,
-        "clicks": 351,
-        "cpc": 3.5,
+        "clicks": 350,
+        "cpc": 3.51,
         "crm_leads": 0,
         "cpl": 220.55
       },
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 9737.33,
-    "clicks_30d": 3633,
+    "spend_30d": 9752.41,
+    "clicks_30d": 3638,
     "crm_leads": 186,
     "crm_leads_today": 5,
     "cpc": 2.68,
-    "cpl_crm": 52.35,
-    "cost_per_hot": 1391.05,
+    "cpl_crm": 52.43,
+    "cost_per_hot": 1393.2,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9737.33,
-        "spend_today": 202.24,
-        "clicks": 3633,
+        "spend": 9752.41,
+        "spend_today": 217.32,
+        "clicks": 3638,
         "crm_leads": 186,
-        "cpl_crm": 52.35
+        "cpl_crm": 52.43
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21647.120000000003
+      "spend": 21661.35
     }
   },
   "reps_by_month": {
@@ -249,7 +249,7 @@
       },
       "Julian": {
         "leads": 47,
-        "active": 66,
+        "active": 67,
         "booked": 57,
         "offers": 47,
         "accepted": 8,
@@ -309,9 +309,9 @@
       },
       "Julian": {
         "leads": 73,
-        "active": 76,
+        "active": 78,
         "booked": 61,
-        "offers": 57,
+        "offers": 59,
         "accepted": 8,
         "available": 6,
         "pending": 0,
@@ -942,7 +942,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 21647.12
+    "2026-07": 21662.2
   },
   "channel_by_month": {
     "2026-01": {
@@ -1237,7 +1237,7 @@
       "meta_cpc": 2.62,
       "pipeline_ppc": {
         "leads": 44,
-        "active": 21,
+        "active": 22,
         "booked": 18,
         "offered": 16,
         "accepted": 5,
@@ -1249,7 +1249,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 19,
+            "count": 17,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
@@ -1257,11 +1257,11 @@
             "color": "#DCEBD8"
           },
           "Listed": {
-            "count": 4,
+            "count": 5,
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 4,
+            "count": 5,
             "color": "#FFD5C2"
           },
           "Sold": {
@@ -1486,16 +1486,16 @@
     },
     "2026-07": {
       "google_spend": 11909.79,
-      "meta_spend": 9737.33,
+      "meta_spend": 9752.41,
       "ppc_leads": 54,
       "fb_leads": 186,
-      "google_cpc": 19.24,
+      "google_cpc": 19.27,
       "meta_cpc": 2.68,
       "pipeline_ppc": {
         "leads": 54,
         "active": 31,
         "booked": 22,
-        "offered": 20,
+        "offered": 21,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 6,
@@ -1554,7 +1554,7 @@
         "leads": 186,
         "active": 138,
         "booked": 87,
-        "offered": 72,
+        "offered": 73,
         "accepted": 10,
         "under_contract": 10,
         "contract_available": 8,
@@ -1616,7 +1616,7 @@
     "dispositioned_mtd": 122,
     "hot": 8,
     "booked": 109,
-    "offers": 92,
+    "offers": 94,
     "under_contract": 13,
     "closed": 0
   },
@@ -1624,7 +1624,7 @@
     "leads": 186,
     "active": 138,
     "booked": 87,
-    "offered": 72,
+    "offered": 73,
     "accepted": 27,
     "under_contract": 27,
     "contract_available": 9,
@@ -1683,7 +1683,7 @@
     "leads": 54,
     "active": 31,
     "booked": 22,
-    "offered": 20,
+    "offered": 21,
     "accepted": 21,
     "under_contract": 21,
     "contract_available": 7,
@@ -1747,7 +1747,7 @@
     },
     "Julian": {
       "discoveries": 73,
-      "offers": 57,
+      "offers": 59,
       "contracts": 8,
       "revenue": 6267.96
     }

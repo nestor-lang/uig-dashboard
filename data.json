@@ -1,13 +1,13 @@
 {
   "report_date": "July 31, 2026",
-  "last_updated": "2026-07-31 09:01 EST",
+  "last_updated": "2026-07-31 10:01 EST",
   "google": {
-    "spend_mtd": 11836.28,
-    "clicks_mtd": 609,
+    "spend_mtd": 11851.32,
+    "clicks_mtd": 610,
     "crm_leads": 52,
     "crm_leads_today": 0,
-    "cpc": 19.44,
-    "cpl": 227.62,
+    "cpc": 19.43,
+    "cpl": 227.91,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1203.29,
-        "spend_today": 2.95,
-        "clicks": 343,
-        "cpc": 3.51,
+        "spend": 1218.33,
+        "spend_today": 18.0,
+        "clicks": 344,
+        "cpc": 3.54,
         "crm_leads": 0,
-        "cpl": 227.62
+        "cpl": 227.91
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 266,
         "cpc": 39.97,
         "crm_leads": 0,
-        "cpl": 227.62
+        "cpl": 227.91
       }
     ]
   },
   "meta": {
-    "spend_30d": 9612.12,
-    "clicks_30d": 3607,
+    "spend_30d": 9630.89,
+    "clicks_30d": 3609,
     "crm_leads": 183,
     "crm_leads_today": 2,
-    "cpc": 2.66,
-    "cpl_crm": 52.53,
-    "cost_per_hot": 1373.16,
+    "cpc": 2.67,
+    "cpl_crm": 52.63,
+    "cost_per_hot": 1375.84,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9612.12,
-        "spend_today": 77.07,
-        "clicks": 3607,
+        "spend": 9630.89,
+        "spend_today": 95.83,
+        "clicks": 3609,
         "crm_leads": 183,
-        "cpl_crm": 52.53
+        "cpl_crm": 52.63
       }
     ]
   },
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21448.21
+      "spend": 21482.21
     }
   },
   "reps_by_month": {
@@ -942,7 +942,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 21448.4
+    "2026-07": 21482.21
   },
   "channel_by_month": {
     "2026-01": {
@@ -1485,12 +1485,12 @@
       }
     },
     "2026-07": {
-      "google_spend": 11836.28,
-      "meta_spend": 9612.12,
+      "google_spend": 11851.32,
+      "meta_spend": 9630.89,
       "ppc_leads": 52,
       "fb_leads": 183,
-      "google_cpc": 19.44,
-      "meta_cpc": 2.66,
+      "google_cpc": 19.43,
+      "meta_cpc": 2.67,
       "pipeline_ppc": {
         "leads": 52,
         "active": 29,
@@ -1552,7 +1552,7 @@
       },
       "pipeline_fb": {
         "leads": 183,
-        "active": 134,
+        "active": 133,
         "booked": 85,
         "offered": 71,
         "accepted": 10,
@@ -1564,7 +1564,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 72,
+            "count": 73,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1591,10 +1591,6 @@
             "count": 5,
             "color": "#C8C8C8"
           },
-          "Dead": {
-            "count": 4,
-            "color": "#F3F3F3"
-          },
           "No Longer Selling": {
             "count": 4,
             "color": "#F3F3F3"
@@ -1602,6 +1598,10 @@
           "Hot": {
             "count": 3,
             "color": "#F7D1D0"
+          },
+          "Dead": {
+            "count": 3,
+            "color": "#F3F3F3"
           },
           "Sold": {
             "count": 1,
@@ -1622,7 +1622,7 @@
   },
   "pipeline_fb": {
     "leads": 183,
-    "active": 134,
+    "active": 133,
     "booked": 85,
     "offered": 71,
     "accepted": 27,
@@ -1634,7 +1634,7 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 72,
+        "count": 73,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
@@ -1661,10 +1661,6 @@
         "count": 5,
         "color": "#C8C8C8"
       },
-      "Dead": {
-        "count": 4,
-        "color": "#F3F3F3"
-      },
       "No Longer Selling": {
         "count": 4,
         "color": "#F3F3F3"
@@ -1672,6 +1668,10 @@
       "Hot": {
         "count": 3,
         "color": "#F7D1D0"
+      },
+      "Dead": {
+        "count": 3,
+        "color": "#F3F3F3"
       },
       "Sold": {
         "count": 1,

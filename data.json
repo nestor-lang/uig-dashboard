@@ -1,6 +1,6 @@
 {
   "report_date": "July 31, 2026",
-  "last_updated": "2026-07-31 10:01 EST",
+  "last_updated": "2026-07-31 11:01 EST",
   "google": {
     "spend_mtd": 11851.32,
     "clicks_mtd": 610,
@@ -34,31 +34,31 @@
     ]
   },
   "meta": {
-    "spend_30d": 9630.89,
-    "clicks_30d": 3609,
+    "spend_30d": 9650.71,
+    "clicks_30d": 3613,
     "crm_leads": 183,
     "crm_leads_today": 2,
     "cpc": 2.67,
-    "cpl_crm": 52.63,
-    "cost_per_hot": 1375.84,
+    "cpl_crm": 52.74,
+    "cost_per_hot": 1378.67,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9630.89,
-        "spend_today": 95.83,
-        "clicks": 3609,
+        "spend": 9650.71,
+        "spend_today": 115.65,
+        "clicks": 3613,
         "crm_leads": 183,
-        "cpl_crm": 52.63
+        "cpl_crm": 52.74
       }
     ]
   },
   "potential_income": -29165,
   "assigned_income": 72297,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 137557,
     "Initial Inspection Completed": 110766,
+    "Market Prep / Pre-Listing Marketing": 107858,
+    "On Market": 82054,
     "Access Scheduled": 75158,
-    "On Market": 52355,
     "New Deal - Unscheduled": -405000
   },
   "by_agent": {
@@ -108,7 +108,7 @@
     "2026-07": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21482.21
+      "spend": 21502.03
     }
   },
   "reps_by_month": {
@@ -295,7 +295,7 @@
     "2026-07": {
       "Charles": {
         "leads": 49,
-        "active": 63,
+        "active": 62,
         "booked": 48,
         "offers": 49,
         "accepted": 9,
@@ -309,9 +309,9 @@
       },
       "Julian": {
         "leads": 70,
-        "active": 70,
+        "active": 73,
         "booked": 58,
-        "offers": 56,
+        "offers": 57,
         "accepted": 8,
         "available": 6,
         "pending": 0,
@@ -807,7 +807,7 @@
           "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
           "value": 29699,
           "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
@@ -942,7 +942,7 @@
     "2026-04": 16068.59,
     "2026-05": 20672.89,
     "2026-06": 16399.44,
-    "2026-07": 21482.21
+    "2026-07": 21502.03
   },
   "channel_by_month": {
     "2026-01": {
@@ -1486,7 +1486,7 @@
     },
     "2026-07": {
       "google_spend": 11851.32,
-      "meta_spend": 9630.89,
+      "meta_spend": 9650.71,
       "ppc_leads": 52,
       "fb_leads": 183,
       "google_cpc": 19.43,
@@ -1552,9 +1552,9 @@
       },
       "pipeline_fb": {
         "leads": 183,
-        "active": 133,
+        "active": 135,
         "booked": 85,
-        "offered": 71,
+        "offered": 72,
         "accepted": 10,
         "under_contract": 10,
         "contract_available": 8,
@@ -1616,15 +1616,15 @@
     "dispositioned_mtd": 119,
     "hot": 8,
     "booked": 106,
-    "offers": 91,
+    "offers": 92,
     "under_contract": 13,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 183,
-    "active": 133,
+    "active": 135,
     "booked": 85,
-    "offered": 71,
+    "offered": 72,
     "accepted": 27,
     "under_contract": 27,
     "contract_available": 9,
@@ -1747,7 +1747,7 @@
     },
     "Julian": {
       "discoveries": 70,
-      "offers": 56,
+      "offers": 57,
       "contracts": 8,
       "revenue": 6267.96
     }
@@ -1851,7 +1851,7 @@
       "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
       "value": 29699,
       "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",

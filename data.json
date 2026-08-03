@@ -1,13 +1,13 @@
 {
   "report_date": "August 03, 2026",
-  "last_updated": "2026-08-03 16:01 EST",
+  "last_updated": "2026-08-03 17:01 EST",
   "google": {
-    "spend_mtd": 642.89,
-    "clicks_mtd": 39,
+    "spend_mtd": 693.64,
+    "clicks_mtd": 42,
     "crm_leads": 3,
     "crm_leads_today": 1,
-    "cpc": 16.48,
-    "cpl": 214.3,
+    "cpc": 16.52,
+    "cpl": 231.21,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,35 +20,35 @@
         "clicks": 23,
         "cpc": 5.78,
         "crm_leads": 0,
-        "cpl": 214.3
+        "cpl": 231.21
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 509.98,
-        "spend_today": 302.79,
-        "clicks": 16,
-        "cpc": 31.87,
+        "spend": 560.73,
+        "spend_today": 353.54,
+        "clicks": 19,
+        "cpc": 29.51,
         "crm_leads": 0,
-        "cpl": 214.3
+        "cpl": 231.21
       }
     ]
   },
   "meta": {
-    "spend_30d": 895.05,
-    "clicks_30d": 277,
+    "spend_30d": 908.61,
+    "clicks_30d": 281,
     "crm_leads": 18,
     "crm_leads_today": 3,
     "cpc": 3.23,
-    "cpl_crm": 49.72,
-    "cost_per_hot": 127.86,
+    "cpl_crm": 50.48,
+    "cost_per_hot": 129.8,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 895.05,
-        "spend_today": 202.12,
-        "clicks": 277,
+        "spend": 908.61,
+        "spend_today": 215.68,
+        "clicks": 281,
         "crm_leads": 18,
-        "cpl_crm": 49.72
+        "cpl_crm": 50.48
       }
     ]
   },
@@ -113,7 +113,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1537.94
+      "spend": 1600.8400000000001
     }
   },
   "reps_by_month": {
@@ -344,9 +344,9 @@
       },
       "Julian": {
         "leads": 11,
-        "active": 11,
+        "active": 13,
         "booked": 10,
-        "offers": 6,
+        "offers": 7,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -449,7 +449,7 @@
             "available": 1
           },
           "gp": {
-            "available": -15000
+            "available": 25000
           },
           "total": 1
         }
@@ -462,7 +462,7 @@
           "closed": 18
         },
         "gp": {
-          "available": 174415,
+          "available": 214415,
           "dead": 689430,
           "on_hold": 175588,
           "closed": 330891
@@ -569,7 +569,7 @@
       "deals": [
         {
           "address": "319 Myrtle Ave, Rocky Mount, NC 27801, USA",
-          "value": -15000,
+          "value": 25000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -970,7 +970,7 @@
     "on_hold": 7,
     "closed": 27,
     "dead": 54,
-    "gp_available": 393885,
+    "gp_available": 433885,
     "gp_pending": 72297,
     "gp_on_hold": 247318,
     "gp_closed": 678336,
@@ -984,7 +984,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 1537.94
+    "2026-08": 1602.25
   },
   "channel_by_month": {
     "2026-01": {
@@ -1653,11 +1653,11 @@
       }
     },
     "2026-08": {
-      "google_spend": 642.89,
-      "meta_spend": 895.05,
+      "google_spend": 693.64,
+      "meta_spend": 908.61,
       "ppc_leads": 3,
       "fb_leads": 18,
-      "google_cpc": 16.48,
+      "google_cpc": 16.52,
       "meta_cpc": 3.23,
       "pipeline_ppc": {
         "leads": 3,
@@ -1690,7 +1690,7 @@
         "leads": 18,
         "active": 17,
         "booked": 9,
-        "offered": 4,
+        "offered": 5,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -1728,7 +1728,7 @@
     "dispositioned_mtd": 11,
     "hot": 8,
     "booked": 10,
-    "offers": 4,
+    "offers": 5,
     "under_contract": 0,
     "closed": 0
   },
@@ -1736,7 +1736,7 @@
     "leads": 18,
     "active": 17,
     "booked": 9,
-    "offered": 4,
+    "offered": 5,
     "accepted": 28,
     "under_contract": 28,
     "contract_available": 9,
@@ -1803,19 +1803,19 @@
     },
     "Julian": {
       "discoveries": 11,
-      "offers": 6,
+      "offers": 7,
       "contracts": 1,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 174416,
+    "Julian": 214416,
     "Charles": 291767
   },
   "agent_deals": [
     {
       "address": "319 Myrtle Ave, Rocky Mount, NC 27801, USA",
-      "value": -15000,
+      "value": 25000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

@@ -1,6 +1,6 @@
 {
   "report_date": "August 03, 2026",
-  "last_updated": "2026-08-03 11:01 EST",
+  "last_updated": "2026-08-03 12:01 EST",
   "google": {
     "spend_mtd": 457.02,
     "clicks_mtd": 32,
@@ -34,30 +34,30 @@
     ]
   },
   "meta": {
-    "spend_30d": 797.37,
-    "clicks_30d": 245,
+    "spend_30d": 816.28,
+    "clicks_30d": 253,
     "crm_leads": 17,
     "crm_leads_today": 2,
-    "cpc": 3.25,
-    "cpl_crm": 46.9,
-    "cost_per_hot": 113.91,
+    "cpc": 3.23,
+    "cpl_crm": 48.02,
+    "cost_per_hot": 116.61,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 797.37,
-        "spend_today": 104.66,
-        "clicks": 245,
+        "spend": 816.28,
+        "spend_today": 123.56,
+        "clicks": 253,
         "crm_leads": 17,
-        "cpl_crm": 46.9
+        "cpl_crm": 48.02
       }
     ]
   },
-  "potential_income": 471885,
+  "potential_income": 423235,
   "assigned_income": 72297,
   "by_stage": {
     "Initial Inspection Completed": 128266,
-    "Access Scheduled": 108708,
-    "Market Prep / Pre-Listing Marketing": 107858,
+    "Market Prep / Pre-Listing Marketing": 84108,
+    "Access Scheduled": 83808,
     "On Market": 67054,
     "New Deal - Unscheduled": 60000
   },
@@ -113,7 +113,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1252.54
+      "spend": 1273.3
     }
   },
   "reps_by_month": {
@@ -179,7 +179,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -190,10 +190,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -204,12 +204,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 61,
         "booked": 58,
         "offers": 43,
@@ -234,7 +234,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -343,10 +343,10 @@
         "discoveries": 0
       },
       "Julian": {
-        "leads": 2,
-        "active": 3,
-        "booked": 2,
-        "offers": 2,
+        "leads": 4,
+        "active": 5,
+        "booked": 4,
+        "offers": 3,
         "accepted": 0,
         "available": 0,
         "pending": 0,
@@ -354,7 +354,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 2
+        "discoveries": 4
       }
     }
   },
@@ -688,16 +688,16 @@
         },
         "2026-06": {
           "counts": {
-            "available": 2,
+            "available": 1,
             "dead": 2,
             "pending": 3,
-            "on_hold": 1
+            "on_hold": 2
           },
           "gp": {
-            "available": 34105,
+            "available": 9205,
             "dead": 50000,
             "pending": 61505,
-            "on_hold": 46830
+            "on_hold": 71730
           },
           "total": 8
         },
@@ -707,7 +707,7 @@
             "dead": 1
           },
           "gp": {
-            "available": 248365,
+            "available": 224615,
             "dead": 0
           },
           "total": 9
@@ -715,17 +715,17 @@
       },
       "all_time": {
         "counts": {
-          "available": 10,
+          "available": 9,
           "dead": 23,
           "pending": 4,
-          "on_hold": 1,
+          "on_hold": 2,
           "closed": 9
         },
         "gp": {
-          "available": 282470,
+          "available": 233820,
           "dead": 513015,
           "pending": 72297,
-          "on_hold": 46830,
+          "on_hold": 71730,
           "closed": 347445
         },
         "total": 47
@@ -739,8 +739,9 @@
           "closed": 2
         },
         "ppc": {
-          "available": 4,
+          "available": 3,
           "pending": 2,
+          "on_hold": 1,
           "dead": 5
         },
         "sms": {
@@ -772,7 +773,7 @@
           },
           "ppc": {
             "pending": 2,
-            "available": 1
+            "on_hold": 1
           }
         },
         "2026-05": {
@@ -876,7 +877,7 @@
         },
         {
           "address": "6589 Roanoke Rd, Fincastle, VA 24090, USA",
-          "value": 38100,
+          "value": 14350,
           "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
@@ -920,15 +921,6 @@
           "contract_month": "2026-06"
         },
         {
-          "address": "25 W 5th St, Emporium, PA 15834, USA",
-          "value": 24900,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
           "address": "478 Spring Branch Rd, Marion, VA 24354, USA",
           "value": 7750,
           "status": "Sent to Title",
@@ -959,14 +951,14 @@
     }
   },
   "pipeline_contracts": {
-    "available": 18,
+    "available": 17,
     "pending": 4,
-    "on_hold": 6,
+    "on_hold": 7,
     "closed": 27,
     "dead": 53,
-    "gp_available": 471885,
+    "gp_available": 423235,
     "gp_pending": 72297,
-    "gp_on_hold": 222418,
+    "gp_on_hold": 247318,
     "gp_closed": 678336,
     "gp_dead": 1202445
   },
@@ -978,7 +970,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 1254.39
+    "2026-08": 1273.3
   },
   "channel_by_month": {
     "2026-01": {
@@ -1340,7 +1332,7 @@
         "closed": 2,
         "status_breakdown": {
           "Cold": {
-            "count": 80,
+            "count": 78,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1364,18 +1356,18 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 5,
+            "count": 6,
             "color": "#F3F3F3"
           },
           "Warm": {
             "count": 3,
             "color": "#F7F0C5"
           },
-          "Sold": {
-            "count": 2,
+          "Listed": {
+            "count": 3,
             "color": "#C8C8C8"
           },
-          "Listed": {
+          "Sold": {
             "count": 2,
             "color": "#C8C8C8"
           },
@@ -1406,9 +1398,9 @@
         "active": 23,
         "booked": 23,
         "offered": 16,
-        "accepted": 3,
-        "under_contract": 3,
-        "contract_available": 1,
+        "accepted": 2,
+        "under_contract": 2,
+        "contract_available": 0,
         "contract_pending": 2,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1588,7 +1580,7 @@
       },
       "pipeline_fb": {
         "leads": 190,
-        "active": 129,
+        "active": 128,
         "booked": 89,
         "offered": 73,
         "accepted": 10,
@@ -1604,7 +1596,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 56,
+            "count": 55,
             "color": "#FFD5C2"
           },
           "Warm": {
@@ -1612,7 +1604,7 @@
             "color": "#F7F0C5"
           },
           "Wrong Number": {
-            "count": 12,
+            "count": 13,
             "color": "#DCEBD8"
           },
           "Under Contract": {
@@ -1648,15 +1640,15 @@
     },
     "2026-08": {
       "google_spend": 457.02,
-      "meta_spend": 797.37,
+      "meta_spend": 816.28,
       "ppc_leads": 3,
       "fb_leads": 17,
       "google_cpc": 14.28,
-      "meta_cpc": 3.25,
+      "meta_cpc": 3.23,
       "pipeline_ppc": {
         "leads": 3,
         "active": 2,
-        "booked": 0,
+        "booked": 1,
         "offered": 0,
         "accepted": 0,
         "under_contract": 0,
@@ -1666,21 +1658,25 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 2,
-            "color": "#FFD5C2"
-          },
           "Wrong Number": {
             "count": 1,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
+          },
+          "Need to Contact": {
+            "count": 1,
+            "color": "#FFD5C2"
           }
         }
       },
       "pipeline_fb": {
         "leads": 17,
-        "active": 17,
-        "booked": 2,
-        "offered": 1,
+        "active": 16,
+        "booked": 3,
+        "offered": 2,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -1690,16 +1686,24 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 15,
+            "count": 13,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 1,
             "color": "#D2E4EB"
           },
+          "Wrong Number": {
+            "count": 1,
+            "color": "#DCEBD8"
+          },
           "Warm": {
             "count": 1,
             "color": "#F7F0C5"
+          },
+          "Owes too Much": {
+            "count": 1,
+            "color": "#D1F3EC"
           }
         }
       }
@@ -1707,18 +1711,18 @@
   },
   "pipeline": {
     "new_leads_30d": 20,
-    "dispositioned_mtd": 2,
+    "dispositioned_mtd": 4,
     "hot": 8,
-    "booked": 2,
-    "offers": 1,
+    "booked": 4,
+    "offers": 2,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 17,
-    "active": 17,
-    "booked": 2,
-    "offered": 1,
+    "active": 16,
+    "booked": 3,
+    "offered": 2,
     "accepted": 27,
     "under_contract": 27,
     "contract_available": 9,
@@ -1728,39 +1732,51 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 15,
+        "count": 13,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 1,
         "color": "#D2E4EB"
       },
+      "Wrong Number": {
+        "count": 1,
+        "color": "#DCEBD8"
+      },
       "Warm": {
         "count": 1,
         "color": "#F7F0C5"
+      },
+      "Owes too Much": {
+        "count": 1,
+        "color": "#D1F3EC"
       }
     }
   },
   "pipeline_ppc": {
     "leads": 3,
     "active": 2,
-    "booked": 0,
+    "booked": 1,
     "offered": 0,
-    "accepted": 21,
-    "under_contract": 21,
-    "contract_available": 7,
+    "accepted": 20,
+    "under_contract": 20,
+    "contract_available": 6,
     "contract_pending": 2,
     "contract_closed": 4,
     "contract_dead": 8,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 2,
-        "color": "#FFD5C2"
-      },
       "Wrong Number": {
         "count": 1,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 1,
+        "color": "#F7F0C5"
+      },
+      "Need to Contact": {
+        "count": 1,
+        "color": "#FFD5C2"
       }
     }
   },
@@ -1772,15 +1788,15 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 2,
-      "offers": 2,
+      "discoveries": 4,
+      "offers": 3,
       "contracts": 0,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
     "Julian": 189416,
-    "Charles": 354767
+    "Charles": 306117
   },
   "agent_deals": [
     {
@@ -1915,7 +1931,7 @@
     },
     {
       "address": "6589 Roanoke Rd, Fincastle, VA 24090, USA",
-      "value": 38100,
+      "value": 14350,
       "status": "Available",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
@@ -1959,16 +1975,6 @@
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "25 W 5th St, Emporium, PA 15834, USA",
-      "value": 24900,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"

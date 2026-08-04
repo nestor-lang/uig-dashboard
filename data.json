@@ -1,13 +1,13 @@
 {
   "report_date": "August 04, 2026",
-  "last_updated": "2026-08-04 12:01 EST",
+  "last_updated": "2026-08-04 13:01 EST",
   "google": {
-    "spend_mtd": 1268.52,
-    "clicks_mtd": 61,
-    "crm_leads": 6,
-    "crm_leads_today": 1,
-    "cpc": 20.8,
-    "cpl": 211.42,
+    "spend_mtd": 1283.11,
+    "clicks_mtd": 63,
+    "crm_leads": 7,
+    "crm_leads_today": 2,
+    "cpc": 20.37,
+    "cpl": 183.3,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,49 +20,49 @@
         "clicks": 32,
         "cpc": 5.56,
         "crm_leads": 0,
-        "cpl": 211.42
+        "cpl": 183.3
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1090.64,
-        "spend_today": 29.03,
-        "clicks": 29,
-        "cpc": 37.61,
+        "spend": 1105.23,
+        "spend_today": 43.62,
+        "clicks": 31,
+        "cpc": 35.65,
         "crm_leads": 0,
-        "cpl": 211.42
+        "cpl": 183.3
       }
     ]
   },
   "meta": {
-    "spend_30d": 1176.79,
-    "clicks_30d": 374,
-    "crm_leads": 24,
-    "crm_leads_today": 2,
-    "cpc": 3.15,
-    "cpl_crm": 49.03,
-    "cost_per_hot": 196.13,
+    "spend_30d": 1191.66,
+    "clicks_30d": 376,
+    "crm_leads": 25,
+    "crm_leads_today": 3,
+    "cpc": 3.17,
+    "cpl_crm": 47.67,
+    "cost_per_hot": 198.61,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1176.79,
-        "spend_today": 100.84,
-        "clicks": 374,
-        "crm_leads": 24,
-        "cpl_crm": 49.03
+        "spend": 1191.66,
+        "spend_today": 115.71,
+        "clicks": 376,
+        "crm_leads": 25,
+        "cpl_crm": 47.67
       }
     ]
   },
   "potential_income": 429835,
-  "assigned_income": 72297,
+  "assigned_income": 69896,
   "by_stage": {
-    "Initial Inspection Completed": 159316,
+    "Initial Inspection Completed": 179316,
     "New Deal - Unscheduled": 85000,
     "Market Prep / Pre-Listing Marketing": 69758,
     "On Market": 63004,
-    "Access Scheduled": 52758
+    "Access Scheduled": 32758
   },
   "by_agent": {
-    "Virginia": 61505,
+    "Virginia": 59104,
     "Kentucky": 10792
   },
   "closed_by_month": {
@@ -103,7 +103,7 @@
     },
     "2026-06": {
       "closed": 0.0,
-      "pending": 61505.0,
+      "pending": 59104.4,
       "spend": 16399.44
     },
     "2026-07": {
@@ -114,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2444.85
+      "spend": 2474.77
     }
   },
   "reps_by_month": {
@@ -180,7 +180,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -191,10 +191,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -205,12 +205,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -221,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 61,
         "booked": 58,
         "offers": 43,
@@ -235,7 +235,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -279,7 +279,7 @@
         "pending": 3,
         "dead": 3,
         "closed": 0,
-        "pending_income": 61505.0,
+        "pending_income": 59104.4,
         "closed_revenue": 146447.9,
         "discoveries": 47
       },
@@ -301,7 +301,7 @@
     "2026-07": {
       "Charles": {
         "leads": 49,
-        "active": 55,
+        "active": 57,
         "booked": 48,
         "offers": 49,
         "accepted": 9,
@@ -601,8 +601,8 @@
           "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
           "value": 20000,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -722,7 +722,7 @@
           "gp": {
             "available": 9205,
             "dead": 96830,
-            "pending": 61505,
+            "pending": 59104,
             "on_hold": 24900
           },
           "total": 8
@@ -750,7 +750,7 @@
         "gp": {
           "available": 215420,
           "dead": 574195,
-          "pending": 72297,
+          "pending": 69896,
           "on_hold": 24900,
           "closed": 347445
         },
@@ -946,7 +946,7 @@
         },
         {
           "address": "317 55th St, Newport News, VA 23607, USA",
-          "value": 18605,
+          "value": 16204,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -972,7 +972,7 @@
     "closed": 28,
     "dead": 55,
     "gp_available": 429835,
-    "gp_pending": 72297,
+    "gp_pending": 69896,
     "gp_on_hold": 182988,
     "gp_closed": 680336,
     "gp_dead": 1263625
@@ -985,7 +985,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 2445.31
+    "2026-08": 2474.77
   },
   "channel_by_month": {
     "2026-01": {
@@ -1536,7 +1536,7 @@
       "meta_cpc": 2.68,
       "pipeline_ppc": {
         "leads": 58,
-        "active": 29,
+        "active": 30,
         "booked": 25,
         "offered": 23,
         "accepted": 6,
@@ -1591,7 +1591,7 @@
       },
       "pipeline_fb": {
         "leads": 189,
-        "active": 126,
+        "active": 127,
         "booked": 90,
         "offered": 75,
         "accepted": 10,
@@ -1607,7 +1607,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 55,
+            "count": 53,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1626,13 +1626,13 @@
             "count": 7,
             "color": "#D1F3EC"
           },
+          "No Longer Selling": {
+            "count": 7,
+            "color": "#F3F3F3"
+          },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
-          },
-          "No Longer Selling": {
-            "count": 5,
-            "color": "#F3F3F3"
           },
           "Dead": {
             "count": 3,
@@ -1650,15 +1650,15 @@
       }
     },
     "2026-08": {
-      "google_spend": 1268.52,
-      "meta_spend": 1176.79,
-      "ppc_leads": 6,
-      "fb_leads": 24,
-      "google_cpc": 20.8,
-      "meta_cpc": 3.15,
+      "google_spend": 1283.11,
+      "meta_spend": 1191.66,
+      "ppc_leads": 7,
+      "fb_leads": 25,
+      "google_cpc": 20.37,
+      "meta_cpc": 3.17,
       "pipeline_ppc": {
-        "leads": 6,
-        "active": 4,
+        "leads": 7,
+        "active": 5,
         "booked": 2,
         "offered": 1,
         "accepted": 0,
@@ -1670,7 +1670,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 2,
+            "count": 3,
             "color": "#FFD5C2"
           },
           "Hot": {
@@ -1692,8 +1692,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 24,
-        "active": 22,
+        "leads": 25,
+        "active": 23,
         "booked": 11,
         "offered": 7,
         "accepted": 1,
@@ -1705,7 +1705,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 11,
+            "count": 12,
             "color": "#FFD5C2"
           },
           "Warm": {
@@ -1729,7 +1729,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 30,
+    "new_leads_30d": 32,
     "dispositioned_mtd": 14,
     "hot": 8,
     "booked": 13,
@@ -1738,8 +1738,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 24,
-    "active": 22,
+    "leads": 25,
+    "active": 23,
     "booked": 11,
     "offered": 7,
     "accepted": 30,
@@ -1751,7 +1751,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 11,
+        "count": 12,
         "color": "#FFD5C2"
       },
       "Warm": {
@@ -1773,8 +1773,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 6,
-    "active": 4,
+    "leads": 7,
+    "active": 5,
     "booked": 2,
     "offered": 1,
     "accepted": 20,
@@ -1786,7 +1786,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 2,
+        "count": 3,
         "color": "#FFD5C2"
       },
       "Hot": {
@@ -1823,7 +1823,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 214416,
-    "Charles": 287717
+    "Charles": 285316
   },
   "agent_deals": [
     {
@@ -1860,8 +1860,8 @@
       "address": "2013 Hobson Ln, Richmond, VA 23223, USA",
       "value": 20000,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"
@@ -2018,7 +2018,7 @@
     },
     {
       "address": "317 55th St, Newport News, VA 23607, USA",
-      "value": 18605,
+      "value": 16204,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -2038,8 +2038,8 @@
     }
   ],
   "sources": {
-    "ppc": 6,
-    "facebook": 24,
+    "ppc": 7,
+    "facebook": 25,
     "ppc_inbound_call": 19
   },
   "hot_leads": [

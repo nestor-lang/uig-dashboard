@@ -1,13 +1,13 @@
 {
   "report_date": "August 04, 2026",
-  "last_updated": "2026-08-04 10:25 EST",
+  "last_updated": "2026-08-04 11:01 EST",
   "google": {
-    "spend_mtd": 1239.49,
-    "clicks_mtd": 60,
+    "spend_mtd": 1268.52,
+    "clicks_mtd": 61,
     "crm_leads": 6,
     "crm_leads_today": 1,
-    "cpc": 20.66,
-    "cpl": 206.58,
+    "cpc": 20.8,
+    "cpl": 211.42,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,46 +20,46 @@
         "clicks": 32,
         "cpc": 5.56,
         "crm_leads": 0,
-        "cpl": 206.58
+        "cpl": 211.42
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1061.61,
-        "spend_today": 0.0,
-        "clicks": 28,
-        "cpc": 37.91,
+        "spend": 1090.64,
+        "spend_today": 29.03,
+        "clicks": 29,
+        "cpc": 37.61,
         "crm_leads": 0,
-        "cpl": 206.58
+        "cpl": 211.42
       }
     ]
   },
   "meta": {
-    "spend_30d": 1163.05,
-    "clicks_30d": 371,
+    "spend_30d": 1168.73,
+    "clicks_30d": 373,
     "crm_leads": 24,
     "crm_leads_today": 2,
     "cpc": 3.13,
-    "cpl_crm": 48.46,
-    "cost_per_hot": 193.84,
+    "cpl_crm": 48.7,
+    "cost_per_hot": 194.79,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1163.05,
-        "spend_today": 87.61,
-        "clicks": 371,
+        "spend": 1168.73,
+        "spend_today": 92.87,
+        "clicks": 373,
         "crm_leads": 24,
-        "cpl_crm": 48.46
+        "cpl_crm": 48.7
       }
     ]
   },
   "potential_income": 429835,
   "assigned_income": 72297,
   "by_stage": {
-    "Initial Inspection Completed": 128266,
+    "Initial Inspection Completed": 159316,
     "New Deal - Unscheduled": 85000,
-    "Access Scheduled": 83808,
     "Market Prep / Pre-Listing Marketing": 69758,
-    "On Market": 63004
+    "On Market": 63004,
+    "Access Scheduled": 52758
   },
   "by_agent": {
     "Virginia": 61505,
@@ -72,7 +72,8 @@
     "2026-04": 139929,
     "2026-05": 94509,
     "2026-06": 213771,
-    "2026-07": 94863
+    "2026-07": 94863,
+    "2026-08": 2000
   },
   "roa_by_month": {
     "2026-01": {
@@ -96,7 +97,7 @@
       "spend": 16068.59
     },
     "2026-05": {
-      "closed": 57100.0,
+      "closed": 59100.0,
       "pending": 0.0,
       "spend": 20672.89
     },
@@ -113,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2402.54
+      "spend": 2437.25
     }
   },
   "reps_by_month": {
@@ -179,7 +180,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -190,10 +191,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -204,12 +205,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -220,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 61,
         "booked": 58,
         "offers": 43,
@@ -234,7 +235,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -258,10 +259,10 @@
         "booked": 57,
         "offers": 47,
         "accepted": 8,
-        "available": 2,
+        "available": 1,
         "pending": 0,
         "dead": 3,
-        "closed": 0,
+        "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 94508.68,
         "discoveries": 47
@@ -353,7 +354,7 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
+        "closed_revenue": 2000.0,
         "discoveries": 13
       }
     }
@@ -412,13 +413,13 @@
         "2026-05": {
           "counts": {
             "dead": 3,
-            "on_hold": 3,
-            "closed": 3
+            "on_hold": 2,
+            "closed": 4
           },
           "gp": {
             "dead": 53887,
-            "on_hold": 85098,
-            "closed": 46404
+            "on_hold": 67598,
+            "closed": 48404
           },
           "total": 9
         },
@@ -458,14 +459,14 @@
         "counts": {
           "available": 9,
           "dead": 30,
-          "on_hold": 5,
-          "closed": 18
+          "on_hold": 4,
+          "closed": 19
         },
         "gp": {
           "available": 214415,
           "dead": 689430,
-          "on_hold": 175588,
-          "closed": 330891
+          "on_hold": 158088,
+          "closed": 332891
         },
         "total": 62
       },
@@ -473,7 +474,8 @@
         "fb": {
           "available": 5,
           "dead": 6,
-          "on_hold": 3
+          "on_hold": 2,
+          "closed": 1
         },
         "ppc": {
           "available": 3,
@@ -517,7 +519,8 @@
             "closed": 1
           },
           "fb": {
-            "on_hold": 2,
+            "on_hold": 1,
+            "closed": 1,
             "dead": 1
           },
           "sms": {
@@ -857,8 +860,8 @@
           "address": "345 Ridge Ct, Roswell, GA 30076, USA",
           "value": 31050,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -967,13 +970,13 @@
   "pipeline_contracts": {
     "available": 17,
     "pending": 4,
-    "on_hold": 7,
-    "closed": 27,
+    "on_hold": 6,
+    "closed": 28,
     "dead": 54,
     "gp_available": 429835,
     "gp_pending": 72297,
-    "gp_on_hold": 247318,
-    "gp_closed": 678336,
+    "gp_on_hold": 229818,
+    "gp_closed": 680336,
     "gp_dead": 1216795
   },
   "spend_by_month": {
@@ -984,7 +987,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 2402.54
+    "2026-08": 2437.25
   },
   "channel_by_month": {
     "2026-01": {
@@ -1291,7 +1294,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 17,
+            "count": 18,
             "color": "#D2E4EB"
           },
           "Wrong Number": {
@@ -1303,7 +1306,7 @@
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 5,
+            "count": 4,
             "color": "#FFD5C2"
           },
           "Sold": {
@@ -1337,13 +1340,13 @@
         "active": 90,
         "booked": 71,
         "offered": 56,
-        "accepted": 8,
-        "under_contract": 8,
+        "accepted": 9,
+        "under_contract": 9,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 2,
+        "contract_closed": 3,
         "contract_dead": 6,
-        "closed": 2,
+        "closed": 3,
         "status_breakdown": {
           "Cold": {
             "count": 78,
@@ -1366,7 +1369,7 @@
             "color": "#D1F3EC"
           },
           "Under Contract": {
-            "count": 8,
+            "count": 7,
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
@@ -1381,13 +1384,13 @@
             "count": 3,
             "color": "#C8C8C8"
           },
+          "Closed": {
+            "count": 3,
+            "color": "#DCEBD8"
+          },
           "Sold": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "Closed": {
-            "count": 2,
-            "color": "#DCEBD8"
           },
           "Not Workable": {
             "count": 1,
@@ -1649,17 +1652,17 @@
       }
     },
     "2026-08": {
-      "google_spend": 1239.49,
-      "meta_spend": 1163.05,
+      "google_spend": 1268.52,
+      "meta_spend": 1168.73,
       "ppc_leads": 6,
       "fb_leads": 24,
-      "google_cpc": 20.66,
+      "google_cpc": 20.8,
       "meta_cpc": 3.13,
       "pipeline_ppc": {
         "leads": 6,
         "active": 4,
         "booked": 2,
-        "offered": 0,
+        "offered": 1,
         "accepted": 0,
         "under_contract": 0,
         "contract_available": 0,
@@ -1672,13 +1675,17 @@
             "count": 2,
             "color": "#FFD5C2"
           },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           },
           "Wrong Number": {
             "count": 1,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 1,
@@ -1726,9 +1733,9 @@
   "pipeline": {
     "new_leads_30d": 30,
     "dispositioned_mtd": 14,
-    "hot": 7,
+    "hot": 8,
     "booked": 13,
-    "offers": 7,
+    "offers": 8,
     "under_contract": 0,
     "closed": 0
   },
@@ -1737,11 +1744,11 @@
     "active": 22,
     "booked": 11,
     "offered": 7,
-    "accepted": 28,
-    "under_contract": 28,
+    "accepted": 29,
+    "under_contract": 29,
     "contract_available": 9,
     "contract_pending": 1,
-    "contract_closed": 2,
+    "contract_closed": 3,
     "contract_dead": 16,
     "closed": 0,
     "status_breakdown": {
@@ -1771,7 +1778,7 @@
     "leads": 6,
     "active": 4,
     "booked": 2,
-    "offered": 0,
+    "offered": 1,
     "accepted": 20,
     "under_contract": 20,
     "contract_available": 6,
@@ -1784,13 +1791,17 @@
         "count": 2,
         "color": "#FFD5C2"
       },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
+      "Hot": {
+        "count": 1,
+        "color": "#F7D1D0"
       },
       "Wrong Number": {
         "count": 1,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 1,
+        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 1,
@@ -1809,7 +1820,7 @@
       "discoveries": 13,
       "offers": 11,
       "contracts": 1,
-      "revenue": 0.0
+      "revenue": 2000.0
     }
   },
   "pipeline_by_agent": {
@@ -1911,8 +1922,8 @@
       "address": "345 Ridge Ct, Roswell, GA 30076, USA",
       "value": 31050,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Charles"

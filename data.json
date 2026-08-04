@@ -1,13 +1,13 @@
 {
   "report_date": "August 04, 2026",
-  "last_updated": "2026-08-04 18:01 EST",
+  "last_updated": "2026-08-04 19:01 EST",
   "google": {
     "spend_mtd": 1708.41,
     "clicks_mtd": 69,
-    "crm_leads": 11,
-    "crm_leads_today": 6,
+    "crm_leads": 12,
+    "crm_leads_today": 7,
     "cpc": 24.76,
-    "cpl": 155.31,
+    "cpl": 142.37,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 32,
         "cpc": 5.56,
         "crm_leads": 0,
-        "cpl": 155.31
+        "cpl": 142.37
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 37,
         "cpc": 41.37,
         "crm_leads": 0,
-        "cpl": 155.31
+        "cpl": 142.37
       }
     ]
   },
   "meta": {
-    "spend_30d": 1276.3,
-    "clicks_30d": 410,
+    "spend_30d": 1295.94,
+    "clicks_30d": 413,
     "crm_leads": 28,
     "crm_leads_today": 6,
-    "cpc": 3.11,
-    "cpl_crm": 45.58,
-    "cost_per_hot": 212.72,
+    "cpc": 3.14,
+    "cpl_crm": 46.28,
+    "cost_per_hot": 215.99,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1276.3,
-        "spend_today": 200.15,
-        "clicks": 410,
+        "spend": 1295.94,
+        "spend_today": 219.77,
+        "clicks": 413,
         "crm_leads": 28,
-        "cpl_crm": 45.58
+        "cpl_crm": 46.28
       }
     ]
   },
@@ -56,10 +56,10 @@
   "assigned_income": 86096,
   "by_stage": {
     "Initial Inspection Completed": 179316,
-    "New Deal - Unscheduled": 85000,
     "Market Prep / Pre-Listing Marketing": 65758,
-    "On Market": 46804,
-    "Access Scheduled": 32758
+    "New Deal - Unscheduled": 60000,
+    "Access Scheduled": 57758,
+    "On Market": 46804
   },
   "by_agent": {
     "Virginia": 59104,
@@ -115,7 +115,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2984.29
+      "spend": 3003.45
     }
   },
   "reps_by_month": {
@@ -181,7 +181,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 30,
         "active": 10,
         "booked": 14,
         "offers": 24,
@@ -192,10 +192,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 30
       },
       "Julian": {
-        "leads": 38,
+        "leads": 40,
         "active": 10,
         "booked": 20,
         "offers": 40,
@@ -206,12 +206,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 40
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 36,
@@ -222,10 +222,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 61,
         "booked": 58,
         "offers": 43,
@@ -236,7 +236,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -301,7 +301,7 @@
     },
     "2026-07": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 57,
         "booked": 48,
         "offers": 49,
@@ -312,10 +312,10 @@
         "closed": 0,
         "pending_income": 16200.0,
         "closed_revenue": 88594.62,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 74,
+        "leads": 75,
         "active": 80,
         "booked": 67,
         "offers": 59,
@@ -326,7 +326,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 74
+        "discoveries": 75
       }
     },
     "2026-08": {
@@ -575,8 +575,8 @@
           "address": "319 Myrtle Ave, Rocky Mount, NC 27801, USA",
           "value": 25000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-08"
         },
@@ -984,7 +984,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 2984.71
+    "2026-08": 3004.35
   },
   "channel_by_month": {
     "2026-01": {
@@ -1646,14 +1646,14 @@
     },
     "2026-08": {
       "google_spend": 1708.41,
-      "meta_spend": 1276.3,
-      "ppc_leads": 11,
+      "meta_spend": 1295.94,
+      "ppc_leads": 12,
       "fb_leads": 28,
       "google_cpc": 24.76,
-      "meta_cpc": 3.11,
+      "meta_cpc": 3.14,
       "pipeline_ppc": {
-        "leads": 11,
-        "active": 9,
+        "leads": 12,
+        "active": 10,
         "booked": 2,
         "offered": 1,
         "accepted": 0,
@@ -1665,7 +1665,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 6,
+            "count": 7,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1736,7 +1736,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 39,
+    "new_leads_30d": 40,
     "dispositioned_mtd": 15,
     "hot": 8,
     "booked": 14,
@@ -1788,8 +1788,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 11,
-    "active": 9,
+    "leads": 12,
+    "active": 10,
     "booked": 2,
     "offered": 1,
     "accepted": 21,
@@ -1801,7 +1801,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 6,
+        "count": 7,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1849,8 +1849,8 @@
       "address": "319 Myrtle Ave, Rocky Mount, NC 27801, USA",
       "value": 25000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-08",
       "agent": "Julian"
@@ -2057,9 +2057,9 @@
     }
   ],
   "sources": {
-    "ppc": 11,
+    "ppc": 12,
     "facebook": 28,
-    "ppc_inbound_call": 20
+    "ppc_inbound_call": 21
   },
   "hot_leads": [
     {

@@ -1,6 +1,6 @@
 {
   "report_date": "August 05, 2026",
-  "last_updated": "2026-08-05 16:01 EST",
+  "last_updated": "2026-08-05 17:01 EST",
   "google": {
     "spend_mtd": 2429.23,
     "clicks_mtd": 93,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 1634.32,
-    "clicks_30d": 511,
+    "spend_30d": 1645.86,
+    "clicks_30d": 517,
     "crm_leads": 39,
     "crm_leads_today": 9,
-    "cpc": 3.2,
-    "cpl_crm": 41.91,
-    "cost_per_hot": 326.86,
+    "cpc": 3.18,
+    "cpl_crm": 42.2,
+    "cost_per_hot": 411.46,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1634.32,
-        "spend_today": 250.84,
-        "clicks": 511,
+        "spend": 1645.86,
+        "spend_today": 262.36,
+        "clicks": 517,
         "crm_leads": 39,
-        "cpl_crm": 41.91
+        "cpl_crm": 42.2
       }
     ]
   },
@@ -114,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4062.83
+      "spend": 4073.13
     }
   },
   "reps_by_month": {
@@ -315,7 +315,7 @@
       },
       "Julian": {
         "leads": 75,
-        "active": 81,
+        "active": 80,
         "booked": 68,
         "offers": 59,
         "accepted": 8,
@@ -331,7 +331,7 @@
     "2026-08": {
       "Charles": {
         "leads": 5,
-        "active": 6,
+        "active": 7,
         "booked": 4,
         "offers": 6,
         "accepted": 1,
@@ -997,7 +997,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 4063.55
+    "2026-08": 4075.09
   },
   "channel_by_month": {
     "2026-01": {
@@ -1599,7 +1599,7 @@
       },
       "pipeline_fb": {
         "leads": 189,
-        "active": 125,
+        "active": 124,
         "booked": 92,
         "offered": 76,
         "accepted": 9,
@@ -1611,7 +1611,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 80,
+            "count": 81,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1647,7 +1647,7 @@
             "color": "#F3F3F3"
           },
           "Hot": {
-            "count": 2,
+            "count": 1,
             "color": "#F7D1D0"
           },
           "Sold": {
@@ -1659,11 +1659,11 @@
     },
     "2026-08": {
       "google_spend": 2429.23,
-      "meta_spend": 1634.32,
+      "meta_spend": 1645.86,
       "ppc_leads": 15,
       "fb_leads": 39,
       "google_cpc": 26.12,
-      "meta_cpc": 3.2,
+      "meta_cpc": 3.18,
       "pipeline_ppc": {
         "leads": 15,
         "active": 12,
@@ -1755,7 +1755,7 @@
   "pipeline": {
     "new_leads_30d": 54,
     "dispositioned_mtd": 23,
-    "hot": 7,
+    "hot": 6,
     "booked": 20,
     "offers": 15,
     "under_contract": 1,
@@ -2096,12 +2096,6 @@
       "source": "Facebook"
     },
     {
-      "name": "152 Mosby Cir",
-      "address": "152 Mosby Cir, Warrenton, VA 20186, USA",
-      "phone": "(540) 270-1008",
-      "source": "Facebook"
-    },
-    {
       "name": "444 Walker Rd",
       "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
       "phone": "(541) 973-7372",
@@ -2112,6 +2106,12 @@
       "address": "2203 Gordon St, Hopewell, VA 23860, USA",
       "phone": "(804) 930-7297",
       "source": "Facebook"
+    },
+    {
+      "name": "115 6th Ave",
+      "address": "115 6th Ave, Lawrenceville, VA 23868, USA",
+      "phone": "+14347749287",
+      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

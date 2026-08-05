@@ -1,13 +1,13 @@
 {
   "report_date": "August 05, 2026",
-  "last_updated": "2026-08-05 15:01 EST",
+  "last_updated": "2026-08-05 16:01 EST",
   "google": {
-    "spend_mtd": 2615.55,
-    "clicks_mtd": 94,
+    "spend_mtd": 2429.23,
+    "clicks_mtd": 93,
     "crm_leads": 15,
     "crm_leads_today": 3,
-    "cpc": 27.83,
-    "cpl": 174.37,
+    "cpc": 26.12,
+    "cpl": 161.95,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,40 +15,40 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 215.77,
-        "spend_today": 37.88,
-        "clicks": 48,
-        "cpc": 4.5,
+        "spend": 217.41,
+        "spend_today": 39.52,
+        "clicks": 49,
+        "cpc": 4.44,
         "crm_leads": 0,
-        "cpl": 174.37
+        "cpl": 161.95
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2399.78,
-        "spend_today": 661.44,
-        "clicks": 46,
-        "cpc": 52.17,
+        "spend": 2211.82,
+        "spend_today": 473.48,
+        "clicks": 44,
+        "cpc": 50.27,
         "crm_leads": 0,
-        "cpl": 174.37
+        "cpl": 161.95
       }
     ]
   },
   "meta": {
-    "spend_30d": 1612.35,
-    "clicks_30d": 509,
+    "spend_30d": 1634.32,
+    "clicks_30d": 511,
     "crm_leads": 39,
     "crm_leads_today": 9,
-    "cpc": 3.17,
-    "cpl_crm": 41.34,
-    "cost_per_hot": 268.72,
+    "cpc": 3.2,
+    "cpl_crm": 41.91,
+    "cost_per_hot": 326.86,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1612.35,
-        "spend_today": 228.87,
-        "clicks": 509,
+        "spend": 1634.32,
+        "spend_today": 250.84,
+        "clicks": 511,
         "crm_leads": 39,
-        "cpl_crm": 41.34
+        "cpl_crm": 41.91
       }
     ]
   },
@@ -114,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4227.41
+      "spend": 4062.83
     }
   },
   "reps_by_month": {
@@ -330,10 +330,10 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 4,
+        "leads": 5,
         "active": 6,
-        "booked": 3,
-        "offers": 5,
+        "booked": 4,
+        "offers": 6,
         "accepted": 1,
         "available": 1,
         "pending": 0,
@@ -341,7 +341,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 4
+        "discoveries": 5
       },
       "Julian": {
         "leads": 18,
@@ -997,7 +997,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 4227.9
+    "2026-08": 4063.55
   },
   "channel_by_month": {
     "2026-01": {
@@ -1489,7 +1489,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 68,
+            "count": 69,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1520,10 +1520,6 @@
             "count": 5,
             "color": "#C8C8C8"
           },
-          "Hot": {
-            "count": 3,
-            "color": "#F7D1D0"
-          },
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
@@ -1531,6 +1527,10 @@
           "Warm": {
             "count": 2,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           }
         }
       }
@@ -1658,12 +1658,12 @@
       }
     },
     "2026-08": {
-      "google_spend": 2615.55,
-      "meta_spend": 1612.35,
+      "google_spend": 2429.23,
+      "meta_spend": 1634.32,
       "ppc_leads": 15,
       "fb_leads": 39,
-      "google_cpc": 27.83,
-      "meta_cpc": 3.17,
+      "google_cpc": 26.12,
+      "meta_cpc": 3.2,
       "pipeline_ppc": {
         "leads": 15,
         "active": 12,
@@ -1710,8 +1710,8 @@
       "pipeline_fb": {
         "leads": 39,
         "active": 32,
-        "booked": 15,
-        "offered": 12,
+        "booked": 16,
+        "offered": 13,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -1721,11 +1721,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 17,
+            "count": 16,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 7,
+            "count": 8,
             "color": "#D2E4EB"
           },
           "Warm": {
@@ -1754,18 +1754,18 @@
   },
   "pipeline": {
     "new_leads_30d": 54,
-    "dispositioned_mtd": 22,
-    "hot": 8,
-    "booked": 19,
-    "offers": 14,
+    "dispositioned_mtd": 23,
+    "hot": 7,
+    "booked": 20,
+    "offers": 15,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 39,
     "active": 32,
-    "booked": 15,
-    "offered": 12,
+    "booked": 16,
+    "offered": 13,
     "accepted": 29,
     "under_contract": 29,
     "contract_available": 8,
@@ -1775,11 +1775,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 17,
+        "count": 16,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 7,
+        "count": 8,
         "color": "#D2E4EB"
       },
       "Warm": {
@@ -1849,8 +1849,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 4,
-      "offers": 5,
+      "discoveries": 5,
+      "offers": 6,
       "contracts": 1,
       "revenue": 0.0
     },
@@ -2102,15 +2102,15 @@
       "source": "Facebook"
     },
     {
-      "name": "4603 Gladys Ct",
-      "address": "4603 Gladys Ct, Lanham, MD 20706, USA",
-      "phone": "(203) 645-8822",
-      "source": "Facebook"
-    },
-    {
       "name": "444 Walker Rd",
       "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
       "phone": "(541) 973-7372",
+      "source": "Facebook"
+    },
+    {
+      "name": "2203 Gordon St",
+      "address": "2203 Gordon St, Hopewell, VA 23860, USA",
+      "phone": "(804) 930-7297",
       "source": "Facebook"
     }
   ],

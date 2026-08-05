@@ -1,13 +1,13 @@
 {
   "report_date": "August 05, 2026",
-  "last_updated": "2026-08-05 14:01 EST",
+  "last_updated": "2026-08-05 15:01 EST",
   "google": {
-    "spend_mtd": 2333.34,
-    "clicks_mtd": 91,
+    "spend_mtd": 2615.55,
+    "clicks_mtd": 94,
     "crm_leads": 15,
     "crm_leads_today": 3,
-    "cpc": 25.64,
-    "cpl": 155.56,
+    "cpc": 27.83,
+    "cpl": 174.37,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,51 +15,51 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 215.5,
-        "spend_today": 37.62,
+        "spend": 215.77,
+        "spend_today": 37.88,
         "clicks": 48,
-        "cpc": 4.49,
+        "cpc": 4.5,
         "crm_leads": 0,
-        "cpl": 155.56
+        "cpl": 174.37
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2117.84,
-        "spend_today": 379.5,
-        "clicks": 43,
-        "cpc": 49.25,
+        "spend": 2399.78,
+        "spend_today": 661.44,
+        "clicks": 46,
+        "cpc": 52.17,
         "crm_leads": 0,
-        "cpl": 155.56
+        "cpl": 174.37
       }
     ]
   },
   "meta": {
-    "spend_30d": 1590.61,
-    "clicks_30d": 504,
-    "crm_leads": 38,
-    "crm_leads_today": 8,
-    "cpc": 3.16,
-    "cpl_crm": 41.86,
-    "cost_per_hot": 265.1,
+    "spend_30d": 1612.35,
+    "clicks_30d": 509,
+    "crm_leads": 39,
+    "crm_leads_today": 9,
+    "cpc": 3.17,
+    "cpl_crm": 41.34,
+    "cost_per_hot": 268.72,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1590.61,
-        "spend_today": 207.16,
-        "clicks": 504,
-        "crm_leads": 38,
-        "cpl_crm": 41.86
+        "spend": 1612.35,
+        "spend_today": 228.87,
+        "clicks": 509,
+        "crm_leads": 39,
+        "cpl_crm": 41.34
       }
     ]
   },
-  "potential_income": 337109,
+  "potential_income": 435939,
   "assigned_income": 69896,
   "by_stage": {
     "Initial Inspection Completed": 205590,
     "Market Prep / Pre-Listing Marketing": 65758,
     "On Market": 63004,
     "Access Scheduled": 57758,
-    "New Deal - Unscheduled": -55000
+    "New Deal - Unscheduled": 43830
   },
   "by_agent": {
     "Virginia": 59104,
@@ -108,13 +108,13 @@
     },
     "2026-07": {
       "closed": 0.0,
-      "pending": 16200.0,
+      "pending": 0.0,
       "spend": 21857.71
     },
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3923.26
+      "spend": 4227.41
     }
   },
   "reps_by_month": {
@@ -305,11 +305,11 @@
         "booked": 49,
         "offers": 49,
         "accepted": 9,
-        "available": 5,
-        "pending": 1,
+        "available": 6,
+        "pending": 0,
         "dead": 1,
         "closed": 0,
-        "pending_income": 16200.0,
+        "pending_income": 0.0,
         "closed_revenue": 88594.62,
         "discoveries": 49
       },
@@ -347,7 +347,7 @@
         "leads": 18,
         "active": 18,
         "booked": 16,
-        "offers": 15,
+        "offers": 16,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -735,7 +735,7 @@
             "available": 1
           },
           "gp": {
-            "available": -55000
+            "available": 43830
           },
           "total": 1
         }
@@ -748,7 +748,7 @@
           "closed": 9
         },
         "gp": {
-          "available": 160420,
+          "available": 259250,
           "dead": 599095,
           "pending": 69896,
           "closed": 347445
@@ -859,7 +859,7 @@
       "deals": [
         {
           "address": "157 Craig St, Craigsville, VA 24430, USA",
-          "value": -55000,
+          "value": 43830,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -983,7 +983,7 @@
     "on_hold": 5,
     "closed": 28,
     "dead": 56,
-    "gp_available": 337109,
+    "gp_available": 435939,
     "gp_pending": 69896,
     "gp_on_hold": 218088,
     "gp_closed": 680336,
@@ -997,7 +997,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 3923.95
+    "2026-08": 4227.9
   },
   "channel_by_month": {
     "2026-01": {
@@ -1658,15 +1658,15 @@
       }
     },
     "2026-08": {
-      "google_spend": 2333.34,
-      "meta_spend": 1590.61,
+      "google_spend": 2615.55,
+      "meta_spend": 1612.35,
       "ppc_leads": 15,
-      "fb_leads": 38,
-      "google_cpc": 25.64,
-      "meta_cpc": 3.16,
+      "fb_leads": 39,
+      "google_cpc": 27.83,
+      "meta_cpc": 3.17,
       "pipeline_ppc": {
         "leads": 15,
-        "active": 13,
+        "active": 12,
         "booked": 4,
         "offered": 2,
         "accepted": 1,
@@ -1678,12 +1678,16 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 8,
+            "count": 7,
             "color": "#FFD5C2"
           },
           "Warm": {
             "count": 2,
             "color": "#F7F0C5"
+          },
+          "Listed": {
+            "count": 2,
+            "color": "#C8C8C8"
           },
           "Under Contract": {
             "count": 1,
@@ -1700,18 +1704,14 @@
           "Wrong Number": {
             "count": 1,
             "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 1,
-            "color": "#C8C8C8"
           }
         }
       },
       "pipeline_fb": {
-        "leads": 38,
+        "leads": 39,
         "active": 32,
         "booked": 15,
-        "offered": 11,
+        "offered": 12,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -1724,16 +1724,16 @@
             "count": 17,
             "color": "#FFD5C2"
           },
-          "Warm": {
-            "count": 7,
-            "color": "#F7F0C5"
-          },
           "Cold": {
-            "count": 6,
+            "count": 7,
             "color": "#D2E4EB"
           },
+          "Warm": {
+            "count": 6,
+            "color": "#F7F0C5"
+          },
           "Wrong Number": {
-            "count": 3,
+            "count": 4,
             "color": "#DCEBD8"
           },
           "Listed": {
@@ -1753,19 +1753,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 53,
+    "new_leads_30d": 54,
     "dispositioned_mtd": 22,
     "hot": 8,
     "booked": 19,
-    "offers": 13,
+    "offers": 14,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 38,
+    "leads": 39,
     "active": 32,
     "booked": 15,
-    "offered": 11,
+    "offered": 12,
     "accepted": 29,
     "under_contract": 29,
     "contract_available": 8,
@@ -1778,16 +1778,16 @@
         "count": 17,
         "color": "#FFD5C2"
       },
-      "Warm": {
-        "count": 7,
-        "color": "#F7F0C5"
-      },
       "Cold": {
-        "count": 6,
+        "count": 7,
         "color": "#D2E4EB"
       },
+      "Warm": {
+        "count": 6,
+        "color": "#F7F0C5"
+      },
       "Wrong Number": {
-        "count": 3,
+        "count": 4,
         "color": "#DCEBD8"
       },
       "Listed": {
@@ -1806,7 +1806,7 @@
   },
   "pipeline_ppc": {
     "leads": 15,
-    "active": 13,
+    "active": 12,
     "booked": 4,
     "offered": 2,
     "accepted": 22,
@@ -1818,12 +1818,16 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 8,
+        "count": 7,
         "color": "#FFD5C2"
       },
       "Warm": {
         "count": 2,
         "color": "#F7F0C5"
+      },
+      "Listed": {
+        "count": 2,
+        "color": "#C8C8C8"
       },
       "Under Contract": {
         "count": 1,
@@ -1840,10 +1844,6 @@
       "Wrong Number": {
         "count": 1,
         "color": "#DCEBD8"
-      },
-      "Listed": {
-        "count": 1,
-        "color": "#C8C8C8"
       }
     }
   },
@@ -1856,14 +1856,14 @@
     },
     "Julian": {
       "discoveries": 18,
-      "offers": 15,
+      "offers": 16,
       "contracts": 1,
       "revenue": 2000.0
     }
   },
   "pipeline_by_agent": {
     "Julian": 176690,
-    "Charles": 230316
+    "Charles": 329146
   },
   "agent_deals": [
     {
@@ -1948,7 +1948,7 @@
     },
     {
       "address": "157 Craig St, Craigsville, VA 24430, USA",
-      "value": -55000,
+      "value": 43830,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -2079,7 +2079,7 @@
   ],
   "sources": {
     "ppc": 15,
-    "facebook": 38,
+    "facebook": 39,
     "ppc_inbound_call": 20
   },
   "hot_leads": [

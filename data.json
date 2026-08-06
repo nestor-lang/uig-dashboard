@@ -1,13 +1,13 @@
 {
   "report_date": "August 06, 2026",
-  "last_updated": "2026-08-06 14:01 EST",
+  "last_updated": "2026-08-06 15:01 EST",
   "google": {
-    "spend_mtd": 2539.09,
-    "clicks_mtd": 102,
-    "crm_leads": 16,
-    "crm_leads_today": 1,
-    "cpc": 24.89,
-    "cpl": 158.69,
+    "spend_mtd": 2630.83,
+    "clicks_mtd": 104,
+    "crm_leads": 17,
+    "crm_leads_today": 2,
+    "cpc": 25.3,
+    "cpl": 154.75,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,51 +15,51 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 245.49,
-        "spend_today": 28.09,
-        "clicks": 56,
-        "cpc": 4.38,
+        "spend": 252.67,
+        "spend_today": 35.26,
+        "clicks": 57,
+        "cpc": 4.43,
         "crm_leads": 0,
-        "cpl": 158.69
+        "cpl": 154.75
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2293.59,
-        "spend_today": 81.77,
-        "clicks": 46,
-        "cpc": 49.86,
+        "spend": 2378.16,
+        "spend_today": 166.34,
+        "clicks": 47,
+        "cpc": 50.6,
         "crm_leads": 0,
-        "cpl": 158.69
+        "cpl": 154.75
       }
     ]
   },
   "meta": {
-    "spend_30d": 1881.01,
-    "clicks_30d": 595,
+    "spend_30d": 1895.33,
+    "clicks_30d": 598,
     "crm_leads": 45,
     "crm_leads_today": 4,
-    "cpc": 3.16,
-    "cpl_crm": 41.8,
-    "cost_per_hot": 470.25,
+    "cpc": 3.17,
+    "cpl_crm": 42.12,
+    "cost_per_hot": 473.83,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1881.01,
-        "spend_today": 132.81,
-        "clicks": 595,
+        "spend": 1895.33,
+        "spend_today": 147.13,
+        "clicks": 598,
         "crm_leads": 45,
-        "cpl_crm": 41.8
+        "cpl_crm": 42.12
       }
     ]
   },
-  "potential_income": 401129,
+  "potential_income": 126129,
   "assigned_income": 86096,
   "by_stage": {
     "Initial Inspection Completed": 186980,
     "On Market": 62562,
     "Access Scheduled": 57758,
     "Market Prep / Pre-Listing Marketing": 50000,
-    "New Deal - Unscheduled": 43830
+    "New Deal - Unscheduled": -231170
   },
   "by_agent": {
     "Virginia": 59104,
@@ -115,7 +115,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4419.59
+      "spend": 4525.42
     }
   },
   "reps_by_month": {
@@ -345,18 +345,18 @@
         "discoveries": 6
       },
       "Julian": {
-        "leads": 19,
-        "active": 20,
-        "booked": 16,
-        "offers": 20,
-        "accepted": 1,
-        "available": 0,
+        "leads": 20,
+        "active": 21,
+        "booked": 17,
+        "offers": 21,
+        "accepted": 2,
+        "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 2000.0,
-        "discoveries": 19
+        "discoveries": 20
       }
     }
   },
@@ -450,40 +450,40 @@
         },
         "2026-08": {
           "counts": {
-            "available": 1
+            "available": 2
           },
           "gp": {
-            "available": 25000
+            "available": -250000
           },
-          "total": 1
+          "total": 2
         }
       },
       "all_time": {
         "counts": {
-          "available": 8,
+          "available": 9,
           "on_hold": 5,
           "dead": 30,
           "closed": 19
         },
         "gp": {
-          "available": 176689,
+          "available": -98311,
           "on_hold": 218088,
           "dead": 689430,
           "closed": 332891
         },
-        "total": 62
+        "total": 63
       },
       "channel_counts": {
+        "ppc": {
+          "available": 4,
+          "dead": 3,
+          "closed": 4
+        },
         "fb": {
           "available": 4,
           "on_hold": 3,
           "dead": 6,
           "closed": 1
-        },
-        "ppc": {
-          "available": 3,
-          "dead": 3,
-          "closed": 4
         },
         "sms": {
           "available": 1,
@@ -494,6 +494,9 @@
       },
       "by_month_channel_counts": {
         "2026-08": {
+          "ppc": {
+            "available": 1
+          },
           "fb": {
             "available": 1
           }
@@ -574,6 +577,15 @@
         }
       },
       "deals": [
+        {
+          "address": "739 General Puller Hwy, Saluda, VA 23149, USA",
+          "value": -275000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-08"
+        },
         {
           "address": "319 Myrtle Ave, Rocky Mount, NC 27801, USA",
           "value": 25000,
@@ -973,12 +985,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 15,
+    "available": 16,
     "pending": 5,
     "on_hold": 5,
     "closed": 28,
     "dead": 57,
-    "gp_available": 401129,
+    "gp_available": 126129,
     "gp_pending": 86096,
     "gp_on_hold": 218088,
     "gp_closed": 680336,
@@ -992,7 +1004,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 4420.1
+    "2026-08": 4526.16
   },
   "channel_by_month": {
     "2026-01": {
@@ -1653,20 +1665,20 @@
       }
     },
     "2026-08": {
-      "google_spend": 2539.09,
-      "meta_spend": 1881.01,
-      "ppc_leads": 16,
+      "google_spend": 2630.83,
+      "meta_spend": 1895.33,
+      "ppc_leads": 17,
       "fb_leads": 45,
-      "google_cpc": 24.89,
-      "meta_cpc": 3.16,
+      "google_cpc": 25.3,
+      "meta_cpc": 3.17,
       "pipeline_ppc": {
-        "leads": 16,
-        "active": 13,
-        "booked": 4,
-        "offered": 3,
-        "accepted": 1,
-        "under_contract": 1,
-        "contract_available": 1,
+        "leads": 17,
+        "active": 14,
+        "booked": 5,
+        "offered": 4,
+        "accepted": 2,
+        "under_contract": 2,
+        "contract_available": 2,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1680,6 +1692,10 @@
             "count": 3,
             "color": "#D2E4EB"
           },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
           "Warm": {
             "count": 2,
             "color": "#F7F0C5"
@@ -1687,10 +1703,6 @@
           "Listed": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "Under Contract": {
-            "count": 1,
-            "color": "#DCEBD8"
           },
           "Hot": {
             "count": 1,
@@ -1752,12 +1764,12 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 61,
-    "dispositioned_mtd": 25,
+    "new_leads_30d": 62,
+    "dispositioned_mtd": 26,
     "hot": 6,
-    "booked": 21,
-    "offers": 19,
-    "under_contract": 1,
+    "booked": 22,
+    "offers": 20,
+    "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
@@ -1808,13 +1820,13 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 16,
-    "active": 13,
-    "booked": 4,
-    "offered": 3,
-    "accepted": 22,
-    "under_contract": 22,
-    "contract_available": 6,
+    "leads": 17,
+    "active": 14,
+    "booked": 5,
+    "offered": 4,
+    "accepted": 23,
+    "under_contract": 23,
+    "contract_available": 7,
     "contract_pending": 3,
     "contract_closed": 4,
     "contract_dead": 9,
@@ -1828,6 +1840,10 @@
         "count": 3,
         "color": "#D2E4EB"
       },
+      "Under Contract": {
+        "count": 2,
+        "color": "#DCEBD8"
+      },
       "Warm": {
         "count": 2,
         "color": "#F7F0C5"
@@ -1835,10 +1851,6 @@
       "Listed": {
         "count": 2,
         "color": "#C8C8C8"
-      },
-      "Under Contract": {
-        "count": 1,
-        "color": "#DCEBD8"
       },
       "Hot": {
         "count": 1,
@@ -1858,17 +1870,27 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 19,
-      "offers": 20,
-      "contracts": 1,
+      "discoveries": 20,
+      "offers": 21,
+      "contracts": 2,
       "revenue": 2000.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 176690,
+    "Julian": -98310,
     "Charles": 310536
   },
   "agent_deals": [
+    {
+      "address": "739 General Puller Hwy, Saluda, VA 23149, USA",
+      "value": -275000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-08",
+      "agent": "Julian"
+    },
     {
       "address": "319 Myrtle Ave, Rocky Mount, NC 27801, USA",
       "value": 25000,
@@ -2071,7 +2093,7 @@
     }
   ],
   "sources": {
-    "ppc": 16,
+    "ppc": 17,
     "facebook": 45,
     "ppc_inbound_call": 19
   },

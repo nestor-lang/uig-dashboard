@@ -1,13 +1,13 @@
 {
   "report_date": "August 06, 2026",
-  "last_updated": "2026-08-06 18:01 EST",
+  "last_updated": "2026-08-06 19:01 EST",
   "google": {
-    "spend_mtd": 2645.32,
-    "clicks_mtd": 107,
+    "spend_mtd": 2887.34,
+    "clicks_mtd": 111,
     "crm_leads": 17,
     "crm_leads_today": 2,
-    "cpc": 24.72,
-    "cpl": 155.61,
+    "cpc": 26.01,
+    "cpl": 169.84,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,46 +20,46 @@
         "clicks": 60,
         "cpc": 4.45,
         "crm_leads": 0,
-        "cpl": 155.61
+        "cpl": 169.84
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2378.16,
-        "spend_today": 166.34,
-        "clicks": 47,
-        "cpc": 50.6,
+        "spend": 2620.18,
+        "spend_today": 408.36,
+        "clicks": 51,
+        "cpc": 51.38,
         "crm_leads": 0,
-        "cpl": 155.61
+        "cpl": 169.84
       }
     ]
   },
   "meta": {
-    "spend_30d": 1934.39,
-    "clicks_30d": 609,
+    "spend_30d": 1946.28,
+    "clicks_30d": 613,
     "crm_leads": 46,
     "crm_leads_today": 5,
     "cpc": 3.18,
-    "cpl_crm": 42.05,
-    "cost_per_hot": 483.6,
+    "cpl_crm": 42.31,
+    "cost_per_hot": 486.57,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1934.39,
-        "spend_today": 186.15,
-        "clicks": 609,
+        "spend": 1946.28,
+        "spend_today": 198.0,
+        "clicks": 613,
         "crm_leads": 46,
-        "cpl_crm": 42.05
+        "cpl_crm": 42.31
       }
     ]
   },
-  "potential_income": 126129,
+  "potential_income": 476128,
   "assigned_income": 86106,
   "by_stage": {
     "Initial Inspection Completed": 186980,
+    "New Deal - Unscheduled": 118829,
     "On Market": 62562,
     "Access Scheduled": 57758,
-    "Market Prep / Pre-Listing Marketing": 50000,
-    "New Deal - Unscheduled": -231170
+    "Market Prep / Pre-Listing Marketing": 50000
   },
   "by_agent": {
     "Virginia": 59114,
@@ -115,7 +115,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4579.450000000001
+      "spend": 4833.62
     }
   },
   "reps_by_month": {
@@ -316,7 +316,7 @@
       },
       "Julian": {
         "leads": 74,
-        "active": 80,
+        "active": 79,
         "booked": 68,
         "offers": 59,
         "accepted": 8,
@@ -332,7 +332,7 @@
     "2026-08": {
       "Charles": {
         "leads": 7,
-        "active": 11,
+        "active": 12,
         "booked": 6,
         "offers": 8,
         "accepted": 1,
@@ -453,7 +453,7 @@
             "available": 2
           },
           "gp": {
-            "available": -250000
+            "available": 99999
           },
           "total": 2
         }
@@ -466,7 +466,7 @@
           "closed": 19
         },
         "gp": {
-          "available": -98311,
+          "available": 251688,
           "on_hold": 218088,
           "dead": 689430,
           "closed": 332891
@@ -579,7 +579,7 @@
       "deals": [
         {
           "address": "739 General Puller Hwy, Saluda, VA 23149, USA",
-          "value": -275000,
+          "value": 74999,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -990,7 +990,7 @@
     "on_hold": 5,
     "closed": 28,
     "dead": 57,
-    "gp_available": 126129,
+    "gp_available": 476128,
     "gp_pending": 86106,
     "gp_on_hold": 218088,
     "gp_closed": 680336,
@@ -1004,7 +1004,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 4579.71
+    "2026-08": 4833.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -1665,11 +1665,11 @@
       }
     },
     "2026-08": {
-      "google_spend": 2645.32,
-      "meta_spend": 1934.39,
+      "google_spend": 2887.34,
+      "meta_spend": 1946.28,
       "ppc_leads": 17,
       "fb_leads": 46,
-      "google_cpc": 24.72,
+      "google_cpc": 26.01,
       "meta_cpc": 3.18,
       "pipeline_ppc": {
         "leads": 17,
@@ -1877,13 +1877,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": -98310,
+    "Julian": 251689,
     "Charles": 310546
   },
   "agent_deals": [
     {
       "address": "739 General Puller Hwy, Saluda, VA 23149, USA",
-      "value": -275000,
+      "value": 74999,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

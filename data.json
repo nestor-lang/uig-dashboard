@@ -1,13 +1,13 @@
 {
   "report_date": "August 06, 2026",
-  "last_updated": "2026-08-06 12:01 EST",
+  "last_updated": "2026-08-06 13:01 EST",
   "google": {
-    "spend_mtd": 2464.66,
-    "clicks_mtd": 101,
+    "spend_mtd": 2538.23,
+    "clicks_mtd": 102,
     "crm_leads": 16,
     "crm_leads_today": 1,
-    "cpc": 24.4,
-    "cpl": 154.04,
+    "cpc": 24.88,
+    "cpl": 158.64,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,47 +15,47 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 243.33,
-        "spend_today": 25.92,
+        "spend": 244.64,
+        "spend_today": 27.24,
         "clicks": 56,
-        "cpc": 4.35,
+        "cpc": 4.37,
         "crm_leads": 0,
-        "cpl": 154.04
+        "cpl": 158.64
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2221.33,
-        "spend_today": 9.51,
-        "clicks": 45,
-        "cpc": 49.36,
+        "spend": 2293.59,
+        "spend_today": 81.77,
+        "clicks": 46,
+        "cpc": 49.86,
         "crm_leads": 0,
-        "cpl": 154.04
+        "cpl": 158.64
       }
     ]
   },
   "meta": {
-    "spend_30d": 1853.01,
-    "clicks_30d": 585,
-    "crm_leads": 43,
-    "crm_leads_today": 2,
+    "spend_30d": 1864.61,
+    "clicks_30d": 589,
+    "crm_leads": 44,
+    "crm_leads_today": 3,
     "cpc": 3.17,
-    "cpl_crm": 43.09,
-    "cost_per_hot": 463.25,
+    "cpl_crm": 42.38,
+    "cost_per_hot": 466.15,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 1853.01,
-        "spend_today": 104.84,
-        "clicks": 585,
-        "crm_leads": 43,
-        "cpl_crm": 43.09
+        "spend": 1864.61,
+        "spend_today": 116.42,
+        "clicks": 589,
+        "crm_leads": 44,
+        "cpl_crm": 42.38
       }
     ]
   },
-  "potential_income": 435939,
+  "potential_income": 417329,
   "assigned_income": 69896,
   "by_stage": {
-    "Initial Inspection Completed": 205590,
+    "Initial Inspection Completed": 186980,
     "On Market": 78762,
     "Access Scheduled": 57758,
     "Market Prep / Pre-Listing Marketing": 50000,
@@ -114,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4317.67
+      "spend": 4402.49
     }
   },
   "reps_by_month": {
@@ -305,9 +305,9 @@
         "booked": 49,
         "offers": 49,
         "accepted": 9,
-        "available": 6,
+        "available": 5,
         "pending": 0,
-        "dead": 1,
+        "dead": 2,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 88594.62,
@@ -330,10 +330,10 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 5,
+        "leads": 6,
         "active": 8,
-        "booked": 4,
-        "offers": 6,
+        "booked": 5,
+        "offers": 7,
         "accepted": 1,
         "available": 1,
         "pending": 0,
@@ -341,7 +341,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 5
+        "discoveries": 6
       },
       "Julian": {
         "leads": 19,
@@ -721,12 +721,12 @@
         },
         "2026-07": {
           "counts": {
-            "available": 7,
-            "dead": 2
+            "available": 6,
+            "dead": 3
           },
           "gp": {
-            "available": 206215,
-            "dead": 14350
+            "available": 187605,
+            "dead": 32960
           },
           "total": 9
         },
@@ -742,14 +742,14 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
-          "dead": 26,
+          "available": 8,
+          "dead": 27,
           "pending": 4,
           "closed": 9
         },
         "gp": {
-          "available": 259250,
-          "dead": 599095,
+          "available": 240640,
+          "dead": 617705,
           "pending": 69896,
           "closed": 347445
         },
@@ -762,8 +762,8 @@
           "dead": 6
         },
         "fb": {
-          "available": 4,
-          "dead": 11,
+          "available": 3,
+          "dead": 12,
           "pending": 1,
           "closed": 2
         },
@@ -782,8 +782,8 @@
         },
         "2026-07": {
           "fb": {
-            "available": 4,
-            "dead": 2
+            "available": 3,
+            "dead": 3
           },
           "ppc": {
             "available": 3
@@ -903,15 +903,6 @@
           "contract_month": "2026-07"
         },
         {
-          "address": "513 E Hall St, Dawson Springs, KY 42408, USA",
-          "value": 18610,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
           "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
           "value": 16200,
           "status": "Available",
@@ -978,16 +969,16 @@
     }
   },
   "pipeline_contracts": {
-    "available": 17,
+    "available": 16,
     "pending": 4,
     "on_hold": 5,
     "closed": 28,
-    "dead": 56,
-    "gp_available": 435939,
+    "dead": 57,
+    "gp_available": 417329,
     "gp_pending": 69896,
     "gp_on_hold": 218088,
     "gp_closed": 680336,
-    "gp_dead": 1288525
+    "gp_dead": 1307135
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -997,7 +988,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 4317.67
+    "2026-08": 4402.84
   },
   "channel_by_month": {
     "2026-01": {
@@ -1604,10 +1595,10 @@
         "offered": 76,
         "accepted": 9,
         "under_contract": 9,
-        "contract_available": 6,
+        "contract_available": 5,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 3,
+        "contract_dead": 4,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -1658,11 +1649,11 @@
       }
     },
     "2026-08": {
-      "google_spend": 2464.66,
-      "meta_spend": 1853.01,
+      "google_spend": 2538.23,
+      "meta_spend": 1864.61,
       "ppc_leads": 16,
-      "fb_leads": 43,
-      "google_cpc": 24.4,
+      "fb_leads": 44,
+      "google_cpc": 24.88,
       "meta_cpc": 3.17,
       "pipeline_ppc": {
         "leads": 16,
@@ -1708,10 +1699,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 43,
-        "active": 36,
-        "booked": 16,
-        "offered": 15,
+        "leads": 44,
+        "active": 37,
+        "booked": 17,
+        "offered": 16,
         "accepted": 1,
         "under_contract": 1,
         "contract_available": 1,
@@ -1729,7 +1720,7 @@
             "color": "#D2E4EB"
           },
           "Warm": {
-            "count": 6,
+            "count": 7,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -1753,25 +1744,25 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 59,
-    "dispositioned_mtd": 24,
+    "new_leads_30d": 60,
+    "dispositioned_mtd": 25,
     "hot": 6,
-    "booked": 20,
-    "offers": 18,
+    "booked": 21,
+    "offers": 19,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 43,
-    "active": 36,
-    "booked": 16,
-    "offered": 15,
+    "leads": 44,
+    "active": 37,
+    "booked": 17,
+    "offered": 16,
     "accepted": 29,
     "under_contract": 29,
-    "contract_available": 8,
+    "contract_available": 7,
     "contract_pending": 1,
     "contract_closed": 3,
-    "contract_dead": 17,
+    "contract_dead": 18,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
@@ -1783,7 +1774,7 @@
         "color": "#D2E4EB"
       },
       "Warm": {
-        "count": 6,
+        "count": 7,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -1849,8 +1840,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 5,
-      "offers": 6,
+      "discoveries": 6,
+      "offers": 7,
       "contracts": 1,
       "revenue": 0.0
     },
@@ -1863,7 +1854,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 176690,
-    "Charles": 329146
+    "Charles": 310536
   },
   "agent_deals": [
     {
@@ -1997,16 +1988,6 @@
       "agent": "Charles"
     },
     {
-      "address": "513 E Hall St, Dawson Springs, KY 42408, USA",
-      "value": 18610,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Charles"
-    },
-    {
       "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
       "value": 16200,
       "status": "Available",
@@ -2079,7 +2060,7 @@
   ],
   "sources": {
     "ppc": 16,
-    "facebook": 43,
+    "facebook": 44,
     "ppc_inbound_call": 19
   },
   "hot_leads": [

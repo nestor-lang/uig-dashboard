@@ -1,13 +1,13 @@
 {
   "report_date": "August 07, 2026",
-  "last_updated": "2026-08-07 10:01 EST",
+  "last_updated": "2026-08-07 11:01 EST",
   "google": {
-    "spend_mtd": 2930.29,
-    "clicks_mtd": 119,
+    "spend_mtd": 2932.44,
+    "clicks_mtd": 118,
     "crm_leads": 17,
     "crm_leads_today": 0,
-    "cpc": 24.62,
-    "cpl": 172.37,
+    "cpc": 24.85,
+    "cpl": 172.5,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 284.92,
-        "spend_today": 17.88,
-        "clicks": 67,
-        "cpc": 4.25,
+        "spend": 287.07,
+        "spend_today": 20.02,
+        "clicks": 66,
+        "cpc": 4.35,
         "crm_leads": 0,
-        "cpl": 172.37
+        "cpl": 172.5
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,40 +29,40 @@
         "clicks": 52,
         "cpc": 50.87,
         "crm_leads": 0,
-        "cpl": 172.37
+        "cpl": 172.5
       }
     ]
   },
   "meta": {
-    "spend_30d": 2134.47,
-    "clicks_30d": 675,
-    "crm_leads": 51,
+    "spend_30d": 2161.53,
+    "clicks_30d": 677,
+    "crm_leads": 50,
     "crm_leads_today": 2,
-    "cpc": 3.16,
-    "cpl_crm": 41.85,
-    "cost_per_hot": 533.62,
+    "cpc": 3.19,
+    "cpl_crm": 43.23,
+    "cost_per_hot": 540.38,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2134.47,
-        "spend_today": 85.67,
-        "clicks": 675,
-        "crm_leads": 51,
-        "cpl_crm": 41.85
+        "spend": 2161.53,
+        "spend_today": 112.69,
+        "clicks": 677,
+        "crm_leads": 50,
+        "cpl_crm": 43.23
       }
     ]
   },
-  "potential_income": 473503,
-  "assigned_income": 86106,
+  "potential_income": 460245,
+  "assigned_income": 99364,
   "by_stage": {
     "Initial Inspection Completed": 211855,
     "New Deal - Unscheduled": 118829,
-    "On Market": 60062,
     "Market Prep / Pre-Listing Marketing": 50000,
+    "On Market": 46804,
     "Access Scheduled": 32758
   },
   "by_agent": {
-    "Virginia": 59114,
+    "Virginia": 72372,
     "Alabama": 16200,
     "Kentucky": 10792
   },
@@ -109,13 +109,13 @@
     },
     "2026-07": {
       "closed": 0.0,
-      "pending": 16200.0,
+      "pending": 29457.74,
       "spend": 21857.71
     },
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5063.65
+      "spend": 5093.66
     }
   },
   "reps_by_month": {
@@ -320,21 +320,21 @@
         "booked": 68,
         "offers": 59,
         "accepted": 8,
-        "available": 7,
-        "pending": 0,
+        "available": 6,
+        "pending": 1,
         "dead": 0,
         "closed": 0,
-        "pending_income": 0.0,
+        "pending_income": 13257.74,
         "closed_revenue": 6267.96,
         "discoveries": 74
       }
     },
     "2026-08": {
       "Charles": {
-        "leads": 7,
+        "leads": 8,
         "active": 13,
-        "booked": 6,
-        "offers": 8,
+        "booked": 7,
+        "offers": 9,
         "accepted": 1,
         "available": 1,
         "pending": 0,
@@ -342,7 +342,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 7
+        "discoveries": 8
       },
       "Julian": {
         "leads": 21,
@@ -437,13 +437,15 @@
         },
         "2026-07": {
           "counts": {
-            "available": 6,
+            "available": 5,
             "on_hold": 1,
+            "other": 1,
             "dead": 1
           },
           "gp": {
-            "available": 141289,
+            "available": 128032,
             "on_hold": 60000,
+            "other": 13258,
             "dead": 53100
           },
           "total": 8
@@ -460,14 +462,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
+          "available": 8,
           "on_hold": 5,
+          "other": 1,
           "dead": 30,
           "closed": 19
         },
         "gp": {
-          "available": 249063,
+          "available": 235806,
           "on_hold": 218088,
+          "other": 13258,
           "dead": 689430,
           "closed": 332891
         },
@@ -475,7 +479,8 @@
       },
       "channel_counts": {
         "ppc": {
-          "available": 4,
+          "available": 3,
+          "other": 1,
           "dead": 3,
           "closed": 4
         },
@@ -508,7 +513,8 @@
             "dead": 1
           },
           "ppc": {
-            "available": 3
+            "available": 2,
+            "other": 1
           },
           "sms": {
             "available": 1
@@ -637,15 +643,6 @@
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-07"
-        },
-        {
-          "address": "463 Poplar St, Narrows, VA 24124, USA",
-          "value": 13258,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-07"
         },
@@ -985,12 +982,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 16,
+    "available": 15,
     "pending": 5,
     "on_hold": 5,
     "closed": 28,
     "dead": 57,
-    "gp_available": 473503,
+    "gp_available": 460246,
     "gp_pending": 86106,
     "gp_on_hold": 218088,
     "gp_closed": 680336,
@@ -1004,7 +1001,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 5063.65
+    "2026-08": 5093.97
   },
   "channel_by_month": {
     "2026-01": {
@@ -1554,9 +1551,9 @@
         "active": 30,
         "booked": 25,
         "offered": 23,
-        "accepted": 6,
-        "under_contract": 6,
-        "contract_available": 5,
+        "accepted": 5,
+        "under_contract": 5,
+        "contract_available": 4,
         "contract_pending": 1,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -1607,8 +1604,8 @@
       "pipeline_fb": {
         "leads": 187,
         "active": 116,
-        "booked": 92,
-        "offered": 76,
+        "booked": 93,
+        "offered": 77,
         "accepted": 9,
         "under_contract": 9,
         "contract_available": 5,
@@ -1622,7 +1619,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 46,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1630,7 +1627,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 11,
+            "count": 12,
             "color": "#F7F0C5"
           },
           "Under Contract": {
@@ -1665,12 +1662,12 @@
       }
     },
     "2026-08": {
-      "google_spend": 2930.29,
-      "meta_spend": 2133.36,
+      "google_spend": 2932.44,
+      "meta_spend": 2161.53,
       "ppc_leads": 17,
-      "fb_leads": 51,
-      "google_cpc": 24.62,
-      "meta_cpc": 3.16,
+      "fb_leads": 50,
+      "google_cpc": 24.85,
+      "meta_cpc": 3.19,
       "pipeline_ppc": {
         "leads": 17,
         "active": 14,
@@ -1715,8 +1712,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 51,
-        "active": 42,
+        "leads": 50,
+        "active": 40,
         "booked": 19,
         "offered": 18,
         "accepted": 1,
@@ -1728,7 +1725,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 22,
+            "count": 20,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1748,7 +1745,7 @@
             "color": "#C8C8C8"
           },
           "Dead": {
-            "count": 1,
+            "count": 2,
             "color": "#F3F3F3"
           },
           "Hot": {
@@ -1764,8 +1761,8 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 68,
-    "dispositioned_mtd": 28,
+    "new_leads_30d": 67,
+    "dispositioned_mtd": 29,
     "hot": 6,
     "booked": 24,
     "offers": 22,
@@ -1773,8 +1770,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 51,
-    "active": 42,
+    "leads": 50,
+    "active": 40,
     "booked": 19,
     "offered": 18,
     "accepted": 29,
@@ -1786,7 +1783,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 22,
+        "count": 20,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1806,7 +1803,7 @@
         "color": "#C8C8C8"
       },
       "Dead": {
-        "count": 1,
+        "count": 2,
         "color": "#F3F3F3"
       },
       "Hot": {
@@ -1824,9 +1821,9 @@
     "active": 14,
     "booked": 5,
     "offered": 4,
-    "accepted": 23,
-    "under_contract": 23,
-    "contract_available": 7,
+    "accepted": 22,
+    "under_contract": 22,
+    "contract_available": 6,
     "contract_pending": 3,
     "contract_closed": 4,
     "contract_dead": 9,
@@ -1864,8 +1861,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 7,
-      "offers": 8,
+      "discoveries": 8,
+      "offers": 9,
       "contracts": 1,
       "revenue": 0.0
     },
@@ -1877,7 +1874,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 249064,
+    "Julian": 235806,
     "Charles": 310546
   },
   "agent_deals": [
@@ -1947,16 +1944,6 @@
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-07",
-      "agent": "Julian"
-    },
-    {
-      "address": "463 Poplar St, Narrows, VA 24124, USA",
-      "value": 13258,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-07",
       "agent": "Julian"
@@ -2094,7 +2081,7 @@
   ],
   "sources": {
     "ppc": 17,
-    "facebook": 51,
+    "facebook": 50,
     "ppc_inbound_call": 19
   },
   "hot_leads": [

@@ -1,6 +1,6 @@
 {
   "report_date": "August 08, 2026",
-  "last_updated": "2026-08-08 21:35 AST",
+  "last_updated": "2026-08-08 22:36 AST",
   "google": {
     "spend_mtd": 3544.5,
     "clicks_mtd": 157,
@@ -33,20 +33,20 @@
     ]
   },
   "meta": {
-    "spend_30d": 2541.91,
-    "clicks_30d": 778,
+    "spend_30d": 2553.39,
+    "clicks_30d": 783,
     "crm_leads": 57,
-    "cpc": 3.27,
-    "cpl_crm": 44.59,
-    "cost_per_hot": 635.48,
+    "cpc": 3.26,
+    "cpl_crm": 44.8,
+    "cost_per_hot": 638.35,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2541.91,
-        "spend_today": 210.05,
-        "clicks": 778,
+        "spend": 2553.39,
+        "spend_today": 221.53,
+        "clicks": 783,
         "crm_leads": 57,
-        "cpl_crm": 44.59
+        "cpl_crm": 44.8
       }
     ]
   },
@@ -113,7 +113,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6086.41
+      "spend": 6097.65
     }
   },
   "reps_by_month": {
@@ -342,236 +342,7 @@
       }
     }
   },
-  "wb_pipeline": {
-    "Julian": {
-      "by_month": {
-        "2026-01": {
-          "counts": {
-            "closed": 8,
-            "dead": 13
-          },
-          "gp": {
-            "closed": 151050,
-            "dead": 276879
-          },
-          "total": 21
-        },
-        "2026-02": {
-          "counts": {
-            "dead": 4,
-            "closed": 2,
-            "on_hold": 1
-          },
-          "gp": {
-            "dead": 100492,
-            "closed": 56676,
-            "on_hold": 49890
-          },
-          "total": 7
-        },
-        "2026-03": {
-          "counts": {
-            "closed": 4,
-            "dead": 3
-          },
-          "gp": {
-            "closed": 61761,
-            "dead": 28772
-          },
-          "total": 7
-        },
-        "2026-04": {
-          "counts": {
-            "dead": 3,
-            "closed": 1,
-            "on_hold": 1
-          },
-          "gp": {
-            "dead": 117159,
-            "closed": 15000,
-            "on_hold": 40600
-          },
-          "total": 5
-        },
-        "2026-05": {
-          "counts": {
-            "dead": 3,
-            "on_hold": 2,
-            "closed": 4
-          },
-          "gp": {
-            "dead": 53887,
-            "on_hold": 67598,
-            "closed": 48404
-          },
-          "total": 9
-        },
-        "2026-06": {
-          "counts": {
-            "dead": 3,
-            "available": 1
-          },
-          "gp": {
-            "dead": 59142,
-            "available": 7900
-          },
-          "total": 4
-        },
-        "2026-07": {
-          "counts": {
-            "available": 4,
-            "on_hold": 1,
-            "dead": 2,
-            "pending": 1
-          },
-          "gp": {
-            "available": 99532,
-            "on_hold": 60000,
-            "dead": 70600,
-            "pending": 12058
-          },
-          "total": 8
-        },
-        "2026-08": {
-          "counts": {
-            "available": 2
-          },
-          "gp": {
-            "available": 99874
-          },
-          "total": 2
-        }
-      },
-      "all_time": {
-        "counts": {
-          "available": 7,
-          "on_hold": 5,
-          "dead": 31,
-          "pending": 1,
-          "closed": 19
-        },
-        "gp": {
-          "available": 207306,
-          "on_hold": 218088,
-          "dead": 706930,
-          "pending": 12058,
-          "closed": 332891
-        },
-        "total": 63
-      }
-    },
-    "Charles": {
-      "by_month": {
-        "2026-01": {
-          "counts": {
-            "dead": 2,
-            "closed": 2
-          },
-          "gp": {
-            "dead": 61944,
-            "closed": 62616
-          },
-          "total": 4
-        },
-        "2026-02": {
-          "counts": {
-            "dead": 3,
-            "closed": 2
-          },
-          "gp": {
-            "dead": 49442,
-            "closed": 171608
-          },
-          "total": 5
-        },
-        "2026-03": {
-          "counts": {
-            "dead": 4,
-            "closed": 1
-          },
-          "gp": {
-            "dead": 110250,
-            "closed": 7126
-          },
-          "total": 5
-        },
-        "2026-04": {
-          "counts": {
-            "dead": 4,
-            "closed": 1,
-            "pending": 1
-          },
-          "gp": {
-            "dead": 82905,
-            "closed": 8990,
-            "pending": 10792
-          },
-          "total": 6
-        },
-        "2026-05": {
-          "counts": {
-            "closed": 3,
-            "dead": 7
-          },
-          "gp": {
-            "closed": 97105,
-            "dead": 158475
-          },
-          "total": 10
-        },
-        "2026-06": {
-          "counts": {
-            "available": 1,
-            "dead": 4,
-            "pending": 3
-          },
-          "gp": {
-            "available": 9205,
-            "dead": 121730,
-            "pending": 59114
-          },
-          "total": 8
-        },
-        "2026-07": {
-          "counts": {
-            "available": 5,
-            "dead": 3,
-            "pending": 1
-          },
-          "gp": {
-            "available": 171405,
-            "dead": 32960,
-            "pending": 16200
-          },
-          "total": 9
-        },
-        "2026-08": {
-          "counts": {
-            "available": 2
-          },
-          "gp": {
-            "available": 73830
-          },
-          "total": 2
-        }
-      },
-      "all_time": {
-        "counts": {
-          "available": 8,
-          "dead": 27,
-          "pending": 5,
-          "closed": 9
-        },
-        "gp": {
-          "available": 254440,
-          "dead": 617705,
-          "pending": 86106,
-          "closed": 347445
-        },
-        "total": 49
-      }
-    }
-  },
+  "wb_pipeline": {},
   "spend_by_month": {
     "2026-01": 14983.0,
     "2026-02": 26376.94,
@@ -580,7 +351,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 6086.41
+    "2026-08": 6097.89
   },
   "channel_by_month": {
     "2026-01": {
@@ -751,11 +522,11 @@
     },
     "2026-08": {
       "google_spend": 3544.5,
-      "meta_spend": 2541.91,
+      "meta_spend": 2553.39,
       "ppc_leads": 19,
       "fb_leads": 57,
       "google_cpc": 22.58,
-      "meta_cpc": 3.27,
+      "meta_cpc": 3.26,
       "pipeline_ppc": {
         "leads": 19,
         "active": 16,

@@ -1,13 +1,13 @@
 {
   "report_date": "August 11, 2026",
-  "last_updated": "2026-08-11 14:01 EST",
+  "last_updated": "2026-08-11 15:01 EST",
   "google": {
-    "spend_mtd": 4747.29,
-    "clicks_mtd": 212,
+    "spend_mtd": 4815.22,
+    "clicks_mtd": 216,
     "crm_leads": 26,
     "crm_leads_today": 5,
-    "cpc": 22.39,
-    "cpl": 182.59,
+    "cpc": 22.29,
+    "cpl": 185.2,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,45 +15,45 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 448.32,
-        "spend_today": 14.79,
-        "clicks": 128,
-        "cpc": 3.5,
+        "spend": 448.64,
+        "spend_today": 15.11,
+        "clicks": 129,
+        "cpc": 3.48,
         "crm_leads": 0,
-        "cpl": 182.59
+        "cpl": 185.2
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4298.97,
-        "spend_today": 330.49,
-        "clicks": 84,
-        "cpc": 51.18,
+        "spend": 4366.58,
+        "spend_today": 398.1,
+        "clicks": 87,
+        "cpc": 50.19,
         "crm_leads": 0,
-        "cpl": 182.59
+        "cpl": 185.2
       }
     ]
   },
   "meta": {
-    "spend_30d": 3517.11,
-    "clicks_30d": 1066,
+    "spend_30d": 3536.57,
+    "clicks_30d": 1071,
     "crm_leads": 78,
     "crm_leads_today": 5,
     "cpc": 3.3,
-    "cpl_crm": 45.09,
-    "cost_per_hot": 879.28,
+    "cpl_crm": 45.34,
+    "cost_per_hot": 884.14,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3517.11,
-        "spend_today": 167.25,
-        "clicks": 1066,
+        "spend": 3536.57,
+        "spend_today": 186.7,
+        "clicks": 1071,
         "crm_leads": 78,
-        "cpl_crm": 45.09
+        "cpl_crm": 45.34
       }
     ]
   },
   "potential_income": 426753,
-  "assigned_income": 86106,
+  "assigned_income": 69892,
   "by_stage": {
     "Initial Inspection Completed": 190187,
     "Access Scheduled": 97829,
@@ -62,7 +62,7 @@
     "New Deal - Unscheduled": 5000
   },
   "by_agent": {
-    "Virginia": 59114,
+    "Virginia": 42900,
     "Alabama": 16200,
     "Kentucky": 10792
   },
@@ -74,7 +74,7 @@
     "2026-05": 94509,
     "2026-06": 213771,
     "2026-07": 94863,
-    "2026-08": 2000
+    "2026-08": 18214
   },
   "roa_by_month": {
     "2026-01": {
@@ -103,8 +103,8 @@
       "spend": 20672.89
     },
     "2026-06": {
-      "closed": 0.0,
-      "pending": 59114.39,
+      "closed": 16214.39,
+      "pending": 42900.0,
       "spend": 16399.44
     },
     "2026-07": {
@@ -115,7 +115,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8264.4
+      "spend": 8351.54
     }
   },
   "reps_by_month": {
@@ -277,10 +277,10 @@
         "offers": 43,
         "accepted": 8,
         "available": 1,
-        "pending": 3,
+        "pending": 2,
         "dead": 4,
-        "closed": 0,
-        "pending_income": 59114.39,
+        "closed": 1,
+        "pending_income": 42900.0,
         "closed_revenue": 146447.9,
         "discoveries": 47
       },
@@ -331,9 +331,9 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 23,
+        "leads": 24,
         "active": 29,
-        "booked": 17,
+        "booked": 18,
         "offers": 24,
         "accepted": 3,
         "available": 2,
@@ -341,8 +341,8 @@
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
-        "closed_revenue": 0.0,
-        "discoveries": 23
+        "closed_revenue": 16214.39,
+        "discoveries": 24
       },
       "Julian": {
         "leads": 21,
@@ -715,12 +715,14 @@
           "counts": {
             "available": 1,
             "dead": 4,
-            "pending": 3
+            "pending": 2,
+            "closed": 1
           },
           "gp": {
             "available": 9205,
             "dead": 131730,
-            "pending": 59114
+            "pending": 42900,
+            "closed": 16214
           },
           "total": 8
         },
@@ -751,22 +753,23 @@
         "counts": {
           "available": 8,
           "dead": 28,
-          "pending": 5,
-          "closed": 9
+          "pending": 4,
+          "closed": 10
         },
         "gp": {
           "available": 228390,
           "dead": 658755,
-          "pending": 86106,
-          "closed": 347445
+          "pending": 69892,
+          "closed": 363659
         },
         "total": 50
       },
       "channel_counts": {
         "ppc": {
           "available": 5,
-          "pending": 3,
-          "dead": 6
+          "pending": 2,
+          "dead": 6,
+          "closed": 1
         },
         "fb": {
           "dead": 13,
@@ -807,8 +810,9 @@
             "pending": 1
           },
           "ppc": {
-            "pending": 2,
-            "dead": 1
+            "pending": 1,
+            "dead": 1,
+            "closed": 1
           }
         },
         "2026-05": {
@@ -965,15 +969,6 @@
           "contract_month": "2026-06"
         },
         {
-          "address": "317 55th St, Newport News, VA 23607, USA",
-          "value": 16214,
-          "status": "Sent to Title",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
           "address": "2621 W Cumberland Ave, Middlesboro, KY 40965, USA",
           "value": 10792,
           "status": "Sent to Title",
@@ -987,14 +982,14 @@
   },
   "pipeline_contracts": {
     "available": 16,
-    "pending": 5,
+    "pending": 4,
     "on_hold": 5,
-    "closed": 28,
+    "closed": 29,
     "dead": 59,
     "gp_available": 426754,
-    "gp_pending": 86106,
+    "gp_pending": 69892,
     "gp_on_hold": 218088,
-    "gp_closed": 680336,
+    "gp_closed": 696550,
     "gp_dead": 1365685
   },
   "spend_by_month": {
@@ -1005,7 +1000,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 8264.4
+    "2026-08": 8351.79
   },
   "channel_by_month": {
     "2026-01": {
@@ -1432,10 +1427,10 @@
         "accepted": 3,
         "under_contract": 3,
         "contract_available": 0,
-        "contract_pending": 2,
-        "contract_closed": 0,
+        "contract_pending": 1,
+        "contract_closed": 1,
         "contract_dead": 1,
-        "closed": 0,
+        "closed": 1,
         "status_breakdown": {
           "Cold": {
             "count": 15,
@@ -1457,12 +1452,12 @@
             "count": 3,
             "color": "#D1F3EC"
           },
-          "Under Contract": {
+          "Wrong Number": {
             "count": 3,
             "color": "#DCEBD8"
           },
-          "Wrong Number": {
-            "count": 3,
+          "Under Contract": {
+            "count": 2,
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
@@ -1480,6 +1475,10 @@
           "Not Workable": {
             "count": 1,
             "color": "#D1F3EC"
+          },
+          "Closed": {
+            "count": 1,
+            "color": "#DCEBD8"
           }
         }
       },
@@ -1670,16 +1669,16 @@
       }
     },
     "2026-08": {
-      "google_spend": 4747.29,
-      "meta_spend": 3517.11,
+      "google_spend": 4815.22,
+      "meta_spend": 3536.57,
       "ppc_leads": 26,
       "fb_leads": 78,
-      "google_cpc": 22.39,
+      "google_cpc": 22.29,
       "meta_cpc": 3.3,
       "pipeline_ppc": {
         "leads": 26,
         "active": 19,
-        "booked": 9,
+        "booked": 10,
         "offered": 8,
         "accepted": 4,
         "under_contract": 4,
@@ -1690,8 +1689,12 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 9,
+            "count": 8,
             "color": "#FFD5C2"
+          },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
           },
           "Cold": {
             "count": 3,
@@ -1708,10 +1711,6 @@
           "Listed": {
             "count": 3,
             "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
           },
           "Owes too Much": {
             "count": 1,
@@ -1778,9 +1777,9 @@
   },
   "pipeline": {
     "new_leads_30d": 104,
-    "dispositioned_mtd": 44,
+    "dispositioned_mtd": 45,
     "hot": 8,
-    "booked": 34,
+    "booked": 35,
     "offers": 32,
     "under_contract": 3,
     "closed": 0
@@ -1835,19 +1834,23 @@
   "pipeline_ppc": {
     "leads": 26,
     "active": 19,
-    "booked": 9,
+    "booked": 10,
     "offered": 8,
     "accepted": 25,
     "under_contract": 25,
     "contract_available": 8,
-    "contract_pending": 3,
-    "contract_closed": 4,
+    "contract_pending": 2,
+    "contract_closed": 5,
     "contract_dead": 10,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 9,
+        "count": 8,
         "color": "#FFD5C2"
+      },
+      "Warm": {
+        "count": 3,
+        "color": "#F7F0C5"
       },
       "Cold": {
         "count": 3,
@@ -1865,10 +1868,6 @@
         "count": 3,
         "color": "#C8C8C8"
       },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
-      },
       "Owes too Much": {
         "count": 1,
         "color": "#D1F3EC"
@@ -1885,10 +1884,10 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 23,
+      "discoveries": 24,
       "offers": 24,
       "contracts": 3,
-      "revenue": 0.0
+      "revenue": 16214.39
     },
     "Julian": {
       "discoveries": 21,
@@ -1899,7 +1898,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 198364,
-    "Charles": 314496
+    "Charles": 298282
   },
   "agent_deals": [
     {
@@ -2088,16 +2087,6 @@
       "status": "Sent to Title",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
-      "address": "317 55th St, Newport News, VA 23607, USA",
-      "value": 16214,
-      "status": "Sent to Title",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-06",
       "agent": "Charles"

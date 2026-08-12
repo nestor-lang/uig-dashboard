@@ -1,13 +1,13 @@
 {
   "report_date": "August 11, 2026",
-  "last_updated": "2026-08-11 19:01 EST",
+  "last_updated": "2026-08-11 20:01 EST",
   "google": {
-    "spend_mtd": 4815.02,
+    "spend_mtd": 4819.7,
     "clicks_mtd": 221,
     "crm_leads": 26,
     "crm_leads_today": 5,
-    "cpc": 21.79,
-    "cpl": 185.19,
+    "cpc": 21.81,
+    "cpl": 185.37,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 448.43,
-        "spend_today": 19.39,
+        "spend": 453.12,
+        "spend_today": 24.08,
         "clicks": 134,
-        "cpc": 3.35,
+        "cpc": 3.38,
         "crm_leads": 0,
-        "cpl": 185.19
+        "cpl": 185.37
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,36 +29,36 @@
         "clicks": 87,
         "cpc": 50.19,
         "crm_leads": 0,
-        "cpl": 185.19
+        "cpl": 185.37
       }
     ]
   },
   "meta": {
-    "spend_30d": 3602.15,
-    "clicks_30d": 1101,
-    "crm_leads": 79,
-    "crm_leads_today": 6,
-    "cpc": 3.27,
-    "cpl_crm": 45.6,
-    "cost_per_hot": 720.43,
+    "spend_30d": 3624.39,
+    "clicks_30d": 1117,
+    "crm_leads": 80,
+    "crm_leads_today": 7,
+    "cpc": 3.24,
+    "cpl_crm": 45.3,
+    "cost_per_hot": 724.88,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 3602.15,
-        "spend_today": 252.28,
-        "clicks": 1101,
-        "crm_leads": 79,
-        "cpl_crm": 45.6
+        "spend": 3624.39,
+        "spend_today": 274.52,
+        "clicks": 1117,
+        "crm_leads": 80,
+        "cpl_crm": 45.3
       }
     ]
   },
-  "potential_income": 426753,
+  "potential_income": 417548,
   "assigned_income": 69892,
   "by_stage": {
     "Initial Inspection Completed": 190187,
     "Access Scheduled": 97829,
     "Market Prep / Pre-Listing Marketing": 74875,
-    "On Market": 58862,
+    "On Market": 49657,
     "New Deal - Unscheduled": 5000
   },
   "by_agent": {
@@ -115,7 +115,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8417.17
+      "spend": 8442.939999999999
     }
   },
   "reps_by_month": {
@@ -713,14 +713,12 @@
         },
         "2026-06": {
           "counts": {
-            "available": 1,
-            "dead": 4,
+            "dead": 5,
             "pending": 2,
             "closed": 1
           },
           "gp": {
-            "available": 9205,
-            "dead": 131730,
+            "dead": 140935,
             "pending": 42900,
             "closed": 16214
           },
@@ -741,24 +739,26 @@
         },
         "2026-08": {
           "counts": {
-            "available": 3
+            "available": 2,
+            "dead": 1
           },
           "gp": {
-            "available": 78830
+            "available": 35000,
+            "dead": 43830
           },
           "total": 3
         }
       },
       "all_time": {
         "counts": {
-          "available": 8,
-          "dead": 28,
+          "available": 6,
+          "dead": 30,
           "pending": 4,
           "closed": 10
         },
         "gp": {
-          "available": 228390,
-          "dead": 658755,
+          "available": 175355,
+          "dead": 711790,
           "pending": 69892,
           "closed": 363659
         },
@@ -766,9 +766,9 @@
       },
       "channel_counts": {
         "ppc": {
-          "available": 5,
+          "available": 4,
+          "dead": 7,
           "pending": 2,
-          "dead": 6,
           "closed": 1
         },
         "fb": {
@@ -778,8 +778,7 @@
           "closed": 2
         },
         "sms": {
-          "available": 1,
-          "dead": 9,
+          "dead": 10,
           "closed": 7,
           "pending": 1
         }
@@ -787,7 +786,8 @@
       "by_month_channel_counts": {
         "2026-08": {
           "ppc": {
-            "available": 3
+            "available": 2,
+            "dead": 1
           }
         },
         "2026-07": {
@@ -802,8 +802,7 @@
         },
         "2026-06": {
           "sms": {
-            "available": 1,
-            "dead": 1
+            "dead": 2
           },
           "fb": {
             "dead": 2,
@@ -888,15 +887,6 @@
           "contract_month": "2026-08"
         },
         {
-          "address": "157 Craig St, Craigsville, VA 24430, USA",
-          "value": 43830,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-08"
-        },
-        {
           "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
           "value": 29699,
           "status": "Available",
@@ -942,15 +932,6 @@
           "contract_month": "2026-07"
         },
         {
-          "address": "3136 Joseph Ave, Chesapeake, VA 23324, USA",
-          "value": 9205,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-06"
-        },
-        {
           "address": "11679 VA-47, Chase City, VA 23924, USA",
           "value": 35150,
           "status": "Sent to Title",
@@ -981,16 +962,16 @@
     }
   },
   "pipeline_contracts": {
-    "available": 16,
+    "available": 14,
     "pending": 4,
     "on_hold": 5,
     "closed": 29,
-    "dead": 59,
-    "gp_available": 426754,
+    "dead": 61,
+    "gp_available": 373719,
     "gp_pending": 69892,
     "gp_on_hold": 218088,
     "gp_closed": 696550,
-    "gp_dead": 1365685
+    "gp_dead": 1418720
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -1000,7 +981,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 8417.17
+    "2026-08": 8444.09
   },
   "channel_by_month": {
     "2026-01": {
@@ -1669,12 +1650,12 @@
       }
     },
     "2026-08": {
-      "google_spend": 4815.02,
-      "meta_spend": 3602.15,
+      "google_spend": 4819.7,
+      "meta_spend": 3624.39,
       "ppc_leads": 26,
-      "fb_leads": 79,
-      "google_cpc": 21.79,
-      "meta_cpc": 3.27,
+      "fb_leads": 80,
+      "google_cpc": 21.81,
+      "meta_cpc": 3.24,
       "pipeline_ppc": {
         "leads": 26,
         "active": 19,
@@ -1682,10 +1663,10 @@
         "offered": 8,
         "accepted": 4,
         "under_contract": 4,
-        "contract_available": 4,
+        "contract_available": 3,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
@@ -1727,8 +1708,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 79,
-        "active": 57,
+        "leads": 80,
+        "active": 58,
         "booked": 26,
         "offered": 25,
         "accepted": 1,
@@ -1740,7 +1721,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 31,
+            "count": 32,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1776,7 +1757,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 105,
+    "new_leads_30d": 106,
     "dispositioned_mtd": 46,
     "hot": 9,
     "booked": 36,
@@ -1785,8 +1766,8 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 79,
-    "active": 57,
+    "leads": 80,
+    "active": 58,
     "booked": 26,
     "offered": 25,
     "accepted": 29,
@@ -1798,7 +1779,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 31,
+        "count": 32,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1838,10 +1819,10 @@
     "offered": 8,
     "accepted": 25,
     "under_contract": 25,
-    "contract_available": 8,
+    "contract_available": 7,
     "contract_pending": 2,
     "contract_closed": 5,
-    "contract_dead": 10,
+    "contract_dead": 11,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
@@ -1898,7 +1879,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 198364,
-    "Charles": 298282
+    "Charles": 245247
   },
   "agent_deals": [
     {
@@ -2002,16 +1983,6 @@
       "agent": "Charles"
     },
     {
-      "address": "157 Craig St, Craigsville, VA 24430, USA",
-      "value": 43830,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-08",
-      "agent": "Charles"
-    },
-    {
       "address": "5859 Pounding Mill Branch Rd, Pounding Mill, VA 24637, USA",
       "value": 29699,
       "status": "Available",
@@ -2062,16 +2033,6 @@
       "agent": "Charles"
     },
     {
-      "address": "3136 Joseph Ave, Chesapeake, VA 23324, USA",
-      "value": 9205,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-06",
-      "agent": "Charles"
-    },
-    {
       "address": "11679 VA-47, Chase City, VA 23924, USA",
       "value": 35150,
       "status": "Sent to Title",
@@ -2104,7 +2065,7 @@
   ],
   "sources": {
     "ppc": 26,
-    "facebook": 79,
+    "facebook": 80,
     "ppc_inbound_call": 20
   },
   "hot_leads": [

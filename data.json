@@ -1,13 +1,13 @@
 {
   "report_date": "August 14, 2026",
-  "last_updated": "2026-08-14 12:01 EST",
+  "last_updated": "2026-08-14 13:01 EST",
   "google": {
-    "spend_mtd": 5869.28,
+    "spend_mtd": 5870.34,
     "clicks_mtd": 270,
     "crm_leads": 33,
     "crm_leads_today": 1,
     "cpc": 21.74,
-    "cpl": 177.86,
+    "cpl": 177.89,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 570.45,
-        "spend_today": 40.57,
+        "spend": 571.51,
+        "spend_today": 41.62,
         "clicks": 164,
         "cpc": 3.48,
         "crm_leads": 0,
-        "cpl": 177.86
+        "cpl": 177.89
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 106,
         "cpc": 49.99,
         "crm_leads": 0,
-        "cpl": 177.86
+        "cpl": 177.89
       }
     ]
   },
   "meta": {
-    "spend_30d": 4406.15,
-    "clicks_30d": 1386,
-    "crm_leads": 97,
-    "crm_leads_today": 2,
-    "cpc": 3.18,
-    "cpl_crm": 45.42,
-    "cost_per_hot": 881.23,
+    "spend_30d": 4422.75,
+    "clicks_30d": 1398,
+    "crm_leads": 98,
+    "crm_leads_today": 3,
+    "cpc": 3.16,
+    "cpl_crm": 45.13,
+    "cost_per_hot": 737.12,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4406.15,
-        "spend_today": 89.0,
-        "clicks": 1386,
-        "crm_leads": 97,
-        "cpl_crm": 45.42
+        "spend": 4422.75,
+        "spend_today": 105.57,
+        "clicks": 1398,
+        "crm_leads": 98,
+        "cpl_crm": 45.13
       }
     ]
   },
@@ -114,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10275.05
+      "spend": 10292.33
     }
   },
   "reps_by_month": {
@@ -345,7 +345,7 @@
       },
       "Julian": {
         "leads": 28,
-        "active": 27,
+        "active": 26,
         "booked": 23,
         "offers": 25,
         "accepted": 4,
@@ -1002,7 +1002,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 10275.43
+    "2026-08": 10293.09
   },
   "channel_by_month": {
     "2026-01": {
@@ -1675,12 +1675,12 @@
       }
     },
     "2026-08": {
-      "google_spend": 5869.28,
-      "meta_spend": 4406.15,
+      "google_spend": 5870.34,
+      "meta_spend": 4422.75,
       "ppc_leads": 33,
-      "fb_leads": 97,
+      "fb_leads": 98,
       "google_cpc": 21.74,
-      "meta_cpc": 3.18,
+      "meta_cpc": 3.16,
       "pipeline_ppc": {
         "leads": 33,
         "active": 20,
@@ -1737,8 +1737,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 97,
-        "active": 73,
+        "leads": 98,
+        "active": 74,
         "booked": 33,
         "offered": 31,
         "accepted": 2,
@@ -1750,11 +1750,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 44,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 20,
+            "count": 19,
             "color": "#D2E4EB"
           },
           "Warm": {
@@ -1778,7 +1778,7 @@
             "color": "#C8C8C8"
           },
           "Hot": {
-            "count": 2,
+            "count": 3,
             "color": "#F7D1D0"
           },
           "Under Contract": {
@@ -1794,17 +1794,17 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 130,
+    "new_leads_30d": 131,
     "dispositioned_mtd": 58,
-    "hot": 9,
+    "hot": 10,
     "booked": 47,
     "offers": 43,
     "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 97,
-    "active": 73,
+    "leads": 98,
+    "active": 74,
     "booked": 33,
     "offered": 31,
     "accepted": 30,
@@ -1816,11 +1816,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 44,
+        "count": 45,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 20,
+        "count": 19,
         "color": "#D2E4EB"
       },
       "Warm": {
@@ -1844,7 +1844,7 @@
         "color": "#C8C8C8"
       },
       "Hot": {
-        "count": 2,
+        "count": 3,
         "color": "#F7D1D0"
       },
       "Under Contract": {
@@ -2134,10 +2134,16 @@
   ],
   "sources": {
     "ppc": 33,
-    "facebook": 97,
+    "facebook": 98,
     "ppc_inbound_call": 20
   },
   "hot_leads": [
+    {
+      "name": "715 Dinwiddie St",
+      "address": "715 Dinwiddie St, Lynchburg, VA 24504, USA",
+      "phone": "(434) 426-8108",
+      "source": "Facebook"
+    },
     {
       "name": "224 Posey St",
       "address": "224 Posey St, Warrenville, SC 29851, USA",
@@ -2160,12 +2166,6 @@
       "name": "444 Walker Rd",
       "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
       "phone": "(541) 973-7372",
-      "source": "Facebook"
-    },
-    {
-      "name": "2203 Gordon St",
-      "address": "2203 Gordon St, Hopewell, VA 23860, USA",
-      "phone": "(804) 930-7297",
       "source": "Facebook"
     }
   ],

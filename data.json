@@ -1,12 +1,12 @@
 {
   "report_date": "August 18, 2026",
-  "last_updated": "2026-08-18 18:44 AST",
+  "last_updated": "2026-08-18 19:32 AST",
   "google": {
-    "spend_mtd": 7659.32,
-    "clicks_mtd": 399,
-    "crm_leads": 39,
-    "cpc": 19.2,
-    "cpl": 196.39,
+    "spend_mtd": 7778.82,
+    "clicks_mtd": 400,
+    "crm_leads": 40,
+    "cpc": 19.45,
+    "cpl": 194.47,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,39 +14,39 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 730.49,
-        "spend_today": 11.52,
+        "spend": 730.82,
+        "spend_today": 11.84,
         "clicks": 253,
         "cpc": 2.89,
         "crm_leads": 0,
-        "cpl": 196.39
+        "cpl": 194.47
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6928.83,
-        "spend_today": 310.27,
-        "clicks": 146,
-        "cpc": 47.46,
+        "spend": 7048.0,
+        "spend_today": 429.44,
+        "clicks": 147,
+        "cpc": 47.95,
         "crm_leads": 0,
-        "cpl": 196.39
+        "cpl": 194.47
       }
     ]
   },
   "meta": {
-    "spend_30d": 5871.84,
-    "clicks_30d": 1950,
+    "spend_30d": 5883.66,
+    "clicks_30d": 1951,
     "crm_leads": 137,
-    "cpc": 3.01,
-    "cpl_crm": 42.86,
-    "cost_per_hot": 1174.37,
+    "cpc": 3.02,
+    "cpl_crm": 42.95,
+    "cost_per_hot": 1470.91,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5871.84,
-        "spend_today": 194.64,
-        "clicks": 1950,
+        "spend": 5883.66,
+        "spend_today": 206.39,
+        "clicks": 1951,
         "crm_leads": 137,
-        "cpl_crm": 42.86
+        "cpl_crm": 42.95
       }
     ]
   },
@@ -114,7 +114,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13533.93
+      "spend": 13661.71
     }
   },
   "reps_by_month": {
@@ -276,7 +276,7 @@
         "leads": 81,
         "active": 64,
         "booked": 59,
-        "offers": 61,
+        "offers": 60,
         "accepted": 4,
         "available": 1,
         "pending": 0,
@@ -329,10 +329,10 @@
         "closed_revenue": 16214.39
       },
       "Julian": {
-        "leads": 40,
-        "active": 41,
-        "booked": 35,
-        "offers": 36,
+        "leads": 42,
+        "active": 43,
+        "booked": 37,
+        "offers": 37,
         "accepted": 4,
         "available": 3,
         "pending": 0,
@@ -589,7 +589,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 13531.16
+    "2026-08": 13662.48
   },
   "channel_by_month": {
     "2026-01": {
@@ -759,16 +759,16 @@
       }
     },
     "2026-08": {
-      "google_spend": 7659.32,
-      "meta_spend": 5871.84,
-      "ppc_leads": 39,
+      "google_spend": 7778.82,
+      "meta_spend": 5883.66,
+      "ppc_leads": 40,
       "fb_leads": 137,
-      "google_cpc": 19.2,
-      "meta_cpc": 3.01,
+      "google_cpc": 19.45,
+      "meta_cpc": 3.02,
       "pipeline_ppc": {
-        "leads": 39,
-        "active": 25,
-        "booked": 17,
+        "leads": 40,
+        "active": 26,
+        "booked": 18,
         "offered": 14,
         "accepted": 3,
         "under_contract": 3,
@@ -777,7 +777,7 @@
       "pipeline_fb": {
         "leads": 137,
         "active": 95,
-        "booked": 47,
+        "booked": 48,
         "offered": 45,
         "accepted": 2,
         "under_contract": 2,
@@ -786,9 +786,9 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 176,
-    "hot": 7,
-    "booked": 64,
+    "new_leads_30d": 177,
+    "hot": 6,
+    "booked": 66,
     "offers": 59,
     "under_contract": 5,
     "closed": 0
@@ -796,33 +796,27 @@
   "pipeline_fb": {
     "leads": 137,
     "active": 95,
-    "booked": 47,
+    "booked": 48,
     "offered": 45,
     "accepted": 2,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 39,
-    "active": 25,
-    "booked": 17,
+    "leads": 40,
+    "active": 26,
+    "booked": 18,
     "offered": 14,
     "accepted": 3,
     "under_contract": 3,
     "closed": 0
   },
   "sources": {
-    "ppc": 39,
+    "ppc": 40,
     "facebook": 137,
-    "ppc_inbound_call": 23
+    "ppc_inbound_call": 24
   },
   "hot_leads": [
-    {
-      "name": "570 Ridge Rd",
-      "address": "570 Ridge Rd, Windsor, ME 04363, USA",
-      "phone": "(207) 462-5533",
-      "source": "Facebook"
-    },
     {
       "name": "846 E Market St",
       "address": "846 E Market St, Burlington, NC 27217, USA",
@@ -846,6 +840,12 @@
       "address": "2203 Gordon St, Hopewell, VA 23860, USA",
       "phone": "(804) 930-7297",
       "source": "Facebook"
+    },
+    {
+      "name": "3235 Rockbridge Rd",
+      "address": "3235 Rockbridge Rd, Troutdale, VA 24378, USA",
+      "phone": "(276) 239-0509",
+      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

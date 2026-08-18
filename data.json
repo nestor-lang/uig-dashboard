@@ -1,12 +1,12 @@
 {
   "report_date": "August 18, 2026",
-  "last_updated": "2026-08-18 21:29 AST",
+  "last_updated": "2026-08-18 22:29 AST",
   "google": {
-    "spend_mtd": 7780.08,
-    "clicks_mtd": 400,
+    "spend_mtd": 7785.24,
+    "clicks_mtd": 402,
     "crm_leads": 40,
-    "cpc": 19.45,
-    "cpl": 194.5,
+    "cpc": 19.37,
+    "cpl": 194.63,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,12 +14,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 732.08,
-        "spend_today": 13.11,
-        "clicks": 253,
+        "spend": 737.24,
+        "spend_today": 18.27,
+        "clicks": 255,
         "cpc": 2.89,
         "crm_leads": 0,
-        "cpl": 194.5
+        "cpl": 194.63
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,25 +28,25 @@
         "clicks": 147,
         "cpc": 47.95,
         "crm_leads": 0,
-        "cpl": 194.5
+        "cpl": 194.63
       }
     ]
   },
   "meta": {
-    "spend_30d": 5930.74,
-    "clicks_30d": 1963,
-    "crm_leads": 137,
+    "spend_30d": 5947.26,
+    "clicks_30d": 1970,
+    "crm_leads": 139,
     "cpc": 3.02,
-    "cpl_crm": 43.29,
-    "cost_per_hot": 1186.15,
+    "cpl_crm": 42.79,
+    "cost_per_hot": 991.21,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5930.74,
-        "spend_today": 253.47,
-        "clicks": 1963,
-        "crm_leads": 137,
-        "cpl_crm": 43.29
+        "spend": 5947.26,
+        "spend_today": 269.99,
+        "clicks": 1970,
+        "crm_leads": 139,
+        "cpl_crm": 42.79
       }
     ]
   },
@@ -113,7 +113,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13710.55
+      "spend": 13731.04
     }
   },
   "reps_by_month": {
@@ -315,9 +315,9 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 36,
-        "active": 44,
-        "booked": 31,
+        "leads": 37,
+        "active": 43,
+        "booked": 32,
         "offers": 42,
         "accepted": 4,
         "available": 2,
@@ -328,10 +328,10 @@
         "closed_revenue": 16214.39
       },
       "Julian": {
-        "leads": 42,
-        "active": 44,
-        "booked": 37,
-        "offers": 38,
+        "leads": 43,
+        "active": 45,
+        "booked": 38,
+        "offers": 39,
         "accepted": 4,
         "available": 3,
         "pending": 0,
@@ -588,7 +588,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 13710.82
+    "2026-08": 13733.83
   },
   "channel_by_month": {
     "2026-01": {
@@ -758,15 +758,15 @@
       }
     },
     "2026-08": {
-      "google_spend": 7780.08,
-      "meta_spend": 5930.74,
+      "google_spend": 7785.24,
+      "meta_spend": 5948.59,
       "ppc_leads": 40,
-      "fb_leads": 137,
-      "google_cpc": 19.45,
+      "fb_leads": 139,
+      "google_cpc": 19.37,
       "meta_cpc": 3.02,
       "pipeline_ppc": {
         "leads": 40,
-        "active": 26,
+        "active": 25,
         "booked": 18,
         "offered": 15,
         "accepted": 3,
@@ -774,10 +774,10 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 137,
-        "active": 95,
-        "booked": 49,
-        "offered": 46,
+        "leads": 139,
+        "active": 96,
+        "booked": 51,
+        "offered": 47,
         "accepted": 2,
         "under_contract": 2,
         "closed": 0
@@ -785,25 +785,25 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 177,
-    "hot": 7,
-    "booked": 67,
-    "offers": 61,
+    "new_leads_30d": 179,
+    "hot": 8,
+    "booked": 69,
+    "offers": 62,
     "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 137,
-    "active": 95,
-    "booked": 49,
-    "offered": 46,
+    "leads": 139,
+    "active": 96,
+    "booked": 51,
+    "offered": 47,
     "accepted": 2,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_ppc": {
     "leads": 40,
-    "active": 26,
+    "active": 25,
     "booked": 18,
     "offered": 15,
     "accepted": 3,
@@ -812,10 +812,16 @@
   },
   "sources": {
     "ppc": 40,
-    "facebook": 137,
+    "facebook": 139,
     "ppc_inbound_call": 24
   },
   "hot_leads": [
+    {
+      "name": "923 Sandy Ridge Dr",
+      "address": "923 Sandy Ridge Dr, Davenport, FL 33896, USA",
+      "phone": "(732) 917-1229",
+      "source": "Facebook"
+    },
     {
       "name": "846 E Market St",
       "address": "846 E Market St, Burlington, NC 27217, USA",
@@ -838,12 +844,6 @@
       "name": "444 Walker Rd",
       "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
       "phone": "(541) 973-7372",
-      "source": "Facebook"
-    },
-    {
-      "name": "2203 Gordon St",
-      "address": "2203 Gordon St, Hopewell, VA 23860, USA",
-      "phone": "(804) 930-7297",
       "source": "Facebook"
     }
   ],

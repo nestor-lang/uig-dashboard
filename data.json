@@ -1,12 +1,12 @@
 {
   "report_date": "August 20, 2026",
-  "last_updated": "2026-08-20 20:33 AST",
+  "last_updated": "2026-08-20 21:33 AST",
   "google": {
     "spend_mtd": 8561.86,
     "clicks_mtd": 442,
-    "crm_leads": 49,
+    "crm_leads": 50,
     "cpc": 19.37,
-    "cpl": 174.73,
+    "cpl": 171.24,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -19,7 +19,7 @@
         "clicks": 280,
         "cpc": 2.97,
         "crm_leads": 0,
-        "cpl": 174.73
+        "cpl": 171.24
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,25 +28,25 @@
         "clicks": 162,
         "cpc": 47.71,
         "crm_leads": 0,
-        "cpl": 174.73
+        "cpl": 171.24
       }
     ]
   },
   "meta": {
-    "spend_30d": 6523.14,
-    "clicks_30d": 2184,
-    "crm_leads": 154,
+    "spend_30d": 6545.43,
+    "clicks_30d": 2189,
+    "crm_leads": 157,
     "cpc": 2.99,
-    "cpl_crm": 42.36,
-    "cost_per_hot": 1630.79,
+    "cpl_crm": 41.69,
+    "cost_per_hot": 1636.36,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6523.14,
-        "spend_today": 191.6,
-        "clicks": 2184,
-        "crm_leads": 154,
-        "cpl_crm": 42.36
+        "spend": 6545.43,
+        "spend_today": 213.89,
+        "clicks": 2189,
+        "crm_leads": 157,
+        "cpl_crm": 41.69
       }
     ]
   },
@@ -113,7 +113,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15084.920000000002
+      "spend": 15100.85
     }
   },
   "reps_by_month": {
@@ -204,8 +204,8 @@
     "2026-04": {
       "Charles": {
         "leads": 50,
-        "active": 49,
-        "booked": 45,
+        "active": 50,
+        "booked": 46,
         "offers": 36,
         "accepted": 6,
         "available": 0,
@@ -301,7 +301,7 @@
       },
       "Julian": {
         "leads": 76,
-        "active": 80,
+        "active": 79,
         "booked": 71,
         "offers": 60,
         "accepted": 8,
@@ -328,9 +328,9 @@
         "closed_revenue": 16214.39
       },
       "Julian": {
-        "leads": 49,
-        "active": 53,
-        "booked": 44,
+        "leads": 50,
+        "active": 54,
+        "booked": 45,
         "offers": 45,
         "accepted": 4,
         "available": 2,
@@ -584,7 +584,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 15085.0
+    "2026-08": 15107.29
   },
   "channel_by_month": {
     "2026-01": {
@@ -736,7 +736,7 @@
       "meta_cpc": 2.68,
       "pipeline_ppc": {
         "leads": 58,
-        "active": 27,
+        "active": 26,
         "booked": 25,
         "offered": 23,
         "accepted": 4,
@@ -755,14 +755,14 @@
     },
     "2026-08": {
       "google_spend": 8561.86,
-      "meta_spend": 6523.14,
-      "ppc_leads": 49,
-      "fb_leads": 154,
+      "meta_spend": 6545.43,
+      "ppc_leads": 50,
+      "fb_leads": 157,
       "google_cpc": 19.37,
       "meta_cpc": 2.99,
       "pipeline_ppc": {
-        "leads": 49,
-        "active": 33,
+        "leads": 50,
+        "active": 34,
         "booked": 22,
         "offered": 17,
         "accepted": 2,
@@ -770,9 +770,9 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 154,
-        "active": 104,
-        "booked": 54,
+        "leads": 157,
+        "active": 102,
+        "booked": 56,
         "offered": 50,
         "accepted": 2,
         "under_contract": 2,
@@ -781,25 +781,25 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 203,
+    "new_leads_30d": 207,
     "hot": 6,
-    "booked": 76,
+    "booked": 78,
     "offers": 67,
     "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 154,
-    "active": 104,
-    "booked": 54,
+    "leads": 157,
+    "active": 102,
+    "booked": 56,
     "offered": 50,
     "accepted": 2,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 49,
-    "active": 33,
+    "leads": 50,
+    "active": 34,
     "booked": 22,
     "offered": 17,
     "accepted": 2,
@@ -807,9 +807,9 @@
     "closed": 0
   },
   "sources": {
-    "ppc": 49,
-    "facebook": 154,
-    "ppc_inbound_call": 24
+    "ppc": 50,
+    "facebook": 157,
+    "ppc_inbound_call": 25
   },
   "hot_leads": [
     {

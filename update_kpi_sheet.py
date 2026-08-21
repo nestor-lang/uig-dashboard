@@ -77,8 +77,15 @@ def build_row_map():
 
 MONTH_ROW_MAP, MONTH_NUM_MAP = build_row_map()
 
-def podio_post(url, data, token=None, retries=3, timeout=30):
-    import io
+def podio_post(url, data, token=None, retries=3, timeout=120):
+    """POST to Podio, retrying transient failures.
+
+    The Leads app holds ~40k items, so a saved-view /filter call is a full scan
+    that routinely takes 35-70s and intermittently returns a 504. The old
+    30s timeout could not succeed and only 420 was retried, so a single read
+    timeout killed the whole run.
+    """
+    import io, time as _time
     if token is None:
         body = urllib.parse.urlencode(data).encode()
         headers = {"Content-Type": "application/x-www-form-urlencoded"}
@@ -96,12 +103,23 @@ def podio_post(url, data, token=None, retries=3, timeout=30):
                     raw = _gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
                 return json.loads(raw.decode("utf-8"))
         except urllib.error.HTTPError as e:
-            if e.code == 420 and attempt < retries - 1:
-                wait = 30 * (attempt + 1)
-                print(f"  Podio rate limit (420), waiting {wait}s...")
-                import time; time.sleep(wait)
+            # 420 = Podio rate limit, 5xx = Podio-side timeout/outage. Both are transient.
+            if (e.code == 420 or e.code >= 500) and attempt < retries - 1:
+                wait = (30 if e.code == 420 else 10) * (attempt + 1)
+                label = "rate limit (420)" if e.code == 420 else f"HTTP {e.code}"
+                print(f"  Podio {label}, retrying in {wait}s...")
+                _time.sleep(wait)
             else:
                 raise
+        except Exception as e:
+            # Read timeouts and connection resets — retry rather than fail the run.
+            if attempt < retries - 1:
+                wait = 10 * (attempt + 1)
+                print(f"  Podio call failed ({type(e).__name__}: {e}), retrying in {wait}s...")
+                _time.sleep(wait)
+            else:
+                raise
+    raise RuntimeError(f"podio_post exhausted {retries} attempts: {url}")
 
 def gc(fields, eid):
     for f in fields:
@@ -211,6 +229,11 @@ auth = podio_post("https://podio.com/oauth/token", {
 })
 ptoken = auth["access_token"]
 
+# Podio /filter caps at 500 per page. A view call costs a full ~40k-item scan
+# regardless of page size, so a bigger page is strictly cheaper: it cuts the FB
+# view from 9 calls to 2 and the PPC view from 3 to 1.
+PODIO_PAGE = 500
+
 def fetch_leads_from_view(view_id, cutoff_date=None):
     """Fetch all leads from a Podio view, optionally stopping at cutoff_date (YYYY-MM-DD)."""
     leads = []
@@ -218,7 +241,9 @@ def fetch_leads_from_view(view_id, cutoff_date=None):
     while True:
         result = podio_post(
             f"https://api.podio.com/item/app/{PODIO_APP_ID}/filter/{view_id}/",
-            {"limit": 100, "offset": offset},
+            # sort_desc is what makes the cutoff_date early-return below correct.
+            {"limit": PODIO_PAGE, "offset": offset,
+             "sort_by": "created_on", "sort_desc": True},
             token=ptoken
         )
         items = result.get("items", [])
@@ -244,8 +269,8 @@ def fetch_leads_from_view(view_id, cutoff_date=None):
                 "disp_item_id": disp_item_id,
                 "closed_on": "",
             })
-        if len(items) < 100: break
-        offset += 100
+        if len(items) < PODIO_PAGE: break
+        offset += PODIO_PAGE
     return leads
 
 SMS_CACHE_FILE = "/Users/nestorsoto/.openclaw/workspace/data/sms_leads_cache.json"

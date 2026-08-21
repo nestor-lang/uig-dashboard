@@ -9,7 +9,9 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # The last green run used 6 of 10 min with no retries; Podio /filter now
+    # needs retries during business hours, so give the job real headroom.
+    timeout-minutes: 20
 
     env:
       PUSH_TOKEN:                  ${{ secrets.PUSH_TOKEN }}

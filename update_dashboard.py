@@ -48,7 +48,11 @@ def get(url, headers=None):
     req = urllib.request.Request(url, headers=headers or {})
     return json.loads(urllib.request.urlopen(req, timeout=20).read())
 
-def post(url, data, headers=None, form=False):
+def post(url, data, headers=None, form=False, retries=3, timeout=120):
+    """POST with retry. A Podio saved-view /filter call scans the whole ~40k-item
+    Leads app: it takes 35-70s and intermittently 504s, so a 20s no-retry call
+    could not succeed."""
+    import time as _time
     if form or not headers:
         body = urllib.parse.urlencode(data).encode()
         ct = "application/x-www-form-urlencoded"
@@ -57,11 +61,28 @@ def post(url, data, headers=None, form=False):
         ct = "application/json"
     h = {"Content-Type": ct, "Accept-Encoding": "gzip", **(headers or {})}
     req = urllib.request.Request(url, data=body, headers=h, method="POST")
-    with urllib.request.urlopen(req, timeout=20) as r:
-        raw = r.read()
-        if r.headers.get("Content-Encoding", "") == "gzip":
-            raw = _gzip.GzipFile(fileobj=_io.BytesIO(raw)).read()
-        return json.loads(raw)
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                raw = r.read()
+                if r.headers.get("Content-Encoding", "") == "gzip":
+                    raw = _gzip.GzipFile(fileobj=_io.BytesIO(raw)).read()
+                return json.loads(raw)
+        except urllib.error.HTTPError as e:
+            if (e.code == 420 or e.code >= 500) and attempt < retries - 1:
+                wait = (30 if e.code == 420 else 10) * (attempt + 1)
+                print(f"  Podio HTTP {e.code}, retrying in {wait}s...")
+                _time.sleep(wait)
+            else:
+                raise
+        except Exception as e:
+            if attempt < retries - 1:
+                wait = 10 * (attempt + 1)
+                print(f"  POST failed ({type(e).__name__}: {e}), retrying in {wait}s...")
+                _time.sleep(wait)
+            else:
+                raise
+    raise RuntimeError(f"post exhausted {retries} attempts: {url}")
 
 def put_github(path, content_str, sha=None):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
@@ -120,14 +141,16 @@ def created_date_ast(item):
     except:
         return created_utc[:10]
 
-def fetch_view_items(view_id, label, max_pages=5, cutoff_date=None):
-    """Fetch items from a Podio view, up to max_pages * 200 items.
+PODIO_PAGE = 500   # Podio /filter max; a view call costs a full scan either way
+
+def fetch_view_items(view_id, label, max_pages=8, cutoff_date=None):
+    """Fetch items from a Podio view, up to max_pages * PODIO_PAGE items.
     If cutoff_date (YYYY-MM-DD) is set, filters server-side via Podio's created_on filter
     so Podio only scans recent items — avoids timeouts on large views."""
     print(f"Pulling {label} leads from view...")
     all_items = []
     offset = 0
-    body = {"limit": 200, "offset": offset, "sort_by": "created_on", "sort_desc": True}
+    body = {"limit": PODIO_PAGE, "offset": offset, "sort_by": "created_on", "sort_desc": True}
     if cutoff_date:
         # Push date filter to Podio server-side — critical for large views (e.g. SMS)
         body["filters"] = {
@@ -144,9 +167,12 @@ def fetch_view_items(view_id, label, max_pages=5, cutoff_date=None):
         if not items:
             break
         all_items.extend(items)
-        if len(all_items) >= result.get("total", 0):
+        # "filtered" is the view's row count; "total" is every item in the app
+        # (~40k), so the old check against total never fired and pagination
+        # relied on hitting max_pages.
+        if len(all_items) >= result.get("filtered", result.get("total", 0)):
             break
-        offset += 200
+        offset += PODIO_PAGE
     return all_items
 
 fb_view_items  = fetch_view_items(FB_VIEW_ID,  "FB")

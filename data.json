@@ -1,12 +1,12 @@
 {
   "report_date": "August 22, 2026",
-  "last_updated": "2026-08-22 16:30 AST",
+  "last_updated": "2026-08-22 17:25 AST",
   "google": {
-    "spend_mtd": 9082.35,
-    "clicks_mtd": 485,
+    "spend_mtd": 9086.56,
+    "clicks_mtd": 494,
     "crm_leads": 52,
-    "cpc": 18.73,
-    "cpl": 174.66,
+    "cpc": 18.39,
+    "cpl": 174.74,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,12 +14,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 895.06,
-        "spend_today": 18.09,
-        "clicks": 304,
-        "cpc": 2.94,
+        "spend": 899.26,
+        "spend_today": 22.3,
+        "clicks": 313,
+        "cpc": 2.87,
         "crm_leads": 0,
-        "cpl": 174.66
+        "cpl": 174.74
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -28,25 +28,25 @@
         "clicks": 181,
         "cpc": 45.23,
         "crm_leads": 0,
-        "cpl": 174.66
+        "cpl": 174.74
       }
     ]
   },
   "meta": {
-    "spend_30d": 7099.96,
-    "clicks_30d": 2407,
-    "crm_leads": 170,
-    "cpc": 2.95,
-    "cpl_crm": 41.76,
-    "cost_per_hot": 1774.99,
+    "spend_30d": 7116.12,
+    "clicks_30d": 2419,
+    "crm_leads": 171,
+    "cpc": 2.94,
+    "cpl_crm": 41.61,
+    "cost_per_hot": 1779.03,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7099.96,
-        "spend_today": 129.6,
-        "clicks": 2407,
-        "crm_leads": 170,
-        "cpl_crm": 41.76
+        "spend": 7116.12,
+        "spend_today": 145.76,
+        "clicks": 2419,
+        "crm_leads": 171,
+        "cpl_crm": 41.61
       }
     ]
   },
@@ -113,7 +113,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16182.310000000001
+      "spend": 16200.8
     }
   },
   "reps_by_month": {
@@ -584,7 +584,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 16182.31
+    "2026-08": 16202.68
   },
   "channel_by_month": {
     "2026-01": {
@@ -754,12 +754,12 @@
       }
     },
     "2026-08": {
-      "google_spend": 9082.35,
-      "meta_spend": 7099.96,
+      "google_spend": 9086.56,
+      "meta_spend": 7116.12,
       "ppc_leads": 52,
-      "fb_leads": 170,
-      "google_cpc": 18.73,
-      "meta_cpc": 2.95,
+      "fb_leads": 171,
+      "google_cpc": 18.39,
+      "meta_cpc": 2.94,
       "pipeline_ppc": {
         "leads": 52,
         "active": 35,
@@ -770,9 +770,9 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 170,
-        "active": 111,
-        "booked": 60,
+        "leads": 171,
+        "active": 112,
+        "booked": 61,
         "offered": 57,
         "accepted": 2,
         "under_contract": 2,
@@ -781,17 +781,17 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 222,
+    "new_leads_30d": 223,
     "hot": 5,
-    "booked": 82,
+    "booked": 83,
     "offers": 75,
     "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 170,
-    "active": 111,
-    "booked": 60,
+    "leads": 171,
+    "active": 112,
+    "booked": 61,
     "offered": 57,
     "accepted": 2,
     "under_contract": 2,
@@ -808,7 +808,7 @@
   },
   "sources": {
     "ppc": 52,
-    "facebook": 170,
+    "facebook": 171,
     "ppc_inbound_call": 23
   },
   "hot_leads": [

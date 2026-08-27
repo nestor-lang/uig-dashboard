@@ -1,6 +1,6 @@
 {
   "report_date": "August 27, 2026",
-  "last_updated": "2026-08-27 15:06 EST",
+  "last_updated": "2026-08-27 16:11 EST",
   "google": {
     "spend_mtd": 11123.33,
     "clicks_mtd": 584,
@@ -34,21 +34,21 @@
     ]
   },
   "meta": {
-    "spend_30d": 8826.2,
-    "clicks_30d": 3058,
+    "spend_30d": 8843.58,
+    "clicks_30d": 3062,
     "crm_leads": 191,
     "crm_leads_today": 2,
     "cpc": 2.89,
-    "cpl_crm": 46.21,
-    "cost_per_hot": 2942.07,
+    "cpl_crm": 46.3,
+    "cost_per_hot": 2947.86,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8826.2,
-        "spend_today": 127.57,
-        "clicks": 3058,
+        "spend": 8843.58,
+        "spend_today": 144.78,
+        "clicks": 3062,
         "crm_leads": 191,
-        "cpl_crm": 46.21
+        "cpl_crm": 46.3
       }
     ]
   },
@@ -115,7 +115,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19949.53
+      "spend": 19966.91
     }
   },
   "reps_by_month": {
@@ -1013,7 +1013,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 19949.53
+    "2026-08": 19966.91
   },
   "channel_by_month": {
     "2026-01": {
@@ -1675,7 +1675,7 @@
     },
     "2026-08": {
       "google_spend": 11123.33,
-      "meta_spend": 8826.2,
+      "meta_spend": 8843.58,
       "ppc_leads": 61,
       "fb_leads": 191,
       "google_cpc": 19.05,
@@ -1698,7 +1698,7 @@
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 10,
+            "count": 11,
             "color": "#D2E4EB"
           },
           "Warm": {
@@ -1725,13 +1725,13 @@
             "count": 2,
             "color": "#F3F3F3"
           },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
-          },
           "No Longer Selling": {
             "count": 2,
             "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           },
           "Not Workable": {
             "count": 1,
@@ -1799,7 +1799,7 @@
   "pipeline": {
     "new_leads_30d": 252,
     "dispositioned_mtd": 115,
-    "hot": 5,
+    "hot": 4,
     "booked": 102,
     "offers": 93,
     "under_contract": 7,
@@ -1878,7 +1878,7 @@
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 10,
+        "count": 11,
         "color": "#D2E4EB"
       },
       "Warm": {
@@ -1905,13 +1905,13 @@
         "count": 2,
         "color": "#F3F3F3"
       },
-      "Hot": {
-        "count": 2,
-        "color": "#F7D1D0"
-      },
       "No Longer Selling": {
         "count": 2,
         "color": "#F3F3F3"
+      },
+      "Hot": {
+        "count": 1,
+        "color": "#F7D1D0"
       },
       "Not Workable": {
         "count": 1,
@@ -2168,12 +2168,6 @@
       "address": "307 Dimmick St, Burkeville, VA 23922, USA",
       "phone": "(929) 271-6823",
       "source": "PPC"
-    },
-    {
-      "name": "115 6th Ave",
-      "address": "115 6th Ave, Lawrenceville, VA 23868, USA",
-      "phone": "+14347749287",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

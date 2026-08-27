@@ -1,13 +1,13 @@
 {
   "report_date": "August 27, 2026",
-  "last_updated": "2026-08-27 17:16 EST",
+  "last_updated": "2026-08-27 18:01 EST",
   "google": {
     "spend_mtd": 11288.53,
     "clicks_mtd": 586,
-    "crm_leads": 63,
-    "crm_leads_today": 3,
+    "crm_leads": 64,
+    "crm_leads_today": 4,
     "cpc": 19.26,
-    "cpl": 179.18,
+    "cpl": 176.38,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 357,
         "cpc": 3.14,
         "crm_leads": 0,
-        "cpl": 179.18
+        "cpl": 176.38
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,36 +29,37 @@
         "clicks": 229,
         "cpc": 44.4,
         "crm_leads": 0,
-        "cpl": 179.18
+        "cpl": 176.38
       }
     ]
   },
   "meta": {
-    "spend_30d": 8864.3,
-    "clicks_30d": 3072,
+    "spend_30d": 8877.77,
+    "clicks_30d": 3078,
     "crm_leads": 193,
     "crm_leads_today": 4,
-    "cpc": 2.89,
-    "cpl_crm": 45.93,
-    "cost_per_hot": 2954.77,
+    "cpc": 2.88,
+    "cpl_crm": 46.0,
+    "cost_per_hot": 2219.44,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 8864.3,
-        "spend_today": 165.5,
-        "clicks": 3072,
+        "spend": 8877.77,
+        "spend_today": 178.97,
+        "clicks": 3078,
         "crm_leads": 193,
-        "cpl_crm": 45.93
+        "cpl_crm": 46.0
       }
     ]
   },
   "potential_income": 272745,
   "assigned_income": 112490,
   "by_stage": {
-    "New Deal - Unscheduled": 82499,
     "Initial Inspection Completed": 78791,
     "On Market": 70922,
-    "Market Prep / Pre-Listing Marketing": 40534
+    "New Deal - Unscheduled": 57650,
+    "Market Prep / Pre-Listing Marketing": 40534,
+    "Access Scheduled": 24849
   },
   "by_agent": {
     "Virginia": 74757,
@@ -115,7 +116,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20152.54
+      "spend": 20166.300000000003
     }
   },
   "reps_by_month": {
@@ -332,7 +333,7 @@
     "2026-08": {
       "Charles": {
         "leads": 46,
-        "active": 52,
+        "active": 51,
         "booked": 42,
         "offers": 52,
         "accepted": 5,
@@ -594,8 +595,8 @@
           "address": "326 Spring St, Farmington, NH 03835, USA",
           "value": 24849,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-08"
         },
@@ -1013,7 +1014,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 20152.83
+    "2026-08": 20166.3
   },
   "channel_by_month": {
     "2026-01": {
@@ -1675,13 +1676,13 @@
     },
     "2026-08": {
       "google_spend": 11288.53,
-      "meta_spend": 8864.3,
-      "ppc_leads": 63,
+      "meta_spend": 8877.77,
+      "ppc_leads": 64,
       "fb_leads": 193,
       "google_cpc": 19.26,
-      "meta_cpc": 2.89,
+      "meta_cpc": 2.88,
       "pipeline_ppc": {
-        "leads": 63,
+        "leads": 64,
         "active": 38,
         "booked": 25,
         "offered": 21,
@@ -1705,6 +1706,10 @@
             "count": 6,
             "color": "#F7F0C5"
           },
+          "Listed": {
+            "count": 5,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 5,
             "color": "#D1F3EC"
@@ -1716,10 +1721,6 @@
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 4,
-            "color": "#C8C8C8"
           },
           "Dead": {
             "count": 2,
@@ -1741,7 +1742,7 @@
       },
       "pipeline_fb": {
         "leads": 193,
-        "active": 124,
+        "active": 121,
         "booked": 78,
         "offered": 74,
         "accepted": 4,
@@ -1753,7 +1754,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 67,
+            "count": 66,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1761,7 +1762,7 @@
             "color": "#D2E4EB"
           },
           "Listed": {
-            "count": 12,
+            "count": 13,
             "color": "#C8C8C8"
           },
           "Wrong Number": {
@@ -1777,8 +1778,12 @@
             "color": "#F3F3F3"
           },
           "Warm": {
-            "count": 10,
+            "count": 9,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 2,
@@ -1787,19 +1792,15 @@
           "No Longer Selling": {
             "count": 2,
             "color": "#F3F3F3"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           }
         }
       }
     }
   },
   "pipeline": {
-    "new_leads_30d": 256,
+    "new_leads_30d": 257,
     "dispositioned_mtd": 116,
-    "hot": 4,
+    "hot": 5,
     "booked": 103,
     "offers": 95,
     "under_contract": 7,
@@ -1807,7 +1808,7 @@
   },
   "pipeline_fb": {
     "leads": 193,
-    "active": 124,
+    "active": 121,
     "booked": 78,
     "offered": 74,
     "accepted": 32,
@@ -1819,7 +1820,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 67,
+        "count": 66,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1827,7 +1828,7 @@
         "color": "#D2E4EB"
       },
       "Listed": {
-        "count": 12,
+        "count": 13,
         "color": "#C8C8C8"
       },
       "Wrong Number": {
@@ -1843,8 +1844,12 @@
         "color": "#F3F3F3"
       },
       "Warm": {
-        "count": 10,
+        "count": 9,
         "color": "#F7F0C5"
+      },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
       },
       "Under Contract": {
         "count": 2,
@@ -1853,15 +1858,11 @@
       "No Longer Selling": {
         "count": 2,
         "color": "#F3F3F3"
-      },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
       }
     }
   },
   "pipeline_ppc": {
-    "leads": 63,
+    "leads": 64,
     "active": 38,
     "booked": 25,
     "offered": 21,
@@ -1885,6 +1886,10 @@
         "count": 6,
         "color": "#F7F0C5"
       },
+      "Listed": {
+        "count": 5,
+        "color": "#C8C8C8"
+      },
       "Owes too Much": {
         "count": 5,
         "color": "#D1F3EC"
@@ -1896,10 +1901,6 @@
       "Wrong Number": {
         "count": 4,
         "color": "#DCEBD8"
-      },
-      "Listed": {
-        "count": 4,
-        "color": "#C8C8C8"
       },
       "Dead": {
         "count": 2,
@@ -1942,8 +1943,8 @@
       "address": "326 Spring St, Farmington, NH 03835, USA",
       "value": 24849,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-08",
       "agent": "Julian"
@@ -2140,11 +2141,17 @@
     }
   ],
   "sources": {
-    "ppc": 63,
+    "ppc": 64,
     "facebook": 193,
     "ppc_inbound_call": 23
   },
   "hot_leads": [
+    {
+      "name": "10483 Ashcake Rd",
+      "address": "10483 Ashcake Rd, Ashland, VA 23005, USA",
+      "phone": "(804) 241-4034",
+      "source": "Facebook"
+    },
     {
       "name": "151 Thorncliff Rd",
       "address": "151 Thorncliff Rd, Buffalo, NY 14223, USA",

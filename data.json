@@ -1,13 +1,13 @@
 {
   "report_date": "August 28, 2026",
-  "last_updated": "2026-08-28 11:06 EST",
+  "last_updated": "2026-08-28 12:01 EST",
   "google": {
-    "spend_mtd": 11391.62,
-    "clicks_mtd": 603,
+    "spend_mtd": 11396.67,
+    "clicks_mtd": 604,
     "crm_leads": 64,
     "crm_leads_today": 0,
-    "cpc": 18.89,
-    "cpl": 177.99,
+    "cpc": 18.87,
+    "cpl": 178.07,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1145.15,
-        "spend_today": 25.26,
-        "clicks": 370,
+        "spend": 1150.2,
+        "spend_today": 30.31,
+        "clicks": 371,
         "cpc": 3.1,
         "crm_leads": 0,
-        "cpl": 177.99
+        "cpl": 178.07
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,26 +29,26 @@
         "clicks": 233,
         "cpc": 43.98,
         "crm_leads": 0,
-        "cpl": 177.99
+        "cpl": 178.07
       }
     ]
   },
   "meta": {
-    "spend_30d": 9078.84,
-    "clicks_30d": 3145,
+    "spend_30d": 9096.53,
+    "clicks_30d": 3152,
     "crm_leads": 197,
     "crm_leads_today": 2,
     "cpc": 2.89,
-    "cpl_crm": 46.09,
-    "cost_per_hot": 3026.28,
+    "cpl_crm": 46.18,
+    "cost_per_hot": 2274.13,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9078.84,
-        "spend_today": 107.9,
-        "clicks": 3145,
+        "spend": 9096.53,
+        "spend_today": 125.59,
+        "clicks": 3152,
         "crm_leads": 197,
-        "cpl_crm": 46.09
+        "cpl_crm": 46.18
       }
     ]
   },
@@ -116,7 +116,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20470.25
+      "spend": 20492.4
     }
   },
   "reps_by_month": {
@@ -349,7 +349,7 @@
         "leads": 71,
         "active": 74,
         "booked": 63,
-        "offers": 68,
+        "offers": 69,
         "accepted": 5,
         "available": 2,
         "pending": 0,
@@ -1014,7 +1014,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 20470.46
+    "2026-08": 20493.2
   },
   "channel_by_month": {
     "2026-01": {
@@ -1675,11 +1675,11 @@
       }
     },
     "2026-08": {
-      "google_spend": 11391.62,
-      "meta_spend": 9078.84,
+      "google_spend": 11396.67,
+      "meta_spend": 9096.53,
       "ppc_leads": 64,
       "fb_leads": 197,
-      "google_cpc": 18.89,
+      "google_cpc": 18.87,
       "meta_cpc": 2.89,
       "pipeline_ppc": {
         "leads": 64,
@@ -1742,9 +1742,9 @@
       },
       "pipeline_fb": {
         "leads": 197,
-        "active": 122,
+        "active": 121,
         "booked": 79,
-        "offered": 74,
+        "offered": 75,
         "accepted": 4,
         "under_contract": 4,
         "contract_available": 4,
@@ -1754,12 +1754,16 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 69,
+            "count": 68,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 63,
             "color": "#D2E4EB"
+          },
+          "Owes too Much": {
+            "count": 13,
+            "color": "#D1F3EC"
           },
           "Listed": {
             "count": 13,
@@ -1773,16 +1777,12 @@
             "count": 12,
             "color": "#DCEBD8"
           },
-          "Owes too Much": {
-            "count": 12,
-            "color": "#D1F3EC"
-          },
           "Warm": {
-            "count": 10,
+            "count": 9,
             "color": "#F7F0C5"
           },
           "Hot": {
-            "count": 2,
+            "count": 3,
             "color": "#F7D1D0"
           },
           "Under Contract": {
@@ -1800,17 +1800,17 @@
   "pipeline": {
     "new_leads_30d": 261,
     "dispositioned_mtd": 118,
-    "hot": 4,
+    "hot": 5,
     "booked": 105,
-    "offers": 96,
+    "offers": 97,
     "under_contract": 7,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 197,
-    "active": 122,
+    "active": 121,
     "booked": 79,
-    "offered": 74,
+    "offered": 75,
     "accepted": 32,
     "under_contract": 32,
     "contract_available": 8,
@@ -1820,12 +1820,16 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 69,
+        "count": 68,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 63,
         "color": "#D2E4EB"
+      },
+      "Owes too Much": {
+        "count": 13,
+        "color": "#D1F3EC"
       },
       "Listed": {
         "count": 13,
@@ -1839,16 +1843,12 @@
         "count": 12,
         "color": "#DCEBD8"
       },
-      "Owes too Much": {
-        "count": 12,
-        "color": "#D1F3EC"
-      },
       "Warm": {
-        "count": 10,
+        "count": 9,
         "color": "#F7F0C5"
       },
       "Hot": {
-        "count": 2,
+        "count": 3,
         "color": "#F7D1D0"
       },
       "Under Contract": {
@@ -1929,7 +1929,7 @@
     },
     "Julian": {
       "discoveries": 71,
-      "offers": 68,
+      "offers": 69,
       "contracts": 5,
       "revenue": 2000.0
     }
@@ -2146,6 +2146,12 @@
     "ppc_inbound_call": 20
   },
   "hot_leads": [
+    {
+      "name": "1115 Rome St",
+      "address": "1115 Rome St, Petersburg, VA 23803, USA",
+      "phone": "(804) 720-3457",
+      "source": "Facebook"
+    },
     {
       "name": "10483 Ashcake Rd",
       "address": "10483 Ashcake Rd, Ashland, VA 23005, USA",

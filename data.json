@@ -1,12 +1,12 @@
 {
   "report_date": "August 28, 2026",
-  "last_updated": "2026-08-28 09:05 EST",
+  "last_updated": "2026-08-28 10:01 EST",
   "google": {
-    "spend_mtd": 11391.27,
-    "clicks_mtd": 602,
+    "spend_mtd": 11391.62,
+    "clicks_mtd": 603,
     "crm_leads": 64,
     "crm_leads_today": 0,
-    "cpc": 18.92,
+    "cpc": 18.89,
     "cpl": 177.99,
     "cost_per_booked": null,
     "booked": 0,
@@ -15,9 +15,9 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1144.8,
-        "spend_today": 24.9,
-        "clicks": 369,
+        "spend": 1145.15,
+        "spend_today": 25.26,
+        "clicks": 370,
         "cpc": 3.1,
         "crm_leads": 0,
         "cpl": 177.99
@@ -34,26 +34,26 @@
     ]
   },
   "meta": {
-    "spend_30d": 9048.2,
-    "clicks_30d": 3135,
-    "crm_leads": 197,
-    "crm_leads_today": 2,
+    "spend_30d": 9058.06,
+    "clicks_30d": 3137,
+    "crm_leads": 196,
+    "crm_leads_today": 1,
     "cpc": 2.89,
-    "cpl_crm": 45.93,
-    "cost_per_hot": 2262.05,
+    "cpl_crm": 46.21,
+    "cost_per_hot": 3019.35,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9048.2,
-        "spend_today": 77.3,
-        "clicks": 3135,
-        "crm_leads": 197,
-        "cpl_crm": 45.93
+        "spend": 9058.06,
+        "spend_today": 87.13,
+        "clicks": 3137,
+        "crm_leads": 196,
+        "cpl_crm": 46.21
       }
     ]
   },
   "potential_income": 272745,
-  "assigned_income": 112490,
+  "assigned_income": 110740,
   "by_stage": {
     "Initial Inspection Completed": 78791,
     "On Market": 70922,
@@ -63,7 +63,7 @@
   },
   "by_agent": {
     "Virginia": 74757,
-    "Alabama": 16200,
+    "Alabama": 14450,
     "Kentucky": 10792,
     "Georgia": 10741
   },
@@ -110,13 +110,13 @@
     },
     "2026-07": {
       "closed": 0.0,
-      "pending": 61497.490000000005,
+      "pending": 59747.490000000005,
       "spend": 21857.71
     },
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20437.7
+      "spend": 20448.980000000003
     }
   },
   "reps_by_month": {
@@ -287,7 +287,7 @@
       },
       "Julian": {
         "leads": 80,
-        "active": 63,
+        "active": 64,
         "booked": 58,
         "offers": 59,
         "accepted": 4,
@@ -311,7 +311,7 @@
         "pending": 3,
         "dead": 3,
         "closed": 0,
-        "pending_income": 56639.75,
+        "pending_income": 54889.75,
         "closed_revenue": 88594.62,
         "discoveries": 49
       },
@@ -332,9 +332,9 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 46,
-        "active": 50,
-        "booked": 42,
+        "leads": 47,
+        "active": 51,
+        "booked": 43,
         "offers": 52,
         "accepted": 5,
         "available": 3,
@@ -343,11 +343,11 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 51364.39,
-        "discoveries": 46
+        "discoveries": 47
       },
       "Julian": {
         "leads": 70,
-        "active": 73,
+        "active": 74,
         "booked": 62,
         "offers": 68,
         "accepted": 5,
@@ -754,7 +754,7 @@
           },
           "gp": {
             "dead": 64010,
-            "pending": 85640,
+            "pending": 83890,
             "available": 32065
           },
           "total": 9
@@ -781,7 +781,7 @@
         "gp": {
           "available": 109715,
           "dead": 711790,
-          "pending": 101932,
+          "pending": 100182,
           "closed": 397794
         },
         "total": 52
@@ -957,7 +957,7 @@
         },
         {
           "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
-          "value": 16200,
+          "value": 14450,
           "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -1001,7 +1001,7 @@
     "closed": 30,
     "dead": 62,
     "gp_available": 272745,
-    "gp_pending": 112490,
+    "gp_pending": 110740,
     "gp_on_hold": 257087,
     "gp_closed": 730685,
     "gp_dead": 1472719
@@ -1014,7 +1014,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 20439.47
+    "2026-08": 20449.68
   },
   "channel_by_month": {
     "2026-01": {
@@ -1376,7 +1376,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 72,
+            "count": 71,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1404,7 +1404,7 @@
             "color": "#F3F3F3"
           },
           "Sold": {
-            "count": 5,
+            "count": 6,
             "color": "#C8C8C8"
           },
           "Listed": {
@@ -1494,7 +1494,7 @@
       },
       "pipeline_fb": {
         "leads": 147,
-        "active": 85,
+        "active": 86,
         "booked": 75,
         "offered": 70,
         "accepted": 7,
@@ -1506,28 +1506,24 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 63,
+            "count": 62,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 27,
+            "count": 28,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 14,
             "color": "#DCEBD8"
           },
+          "Dead": {
+            "count": 9,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 8,
             "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 8,
-            "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 6,
-            "color": "#C8C8C8"
           },
           "No Longer Selling": {
             "count": 6,
@@ -1537,6 +1533,14 @@
             "count": 5,
             "color": "#D1F3EC"
           },
+          "Listed": {
+            "count": 5,
+            "color": "#C8C8C8"
+          },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
+          },
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
@@ -1545,12 +1549,8 @@
             "count": 3,
             "color": "#C8C8C8"
           },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
           "Hot": {
-            "count": 2,
+            "count": 1,
             "color": "#F7D1D0"
           }
         }
@@ -1632,7 +1632,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 86,
+            "count": 85,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1668,23 +1668,23 @@
             "color": "#C8C8C8"
           },
           "Sold": {
-            "count": 3,
+            "count": 4,
             "color": "#C8C8C8"
           }
         }
       }
     },
     "2026-08": {
-      "google_spend": 11391.27,
-      "meta_spend": 9048.2,
+      "google_spend": 11391.62,
+      "meta_spend": 9058.06,
       "ppc_leads": 64,
-      "fb_leads": 197,
-      "google_cpc": 18.92,
+      "fb_leads": 196,
+      "google_cpc": 18.89,
       "meta_cpc": 2.89,
       "pipeline_ppc": {
         "leads": 64,
         "active": 37,
-        "booked": 25,
+        "booked": 26,
         "offered": 21,
         "accepted": 5,
         "under_contract": 5,
@@ -1695,11 +1695,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 22,
+            "count": 21,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 11,
+            "count": 12,
             "color": "#D2E4EB"
           },
           "Warm": {
@@ -1741,8 +1741,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 197,
-        "active": 122,
+        "leads": 196,
+        "active": 121,
         "booked": 78,
         "offered": 74,
         "accepted": 4,
@@ -1758,7 +1758,7 @@
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 64,
+            "count": 63,
             "color": "#D2E4EB"
           },
           "Listed": {
@@ -1798,17 +1798,17 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 261,
-    "dispositioned_mtd": 116,
-    "hot": 5,
-    "booked": 103,
+    "new_leads_30d": 260,
+    "dispositioned_mtd": 117,
+    "hot": 4,
+    "booked": 104,
     "offers": 95,
     "under_contract": 7,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 197,
-    "active": 122,
+    "leads": 196,
+    "active": 121,
     "booked": 78,
     "offered": 74,
     "accepted": 32,
@@ -1824,7 +1824,7 @@
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 64,
+        "count": 63,
         "color": "#D2E4EB"
       },
       "Listed": {
@@ -1864,7 +1864,7 @@
   "pipeline_ppc": {
     "leads": 64,
     "active": 37,
-    "booked": 25,
+    "booked": 26,
     "offered": 21,
     "accepted": 26,
     "under_contract": 26,
@@ -1875,11 +1875,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 22,
+        "count": 21,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 11,
+        "count": 12,
         "color": "#D2E4EB"
       },
       "Warm": {
@@ -1922,7 +1922,7 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 46,
+      "discoveries": 47,
       "offers": 52,
       "contracts": 5,
       "revenue": 51364.39
@@ -1936,7 +1936,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 173588,
-    "Charles": 211647
+    "Charles": 209897
   },
   "agent_deals": [
     {
@@ -2101,7 +2101,7 @@
     },
     {
       "address": "503 Mitchell Moore Rd, Hazel Green, AL 35750, USA",
-      "value": 16200,
+      "value": 14450,
       "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
@@ -2142,7 +2142,7 @@
   ],
   "sources": {
     "ppc": 64,
-    "facebook": 197,
+    "facebook": 196,
     "ppc_inbound_call": 20
   },
   "hot_leads": [
@@ -2156,12 +2156,6 @@
       "name": "151 Thorncliff Rd",
       "address": "151 Thorncliff Rd, Buffalo, NY 14223, USA",
       "phone": "(585) 447-8812",
-      "source": "Facebook"
-    },
-    {
-      "name": "444 Walker Rd",
-      "address": "444 Walker Rd, Grants Pass, OR 97527, USA",
-      "phone": "(541) 973-7372",
       "source": "Facebook"
     },
     {

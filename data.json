@@ -1,13 +1,13 @@
 {
   "report_date": "August 28, 2026",
-  "last_updated": "2026-08-28 12:01 EST",
+  "last_updated": "2026-08-28 13:01 EST",
   "google": {
-    "spend_mtd": 11396.67,
-    "clicks_mtd": 604,
+    "spend_mtd": 11400.29,
+    "clicks_mtd": 605,
     "crm_leads": 64,
     "crm_leads_today": 0,
-    "cpc": 18.87,
-    "cpl": 178.07,
+    "cpc": 18.84,
+    "cpl": 178.13,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1150.2,
-        "spend_today": 30.31,
-        "clicks": 371,
+        "spend": 1153.82,
+        "spend_today": 33.92,
+        "clicks": 372,
         "cpc": 3.1,
         "crm_leads": 0,
-        "cpl": 178.07
+        "cpl": 178.13
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,36 +29,36 @@
         "clicks": 233,
         "cpc": 43.98,
         "crm_leads": 0,
-        "cpl": 178.07
+        "cpl": 178.13
       }
     ]
   },
   "meta": {
-    "spend_30d": 9096.53,
-    "clicks_30d": 3152,
-    "crm_leads": 197,
-    "crm_leads_today": 2,
+    "spend_30d": 9108.44,
+    "clicks_30d": 3157,
+    "crm_leads": 198,
+    "crm_leads_today": 3,
     "cpc": 2.89,
-    "cpl_crm": 46.18,
-    "cost_per_hot": 2274.13,
+    "cpl_crm": 46.0,
+    "cost_per_hot": 2277.11,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 9096.53,
-        "spend_today": 125.59,
-        "clicks": 3152,
-        "crm_leads": 197,
-        "cpl_crm": 46.18
+        "spend": 9108.44,
+        "spend_today": 137.5,
+        "clicks": 3157,
+        "crm_leads": 198,
+        "cpl_crm": 46.0
       }
     ]
   },
-  "potential_income": 272745,
+  "potential_income": 247745,
   "assigned_income": 110740,
   "by_stage": {
     "Initial Inspection Completed": 78791,
     "On Market": 70922,
-    "New Deal - Unscheduled": 57650,
     "Market Prep / Pre-Listing Marketing": 40534,
+    "New Deal - Unscheduled": 32650,
     "Access Scheduled": 24849
   },
   "by_agent": {
@@ -116,7 +116,7 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20492.4
+      "spend": 20508.260000000002
     }
   },
   "reps_by_month": {
@@ -761,11 +761,13 @@
         },
         "2026-08": {
           "counts": {
-            "available": 4,
+            "available": 3,
+            "on_hold": 1,
             "dead": 1
           },
           "gp": {
-            "available": 77650,
+            "available": 52650,
+            "on_hold": 25000,
             "dead": 43830
           },
           "total": 5
@@ -773,13 +775,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 5,
+          "available": 4,
+          "on_hold": 1,
           "dead": 30,
           "pending": 6,
           "closed": 11
         },
         "gp": {
-          "available": 109715,
+          "available": 84715,
+          "on_hold": 25000,
           "dead": 711790,
           "pending": 100182,
           "closed": 397794
@@ -794,9 +798,10 @@
           "closed": 2
         },
         "fb": {
-          "available": 2,
+          "on_hold": 1,
           "dead": 13,
           "pending": 2,
+          "available": 1,
           "closed": 2
         },
         "sms": {
@@ -812,7 +817,7 @@
             "dead": 1
           },
           "fb": {
-            "available": 1
+            "on_hold": 1
           }
         },
         "2026-07": {
@@ -895,15 +900,6 @@
         {
           "address": "3235 Rockbridge Rd, Troutdale, VA 24378, USA",
           "value": 32650,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-08"
-        },
-        {
-          "address": "171 Cedar Branch Rd, Saltville, VA 24370, USA",
-          "value": 25000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -995,14 +991,14 @@
     }
   },
   "pipeline_contracts": {
-    "available": 12,
+    "available": 11,
     "pending": 8,
-    "on_hold": 6,
+    "on_hold": 7,
     "closed": 30,
     "dead": 62,
-    "gp_available": 272745,
+    "gp_available": 247745,
     "gp_pending": 110740,
-    "gp_on_hold": 257087,
+    "gp_on_hold": 282087,
     "gp_closed": 730685,
     "gp_dead": 1472719
   },
@@ -1014,7 +1010,7 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 20493.2
+    "2026-08": 20508.73
   },
   "channel_by_month": {
     "2026-01": {
@@ -1675,11 +1671,11 @@
       }
     },
     "2026-08": {
-      "google_spend": 11396.67,
-      "meta_spend": 9096.53,
+      "google_spend": 11400.29,
+      "meta_spend": 9108.44,
       "ppc_leads": 64,
-      "fb_leads": 197,
-      "google_cpc": 18.87,
+      "fb_leads": 198,
+      "google_cpc": 18.84,
       "meta_cpc": 2.89,
       "pipeline_ppc": {
         "leads": 64,
@@ -1741,20 +1737,20 @@
         }
       },
       "pipeline_fb": {
-        "leads": 197,
-        "active": 121,
+        "leads": 198,
+        "active": 122,
         "booked": 79,
         "offered": 75,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 4,
+        "accepted": 3,
+        "under_contract": 3,
+        "contract_available": 3,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 68,
+            "count": 69,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1798,7 +1794,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 261,
+    "new_leads_30d": 262,
     "dispositioned_mtd": 118,
     "hot": 5,
     "booked": 105,
@@ -1807,20 +1803,20 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 197,
-    "active": 121,
+    "leads": 198,
+    "active": 122,
     "booked": 79,
     "offered": 75,
-    "accepted": 32,
-    "under_contract": 32,
-    "contract_available": 8,
+    "accepted": 31,
+    "under_contract": 31,
+    "contract_available": 7,
     "contract_pending": 2,
     "contract_closed": 3,
     "contract_dead": 19,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 68,
+        "count": 69,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -1936,7 +1932,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 173588,
-    "Charles": 209897
+    "Charles": 184897
   },
   "agent_deals": [
     {
@@ -2040,16 +2036,6 @@
       "agent": "Charles"
     },
     {
-      "address": "171 Cedar Branch Rd, Saltville, VA 24370, USA",
-      "value": 25000,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-08",
-      "agent": "Charles"
-    },
-    {
       "address": "6 Broadway Cir, Cumberland, MD 21502, USA",
       "value": 10000,
       "status": "Available",
@@ -2142,7 +2128,7 @@
   ],
   "sources": {
     "ppc": 64,
-    "facebook": 197,
+    "facebook": 198,
     "ppc_inbound_call": 20
   },
   "hot_leads": [

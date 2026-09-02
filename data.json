@@ -1,12 +1,12 @@
 {
-  "report_date": "September 01, 2026",
-  "last_updated": "2026-09-01 23:54 AST",
+  "report_date": "September 02, 2026",
+  "last_updated": "2026-09-02 03:50 AST",
   "google": {
-    "spend_mtd": 484.03,
-    "clicks_mtd": 21,
+    "spend_mtd": 559.23,
+    "clicks_mtd": 22,
     "crm_leads": 2,
-    "cpc": 23.05,
-    "cpl": 242.01,
+    "cpc": 25.42,
+    "cpl": 279.61,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,38 +15,38 @@
       {
         "name": "Ultra Homebuyers Remarketing",
         "spend": 47.86,
-        "spend_today": 47.86,
+        "spend_today": 0.0,
         "clicks": 12,
         "cpc": 3.99,
         "crm_leads": 0,
-        "cpl": 242.01
+        "cpl": 279.61
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 436.17,
-        "spend_today": 436.17,
-        "clicks": 9,
-        "cpc": 48.46,
+        "spend": 511.37,
+        "spend_today": 0.0,
+        "clicks": 10,
+        "cpc": 51.14,
         "crm_leads": 0,
-        "cpl": 242.01
+        "cpl": 279.61
       }
     ]
   },
   "meta": {
-    "spend_30d": 278.82,
-    "clicks_30d": 85,
-    "crm_leads": 5,
-    "cpc": 3.28,
-    "cpl_crm": 55.76,
-    "cost_per_hot": 92.94,
+    "spend_30d": 342.85,
+    "clicks_30d": 109,
+    "crm_leads": 8,
+    "cpc": 3.15,
+    "cpl_crm": 42.86,
+    "cost_per_hot": 85.71,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 278.82,
-        "spend_today": 278.82,
-        "clicks": 85,
-        "crm_leads": 5,
-        "cpl_crm": 55.76
+        "spend": 342.85,
+        "spend_today": 0,
+        "clicks": 109,
+        "crm_leads": 8,
+        "cpl_crm": 42.86
       }
     ]
   },
@@ -113,12 +113,12 @@
     "2026-08": {
       "closed": 0.0,
       "pending": 10000.0,
-      "spend": 23085.77
+      "spend": 23085.8
     },
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 762.8499999999999
+      "spend": 901.8199999999999
     }
   },
   "reps_by_month": {
@@ -625,8 +625,8 @@
     "2026-05": 20672.89,
     "2026-06": 16399.44,
     "2026-07": 21857.71,
-    "2026-08": 23085.77,
-    "2026-09": 762.85
+    "2026-08": 23085.8,
+    "2026-09": 902.08
   },
   "channel_by_month": {
     "2026-01": {
@@ -797,7 +797,7 @@
     },
     "2026-08": {
       "google_spend": 12767.25,
-      "meta_spend": 10318.52,
+      "meta_spend": 10318.55,
       "ppc_leads": 69,
       "fb_leads": 230,
       "google_cpc": 19.43,
@@ -822,12 +822,12 @@
       }
     },
     "2026-09": {
-      "google_spend": 484.03,
-      "meta_spend": 278.82,
+      "google_spend": 559.23,
+      "meta_spend": 342.85,
       "ppc_leads": 2,
-      "fb_leads": 5,
-      "google_cpc": 23.05,
-      "meta_cpc": 3.28,
+      "fb_leads": 8,
+      "google_cpc": 25.42,
+      "meta_cpc": 3.15,
       "pipeline_ppc": {
         "leads": 2,
         "active": 0,
@@ -838,8 +838,8 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 5,
-        "active": 5,
+        "leads": 8,
+        "active": 8,
         "booked": 0,
         "offered": 0,
         "accepted": 0,
@@ -849,16 +849,16 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 7,
-    "hot": 5,
+    "new_leads_30d": 10,
+    "hot": 6,
     "booked": 0,
     "offers": 0,
     "under_contract": 0,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 5,
-    "active": 5,
+    "leads": 8,
+    "active": 8,
     "booked": 0,
     "offered": 0,
     "accepted": 0,
@@ -876,10 +876,16 @@
   },
   "sources": {
     "ppc": 2,
-    "facebook": 5,
+    "facebook": 8,
     "ppc_inbound_call": 23
   },
   "hot_leads": [
+    {
+      "name": "3478 Kiveton Dr",
+      "address": "3478 Kiveton Dr, Norcross, GA 30092, USA",
+      "phone": "(770) 335-9332",
+      "source": "Facebook"
+    },
     {
       "name": "6895 Edge St",
       "address": "6895 Edge St, Bessemer, AL 35022, USA",
@@ -902,12 +908,6 @@
       "name": "7880 Maryland Ave West Point Virginia 23181 United States",
       "address": "7880 Maryland Ave, West Point, VA 23181, USA",
       "phone": "(757) 327-5782",
-      "source": "PPC"
-    },
-    {
-      "name": "307 Dimmick St",
-      "address": "307 Dimmick St, Burkeville, VA 23922, USA",
-      "phone": "(929) 271-6823",
       "source": "PPC"
     }
   ],

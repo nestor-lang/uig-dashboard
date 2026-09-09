@@ -1,12 +1,12 @@
 {
-  "report_date": "September 08, 2026",
-  "last_updated": "2026-09-08 23:58 AST",
+  "report_date": "September 09, 2026",
+  "last_updated": "2026-09-09 04:28 AST",
   "google": {
-    "spend_mtd": 3690.67,
-    "clicks_mtd": 160,
+    "spend_mtd": 3791.82,
+    "clicks_mtd": 162,
     "crm_leads": 19,
-    "cpc": 23.07,
-    "cpl": 194.25,
+    "cpc": 23.41,
+    "cpl": 199.57,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,56 +15,56 @@
       {
         "name": "Ultra Homebuyers Remarketing",
         "spend": 360.09,
-        "spend_today": 51.58,
+        "spend_today": 0.0,
         "clicks": 88,
         "cpc": 4.09,
         "crm_leads": 0,
-        "cpl": 194.25
+        "cpl": 199.57
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3330.57,
-        "spend_today": 269.63,
-        "clicks": 72,
-        "cpc": 46.26,
+        "spend": 3431.72,
+        "spend_today": 0.0,
+        "clicks": 74,
+        "cpc": 46.37,
         "crm_leads": 0,
-        "cpl": 194.25
+        "cpl": 199.57
       }
     ]
   },
   "meta": {
-    "spend_30d": 2757.06,
-    "clicks_30d": 859,
+    "spend_30d": 2815.82,
+    "clicks_30d": 879,
     "crm_leads": 45,
-    "cpc": 3.21,
-    "cpl_crm": 61.27,
-    "cost_per_hot": 689.26,
+    "cpc": 3.2,
+    "cpl_crm": 62.57,
+    "cost_per_hot": 703.96,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 2029.67,
-        "spend_today": 222.73,
-        "clicks": 665,
+        "spend": 2062.01,
+        "spend_today": 1.86,
+        "clicks": 676,
         "crm_leads": 45,
-        "cpl_crm": 45.1
+        "cpl_crm": 45.82
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 727.39,
-        "spend_today": 100.52,
-        "clicks": 194,
+        "spend": 753.81,
+        "spend_today": 1.15,
+        "clicks": 203,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 264876,
+  "potential_income": 44876,
   "assigned_income": 118192,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 125133,
     "On Market": 54094,
-    "New Deal - Unscheduled": 45650,
-    "Access Scheduled": 39999
+    "Access Scheduled": 39999,
+    "New Deal - Unscheduled": -174350
   },
   "by_agent": {
     "Virginia": 81157,
@@ -127,7 +127,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6447.73
+      "spend": 6607.64
     }
   },
   "reps_by_month": {
@@ -334,7 +334,7 @@
         "booked": 47,
         "offers": 54,
         "accepted": 5,
-        "available": 2,
+        "available": 3,
         "pending": 1,
         "dead": 1,
         "closed": 0,
@@ -361,7 +361,7 @@
         "active": 15,
         "booked": 12,
         "offers": 14,
-        "accepted": 0,
+        "accepted": 1,
         "available": 0,
         "pending": 0,
         "dead": 0,
@@ -614,24 +614,33 @@
             "pending": 10000
           },
           "total": 5
+        },
+        "2026-09": {
+          "counts": {
+            "available": 1
+          },
+          "gp": {
+            "available": -220000
+          },
+          "total": 1
         }
       },
       "all_time": {
         "counts": {
-          "available": 2,
+          "available": 3,
           "on_hold": 1,
           "dead": 31,
           "pending": 6,
           "closed": 12
         },
         "gp": {
-          "available": 60000,
+          "available": -160000,
           "on_hold": 25000,
           "dead": 721790,
           "pending": 105134,
           "closed": 403294
         },
-        "total": 52
+        "total": 53
       }
     }
   },
@@ -644,7 +653,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 6447.73
+    "2026-09": 6607.64
   },
   "channel_by_month": {
     "2026-01": {
@@ -825,8 +834,8 @@
         "active": 36,
         "booked": 29,
         "offered": 25,
-        "accepted": 3,
-        "under_contract": 3,
+        "accepted": 4,
+        "under_contract": 4,
         "closed": 0
       },
       "pipeline_fb": {
@@ -840,12 +849,12 @@
       }
     },
     "2026-09": {
-      "google_spend": 3690.67,
-      "meta_spend": 2757.06,
+      "google_spend": 3791.82,
+      "meta_spend": 2815.82,
       "ppc_leads": 19,
       "fb_leads": 45,
-      "google_cpc": 23.07,
-      "meta_cpc": 3.21,
+      "google_cpc": 23.41,
+      "meta_cpc": 3.2,
       "pipeline_ppc": {
         "leads": 19,
         "active": 14,
@@ -868,7 +877,7 @@
   },
   "pipeline": {
     "new_leads_30d": 64,
-    "hot": 6,
+    "hot": 5,
     "booked": 26,
     "offers": 20,
     "under_contract": 0,
@@ -923,9 +932,9 @@
       "source": "Facebook"
     },
     {
-      "name": "7880 Maryland Ave West Point Virginia 23181 United States",
-      "address": "7880 Maryland Ave, West Point, VA 23181, USA",
-      "phone": "(757) 327-5782",
+      "name": "307 Dimmick St",
+      "address": "307 Dimmick St, Burkeville, VA 23922, USA",
+      "phone": "(929) 271-6823",
       "source": "PPC"
     }
   ],

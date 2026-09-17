@@ -1,12 +1,12 @@
 {
   "report_date": "September 17, 2026",
-  "last_updated": "2026-09-17 18:55 AST",
+  "last_updated": "2026-09-17 22:01 AST",
   "google": {
-    "spend_mtd": 8296.93,
-    "clicks_mtd": 414,
-    "crm_leads": 42,
-    "cpc": 20.04,
-    "cpl": 197.55,
+    "spend_mtd": 8501.07,
+    "clicks_mtd": 424,
+    "crm_leads": 43,
+    "cpc": 20.05,
+    "cpl": 197.7,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,59 +14,59 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 693.79,
-        "spend_today": 3.99,
-        "clicks": 242,
-        "cpc": 2.87,
+        "spend": 699.54,
+        "spend_today": 9.74,
+        "clicks": 247,
+        "cpc": 2.83,
         "crm_leads": 0,
-        "cpl": 197.55
+        "cpl": 197.7
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7603.14,
-        "spend_today": 270.87,
-        "clicks": 172,
-        "cpc": 44.2,
+        "spend": 7801.52,
+        "spend_today": 469.25,
+        "clicks": 177,
+        "cpc": 44.08,
         "crm_leads": 0,
-        "cpl": 197.55
+        "cpl": 197.7
       }
     ]
   },
   "meta": {
-    "spend_30d": 6278.24,
-    "clicks_30d": 1898,
-    "crm_leads": 98,
+    "spend_30d": 6343.91,
+    "clicks_30d": 1916,
+    "crm_leads": 97,
     "cpc": 3.31,
-    "cpl_crm": 64.06,
-    "cost_per_hot": 1046.37,
+    "cpl_crm": 65.4,
+    "cost_per_hot": 906.27,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 4377.0,
-        "spend_today": 145.01,
-        "clicks": 1353,
-        "crm_leads": 98,
-        "cpl_crm": 44.66
+        "spend": 4426.36,
+        "spend_today": 194.37,
+        "clicks": 1369,
+        "crm_leads": 97,
+        "cpl_crm": 45.63
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 1901.24,
-        "spend_today": 59.6,
-        "clicks": 545,
+        "spend": 1917.55,
+        "spend_today": 75.91,
+        "clicks": 547,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 326793,
-  "assigned_income": 90390,
+  "potential_income": 294844,
+  "assigned_income": 89390,
   "by_stage": {
-    "New Deal - Unscheduled": 203899,
-    "Market Prep / Pre-Listing Marketing": 98644,
+    "New Deal - Unscheduled": 195100,
+    "Market Prep / Pre-Listing Marketing": 75494,
     "Initial Inspection Completed": 24250
   },
   "by_agent": {
-    "Virginia": 68058,
+    "Virginia": 67058,
     "South Carolina": 11541,
     "Kentucky": 10792
   },
@@ -109,7 +109,7 @@
     },
     "2026-06": {
       "closed": 55849.39,
-      "pending": 30000.0,
+      "pending": 29000.0,
       "spend": 16399.44
     },
     "2026-07": {
@@ -125,7 +125,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14573.42
+      "spend": 14843.91
     }
   },
   "reps_by_month": {
@@ -280,7 +280,7 @@
         "pending": 1,
         "dead": 4,
         "closed": 3,
-        "pending_income": 30000.0,
+        "pending_income": 29000.0,
         "closed_revenue": 146447.9
       },
       "Julian": {
@@ -332,9 +332,9 @@
         "booked": 50,
         "offers": 53,
         "accepted": 5,
-        "available": 4,
+        "available": 3,
         "pending": 1,
-        "dead": 2,
+        "dead": 3,
         "closed": 0,
         "pending_income": 10000.0,
         "closed_revenue": 50349.39
@@ -356,9 +356,9 @@
     "2026-09": {
       "Charles": {
         "leads": 27,
-        "active": 36,
+        "active": 38,
         "booked": 23,
-        "offers": 28,
+        "offers": 29,
         "accepted": 3,
         "available": 0,
         "pending": 0,
@@ -368,10 +368,10 @@
         "closed_revenue": 59959.75
       },
       "Julian": {
-        "leads": 37,
-        "active": 36,
-        "booked": 30,
-        "offers": 41,
+        "leads": 40,
+        "active": 37,
+        "booked": 31,
+        "offers": 43,
         "accepted": 5,
         "available": 2,
         "pending": 0,
@@ -487,7 +487,7 @@
             "dead": 1
           },
           "gp": {
-            "available": 206834,
+            "available": 198035,
             "dead": 13000
           },
           "total": 5
@@ -503,7 +503,7 @@
           "closed": 19
         },
         "gp": {
-          "available": 257493,
+          "available": 248694,
           "dead": 928746,
           "on_hold": 113738,
           "other": 71541,
@@ -592,19 +592,17 @@
           "gp": {
             "dead": 82001,
             "closed": 54460,
-            "pending": 30000
+            "pending": 29000
           },
           "total": 9
         },
         "2026-08": {
           "counts": {
-            "available": 1,
-            "dead": 3,
+            "dead": 4,
             "pending": 1
           },
           "gp": {
-            "available": 23150,
-            "dead": 78830,
+            "dead": 101980,
             "pending": 10000
           },
           "total": 5
@@ -621,15 +619,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 4,
-          "dead": 33,
+          "available": 3,
+          "dead": 34,
           "pending": 3,
           "closed": 15
         },
         "gp": {
-          "available": 69300,
-          "dead": 764781,
-          "pending": 50792,
+          "available": 46150,
+          "dead": 787931,
+          "pending": 49792,
           "closed": 457754
         },
         "total": 55
@@ -645,7 +643,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 14575.17
+    "2026-09": 14844.98
   },
   "channel_by_month": {
     "2026-01": {
@@ -826,8 +824,8 @@
         "active": 37,
         "booked": 30,
         "offered": 26,
-        "accepted": 4,
-        "under_contract": 4,
+        "accepted": 3,
+        "under_contract": 3,
         "closed": 0
       },
       "pipeline_fb": {
@@ -841,26 +839,26 @@
       }
     },
     "2026-09": {
-      "google_spend": 8296.93,
-      "meta_spend": 6278.24,
-      "ppc_leads": 42,
-      "fb_leads": 98,
-      "google_cpc": 20.04,
+      "google_spend": 8501.07,
+      "meta_spend": 6343.91,
+      "ppc_leads": 43,
+      "fb_leads": 97,
+      "google_cpc": 20.05,
       "meta_cpc": 3.31,
       "pipeline_ppc": {
-        "leads": 42,
+        "leads": 43,
         "active": 29,
-        "booked": 18,
+        "booked": 19,
         "offered": 16,
         "accepted": 1,
         "under_contract": 1,
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 98,
-        "active": 76,
+        "leads": 97,
+        "active": 75,
         "booked": 33,
-        "offered": 30,
+        "offered": 31,
         "accepted": 1,
         "under_contract": 1,
         "closed": 0
@@ -869,33 +867,33 @@
   },
   "pipeline": {
     "new_leads_30d": 140,
-    "hot": 7,
-    "booked": 51,
-    "offers": 46,
+    "hot": 8,
+    "booked": 52,
+    "offers": 47,
     "under_contract": 2,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 98,
-    "active": 76,
+    "leads": 97,
+    "active": 75,
     "booked": 33,
-    "offered": 30,
+    "offered": 31,
     "accepted": 1,
     "under_contract": 1,
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 42,
+    "leads": 43,
     "active": 29,
-    "booked": 18,
+    "booked": 19,
     "offered": 16,
     "accepted": 1,
     "under_contract": 1,
     "closed": 0
   },
   "sources": {
-    "ppc": 42,
-    "facebook": 98,
+    "ppc": 43,
+    "facebook": 97,
     "ppc_inbound_call": 19
   },
   "hot_leads": [
@@ -903,6 +901,12 @@
       "name": "402 Battery Ave",
       "address": "402 Battery Ave, Emporia, VA 23847, USA",
       "phone": "(434) 632-4336",
+      "source": "Facebook"
+    },
+    {
+      "name": "1685 Esprit Ct SW",
+      "address": "1685 Esprit Ct SW, Atlanta, GA 30331, USA",
+      "phone": "(404) 375-4165",
       "source": "Facebook"
     },
     {
@@ -921,12 +925,6 @@
       "name": "151 Thorncliff Rd",
       "address": "151 Thorncliff Rd, Buffalo, NY 14223, USA",
       "phone": "(585) 447-8812",
-      "source": "Facebook"
-    },
-    {
-      "name": "1025 N Alleghany Ave",
-      "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
-      "phone": "(540) 620-6734",
       "source": "Facebook"
     }
   ],

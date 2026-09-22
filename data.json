@@ -1,6 +1,6 @@
 {
   "report_date": "September 22, 2026",
-  "last_updated": "2026-09-22 12:01 EST",
+  "last_updated": "2026-09-22 13:01 EST",
   "google": {
     "spend_mtd": 10565.82,
     "clicks_mtd": 575,
@@ -34,26 +34,26 @@
     ]
   },
   "meta": {
-    "spend_30d": 8380.94,
-    "clicks_30d": 2497,
+    "spend_30d": 8412.36,
+    "clicks_30d": 2505,
     "crm_leads": 124,
     "crm_leads_today": 4,
     "cpc": 3.36,
-    "cpl_crm": 67.59,
-    "cost_per_hot": 1396.82,
+    "cpl_crm": 67.84,
+    "cost_per_hot": 1402.06,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5832.71,
-        "spend_today": 107.47,
-        "clicks": 1769,
+        "spend": 5855.11,
+        "spend_today": 129.77,
+        "clicks": 1777,
         "crm_leads": 124,
-        "cpl_crm": 47.04
+        "cpl_crm": 47.22
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2548.23,
-        "spend_today": 66.58,
+        "spend": 2557.25,
+        "spend_today": 75.6,
         "clicks": 728,
         "crm_leads": 0,
         "cpl_crm": null
@@ -63,10 +63,10 @@
   "potential_income": 350641,
   "assigned_income": 87253,
   "by_stage": {
-    "Access Scheduled": 165291,
+    "Access Scheduled": 126380,
     "New Deal - Unscheduled": 106350,
     "Market Prep / Pre-Listing Marketing": 75835,
-    "Initial Inspection Completed": 3165
+    "Initial Inspection Completed": 42076
   },
   "by_agent": {
     "Virginia": 66770,
@@ -128,7 +128,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18942.57
+      "spend": 18977.449999999997
     }
   },
   "reps_by_month": {
@@ -194,7 +194,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 11,
         "booked": 15,
         "offers": 25,
@@ -205,10 +205,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -219,12 +219,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 50,
         "booked": 45,
         "offers": 35,
@@ -235,10 +235,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 61,
         "booked": 58,
         "offers": 42,
@@ -249,7 +249,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -329,7 +329,7 @@
       },
       "Julian": {
         "leads": 77,
-        "active": 83,
+        "active": 82,
         "booked": 74,
         "offers": 61,
         "accepted": 8,
@@ -344,7 +344,7 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 52,
+        "leads": 51,
         "active": 68,
         "booked": 51,
         "offers": 51,
@@ -355,10 +355,10 @@
         "closed": 0,
         "pending_income": 10000.0,
         "closed_revenue": 51364.39,
-        "discoveries": 52
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 78,
+        "leads": 79,
         "active": 88,
         "booked": 73,
         "offers": 69,
@@ -369,13 +369,13 @@
         "closed": 0,
         "pending_income": 9690.7,
         "closed_revenue": 2000.0,
-        "discoveries": 78
+        "discoveries": 79
       }
     },
     "2026-09": {
       "Charles": {
         "leads": 39,
-        "active": 48,
+        "active": 49,
         "booked": 31,
         "offers": 44,
         "accepted": 5,
@@ -388,10 +388,10 @@
         "discoveries": 39
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 49,
-        "booked": 41,
-        "offers": 57,
+        "booked": 42,
+        "offers": 58,
         "accepted": 5,
         "available": 2,
         "pending": 0,
@@ -399,7 +399,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 52
+        "discoveries": 53
       }
     }
   },
@@ -670,8 +670,8 @@
           "address": "5718 George Island Landing Rd, Stockton, MD 21864, USA",
           "value": 38911,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -1050,7 +1050,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 18946.76
+    "2026-09": 18978.18
   },
   "channel_by_month": {
     "2026-01": {
@@ -1842,7 +1842,7 @@
     },
     "2026-09": {
       "google_spend": 10565.82,
-      "meta_spend": 8380.94,
+      "meta_spend": 8412.36,
       "ppc_leads": 62,
       "fb_leads": 124,
       "google_cpc": 18.38,
@@ -1850,8 +1850,8 @@
       "pipeline_ppc": {
         "leads": 62,
         "active": 42,
-        "booked": 29,
-        "offered": 26,
+        "booked": 30,
+        "offered": 27,
         "accepted": 5,
         "under_contract": 5,
         "contract_available": 5,
@@ -1868,20 +1868,20 @@
             "count": 13,
             "color": "#FFD5C2"
           },
+          "Owes too Much": {
+            "count": 8,
+            "color": "#D1F3EC"
+          },
           "Listed": {
             "count": 8,
             "color": "#C8C8C8"
-          },
-          "Owes too Much": {
-            "count": 7,
-            "color": "#D1F3EC"
           },
           "Hot": {
             "count": 6,
             "color": "#F7D1D0"
           },
           "Warm": {
-            "count": 6,
+            "count": 5,
             "color": "#F7F0C5"
           },
           "Wrong Number": {
@@ -1957,10 +1957,10 @@
   },
   "pipeline": {
     "new_leads_30d": 186,
-    "dispositioned_mtd": 91,
+    "dispositioned_mtd": 92,
     "hot": 10,
-    "booked": 70,
-    "offers": 65,
+    "booked": 71,
+    "offers": 66,
     "under_contract": 3,
     "closed": 0
   },
@@ -2018,8 +2018,8 @@
   "pipeline_ppc": {
     "leads": 62,
     "active": 42,
-    "booked": 29,
-    "offered": 26,
+    "booked": 30,
+    "offered": 27,
     "accepted": 31,
     "under_contract": 31,
     "contract_available": 5,
@@ -2036,20 +2036,20 @@
         "count": 13,
         "color": "#FFD5C2"
       },
+      "Owes too Much": {
+        "count": 8,
+        "color": "#D1F3EC"
+      },
       "Listed": {
         "count": 8,
         "color": "#C8C8C8"
-      },
-      "Owes too Much": {
-        "count": 7,
-        "color": "#D1F3EC"
       },
       "Hot": {
         "count": 6,
         "color": "#F7D1D0"
       },
       "Warm": {
-        "count": 6,
+        "count": 5,
         "color": "#F7F0C5"
       },
       "Wrong Number": {
@@ -2078,8 +2078,8 @@
       "revenue": 61515.75
     },
     "Julian": {
-      "discoveries": 52,
-      "offers": 57,
+      "discoveries": 53,
+      "offers": 58,
       "contracts": 5,
       "revenue": 0.0
     }
@@ -2113,8 +2113,8 @@
       "address": "5718 George Island Landing Rd, Stockton, MD 21864, USA",
       "value": 38911,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"

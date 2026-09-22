@@ -1,12 +1,12 @@
 {
-  "report_date": "September 21, 2026",
-  "last_updated": "2026-09-21 23:58 AST",
+  "report_date": "September 22, 2026",
+  "last_updated": "2026-09-22 04:40 AST",
   "google": {
-    "spend_mtd": 10418.41,
-    "clicks_mtd": 558,
-    "crm_leads": 60,
-    "cpc": 18.67,
-    "cpl": 173.64,
+    "spend_mtd": 10430.18,
+    "clicks_mtd": 566,
+    "crm_leads": 61,
+    "cpc": 18.43,
+    "cpl": 170.99,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,45 +14,45 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 892.84,
-        "spend_today": 23.82,
-        "clicks": 334,
-        "cpc": 2.67,
+        "spend": 904.61,
+        "spend_today": 0.0,
+        "clicks": 342,
+        "cpc": 2.65,
         "crm_leads": 0,
-        "cpl": 173.64
+        "cpl": 170.99
       },
       {
         "name": "Ultra Homebuyers Search Only",
         "spend": 9525.58,
-        "spend_today": 541.25,
+        "spend_today": 0.0,
         "clicks": 224,
         "cpc": 42.52,
         "crm_leads": 0,
-        "cpl": 173.64
+        "cpl": 170.99
       }
     ]
   },
   "meta": {
-    "spend_30d": 8112.41,
-    "clicks_30d": 2428,
-    "crm_leads": 119,
+    "spend_30d": 8208.37,
+    "clicks_30d": 2461,
+    "crm_leads": 120,
     "cpc": 3.34,
-    "cpl_crm": 68.17,
-    "cost_per_hot": 1352.07,
+    "cpl_crm": 68.4,
+    "cost_per_hot": 1368.06,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5663.0,
-        "spend_today": 313.02,
-        "clicks": 1732,
-        "crm_leads": 119,
-        "cpl_crm": 47.59
+        "spend": 5724.26,
+        "spend_today": 1.49,
+        "clicks": 1744,
+        "crm_leads": 120,
+        "cpl_crm": 47.7
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2449.41,
-        "spend_today": 137.16,
-        "clicks": 696,
+        "spend": 2484.11,
+        "spend_today": 3.11,
+        "clicks": 717,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -126,7 +126,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18526.1
+      "spend": 18638.489999999998
     }
   },
   "reps_by_month": {
@@ -370,7 +370,7 @@
       },
       "Julian": {
         "leads": 51,
-        "active": 48,
+        "active": 47,
         "booked": 40,
         "offers": 57,
         "accepted": 5,
@@ -642,7 +642,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 18530.82
+    "2026-09": 18638.63
   },
   "channel_by_month": {
     "2026-01": {
@@ -838,15 +838,15 @@
       }
     },
     "2026-09": {
-      "google_spend": 10418.41,
-      "meta_spend": 8112.41,
-      "ppc_leads": 60,
-      "fb_leads": 119,
-      "google_cpc": 18.67,
+      "google_spend": 10430.18,
+      "meta_spend": 8208.45,
+      "ppc_leads": 61,
+      "fb_leads": 120,
+      "google_cpc": 18.43,
       "meta_cpc": 3.34,
       "pipeline_ppc": {
-        "leads": 60,
-        "active": 40,
+        "leads": 61,
+        "active": 41,
         "booked": 28,
         "offered": 26,
         "accepted": 2,
@@ -854,7 +854,7 @@
         "closed": 0
       },
       "pipeline_fb": {
-        "leads": 119,
+        "leads": 120,
         "active": 96,
         "booked": 41,
         "offered": 39,
@@ -865,7 +865,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 179,
+    "new_leads_30d": 181,
     "hot": 10,
     "booked": 69,
     "offers": 65,
@@ -873,7 +873,7 @@
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 119,
+    "leads": 120,
     "active": 96,
     "booked": 41,
     "offered": 39,
@@ -882,8 +882,8 @@
     "closed": 0
   },
   "pipeline_ppc": {
-    "leads": 60,
-    "active": 40,
+    "leads": 61,
+    "active": 41,
     "booked": 28,
     "offered": 26,
     "accepted": 2,
@@ -891,8 +891,8 @@
     "closed": 0
   },
   "sources": {
-    "ppc": 60,
-    "facebook": 119,
+    "ppc": 61,
+    "facebook": 120,
     "ppc_inbound_call": 17
   },
   "hot_leads": [

@@ -1,13 +1,13 @@
 {
   "report_date": "September 22, 2026",
-  "last_updated": "2026-09-22 13:01 EST",
+  "last_updated": "2026-09-22 14:06 EST",
   "google": {
-    "spend_mtd": 10565.82,
-    "clicks_mtd": 575,
+    "spend_mtd": 10574.72,
+    "clicks_mtd": 576,
     "crm_leads": 62,
     "crm_leads_today": 1,
-    "cpc": 18.38,
-    "cpl": 170.42,
+    "cpc": 18.36,
+    "cpl": 170.56,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 909.99,
-        "spend_today": 4.92,
-        "clicks": 345,
-        "cpc": 2.64,
+        "spend": 918.9,
+        "spend_today": 13.83,
+        "clicks": 346,
+        "cpc": 2.66,
         "crm_leads": 0,
-        "cpl": 170.42
+        "cpl": 170.56
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,32 +29,32 @@
         "clicks": 230,
         "cpc": 41.98,
         "crm_leads": 0,
-        "cpl": 170.42
+        "cpl": 170.56
       }
     ]
   },
   "meta": {
-    "spend_30d": 8412.36,
-    "clicks_30d": 2505,
+    "spend_30d": 8435.55,
+    "clicks_30d": 2509,
     "crm_leads": 124,
     "crm_leads_today": 4,
     "cpc": 3.36,
-    "cpl_crm": 67.84,
-    "cost_per_hot": 1402.06,
+    "cpl_crm": 68.03,
+    "cost_per_hot": 1405.92,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 5855.11,
-        "spend_today": 129.77,
-        "clicks": 1777,
+        "spend": 5874.04,
+        "spend_today": 148.17,
+        "clicks": 1780,
         "crm_leads": 124,
-        "cpl_crm": 47.22
+        "cpl_crm": 47.37
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2557.25,
-        "spend_today": 75.6,
-        "clicks": 728,
+        "spend": 2561.51,
+        "spend_today": 79.86,
+        "clicks": 729,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -128,7 +128,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18977.449999999997
+      "spend": 19009.55
     }
   },
   "reps_by_month": {
@@ -1050,7 +1050,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 18978.18
+    "2026-09": 19010.27
   },
   "channel_by_month": {
     "2026-01": {
@@ -1841,15 +1841,15 @@
       }
     },
     "2026-09": {
-      "google_spend": 10565.82,
-      "meta_spend": 8412.36,
+      "google_spend": 10574.72,
+      "meta_spend": 8435.55,
       "ppc_leads": 62,
       "fb_leads": 124,
-      "google_cpc": 18.38,
+      "google_cpc": 18.36,
       "meta_cpc": 3.36,
       "pipeline_ppc": {
         "leads": 62,
-        "active": 42,
+        "active": 41,
         "booked": 30,
         "offered": 27,
         "accepted": 5,
@@ -1865,7 +1865,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 13,
+            "count": 12,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1888,13 +1888,13 @@
             "count": 3,
             "color": "#DCEBD8"
           },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           },
           "Not Workable": {
             "count": 1,
@@ -2017,7 +2017,7 @@
   },
   "pipeline_ppc": {
     "leads": 62,
-    "active": 42,
+    "active": 41,
     "booked": 30,
     "offered": 27,
     "accepted": 31,
@@ -2033,7 +2033,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 13,
+        "count": 12,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -2056,13 +2056,13 @@
         "count": 3,
         "color": "#DCEBD8"
       },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
+      },
       "Under Contract": {
         "count": 2,
         "color": "#DCEBD8"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
       },
       "Not Workable": {
         "count": 1,

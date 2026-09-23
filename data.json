@@ -1,13 +1,13 @@
 {
   "report_date": "September 23, 2026",
-  "last_updated": "2026-09-23 16:01 EST",
+  "last_updated": "2026-09-23 17:06 EST",
   "google": {
-    "spend_mtd": 11560.24,
-    "clicks_mtd": 608,
+    "spend_mtd": 11571.19,
+    "clicks_mtd": 609,
     "crm_leads": 67,
     "crm_leads_today": 3,
-    "cpc": 19.01,
-    "cpl": 172.54,
+    "cpc": 19.0,
+    "cpl": 172.7,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,58 +15,58 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 990.15,
-        "spend_today": 39.87,
+        "spend": 990.2,
+        "spend_today": 39.91,
         "clicks": 360,
         "cpc": 2.75,
         "crm_leads": 0,
-        "cpl": 172.54
+        "cpl": 172.7
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 10570.08,
-        "spend_today": 547.77,
-        "clicks": 248,
-        "cpc": 42.62,
+        "spend": 10580.99,
+        "spend_today": 558.68,
+        "clicks": 249,
+        "cpc": 42.49,
         "crm_leads": 0,
-        "cpl": 172.54
+        "cpl": 172.7
       }
     ]
   },
   "meta": {
-    "spend_30d": 8943.76,
-    "clicks_30d": 2648,
+    "spend_30d": 8975.83,
+    "clicks_30d": 2654,
     "crm_leads": 135,
     "crm_leads_today": 8,
     "cpc": 3.38,
-    "cpl_crm": 66.25,
-    "cost_per_hot": 1117.97,
+    "cpl_crm": 66.49,
+    "cost_per_hot": 1495.97,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6249.34,
-        "spend_today": 215.76,
-        "clicks": 1884,
+        "spend": 6269.99,
+        "spend_today": 236.41,
+        "clicks": 1889,
         "crm_leads": 135,
-        "cpl_crm": 46.29
+        "cpl_crm": 46.44
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2694.42,
-        "spend_today": 72.21,
-        "clicks": 764,
+        "spend": 2705.84,
+        "spend_today": 83.63,
+        "clicks": 765,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 327865,
+  "potential_income": -132135,
   "assigned_income": 59636,
   "by_stage": {
-    "Access Scheduled": 126380,
-    "Initial Inspection Completed": 76450,
+    "Initial Inspection Completed": 98350,
+    "Access Scheduled": 84480,
     "Market Prep / Pre-Listing Marketing": 75835,
-    "New Deal - Unscheduled": 49200
+    "New Deal - Unscheduled": -390800
   },
   "by_agent": {
     "Virginia": 37770,
@@ -128,7 +128,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20502.52
+      "spend": 20546.42
     }
   },
   "reps_by_month": {
@@ -346,7 +346,7 @@
       "Charles": {
         "leads": 51,
         "active": 71,
-        "booked": 53,
+        "booked": 54,
         "offers": 51,
         "accepted": 5,
         "available": 2,
@@ -374,10 +374,10 @@
     },
     "2026-09": {
       "Charles": {
-        "leads": 42,
+        "leads": 43,
         "active": 53,
         "booked": 31,
-        "offers": 47,
+        "offers": 48,
         "accepted": 5,
         "available": 1,
         "pending": 0,
@@ -385,15 +385,15 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 90515.75,
-        "discoveries": 42
+        "discoveries": 43
       },
       "Julian": {
         "leads": 57,
         "active": 59,
         "booked": 47,
-        "offers": 62,
-        "accepted": 7,
-        "available": 3,
+        "offers": 64,
+        "accepted": 8,
+        "available": 4,
         "pending": 0,
         "dead": 1,
         "closed": 0,
@@ -502,19 +502,19 @@
         },
         "2026-09": {
           "counts": {
-            "available": 4,
+            "available": 5,
             "dead": 2
           },
           "gp": {
-            "available": 193515,
+            "available": -266485,
             "dead": 51911
           },
-          "total": 6
+          "total": 7
         }
       },
       "all_time": {
         "counts": {
-          "available": 5,
+          "available": 6,
           "dead": 41,
           "on_hold": 3,
           "other": 2,
@@ -522,29 +522,29 @@
           "closed": 19
         },
         "gp": {
-          "available": 223515,
+          "available": -236485,
           "dead": 988316,
           "on_hold": 113738,
           "other": 69691,
           "pending": 27770,
           "closed": 332891
         },
-        "total": 73
+        "total": 74
       },
       "channel_counts": {
+        "fb": {
+          "available": 3,
+          "dead": 14,
+          "on_hold": 1,
+          "other": 2,
+          "closed": 1
+        },
         "ppc": {
           "available": 3,
           "on_hold": 1,
           "dead": 5,
           "pending": 2,
           "closed": 4
-        },
-        "fb": {
-          "available": 2,
-          "dead": 14,
-          "on_hold": 1,
-          "other": 2,
-          "closed": 1
         },
         "sms": {
           "pending": 1,
@@ -555,12 +555,12 @@
       },
       "by_month_channel_counts": {
         "2026-09": {
+          "fb": {
+            "available": 2,
+            "dead": 2
+          },
           "ppc": {
             "available": 3
-          },
-          "fb": {
-            "available": 1,
-            "dead": 2
           }
         },
         "2026-08": {
@@ -649,6 +649,15 @@
       },
       "deals": [
         {
+          "address": "1303 Oakwood Ct, Lynchburg, VA 24503, USA",
+          "value": -440000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-09"
+        },
+        {
           "address": "619 S Evelyn Pl NW, Atlanta, GA 30318, USA",
           "value": 35000,
           "status": "Available",
@@ -659,7 +668,7 @@
         },
         {
           "address": "12231 Players Ct, Fayetteville, GA 30215, USA",
-          "value": 104480,
+          "value": 84480,
           "status": "Available",
           "stage": "Access Scheduled",
           "stage_color": "FAF2C4",
@@ -985,8 +994,8 @@
           "address": "6895 Edge St, Bessemer, AL 35022, USA",
           "value": 21900,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -1012,12 +1021,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 9,
+    "available": 10,
     "pending": 5,
     "on_hold": 3,
     "closed": 35,
     "dead": 76,
-    "gp_available": 327865,
+    "gp_available": -132135,
     "gp_pending": 49946,
     "gp_on_hold": 113738,
     "gp_closed": 819645,
@@ -1032,7 +1041,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 20504.0
+    "2026-09": 20547.02
   },
   "channel_by_month": {
     "2026-01": {
@@ -1765,8 +1774,8 @@
       "pipeline_fb": {
         "leads": 228,
         "active": 124,
-        "booked": 96,
-        "offered": 89,
+        "booked": 97,
+        "offered": 90,
         "accepted": 3,
         "under_contract": 3,
         "contract_available": 1,
@@ -1776,11 +1785,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 86,
+            "count": 89,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 61,
+            "count": 60,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1807,10 +1816,6 @@
             "count": 4,
             "color": "#F3F3F3"
           },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
-          },
           "Warm": {
             "count": 2,
             "color": "#F7F0C5"
@@ -1827,11 +1832,11 @@
       }
     },
     "2026-09": {
-      "google_spend": 11560.24,
-      "meta_spend": 8943.76,
+      "google_spend": 11571.19,
+      "meta_spend": 8975.83,
       "ppc_leads": 67,
       "fb_leads": 135,
-      "google_cpc": 19.01,
+      "google_cpc": 19.0,
       "meta_cpc": 3.38,
       "pipeline_ppc": {
         "leads": 67,
@@ -1892,10 +1897,10 @@
         "leads": 135,
         "active": 108,
         "booked": 45,
-        "offered": 40,
-        "accepted": 5,
-        "under_contract": 5,
-        "contract_available": 3,
+        "offered": 42,
+        "accepted": 6,
+        "under_contract": 6,
+        "contract_available": 4,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 2,
@@ -1913,13 +1918,13 @@
             "count": 8,
             "color": "#D1F3EC"
           },
-          "Warm": {
-            "count": 7,
-            "color": "#F7F0C5"
-          },
           "Wrong Number": {
             "count": 6,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 5,
+            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 5,
@@ -1934,8 +1939,12 @@
             "color": "#F3F3F3"
           },
           "Under Contract": {
-            "count": 1,
+            "count": 2,
             "color": "#DCEBD8"
+          },
+          "No Longer Selling": {
+            "count": 1,
+            "color": "#F3F3F3"
           }
         }
       }
@@ -1943,21 +1952,21 @@
   },
   "pipeline": {
     "new_leads_30d": 202,
-    "dispositioned_mtd": 99,
+    "dispositioned_mtd": 100,
     "hot": 10,
     "booked": 76,
-    "offers": 68,
-    "under_contract": 4,
+    "offers": 70,
+    "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 135,
     "active": 108,
     "booked": 45,
-    "offered": 40,
-    "accepted": 38,
-    "under_contract": 38,
-    "contract_available": 4,
+    "offered": 42,
+    "accepted": 39,
+    "under_contract": 39,
+    "contract_available": 5,
     "contract_pending": 0,
     "contract_closed": 5,
     "contract_dead": 29,
@@ -1975,13 +1984,13 @@
         "count": 8,
         "color": "#D1F3EC"
       },
-      "Warm": {
-        "count": 7,
-        "color": "#F7F0C5"
-      },
       "Wrong Number": {
         "count": 6,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 5,
+        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 5,
@@ -1996,8 +2005,12 @@
         "color": "#F3F3F3"
       },
       "Under Contract": {
-        "count": 1,
+        "count": 2,
         "color": "#DCEBD8"
+      },
+      "No Longer Selling": {
+        "count": 1,
+        "color": "#F3F3F3"
       }
     }
   },
@@ -2058,23 +2071,33 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 42,
-      "offers": 47,
+      "discoveries": 43,
+      "offers": 48,
       "contracts": 5,
       "revenue": 90515.75
     },
     "Julian": {
       "discoveries": 57,
-      "offers": 62,
-      "contracts": 7,
+      "offers": 64,
+      "contracts": 8,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 251285,
+    "Julian": -208715,
     "Charles": 126526
   },
   "agent_deals": [
+    {
+      "address": "1303 Oakwood Ct, Lynchburg, VA 24503, USA",
+      "value": -440000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-09",
+      "agent": "Julian"
+    },
     {
       "address": "619 S Evelyn Pl NW, Atlanta, GA 30318, USA",
       "value": 35000,
@@ -2087,7 +2110,7 @@
     },
     {
       "address": "12231 Players Ct, Fayetteville, GA 30215, USA",
-      "value": 104480,
+      "value": 84480,
       "status": "Available",
       "stage": "Access Scheduled",
       "stage_color": "FAF2C4",
@@ -2189,8 +2212,8 @@
       "address": "6895 Edge St, Bessemer, AL 35022, USA",
       "value": 21900,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Charles"
@@ -2247,9 +2270,9 @@
       "source": "Facebook"
     },
     {
-      "name": "883 Chestnut Hill Rd",
-      "address": "883 Chestnut Hill Rd, Cambridge, NY 12816, USA",
-      "phone": "(518) 812-4950",
+      "name": "25556 Calima Dr",
+      "address": "25556 Calima Dr, Abingdon, VA 24210, USA",
+      "phone": "(276) 623-3566",
       "source": "Facebook"
     }
   ],

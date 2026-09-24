@@ -1,13 +1,13 @@
 {
   "report_date": "September 24, 2026",
-  "last_updated": "2026-09-24 13:36 EST",
+  "last_updated": "2026-09-24 14:42 EST",
   "google": {
-    "spend_mtd": 12142.59,
-    "clicks_mtd": 631,
-    "crm_leads": 70,
-    "crm_leads_today": 2,
-    "cpc": 19.24,
-    "cpl": 173.47,
+    "spend_mtd": 12284.49,
+    "clicks_mtd": 635,
+    "crm_leads": 71,
+    "crm_leads_today": 3,
+    "cpc": 19.35,
+    "cpl": 173.02,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,53 +15,53 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1038.86,
-        "spend_today": 43.5,
-        "clicks": 367,
+        "spend": 1044.09,
+        "spend_today": 48.73,
+        "clicks": 369,
         "cpc": 2.83,
         "crm_leads": 0,
-        "cpl": 173.47
+        "cpl": 173.02
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 11103.73,
-        "spend_today": 489.5,
-        "clicks": 264,
-        "cpc": 42.06,
+        "spend": 11240.4,
+        "spend_today": 626.17,
+        "clicks": 266,
+        "cpc": 42.26,
         "crm_leads": 0,
-        "cpl": 173.47
+        "cpl": 173.02
       }
     ]
   },
   "meta": {
-    "spend_30d": 9222.8,
-    "clicks_30d": 2727,
+    "spend_30d": 9239.5,
+    "clicks_30d": 2731,
     "crm_leads": 139,
     "crm_leads_today": 2,
     "cpc": 3.38,
-    "cpl_crm": 66.35,
-    "cost_per_hot": 1152.85,
+    "cpl_crm": 66.47,
+    "cost_per_hot": 1154.94,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6432.07,
-        "spend_today": 85.98,
-        "clicks": 1933,
+        "spend": 6441.28,
+        "spend_today": 95.15,
+        "clicks": 1935,
         "crm_leads": 139,
-        "cpl_crm": 46.27
+        "cpl_crm": 46.34
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2787.23,
-        "spend_today": 33.11,
-        "clicks": 794,
+        "spend": 2790.48,
+        "spend_today": 36.12,
+        "clicks": 796,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT | Ultra | TEST $25 | new creatives | 24 Sep 2026",
-        "spend": 3.5,
-        "spend_today": 3.5,
+        "spend": 7.74,
+        "spend_today": 7.74,
         "clicks": 0,
         "crm_leads": 0,
         "cpl_crm": null
@@ -71,10 +71,10 @@
   "potential_income": 361365,
   "assigned_income": 77481,
   "by_stage": {
-    "Access Scheduled": 164380,
-    "New Deal - Unscheduled": 67800,
+    "Access Scheduled": 184380,
     "Market Prep / Pre-Listing Marketing": 65835,
-    "Initial Inspection Completed": 63350
+    "Initial Inspection Completed": 63350,
+    "New Deal - Unscheduled": 47800
   },
   "by_agent": {
     "Virginia": 30700,
@@ -137,7 +137,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21365.32
+      "spend": 21436.57
     }
   },
   "reps_by_month": {
@@ -203,7 +203,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 31,
         "active": 11,
         "booked": 15,
         "offers": 25,
@@ -214,10 +214,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 31
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -228,12 +228,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 50,
         "booked": 45,
         "offers": 35,
@@ -244,10 +244,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 52,
+        "leads": 53,
         "active": 61,
         "booked": 58,
         "offers": 42,
@@ -258,7 +258,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 52
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -383,10 +383,10 @@
     },
     "2026-09": {
       "Charles": {
-        "leads": 45,
+        "leads": 44,
         "active": 52,
-        "booked": 31,
-        "offers": 50,
+        "booked": 32,
+        "offers": 51,
         "accepted": 6,
         "available": 1,
         "pending": 0,
@@ -394,10 +394,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 90515.75,
-        "discoveries": 45
+        "discoveries": 44
       },
       "Julian": {
-        "leads": 56,
+        "leads": 58,
         "active": 62,
         "booked": 48,
         "offers": 64,
@@ -408,7 +408,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 7070.24,
-        "discoveries": 56
+        "discoveries": 58
       }
     }
   },
@@ -995,8 +995,8 @@
           "address": "3346 Longview Dr, Collinsville, VA 24078, USA",
           "value": 20000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -1060,7 +1060,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 21365.39
+    "2026-09": 21523.99
   },
   "channel_by_month": {
     "2026-01": {
@@ -1304,7 +1304,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 53,
+            "count": 51,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1323,16 +1323,16 @@
             "count": 10,
             "color": "#DCEBD8"
           },
+          "Listed": {
+            "count": 9,
+            "color": "#C8C8C8"
+          },
           "No Longer Selling": {
             "count": 9,
             "color": "#F3F3F3"
           },
           "Sold": {
             "count": 8,
-            "color": "#C8C8C8"
-          },
-          "Listed": {
-            "count": 7,
             "color": "#C8C8C8"
           },
           "Not Workable": {
@@ -1800,11 +1800,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 88,
+            "count": 87,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 60,
+            "count": 61,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1851,15 +1851,15 @@
       }
     },
     "2026-09": {
-      "google_spend": 12142.59,
-      "meta_spend": 9222.8,
-      "ppc_leads": 70,
+      "google_spend": 12284.49,
+      "meta_spend": 9239.5,
+      "ppc_leads": 71,
       "fb_leads": 139,
-      "google_cpc": 19.24,
+      "google_cpc": 19.35,
       "meta_cpc": 3.38,
       "pipeline_ppc": {
-        "leads": 70,
-        "active": 45,
+        "leads": 71,
+        "active": 46,
         "booked": 31,
         "offered": 28,
         "accepted": 6,
@@ -1875,7 +1875,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 14,
+            "count": 15,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -1915,8 +1915,8 @@
       "pipeline_fb": {
         "leads": 139,
         "active": 111,
-        "booked": 46,
-        "offered": 42,
+        "booked": 47,
+        "offered": 43,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 4,
@@ -1926,11 +1926,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 63,
+            "count": 62,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 41,
+            "count": 42,
             "color": "#D2E4EB"
           },
           "Owes too Much": {
@@ -1970,19 +1970,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 209,
-    "dispositioned_mtd": 101,
+    "new_leads_30d": 210,
+    "dispositioned_mtd": 102,
     "hot": 10,
-    "booked": 77,
-    "offers": 70,
+    "booked": 78,
+    "offers": 71,
     "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 139,
     "active": 111,
-    "booked": 46,
-    "offered": 42,
+    "booked": 47,
+    "offered": 43,
     "accepted": 39,
     "under_contract": 39,
     "contract_available": 5,
@@ -1992,11 +1992,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 63,
+        "count": 62,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 41,
+        "count": 42,
         "color": "#D2E4EB"
       },
       "Owes too Much": {
@@ -2034,8 +2034,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 70,
-    "active": 45,
+    "leads": 71,
+    "active": 46,
     "booked": 31,
     "offered": 28,
     "accepted": 32,
@@ -2051,7 +2051,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 14,
+        "count": 15,
         "color": "#FFD5C2"
       },
       "Listed": {
@@ -2090,13 +2090,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 45,
-      "offers": 50,
+      "discoveries": 44,
+      "offers": 51,
       "contracts": 6,
       "revenue": 90515.75
     },
     "Julian": {
-      "discoveries": 56,
+      "discoveries": 58,
       "offers": 64,
       "contracts": 8,
       "revenue": 7070.24
@@ -2211,8 +2211,8 @@
       "address": "3346 Longview Dr, Collinsville, VA 24078, USA",
       "value": 20000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Charles"
@@ -2259,7 +2259,7 @@
     }
   ],
   "sources": {
-    "ppc": 70,
+    "ppc": 71,
     "facebook": 139,
     "ppc_inbound_call": 20
   },

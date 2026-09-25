@@ -1,13 +1,13 @@
 {
   "report_date": "September 25, 2026",
-  "last_updated": "2026-09-25 09:01 EST",
+  "last_updated": "2026-09-25 10:01 EST",
   "google": {
-    "spend_mtd": 12357.68,
-    "clicks_mtd": 647,
+    "spend_mtd": 12379.78,
+    "clicks_mtd": 651,
     "crm_leads": 71,
     "crm_leads_today": 0,
-    "cpc": 19.1,
-    "cpl": 174.05,
+    "cpc": 19.02,
+    "cpl": 174.36,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,54 +15,54 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1064.36,
-        "spend_today": 20.28,
-        "clicks": 380,
+        "spend": 1071.55,
+        "spend_today": 27.46,
+        "clicks": 383,
         "cpc": 2.8,
         "crm_leads": 0,
-        "cpl": 174.05
+        "cpl": 174.36
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 11293.32,
-        "spend_today": 0.0,
-        "clicks": 267,
-        "cpc": 42.3,
+        "spend": 11308.23,
+        "spend_today": 14.91,
+        "clicks": 268,
+        "cpc": 42.19,
         "crm_leads": 0,
-        "cpl": 174.05
+        "cpl": 174.36
       }
     ]
   },
   "meta": {
-    "spend_30d": 9446.71,
-    "clicks_30d": 2792,
-    "crm_leads": 146,
+    "spend_30d": 9460.89,
+    "clicks_30d": 2797,
+    "crm_leads": 143,
     "crm_leads_today": 0,
     "cpc": 3.38,
-    "cpl_crm": 64.7,
-    "cost_per_hot": 1180.84,
+    "cpl_crm": 66.16,
+    "cost_per_hot": 1576.81,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 6580.11,
-        "spend_today": 55.13,
-        "clicks": 1978,
-        "crm_leads": 146,
-        "cpl_crm": 45.07
+        "spend": 6586.69,
+        "spend_today": 61.64,
+        "clicks": 1980,
+        "crm_leads": 143,
+        "cpl_crm": 46.06
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2828.74,
-        "spend_today": 14.8,
+        "spend": 2834.87,
+        "spend_today": 20.88,
         "clicks": 805,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT | Ultra | TEST $25 | new creatives | 24 Sep 2026",
-        "spend": 37.86,
-        "spend_today": 14.92,
-        "clicks": 9,
+        "spend": 39.33,
+        "spend_today": 16.39,
+        "clicks": 12,
         "crm_leads": 0,
         "cpl_crm": null
       }
@@ -137,7 +137,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21804.239999999998
+      "spend": 21832.97
     }
   },
   "reps_by_month": {
@@ -386,7 +386,7 @@
         "leads": 44,
         "active": 51,
         "booked": 33,
-        "offers": 51,
+        "offers": 50,
         "accepted": 6,
         "available": 1,
         "pending": 0,
@@ -398,11 +398,11 @@
       },
       "Julian": {
         "leads": 61,
-        "active": 64,
-        "booked": 50,
+        "active": 63,
+        "booked": 49,
         "offers": 66,
-        "accepted": 8,
-        "available": 4,
+        "accepted": 7,
+        "available": 3,
         "pending": 0,
         "dead": 1,
         "closed": 0,
@@ -1057,7 +1057,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 21804.39
+    "2026-09": 21840.67
   },
   "channel_by_month": {
     "2026-01": {
@@ -1797,7 +1797,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 86,
+            "count": 87,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1839,26 +1839,22 @@
           "Sold": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           }
         }
       }
     },
     "2026-09": {
-      "google_spend": 12357.68,
-      "meta_spend": 9446.71,
+      "google_spend": 12379.78,
+      "meta_spend": 9460.89,
       "ppc_leads": 71,
-      "fb_leads": 146,
-      "google_cpc": 19.1,
+      "fb_leads": 143,
+      "google_cpc": 19.02,
       "meta_cpc": 3.38,
       "pipeline_ppc": {
         "leads": 71,
-        "active": 46,
-        "booked": 33,
-        "offered": 28,
+        "active": 45,
+        "booked": 32,
+        "offered": 27,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 4,
@@ -1910,8 +1906,8 @@
         }
       },
       "pipeline_fb": {
-        "leads": 146,
-        "active": 117,
+        "leads": 143,
+        "active": 114,
         "booked": 48,
         "offered": 44,
         "accepted": 5,
@@ -1923,7 +1919,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 67,
+            "count": 64,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1938,10 +1934,6 @@
             "count": 6,
             "color": "#DCEBD8"
           },
-          "Hot": {
-            "count": 5,
-            "color": "#F7D1D0"
-          },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
@@ -1951,8 +1943,12 @@
             "color": "#F3F3F3"
           },
           "Warm": {
-            "count": 4,
+            "count": 5,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 4,
+            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 2,
@@ -1967,17 +1963,17 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 217,
+    "new_leads_30d": 214,
     "dispositioned_mtd": 105,
     "hot": 10,
-    "booked": 81,
-    "offers": 72,
-    "under_contract": 5,
+    "booked": 80,
+    "offers": 71,
+    "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
-    "leads": 146,
-    "active": 117,
+    "leads": 143,
+    "active": 114,
     "booked": 48,
     "offered": 44,
     "accepted": 38,
@@ -1989,7 +1985,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 67,
+        "count": 64,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -2004,10 +2000,6 @@
         "count": 6,
         "color": "#DCEBD8"
       },
-      "Hot": {
-        "count": 5,
-        "color": "#F7D1D0"
-      },
       "Listed": {
         "count": 5,
         "color": "#C8C8C8"
@@ -2017,8 +2009,12 @@
         "color": "#F3F3F3"
       },
       "Warm": {
-        "count": 4,
+        "count": 5,
         "color": "#F7F0C5"
+      },
+      "Hot": {
+        "count": 4,
+        "color": "#F7D1D0"
       },
       "Under Contract": {
         "count": 2,
@@ -2032,9 +2028,9 @@
   },
   "pipeline_ppc": {
     "leads": 71,
-    "active": 46,
-    "booked": 33,
-    "offered": 28,
+    "active": 45,
+    "booked": 32,
+    "offered": 27,
     "accepted": 32,
     "under_contract": 32,
     "contract_available": 4,
@@ -2088,14 +2084,14 @@
   "reps": {
     "Charles": {
       "discoveries": 44,
-      "offers": 51,
+      "offers": 50,
       "contracts": 6,
       "revenue": 90515.75
     },
     "Julian": {
       "discoveries": 61,
       "offers": 66,
-      "contracts": 8,
+      "contracts": 7,
       "revenue": 7070.24
     }
   },
@@ -2247,8 +2243,8 @@
   ],
   "sources": {
     "ppc": 71,
-    "facebook": 146,
-    "ppc_inbound_call": 21
+    "facebook": 143,
+    "ppc_inbound_call": 20
   },
   "hot_leads": [
     {
@@ -2276,9 +2272,9 @@
       "source": "Facebook"
     },
     {
-      "name": "6430 Woodstone Way",
-      "address": "6430 Woodstone Way, Morrow, GA 30260, USA",
-      "phone": "(404) 556-1305",
+      "name": "25556 Calima Dr",
+      "address": "25556 Calima Dr, Abingdon, VA 24210, USA",
+      "phone": "(276) 623-3566",
       "source": "Facebook"
     }
   ],

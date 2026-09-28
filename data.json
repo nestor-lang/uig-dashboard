@@ -1,13 +1,13 @@
 {
   "report_date": "September 28, 2026",
-  "last_updated": "2026-09-28 11:26 EST",
+  "last_updated": "2026-09-28 12:32 EST",
   "google": {
-    "spend_mtd": 13792.1,
-    "clicks_mtd": 716,
-    "crm_leads": 79,
-    "crm_leads_today": 1,
-    "cpc": 19.26,
-    "cpl": 174.58,
+    "spend_mtd": 13792.85,
+    "clicks_mtd": 717,
+    "crm_leads": 80,
+    "crm_leads_today": 3,
+    "cpc": 19.24,
+    "cpl": 172.41,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1183.57,
-        "spend_today": 5.78,
-        "clicks": 427,
+        "spend": 1184.33,
+        "spend_today": 6.54,
+        "clicks": 428,
         "cpc": 2.77,
         "crm_leads": 0,
-        "cpl": 174.58
+        "cpl": 172.41
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,39 +29,39 @@
         "clicks": 289,
         "cpc": 43.63,
         "crm_leads": 0,
-        "cpl": 174.58
+        "cpl": 172.41
       }
     ]
   },
   "meta": {
-    "spend_30d": 10200.97,
-    "clicks_30d": 3031,
+    "spend_30d": 10212.54,
+    "clicks_30d": 3035,
     "crm_leads": 157,
     "crm_leads_today": 0,
-    "cpc": 3.37,
-    "cpl_crm": 64.97,
-    "cost_per_hot": 1133.44,
+    "cpc": 3.36,
+    "cpl_crm": 65.05,
+    "cost_per_hot": 1134.73,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7095.06,
-        "spend_today": 33.1,
-        "clicks": 2131,
+        "spend": 7101.9,
+        "spend_today": 39.47,
+        "clicks": 2135,
         "crm_leads": 157,
-        "cpl_crm": 45.19
+        "cpl_crm": 45.24
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2994.56,
-        "spend_today": 24.35,
+        "spend": 2997.81,
+        "spend_today": 27.6,
         "clicks": 862,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT | Ultra | TEST $25 | new creatives | 24 Sep 2026",
-        "spend": 111.35,
-        "spend_today": 12.67,
+        "spend": 112.83,
+        "spend_today": 14.15,
         "clicks": 38,
         "crm_leads": 0,
         "cpl_crm": null
@@ -71,10 +71,10 @@
   "potential_income": 257250,
   "assigned_income": 107261,
   "by_stage": {
-    "Initial Inspection Completed": 97115,
+    "Market Prep / Pre-Listing Marketing": 99750,
+    "Initial Inspection Completed": 72200,
     "Access Scheduled": 67800,
-    "Market Prep / Pre-Listing Marketing": 49835,
-    "New Deal - Unscheduled": 42500
+    "New Deal - Unscheduled": 17500
   },
   "by_agent": {
     "Georgia": 55220,
@@ -136,7 +136,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 55220.37,
-      "spend": 23992.510000000002
+      "spend": 24005.39
     }
   },
   "reps_by_month": {
@@ -383,7 +383,7 @@
     "2026-09": {
       "Charles": {
         "leads": 47,
-        "active": 53,
+        "active": 54,
         "booked": 34,
         "offers": 51,
         "accepted": 6,
@@ -397,7 +397,7 @@
       },
       "Julian": {
         "leads": 66,
-        "active": 70,
+        "active": 72,
         "booked": 54,
         "offers": 70,
         "accepted": 9,
@@ -671,8 +671,8 @@
           "address": "2425 Denison St, Baltimore, MD 21216, USA",
           "value": 25000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -698,8 +698,8 @@
           "address": "619 S Evelyn Pl NW, Atlanta, GA 30318, USA",
           "value": 24915,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -1082,7 +1082,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 23993.07
+    "2026-09": 24005.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -1877,15 +1877,15 @@
       }
     },
     "2026-09": {
-      "google_spend": 13792.1,
-      "meta_spend": 10200.97,
-      "ppc_leads": 79,
+      "google_spend": 13792.85,
+      "meta_spend": 10212.54,
+      "ppc_leads": 80,
       "fb_leads": 157,
-      "google_cpc": 19.26,
-      "meta_cpc": 3.37,
+      "google_cpc": 19.24,
+      "meta_cpc": 3.36,
       "pipeline_ppc": {
-        "leads": 79,
-        "active": 53,
+        "leads": 80,
+        "active": 54,
         "booked": 34,
         "offered": 27,
         "accepted": 7,
@@ -1897,7 +1897,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 20,
+            "count": 21,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -1996,7 +1996,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 236,
+    "new_leads_30d": 237,
     "dispositioned_mtd": 114,
     "hot": 10,
     "booked": 87,
@@ -2060,8 +2060,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 79,
-    "active": 53,
+    "leads": 80,
+    "active": 54,
     "booked": 34,
     "offered": 27,
     "accepted": 33,
@@ -2073,7 +2073,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 20,
+        "count": 21,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -2137,8 +2137,8 @@
       "address": "2425 Denison St, Baltimore, MD 21216, USA",
       "value": 25000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"
@@ -2167,8 +2167,8 @@
       "address": "619 S Evelyn Pl NW, Atlanta, GA 30318, USA",
       "value": 24915,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"
@@ -2305,7 +2305,7 @@
     }
   ],
   "sources": {
-    "ppc": 79,
+    "ppc": 80,
     "facebook": 157,
     "ppc_inbound_call": 17
   },

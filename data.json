@@ -1,13 +1,13 @@
 {
   "report_date": "September 28, 2026",
-  "last_updated": "2026-09-28 10:22 EST",
+  "last_updated": "2026-09-28 11:26 EST",
   "google": {
     "spend_mtd": 13792.1,
     "clicks_mtd": 716,
-    "crm_leads": 78,
-    "crm_leads_today": 0,
+    "crm_leads": 79,
+    "crm_leads_today": 1,
     "cpc": 19.26,
-    "cpl": 176.82,
+    "cpl": 174.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 427,
         "cpc": 2.77,
         "crm_leads": 0,
-        "cpl": 176.82
+        "cpl": 174.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,55 +29,55 @@
         "clicks": 289,
         "cpc": 43.63,
         "crm_leads": 0,
-        "cpl": 176.82
+        "cpl": 174.58
       }
     ]
   },
   "meta": {
-    "spend_30d": 10187.48,
-    "clicks_30d": 3027,
+    "spend_30d": 10200.97,
+    "clicks_30d": 3031,
     "crm_leads": 157,
     "crm_leads_today": 0,
     "cpc": 3.37,
-    "cpl_crm": 64.89,
-    "cost_per_hot": 1455.35,
+    "cpl_crm": 64.97,
+    "cost_per_hot": 1133.44,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7088.83,
-        "spend_today": 27.09,
-        "clicks": 2128,
+        "spend": 7095.06,
+        "spend_today": 33.1,
+        "clicks": 2131,
         "crm_leads": 157,
-        "cpl_crm": 45.15
+        "cpl_crm": 45.19
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 2988.73,
-        "spend_today": 18.52,
+        "spend": 2994.56,
+        "spend_today": 24.35,
         "clicks": 862,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT | Ultra | TEST $25 | new creatives | 24 Sep 2026",
-        "spend": 109.92,
-        "spend_today": 11.25,
-        "clicks": 37,
+        "spend": 111.35,
+        "spend_today": 12.67,
+        "clicks": 38,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 232335,
-  "assigned_income": 132176,
+  "potential_income": 257250,
+  "assigned_income": 107261,
   "by_stage": {
-    "Initial Inspection Completed": 72200,
+    "Initial Inspection Completed": 97115,
     "Access Scheduled": 67800,
     "Market Prep / Pre-Listing Marketing": 49835,
     "New Deal - Unscheduled": 42500
   },
   "by_agent": {
-    "Georgia": 80135,
+    "Georgia": 55220,
     "Virginia": 41700,
     "South Carolina": 10341
   },
@@ -125,7 +125,7 @@
     },
     "2026-07": {
       "closed": 61529.990000000005,
-      "pending": 39915.0,
+      "pending": 15000.0,
       "spend": 21857.71
     },
     "2026-08": {
@@ -136,7 +136,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 55220.37,
-      "spend": 23977.57
+      "spend": 23992.510000000002
     }
   },
   "reps_by_month": {
@@ -341,11 +341,11 @@
         "booked": 74,
         "offers": 61,
         "accepted": 8,
-        "available": 0,
-        "pending": 2,
+        "available": 1,
+        "pending": 1,
         "dead": 5,
         "closed": 1,
-        "pending_income": 39915.0,
+        "pending_income": 15000.0,
         "closed_revenue": 6267.96,
         "discoveries": 77
       }
@@ -384,7 +384,7 @@
       "Charles": {
         "leads": 47,
         "active": 53,
-        "booked": 33,
+        "booked": 34,
         "offers": 51,
         "accepted": 6,
         "available": 1,
@@ -396,9 +396,9 @@
         "discoveries": 47
       },
       "Julian": {
-        "leads": 65,
-        "active": 69,
-        "booked": 53,
+        "leads": 66,
+        "active": 70,
+        "booked": 54,
         "offers": 70,
         "accepted": 9,
         "available": 3,
@@ -407,7 +407,7 @@
         "closed": 0,
         "pending_income": 55220.37,
         "closed_revenue": 7070.24,
-        "discoveries": 65
+        "discoveries": 66
       }
     }
   },
@@ -512,13 +512,13 @@
         },
         "2026-09": {
           "counts": {
-            "available": 5,
-            "pending": 2,
+            "available": 6,
+            "pending": 1,
             "dead": 2
           },
           "gp": {
-            "available": 137685,
-            "pending": 80135,
+            "available": 162600,
+            "pending": 55220,
             "dead": 51911
           },
           "total": 9
@@ -526,16 +526,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 6,
-          "pending": 5,
+          "available": 7,
+          "pending": 4,
           "dead": 41,
           "on_hold": 3,
           "other": 1,
           "closed": 20
         },
         "gp": {
-          "available": 167685,
-          "pending": 111176,
+          "available": 192600,
+          "pending": 86261,
           "dead": 988316,
           "on_hold": 113738,
           "other": 60000,
@@ -552,8 +552,8 @@
           "on_hold": 1
         },
         "ppc": {
-          "available": 2,
-          "pending": 3,
+          "available": 3,
+          "pending": 2,
           "on_hold": 1,
           "dead": 5,
           "closed": 5
@@ -573,8 +573,8 @@
             "available": 1
           },
           "ppc": {
-            "available": 2,
-            "pending": 2
+            "available": 3,
+            "pending": 1
           },
           "fb": {
             "available": 2,
@@ -697,7 +697,7 @@
         {
           "address": "619 S Evelyn Pl NW, Atlanta, GA 30318, USA",
           "value": 24915,
-          "status": "Sent to Title",
+          "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
@@ -1062,13 +1062,13 @@
     }
   },
   "pipeline_contracts": {
-    "available": 10,
-    "pending": 7,
+    "available": 11,
+    "pending": 6,
     "on_hold": 3,
     "closed": 37,
     "dead": 76,
-    "gp_available": 232335,
-    "gp_pending": 132176,
+    "gp_available": 257250,
+    "gp_pending": 107261,
     "gp_on_hold": 113738,
     "gp_closed": 838891,
     "gp_dead": 1779412
@@ -1082,7 +1082,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 23979.58
+    "2026-09": 23993.07
   },
   "channel_by_month": {
     "2026-01": {
@@ -1130,7 +1130,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 7,
+            "count": 6,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1148,6 +1148,10 @@
           "Owes too Much": {
             "count": 1,
             "color": "#D1F3EC"
+          },
+          "Sold": {
+            "count": 1,
+            "color": "#C8C8C8"
           },
           "Listed": {
             "count": 1,
@@ -1704,7 +1708,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 86,
+            "count": 85,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1723,6 +1727,10 @@
             "count": 9,
             "color": "#D1F3EC"
           },
+          "Dead": {
+            "count": 9,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 8,
             "color": "#DCEBD8"
@@ -1730,10 +1738,6 @@
           "Listed": {
             "count": 8,
             "color": "#C8C8C8"
-          },
-          "Dead": {
-            "count": 8,
-            "color": "#F3F3F3"
           },
           "Sold": {
             "count": 3,
@@ -1865,29 +1869,29 @@
             "count": 2,
             "color": "#C8C8C8"
           },
-          "Warm": {
+          "Hot": {
             "count": 1,
-            "color": "#F7F0C5"
+            "color": "#F7D1D0"
           }
         }
       }
     },
     "2026-09": {
       "google_spend": 13792.1,
-      "meta_spend": 10187.48,
-      "ppc_leads": 78,
+      "meta_spend": 10200.97,
+      "ppc_leads": 79,
       "fb_leads": 157,
       "google_cpc": 19.26,
       "meta_cpc": 3.37,
       "pipeline_ppc": {
-        "leads": 78,
-        "active": 52,
-        "booked": 33,
+        "leads": 79,
+        "active": 53,
+        "booked": 34,
         "offered": 27,
         "accepted": 7,
         "under_contract": 7,
-        "contract_available": 4,
-        "contract_pending": 2,
+        "contract_available": 5,
+        "contract_pending": 1,
         "contract_closed": 0,
         "contract_dead": 1,
         "closed": 0,
@@ -1908,13 +1912,13 @@
             "count": 9,
             "color": "#D1F3EC"
           },
+          "Warm": {
+            "count": 7,
+            "color": "#F7F0C5"
+          },
           "Hot": {
             "count": 6,
             "color": "#F7D1D0"
-          },
-          "Warm": {
-            "count": 6,
-            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 4,
@@ -1936,9 +1940,9 @@
       },
       "pipeline_fb": {
         "leads": 157,
-        "active": 125,
-        "booked": 52,
-        "offered": 47,
+        "active": 124,
+        "booked": 53,
+        "offered": 48,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 3,
@@ -1948,32 +1952,32 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 68,
+            "count": 67,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 47,
             "color": "#D2E4EB"
           },
+          "Owes too Much": {
+            "count": 9,
+            "color": "#D1F3EC"
+          },
           "Wrong Number": {
             "count": 8,
             "color": "#DCEBD8"
           },
-          "Owes too Much": {
-            "count": 8,
-            "color": "#D1F3EC"
-          },
           "Warm": {
-            "count": 7,
+            "count": 6,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 6,
+            "color": "#F7D1D0"
           },
           "Dead": {
             "count": 6,
             "color": "#F3F3F3"
-          },
-          "Hot": {
-            "count": 5,
-            "color": "#F7D1D0"
           },
           "Listed": {
             "count": 5,
@@ -1992,19 +1996,19 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 235,
-    "dispositioned_mtd": 113,
+    "new_leads_30d": 236,
+    "dispositioned_mtd": 114,
     "hot": 10,
-    "booked": 85,
-    "offers": 74,
+    "booked": 87,
+    "offers": 75,
     "under_contract": 5,
     "closed": 0
   },
   "pipeline_fb": {
     "leads": 157,
-    "active": 125,
-    "booked": 52,
-    "offered": 47,
+    "active": 124,
+    "booked": 53,
+    "offered": 48,
     "accepted": 40,
     "under_contract": 40,
     "contract_available": 4,
@@ -2014,32 +2018,32 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 68,
+        "count": 67,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 47,
         "color": "#D2E4EB"
       },
+      "Owes too Much": {
+        "count": 9,
+        "color": "#D1F3EC"
+      },
       "Wrong Number": {
         "count": 8,
         "color": "#DCEBD8"
       },
-      "Owes too Much": {
-        "count": 8,
-        "color": "#D1F3EC"
-      },
       "Warm": {
-        "count": 7,
+        "count": 6,
         "color": "#F7F0C5"
+      },
+      "Hot": {
+        "count": 6,
+        "color": "#F7D1D0"
       },
       "Dead": {
         "count": 6,
         "color": "#F3F3F3"
-      },
-      "Hot": {
-        "count": 5,
-        "color": "#F7D1D0"
       },
       "Listed": {
         "count": 5,
@@ -2056,14 +2060,14 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 78,
-    "active": 52,
-    "booked": 33,
+    "leads": 79,
+    "active": 53,
+    "booked": 34,
     "offered": 27,
     "accepted": 33,
     "under_contract": 33,
-    "contract_available": 4,
-    "contract_pending": 4,
+    "contract_available": 5,
+    "contract_pending": 3,
     "contract_closed": 10,
     "contract_dead": 15,
     "closed": 0,
@@ -2084,13 +2088,13 @@
         "count": 9,
         "color": "#D1F3EC"
       },
+      "Warm": {
+        "count": 7,
+        "color": "#F7F0C5"
+      },
       "Hot": {
         "count": 6,
         "color": "#F7D1D0"
-      },
-      "Warm": {
-        "count": 6,
-        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 4,
@@ -2118,7 +2122,7 @@
       "revenue": 102691.26
     },
     "Julian": {
-      "discoveries": 65,
+      "discoveries": 66,
       "offers": 70,
       "contracts": 9,
       "revenue": 7070.24
@@ -2162,7 +2166,7 @@
     {
       "address": "619 S Evelyn Pl NW, Atlanta, GA 30318, USA",
       "value": 24915,
-      "status": "Sent to Title",
+      "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
@@ -2301,7 +2305,7 @@
     }
   ],
   "sources": {
-    "ppc": 78,
+    "ppc": 79,
     "facebook": 157,
     "ppc_inbound_call": 17
   },
@@ -2331,9 +2335,9 @@
       "source": "Facebook"
     },
     {
-      "name": "1685 Esprit Ct SW",
-      "address": "1685 Esprit Ct SW, Atlanta, GA 30331, USA",
-      "phone": "(404) 375-4165",
+      "name": "666 Denton Blvd NW",
+      "address": "666 Denton Blvd NW, Fort Walton Beach, FL 32547, USA",
+      "phone": "(850) 621-7214",
       "source": "Facebook"
     }
   ],

@@ -1,13 +1,13 @@
 {
   "report_date": "September 29, 2026",
-  "last_updated": "2026-09-29 15:32 EST",
+  "last_updated": "2026-09-29 16:37 EST",
   "google": {
-    "spend_mtd": 14725.16,
-    "clicks_mtd": 754,
+    "spend_mtd": 14737.06,
+    "clicks_mtd": 755,
     "crm_leads": 83,
     "crm_leads_today": 0,
-    "cpc": 19.53,
-    "cpl": 177.41,
+    "cpc": 19.52,
+    "cpl": 177.55,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,65 +20,66 @@
         "clicks": 447,
         "cpc": 2.75,
         "crm_leads": 0,
-        "cpl": 177.41
+        "cpl": 177.55
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13494.31,
-        "spend_today": 348.7,
-        "clicks": 307,
-        "cpc": 43.96,
+        "spend": 13506.21,
+        "spend_today": 360.6,
+        "clicks": 308,
+        "cpc": 43.85,
         "crm_leads": 0,
-        "cpl": 177.41
+        "cpl": 177.55
       }
     ]
   },
   "meta": {
-    "spend_30d": 10511.92,
-    "clicks_30d": 3134,
+    "spend_30d": 10526.22,
+    "clicks_30d": 3137,
     "crm_leads": 166,
     "crm_leads_today": 5,
-    "cpc": 3.35,
-    "cpl_crm": 63.32,
-    "cost_per_hot": 1313.99,
+    "cpc": 3.36,
+    "cpl_crm": 63.41,
+    "cost_per_hot": 1315.78,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7310.65,
-        "spend_today": 97.43,
-        "clicks": 2203,
+        "spend": 7321.97,
+        "spend_today": 108.75,
+        "clicks": 2206,
         "crm_leads": 166,
-        "cpl_crm": 44.04
+        "cpl_crm": 44.11
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 3059.48,
-        "spend_today": 32.96,
+        "spend": 3060.85,
+        "spend_today": 34.33,
         "clicks": 881,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT | Ultra | TEST $25 | new creatives | 24 Sep 2026",
-        "spend": 141.79,
-        "spend_today": 13.5,
+        "spend": 143.4,
+        "spend_today": 15.11,
         "clicks": 50,
         "crm_leads": 0,
         "cpl_crm": null
       }
     ]
   },
-  "potential_income": 284905,
-  "assigned_income": 107261,
+  "potential_income": 265070,
+  "assigned_income": 125096,
   "by_stage": {
     "Access Scheduled": 93255,
     "Initial Inspection Completed": 90800,
-    "Market Prep / Pre-Listing Marketing": 69690,
+    "Market Prep / Pre-Listing Marketing": 49855,
     "New Deal - Unscheduled": 31160
   },
   "by_agent": {
     "Georgia": 55220,
     "Virginia": 41700,
+    "Maryland": 17835,
     "South Carolina": 10341
   },
   "closed_by_month": {
@@ -136,7 +137,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 55220.37,
-      "spend": 25236.629999999997
+      "spend": 25262.69
     }
   },
   "reps_by_month": {
@@ -323,7 +324,7 @@
     "2026-07": {
       "Charles": {
         "leads": 46,
-        "active": 53,
+        "active": 52,
         "booked": 48,
         "offers": 44,
         "accepted": 9,
@@ -384,7 +385,7 @@
       "Charles": {
         "leads": 50,
         "active": 60,
-        "booked": 37,
+        "booked": 38,
         "offers": 57,
         "accepted": 6,
         "available": 1,
@@ -512,13 +513,13 @@
         },
         "2026-09": {
           "counts": {
-            "available": 8,
-            "pending": 1,
+            "available": 7,
+            "pending": 2,
             "dead": 2
           },
           "gp": {
-            "available": 220255,
-            "pending": 55220,
+            "available": 200420,
+            "pending": 73055,
             "dead": 51911
           },
           "total": 11
@@ -526,16 +527,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 9,
-          "pending": 4,
+          "available": 8,
+          "pending": 5,
           "dead": 41,
           "on_hold": 3,
           "other": 1,
           "closed": 20
         },
         "gp": {
-          "available": 220255,
-          "pending": 86261,
+          "available": 200420,
+          "pending": 104096,
           "dead": 988316,
           "on_hold": 113738,
           "other": 60000,
@@ -545,8 +546,8 @@
       },
       "channel_counts": {
         "ppc": {
-          "available": 4,
-          "pending": 2,
+          "available": 3,
+          "pending": 3,
           "on_hold": 1,
           "dead": 5,
           "closed": 5
@@ -570,8 +571,8 @@
       "by_month_channel_counts": {
         "2026-09": {
           "ppc": {
-            "available": 4,
-            "pending": 1
+            "available": 3,
+            "pending": 2
           },
           "fb": {
             "available": 3,
@@ -741,8 +742,8 @@
         },
         {
           "address": "1207 N Curley St, Baltimore, MD 21213, USA",
-          "value": 19835,
-          "status": "Available",
+          "value": 17835,
+          "status": "Sent to Title",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -1080,13 +1081,13 @@
     }
   },
   "pipeline_contracts": {
-    "available": 13,
-    "pending": 6,
+    "available": 12,
+    "pending": 7,
     "on_hold": 3,
     "closed": 37,
     "dead": 76,
-    "gp_available": 284905,
-    "gp_pending": 107261,
+    "gp_available": 265070,
+    "gp_pending": 125096,
     "gp_on_hold": 113738,
     "gp_closed": 838891,
     "gp_dead": 1779412
@@ -1100,7 +1101,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 25237.08
+    "2026-09": 25263.28
   },
   "channel_by_month": {
     "2026-01": {
@@ -1706,7 +1707,7 @@
       },
       "pipeline_fb": {
         "leads": 185,
-        "active": 110,
+        "active": 109,
         "booked": 98,
         "offered": 86,
         "accepted": 9,
@@ -1722,7 +1723,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 39,
+            "count": 38,
             "color": "#FFD5C2"
           },
           "Wrong Number": {
@@ -1737,6 +1738,10 @@
             "count": 10,
             "color": "#F3F3F3"
           },
+          "Listed": {
+            "count": 9,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 9,
             "color": "#D1F3EC"
@@ -1744,10 +1749,6 @@
           "Under Contract": {
             "count": 8,
             "color": "#DCEBD8"
-          },
-          "Listed": {
-            "count": 8,
-            "color": "#C8C8C8"
           },
           "Sold": {
             "count": 5,
@@ -1840,7 +1841,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 87,
+            "count": 88,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1860,7 +1861,7 @@
             "color": "#F3F3F3"
           },
           "Listed": {
-            "count": 14,
+            "count": 13,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -1883,27 +1884,27 @@
       }
     },
     "2026-09": {
-      "google_spend": 14725.16,
-      "meta_spend": 10511.92,
+      "google_spend": 14737.06,
+      "meta_spend": 10526.22,
       "ppc_leads": 83,
       "fb_leads": 166,
-      "google_cpc": 19.53,
-      "meta_cpc": 3.35,
+      "google_cpc": 19.52,
+      "meta_cpc": 3.36,
       "pipeline_ppc": {
         "leads": 83,
         "active": 54,
-        "booked": 36,
-        "offered": 31,
+        "booked": 37,
+        "offered": 32,
         "accepted": 8,
         "under_contract": 8,
-        "contract_available": 6,
-        "contract_pending": 1,
+        "contract_available": 5,
+        "contract_pending": 2,
         "contract_closed": 0,
         "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 20,
+            "count": 22,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1911,7 +1912,7 @@
             "color": "#FFD5C2"
           },
           "Listed": {
-            "count": 11,
+            "count": 10,
             "color": "#C8C8C8"
           },
           "Owes too Much": {
@@ -1926,10 +1927,6 @@
             "count": 5,
             "color": "#F3F3F3"
           },
-          "Warm": {
-            "count": 5,
-            "color": "#F7F0C5"
-          },
           "Under Contract": {
             "count": 4,
             "color": "#DCEBD8"
@@ -1937,6 +1934,10 @@
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
           },
           "Not Workable": {
             "count": 1,
@@ -2009,8 +2010,8 @@
     "new_leads_30d": 249,
     "dispositioned_mtd": 122,
     "hot": 10,
-    "booked": 93,
-    "offers": 83,
+    "booked": 94,
+    "offers": 84,
     "under_contract": 6,
     "closed": 0
   },
@@ -2076,18 +2077,18 @@
   "pipeline_ppc": {
     "leads": 83,
     "active": 54,
-    "booked": 36,
-    "offered": 31,
+    "booked": 37,
+    "offered": 32,
     "accepted": 34,
     "under_contract": 34,
-    "contract_available": 6,
-    "contract_pending": 3,
+    "contract_available": 5,
+    "contract_pending": 4,
     "contract_closed": 10,
     "contract_dead": 15,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 20,
+        "count": 22,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
@@ -2095,7 +2096,7 @@
         "color": "#FFD5C2"
       },
       "Listed": {
-        "count": 11,
+        "count": 10,
         "color": "#C8C8C8"
       },
       "Owes too Much": {
@@ -2110,10 +2111,6 @@
         "count": 5,
         "color": "#F3F3F3"
       },
-      "Warm": {
-        "count": 5,
-        "color": "#F7F0C5"
-      },
       "Under Contract": {
         "count": 4,
         "color": "#DCEBD8"
@@ -2121,6 +2118,10 @@
       "Wrong Number": {
         "count": 4,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
       },
       "Not Workable": {
         "count": 1,
@@ -2143,7 +2144,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 306516,
+    "Julian": 304516,
     "Charles": 85650
   },
   "agent_deals": [
@@ -2229,8 +2230,8 @@
     },
     {
       "address": "1207 N Curley St, Baltimore, MD 21213, USA",
-      "value": 19835,
-      "status": "Available",
+      "value": 17835,
+      "status": "Sent to Title",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,

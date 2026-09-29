@@ -1,13 +1,13 @@
 {
   "report_date": "September 29, 2026",
-  "last_updated": "2026-09-29 13:21 EST",
+  "last_updated": "2026-09-29 14:27 EST",
   "google": {
-    "spend_mtd": 14636.31,
-    "clicks_mtd": 751,
+    "spend_mtd": 14810.86,
+    "clicks_mtd": 756,
     "crm_leads": 83,
     "crm_leads_today": 0,
-    "cpc": 19.49,
-    "cpl": 176.34,
+    "cpc": 19.59,
+    "cpl": 178.44,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,48 +20,48 @@
         "clicks": 447,
         "cpc": 2.75,
         "crm_leads": 0,
-        "cpl": 176.34
+        "cpl": 178.44
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13405.46,
-        "spend_today": 259.85,
-        "clicks": 304,
-        "cpc": 44.1,
+        "spend": 13580.01,
+        "spend_today": 434.4,
+        "clicks": 309,
+        "cpc": 43.95,
         "crm_leads": 0,
-        "cpl": 176.34
+        "cpl": 178.44
       }
     ]
   },
   "meta": {
-    "spend_30d": 10471.91,
-    "clicks_30d": 3122,
+    "spend_30d": 10487.4,
+    "clicks_30d": 3129,
     "crm_leads": 166,
     "crm_leads_today": 5,
     "cpc": 3.35,
-    "cpl_crm": 63.08,
-    "cost_per_hot": 1308.99,
+    "cpl_crm": 63.18,
+    "cost_per_hot": 1310.92,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
-        "spend": 7281.46,
-        "spend_today": 68.25,
-        "clicks": 2193,
+        "spend": 7292.8,
+        "spend_today": 79.58,
+        "clicks": 2199,
         "crm_leads": 166,
-        "cpl_crm": 43.86
+        "cpl_crm": 43.93
       },
       {
         "name": "REIT\u00ae | UGC Vids  |HV | 3 Sep 2026",
-        "spend": 3051.84,
-        "spend_today": 25.32,
-        "clicks": 880,
+        "spend": 3054.99,
+        "spend_today": 28.47,
+        "clicks": 881,
         "crm_leads": 0,
         "cpl_crm": null
       },
       {
         "name": "REIT | Ultra | TEST $25 | new creatives | 24 Sep 2026",
-        "spend": 138.61,
-        "spend_today": 10.32,
+        "spend": 139.61,
+        "spend_today": 11.32,
         "clicks": 49,
         "crm_leads": 0,
         "cpl_crm": null
@@ -136,7 +136,7 @@
     "2026-09": {
       "closed": 0.0,
       "pending": 55220.37,
-      "spend": 25108.08
+      "spend": 25297.39
     }
   },
   "reps_by_month": {
@@ -339,7 +339,7 @@
         "leads": 77,
         "active": 82,
         "booked": 74,
-        "offers": 61,
+        "offers": 60,
         "accepted": 8,
         "available": 1,
         "pending": 1,
@@ -383,7 +383,7 @@
     "2026-09": {
       "Charles": {
         "leads": 49,
-        "active": 59,
+        "active": 60,
         "booked": 37,
         "offers": 55,
         "accepted": 6,
@@ -399,7 +399,7 @@
         "leads": 70,
         "active": 76,
         "booked": 57,
-        "offers": 75,
+        "offers": 76,
         "accepted": 10,
         "available": 3,
         "pending": 1,
@@ -1017,8 +1017,8 @@
           "address": "5209 Chestnut Ln, Pinson, AL 35126, USA",
           "value": 18600,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -1091,7 +1091,7 @@
     "2026-06": 16399.44,
     "2026-07": 21857.71,
     "2026-08": 23086.12,
-    "2026-09": 25108.22
+    "2026-09": 25298.26
   },
   "channel_by_month": {
     "2026-01": {
@@ -1649,13 +1649,13 @@
         "contract_dead": 1,
         "closed": 3,
         "status_breakdown": {
+          "Cold": {
+            "count": 14,
+            "color": "#D2E4EB"
+          },
           "Need to Contact": {
             "count": 14,
             "color": "#FFD5C2"
-          },
-          "Cold": {
-            "count": 13,
-            "color": "#D2E4EB"
           },
           "Owes too Much": {
             "count": 7,
@@ -1684,10 +1684,6 @@
           "No Longer Selling": {
             "count": 2,
             "color": "#F3F3F3"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
           },
           "Not Workable": {
             "count": 1,
@@ -1878,11 +1874,11 @@
       }
     },
     "2026-09": {
-      "google_spend": 14636.31,
-      "meta_spend": 10471.91,
+      "google_spend": 14810.86,
+      "meta_spend": 10487.4,
       "ppc_leads": 83,
       "fb_leads": 166,
-      "google_cpc": 19.49,
+      "google_cpc": 19.59,
       "meta_cpc": 3.35,
       "pipeline_ppc": {
         "leads": 83,
@@ -1913,17 +1909,17 @@
             "count": 10,
             "color": "#D1F3EC"
           },
-          "Warm": {
-            "count": 6,
-            "color": "#F7F0C5"
-          },
           "Hot": {
-            "count": 6,
+            "count": 7,
             "color": "#F7D1D0"
           },
           "Dead": {
             "count": 5,
             "color": "#F3F3F3"
+          },
+          "Warm": {
+            "count": 5,
+            "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 4,
@@ -1953,11 +1949,11 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 69,
+            "count": 71,
             "color": "#FFD5C2"
           },
           "Cold": {
-            "count": 51,
+            "count": 49,
             "color": "#D2E4EB"
           },
           "Owes too Much": {
@@ -2023,11 +2019,11 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 69,
+        "count": 71,
         "color": "#FFD5C2"
       },
       "Cold": {
-        "count": 51,
+        "count": 49,
         "color": "#D2E4EB"
       },
       "Owes too Much": {
@@ -2097,17 +2093,17 @@
         "count": 10,
         "color": "#D1F3EC"
       },
-      "Warm": {
-        "count": 6,
-        "color": "#F7F0C5"
-      },
       "Hot": {
-        "count": 6,
+        "count": 7,
         "color": "#F7D1D0"
       },
       "Dead": {
         "count": 5,
         "color": "#F3F3F3"
+      },
+      "Warm": {
+        "count": 5,
+        "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 4,
@@ -2132,7 +2128,7 @@
     },
     "Julian": {
       "discoveries": 70,
-      "offers": 75,
+      "offers": 76,
       "contracts": 10,
       "revenue": 7070.24
     }
@@ -2266,8 +2262,8 @@
       "address": "5209 Chestnut Ln, Pinson, AL 35126, USA",
       "value": 18600,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Charles"

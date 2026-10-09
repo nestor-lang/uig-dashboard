@@ -1,13 +1,13 @@
 {
   "report_date": "October 09, 2026",
-  "last_updated": "2026-10-09 18:02 EST",
+  "last_updated": "2026-10-09 19:02 EST",
   "google": {
-    "spend_mtd": 5441.46,
+    "spend_mtd": 5487.24,
     "clicks_mtd": 260,
     "crm_leads": 22,
     "crm_leads_today": 1,
-    "cpc": 20.93,
-    "cpl": 247.34,
+    "cpc": 21.1,
+    "cpl": 249.42,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 419.38,
-        "spend_today": 56.5,
-        "clicks": 163,
-        "cpc": 2.57,
+        "spend": 418.99,
+        "spend_today": 56.1,
+        "clicks": 160,
+        "cpc": 2.62,
         "crm_leads": 0,
-        "cpl": 247.34
+        "cpl": 249.42
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 5022.08,
-        "spend_today": 182.12,
-        "clicks": 97,
-        "cpc": 51.77,
+        "spend": 5068.26,
+        "spend_today": 228.3,
+        "clicks": 100,
+        "cpc": 50.68,
         "crm_leads": 0,
-        "cpl": 247.34
+        "cpl": 249.42
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6713.63
+      "spend": 6759.9800000000005
     }
   },
   "reps_by_month": {
@@ -1139,7 +1139,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 6713.63
+    "2026-10": 6759.41
   },
   "channel_by_month": {
     "2026-01": {
@@ -2056,11 +2056,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 5441.46,
+      "google_spend": 5487.24,
       "meta_spend": 1272.17,
       "ppc_leads": 22,
       "fb_leads": 26,
-      "google_cpc": 20.93,
+      "google_cpc": 21.1,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 22,

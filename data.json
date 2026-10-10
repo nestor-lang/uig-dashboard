@@ -1,13 +1,13 @@
 {
   "report_date": "October 09, 2026",
-  "last_updated": "2026-10-09 19:02 EST",
+  "last_updated": "2026-10-09 20:02 EST",
   "google": {
-    "spend_mtd": 5487.24,
+    "spend_mtd": 5487.82,
     "clicks_mtd": 260,
     "crm_leads": 22,
     "crm_leads_today": 1,
-    "cpc": 21.1,
-    "cpl": 249.42,
+    "cpc": 21.11,
+    "cpl": 249.45,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 418.99,
-        "spend_today": 56.1,
+        "spend": 419.56,
+        "spend_today": 56.68,
         "clicks": 160,
         "cpc": 2.62,
         "crm_leads": 0,
-        "cpl": 249.42
+        "cpl": 249.45
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 100,
         "cpc": 50.68,
         "crm_leads": 0,
-        "cpl": 249.42
+        "cpl": 249.45
       }
     ]
   },
@@ -71,9 +71,10 @@
   "potential_income": 240226,
   "assigned_income": 128729,
   "by_stage": {
-    "Initial Inspection Completed": 95989,
-    "Market Prep / Pre-Listing Marketing": 74237,
+    "Initial Inspection Completed": 65989,
+    "On Market": 54940,
     "Access Scheduled": 50000,
+    "Market Prep / Pre-Listing Marketing": 49297,
     "New Deal - Unscheduled": 20000
   },
   "by_agent": {
@@ -143,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 6759.9800000000005
+      "spend": 6759.99
     }
   },
   "reps_by_month": {
@@ -209,7 +210,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 11,
         "booked": 15,
         "offers": 25,
@@ -220,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +235,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 49,
         "booked": 45,
         "offers": 35,
@@ -250,10 +251,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 61,
         "booked": 58,
         "offers": 43,
@@ -264,7 +265,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -763,7 +764,7 @@
           "address": "2425 Denison St, Baltimore, MD 21216, USA",
           "value": 24940,
           "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
@@ -1082,8 +1083,8 @@
           "address": "3022 Rittenhouse Cir, Fairfax, VA 22031, USA",
           "value": 30000,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1139,7 +1140,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 6759.41
+    "2026-10": 6759.99
   },
   "channel_by_month": {
     "2026-01": {
@@ -2056,11 +2057,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 5487.24,
+      "google_spend": 5487.82,
       "meta_spend": 1272.17,
       "ppc_leads": 22,
       "fb_leads": 26,
-      "google_cpc": 21.1,
+      "google_cpc": 21.11,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 22,
@@ -2326,7 +2327,7 @@
       "address": "2425 Denison St, Baltimore, MD 21216, USA",
       "value": 24940,
       "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
@@ -2396,8 +2397,8 @@
       "address": "3022 Rittenhouse Cir, Fairfax, VA 22031, USA",
       "value": 30000,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"

@@ -1,13 +1,13 @@
 {
   "report_date": "October 10, 2026",
-  "last_updated": "2026-10-10 18:17 EST",
+  "last_updated": "2026-10-10 19:22 EST",
   "google": {
-    "spend_mtd": 5923.09,
-    "clicks_mtd": 299,
-    "crm_leads": 24,
-    "crm_leads_today": 2,
-    "cpc": 19.81,
-    "cpl": 246.8,
+    "spend_mtd": 5933.1,
+    "clicks_mtd": 309,
+    "crm_leads": 26,
+    "crm_leads_today": 4,
+    "cpc": 19.2,
+    "cpl": 228.2,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 467.3,
-        "spend_today": 38.88,
-        "clicks": 189,
-        "cpc": 2.47,
+        "spend": 477.31,
+        "spend_today": 48.89,
+        "clicks": 199,
+        "cpc": 2.4,
         "crm_leads": 0,
-        "cpl": 246.8
+        "cpl": 228.2
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 110,
         "cpc": 49.6,
         "crm_leads": 0,
-        "cpl": 246.8
+        "cpl": 228.2
       }
     ]
   },
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7193.64
+      "spend": 7205.27
     }
   },
   "reps_by_month": {
@@ -1149,7 +1149,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 7195.26
+    "2026-10": 7205.27
   },
   "channel_by_month": {
     "2026-01": {
@@ -2066,15 +2066,15 @@
       }
     },
     "2026-10": {
-      "google_spend": 5923.09,
+      "google_spend": 5933.1,
       "meta_spend": 1272.17,
-      "ppc_leads": 24,
+      "ppc_leads": 26,
       "fb_leads": 26,
-      "google_cpc": 19.81,
+      "google_cpc": 19.2,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
-        "leads": 24,
-        "active": 17,
+        "leads": 26,
+        "active": 19,
         "booked": 13,
         "offered": 11,
         "accepted": 5,
@@ -2089,13 +2089,13 @@
             "count": 7,
             "color": "#D2E4EB"
           },
+          "Need to Contact": {
+            "count": 5,
+            "color": "#FFD5C2"
+          },
           "Owes too Much": {
             "count": 5,
             "color": "#D1F3EC"
-          },
-          "Need to Contact": {
-            "count": 3,
-            "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 3,
@@ -2165,7 +2165,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 50,
+    "new_leads_30d": 52,
     "dispositioned_mtd": 40,
     "hot": 10,
     "booked": 24,
@@ -2217,8 +2217,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 24,
-    "active": 17,
+    "leads": 26,
+    "active": 19,
     "booked": 13,
     "offered": 11,
     "accepted": 37,
@@ -2233,13 +2233,13 @@
         "count": 7,
         "color": "#D2E4EB"
       },
+      "Need to Contact": {
+        "count": 5,
+        "color": "#FFD5C2"
+      },
       "Owes too Much": {
         "count": 5,
         "color": "#D1F3EC"
-      },
-      "Need to Contact": {
-        "count": 3,
-        "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 3,
@@ -2454,7 +2454,7 @@
     }
   ],
   "sources": {
-    "ppc": 24,
+    "ppc": 26,
     "facebook": 26,
     "ppc_inbound_call": 24
   },

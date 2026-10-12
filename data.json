@@ -1,13 +1,13 @@
 {
   "report_date": "October 12, 2026",
-  "last_updated": "2026-10-12 08:12 EST",
+  "last_updated": "2026-10-12 09:17 EST",
   "google": {
-    "spend_mtd": 6715.71,
-    "clicks_mtd": 351,
-    "crm_leads": 26,
-    "crm_leads_today": 1,
-    "cpc": 19.13,
-    "cpl": 258.3,
+    "spend_mtd": 6806.31,
+    "clicks_mtd": 353,
+    "crm_leads": 27,
+    "crm_leads_today": 2,
+    "cpc": 19.28,
+    "cpl": 252.09,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 576.51,
-        "spend_today": 12.68,
-        "clicks": 226,
-        "cpc": 2.55,
+        "spend": 596.51,
+        "spend_today": 32.68,
+        "clicks": 227,
+        "cpc": 2.63,
         "crm_leads": 0,
-        "cpl": 258.3
+        "cpl": 252.09
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6139.2,
-        "spend_today": 54.41,
-        "clicks": 125,
-        "cpc": 49.11,
+        "spend": 6209.8,
+        "spend_today": 125.01,
+        "clicks": 126,
+        "cpc": 49.28,
         "crm_leads": 0,
-        "cpl": 258.3
+        "cpl": 252.09
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": 220226,
+  "potential_income": 220017,
   "assigned_income": 128729,
   "by_stage": {
     "Initial Inspection Completed": 65989,
     "On Market": 54940,
     "Access Scheduled": 50000,
     "Market Prep / Pre-Listing Marketing": 49297,
-    "New Deal - Unscheduled": 0
+    "New Deal - Unscheduled": -209
   },
   "by_agent": {
     "Georgia": 90135,
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7987.88
+      "spend": 8078.4800000000005
     }
   },
   "reps_by_month": {
@@ -564,7 +564,7 @@
             "available": 3
           },
           "gp": {
-            "available": 84830
+            "available": 84621
           },
           "total": 3
         }
@@ -579,7 +579,7 @@
           "closed": 21
         },
         "gp": {
-          "available": 164816,
+          "available": 164607,
           "dead": 1034466,
           "pending": 117729,
           "on_hold": 128738,
@@ -717,7 +717,7 @@
       "deals": [
         {
           "address": "915 Paul St, Martinsville, VA 24112, USA",
-          "value": 20000,
+          "value": 19791,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -1133,7 +1133,7 @@
     "on_hold": 5,
     "closed": 39,
     "dead": 80,
-    "gp_available": 199816,
+    "gp_available": 199607,
     "gp_pending": 128729,
     "gp_on_hold": 148649,
     "gp_closed": 854591,
@@ -1149,7 +1149,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 7987.88
+    "2026-10": 8078.48
   },
   "channel_by_month": {
     "2026-01": {
@@ -1897,7 +1897,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 85,
+            "count": 84,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1905,7 +1905,7 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 20,
+            "count": 21,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1976,16 +1976,16 @@
             "color": "#FFD5C2"
           },
           "Listed": {
-            "count": 10,
+            "count": 9,
             "color": "#C8C8C8"
+          },
+          "Dead": {
+            "count": 8,
+            "color": "#F3F3F3"
           },
           "Under Contract": {
             "count": 7,
             "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 7,
-            "color": "#F3F3F3"
           },
           "Wrong Number": {
             "count": 4,
@@ -2066,15 +2066,15 @@
       }
     },
     "2026-10": {
-      "google_spend": 6715.71,
+      "google_spend": 6806.31,
       "meta_spend": 1272.17,
-      "ppc_leads": 26,
+      "ppc_leads": 27,
       "fb_leads": 26,
-      "google_cpc": 19.13,
+      "google_cpc": 19.28,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
-        "leads": 26,
-        "active": 19,
+        "leads": 27,
+        "active": 20,
         "booked": 13,
         "offered": 11,
         "accepted": 5,
@@ -2090,7 +2090,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 5,
+            "count": 6,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -2165,7 +2165,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 52,
+    "new_leads_30d": 53,
     "dispositioned_mtd": 40,
     "hot": 10,
     "booked": 24,
@@ -2217,8 +2217,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 26,
-    "active": 19,
+    "leads": 27,
+    "active": 20,
     "booked": 13,
     "offered": 11,
     "accepted": 37,
@@ -2234,7 +2234,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 5,
+        "count": 6,
         "color": "#FFD5C2"
       },
       "Owes too Much": {
@@ -2278,13 +2278,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 282544,
+    "Julian": 282335,
     "Charles": 46000
   },
   "agent_deals": [
     {
       "address": "915 Paul St, Martinsville, VA 24112, USA",
-      "value": 20000,
+      "value": 19791,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -2454,9 +2454,9 @@
     }
   ],
   "sources": {
-    "ppc": 26,
+    "ppc": 27,
     "facebook": 26,
-    "ppc_inbound_call": 22
+    "ppc_inbound_call": 23
   },
   "hot_leads": [
     {

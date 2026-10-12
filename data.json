@@ -1,13 +1,13 @@
 {
   "report_date": "October 12, 2026",
-  "last_updated": "2026-10-12 11:27 EST",
+  "last_updated": "2026-10-12 12:32 EST",
   "google": {
-    "spend_mtd": 6813.54,
+    "spend_mtd": 6815.22,
     "clicks_mtd": 355,
     "crm_leads": 27,
     "crm_leads_today": 2,
-    "cpc": 19.19,
-    "cpl": 252.35,
+    "cpc": 19.2,
+    "cpl": 252.42,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 603.74,
+        "spend": 602.94,
         "spend_today": 40.08,
-        "clicks": 229,
+        "clicks": 228,
         "cpc": 2.64,
         "crm_leads": 0,
-        "cpl": 252.35
+        "cpl": 252.42
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6209.8,
-        "spend_today": 125.01,
-        "clicks": 126,
-        "cpc": 49.28,
+        "spend": 6212.28,
+        "spend_today": 127.49,
+        "clicks": 127,
+        "cpc": 48.92,
         "crm_leads": 0,
-        "cpl": 252.35
+        "cpl": 252.42
       }
     ]
   },
@@ -69,7 +69,7 @@
     ]
   },
   "potential_income": 180187,
-  "assigned_income": 128729,
+  "assigned_income": 113729,
   "by_stage": {
     "On Market": 54940,
     "Access Scheduled": 50000,
@@ -78,7 +78,7 @@
     "New Deal - Unscheduled": -209
   },
   "by_agent": {
-    "Georgia": 90135,
+    "Georgia": 75135,
     "Maryland": 17835,
     "Virginia": 11000,
     "South Carolina": 9758
@@ -138,13 +138,13 @@
     },
     "2026-09": {
       "closed": 0.0,
-      "pending": 55220.37,
+      "pending": 40220.37,
       "spend": 26439.260000000002
     },
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8085.71
+      "spend": 8087.39
     }
   },
   "reps_by_month": {
@@ -391,7 +391,7 @@
     "2026-09": {
       "Charles": {
         "leads": 51,
-        "active": 59,
+        "active": 61,
         "booked": 42,
         "offers": 57,
         "accepted": 7,
@@ -405,7 +405,7 @@
       },
       "Julian": {
         "leads": 74,
-        "active": 77,
+        "active": 79,
         "booked": 62,
         "offers": 81,
         "accepted": 11,
@@ -413,7 +413,7 @@
         "pending": 1,
         "dead": 2,
         "closed": 0,
-        "pending_income": 55220.37,
+        "pending_income": 40220.37,
         "closed_revenue": 7070.24,
         "discoveries": 74
       }
@@ -555,7 +555,7 @@
           "gp": {
             "available": 79986,
             "dead": 98061,
-            "pending": 107970
+            "pending": 92970
           },
           "total": 11
         },
@@ -584,7 +584,7 @@
           "available": 124777,
           "on_hold": 168568,
           "dead": 1034466,
-          "pending": 117729,
+          "pending": 102729,
           "other": 60000,
           "closed": 345661
         },
@@ -783,7 +783,7 @@
         },
         {
           "address": "12231 Players Ct, Fayetteville, GA 30215, USA",
-          "value": 55220,
+          "value": 40220,
           "status": "Sent to Title",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -1128,7 +1128,7 @@
     "closed": 39,
     "dead": 80,
     "gp_available": 159777,
-    "gp_pending": 128729,
+    "gp_pending": 113729,
     "gp_on_hold": 188479,
     "gp_closed": 854591,
     "gp_dead": 1833142
@@ -1143,7 +1143,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 8085.71
+    "2026-10": 8087.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -1824,11 +1824,11 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 18,
+            "count": 19,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 15,
+            "count": 14,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -1946,7 +1946,7 @@
       "meta_cpc": 3.33,
       "pipeline_ppc": {
         "leads": 82,
-        "active": 48,
+        "active": 47,
         "booked": 39,
         "offered": 37,
         "accepted": 7,
@@ -2013,11 +2013,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 64,
+            "count": 69,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 63,
+            "count": 58,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -2060,11 +2060,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 6813.54,
+      "google_spend": 6815.22,
       "meta_spend": 1272.17,
       "ppc_leads": 27,
       "fb_leads": 26,
-      "google_cpc": 19.19,
+      "google_cpc": 19.2,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 27,
@@ -2272,7 +2272,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 242505,
+    "Julian": 227505,
     "Charles": 46000
   },
   "agent_deals": [
@@ -2348,7 +2348,7 @@
     },
     {
       "address": "12231 Players Ct, Fayetteville, GA 30215, USA",
-      "value": 55220,
+      "value": 40220,
       "status": "Sent to Title",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

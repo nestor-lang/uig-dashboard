@@ -1,13 +1,13 @@
 {
   "report_date": "October 12, 2026",
-  "last_updated": "2026-10-12 18:02 EST",
+  "last_updated": "2026-10-12 19:02 EST",
   "google": {
-    "spend_mtd": 7273.16,
+    "spend_mtd": 7395.11,
     "clicks_mtd": 371,
     "crm_leads": 28,
     "crm_leads_today": 3,
-    "cpc": 19.6,
-    "cpl": 259.76,
+    "cpc": 19.93,
+    "cpl": 264.11,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 234,
         "cpc": 2.71,
         "crm_leads": 0,
-        "cpl": 259.76
+        "cpl": 264.11
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6639.28,
-        "spend_today": 554.49,
+        "spend": 6761.22,
+        "spend_today": 676.44,
         "clicks": 137,
-        "cpc": 48.46,
+        "cpc": 49.35,
         "crm_leads": 0,
-        "cpl": 259.76
+        "cpl": 264.11
       }
     ]
   },
@@ -40,7 +40,7 @@
     "crm_leads_today": 0,
     "cpc": 3.49,
     "cpl_crm": 48.93,
-    "cost_per_hot": 318.04,
+    "cost_per_hot": 254.43,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8514.310000000001
+      "spend": 8667.279999999999
     }
   },
   "reps_by_month": {
@@ -210,7 +210,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 11,
         "booked": 15,
         "offers": 25,
@@ -221,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -235,12 +235,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 44,
         "offers": 35,
@@ -251,10 +251,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -265,7 +265,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -437,7 +437,7 @@
         "leads": 23,
         "active": 16,
         "booked": 12,
-        "offers": 23,
+        "offers": 24,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -1143,7 +1143,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 8545.33
+    "2026-10": 8667.28
   },
   "channel_by_month": {
     "2026-01": {
@@ -1395,7 +1395,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 23,
+            "count": 22,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1429,6 +1429,10 @@
           "Under Contract": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           }
         }
       }
@@ -2052,11 +2056,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 7273.16,
+      "google_spend": 7395.11,
       "meta_spend": 1272.17,
       "ppc_leads": 28,
       "fb_leads": 26,
-      "google_cpc": 19.6,
+      "google_cpc": 19.93,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 28,
@@ -2153,7 +2157,7 @@
   "pipeline": {
     "new_leads_30d": 54,
     "dispositioned_mtd": 41,
-    "hot": 6,
+    "hot": 7,
     "booked": 25,
     "offers": 23,
     "under_contract": 2,
@@ -2258,7 +2262,7 @@
     },
     "Julian": {
       "discoveries": 23,
-      "offers": 23,
+      "offers": 24,
       "contracts": 3,
       "revenue": 5700.0
     }
@@ -2460,10 +2464,10 @@
       "source": "Facebook"
     },
     {
-      "name": "100 Chelle Mill Ln",
-      "address": "100 Chelle Mill Ln, Hazel Green, AL 35750, USA",
-      "phone": "(334) 750-0074",
-      "source": "PPC"
+      "name": "335 Howell Dr SW",
+      "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
+      "phone": "(404) 437-8166",
+      "source": "Facebook"
     }
   ],
   "sms_status": "SMS data via Podio."

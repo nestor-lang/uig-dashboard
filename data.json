@@ -1,6 +1,6 @@
 {
   "report_date": "October 12, 2026",
-  "last_updated": "2026-10-12 19:02 EST",
+  "last_updated": "2026-10-12 20:02 EST",
   "google": {
     "spend_mtd": 7395.11,
     "clicks_mtd": 371,
@@ -72,9 +72,9 @@
   "assigned_income": 113729,
   "by_stage": {
     "On Market": 54940,
-    "Access Scheduled": 50000,
+    "Initial Inspection Completed": 51159,
     "Market Prep / Pre-Listing Marketing": 49297,
-    "Initial Inspection Completed": 26159,
+    "Access Scheduled": 25000,
     "New Deal - Unscheduled": -209
   },
   "by_agent": {
@@ -731,8 +731,8 @@
           "address": "308 Canal St, Fredericksburg, VA 22401, USA",
           "value": 25000,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1895,7 +1895,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 50,
+            "count": 49,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1922,13 +1922,13 @@
             "count": 6,
             "color": "#F3F3F3"
           },
+          "Sold": {
+            "count": 3,
+            "color": "#C8C8C8"
+          },
           "Not Workable": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 2,
-            "color": "#C8C8C8"
           },
           "Warm": {
             "count": 1,
@@ -2286,8 +2286,8 @@
       "address": "308 Canal St, Fredericksburg, VA 22401, USA",
       "value": 25000,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Julian"

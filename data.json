@@ -1,13 +1,13 @@
 {
   "report_date": "October 13, 2026",
-  "last_updated": "2026-10-13 10:02 EST",
+  "last_updated": "2026-10-13 11:02 EST",
   "google": {
-    "spend_mtd": 7650.56,
-    "clicks_mtd": 381,
+    "spend_mtd": 7670.56,
+    "clicks_mtd": 382,
     "crm_leads": 28,
     "crm_leads_today": 0,
     "cpc": 20.08,
-    "cpl": 273.23,
+    "cpl": 273.95,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 646.49,
-        "spend_today": 12.61,
-        "clicks": 240,
-        "cpc": 2.69,
+        "spend": 666.49,
+        "spend_today": 32.61,
+        "clicks": 241,
+        "cpc": 2.77,
         "crm_leads": 0,
-        "cpl": 273.23
+        "cpl": 273.95
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 141,
         "cpc": 49.67,
         "crm_leads": 0,
-        "cpl": 273.23
+        "cpl": 273.95
       }
     ]
   },
@@ -68,14 +68,15 @@
       }
     ]
   },
-  "potential_income": 255187,
+  "potential_income": 224983,
   "assigned_income": 113729,
   "by_stage": {
-    "New Deal - Unscheduled": 74791,
-    "On Market": 54940,
+    "Unknown": 54797,
     "Initial Inspection Completed": 51159,
     "Market Prep / Pre-Listing Marketing": 49297,
-    "Access Scheduled": 25000
+    "Access Scheduled": 25000,
+    "On Market": 24940,
+    "New Deal - Unscheduled": 19791
   },
   "by_agent": {
     "Georgia": 75135,
@@ -144,7 +145,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8918.060000000001
+      "spend": 8942.73
     }
   },
   "reps_by_month": {
@@ -391,13 +392,13 @@
     "2026-09": {
       "Charles": {
         "leads": 51,
-        "active": 60,
+        "active": 61,
         "booked": 42,
         "offers": 57,
         "accepted": 7,
-        "available": 2,
+        "available": 1,
         "pending": 0,
-        "dead": 0,
+        "dead": 1,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 112691.26,
@@ -420,10 +421,10 @@
     },
     "2026-10": {
       "Charles": {
-        "leads": 18,
+        "leads": 19,
         "active": 17,
         "booked": 14,
-        "offers": 21,
+        "offers": 22,
         "accepted": 2,
         "available": 1,
         "pending": 0,
@@ -431,7 +432,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 18
+        "discoveries": 19
       },
       "Julian": {
         "leads": 23,
@@ -926,25 +927,27 @@
         },
         "2026-10": {
           "counts": {
-            "available": 3
+            "available": 2,
+            "dead": 1
           },
           "gp": {
-            "available": 110000
+            "available": 79797,
+            "dead": 30000
           },
           "total": 3
         }
       },
       "all_time": {
         "counts": {
-          "available": 4,
-          "dead": 37,
+          "available": 3,
+          "dead": 38,
           "on_hold": 1,
           "pending": 1,
           "closed": 18
         },
         "gp": {
-          "available": 110000,
-          "dead": 798676,
+          "available": 79797,
+          "dead": 828676,
           "on_hold": 19911,
           "pending": 11000,
           "closed": 508930
@@ -953,8 +956,8 @@
       },
       "channel_counts": {
         "ppc": {
-          "available": 2,
-          "dead": 11,
+          "available": 1,
+          "dead": 12,
           "on_hold": 1,
           "closed": 6
         },
@@ -972,7 +975,8 @@
       "by_month_channel_counts": {
         "2026-10": {
           "ppc": {
-            "available": 2
+            "available": 1,
+            "dead": 1
           },
           "fb": {
             "available": 1
@@ -1075,19 +1079,10 @@
       "deals": [
         {
           "address": "644 Meadow St NE, Wise, VA 24293, USA",
-          "value": 55000,
+          "value": 54797,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        },
-        {
-          "address": "3022 Rittenhouse Cir, Fairfax, VA 22031, USA",
-          "value": 30000,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
+          "stage": "",
+          "stage_color": "",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1122,16 +1117,16 @@
     }
   },
   "pipeline_contracts": {
-    "available": 11,
+    "available": 10,
     "pending": 5,
     "on_hold": 6,
     "closed": 39,
-    "dead": 80,
-    "gp_available": 234777,
+    "dead": 81,
+    "gp_available": 204574,
     "gp_pending": 113729,
     "gp_on_hold": 188479,
     "gp_closed": 854591,
-    "gp_dead": 1833142
+    "gp_dead": 1863142
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -1143,7 +1138,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 8922.73
+    "2026-10": 8942.73
   },
   "channel_by_month": {
     "2026-01": {
@@ -2056,7 +2051,7 @@
       }
     },
     "2026-10": {
-      "google_spend": 7650.56,
+      "google_spend": 7670.56,
       "meta_spend": 1272.17,
       "ppc_leads": 28,
       "fb_leads": 26,
@@ -2069,10 +2064,10 @@
         "offered": 12,
         "accepted": 4,
         "under_contract": 4,
-        "contract_available": 4,
+        "contract_available": 3,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 0,
+        "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -2123,7 +2118,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 10,
+            "count": 11,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2134,13 +2129,13 @@
             "count": 3,
             "color": "#D1F3EC"
           },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
           "Wrong Number": {
             "count": 2,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 1,
@@ -2156,7 +2151,7 @@
   },
   "pipeline": {
     "new_leads_30d": 54,
-    "dispositioned_mtd": 41,
+    "dispositioned_mtd": 42,
     "hot": 7,
     "booked": 25,
     "offers": 23,
@@ -2177,7 +2172,7 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 10,
+        "count": 11,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
@@ -2188,13 +2183,13 @@
         "count": 3,
         "color": "#D1F3EC"
       },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
-      },
       "Wrong Number": {
         "count": 2,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 1,
@@ -2213,10 +2208,10 @@
     "offered": 12,
     "accepted": 36,
     "under_contract": 36,
-    "contract_available": 6,
+    "contract_available": 5,
     "contract_pending": 3,
     "contract_closed": 11,
-    "contract_dead": 16,
+    "contract_dead": 17,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -2255,8 +2250,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 18,
-      "offers": 21,
+      "discoveries": 19,
+      "offers": 22,
       "contracts": 2,
       "revenue": 0.0
     },
@@ -2269,7 +2264,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 227505,
-    "Charles": 121000
+    "Charles": 90797
   },
   "agent_deals": [
     {
@@ -2384,20 +2379,10 @@
     },
     {
       "address": "644 Meadow St NE, Wise, VA 24293, USA",
-      "value": 55000,
+      "value": 54797,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Charles"
-    },
-    {
-      "address": "3022 Rittenhouse Cir, Fairfax, VA 22031, USA",
-      "value": 30000,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
+      "stage": "",
+      "stage_color": "",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"

@@ -1,13 +1,13 @@
 {
   "report_date": "October 13, 2026",
-  "last_updated": "2026-10-13 12:02 EST",
+  "last_updated": "2026-10-13 13:07 EST",
   "google": {
-    "spend_mtd": 7794.54,
-    "clicks_mtd": 388,
+    "spend_mtd": 7835.84,
+    "clicks_mtd": 393,
     "crm_leads": 28,
     "crm_leads_today": 0,
-    "cpc": 20.09,
-    "cpl": 278.38,
+    "cpc": 19.94,
+    "cpl": 279.85,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 670.74,
-        "spend_today": 36.85,
-        "clicks": 244,
-        "cpc": 2.75,
+        "spend": 679.42,
+        "spend_today": 45.53,
+        "clicks": 248,
+        "cpc": 2.74,
         "crm_leads": 0,
-        "cpl": 278.38
+        "cpl": 279.85
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7123.8,
-        "spend_today": 362.58,
-        "clicks": 144,
-        "cpc": 49.47,
+        "spend": 7156.42,
+        "spend_today": 395.2,
+        "clicks": 145,
+        "cpc": 49.35,
         "crm_leads": 0,
-        "cpl": 278.38
+        "cpl": 279.85
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": 224983,
+  "potential_income": 214883,
   "assigned_income": 113729,
   "by_stage": {
     "Access Scheduled": 79797,
     "Initial Inspection Completed": 51159,
     "Market Prep / Pre-Listing Marketing": 49297,
-    "On Market": 24940,
-    "New Deal - Unscheduled": 19791
+    "New Deal - Unscheduled": 19791,
+    "On Market": 14840
   },
   "by_agent": {
     "Georgia": 75135,
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9051.25
+      "spend": 9108.01
     }
   },
   "reps_by_month": {
@@ -210,7 +210,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 11,
         "booked": 15,
         "offers": 25,
@@ -221,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -235,12 +235,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 48,
         "booked": 44,
         "offers": 35,
@@ -251,10 +251,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -265,7 +265,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -319,9 +319,9 @@
         "booked": 57,
         "offers": 56,
         "accepted": 4,
-        "available": 1,
+        "available": 0,
         "pending": 0,
-        "dead": 3,
+        "dead": 4,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 67323.19,
@@ -360,7 +360,7 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 53,
+        "leads": 52,
         "active": 67,
         "booked": 55,
         "offers": 52,
@@ -371,10 +371,10 @@
         "closed": 1,
         "pending_income": 11000.0,
         "closed_revenue": 51364.39,
-        "discoveries": 53
+        "discoveries": 52
       },
       "Julian": {
-        "leads": 77,
+        "leads": 78,
         "active": 87,
         "booked": 73,
         "offers": 64,
@@ -385,7 +385,7 @@
         "closed": 0,
         "pending_income": 9758.2,
         "closed_revenue": 2000.0,
-        "discoveries": 77
+        "discoveries": 78
       }
     },
     "2026-09": {
@@ -553,7 +553,7 @@
             "pending": 3
           },
           "gp": {
-            "available": 79986,
+            "available": 69886,
             "dead": 98061,
             "pending": 92970
           },
@@ -581,7 +581,7 @@
           "closed": 21
         },
         "gp": {
-          "available": 124777,
+          "available": 114677,
           "on_hold": 143719,
           "dead": 1059315,
           "pending": 102729,
@@ -754,7 +754,7 @@
         },
         {
           "address": "2425 Denison St, Baltimore, MD 21216, USA",
-          "value": 24940,
+          "value": 14840,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -1119,7 +1119,7 @@
     "on_hold": 5,
     "closed": 39,
     "dead": 82,
-    "gp_available": 204574,
+    "gp_available": 194474,
     "gp_pending": 113729,
     "gp_on_hold": 163630,
     "gp_closed": 854591,
@@ -1135,7 +1135,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 9066.71
+    "2026-10": 9108.01
   },
   "channel_by_month": {
     "2026-01": {
@@ -1627,7 +1627,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 64,
+            "count": 63,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1658,13 +1658,13 @@
             "count": 6,
             "color": "#DCEBD8"
           },
+          "Sold": {
+            "count": 4,
+            "color": "#C8C8C8"
+          },
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 3,
-            "color": "#C8C8C8"
           },
           "Closed": {
             "count": 1,
@@ -1883,7 +1883,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 83,
+            "count": 82,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1903,7 +1903,7 @@
             "color": "#DCEBD8"
           },
           "Listed": {
-            "count": 13,
+            "count": 14,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -2048,11 +2048,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 7794.54,
+      "google_spend": 7835.84,
       "meta_spend": 1272.17,
       "ppc_leads": 28,
       "fb_leads": 26,
-      "google_cpc": 20.09,
+      "google_cpc": 19.94,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 28,
@@ -2260,7 +2260,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 227505,
+    "Julian": 217405,
     "Charles": 90797
   },
   "agent_deals": [
@@ -2306,7 +2306,7 @@
     },
     {
       "address": "2425 Denison St, Baltimore, MD 21216, USA",
-      "value": 24940,
+      "value": 14840,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",

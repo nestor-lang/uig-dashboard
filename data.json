@@ -1,13 +1,13 @@
 {
   "report_date": "October 13, 2026",
-  "last_updated": "2026-10-13 09:02 EST",
+  "last_updated": "2026-10-13 10:02 EST",
   "google": {
-    "spend_mtd": 7423.29,
-    "clicks_mtd": 379,
+    "spend_mtd": 7650.56,
+    "clicks_mtd": 381,
     "crm_leads": 28,
     "crm_leads_today": 0,
-    "cpc": 19.59,
-    "cpl": 265.12,
+    "cpc": 20.08,
+    "cpl": 273.23,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 638.37,
-        "spend_today": 4.48,
+        "spend": 646.49,
+        "spend_today": 12.61,
         "clicks": 240,
-        "cpc": 2.66,
+        "cpc": 2.69,
         "crm_leads": 0,
-        "cpl": 265.12
+        "cpl": 273.23
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6784.92,
-        "spend_today": 23.7,
-        "clicks": 139,
-        "cpc": 48.81,
+        "spend": 7004.06,
+        "spend_today": 242.84,
+        "clicks": 141,
+        "cpc": 49.67,
         "crm_leads": 0,
-        "cpl": 265.12
+        "cpl": 273.23
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": 180187,
+  "potential_income": 255187,
   "assigned_income": 113729,
   "by_stage": {
+    "New Deal - Unscheduled": 74791,
     "On Market": 54940,
     "Initial Inspection Completed": 51159,
     "Market Prep / Pre-Listing Marketing": 49297,
-    "Access Scheduled": 25000,
-    "New Deal - Unscheduled": -209
+    "Access Scheduled": 25000
   },
   "by_agent": {
     "Georgia": 75135,
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8695.46
+      "spend": 8918.060000000001
     }
   },
   "reps_by_month": {
@@ -435,7 +435,7 @@
       },
       "Julian": {
         "leads": 23,
-        "active": 15,
+        "active": 16,
         "booked": 12,
         "offers": 24,
         "accepted": 3,
@@ -929,7 +929,7 @@
             "available": 3
           },
           "gp": {
-            "available": 35000
+            "available": 110000
           },
           "total": 3
         }
@@ -943,7 +943,7 @@
           "closed": 18
         },
         "gp": {
-          "available": 35000,
+          "available": 110000,
           "dead": 798676,
           "on_hold": 19911,
           "pending": 11000,
@@ -1075,7 +1075,7 @@
       "deals": [
         {
           "address": "644 Meadow St NE, Wise, VA 24293, USA",
-          "value": -20000,
+          "value": 55000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -1127,7 +1127,7 @@
     "on_hold": 6,
     "closed": 39,
     "dead": 80,
-    "gp_available": 159777,
+    "gp_available": 234777,
     "gp_pending": 113729,
     "gp_on_hold": 188479,
     "gp_closed": 854591,
@@ -1143,7 +1143,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 8695.46
+    "2026-10": 8922.73
   },
   "channel_by_month": {
     "2026-01": {
@@ -1899,7 +1899,7 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 23,
+            "count": 24,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1911,7 +1911,7 @@
             "color": "#DCEBD8"
           },
           "Listed": {
-            "count": 14,
+            "count": 13,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -2056,11 +2056,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 7423.29,
+      "google_spend": 7650.56,
       "meta_spend": 1272.17,
       "ppc_leads": 28,
       "fb_leads": 26,
-      "google_cpc": 19.59,
+      "google_cpc": 20.08,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 28,
@@ -2111,7 +2111,7 @@
       },
       "pipeline_fb": {
         "leads": 26,
-        "active": 14,
+        "active": 15,
         "booked": 11,
         "offered": 11,
         "accepted": 1,
@@ -2123,7 +2123,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 11,
+            "count": 10,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2134,13 +2134,13 @@
             "count": 3,
             "color": "#D1F3EC"
           },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
+          },
           "Wrong Number": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 1,
@@ -2165,7 +2165,7 @@
   },
   "pipeline_fb": {
     "leads": 26,
-    "active": 14,
+    "active": 15,
     "booked": 11,
     "offered": 11,
     "accepted": 42,
@@ -2177,7 +2177,7 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 11,
+        "count": 10,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
@@ -2188,13 +2188,13 @@
         "count": 3,
         "color": "#D1F3EC"
       },
+      "Warm": {
+        "count": 3,
+        "color": "#F7F0C5"
+      },
       "Wrong Number": {
         "count": 2,
         "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 1,
@@ -2269,7 +2269,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 227505,
-    "Charles": 46000
+    "Charles": 121000
   },
   "agent_deals": [
     {
@@ -2384,7 +2384,7 @@
     },
     {
       "address": "644 Meadow St NE, Wise, VA 24293, USA",
-      "value": -20000,
+      "value": 55000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

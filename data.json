@@ -1,13 +1,13 @@
 {
   "report_date": "October 15, 2026",
-  "last_updated": "2026-10-15 13:07 EST",
+  "last_updated": "2026-10-15 14:12 EST",
   "google": {
-    "spend_mtd": 9507.17,
-    "clicks_mtd": 476,
-    "crm_leads": 35,
-    "crm_leads_today": 3,
-    "cpc": 19.97,
-    "cpl": 271.63,
+    "spend_mtd": 9546.45,
+    "clicks_mtd": 479,
+    "crm_leads": 36,
+    "crm_leads_today": 4,
+    "cpc": 19.93,
+    "cpl": 265.18,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 778.19,
-        "spend_today": 22.86,
-        "clicks": 301,
-        "cpc": 2.59,
+        "spend": 779.13,
+        "spend_today": 23.8,
+        "clicks": 302,
+        "cpc": 2.58,
         "crm_leads": 0,
-        "cpl": 271.63
+        "cpl": 265.18
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 8728.98,
-        "spend_today": 315.71,
-        "clicks": 175,
-        "cpc": 49.88,
+        "spend": 8767.32,
+        "spend_today": 354.05,
+        "clicks": 177,
+        "cpc": 49.53,
         "crm_leads": 0,
-        "cpl": 271.63
+        "cpl": 265.18
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": 246383,
+  "potential_income": 244053,
   "assigned_income": 60979,
   "by_stage": {
-    "Access Scheduled": 117236,
+    "Access Scheduled": 107237,
     "Market Prep / Pre-Listing Marketing": 87978,
     "New Deal - Unscheduled": 24000,
     "On Market": 14840,
-    "Initial Inspection Completed": 2330
+    "Initial Inspection Completed": 9999
   },
   "by_agent": {
     "Georgia": 40220,
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10779.34
+      "spend": 10801.15
     }
   },
   "reps_by_month": {
@@ -408,9 +408,9 @@
         "booked": 63,
         "offers": 81,
         "accepted": 11,
-        "available": 5,
+        "available": 4,
         "pending": 1,
-        "dead": 2,
+        "dead": 3,
         "closed": 0,
         "pending_income": 40220.37,
         "closed_revenue": 7070.24,
@@ -433,9 +433,9 @@
         "discoveries": 20
       },
       "Julian": {
-        "leads": 26,
+        "leads": 27,
         "active": 17,
-        "booked": 14,
+        "booked": 15,
         "offers": 26,
         "accepted": 4,
         "available": 1,
@@ -444,7 +444,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 5700.0,
-        "discoveries": 26
+        "discoveries": 27
       }
     }
   },
@@ -547,14 +547,14 @@
         },
         "2026-09": {
           "counts": {
-            "available": 4,
-            "dead": 4,
+            "available": 3,
+            "dead": 5,
             "on_hold": 2,
             "pending": 1
           },
           "gp": {
-            "available": 59738,
-            "dead": 98061,
+            "available": 57408,
+            "dead": 100391,
             "on_hold": 52750,
             "pending": 40220
           },
@@ -574,17 +574,17 @@
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 6,
           "on_hold": 6,
-          "dead": 45,
+          "dead": 46,
           "pending": 2,
           "other": 1,
           "closed": 21
         },
         "gp": {
-          "available": 137178,
+          "available": 134848,
           "on_hold": 196469,
-          "dead": 1059315,
+          "dead": 1061645,
           "pending": 49979,
           "other": 60000,
           "closed": 345661
@@ -600,10 +600,10 @@
           "closed": 1
         },
         "ppc": {
-          "available": 4,
+          "available": 3,
           "on_hold": 5,
+          "dead": 6,
           "pending": 1,
-          "dead": 5,
           "closed": 5
         },
         "sms": {
@@ -625,7 +625,8 @@
         },
         "2026-09": {
           "ppc": {
-            "available": 2,
+            "available": 1,
+            "dead": 1,
             "on_hold": 2,
             "pending": 1
           },
@@ -763,15 +764,6 @@
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-09"
-        },
-        {
-          "address": "1806 Spring Ave, South Boston, VA 24592, USA",
-          "value": 2330,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         },
@@ -1080,8 +1072,8 @@
           "address": "171 Cedar Branch Rd, Saltville, VA 24370, USA",
           "value": 9999,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1098,16 +1090,16 @@
     }
   },
   "pipeline_contracts": {
-    "available": 10,
+    "available": 9,
     "pending": 3,
     "on_hold": 7,
     "closed": 39,
-    "dead": 84,
-    "gp_available": 225974,
+    "dead": 85,
+    "gp_available": 223644,
     "gp_pending": 60979,
     "gp_on_hold": 216380,
     "gp_closed": 854591,
-    "gp_dead": 1887991
+    "gp_dead": 1890321
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -1119,7 +1111,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 10779.34
+    "2026-10": 10818.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -1915,10 +1907,10 @@
         "offered": 36,
         "accepted": 5,
         "under_contract": 5,
-        "contract_available": 2,
+        "contract_available": 1,
         "contract_pending": 1,
         "contract_closed": 0,
-        "contract_dead": 2,
+        "contract_dead": 3,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -2016,16 +2008,16 @@
       }
     },
     "2026-10": {
-      "google_spend": 9507.17,
+      "google_spend": 9546.45,
       "meta_spend": 1272.17,
-      "ppc_leads": 35,
+      "ppc_leads": 36,
       "fb_leads": 26,
-      "google_cpc": 19.97,
+      "google_cpc": 19.93,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
-        "leads": 35,
+        "leads": 36,
         "active": 26,
-        "booked": 15,
+        "booked": 16,
         "offered": 13,
         "accepted": 4,
         "under_contract": 4,
@@ -2051,6 +2043,10 @@
             "count": 3,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
+          },
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
@@ -2058,10 +2054,6 @@
           "Listed": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 1,
@@ -2119,10 +2111,10 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 61,
-    "dispositioned_mtd": 46,
+    "new_leads_30d": 62,
+    "dispositioned_mtd": 47,
     "hot": 6,
-    "booked": 27,
+    "booked": 28,
     "offers": 24,
     "under_contract": 2,
     "closed": 0
@@ -2171,16 +2163,16 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 35,
+    "leads": 36,
     "active": 26,
-    "booked": 15,
+    "booked": 16,
     "offered": 13,
     "accepted": 34,
     "under_contract": 34,
-    "contract_available": 5,
+    "contract_available": 4,
     "contract_pending": 1,
     "contract_closed": 11,
-    "contract_dead": 17,
+    "contract_dead": 18,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
@@ -2199,6 +2191,10 @@
         "count": 3,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
+      },
       "Under Contract": {
         "count": 2,
         "color": "#DCEBD8"
@@ -2206,10 +2202,6 @@
       "Listed": {
         "count": 2,
         "color": "#C8C8C8"
-      },
-      "Warm": {
-        "count": 1,
-        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 1,
@@ -2229,14 +2221,14 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 26,
+      "discoveries": 27,
       "offers": 26,
       "contracts": 4,
       "revenue": 5700.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 187156,
+    "Julian": 184826,
     "Charles": 99796
   },
   "agent_deals": [
@@ -2286,16 +2278,6 @@
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-09",
-      "agent": "Julian"
-    },
-    {
-      "address": "1806 Spring Ave, South Boston, VA 24592, USA",
-      "value": 2330,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"
@@ -2354,8 +2336,8 @@
       "address": "171 Cedar Branch Rd, Saltville, VA 24370, USA",
       "value": 9999,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"
@@ -2372,7 +2354,7 @@
     }
   ],
   "sources": {
-    "ppc": 35,
+    "ppc": 36,
     "facebook": 26,
     "ppc_inbound_call": 23
   },

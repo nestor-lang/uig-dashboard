@@ -1,13 +1,13 @@
 {
   "report_date": "October 16, 2026",
-  "last_updated": "2026-10-16 12:32 EST",
+  "last_updated": "2026-10-16 13:37 EST",
   "google": {
-    "spend_mtd": 10399.57,
+    "spend_mtd": 10326.83,
     "clicks_mtd": 520,
     "crm_leads": 37,
     "crm_leads_today": 0,
-    "cpc": 20.0,
-    "cpl": 281.07,
+    "cpc": 19.86,
+    "cpl": 279.1,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 834.84,
-        "spend_today": 19.32,
-        "clicks": 326,
+        "spend": 837.89,
+        "spend_today": 22.37,
+        "clicks": 327,
         "cpc": 2.56,
         "crm_leads": 0,
-        "cpl": 281.07
+        "cpl": 279.1
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 9564.73,
-        "spend_today": 345.18,
-        "clicks": 194,
-        "cpc": 49.3,
+        "spend": 9488.94,
+        "spend_today": 269.39,
+        "clicks": 193,
+        "cpc": 49.17,
         "crm_leads": 0,
-        "cpl": 281.07
+        "cpl": 279.1
       }
     ]
   },
@@ -68,11 +68,11 @@
       }
     ]
   },
-  "potential_income": 254522,
+  "potential_income": 249522,
   "assigned_income": 80979,
   "by_stage": {
     "Access Scheduled": 131237,
-    "Market Prep / Pre-Listing Marketing": 62978,
+    "Market Prep / Pre-Listing Marketing": 57978,
     "New Deal - Unscheduled": 35469,
     "On Market": 14840,
     "Initial Inspection Completed": 9999
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11671.74
+      "spend": 11599.0
     }
   },
   "reps_by_month": {
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -1115,7 +1115,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 11671.74
+    "2026-10": 11599.0
   },
   "channel_by_month": {
     "2026-01": {
@@ -1477,7 +1477,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 63,
+            "count": 62,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1504,13 +1504,13 @@
             "count": 8,
             "color": "#DCEBD8"
           },
+          "Listed": {
+            "count": 8,
+            "color": "#C8C8C8"
+          },
           "No Longer Selling": {
             "count": 8,
             "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 7,
-            "color": "#C8C8C8"
           },
           "Closed": {
             "count": 3,
@@ -2012,11 +2012,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 10399.57,
+      "google_spend": 10326.83,
       "meta_spend": 1272.17,
       "ppc_leads": 37,
       "fb_leads": 26,
-      "google_cpc": 20.0,
+      "google_cpc": 19.86,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 37,

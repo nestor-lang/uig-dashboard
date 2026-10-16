@@ -1,13 +1,13 @@
 {
   "report_date": "October 16, 2026",
-  "last_updated": "2026-10-16 15:47 EST",
+  "last_updated": "2026-10-16 16:52 EST",
   "google": {
-    "spend_mtd": 10341.67,
-    "clicks_mtd": 525,
+    "spend_mtd": 10345.09,
+    "clicks_mtd": 527,
     "crm_leads": 37,
     "crm_leads_today": 0,
-    "cpc": 19.7,
-    "cpl": 279.5,
+    "cpc": 19.63,
+    "cpl": 279.6,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 852.73,
-        "spend_today": 37.21,
-        "clicks": 332,
-        "cpc": 2.57,
+        "spend": 856.15,
+        "spend_today": 40.63,
+        "clicks": 334,
+        "cpc": 2.56,
         "crm_leads": 0,
-        "cpl": 279.5
+        "cpl": 279.6
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 193,
         "cpc": 49.17,
         "crm_leads": 0,
-        "cpl": 279.5
+        "cpl": 279.6
       }
     ]
   },
@@ -68,18 +68,19 @@
       }
     ]
   },
-  "potential_income": 249522,
-  "assigned_income": 80979,
+  "potential_income": 215320,
+  "assigned_income": 96389,
   "by_stage": {
-    "Access Scheduled": 131237,
-    "Market Prep / Pre-Listing Marketing": 57978,
+    "Access Scheduled": 98588,
+    "Market Prep / Pre-Listing Marketing": 42568,
     "New Deal - Unscheduled": 35469,
-    "On Market": 14840,
-    "Initial Inspection Completed": 9999
+    "Initial Inspection Completed": 23856,
+    "On Market": 14840
   },
   "by_agent": {
     "Georgia": 40220,
     "Virginia": 31000,
+    "Maryland": 15410,
     "South Carolina": 9758
   },
   "closed_by_month": {
@@ -143,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11613.84
+      "spend": 11614.09
     }
   },
   "reps_by_month": {
@@ -330,7 +331,7 @@
     "2026-07": {
       "Charles": {
         "leads": 48,
-        "active": 54,
+        "active": 53,
         "booked": 49,
         "offers": 45,
         "accepted": 9,
@@ -361,7 +362,7 @@
       "Charles": {
         "leads": 52,
         "active": 65,
-        "booked": 55,
+        "booked": 56,
         "offers": 52,
         "accepted": 5,
         "available": 1,
@@ -404,7 +405,7 @@
       },
       "Julian": {
         "leads": 74,
-        "active": 73,
+        "active": 72,
         "booked": 63,
         "offers": 80,
         "accepted": 11,
@@ -419,10 +420,10 @@
     },
     "2026-10": {
       "Charles": {
-        "leads": 22,
+        "leads": 23,
         "active": 18,
         "booked": 15,
-        "offers": 25,
+        "offers": 26,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -430,12 +431,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 22
+        "discoveries": 23
       },
       "Julian": {
         "leads": 29,
         "active": 19,
-        "booked": 16,
+        "booked": 17,
         "offers": 29,
         "accepted": 5,
         "available": 2,
@@ -567,7 +568,7 @@
             "on_hold": 1
           },
           "gp": {
-            "available": 87909,
+            "available": 69116,
             "other": 20000,
             "on_hold": 39830
           },
@@ -584,7 +585,7 @@
           "closed": 21
         },
         "gp": {
-          "available": 145317,
+          "available": 126524,
           "other": 80000,
           "on_hold": 196469,
           "dead": 1061645,
@@ -737,10 +738,10 @@
         },
         {
           "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
-          "value": 32649,
+          "value": 13856,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1099,7 +1100,7 @@
     "on_hold": 7,
     "closed": 39,
     "dead": 85,
-    "gp_available": 234113,
+    "gp_available": 215320,
     "gp_pending": 60979,
     "gp_on_hold": 216380,
     "gp_closed": 854591,
@@ -1115,7 +1116,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 11613.84
+    "2026-10": 11617.26
   },
   "channel_by_month": {
     "2026-01": {
@@ -1713,7 +1714,7 @@
       },
       "pipeline_fb": {
         "leads": 185,
-        "active": 109,
+        "active": 108,
         "booked": 100,
         "offered": 89,
         "accepted": 9,
@@ -1725,7 +1726,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 81,
+            "count": 80,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1733,7 +1734,7 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 16,
+            "count": 17,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
@@ -1844,8 +1845,8 @@
       "pipeline_fb": {
         "leads": 228,
         "active": 116,
-        "booked": 98,
-        "offered": 90,
+        "booked": 99,
+        "offered": 91,
         "accepted": 4,
         "under_contract": 4,
         "contract_available": 0,
@@ -1859,11 +1860,11 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 50,
+            "count": 49,
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 24,
+            "count": 25,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1875,7 +1876,7 @@
             "color": "#DCEBD8"
           },
           "Listed": {
-            "count": 15,
+            "count": 14,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -1883,7 +1884,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 6,
+            "count": 7,
             "color": "#F3F3F3"
           },
           "Sold": {
@@ -1957,7 +1958,7 @@
       },
       "pipeline_fb": {
         "leads": 174,
-        "active": 89,
+        "active": 88,
         "booked": 66,
         "offered": 62,
         "accepted": 8,
@@ -2012,11 +2013,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 10341.67,
+      "google_spend": 10345.09,
       "meta_spend": 1272.17,
       "ppc_leads": 37,
       "fb_leads": 26,
-      "google_cpc": 19.7,
+      "google_cpc": 19.63,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 37,
@@ -2035,13 +2036,13 @@
             "count": 13,
             "color": "#D2E4EB"
           },
+          "Owes too Much": {
+            "count": 6,
+            "color": "#D1F3EC"
+          },
           "Need to Contact": {
             "count": 6,
             "color": "#FFD5C2"
-          },
-          "Owes too Much": {
-            "count": 5,
-            "color": "#D1F3EC"
           },
           "Listed": {
             "count": 3,
@@ -2056,7 +2057,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 2,
+            "count": 1,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -2116,7 +2117,7 @@
   },
   "pipeline": {
     "new_leads_30d": 63,
-    "dispositioned_mtd": 51,
+    "dispositioned_mtd": 52,
     "hot": 6,
     "booked": 31,
     "offers": 27,
@@ -2183,13 +2184,13 @@
         "count": 13,
         "color": "#D2E4EB"
       },
+      "Owes too Much": {
+        "count": 6,
+        "color": "#D1F3EC"
+      },
       "Need to Contact": {
         "count": 6,
         "color": "#FFD5C2"
-      },
-      "Owes too Much": {
-        "count": 5,
-        "color": "#D1F3EC"
       },
       "Listed": {
         "count": 3,
@@ -2204,7 +2205,7 @@
         "color": "#DCEBD8"
       },
       "Warm": {
-        "count": 2,
+        "count": 1,
         "color": "#F7F0C5"
       },
       "Dead": {
@@ -2219,8 +2220,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 22,
-      "offers": 25,
+      "discoveries": 23,
+      "offers": 26,
       "contracts": 3,
       "revenue": 0.0
     },
@@ -2232,7 +2233,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 195295,
+    "Julian": 176502,
     "Charles": 99796
   },
   "agent_deals": [
@@ -2248,10 +2249,10 @@
     },
     {
       "address": "335 Howell Dr SW, Atlanta, GA 30331, USA",
-      "value": 32649,
+      "value": 13856,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Julian"

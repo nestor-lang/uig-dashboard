@@ -1,13 +1,13 @@
 {
   "report_date": "October 20, 2026",
-  "last_updated": "2026-10-20 15:47 EST",
+  "last_updated": "2026-10-20 17:02 EST",
   "google": {
-    "spend_mtd": 13182.85,
-    "clicks_mtd": 676,
+    "spend_mtd": 13127.14,
+    "clicks_mtd": 680,
     "crm_leads": 49,
     "crm_leads_today": 5,
-    "cpc": 19.5,
-    "cpl": 269.04,
+    "cpc": 19.3,
+    "cpl": 267.9,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1081.72,
-        "spend_today": 25.36,
-        "clicks": 437,
-        "cpc": 2.48,
+        "spend": 1085.32,
+        "spend_today": 28.95,
+        "clicks": 441,
+        "cpc": 2.46,
         "crm_leads": 0,
-        "cpl": 269.04
+        "cpl": 267.9
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 12101.13,
-        "spend_today": 865.12,
+        "spend": 12041.82,
+        "spend_today": 805.81,
         "clicks": 239,
-        "cpc": 50.63,
+        "cpc": 50.38,
         "crm_leads": 0,
-        "cpl": 269.04
+        "cpl": 267.9
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": 140420,
+  "potential_income": 123085,
   "assigned_income": 83800,
   "by_stage": {
+    "Initial Inspection Completed": 71555,
     "Market Prep / Pre-Listing Marketing": 57743,
     "Access Scheduled": 54797,
-    "Initial Inspection Completed": 53790,
     "On Market": 28521,
-    "New Deal - Unscheduled": -54431
+    "New Deal - Unscheduled": -89531
   },
   "by_agent": {
     "Georgia": 40220,
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14325.47
+      "spend": 14399.31
     }
   },
   "reps_by_month": {
@@ -421,8 +421,8 @@
     "2026-10": {
       "Charles": {
         "leads": 26,
-        "active": 20,
-        "booked": 18,
+        "active": 19,
+        "booked": 17,
         "offers": 30,
         "accepted": 4,
         "available": 2,
@@ -434,10 +434,10 @@
         "discoveries": 26
       },
       "Julian": {
-        "leads": 33,
-        "active": 23,
-        "booked": 19,
-        "offers": 32,
+        "leads": 34,
+        "active": 24,
+        "booked": 20,
+        "offers": 33,
         "accepted": 5,
         "available": 2,
         "pending": 0,
@@ -445,7 +445,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 5700.0,
-        "discoveries": 33
+        "discoveries": 34
       }
     }
   },
@@ -902,36 +902,36 @@
         },
         "2026-10": {
           "counts": {
-            "available": 5,
+            "available": 4,
             "dead": 1
           },
           "gp": {
-            "available": -1104,
+            "available": -18439,
             "dead": 30000
           },
-          "total": 6
+          "total": 5
         }
       },
       "all_time": {
         "counts": {
-          "available": 5,
+          "available": 4,
           "dead": 39,
           "other": 1,
           "pending": 1,
           "closed": 18
         },
         "gp": {
-          "available": -1104,
+          "available": -18439,
           "dead": 828676,
           "other": 7411,
           "pending": 11000,
           "closed": 508930
         },
-        "total": 64
+        "total": 63
       },
       "channel_counts": {
         "ppc": {
-          "available": 3,
+          "available": 2,
           "dead": 12,
           "other": 1,
           "closed": 6
@@ -950,7 +950,7 @@
       "by_month_channel_counts": {
         "2026-10": {
           "ppc": {
-            "available": 3,
+            "available": 2,
             "dead": 1
           },
           "fb": {
@@ -1061,17 +1061,8 @@
           "contract_month": "2026-10"
         },
         {
-          "address": "904 Tolleys Ln, Lynchburg, VA 24502, USA",
-          "value": 35100,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        },
-        {
           "address": "46 S York Dr, Newnan, GA 30265, USA",
-          "value": 24000,
+          "value": 41765,
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
@@ -1109,12 +1100,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 12,
+    "available": 11,
     "pending": 3,
     "on_hold": 5,
     "closed": 39,
     "dead": 87,
-    "gp_available": 140420,
+    "gp_available": 123085,
     "gp_pending": 60979,
     "gp_on_hold": 181469,
     "gp_closed": 854591,
@@ -1130,7 +1121,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 14455.02
+    "2026-10": 14399.31
   },
   "channel_by_month": {
     "2026-01": {
@@ -1976,7 +1967,7 @@
       },
       "pipeline_fb": {
         "leads": 174,
-        "active": 84,
+        "active": 83,
         "booked": 66,
         "offered": 62,
         "accepted": 8,
@@ -2031,20 +2022,20 @@
       }
     },
     "2026-10": {
-      "google_spend": 13182.85,
+      "google_spend": 13127.14,
       "meta_spend": 1272.17,
       "ppc_leads": 49,
       "fb_leads": 26,
-      "google_cpc": 19.5,
+      "google_cpc": 19.3,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 49,
-        "active": 33,
+        "active": 32,
         "booked": 23,
         "offered": 20,
-        "accepted": 7,
-        "under_contract": 7,
-        "contract_available": 6,
+        "accepted": 6,
+        "under_contract": 6,
+        "contract_available": 5,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
@@ -2059,7 +2050,7 @@
             "color": "#FFD5C2"
           },
           "Owes too Much": {
-            "count": 8,
+            "count": 7,
             "color": "#D1F3EC"
           },
           "Listed": {
@@ -2074,13 +2065,13 @@
             "count": 3,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 2,
+            "color": "#F7F0C5"
+          },
           "Hot": {
             "count": 1,
             "color": "#F7D1D0"
-          },
-          "Warm": {
-            "count": 1,
-            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 1,
@@ -2139,7 +2130,7 @@
   },
   "pipeline": {
     "new_leads_30d": 75,
-    "dispositioned_mtd": 59,
+    "dispositioned_mtd": 60,
     "hot": 7,
     "booked": 36,
     "offers": 32,
@@ -2191,12 +2182,12 @@
   },
   "pipeline_ppc": {
     "leads": 49,
-    "active": 33,
+    "active": 32,
     "booked": 23,
     "offered": 20,
-    "accepted": 38,
-    "under_contract": 38,
-    "contract_available": 7,
+    "accepted": 37,
+    "under_contract": 37,
+    "contract_available": 6,
     "contract_pending": 1,
     "contract_closed": 11,
     "contract_dead": 19,
@@ -2211,7 +2202,7 @@
         "color": "#FFD5C2"
       },
       "Owes too Much": {
-        "count": 8,
+        "count": 7,
         "color": "#D1F3EC"
       },
       "Listed": {
@@ -2226,13 +2217,13 @@
         "count": 3,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 2,
+        "color": "#F7F0C5"
+      },
       "Hot": {
         "count": 1,
         "color": "#F7D1D0"
-      },
-      "Warm": {
-        "count": 1,
-        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 1,
@@ -2252,15 +2243,15 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 33,
-      "offers": 32,
+      "discoveries": 34,
+      "offers": 33,
       "contracts": 5,
       "revenue": 5700.0
     }
   },
   "pipeline_by_agent": {
     "Julian": 191502,
-    "Charles": 9896
+    "Charles": -7439
   },
   "agent_deals": [
     {
@@ -2364,18 +2355,8 @@
       "agent": "Charles"
     },
     {
-      "address": "904 Tolleys Ln, Lynchburg, VA 24502, USA",
-      "value": 35100,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Charles"
-    },
-    {
       "address": "46 S York Dr, Newnan, GA 30265, USA",
-      "value": 24000,
+      "value": 41765,
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",

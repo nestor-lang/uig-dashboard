@@ -1,13 +1,13 @@
 {
   "report_date": "October 20, 2026",
-  "last_updated": "2026-10-20 13:37 EST",
+  "last_updated": "2026-10-20 14:42 EST",
   "google": {
-    "spend_mtd": 12708.83,
-    "clicks_mtd": 670,
+    "spend_mtd": 12793.12,
+    "clicks_mtd": 672,
     "crm_leads": 48,
     "crm_leads_today": 4,
-    "cpc": 18.97,
-    "cpl": 264.77,
+    "cpc": 19.04,
+    "cpl": 266.52,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 436,
         "cpc": 2.48,
         "crm_leads": 0,
-        "cpl": 264.77
+        "cpl": 266.52
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 11628.19,
-        "spend_today": 392.18,
-        "clicks": 234,
-        "cpc": 49.69,
+        "spend": 11712.48,
+        "spend_today": 476.47,
+        "clicks": 236,
+        "cpc": 49.63,
         "crm_leads": 0,
-        "cpl": 264.77
+        "cpl": 266.52
       }
     ]
   },
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13979.59
+      "spend": 14065.29
     }
   },
   "reps_by_month": {
@@ -520,13 +520,11 @@
         },
         "2026-07": {
           "counts": {
-            "dead": 5,
-            "other": 1,
+            "dead": 6,
             "closed": 2
           },
           "gp": {
-            "dead": 127022,
-            "other": 60000,
+            "dead": 187022,
             "closed": 12770
           },
           "total": 8
@@ -575,17 +573,15 @@
         "counts": {
           "available": 7,
           "on_hold": 5,
-          "dead": 47,
+          "dead": 48,
           "pending": 2,
-          "other": 1,
           "closed": 21
         },
         "gp": {
           "available": 141524,
           "on_hold": 181469,
-          "dead": 1076645,
+          "dead": 1136645,
           "pending": 49979,
-          "other": 60000,
           "closed": 345661
         },
         "total": 83
@@ -600,9 +596,8 @@
         },
         "fb": {
           "available": 2,
-          "dead": 18,
+          "dead": 19,
           "pending": 1,
-          "other": 1,
           "closed": 1
         },
         "sms": {
@@ -649,8 +644,7 @@
         },
         "2026-07": {
           "fb": {
-            "dead": 3,
-            "other": 1
+            "dead": 4
           },
           "ppc": {
             "dead": 2,
@@ -1110,12 +1104,12 @@
     "pending": 3,
     "on_hold": 5,
     "closed": 39,
-    "dead": 86,
+    "dead": 87,
     "gp_available": 265420,
     "gp_pending": 60979,
     "gp_on_hold": 181469,
     "gp_closed": 854591,
-    "gp_dead": 1905321
+    "gp_dead": 1965321
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -1127,7 +1121,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 13981.0
+    "2026-10": 14065.29
   },
   "channel_by_month": {
     "2026-01": {
@@ -1728,20 +1722,20 @@
         "active": 108,
         "booked": 100,
         "offered": 89,
-        "accepted": 9,
-        "under_contract": 9,
+        "accepted": 10,
+        "under_contract": 10,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 1,
-        "contract_dead": 8,
+        "contract_dead": 9,
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 78,
+            "count": 77,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 30,
+            "count": 31,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -2028,11 +2022,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 12708.83,
+      "google_spend": 12793.12,
       "meta_spend": 1272.17,
       "ppc_leads": 48,
       "fb_leads": 26,
-      "google_cpc": 18.97,
+      "google_cpc": 19.04,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 48,
@@ -2071,13 +2065,13 @@
             "count": 3,
             "color": "#DCEBD8"
           },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
           "Hot": {
-            "count": 1,
+            "count": 2,
             "color": "#F7D1D0"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 1,
@@ -2137,7 +2131,7 @@
   "pipeline": {
     "new_leads_30d": 74,
     "dispositioned_mtd": 58,
-    "hot": 7,
+    "hot": 8,
     "booked": 35,
     "offers": 31,
     "under_contract": 4,
@@ -2148,12 +2142,12 @@
     "active": 14,
     "booked": 13,
     "offered": 12,
-    "accepted": 45,
-    "under_contract": 45,
+    "accepted": 46,
+    "under_contract": 46,
     "contract_available": 4,
     "contract_pending": 2,
     "contract_closed": 5,
-    "contract_dead": 34,
+    "contract_dead": 35,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -2223,13 +2217,13 @@
         "count": 3,
         "color": "#DCEBD8"
       },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
-      },
       "Hot": {
-        "count": 1,
+        "count": 2,
         "color": "#F7D1D0"
+      },
+      "Warm": {
+        "count": 1,
+        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 1,
@@ -2432,9 +2426,9 @@
       "source": "Facebook"
     },
     {
-      "name": "904 Tolleys Ln",
-      "address": "904 Tolleys Ln, Lynchburg, VA 24502, USA",
-      "phone": "(434) 841-5726",
+      "name": "1078 Woods End Ln",
+      "address": "1078 Woods End Ln, Forest, VA 24551, USA",
+      "phone": "804-219-8404",
       "source": "PPC"
     }
   ],

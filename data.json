@@ -1,13 +1,13 @@
 {
   "report_date": "October 21, 2026",
-  "last_updated": "2026-10-21 13:07 EST",
+  "last_updated": "2026-10-21 14:12 EST",
   "google": {
-    "spend_mtd": 13557.29,
-    "clicks_mtd": 697,
+    "spend_mtd": 13626.45,
+    "clicks_mtd": 702,
     "crm_leads": 49,
     "crm_leads_today": 1,
-    "cpc": 19.45,
-    "cpl": 276.68,
+    "cpc": 19.41,
+    "cpl": 278.09,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1143.41,
-        "spend_today": 22.66,
-        "clicks": 453,
-        "cpc": 2.52,
+        "spend": 1149.54,
+        "spend_today": 28.79,
+        "clicks": 455,
+        "cpc": 2.53,
         "crm_leads": 0,
-        "cpl": 276.68
+        "cpl": 278.09
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 12413.87,
-        "spend_today": 372.06,
-        "clicks": 244,
-        "cpc": 50.88,
+        "spend": 12476.91,
+        "spend_today": 435.1,
+        "clicks": 247,
+        "cpc": 50.51,
         "crm_leads": 0,
-        "cpl": 276.68
+        "cpl": 278.09
       }
     ]
   },
@@ -68,18 +68,18 @@
       }
     ]
   },
-  "potential_income": 284454,
-  "assigned_income": 83800,
+  "potential_income": 269454,
+  "assigned_income": 98800,
   "by_stage": {
     "Access Scheduled": 91166,
     "Initial Inspection Completed": 71555,
-    "Market Prep / Pre-Listing Marketing": 57743,
+    "Market Prep / Pre-Listing Marketing": 42743,
     "New Deal - Unscheduled": 35469,
     "On Market": 28521
   },
   "by_agent": {
     "Georgia": 40220,
-    "Virginia": 18411,
+    "Virginia": 33411,
     "Maryland": 15410,
     "South Carolina": 9758
   },
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14829.460000000001
+      "spend": 14898.62
     }
   },
   "reps_by_month": {
@@ -210,7 +210,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -221,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -235,12 +235,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -251,10 +251,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -265,7 +265,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -557,11 +557,13 @@
         },
         "2026-10": {
           "counts": {
-            "available": 5,
+            "available": 4,
+            "other": 1,
             "on_hold": 1
           },
           "gp": {
-            "available": 120485,
+            "available": 105485,
+            "other": 15000,
             "on_hold": 39830
           },
           "total": 6
@@ -569,14 +571,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 8,
+          "available": 7,
+          "other": 1,
           "on_hold": 3,
           "dead": 50,
           "pending": 2,
           "closed": 21
         },
         "gp": {
-          "available": 177893,
+          "available": 162893,
+          "other": 15000,
           "on_hold": 124635,
           "dead": 1193479,
           "pending": 49979,
@@ -586,7 +590,8 @@
       },
       "channel_counts": {
         "ppc": {
-          "available": 5,
+          "available": 4,
+          "other": 1,
           "on_hold": 2,
           "dead": 9,
           "pending": 1,
@@ -608,7 +613,8 @@
       "by_month_channel_counts": {
         "2026-10": {
           "ppc": {
-            "available": 4,
+            "available": 3,
+            "other": 1,
             "on_hold": 1
           },
           "fb": {
@@ -744,15 +750,6 @@
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        },
-        {
-          "address": "308 Canal St, Fredericksburg, VA 22401, USA",
-          "value": 15000,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1103,12 +1100,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 11,
+    "available": 10,
     "pending": 3,
     "on_hold": 4,
     "closed": 39,
     "dead": 89,
-    "gp_available": 284454,
+    "gp_available": 269454,
     "gp_pending": 60979,
     "gp_on_hold": -365,
     "gp_closed": 854591,
@@ -1124,7 +1121,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 14829.46
+    "2026-10": 14898.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -2029,20 +2026,20 @@
       }
     },
     "2026-10": {
-      "google_spend": 13557.29,
+      "google_spend": 13626.45,
       "meta_spend": 1272.17,
       "ppc_leads": 49,
       "fb_leads": 26,
-      "google_cpc": 19.45,
+      "google_cpc": 19.41,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 49,
         "active": 29,
         "booked": 24,
         "offered": 21,
-        "accepted": 6,
-        "under_contract": 6,
-        "contract_available": 5,
+        "accepted": 5,
+        "under_contract": 5,
+        "contract_available": 4,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
@@ -2188,9 +2185,9 @@
     "active": 29,
     "booked": 24,
     "offered": 21,
-    "accepted": 39,
-    "under_contract": 39,
-    "contract_available": 6,
+    "accepted": 38,
+    "under_contract": 38,
+    "contract_available": 5,
     "contract_pending": 1,
     "contract_closed": 11,
     "contract_dead": 21,
@@ -2249,7 +2246,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 227871,
+    "Julian": 212871,
     "Charles": 117561
   },
   "agent_deals": [
@@ -2289,16 +2286,6 @@
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Julian"
-    },
-    {
-      "address": "308 Canal St, Fredericksburg, VA 22401, USA",
-      "value": 15000,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Julian"

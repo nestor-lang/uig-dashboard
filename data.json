@@ -1,13 +1,13 @@
 {
   "report_date": "October 22, 2026",
-  "last_updated": "2026-10-22 14:02 EST",
+  "last_updated": "2026-10-22 15:02 EST",
   "google": {
-    "spend_mtd": 14399.78,
-    "clicks_mtd": 733,
+    "spend_mtd": 14492.82,
+    "clicks_mtd": 734,
     "crm_leads": 51,
     "crm_leads_today": 2,
-    "cpc": 19.64,
-    "cpl": 282.35,
+    "cpc": 19.74,
+    "cpl": 284.17,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 476,
         "cpc": 2.65,
         "crm_leads": 0,
-        "cpl": 282.35
+        "cpl": 284.17
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13138.36,
-        "spend_today": 376.38,
-        "clicks": 257,
-        "cpc": 51.12,
+        "spend": 13231.4,
+        "spend_today": 469.42,
+        "clicks": 258,
+        "cpc": 51.28,
         "crm_leads": 0,
-        "cpl": 282.35
+        "cpl": 284.17
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15671.95
+      "spend": 15764.99
     }
   },
   "reps_by_month": {
@@ -1112,7 +1112,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 15671.95
+    "2026-10": 15764.99
   },
   "channel_by_month": {
     "2026-01": {
@@ -1930,25 +1930,25 @@
             "count": 11,
             "color": "#FFD5C2"
           },
-          "Listed": {
-            "count": 9,
-            "color": "#C8C8C8"
-          },
           "Dead": {
             "count": 8,
             "color": "#F3F3F3"
+          },
+          "Listed": {
+            "count": 8,
+            "color": "#C8C8C8"
           },
           "Under Contract": {
             "count": 7,
             "color": "#DCEBD8"
           },
+          "No Longer Selling": {
+            "count": 4,
+            "color": "#F3F3F3"
+          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 3,
-            "color": "#F3F3F3"
           },
           "Hot": {
             "count": 1,
@@ -2017,11 +2017,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 14399.78,
+      "google_spend": 14492.82,
       "meta_spend": 1272.17,
       "ppc_leads": 51,
       "fb_leads": 26,
-      "google_cpc": 19.64,
+      "google_cpc": 19.74,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 51,

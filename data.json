@@ -1,6 +1,6 @@
 {
   "report_date": "October 22, 2026",
-  "last_updated": "2026-10-22 16:03 EST",
+  "last_updated": "2026-10-22 17:02 EST",
   "google": {
     "spend_mtd": 14492.82,
     "clicks_mtd": 734,
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -330,8 +330,8 @@
     "2026-07": {
       "Charles": {
         "leads": 48,
-        "active": 53,
-        "booked": 49,
+        "active": 52,
+        "booked": 48,
         "offers": 45,
         "accepted": 9,
         "available": 0,
@@ -1333,12 +1333,8 @@
             "color": "#F3F3F3"
           },
           "Dead": {
-            "count": 2,
+            "count": 3,
             "color": "#F3F3F3"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
           },
           "Closed": {
             "count": 1,
@@ -1347,6 +1343,10 @@
           "Not Workable": {
             "count": 1,
             "color": "#D1F3EC"
+          },
+          "Under Contract": {
+            "count": 1,
+            "color": "#DCEBD8"
           }
         }
       },
@@ -1375,24 +1375,24 @@
             "count": 14,
             "color": "#D1F3EC"
           },
+          "Sold": {
+            "count": 14,
+            "color": "#C8C8C8"
+          },
           "Dead": {
             "count": 13,
             "color": "#F3F3F3"
-          },
-          "Sold": {
-            "count": 12,
-            "color": "#C8C8C8"
-          },
-          "Listed": {
-            "count": 10,
-            "color": "#C8C8C8"
           },
           "Wrong Number": {
             "count": 10,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
+          "Listed": {
             "count": 9,
+            "color": "#C8C8C8"
+          },
+          "No Longer Selling": {
+            "count": 8,
             "color": "#F3F3F3"
           },
           "Not Workable": {
@@ -1446,20 +1446,20 @@
             "count": 3,
             "color": "#F3F3F3"
           },
-          "Under Contract": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
           "Need to Contact": {
             "count": 3,
             "color": "#FFD5C2"
+          },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
           },
           "Dead": {
             "count": 2,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
-            "count": 1,
+            "count": 2,
             "color": "#D1F3EC"
           }
         }
@@ -1600,7 +1600,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 62,
+            "count": 61,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1612,23 +1612,23 @@
             "color": "#DCEBD8"
           },
           "Dead": {
-            "count": 12,
+            "count": 13,
+            "color": "#F3F3F3"
+          },
+          "No Longer Selling": {
+            "count": 7,
             "color": "#F3F3F3"
           },
           "Listed": {
             "count": 7,
             "color": "#C8C8C8"
           },
-          "No Longer Selling": {
-            "count": 6,
-            "color": "#F3F3F3"
-          },
           "Owes too Much": {
             "count": 6,
             "color": "#D1F3EC"
           },
           "Under Contract": {
-            "count": 6,
+            "count": 5,
             "color": "#DCEBD8"
           },
           "Sold": {
@@ -1726,7 +1726,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 75,
+            "count": 74,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1734,26 +1734,26 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 17,
+            "count": 18,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
-            "count": 14,
+            "count": 13,
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
             "count": 11,
             "color": "#F3F3F3"
           },
+          "Listed": {
+            "count": 10,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 10,
             "color": "#D1F3EC"
           },
           "Sold": {
-            "count": 9,
-            "color": "#C8C8C8"
-          },
-          "Listed": {
             "count": 9,
             "color": "#C8C8C8"
           },
@@ -1801,16 +1801,12 @@
             "color": "#FFD5C2"
           },
           "Listed": {
-            "count": 7,
+            "count": 8,
             "color": "#C8C8C8"
           },
           "Owes too Much": {
             "count": 7,
             "color": "#D1F3EC"
-          },
-          "Under Contract": {
-            "count": 5,
-            "color": "#DCEBD8"
           },
           "Wrong Number": {
             "count": 5,
@@ -1819,6 +1815,10 @@
           "Dead": {
             "count": 4,
             "color": "#F3F3F3"
+          },
+          "Under Contract": {
+            "count": 4,
+            "color": "#DCEBD8"
           },
           "Warm": {
             "count": 2,
@@ -1860,7 +1860,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 82,
+            "count": 79,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1883,16 +1883,16 @@
             "count": 13,
             "color": "#C8C8C8"
           },
+          "No Longer Selling": {
+            "count": 10,
+            "color": "#F3F3F3"
+          },
           "Under Contract": {
             "count": 9,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
-            "count": 8,
-            "color": "#F3F3F3"
-          },
           "Sold": {
-            "count": 4,
+            "count": 5,
             "color": "#C8C8C8"
           },
           "Not Workable": {

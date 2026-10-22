@@ -1,13 +1,13 @@
 {
   "report_date": "October 22, 2026",
-  "last_updated": "2026-10-22 17:02 EST",
+  "last_updated": "2026-10-22 18:07 EST",
   "google": {
-    "spend_mtd": 14492.82,
-    "clicks_mtd": 734,
+    "spend_mtd": 14506.4,
+    "clicks_mtd": 735,
     "crm_leads": 51,
     "crm_leads_today": 2,
     "cpc": 19.74,
-    "cpl": 284.17,
+    "cpl": 284.44,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 476,
         "cpc": 2.65,
         "crm_leads": 0,
-        "cpl": 284.17
+        "cpl": 284.44
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13231.4,
-        "spend_today": 469.42,
-        "clicks": 258,
-        "cpc": 51.28,
+        "spend": 13244.98,
+        "spend_today": 483.0,
+        "clicks": 259,
+        "cpc": 51.14,
         "crm_leads": 0,
-        "cpl": 284.17
+        "cpl": 284.44
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15764.99
+      "spend": 15778.57
     }
   },
   "reps_by_month": {
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -1112,7 +1112,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 15764.99
+    "2026-10": 15778.57
   },
   "channel_by_month": {
     "2026-01": {
@@ -1364,11 +1364,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 44,
+            "count": 43,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 22,
+            "count": 23,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1478,7 +1478,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 61,
+            "count": 60,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1501,6 +1501,10 @@
             "count": 9,
             "color": "#C8C8C8"
           },
+          "No Longer Selling": {
+            "count": 9,
+            "color": "#F3F3F3"
+          },
           "Owes too Much": {
             "count": 8,
             "color": "#D1F3EC"
@@ -1508,10 +1512,6 @@
           "Under Contract": {
             "count": 8,
             "color": "#DCEBD8"
-          },
-          "No Longer Selling": {
-            "count": 8,
-            "color": "#F3F3F3"
           },
           "Closed": {
             "count": 3,
@@ -1923,7 +1923,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 26,
+            "count": 27,
             "color": "#D2E4EB"
           },
           "Owes too Much": {
@@ -1946,13 +1946,13 @@
             "count": 7,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
-            "count": 4,
-            "color": "#F3F3F3"
-          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "No Longer Selling": {
+            "count": 3,
+            "color": "#F3F3F3"
           },
           "Hot": {
             "count": 1,
@@ -1978,7 +1978,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 66,
+            "count": 65,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2016,12 +2016,16 @@
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           }
         }
       }
     },
     "2026-10": {
-      "google_spend": 14492.82,
+      "google_spend": 14506.4,
       "meta_spend": 1272.17,
       "ppc_leads": 51,
       "fb_leads": 26,

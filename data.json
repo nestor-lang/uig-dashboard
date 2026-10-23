@@ -1,12 +1,12 @@
 {
   "report_date": "October 23, 2026",
-  "last_updated": "2026-10-23 04:09 AST",
+  "last_updated": "2026-10-23 14:48 AST",
   "google": {
-    "spend_mtd": 14671.98,
-    "clicks_mtd": 738,
+    "spend_mtd": 14799.97,
+    "clicks_mtd": 748,
     "crm_leads": 51,
-    "cpc": 19.88,
-    "cpl": 287.69,
+    "cpc": 19.79,
+    "cpl": 290.2,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -14,21 +14,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1261.42,
-        "spend_today": 0.0,
-        "clicks": 476,
-        "cpc": 2.65,
+        "spend": 1273.22,
+        "spend_today": 11.8,
+        "clicks": 483,
+        "cpc": 2.64,
         "crm_leads": 0,
-        "cpl": 287.69
+        "cpl": 290.2
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13410.56,
-        "spend_today": 0.0,
-        "clicks": 262,
-        "cpc": 51.19,
+        "spend": 13526.75,
+        "spend_today": 116.19,
+        "clicks": 265,
+        "cpc": 51.04,
         "crm_leads": 0,
-        "cpl": 287.69
+        "cpl": 290.2
       }
     ]
   },
@@ -67,16 +67,17 @@
     ]
   },
   "potential_income": 257698,
-  "assigned_income": 98800,
+  "assigned_income": 87800,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 103443,
-    "Access Scheduled": 91166,
+    "Access Scheduled": 54797,
+    "Initial Inspection Completed": 36369,
     "New Deal - Unscheduled": 35469,
     "On Market": 27621
   },
   "by_agent": {
     "Georgia": 40220,
-    "Virginia": 33411,
+    "Virginia": 22411,
     "Maryland": 15410,
     "South Carolina": 9758
   },
@@ -130,7 +131,7 @@
     },
     "2026-08": {
       "closed": 10000.0,
-      "pending": 20758.2,
+      "pending": 9758.2,
       "spend": 23086.120000000003
     },
     "2026-09": {
@@ -141,7 +142,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15944.15
+      "spend": 16072.65
     }
   },
   "reps_by_month": {
@@ -349,10 +350,10 @@
         "offers": 52,
         "accepted": 5,
         "available": 0,
-        "pending": 1,
-        "dead": 6,
+        "pending": 0,
+        "dead": 7,
         "closed": 1,
-        "pending_income": 11000.0,
+        "pending_income": 0.0,
         "closed_revenue": 50349.39
       },
       "Julian": {
@@ -399,7 +400,7 @@
     },
     "2026-10": {
       "Charles": {
-        "leads": 26,
+        "leads": 27,
         "active": 18,
         "booked": 17,
         "offers": 30,
@@ -658,14 +659,12 @@
         },
         "2026-09": {
           "counts": {
-            "dead": 5,
-            "other": 1,
-            "pending": 1
+            "dead": 6,
+            "other": 1
           },
           "gp": {
-            "dead": 35745,
-            "other": 7411,
-            "pending": 11000
+            "dead": 46745,
+            "other": 7411
           },
           "total": 7
         },
@@ -687,17 +686,15 @@
         "counts": {
           "on_hold": 1,
           "available": 2,
-          "dead": 40,
+          "dead": 41,
           "other": 1,
-          "pending": 1,
           "closed": 18
         },
         "gp": {
           "on_hold": 0,
           "available": 96562,
-          "dead": 838675,
+          "dead": 849675,
           "other": 7411,
-          "pending": 11000,
           "closed": 508930
         },
         "total": 63
@@ -714,7 +711,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 15944.15
+    "2026-10": 16072.14
   },
   "channel_by_month": {
     "2026-01": {
@@ -904,8 +901,8 @@
         "active": 116,
         "booked": 99,
         "offered": 90,
-        "accepted": 2,
-        "under_contract": 2,
+        "accepted": 1,
+        "under_contract": 1,
         "closed": 0
       }
     },
@@ -936,11 +933,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 14671.98,
+      "google_spend": 14799.97,
       "meta_spend": 1272.17,
       "ppc_leads": 51,
       "fb_leads": 26,
-      "google_cpc": 19.88,
+      "google_cpc": 19.79,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 51,
@@ -964,7 +961,7 @@
   },
   "pipeline": {
     "new_leads_30d": 77,
-    "hot": 4,
+    "hot": 5,
     "booked": 37,
     "offers": 33,
     "under_contract": 5,
@@ -1005,6 +1002,12 @@
       "address": "1685 Esprit Ct SW, Atlanta, GA 30331, USA",
       "phone": "(404) 375-4165",
       "source": "Facebook"
+    },
+    {
+      "name": "125 Smith Acres Rd",
+      "address": "125 Smith Acres Rd, Hertford, NC 27944, USA",
+      "phone": "+12522737758",
+      "source": "PPC - Inbound Call"
     },
     {
       "name": "408 Drew St",

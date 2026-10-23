@@ -1,13 +1,13 @@
 {
   "report_date": "October 23, 2026",
-  "last_updated": "2026-10-23 13:02 EST",
+  "last_updated": "2026-10-23 14:02 EST",
   "google": {
-    "spend_mtd": 15083.87,
-    "clicks_mtd": 752,
+    "spend_mtd": 15162.23,
+    "clicks_mtd": 756,
     "crm_leads": 52,
     "crm_leads_today": 1,
     "cpc": 20.06,
-    "cpl": 290.07,
+    "cpl": 291.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1276.45,
-        "spend_today": 15.03,
-        "clicks": 484,
-        "cpc": 2.64,
+        "spend": 1281.09,
+        "spend_today": 19.67,
+        "clicks": 487,
+        "cpc": 2.63,
         "crm_leads": 0,
-        "cpl": 290.07
+        "cpl": 291.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13807.42,
-        "spend_today": 396.86,
-        "clicks": 268,
-        "cpc": 51.52,
+        "spend": 13881.14,
+        "spend_today": 470.58,
+        "clicks": 269,
+        "cpc": 51.6,
         "crm_leads": 0,
-        "cpl": 290.07
+        "cpl": 291.58
       }
     ]
   },
@@ -144,7 +144,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16356.04
+      "spend": 16434.82
     }
   },
   "reps_by_month": {
@@ -210,7 +210,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -221,10 +221,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -235,12 +235,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -251,10 +251,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -265,7 +265,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -1098,7 +1098,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 16356.04
+    "2026-10": 16434.4
   },
   "channel_by_month": {
     "2026-01": {
@@ -1952,7 +1952,7 @@
       },
       "pipeline_fb": {
         "leads": 174,
-        "active": 83,
+        "active": 82,
         "booked": 66,
         "offered": 62,
         "accepted": 8,
@@ -1964,7 +1964,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 65,
+            "count": 64,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1980,7 +1980,7 @@
             "color": "#DCEBD8"
           },
           "Listed": {
-            "count": 10,
+            "count": 11,
             "color": "#C8C8C8"
           },
           "Dead": {
@@ -2007,7 +2007,7 @@
       }
     },
     "2026-10": {
-      "google_spend": 15083.87,
+      "google_spend": 15162.23,
       "meta_spend": 1272.17,
       "ppc_leads": 52,
       "fb_leads": 26,
@@ -2027,7 +2027,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 11,
+            "count": 12,
             "color": "#D2E4EB"
           },
           "Listed": {
@@ -2035,7 +2035,7 @@
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 10,
+            "count": 9,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -2179,7 +2179,7 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 11,
+        "count": 12,
         "color": "#D2E4EB"
       },
       "Listed": {
@@ -2187,7 +2187,7 @@
         "color": "#C8C8C8"
       },
       "Need to Contact": {
-        "count": 10,
+        "count": 9,
         "color": "#FFD5C2"
       },
       "Owes too Much": {

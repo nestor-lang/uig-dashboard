@@ -1,13 +1,13 @@
 {
   "report_date": "October 24, 2026",
-  "last_updated": "2026-10-24 07:03 EST",
+  "last_updated": "2026-10-24 08:02 EST",
   "google": {
-    "spend_mtd": 15405.1,
-    "clicks_mtd": 781,
-    "crm_leads": 52,
-    "crm_leads_today": 0,
-    "cpc": 19.72,
-    "cpl": 296.25,
+    "spend_mtd": 15406.1,
+    "clicks_mtd": 783,
+    "crm_leads": 53,
+    "crm_leads_today": 1,
+    "cpc": 19.68,
+    "cpl": 290.68,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1313.63,
-        "spend_today": 3.72,
-        "clicks": 510,
-        "cpc": 2.58,
+        "spend": 1314.63,
+        "spend_today": 4.73,
+        "clicks": 512,
+        "cpc": 2.57,
         "crm_leads": 0,
-        "cpl": 296.25
+        "cpl": 290.68
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 271,
         "cpc": 52.0,
         "crm_leads": 0,
-        "cpl": 296.25
+        "cpl": 290.68
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16677.27
+      "spend": 16678.27
     }
   },
   "reps_by_month": {
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -1081,7 +1081,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 16677.27
+    "2026-10": 16678.27
   },
   "channel_by_month": {
     "2026-01": {
@@ -1990,15 +1990,15 @@
       }
     },
     "2026-10": {
-      "google_spend": 15405.1,
+      "google_spend": 15406.1,
       "meta_spend": 1272.17,
-      "ppc_leads": 52,
+      "ppc_leads": 53,
       "fb_leads": 26,
-      "google_cpc": 19.72,
+      "google_cpc": 19.68,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
-        "leads": 52,
-        "active": 28,
+        "leads": 53,
+        "active": 29,
         "booked": 24,
         "offered": 21,
         "accepted": 5,
@@ -2013,13 +2013,13 @@
             "count": 12,
             "color": "#D2E4EB"
           },
+          "Need to Contact": {
+            "count": 10,
+            "color": "#FFD5C2"
+          },
           "Listed": {
             "count": 10,
             "color": "#C8C8C8"
-          },
-          "Need to Contact": {
-            "count": 9,
-            "color": "#FFD5C2"
           },
           "Owes too Much": {
             "count": 7,
@@ -2097,7 +2097,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 78,
+    "new_leads_30d": 79,
     "dispositioned_mtd": 65,
     "hot": 6,
     "booked": 37,
@@ -2149,8 +2149,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 52,
-    "active": 28,
+    "leads": 53,
+    "active": 29,
     "booked": 24,
     "offered": 21,
     "accepted": 38,
@@ -2165,13 +2165,13 @@
         "count": 12,
         "color": "#D2E4EB"
       },
+      "Need to Contact": {
+        "count": 10,
+        "color": "#FFD5C2"
+      },
       "Listed": {
         "count": 10,
         "color": "#C8C8C8"
-      },
-      "Need to Contact": {
-        "count": 9,
-        "color": "#FFD5C2"
       },
       "Owes too Much": {
         "count": 7,
@@ -2314,7 +2314,7 @@
     }
   ],
   "sources": {
-    "ppc": 52,
+    "ppc": 53,
     "facebook": 26,
     "ppc_inbound_call": 20
   },

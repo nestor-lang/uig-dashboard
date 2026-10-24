@@ -1,13 +1,13 @@
 {
   "report_date": "October 24, 2026",
-  "last_updated": "2026-10-24 10:07 EST",
+  "last_updated": "2026-10-24 11:12 EST",
   "google": {
-    "spend_mtd": 15633.98,
-    "clicks_mtd": 789,
+    "spend_mtd": 15746.73,
+    "clicks_mtd": 797,
     "crm_leads": 53,
     "crm_leads_today": 1,
-    "cpc": 19.81,
-    "cpl": 294.98,
+    "cpc": 19.76,
+    "cpl": 297.11,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1330.2,
-        "spend_today": 20.29,
-        "clicks": 516,
-        "cpc": 2.58,
+        "spend": 1339.8,
+        "spend_today": 29.9,
+        "clicks": 521,
+        "cpc": 2.57,
         "crm_leads": 0,
-        "cpl": 294.98
+        "cpl": 297.11
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 14303.78,
-        "spend_today": 212.31,
-        "clicks": 273,
-        "cpc": 52.39,
+        "spend": 14406.93,
+        "spend_today": 315.46,
+        "clicks": 276,
+        "cpc": 52.2,
         "crm_leads": 0,
-        "cpl": 294.98
+        "cpl": 297.11
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16906.15
+      "spend": 17018.9
     }
   },
   "reps_by_month": {
@@ -330,7 +330,7 @@
     "2026-07": {
       "Charles": {
         "leads": 48,
-        "active": 52,
+        "active": 53,
         "booked": 48,
         "offers": 45,
         "accepted": 9,
@@ -1081,7 +1081,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 16906.15
+    "2026-10": 17018.9
   },
   "channel_by_month": {
     "2026-01": {
@@ -1509,23 +1509,23 @@
         "contract_dead": 1,
         "closed": 3,
         "status_breakdown": {
-          "Cold": {
-            "count": 9,
-            "color": "#D2E4EB"
-          },
           "Dead": {
             "count": 8,
             "color": "#F3F3F3"
+          },
+          "Cold": {
+            "count": 8,
+            "color": "#D2E4EB"
+          },
+          "Sold": {
+            "count": 8,
+            "color": "#C8C8C8"
           },
           "Need to Contact": {
             "count": 7,
             "color": "#FFD5C2"
           },
           "Listed": {
-            "count": 7,
-            "color": "#C8C8C8"
-          },
-          "Sold": {
             "count": 7,
             "color": "#C8C8C8"
           },
@@ -1620,7 +1620,7 @@
       "meta_cpc": 2.68,
       "pipeline_ppc": {
         "leads": 58,
-        "active": 28,
+        "active": 29,
         "booked": 26,
         "offered": 23,
         "accepted": 6,
@@ -1758,7 +1758,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 17,
+            "count": 16,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1785,6 +1785,10 @@
             "count": 4,
             "color": "#DCEBD8"
           },
+          "Sold": {
+            "count": 3,
+            "color": "#C8C8C8"
+          },
           "Warm": {
             "count": 2,
             "color": "#F7F0C5"
@@ -1792,10 +1796,6 @@
           "Not Workable": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 2,
-            "color": "#C8C8C8"
           },
           "No Longer Selling": {
             "count": 2,
@@ -1829,11 +1829,11 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 48,
+            "count": 47,
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 25,
+            "count": 26,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1990,11 +1990,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 15633.98,
+      "google_spend": 15746.73,
       "meta_spend": 1272.17,
       "ppc_leads": 53,
       "fb_leads": 26,
-      "google_cpc": 19.81,
+      "google_cpc": 19.76,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 53,

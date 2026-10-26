@@ -1,13 +1,13 @@
 {
   "report_date": "October 26, 2026",
-  "last_updated": "2026-10-26 11:27 EST",
+  "last_updated": "2026-10-26 12:32 EST",
   "google": {
-    "spend_mtd": 17417.13,
-    "clicks_mtd": 856,
+    "spend_mtd": 17384.77,
+    "clicks_mtd": 857,
     "crm_leads": 59,
     "crm_leads_today": 2,
-    "cpc": 20.35,
-    "cpl": 295.21,
+    "cpc": 20.29,
+    "cpl": 294.66,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1470.27,
-        "spend_today": 41.95,
+        "spend": 1470.29,
+        "spend_today": 41.98,
         "clicks": 557,
         "cpc": 2.64,
         "crm_leads": 0,
-        "cpl": 295.21
+        "cpl": 294.66
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 15946.86,
-        "spend_today": 556.38,
-        "clicks": 299,
-        "cpc": 53.33,
+        "spend": 15914.48,
+        "spend_today": 524.0,
+        "clicks": 300,
+        "cpc": 53.05,
         "crm_leads": 0,
-        "cpl": 295.21
+        "cpl": 294.66
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18689.300000000003
+      "spend": 18656.940000000002
     }
   },
   "reps_by_month": {
@@ -420,7 +420,7 @@
     "2026-10": {
       "Charles": {
         "leads": 28,
-        "active": 20,
+        "active": 19,
         "booked": 17,
         "offers": 31,
         "accepted": 4,
@@ -433,10 +433,10 @@
         "discoveries": 28
       },
       "Julian": {
-        "leads": 39,
-        "active": 23,
-        "booked": 21,
-        "offers": 42,
+        "leads": 40,
+        "active": 24,
+        "booked": 22,
+        "offers": 43,
         "accepted": 6,
         "available": 2,
         "pending": 0,
@@ -444,7 +444,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 39
+        "discoveries": 40
       }
     }
   },
@@ -543,16 +543,14 @@
           "counts": {
             "available": 2,
             "dead": 6,
-            "other": 1,
-            "on_hold": 1,
-            "pending": 1
+            "pending": 2,
+            "on_hold": 1
           },
           "gp": {
             "available": 42568,
             "dead": 118226,
-            "other": 4040,
-            "on_hold": 34915,
-            "pending": 40220
+            "pending": 44260,
+            "on_hold": 34915
           },
           "total": 11
         },
@@ -576,17 +574,17 @@
         "counts": {
           "available": 5,
           "dead": 51,
-          "other": 2,
+          "other": 1,
           "on_hold": 3,
-          "pending": 1,
+          "pending": 2,
           "closed": 22
         },
         "gp": {
           "available": 127406,
           "dead": 1203269,
-          "other": 19040,
+          "other": 15000,
           "on_hold": 124635,
-          "pending": 40220,
+          "pending": 44260,
           "closed": 355420
         },
         "total": 84
@@ -606,7 +604,7 @@
           "closed": 2
         },
         "sms": {
-          "other": 1,
+          "pending": 1,
           "closed": 15,
           "dead": 22,
           "on_hold": 1
@@ -636,7 +634,7 @@
             "available": 1
           },
           "sms": {
-            "other": 1
+            "pending": 1
           }
         },
         "2026-08": {
@@ -751,6 +749,15 @@
           "address": "319 S College Ave, Bluefield, VA 24605, USA",
           "value": 13681,
           "status": "Available",
+          "stage": "On Market",
+          "stage_color": "CFFCC7",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-09"
+        },
+        {
+          "address": "2425 Denison St, Baltimore, MD 21216, USA",
+          "value": 4040,
+          "status": "Sent to Title",
           "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
@@ -1054,12 +1061,12 @@
   },
   "pipeline_contracts": {
     "available": 7,
-    "pending": 1,
+    "pending": 2,
     "on_hold": 4,
     "closed": 40,
     "dead": 92,
     "gp_available": 223968,
-    "gp_pending": 40220,
+    "gp_pending": 44260,
     "gp_on_hold": 124635,
     "gp_closed": 864350,
     "gp_dead": 2052944
@@ -1074,7 +1081,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 18689.3
+    "2026-10": 18656.94
   },
   "channel_by_month": {
     "2026-01": {
@@ -1987,17 +1994,17 @@
       }
     },
     "2026-10": {
-      "google_spend": 17417.13,
+      "google_spend": 17384.77,
       "meta_spend": 1272.17,
       "ppc_leads": 59,
       "fb_leads": 26,
-      "google_cpc": 20.35,
+      "google_cpc": 20.29,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 59,
         "active": 34,
-        "booked": 24,
-        "offered": 21,
+        "booked": 25,
+        "offered": 22,
         "accepted": 5,
         "under_contract": 5,
         "contract_available": 3,
@@ -2007,7 +2014,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 16,
+            "count": 15,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -2026,13 +2033,13 @@
             "count": 5,
             "color": "#DCEBD8"
           },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
+          },
           "Wrong Number": {
             "count": 3,
             "color": "#DCEBD8"
-          },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
           },
           "No Longer Selling": {
             "count": 2,
@@ -2091,10 +2098,10 @@
   },
   "pipeline": {
     "new_leads_30d": 85,
-    "dispositioned_mtd": 67,
+    "dispositioned_mtd": 68,
     "hot": 8,
-    "booked": 37,
-    "offers": 33,
+    "booked": 38,
+    "offers": 34,
     "under_contract": 5,
     "closed": 0
   },
@@ -2140,8 +2147,8 @@
   "pipeline_ppc": {
     "leads": 59,
     "active": 34,
-    "booked": 24,
-    "offered": 21,
+    "booked": 25,
+    "offered": 22,
     "accepted": 38,
     "under_contract": 38,
     "contract_available": 4,
@@ -2151,7 +2158,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 16,
+        "count": 15,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -2170,13 +2177,13 @@
         "count": 5,
         "color": "#DCEBD8"
       },
+      "Warm": {
+        "count": 3,
+        "color": "#F7F0C5"
+      },
       "Wrong Number": {
         "count": 3,
         "color": "#DCEBD8"
-      },
-      "Warm": {
-        "count": 2,
-        "color": "#F7F0C5"
       },
       "No Longer Selling": {
         "count": 2,
@@ -2200,14 +2207,14 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 39,
-      "offers": 42,
+      "discoveries": 40,
+      "offers": 43,
       "contracts": 6,
       "revenue": 15458.2
     }
   },
   "pipeline_by_agent": {
-    "Julian": 167626,
+    "Julian": 171666,
     "Charles": 96562
   },
   "agent_deals": [
@@ -2245,6 +2252,16 @@
       "address": "319 S College Ave, Bluefield, VA 24605, USA",
       "value": 13681,
       "status": "Available",
+      "stage": "On Market",
+      "stage_color": "CFFCC7",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-09",
+      "agent": "Julian"
+    },
+    {
+      "address": "2425 Denison St, Baltimore, MD 21216, USA",
+      "value": 4040,
+      "status": "Sent to Title",
       "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,

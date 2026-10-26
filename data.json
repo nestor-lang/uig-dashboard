@@ -1,13 +1,13 @@
 {
   "report_date": "October 26, 2026",
-  "last_updated": "2026-10-26 13:37 EST",
+  "last_updated": "2026-10-26 14:42 EST",
   "google": {
-    "spend_mtd": 17450.77,
-    "clicks_mtd": 859,
+    "spend_mtd": 17454.77,
+    "clicks_mtd": 864,
     "crm_leads": 59,
     "crm_leads_today": 2,
-    "cpc": 20.32,
-    "cpl": 295.78,
+    "cpc": 20.2,
+    "cpl": 295.84,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1470.9,
-        "spend_today": 42.58,
-        "clicks": 558,
-        "cpc": 2.64,
+        "spend": 1474.9,
+        "spend_today": 46.58,
+        "clicks": 563,
+        "cpc": 2.62,
         "crm_leads": 0,
-        "cpl": 295.78
+        "cpl": 295.84
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 301,
         "cpc": 53.09,
         "crm_leads": 0,
-        "cpl": 295.78
+        "cpl": 295.84
       }
     ]
   },
@@ -137,13 +137,13 @@
     },
     "2026-09": {
       "closed": 0.0,
-      "pending": 47631.37,
+      "pending": 62631.37,
       "spend": 26439.260000000002
     },
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 18722.940000000002
+      "spend": 18726.39
     }
   },
   "reps_by_month": {
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 25,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 47,
         "booked": 43,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -408,11 +408,11 @@
         "booked": 64,
         "offers": 79,
         "accepted": 11,
-        "available": 4,
-        "pending": 1,
+        "available": 3,
+        "pending": 2,
         "dead": 3,
         "closed": 0,
-        "pending_income": 40220.37,
+        "pending_income": 55220.37,
         "closed_revenue": 7070.24,
         "discoveries": 75
       }
@@ -1087,7 +1087,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 18722.94
+    "2026-10": 18726.94
   },
   "channel_by_month": {
     "2026-01": {
@@ -1457,7 +1457,7 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 35,
+            "count": 36,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
@@ -1481,7 +1481,7 @@
             "color": "#D1F3EC"
           },
           "Under Contract": {
-            "count": 8,
+            "count": 7,
             "color": "#DCEBD8"
           },
           "Closed": {
@@ -1578,13 +1578,13 @@
             "count": 24,
             "color": "#FFD5C2"
           },
+          "Dead": {
+            "count": 15,
+            "color": "#F3F3F3"
+          },
           "Wrong Number": {
             "count": 14,
             "color": "#DCEBD8"
-          },
-          "Dead": {
-            "count": 13,
-            "color": "#F3F3F3"
           },
           "No Longer Selling": {
             "count": 8,
@@ -1598,13 +1598,13 @@
             "count": 7,
             "color": "#C8C8C8"
           },
-          "Under Contract": {
-            "count": 5,
-            "color": "#DCEBD8"
-          },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
+          },
+          "Under Contract": {
+            "count": 3,
+            "color": "#DCEBD8"
           },
           "Not Workable": {
             "count": 3,
@@ -1779,16 +1779,16 @@
             "count": 7,
             "color": "#D1F3EC"
           },
+          "Dead": {
+            "count": 5,
+            "color": "#F3F3F3"
+          },
           "Wrong Number": {
             "count": 5,
             "color": "#DCEBD8"
           },
-          "Dead": {
-            "count": 4,
-            "color": "#F3F3F3"
-          },
           "Under Contract": {
-            "count": 4,
+            "count": 3,
             "color": "#DCEBD8"
           },
           "Sold": {
@@ -2000,11 +2000,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 17450.77,
+      "google_spend": 17454.77,
       "meta_spend": 1272.17,
       "ppc_leads": 59,
       "fb_leads": 26,
-      "google_cpc": 20.32,
+      "google_cpc": 20.2,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 59,

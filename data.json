@@ -1,6 +1,6 @@
 {
   "report_date": "October 27, 2026",
-  "last_updated": "2026-10-27 10:22 EST",
+  "last_updated": "2026-10-27 11:27 EST",
   "google": {
     "spend_mtd": 18397.86,
     "clicks_mtd": 890,
@@ -68,12 +68,12 @@
       }
     ]
   },
-  "potential_income": 218968,
+  "potential_income": 198968,
   "assigned_income": 82081,
   "by_stage": {
-    "Market Prep / Pre-Listing Marketing": 138449,
+    "Market Prep / Pre-Listing Marketing": 103449,
+    "New Deal - Unscheduled": 45469,
     "Initial Inspection Completed": 36369,
-    "New Deal - Unscheduled": 30469,
     "On Market": 13681
   },
   "by_agent": {
@@ -269,8 +269,8 @@
     "2026-05": {
       "Charles": {
         "leads": 36,
-        "active": 43,
-        "booked": 37,
+        "active": 42,
+        "booked": 36,
         "offers": 33,
         "accepted": 10,
         "available": 1,
@@ -358,10 +358,10 @@
     },
     "2026-08": {
       "Charles": {
-        "leads": 52,
+        "leads": 51,
         "active": 66,
         "booked": 56,
-        "offers": 52,
+        "offers": 51,
         "accepted": 5,
         "available": 0,
         "pending": 0,
@@ -369,7 +369,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 51364.39,
-        "discoveries": 52
+        "discoveries": 51
       },
       "Julian": {
         "leads": 78,
@@ -561,7 +561,7 @@
             "on_hold": 1
           },
           "gp": {
-            "available": 79838,
+            "available": 94838,
             "dead": 9791,
             "pending": 15000,
             "on_hold": 39830
@@ -578,7 +578,7 @@
           "closed": 22
         },
         "gp": {
-          "available": 122406,
+          "available": 137406,
           "dead": 1203269,
           "pending": 59260,
           "on_hold": 124635,
@@ -716,7 +716,7 @@
       "deals": [
         {
           "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
-          "value": -5000,
+          "value": 10000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -906,7 +906,7 @@
           },
           "gp": {
             "on_hold": 0,
-            "available": 96562,
+            "available": 61562,
             "dead": 39999
           },
           "total": 5
@@ -922,7 +922,7 @@
         },
         "gp": {
           "on_hold": 0,
-          "available": 96562,
+          "available": 61562,
           "dead": 849675,
           "other": 7411,
           "closed": 508930
@@ -1063,7 +1063,7 @@
         },
         {
           "address": "644 Meadow St NE, Coeburn, VA 24230, USA",
-          "value": 54797,
+          "value": 19797,
           "status": "Available",
           "stage": "Market Prep / Pre-Listing Marketing",
           "stage_color": "CFFCC7",
@@ -1079,7 +1079,7 @@
     "on_hold": 4,
     "closed": 40,
     "dead": 92,
-    "gp_available": 218968,
+    "gp_available": 198968,
     "gp_pending": 59260,
     "gp_on_hold": 124635,
     "gp_closed": 864350,
@@ -1143,7 +1143,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 6,
+            "count": 5,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1169,6 +1169,10 @@
           "No Longer Selling": {
             "count": 1,
             "color": "#F3F3F3"
+          },
+          "Sold": {
+            "count": 1,
+            "color": "#C8C8C8"
           }
         }
       }
@@ -1389,7 +1393,7 @@
       "google_spend": 7624.1,
       "meta_spend": 13048.79,
       "ppc_leads": 43,
-      "fb_leads": 195,
+      "fb_leads": 194,
       "google_cpc": 29.55,
       "meta_cpc": 2.62,
       "pipeline_ppc": {
@@ -1444,10 +1448,10 @@
         }
       },
       "pipeline_fb": {
-        "leads": 195,
-        "active": 87,
-        "booked": 74,
-        "offered": 60,
+        "leads": 194,
+        "active": 86,
+        "booked": 73,
+        "offered": 59,
         "accepted": 10,
         "under_contract": 10,
         "contract_available": 0,
@@ -1477,7 +1481,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 12,
+            "count": 11,
             "color": "#F3F3F3"
           },
           "Listed": {
@@ -1579,7 +1583,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 59,
+            "count": 58,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1598,13 +1602,13 @@
             "count": 9,
             "color": "#F3F3F3"
           },
+          "Sold": {
+            "count": 8,
+            "color": "#C8C8C8"
+          },
           "Owes too Much": {
             "count": 7,
             "color": "#D1F3EC"
-          },
-          "Sold": {
-            "count": 7,
-            "color": "#C8C8C8"
           },
           "Listed": {
             "count": 4,
@@ -2236,13 +2240,13 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 181666,
-    "Charles": 96562
+    "Julian": 196666,
+    "Charles": 61562
   },
   "agent_deals": [
     {
       "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
-      "value": -5000,
+      "value": 10000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -2342,7 +2346,7 @@
     },
     {
       "address": "644 Meadow St NE, Coeburn, VA 24230, USA",
-      "value": 54797,
+      "value": 19797,
       "status": "Available",
       "stage": "Market Prep / Pre-Listing Marketing",
       "stage_color": "CFFCC7",

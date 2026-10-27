@@ -1,6 +1,6 @@
 {
   "report_date": "October 27, 2026",
-  "last_updated": "2026-10-27 09:17 EST",
+  "last_updated": "2026-10-27 10:22 EST",
   "google": {
     "spend_mtd": 18397.86,
     "clicks_mtd": 890,
@@ -71,8 +71,8 @@
   "potential_income": 218968,
   "assigned_income": 82081,
   "by_stage": {
-    "Initial Inspection Completed": 91166,
-    "Market Prep / Pre-Listing Marketing": 83652,
+    "Market Prep / Pre-Listing Marketing": 138449,
+    "Initial Inspection Completed": 36369,
     "New Deal - Unscheduled": 30469,
     "On Market": 13681
   },
@@ -239,8 +239,8 @@
     "2026-04": {
       "Charles": {
         "leads": 50,
-        "active": 46,
-        "booked": 43,
+        "active": 47,
+        "booked": 44,
         "offers": 35,
         "accepted": 6,
         "available": 0,
@@ -418,10 +418,10 @@
     },
     "2026-10": {
       "Charles": {
-        "leads": 28,
+        "leads": 29,
         "active": 18,
         "booked": 17,
-        "offers": 35,
+        "offers": 36,
         "accepted": 4,
         "available": 2,
         "pending": 0,
@@ -429,10 +429,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 28
+        "discoveries": 29
       },
       "Julian": {
-        "leads": 40,
+        "leads": 41,
         "active": 24,
         "booked": 22,
         "offers": 43,
@@ -443,7 +443,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 40
+        "discoveries": 41
       }
     }
   },
@@ -1065,8 +1065,8 @@
           "address": "644 Meadow St NE, Coeburn, VA 24230, USA",
           "value": 54797,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         }
@@ -1331,9 +1331,9 @@
       },
       "pipeline_fb": {
         "leads": 144,
-        "active": 81,
-        "booked": 75,
-        "offered": 62,
+        "active": 82,
+        "booked": 76,
+        "offered": 63,
         "accepted": 3,
         "under_contract": 3,
         "contract_available": 0,
@@ -1343,11 +1343,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 44,
+            "count": 45,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 21,
+            "count": 20,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1359,20 +1359,20 @@
             "color": "#C8C8C8"
           },
           "Dead": {
-            "count": 13,
+            "count": 14,
             "color": "#F3F3F3"
           },
           "Wrong Number": {
             "count": 10,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
-            "count": 9,
-            "color": "#F3F3F3"
-          },
           "Listed": {
             "count": 8,
             "color": "#C8C8C8"
+          },
+          "No Longer Selling": {
+            "count": 8,
+            "color": "#F3F3F3"
           },
           "Not Workable": {
             "count": 5,
@@ -1457,7 +1457,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 52,
+            "count": 51,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1477,7 +1477,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 11,
+            "count": 12,
             "color": "#F3F3F3"
           },
           "Listed": {
@@ -1579,7 +1579,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 60,
+            "count": 59,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1595,7 +1595,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 8,
+            "count": 9,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1705,7 +1705,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 71,
+            "count": 70,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1725,7 +1725,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 11,
+            "count": 12,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1839,7 +1839,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 76,
+            "count": 75,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1859,7 +1859,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 11,
+            "count": 12,
             "color": "#F3F3F3"
           },
           "Listed": {
@@ -1906,11 +1906,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 18,
+            "count": 19,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 16,
+            "count": 15,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1918,7 +1918,7 @@
             "color": "#D1F3EC"
           },
           "Listed": {
-            "count": 9,
+            "count": 8,
             "color": "#C8C8C8"
           },
           "Dead": {
@@ -1934,7 +1934,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 3,
+            "count": 4,
             "color": "#F3F3F3"
           },
           "Hot": {
@@ -2116,7 +2116,7 @@
   },
   "pipeline": {
     "new_leads_30d": 86,
-    "dispositioned_mtd": 68,
+    "dispositioned_mtd": 70,
     "hot": 6,
     "booked": 38,
     "offers": 34,
@@ -2223,13 +2223,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 28,
-      "offers": 35,
+      "discoveries": 29,
+      "offers": 36,
       "contracts": 4,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 40,
+      "discoveries": 41,
       "offers": 43,
       "contracts": 7,
       "revenue": 15458.2
@@ -2344,8 +2344,8 @@
       "address": "644 Meadow St NE, Coeburn, VA 24230, USA",
       "value": 54797,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"

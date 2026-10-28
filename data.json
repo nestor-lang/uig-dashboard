@@ -1,13 +1,13 @@
 {
   "report_date": "October 28, 2026",
-  "last_updated": "2026-10-28 16:02 EST",
+  "last_updated": "2026-10-28 17:07 EST",
   "google": {
-    "spend_mtd": 19583.13,
-    "clicks_mtd": 928,
+    "spend_mtd": 19760.92,
+    "clicks_mtd": 931,
     "crm_leads": 64,
     "crm_leads_today": 3,
-    "cpc": 21.1,
-    "cpl": 305.99,
+    "cpc": 21.23,
+    "cpl": 308.76,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 593,
         "cpc": 2.67,
         "crm_leads": 0,
-        "cpl": 305.99
+        "cpl": 308.76
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 17998.2,
-        "spend_today": 436.3,
-        "clicks": 335,
-        "cpc": 53.73,
+        "spend": 18175.99,
+        "spend_today": 614.09,
+        "clicks": 338,
+        "cpc": 53.78,
         "crm_leads": 0,
-        "cpl": 305.99
+        "cpl": 308.76
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 20855.300000000003
+      "spend": 21033.089999999997
     }
   },
   "reps_by_month": {
@@ -1093,7 +1093,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 20855.3
+    "2026-10": 21033.09
   },
   "channel_by_month": {
     "2026-01": {
@@ -1778,7 +1778,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 12,
+            "count": 11,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -1809,13 +1809,13 @@
             "count": 2,
             "color": "#D1F3EC"
           },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
+          },
           "No Longer Selling": {
             "count": 2,
             "color": "#F3F3F3"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Warm": {
             "count": 1,
@@ -2018,11 +2018,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 19583.13,
+      "google_spend": 19760.92,
       "meta_spend": 1272.17,
       "ppc_leads": 64,
       "fb_leads": 26,
-      "google_cpc": 21.1,
+      "google_cpc": 21.23,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 64,
@@ -2127,7 +2127,7 @@
   "pipeline": {
     "new_leads_30d": 90,
     "dispositioned_mtd": 74,
-    "hot": 7,
+    "hot": 8,
     "booked": 41,
     "offers": 37,
     "under_contract": 5,

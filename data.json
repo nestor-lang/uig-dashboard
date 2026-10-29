@@ -1,13 +1,13 @@
 {
   "report_date": "October 29, 2026",
-  "last_updated": "2026-10-29 08:12 EST",
+  "last_updated": "2026-10-29 09:17 EST",
   "google": {
-    "spend_mtd": 20027.98,
-    "clicks_mtd": 945,
-    "crm_leads": 65,
-    "crm_leads_today": 1,
+    "spend_mtd": 20087.37,
+    "clicks_mtd": 948,
+    "crm_leads": 66,
+    "crm_leads_today": 2,
     "cpc": 21.19,
-    "cpl": 308.12,
+    "cpl": 304.35,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1602.85,
-        "spend_today": 17.91,
-        "clicks": 601,
+        "spend": 1607.36,
+        "spend_today": 22.42,
+        "clicks": 603,
         "cpc": 2.67,
         "crm_leads": 0,
-        "cpl": 308.12
+        "cpl": 304.35
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 18425.14,
-        "spend_today": 0.0,
-        "clicks": 344,
-        "cpc": 53.56,
+        "spend": 18480.02,
+        "spend_today": 54.88,
+        "clicks": 345,
+        "cpc": 53.57,
         "crm_leads": 0,
-        "cpl": 308.12
+        "cpl": 304.35
       }
     ]
   },
@@ -40,7 +40,7 @@
     "crm_leads_today": 0,
     "cpc": 3.49,
     "cpl_crm": 48.93,
-    "cost_per_hot": 636.09,
+    "cost_per_hot": 424.06,
     "campaigns": [
       {
         "name": "REIT\u00ae | Prospecting | March 17th | Broad",
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 21300.15
+      "spend": 21359.54
     }
   },
   "reps_by_month": {
@@ -1093,7 +1093,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 21300.15
+    "2026-10": 21359.54
   },
   "channel_by_month": {
     "2026-01": {
@@ -1494,13 +1494,17 @@
             "count": 3,
             "color": "#DCEBD8"
           },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
           "Not Workable": {
             "count": 1,
             "color": "#D1F3EC"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           }
         }
       }
@@ -2018,15 +2022,15 @@
       }
     },
     "2026-10": {
-      "google_spend": 20027.98,
+      "google_spend": 20087.37,
       "meta_spend": 1272.17,
-      "ppc_leads": 65,
+      "ppc_leads": 66,
       "fb_leads": 26,
       "google_cpc": 21.19,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
-        "leads": 65,
-        "active": 37,
+        "leads": 66,
+        "active": 38,
         "booked": 28,
         "offered": 25,
         "accepted": 6,
@@ -2038,7 +2042,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 16,
+            "count": 17,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -2125,9 +2129,9 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 91,
+    "new_leads_30d": 92,
     "dispositioned_mtd": 74,
-    "hot": 8,
+    "hot": 9,
     "booked": 41,
     "offers": 37,
     "under_contract": 5,
@@ -2177,8 +2181,8 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 65,
-    "active": 37,
+    "leads": 66,
+    "active": 38,
     "booked": 28,
     "offered": 25,
     "accepted": 40,
@@ -2190,7 +2194,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 16,
+        "count": 17,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -2362,7 +2366,7 @@
     }
   ],
   "sources": {
-    "ppc": 65,
+    "ppc": 66,
     "facebook": 26,
     "ppc_inbound_call": 16
   },
@@ -2380,6 +2384,12 @@
       "source": "Facebook"
     },
     {
+      "name": "7780 Starlight Ln",
+      "address": "7780 Starlight Ln, Boones Mill, VA 24065, USA",
+      "phone": "(540) 815-0537",
+      "source": "Facebook"
+    },
+    {
       "name": "1918 Old Post Terrace",
       "address": "1918 Old Post Terrace, Woodbridge, VA 22191, USA",
       "phone": "+17035936209",
@@ -2390,12 +2400,6 @@
       "address": "125 Smith Acres Rd, Hertford, NC 27944, USA",
       "phone": "+12522737758",
       "source": "PPC - Inbound Call"
-    },
-    {
-      "name": "408 Drew St",
-      "address": "408 Drew St, Baltimore, MD 21224, USA",
-      "phone": "(703) 869-5731",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

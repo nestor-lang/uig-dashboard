@@ -1,6 +1,6 @@
 {
   "report_date": "October 29, 2026",
-  "last_updated": "2026-10-29 14:02 EST",
+  "last_updated": "2026-10-29 15:02 EST",
   "google": {
     "spend_mtd": 20444.46,
     "clicks_mtd": 958,
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -1616,13 +1616,17 @@
             "count": 4,
             "color": "#C8C8C8"
           },
-          "Under Contract": {
-            "count": 3,
-            "color": "#DCEBD8"
-          },
           "Not Workable": {
             "count": 3,
             "color": "#D1F3EC"
+          },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Closed": {
             "count": 1,
@@ -1790,7 +1794,7 @@
             "color": "#C8C8C8"
           },
           "Owes too Much": {
-            "count": 7,
+            "count": 8,
             "color": "#D1F3EC"
           },
           "Dead": {
@@ -1799,10 +1803,6 @@
           },
           "Wrong Number": {
             "count": 5,
-            "color": "#DCEBD8"
-          },
-          "Under Contract": {
-            "count": 3,
             "color": "#DCEBD8"
           },
           "Sold": {
@@ -1816,6 +1816,10 @@
           "Hot": {
             "count": 2,
             "color": "#F7D1D0"
+          },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
           },
           "No Longer Selling": {
             "count": 2,

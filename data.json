@@ -1,13 +1,13 @@
 {
   "report_date": "October 30, 2026",
-  "last_updated": "2026-10-30 15:07 EST",
+  "last_updated": "2026-10-30 16:12 EST",
   "google": {
-    "spend_mtd": 20953.31,
-    "clicks_mtd": 991,
+    "spend_mtd": 21171.97,
+    "clicks_mtd": 994,
     "crm_leads": 73,
     "crm_leads_today": 3,
-    "cpc": 21.14,
-    "cpl": 287.03,
+    "cpc": 21.3,
+    "cpl": 290.03,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 632,
         "cpc": 2.69,
         "crm_leads": 0,
-        "cpl": 287.03
+        "cpl": 290.03
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 19253.99,
-        "spend_today": 359.47,
-        "clicks": 359,
-        "cpc": 53.63,
+        "spend": 19472.65,
+        "spend_today": 578.13,
+        "clicks": 362,
+        "cpc": 53.79,
         "crm_leads": 0,
-        "cpl": 287.03
+        "cpl": 290.03
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": 204098,
+  "potential_income": -20902,
   "assigned_income": 79670,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 70652,
-    "New Deal - Unscheduled": 50469,
     "On Market": 43978,
     "Initial Inspection Completed": 28999,
-    "Access Scheduled": 10000
+    "Access Scheduled": 10000,
+    "New Deal - Unscheduled": -174531
   },
   "by_agent": {
     "Georgia": 40220,
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 22225.480000000003
+      "spend": 22444.14
     }
   },
   "reps_by_month": {
@@ -422,8 +422,8 @@
         "leads": 35,
         "active": 23,
         "booked": 22,
-        "offers": 45,
-        "accepted": 5,
+        "offers": 46,
+        "accepted": 6,
         "available": 3,
         "pending": 0,
         "dead": 0,
@@ -901,34 +901,39 @@
         },
         "2026-10": {
           "counts": {
-            "available": 3,
+            "available": 4,
             "on_hold": 1,
             "dead": 2
           },
           "gp": {
-            "available": 74062,
+            "available": -150938,
             "on_hold": 0,
             "dead": 39999
           },
-          "total": 6
+          "total": 7
         }
       },
       "all_time": {
         "counts": {
-          "available": 3,
+          "available": 4,
           "on_hold": 1,
           "dead": 41,
           "closed": 19
         },
         "gp": {
-          "available": 74062,
+          "available": -150938,
           "on_hold": 0,
           "dead": 849675,
           "closed": 516341
         },
-        "total": 64
+        "total": 65
       },
       "channel_counts": {
+        "sms": {
+          "available": 1,
+          "dead": 11,
+          "closed": 8
+        },
         "ppc": {
           "available": 2,
           "on_hold": 1,
@@ -939,14 +944,13 @@
           "available": 1,
           "dead": 18,
           "closed": 4
-        },
-        "sms": {
-          "dead": 11,
-          "closed": 8
         }
       },
       "by_month_channel_counts": {
         "2026-10": {
+          "sms": {
+            "available": 1
+          },
           "ppc": {
             "available": 2,
             "on_hold": 1,
@@ -1051,6 +1055,15 @@
       },
       "deals": [
         {
+          "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
+          "value": -225000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-10"
+        },
+        {
           "address": "305 Colquitt St, LaGrange, GA 30241, USA",
           "value": 15000,
           "status": "Available",
@@ -1081,12 +1094,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 9,
+    "available": 10,
     "pending": 3,
     "on_hold": 4,
     "closed": 41,
     "dead": 92,
-    "gp_available": 204098,
+    "gp_available": -20902,
     "gp_pending": 64260,
     "gp_on_hold": 124635,
     "gp_closed": 871761,
@@ -1102,7 +1115,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 22225.48
+    "2026-10": 22444.14
   },
   "channel_by_month": {
     "2026-01": {
@@ -1669,7 +1682,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 11,
+            "count": 10,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1688,6 +1701,10 @@
             "count": 4,
             "color": "#DCEBD8"
           },
+          "Sold": {
+            "count": 3,
+            "color": "#C8C8C8"
+          },
           "Under Contract": {
             "count": 3,
             "color": "#DCEBD8"
@@ -1695,10 +1712,6 @@
           "Closed": {
             "count": 3,
             "color": "#DCEBD8"
-          },
-          "Sold": {
-            "count": 2,
-            "color": "#C8C8C8"
           },
           "No Longer Selling": {
             "count": 2,
@@ -1862,15 +1875,15 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 72,
+            "count": 71,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 46,
+            "count": 45,
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 28,
+            "count": 29,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -1886,7 +1899,7 @@
             "color": "#F3F3F3"
           },
           "Sold": {
-            "count": 11,
+            "count": 12,
             "color": "#C8C8C8"
           },
           "Listed": {
@@ -2039,11 +2052,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 20953.31,
+      "google_spend": 21171.97,
       "meta_spend": 1272.17,
       "ppc_leads": 73,
       "fb_leads": 26,
-      "google_cpc": 21.14,
+      "google_cpc": 21.3,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 73,
@@ -2059,11 +2072,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 19,
+            "count": 18,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 16,
+            "count": 17,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -2211,11 +2224,11 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 19,
+        "count": 18,
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 16,
+        "count": 17,
         "color": "#FFD5C2"
       },
       "Listed": {
@@ -2255,8 +2268,8 @@
   "reps": {
     "Charles": {
       "discoveries": 35,
-      "offers": 45,
-      "contracts": 5,
+      "offers": 46,
+      "contracts": 6,
       "revenue": 7411.0
     },
     "Julian": {
@@ -2268,7 +2281,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 194296,
-    "Charles": 74062
+    "Charles": -150938
   },
   "agent_deals": [
     {
@@ -2360,6 +2373,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"
+    },
+    {
+      "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
+      "value": -225000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-10",
+      "agent": "Charles"
     },
     {
       "address": "305 Colquitt St, LaGrange, GA 30241, USA",

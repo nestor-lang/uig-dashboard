@@ -1,13 +1,13 @@
 {
   "report_date": "October 30, 2026",
-  "last_updated": "2026-10-30 10:02 EST",
+  "last_updated": "2026-10-30 11:02 EST",
   "google": {
-    "spend_mtd": 20746.38,
-    "clicks_mtd": 983,
+    "spend_mtd": 20751.83,
+    "clicks_mtd": 986,
     "crm_leads": 71,
     "crm_leads_today": 1,
-    "cpc": 21.11,
-    "cpl": 292.2,
+    "cpc": 21.05,
+    "cpl": 292.28,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1666.98,
-        "spend_today": 41.16,
-        "clicks": 627,
-        "cpc": 2.66,
+        "spend": 1669.09,
+        "spend_today": 43.27,
+        "clicks": 629,
+        "cpc": 2.65,
         "crm_leads": 0,
-        "cpl": 292.2
+        "cpl": 292.28
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 19079.4,
-        "spend_today": 184.88,
-        "clicks": 356,
-        "cpc": 53.59,
+        "spend": 19082.74,
+        "spend_today": 188.22,
+        "clicks": 357,
+        "cpc": 53.45,
         "crm_leads": 0,
-        "cpl": 292.2
+        "cpl": 292.28
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 22018.550000000003
+      "spend": 22024.0
     }
   },
   "reps_by_month": {
@@ -1093,7 +1093,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 22018.55
+    "2026-10": 22024.0
   },
   "channel_by_month": {
     "2026-01": {
@@ -1849,7 +1849,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 73,
+            "count": 72,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1857,7 +1857,7 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 27,
+            "count": 28,
             "color": "#F3F3F3"
           },
           "Owes too Much": {
@@ -2026,11 +2026,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 20746.38,
+      "google_spend": 20751.83,
       "meta_spend": 1272.17,
       "ppc_leads": 71,
       "fb_leads": 26,
-      "google_cpc": 21.11,
+      "google_cpc": 21.05,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 71,
@@ -2069,17 +2069,17 @@
             "count": 4,
             "color": "#DCEBD8"
           },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
+          },
           "Warm": {
-            "count": 3,
+            "count": 2,
             "color": "#F7F0C5"
           },
           "No Longer Selling": {
             "count": 2,
             "color": "#F3F3F3"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Dead": {
             "count": 1,
@@ -2135,7 +2135,7 @@
   "pipeline": {
     "new_leads_30d": 97,
     "dispositioned_mtd": 78,
-    "hot": 8,
+    "hot": 9,
     "booked": 44,
     "offers": 40,
     "under_contract": 5,
@@ -2221,17 +2221,17 @@
         "count": 4,
         "color": "#DCEBD8"
       },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
+      },
       "Warm": {
-        "count": 3,
+        "count": 2,
         "color": "#F7F0C5"
       },
       "No Longer Selling": {
         "count": 2,
         "color": "#F3F3F3"
-      },
-      "Hot": {
-        "count": 1,
-        "color": "#F7D1D0"
       },
       "Dead": {
         "count": 1,
@@ -2394,16 +2394,16 @@
       "source": "Facebook"
     },
     {
+      "name": "3313 Virginia St",
+      "address": "3313 Virginia St, Hopewell, VA 23860, USA",
+      "phone": "(757) 349-0366",
+      "source": "PPC"
+    },
+    {
       "name": "1918 Old Post Terrace",
       "address": "1918 Old Post Terrace, Woodbridge, VA 22191, USA",
       "phone": "+17035936209",
       "source": "PPC - Inbound Call"
-    },
-    {
-      "name": "408 Drew St",
-      "address": "408 Drew St, Baltimore, MD 21224, USA",
-      "phone": "(703) 869-5731",
-      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

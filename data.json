@@ -1,13 +1,13 @@
 {
   "report_date": "October 30, 2026",
-  "last_updated": "2026-10-30 13:02 EST",
+  "last_updated": "2026-10-30 14:02 EST",
   "google": {
-    "spend_mtd": 20769.94,
-    "clicks_mtd": 989,
-    "crm_leads": 71,
-    "crm_leads_today": 1,
-    "cpc": 21.0,
-    "cpl": 292.53,
+    "spend_mtd": 20953.31,
+    "clicks_mtd": 991,
+    "crm_leads": 73,
+    "crm_leads_today": 3,
+    "cpc": 21.14,
+    "cpl": 287.03,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1677.95,
-        "spend_today": 52.12,
-        "clicks": 631,
-        "cpc": 2.66,
+        "spend": 1699.32,
+        "spend_today": 73.5,
+        "clicks": 632,
+        "cpc": 2.69,
         "crm_leads": 0,
-        "cpl": 292.53
+        "cpl": 287.03
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 19091.99,
-        "spend_today": 197.47,
-        "clicks": 358,
-        "cpc": 53.33,
+        "spend": 19253.99,
+        "spend_today": 359.47,
+        "clicks": 359,
+        "cpc": 53.63,
         "crm_leads": 0,
-        "cpl": 292.53
+        "cpl": 287.03
       }
     ]
   },
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 22042.11
+      "spend": 22225.480000000003
     }
   },
   "reps_by_month": {
@@ -209,7 +209,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -220,10 +220,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -234,12 +234,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -250,10 +250,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -264,7 +264,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -420,9 +420,9 @@
     "2026-10": {
       "Charles": {
         "leads": 35,
-        "active": 22,
+        "active": 23,
         "booked": 21,
-        "offers": 44,
+        "offers": 45,
         "accepted": 4,
         "available": 2,
         "pending": 0,
@@ -433,9 +433,9 @@
         "discoveries": 35
       },
       "Julian": {
-        "leads": 45,
-        "active": 27,
-        "booked": 25,
+        "leads": 46,
+        "active": 28,
+        "booked": 26,
         "offers": 46,
         "accepted": 7,
         "available": 2,
@@ -444,7 +444,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 45
+        "discoveries": 46
       }
     }
   },
@@ -1093,7 +1093,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 22042.11
+    "2026-10": 22225.48
   },
   "channel_by_month": {
     "2026-01": {
@@ -2030,17 +2030,17 @@
       }
     },
     "2026-10": {
-      "google_spend": 20769.94,
+      "google_spend": 20953.31,
       "meta_spend": 1272.17,
-      "ppc_leads": 71,
+      "ppc_leads": 73,
       "fb_leads": 26,
-      "google_cpc": 21.0,
+      "google_cpc": 21.14,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
-        "leads": 71,
-        "active": 41,
-        "booked": 32,
-        "offered": 29,
+        "leads": 73,
+        "active": 43,
+        "booked": 34,
+        "offered": 30,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 3,
@@ -2074,11 +2074,11 @@
             "color": "#DCEBD8"
           },
           "Hot": {
-            "count": 2,
+            "count": 3,
             "color": "#F7D1D0"
           },
           "Warm": {
-            "count": 2,
+            "count": 3,
             "color": "#F7F0C5"
           },
           "No Longer Selling": {
@@ -2137,11 +2137,11 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 97,
-    "dispositioned_mtd": 80,
-    "hot": 8,
-    "booked": 45,
-    "offers": 41,
+    "new_leads_30d": 99,
+    "dispositioned_mtd": 81,
+    "hot": 9,
+    "booked": 47,
+    "offers": 42,
     "under_contract": 5,
     "closed": 0
   },
@@ -2189,10 +2189,10 @@
     }
   },
   "pipeline_ppc": {
-    "leads": 71,
-    "active": 41,
-    "booked": 32,
-    "offered": 29,
+    "leads": 73,
+    "active": 43,
+    "booked": 34,
+    "offered": 30,
     "accepted": 40,
     "under_contract": 40,
     "contract_available": 4,
@@ -2226,11 +2226,11 @@
         "color": "#DCEBD8"
       },
       "Hot": {
-        "count": 2,
+        "count": 3,
         "color": "#F7D1D0"
       },
       "Warm": {
-        "count": 2,
+        "count": 3,
         "color": "#F7F0C5"
       },
       "No Longer Selling": {
@@ -2246,12 +2246,12 @@
   "reps": {
     "Charles": {
       "discoveries": 35,
-      "offers": 44,
+      "offers": 45,
       "contracts": 4,
       "revenue": 7411.0
     },
     "Julian": {
-      "discoveries": 45,
+      "discoveries": 46,
       "offers": 46,
       "contracts": 7,
       "revenue": 15458.2
@@ -2374,9 +2374,9 @@
     }
   ],
   "sources": {
-    "ppc": 71,
+    "ppc": 73,
     "facebook": 26,
-    "ppc_inbound_call": 15
+    "ppc_inbound_call": 16
   },
   "hot_leads": [
     {
@@ -2398,16 +2398,16 @@
       "source": "Facebook"
     },
     {
+      "name": "305 Colquitt St",
+      "address": "305 Colquitt St, LaGrange, GA 30241, USA",
+      "phone": "(404) 840-8582",
+      "source": "PPC"
+    },
+    {
       "name": "3313 Virginia St",
       "address": "3313 Virginia St, Hopewell, VA 23860, USA",
       "phone": "(757) 349-0366",
       "source": "PPC"
-    },
-    {
-      "name": "1918 Old Post Terrace",
-      "address": "1918 Old Post Terrace, Woodbridge, VA 22191, USA",
-      "phone": "+17035936209",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

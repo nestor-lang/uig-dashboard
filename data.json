@@ -1,13 +1,13 @@
 {
   "report_date": "October 31, 2026",
-  "last_updated": "2026-10-31 10:02 EST",
+  "last_updated": "2026-10-31 11:07 EST",
   "google": {
-    "spend_mtd": 21264.02,
-    "clicks_mtd": 995,
+    "spend_mtd": 21314.74,
+    "clicks_mtd": 1000,
     "crm_leads": 73,
     "crm_leads_today": 0,
-    "cpc": 21.37,
-    "cpl": 291.29,
+    "cpc": 21.31,
+    "cpl": 291.98,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1720.21,
-        "spend_today": 22.96,
-        "clicks": 632,
-        "cpc": 2.72,
+        "spend": 1770.93,
+        "spend_today": 73.68,
+        "clicks": 637,
+        "cpc": 2.78,
         "crm_leads": 0,
-        "cpl": 291.29
+        "cpl": 291.98
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 363,
         "cpc": 53.84,
         "crm_leads": 0,
-        "cpl": 291.29
+        "cpl": 291.98
       }
     ]
   },
@@ -68,14 +68,14 @@
       }
     ]
   },
-  "potential_income": -20902,
+  "potential_income": -245902,
   "assigned_income": 64260,
   "by_stage": {
     "Market Prep / Pre-Listing Marketing": 70652,
     "On Market": 43978,
     "Initial Inspection Completed": 28999,
     "Access Scheduled": 10000,
-    "New Deal - Unscheduled": -174531
+    "New Deal - Unscheduled": -399531
   },
   "by_agent": {
     "Georgia": 40220,
@@ -143,7 +143,7 @@
     "2026-10": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 22536.190000000002
+      "spend": 22586.910000000003
     }
   },
   "reps_by_month": {
@@ -375,7 +375,7 @@
       "Julian": {
         "leads": 78,
         "active": 84,
-        "booked": 73,
+        "booked": 74,
         "offers": 63,
         "accepted": 6,
         "available": 1,
@@ -433,10 +433,10 @@
         "discoveries": 36
       },
       "Julian": {
-        "leads": 46,
+        "leads": 47,
         "active": 28,
         "booked": 27,
-        "offers": 46,
+        "offers": 47,
         "accepted": 7,
         "available": 2,
         "pending": 0,
@@ -444,7 +444,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 46
+        "discoveries": 47
       }
     }
   },
@@ -901,36 +901,36 @@
         },
         "2026-10": {
           "counts": {
-            "available": 4,
+            "available": 5,
             "on_hold": 1,
             "dead": 2
           },
           "gp": {
-            "available": -150938,
+            "available": -375938,
             "on_hold": 0,
             "dead": 39999
           },
-          "total": 7
+          "total": 8
         }
       },
       "all_time": {
         "counts": {
-          "available": 4,
+          "available": 5,
           "on_hold": 1,
           "dead": 41,
           "closed": 19
         },
         "gp": {
-          "available": -150938,
+          "available": -375938,
           "on_hold": 0,
           "dead": 849675,
           "closed": 516341
         },
-        "total": 65
+        "total": 66
       },
       "channel_counts": {
         "sms": {
-          "available": 1,
+          "available": 2,
           "dead": 11,
           "closed": 8
         },
@@ -949,7 +949,7 @@
       "by_month_channel_counts": {
         "2026-10": {
           "sms": {
-            "available": 1
+            "available": 2
           },
           "ppc": {
             "available": 2,
@@ -1064,6 +1064,15 @@
           "contract_month": "2026-10"
         },
         {
+          "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
+          "value": -225000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-10"
+        },
+        {
           "address": "305 Colquitt St, LaGrange, GA 30241, USA",
           "value": 15000,
           "status": "Available",
@@ -1094,12 +1103,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 10,
+    "available": 11,
     "pending": 3,
     "on_hold": 4,
     "closed": 41,
     "dead": 92,
-    "gp_available": -20902,
+    "gp_available": -245902,
     "gp_pending": 64260,
     "gp_on_hold": 124635,
     "gp_closed": 871761,
@@ -1115,7 +1124,7 @@
     "2026-07": 21857.71,
     "2026-08": 23086.12,
     "2026-09": 26439.26,
-    "2026-10": 22536.19
+    "2026-10": 22586.91
   },
   "channel_by_month": {
     "2026-01": {
@@ -1864,8 +1873,8 @@
       "pipeline_fb": {
         "leads": 228,
         "active": 117,
-        "booked": 99,
-        "offered": 90,
+        "booked": 100,
+        "offered": 91,
         "accepted": 4,
         "under_contract": 4,
         "contract_available": 0,
@@ -2052,11 +2061,11 @@
       }
     },
     "2026-10": {
-      "google_spend": 21264.02,
+      "google_spend": 21314.74,
       "meta_spend": 1272.17,
       "ppc_leads": 73,
       "fb_leads": 26,
-      "google_cpc": 21.37,
+      "google_cpc": 21.31,
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 73,
@@ -2160,7 +2169,7 @@
   },
   "pipeline": {
     "new_leads_30d": 99,
-    "dispositioned_mtd": 82,
+    "dispositioned_mtd": 83,
     "hot": 9,
     "booked": 48,
     "offers": 42,
@@ -2273,15 +2282,15 @@
       "revenue": 7411.0
     },
     "Julian": {
-      "discoveries": 46,
-      "offers": 46,
+      "discoveries": 47,
+      "offers": 47,
       "contracts": 7,
       "revenue": 15458.2
     }
   },
   "pipeline_by_agent": {
     "Julian": 194296,
-    "Charles": -150938
+    "Charles": -375938
   },
   "agent_deals": [
     {
@@ -2373,6 +2382,16 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"
+    },
+    {
+      "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
+      "value": -225000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-10",
+      "agent": "Charles"
     },
     {
       "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",

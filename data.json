@@ -1,13 +1,13 @@
 {
   "report_date": "November 02, 2026",
-  "last_updated": "2026-11-02 16:47 EST",
+  "last_updated": "2026-11-02 17:52 EST",
   "google": {
-    "spend_mtd": 1298.46,
-    "clicks_mtd": 65,
-    "crm_leads": 5,
-    "crm_leads_today": 2,
-    "cpc": 19.98,
-    "cpl": 259.69,
+    "spend_mtd": 1335.62,
+    "clicks_mtd": 68,
+    "crm_leads": 6,
+    "crm_leads_today": 3,
+    "cpc": 19.64,
+    "cpl": 222.6,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 115.41,
-        "spend_today": 44.08,
-        "clicks": 43,
-        "cpc": 2.68,
+        "spend": 116.27,
+        "spend_today": 44.94,
+        "clicks": 45,
+        "cpc": 2.58,
         "crm_leads": 0,
-        "cpl": 259.69
+        "cpl": 222.6
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1183.05,
-        "spend_today": 495.1,
-        "clicks": 22,
-        "cpc": 53.78,
+        "spend": 1219.35,
+        "spend_today": 531.4,
+        "clicks": 23,
+        "cpc": 53.02,
         "crm_leads": 0,
-        "cpl": 259.69
+        "cpl": 222.6
       }
     ]
   },
@@ -43,10 +43,10 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 309098,
+  "potential_income": 273629,
   "assigned_income": 64260,
   "by_stage": {
-    "New Deal - Unscheduled": 155469,
+    "New Deal - Unscheduled": 120000,
     "Market Prep / Pre-Listing Marketing": 70652,
     "On Market": 43978,
     "Initial Inspection Completed": 28999,
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1298.46
+      "spend": 1335.62
     }
   },
   "reps_by_month": {
@@ -446,7 +446,7 @@
         "leads": 3,
         "active": 2,
         "booked": 2,
-        "offers": 2,
+        "offers": 3,
         "accepted": 1,
         "available": 1,
         "pending": 0,
@@ -566,16 +566,16 @@
         },
         "2026-10": {
           "counts": {
-            "available": 4,
+            "available": 3,
+            "on_hold": 2,
             "dead": 1,
-            "pending": 1,
-            "on_hold": 1
+            "pending": 1
           },
           "gp": {
-            "available": 87468,
+            "available": 51999,
+            "on_hold": 75299,
             "dead": 9791,
-            "pending": 15000,
-            "on_hold": 39830
+            "pending": 15000
           },
           "total": 7
         },
@@ -591,27 +591,27 @@
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 6,
+          "on_hold": 4,
           "dead": 51,
           "pending": 3,
-          "on_hold": 3,
           "closed": 22
         },
         "gp": {
-          "available": 165036,
+          "available": 129567,
+          "on_hold": 160104,
           "dead": 1203269,
           "pending": 64260,
-          "on_hold": 124635,
           "closed": 355420
         },
         "total": 86
       },
       "channel_counts": {
         "ppc": {
-          "available": 4,
+          "available": 3,
+          "on_hold": 3,
           "dead": 10,
           "pending": 2,
-          "on_hold": 2,
           "closed": 5
         },
         "fb": {
@@ -637,10 +637,10 @@
             "available": 2
           },
           "ppc": {
-            "available": 2,
+            "available": 1,
+            "on_hold": 2,
             "dead": 1,
-            "pending": 1,
-            "on_hold": 1
+            "pending": 1
           }
         },
         "2026-09": {
@@ -763,15 +763,6 @@
           "status": "Available",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        },
-        {
-          "address": "380 Othello Dr, Hampton, GA 30228, USA",
-          "value": 35469,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1150,14 +1141,14 @@
     }
   },
   "pipeline_contracts": {
-    "available": 12,
+    "available": 11,
     "pending": 3,
-    "on_hold": 4,
+    "on_hold": 5,
     "closed": 41,
     "dead": 92,
-    "gp_available": 309098,
+    "gp_available": 273629,
     "gp_pending": 64260,
-    "gp_on_hold": 124635,
+    "gp_on_hold": 160104,
     "gp_closed": 871761,
     "gp_dead": 2052944
   },
@@ -1172,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 1298.46
+    "2026-11": 1335.62
   },
   "channel_by_month": {
     "2026-01": {
@@ -2111,17 +2102,17 @@
         "leads": 74,
         "active": 44,
         "booked": 35,
-        "offered": 30,
-        "accepted": 7,
-        "under_contract": 7,
-        "contract_available": 4,
+        "offered": 31,
+        "accepted": 6,
+        "under_contract": 6,
+        "contract_available": 3,
         "contract_pending": 1,
         "contract_closed": 0,
         "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 18,
+            "count": 19,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2140,13 +2131,13 @@
             "count": 6,
             "color": "#D1F3EC"
           },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
-          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
           },
           "Hot": {
             "count": 2,
@@ -2211,15 +2202,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 1298.46,
+      "google_spend": 1335.62,
       "meta_spend": 0,
-      "ppc_leads": 5,
+      "ppc_leads": 6,
       "fb_leads": 0,
-      "google_cpc": 19.98,
+      "google_cpc": 19.64,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 5,
-        "active": 4,
+        "leads": 6,
+        "active": 5,
         "booked": 3,
         "offered": 2,
         "accepted": 2,
@@ -2230,6 +2221,10 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
+          "Need to Contact": {
+            "count": 2,
+            "color": "#FFD5C2"
+          },
           "Under Contract": {
             "count": 1,
             "color": "#DCEBD8"
@@ -2245,10 +2240,6 @@
           "Owes too Much": {
             "count": 1,
             "color": "#D1F3EC"
-          },
-          "Need to Contact": {
-            "count": 1,
-            "color": "#FFD5C2"
           }
         }
       },
@@ -2269,7 +2260,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 5,
+    "new_leads_30d": 6,
     "dispositioned_mtd": 4,
     "hot": 8,
     "booked": 3,
@@ -2292,18 +2283,22 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 5,
-    "active": 4,
+    "leads": 6,
+    "active": 5,
     "booked": 3,
     "offered": 2,
-    "accepted": 43,
-    "under_contract": 43,
-    "contract_available": 7,
+    "accepted": 42,
+    "under_contract": 42,
+    "contract_available": 6,
     "contract_pending": 2,
     "contract_closed": 12,
     "contract_dead": 22,
     "closed": 0,
     "status_breakdown": {
+      "Need to Contact": {
+        "count": 2,
+        "color": "#FFD5C2"
+      },
       "Under Contract": {
         "count": 1,
         "color": "#DCEBD8"
@@ -2319,10 +2314,6 @@
       "Owes too Much": {
         "count": 1,
         "color": "#D1F3EC"
-      },
-      "Need to Contact": {
-        "count": 1,
-        "color": "#FFD5C2"
       }
     }
   },
@@ -2335,13 +2326,13 @@
     },
     "Julian": {
       "discoveries": 3,
-      "offers": 2,
+      "offers": 3,
       "contracts": 1,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 229296,
+    "Julian": 193827,
     "Charles": 144062
   },
   "agent_deals": [
@@ -2371,16 +2362,6 @@
       "status": "Available",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Julian"
-    },
-    {
-      "address": "380 Othello Dr, Hampton, GA 30228, USA",
-      "value": 35469,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Julian"
@@ -2497,7 +2478,7 @@
     }
   ],
   "sources": {
-    "ppc": 5,
+    "ppc": 6,
     "facebook": 0,
     "ppc_inbound_call": 15
   },

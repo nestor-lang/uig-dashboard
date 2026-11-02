@@ -1,13 +1,13 @@
 {
   "report_date": "November 02, 2026",
-  "last_updated": "2026-11-02 12:27 EST",
+  "last_updated": "2026-11-02 13:32 EST",
   "google": {
-    "spend_mtd": 1115.27,
-    "clicks_mtd": 53,
+    "spend_mtd": 1117.08,
+    "clicks_mtd": 55,
     "crm_leads": 5,
     "crm_leads_today": 2,
-    "cpc": 21.04,
-    "cpl": 223.05,
+    "cpc": 20.31,
+    "cpl": 223.42,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 108.24,
-        "spend_today": 36.91,
-        "clicks": 35,
-        "cpc": 3.09,
+        "spend": 110.05,
+        "spend_today": 38.72,
+        "clicks": 37,
+        "cpc": 2.97,
         "crm_leads": 0,
-        "cpl": 223.05
+        "cpl": 223.42
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 18,
         "cpc": 55.95,
         "crm_leads": 0,
-        "cpl": 223.05
+        "cpl": 223.42
       }
     ]
   },
@@ -43,14 +43,14 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 274098,
+  "potential_income": 149098,
   "assigned_income": 64260,
   "by_stage": {
-    "New Deal - Unscheduled": 120469,
     "Market Prep / Pre-Listing Marketing": 70652,
     "On Market": 43978,
     "Initial Inspection Completed": 28999,
-    "Access Scheduled": 10000
+    "Access Scheduled": 10000,
+    "New Deal - Unscheduled": -4531
   },
   "by_agent": {
     "Georgia": 40220,
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1107.55
+      "spend": 1117.08
     }
   },
   "reps_by_month": {
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -214,12 +214,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -230,10 +230,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -244,7 +244,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -443,18 +443,18 @@
         "discoveries": 1
       },
       "Julian": {
-        "leads": 1,
-        "active": 1,
-        "booked": 0,
-        "offers": 1,
-        "accepted": 0,
-        "available": 0,
+        "leads": 2,
+        "active": 2,
+        "booked": 1,
+        "offers": 2,
+        "accepted": 1,
+        "available": 1,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 1
+        "discoveries": 2
       }
     }
   },
@@ -578,37 +578,46 @@
             "on_hold": 39830
           },
           "total": 7
+        },
+        "2026-11": {
+          "counts": {
+            "available": 1
+          },
+          "gp": {
+            "available": 35000
+          },
+          "total": 1
         }
       },
       "all_time": {
         "counts": {
-          "available": 6,
+          "available": 7,
           "dead": 51,
           "pending": 3,
           "on_hold": 3,
           "closed": 22
         },
         "gp": {
-          "available": 130036,
+          "available": 165036,
           "dead": 1203269,
           "pending": 64260,
           "on_hold": 124635,
           "closed": 355420
         },
-        "total": 85
+        "total": 86
       },
       "channel_counts": {
-        "fb": {
-          "available": 3,
-          "dead": 19,
-          "closed": 2
-        },
         "ppc": {
-          "available": 3,
+          "available": 4,
           "dead": 10,
           "pending": 2,
           "on_hold": 2,
           "closed": 5
+        },
+        "fb": {
+          "available": 3,
+          "dead": 19,
+          "closed": 2
         },
         "sms": {
           "pending": 1,
@@ -618,6 +627,11 @@
         }
       },
       "by_month_channel_counts": {
+        "2026-11": {
+          "ppc": {
+            "available": 1
+          }
+        },
         "2026-10": {
           "fb": {
             "available": 2
@@ -725,6 +739,15 @@
         }
       },
       "deals": [
+        {
+          "address": "7 Nichols Rd, Luray, VA 22835, USA",
+          "value": 35000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-11"
+        },
         {
           "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
           "value": 10000,
@@ -916,7 +939,7 @@
             "dead": 2
           },
           "gp": {
-            "available": 224062,
+            "available": 124062,
             "on_hold": 0,
             "dead": 39999
           },
@@ -927,7 +950,7 @@
             "available": 1
           },
           "gp": {
-            "available": -80000
+            "available": 20000
           },
           "total": 1
         }
@@ -1080,7 +1103,7 @@
       "deals": [
         {
           "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
-          "value": -80000,
+          "value": 20000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -1089,7 +1112,7 @@
         },
         {
           "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
-          "value": 150000,
+          "value": 50000,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -1127,12 +1150,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 11,
+    "available": 12,
     "pending": 3,
     "on_hold": 4,
     "closed": 41,
     "dead": 92,
-    "gp_available": 274098,
+    "gp_available": 309098,
     "gp_pending": 64260,
     "gp_on_hold": 124635,
     "gp_closed": 871761,
@@ -1149,7 +1172,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 1115.27
+    "2026-11": 1117.08
   },
   "channel_by_month": {
     "2026-01": {
@@ -2196,28 +2219,32 @@
       }
     },
     "2026-11": {
-      "google_spend": 1115.27,
+      "google_spend": 1117.08,
       "meta_spend": 0,
       "ppc_leads": 5,
       "fb_leads": 0,
-      "google_cpc": 21.04,
+      "google_cpc": 20.31,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 5,
         "active": 4,
-        "booked": 1,
-        "offered": 1,
-        "accepted": 1,
-        "under_contract": 1,
-        "contract_available": 1,
+        "booked": 2,
+        "offered": 2,
+        "accepted": 2,
+        "under_contract": 2,
+        "contract_available": 2,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 3,
+            "count": 2,
             "color": "#FFD5C2"
+          },
+          "Under Contract": {
+            "count": 1,
+            "color": "#DCEBD8"
           },
           "Listed": {
             "count": 1,
@@ -2247,11 +2274,11 @@
   },
   "pipeline": {
     "new_leads_30d": 5,
-    "dispositioned_mtd": 2,
+    "dispositioned_mtd": 3,
     "hot": 9,
-    "booked": 1,
-    "offers": 1,
-    "under_contract": 0,
+    "booked": 2,
+    "offers": 2,
+    "under_contract": 1,
     "closed": 0
   },
   "pipeline_fb": {
@@ -2271,19 +2298,23 @@
   "pipeline_ppc": {
     "leads": 5,
     "active": 4,
-    "booked": 1,
-    "offered": 1,
-    "accepted": 42,
-    "under_contract": 42,
-    "contract_available": 6,
+    "booked": 2,
+    "offered": 2,
+    "accepted": 43,
+    "under_contract": 43,
+    "contract_available": 7,
     "contract_pending": 2,
     "contract_closed": 12,
     "contract_dead": 22,
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 3,
+        "count": 2,
         "color": "#FFD5C2"
+      },
+      "Under Contract": {
+        "count": 1,
+        "color": "#DCEBD8"
       },
       "Listed": {
         "count": 1,
@@ -2303,17 +2334,27 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 1,
-      "offers": 1,
-      "contracts": 0,
+      "discoveries": 2,
+      "offers": 2,
+      "contracts": 1,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 194296,
+    "Julian": 229296,
     "Charles": 144062
   },
   "agent_deals": [
+    {
+      "address": "7 Nichols Rd, Luray, VA 22835, USA",
+      "value": 35000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-11",
+      "agent": "Julian"
+    },
     {
       "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
       "value": 10000,
@@ -2406,7 +2447,7 @@
     },
     {
       "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
-      "value": -80000,
+      "value": 20000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -2416,7 +2457,7 @@
     },
     {
       "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
-      "value": 150000,
+      "value": 50000,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",

@@ -1,6 +1,6 @@
 {
   "report_date": "November 03, 2026",
-  "last_updated": "2026-11-03 16:12 EST",
+  "last_updated": "2026-11-03 18:02 EST",
   "google": {
     "spend_mtd": 1960.53,
     "clicks_mtd": 105,
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -214,12 +214,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -230,10 +230,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -244,7 +244,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -310,7 +310,7 @@
     "2026-07": {
       "Charles": {
         "leads": 48,
-        "active": 53,
+        "active": 52,
         "booked": 49,
         "offers": 45,
         "accepted": 9,
@@ -1710,7 +1710,7 @@
       "meta_cpc": 2.68,
       "pipeline_ppc": {
         "leads": 58,
-        "active": 29,
+        "active": 28,
         "booked": 26,
         "offered": 23,
         "accepted": 6,
@@ -1789,7 +1789,7 @@
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 20,
+            "count": 19,
             "color": "#F3F3F3"
           },
           "Sold": {
@@ -1809,7 +1809,7 @@
             "color": "#D1F3EC"
           },
           "Listed": {
-            "count": 8,
+            "count": 9,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -2049,7 +2049,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 64,
+            "count": 65,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2080,10 +2080,6 @@
             "count": 2,
             "color": "#F3F3F3"
           },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
-          },
           "Under Contract": {
             "count": 1,
             "color": "#DCEBD8"
@@ -2100,7 +2096,7 @@
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 74,
-        "active": 42,
+        "active": 43,
         "booked": 35,
         "offered": 31,
         "accepted": 6,
@@ -2116,7 +2112,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 17,
+            "count": 18,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -2131,13 +2127,13 @@
             "count": 6,
             "color": "#D1F3EC"
           },
-          "Wrong Number": {
-            "count": 4,
-            "color": "#DCEBD8"
-          },
           "Warm": {
             "count": 3,
             "color": "#F7F0C5"
+          },
+          "Wrong Number": {
+            "count": 3,
+            "color": "#DCEBD8"
           },
           "Hot": {
             "count": 2,
@@ -2262,7 +2258,7 @@
   "pipeline": {
     "new_leads_30d": 7,
     "dispositioned_mtd": 6,
-    "hot": 8,
+    "hot": 7,
     "booked": 4,
     "offers": 3,
     "under_contract": 1,
@@ -2484,12 +2480,6 @@
   },
   "hot_leads": [
     {
-      "name": "1685 Esprit Ct SW",
-      "address": "1685 Esprit Ct SW, Atlanta, GA 30331, USA",
-      "phone": "(404) 375-4165",
-      "source": "Facebook"
-    },
-    {
       "name": "152 Mosby Cir",
       "address": "152 Mosby Cir, Warrenton, VA 20186, USA",
       "phone": "(540) 270-1008",
@@ -2512,6 +2502,12 @@
       "address": "3313 Virginia St, Hopewell, VA 23860, USA",
       "phone": "(757) 349-0366",
       "source": "PPC"
+    },
+    {
+      "name": "1918 Old Post Terrace",
+      "address": "1918 Old Post Terrace, Woodbridge, VA 22191, USA",
+      "phone": "+17035936209",
+      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

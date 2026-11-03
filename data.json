@@ -1,13 +1,13 @@
 {
   "report_date": "November 03, 2026",
-  "last_updated": "2026-11-03 11:02 EST",
+  "last_updated": "2026-11-03 12:02 EST",
   "google": {
-    "spend_mtd": 1750.92,
-    "clicks_mtd": 94,
+    "spend_mtd": 1793.46,
+    "clicks_mtd": 96,
     "crm_leads": 8,
     "crm_leads_today": 1,
-    "cpc": 18.63,
-    "cpl": 218.86,
+    "cpc": 18.68,
+    "cpl": 224.18,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 167.16,
-        "spend_today": 32.53,
-        "clicks": 64,
-        "cpc": 2.61,
+        "spend": 168.83,
+        "spend_today": 34.2,
+        "clicks": 65,
+        "cpc": 2.6,
         "crm_leads": 0,
-        "cpl": 218.86
+        "cpl": 224.18
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 1583.76,
-        "spend_today": 171.13,
-        "clicks": 30,
-        "cpc": 52.79,
+        "spend": 1624.63,
+        "spend_today": 212.0,
+        "clicks": 31,
+        "cpc": 52.41,
         "crm_leads": 0,
-        "cpl": 218.86
+        "cpl": 224.18
       }
     ]
   },
@@ -46,9 +46,9 @@
   "potential_income": 273119,
   "assigned_income": 64260,
   "by_stage": {
+    "Access Scheduled": 74791,
     "Market Prep / Pre-Listing Marketing": 70352,
-    "New Deal - Unscheduled": 70000,
-    "Access Scheduled": 59791,
+    "New Deal - Unscheduled": 55000,
     "On Market": 43978,
     "Initial Inspection Completed": 28999
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 1750.92
+      "spend": 1793.46
     }
   },
   "reps_by_month": {
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -214,12 +214,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -230,10 +230,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -244,7 +244,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -399,7 +399,7 @@
     },
     "2026-10": {
       "Charles": {
-        "leads": 36,
+        "leads": 35,
         "active": 23,
         "booked": 22,
         "offers": 46,
@@ -410,10 +410,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 7411.0,
-        "discoveries": 36
+        "discoveries": 35
       },
       "Julian": {
-        "leads": 47,
+        "leads": 48,
         "active": 28,
         "booked": 27,
         "offers": 47,
@@ -424,7 +424,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 47
+        "discoveries": 48
       }
     },
     "2026-11": {
@@ -1114,8 +1114,8 @@
           "address": "305 Colquitt St, LaGrange, GA 30241, USA",
           "value": 15000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1163,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 1750.92
+    "2026-11": 1793.46
   },
   "channel_by_month": {
     "2026-01": {
@@ -2202,11 +2202,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 1750.92,
+      "google_spend": 1793.46,
       "meta_spend": 0,
       "ppc_leads": 8,
       "fb_leads": 0,
-      "google_cpc": 18.63,
+      "google_cpc": 18.68,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 8,
@@ -2458,8 +2458,8 @@
       "address": "305 Colquitt St, LaGrange, GA 30241, USA",
       "value": 15000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"

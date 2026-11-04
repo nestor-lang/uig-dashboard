@@ -1,13 +1,13 @@
 {
   "report_date": "November 04, 2026",
-  "last_updated": "2026-11-04 11:02 EST",
+  "last_updated": "2026-11-04 12:02 EST",
   "google": {
-    "spend_mtd": 2420.84,
-    "clicks_mtd": 122,
-    "crm_leads": 9,
-    "crm_leads_today": 2,
-    "cpc": 19.84,
-    "cpl": 268.98,
+    "spend_mtd": 2502.04,
+    "clicks_mtd": 124,
+    "crm_leads": 10,
+    "crm_leads_today": 3,
+    "cpc": 20.18,
+    "cpl": 250.2,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 227.41,
-        "spend_today": 33.55,
-        "clicks": 82,
-        "cpc": 2.77,
+        "spend": 236.48,
+        "spend_today": 42.63,
+        "clicks": 83,
+        "cpc": 2.85,
         "crm_leads": 0,
-        "cpl": 268.98
+        "cpl": 250.2
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2193.43,
-        "spend_today": 298.96,
-        "clicks": 40,
-        "cpc": 54.84,
+        "spend": 2265.56,
+        "spend_today": 371.09,
+        "clicks": 41,
+        "cpc": 55.26,
         "crm_leads": 0,
-        "cpl": 268.98
+        "cpl": 250.2
       }
     ]
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2420.84
+      "spend": 2502.04
     }
   },
   "reps_by_month": {
@@ -371,7 +371,7 @@
       "Charles": {
         "leads": 50,
         "active": 55,
-        "booked": 42,
+        "booked": 43,
         "offers": 55,
         "accepted": 7,
         "available": 0,
@@ -429,10 +429,10 @@
     },
     "2026-11": {
       "Charles": {
-        "leads": 3,
+        "leads": 4,
         "active": 2,
         "booked": 2,
-        "offers": 4,
+        "offers": 5,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -440,7 +440,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 3
+        "discoveries": 4
       },
       "Julian": {
         "leads": 3,
@@ -1163,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 2420.84
+    "2026-11": 2502.04
   },
   "channel_by_month": {
     "2026-01": {
@@ -2034,8 +2034,8 @@
       "pipeline_fb": {
         "leads": 174,
         "active": 82,
-        "booked": 66,
-        "offered": 62,
+        "booked": 67,
+        "offered": 63,
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 1,
@@ -2049,7 +2049,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 52,
+            "count": 51,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -2075,6 +2075,10 @@
           "No Longer Selling": {
             "count": 2,
             "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           },
           "Under Contract": {
             "count": 1,
@@ -2194,14 +2198,14 @@
       }
     },
     "2026-11": {
-      "google_spend": 2420.84,
+      "google_spend": 2502.04,
       "meta_spend": 0,
-      "ppc_leads": 9,
+      "ppc_leads": 10,
       "fb_leads": 0,
-      "google_cpc": 19.84,
+      "google_cpc": 20.18,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 9,
+        "leads": 10,
         "active": 7,
         "booked": 4,
         "offered": 3,
@@ -2217,13 +2221,13 @@
             "count": 3,
             "color": "#FFD5C2"
           },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Cold": {
             "count": 2,
             "color": "#D2E4EB"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           },
           "Under Contract": {
             "count": 1,
@@ -2256,9 +2260,9 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 9,
-    "dispositioned_mtd": 6,
-    "hot": 7,
+    "new_leads_30d": 10,
+    "dispositioned_mtd": 7,
+    "hot": 8,
     "booked": 4,
     "offers": 3,
     "under_contract": 1,
@@ -2279,7 +2283,7 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 9,
+    "leads": 10,
     "active": 7,
     "booked": 4,
     "offered": 3,
@@ -2295,13 +2299,13 @@
         "count": 3,
         "color": "#FFD5C2"
       },
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
+      },
       "Cold": {
         "count": 2,
         "color": "#D2E4EB"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
       },
       "Under Contract": {
         "count": 1,
@@ -2319,8 +2323,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 3,
-      "offers": 4,
+      "discoveries": 4,
+      "offers": 5,
       "contracts": 1,
       "revenue": 0.0
     },
@@ -2478,11 +2482,17 @@
     }
   ],
   "sources": {
-    "ppc": 9,
+    "ppc": 10,
     "facebook": 0,
-    "ppc_inbound_call": 14
+    "ppc_inbound_call": 15
   },
   "hot_leads": [
+    {
+      "name": "1212 Glendale Ave",
+      "address": "1212 Glendale Ave, Bluefield, WV 24701, USA",
+      "phone": "(434) 941-7744",
+      "source": "Facebook"
+    },
     {
       "name": "152 Mosby Cir",
       "address": "152 Mosby Cir, Warrenton, VA 20186, USA",
@@ -2506,12 +2516,6 @@
       "address": "3313 Virginia St, Hopewell, VA 23860, USA",
       "phone": "(757) 349-0366",
       "source": "PPC"
-    },
-    {
-      "name": "1918 Old Post Terrace",
-      "address": "1918 Old Post Terrace, Woodbridge, VA 22191, USA",
-      "phone": "+17035936209",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

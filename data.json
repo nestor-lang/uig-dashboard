@@ -1,13 +1,13 @@
 {
   "report_date": "November 04, 2026",
-  "last_updated": "2026-11-04 10:02 EST",
+  "last_updated": "2026-11-04 11:02 EST",
   "google": {
-    "spend_mtd": 2257.52,
-    "clicks_mtd": 118,
-    "crm_leads": 10,
-    "crm_leads_today": 3,
-    "cpc": 19.13,
-    "cpl": 225.75,
+    "spend_mtd": 2420.84,
+    "clicks_mtd": 122,
+    "crm_leads": 9,
+    "crm_leads_today": 2,
+    "cpc": 19.84,
+    "cpl": 268.98,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 221.78,
-        "spend_today": 27.93,
-        "clicks": 79,
-        "cpc": 2.81,
+        "spend": 227.41,
+        "spend_today": 33.55,
+        "clicks": 82,
+        "cpc": 2.77,
         "crm_leads": 0,
-        "cpl": 225.75
+        "cpl": 268.98
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2035.73,
-        "spend_today": 141.26,
-        "clicks": 39,
-        "cpc": 52.2,
+        "spend": 2193.43,
+        "spend_today": 298.96,
+        "clicks": 40,
+        "cpc": 54.84,
         "crm_leads": 0,
-        "cpl": 225.75
+        "cpl": 268.98
       }
     ]
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2257.52
+      "spend": 2420.84
     }
   },
   "reps_by_month": {
@@ -252,11 +252,11 @@
         "leads": 36,
         "active": 42,
         "booked": 36,
-        "offers": 33,
+        "offers": 32,
         "accepted": 10,
         "available": 1,
         "pending": 0,
-        "dead": 7,
+        "dead": 6,
         "closed": 2,
         "pending_income": 0.0,
         "closed_revenue": 57100.0,
@@ -432,7 +432,7 @@
         "leads": 3,
         "active": 2,
         "booked": 2,
-        "offers": 3,
+        "offers": 4,
         "accepted": 1,
         "available": 0,
         "pending": 0,
@@ -1163,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 2257.52
+    "2026-11": 2420.84
   },
   "channel_by_month": {
     "2026-01": {
@@ -1525,7 +1525,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 51,
+            "count": 52,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1533,7 +1533,7 @@
             "color": "#F3F3F3"
           },
           "Need to Contact": {
-            "count": 38,
+            "count": 37,
             "color": "#FFD5C2"
           },
           "Sold": {
@@ -2194,15 +2194,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 2257.52,
+      "google_spend": 2420.84,
       "meta_spend": 0,
-      "ppc_leads": 10,
+      "ppc_leads": 9,
       "fb_leads": 0,
-      "google_cpc": 19.13,
+      "google_cpc": 19.84,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 10,
-        "active": 9,
+        "leads": 9,
+        "active": 7,
         "booked": 4,
         "offered": 3,
         "accepted": 2,
@@ -2214,12 +2214,16 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 5,
+            "count": 3,
             "color": "#FFD5C2"
           },
           "Cold": {
             "count": 2,
             "color": "#D2E4EB"
+          },
+          "Dead": {
+            "count": 1,
+            "color": "#F3F3F3"
           },
           "Under Contract": {
             "count": 1,
@@ -2252,7 +2256,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 10,
+    "new_leads_30d": 9,
     "dispositioned_mtd": 6,
     "hot": 7,
     "booked": 4,
@@ -2275,8 +2279,8 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 10,
-    "active": 9,
+    "leads": 9,
+    "active": 7,
     "booked": 4,
     "offered": 3,
     "accepted": 42,
@@ -2288,12 +2292,16 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 5,
+        "count": 3,
         "color": "#FFD5C2"
       },
       "Cold": {
         "count": 2,
         "color": "#D2E4EB"
+      },
+      "Dead": {
+        "count": 1,
+        "color": "#F3F3F3"
       },
       "Under Contract": {
         "count": 1,
@@ -2312,7 +2320,7 @@
   "reps": {
     "Charles": {
       "discoveries": 3,
-      "offers": 3,
+      "offers": 4,
       "contracts": 1,
       "revenue": 0.0
     },
@@ -2470,7 +2478,7 @@
     }
   ],
   "sources": {
-    "ppc": 10,
+    "ppc": 9,
     "facebook": 0,
     "ppc_inbound_call": 14
   },

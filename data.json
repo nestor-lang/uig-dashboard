@@ -1,13 +1,13 @@
 {
   "report_date": "November 04, 2026",
-  "last_updated": "2026-11-04 16:12 EST",
+  "last_updated": "2026-11-04 17:17 EST",
   "google": {
-    "spend_mtd": 2700.3,
-    "clicks_mtd": 137,
+    "spend_mtd": 2776.04,
+    "clicks_mtd": 138,
     "crm_leads": 11,
     "crm_leads_today": 4,
-    "cpc": 19.71,
-    "cpl": 245.48,
+    "cpc": 20.12,
+    "cpl": 252.37,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 90,
         "cpc": 2.87,
         "crm_leads": 0,
-        "cpl": 245.48
+        "cpl": 252.37
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2442.28,
-        "spend_today": 547.81,
-        "clicks": 47,
-        "cpc": 51.96,
+        "spend": 2518.02,
+        "spend_today": 623.55,
+        "clicks": 48,
+        "cpc": 52.46,
         "crm_leads": 0,
-        "cpl": 245.48
+        "cpl": 252.37
       }
     ]
   },
@@ -43,14 +43,14 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 281748,
+  "potential_income": 268748,
   "assigned_income": 55220,
   "by_stage": {
     "Access Scheduled": 94791,
     "Market Prep / Pre-Listing Marketing": 70042,
     "On Market": 52917,
     "Initial Inspection Completed": 43999,
-    "New Deal - Unscheduled": 20000
+    "New Deal - Unscheduled": 7000
   },
   "by_agent": {
     "Georgia": 40220,
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 2700.3
+      "spend": 2776.04
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -213,12 +213,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -229,10 +229,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -243,7 +243,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -373,7 +373,7 @@
         "booked": 43,
         "offers": 55,
         "accepted": 7,
-        "available": 0,
+        "available": 1,
         "pending": 0,
         "dead": 1,
         "closed": 1,
@@ -428,22 +428,22 @@
     },
     "2026-11": {
       "Charles": {
-        "leads": 4,
-        "active": 2,
-        "booked": 2,
-        "offers": 5,
-        "accepted": 1,
+        "leads": 5,
+        "active": 3,
+        "booked": 3,
+        "offers": 6,
+        "accepted": 2,
         "available": 0,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 4
+        "discoveries": 5
       },
       "Julian": {
         "leads": 4,
-        "active": 4,
+        "active": 3,
         "booked": 3,
         "offers": 4,
         "accepted": 1,
@@ -937,30 +937,35 @@
         },
         "2026-11": {
           "counts": {
-            "available": 1
+            "available": 2
           },
           "gp": {
-            "available": 20000
+            "available": 7000
           },
-          "total": 1
+          "total": 2
         }
       },
       "all_time": {
         "counts": {
-          "available": 5,
+          "available": 6,
           "on_hold": 1,
           "dead": 41,
           "closed": 19
         },
         "gp": {
-          "available": 143542,
+          "available": 130542,
           "on_hold": 0,
           "dead": 849675,
           "closed": 516341
         },
-        "total": 66
+        "total": 67
       },
       "channel_counts": {
+        "fb": {
+          "available": 2,
+          "dead": 18,
+          "closed": 4
+        },
         "ppc": {
           "available": 3,
           "on_hold": 1,
@@ -971,15 +976,13 @@
           "available": 1,
           "dead": 11,
           "closed": 8
-        },
-        "fb": {
-          "available": 1,
-          "dead": 18,
-          "closed": 4
         }
       },
       "by_month_channel_counts": {
         "2026-11": {
+          "fb": {
+            "available": 1
+          },
           "ppc": {
             "available": 1
           }
@@ -1092,6 +1095,15 @@
       },
       "deals": [
         {
+          "address": "1212 Glendale Ave, Bluefield, WV 24701, USA",
+          "value": -13000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-11"
+        },
+        {
           "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
           "value": 20000,
           "status": "Available",
@@ -1140,12 +1152,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 12,
+    "available": 13,
     "pending": 2,
     "on_hold": 5,
     "closed": 41,
     "dead": 92,
-    "gp_available": 281748,
+    "gp_available": 268748,
     "gp_pending": 55220,
     "gp_on_hold": 160104,
     "gp_closed": 871761,
@@ -1162,7 +1174,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 2700.3
+    "2026-11": 2776.04
   },
   "channel_by_month": {
     "2026-01": {
@@ -2044,7 +2056,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 65,
+            "count": 64,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2075,13 +2087,13 @@
             "count": 3,
             "color": "#F3F3F3"
           },
+          "Under Contract": {
+            "count": 2,
+            "color": "#DCEBD8"
+          },
           "Hot": {
             "count": 1,
             "color": "#F7D1D0"
-          },
-          "Under Contract": {
-            "count": 1,
-            "color": "#DCEBD8"
           }
         }
       }
@@ -2197,17 +2209,17 @@
       }
     },
     "2026-11": {
-      "google_spend": 2700.3,
+      "google_spend": 2776.04,
       "meta_spend": 0,
       "ppc_leads": 11,
       "fb_leads": 0,
-      "google_cpc": 19.71,
+      "google_cpc": 20.12,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 11,
         "active": 8,
-        "booked": 5,
-        "offered": 4,
+        "booked": 6,
+        "offered": 5,
         "accepted": 2,
         "under_contract": 2,
         "contract_available": 2,
@@ -2216,17 +2228,17 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 3,
-            "color": "#FFD5C2"
-          },
           "Cold": {
-            "count": 3,
+            "count": 4,
             "color": "#D2E4EB"
           },
           "Listed": {
             "count": 2,
             "color": "#C8C8C8"
+          },
+          "Need to Contact": {
+            "count": 2,
+            "color": "#FFD5C2"
           },
           "Warm": {
             "count": 1,
@@ -2247,9 +2259,9 @@
         "active": 0,
         "booked": 0,
         "offered": 0,
-        "accepted": 0,
-        "under_contract": 0,
-        "contract_available": 0,
+        "accepted": 1,
+        "under_contract": 1,
+        "contract_available": 1,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 0,
@@ -2260,10 +2272,10 @@
   },
   "pipeline": {
     "new_leads_30d": 11,
-    "dispositioned_mtd": 8,
+    "dispositioned_mtd": 9,
     "hot": 8,
-    "booked": 5,
-    "offers": 4,
+    "booked": 6,
+    "offers": 5,
     "under_contract": 1,
     "closed": 0
   },
@@ -2272,9 +2284,9 @@
     "active": 0,
     "booked": 0,
     "offered": 0,
-    "accepted": 47,
-    "under_contract": 47,
-    "contract_available": 4,
+    "accepted": 48,
+    "under_contract": 48,
+    "contract_available": 5,
     "contract_pending": 0,
     "contract_closed": 6,
     "contract_dead": 37,
@@ -2284,8 +2296,8 @@
   "pipeline_ppc": {
     "leads": 11,
     "active": 8,
-    "booked": 5,
-    "offered": 4,
+    "booked": 6,
+    "offered": 5,
     "accepted": 42,
     "under_contract": 42,
     "contract_available": 6,
@@ -2294,17 +2306,17 @@
     "contract_dead": 22,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 3,
-        "color": "#FFD5C2"
-      },
       "Cold": {
-        "count": 3,
+        "count": 4,
         "color": "#D2E4EB"
       },
       "Listed": {
         "count": 2,
         "color": "#C8C8C8"
+      },
+      "Need to Contact": {
+        "count": 2,
+        "color": "#FFD5C2"
       },
       "Warm": {
         "count": 1,
@@ -2322,9 +2334,9 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 4,
-      "offers": 5,
-      "contracts": 1,
+      "discoveries": 5,
+      "offers": 6,
+      "contracts": 2,
       "revenue": 0.0
     },
     "Julian": {
@@ -2336,7 +2348,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 193426,
-    "Charles": 143543
+    "Charles": 130543
   },
   "agent_deals": [
     {
@@ -2430,6 +2442,16 @@
       "agent": "Julian"
     },
     {
+      "address": "1212 Glendale Ave, Bluefield, WV 24701, USA",
+      "value": -13000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-11",
+      "agent": "Charles"
+    },
+    {
       "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
       "value": 20000,
       "status": "Available",
@@ -2487,9 +2509,9 @@
   },
   "hot_leads": [
     {
-      "name": "1212 Glendale Ave",
-      "address": "1212 Glendale Ave, Bluefield, WV 24701, USA",
-      "phone": "(434) 941-7744",
+      "name": "502 Crow Dr",
+      "address": "502 Crow Dr, Winchester, VA 22602, USA",
+      "phone": "(540) 533-1904",
       "source": "Facebook"
     },
     {

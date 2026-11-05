@@ -1,13 +1,13 @@
 {
   "report_date": "November 05, 2026",
-  "last_updated": "2026-11-05 12:27 EST",
+  "last_updated": "2026-11-05 13:32 EST",
   "google": {
-    "spend_mtd": 3357.46,
-    "clicks_mtd": 164,
+    "spend_mtd": 3645.42,
+    "clicks_mtd": 166,
     "crm_leads": 14,
     "crm_leads_today": 3,
-    "cpc": 20.47,
-    "cpl": 239.82,
+    "cpc": 21.96,
+    "cpl": 260.39,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 107,
         "cpc": 2.74,
         "crm_leads": 0,
-        "cpl": 239.82
+        "cpl": 260.39
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3064.35,
-        "spend_today": 446.29,
-        "clicks": 57,
-        "cpc": 53.76,
+        "spend": 3352.31,
+        "spend_today": 734.25,
+        "clicks": 59,
+        "cpc": 56.82,
         "crm_leads": 0,
-        "cpl": 239.82
+        "cpl": 260.39
       }
     ]
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3357.46
+      "spend": 3645.42
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -213,12 +213,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -229,10 +229,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -243,7 +243,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -429,7 +429,7 @@
     "2026-11": {
       "Charles": {
         "leads": 5,
-        "active": 4,
+        "active": 5,
         "booked": 3,
         "offers": 7,
         "accepted": 2,
@@ -1171,7 +1171,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 3357.46
+    "2026-11": 3645.42
   },
   "channel_by_month": {
     "2026-01": {
@@ -2202,11 +2202,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 3357.46,
+      "google_spend": 3645.42,
       "meta_spend": 0,
       "ppc_leads": 14,
       "fb_leads": 0,
-      "google_cpc": 20.47,
+      "google_cpc": 21.96,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 14,
@@ -2221,13 +2221,13 @@
         "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 5,
-            "color": "#FFD5C2"
-          },
           "Cold": {
-            "count": 4,
+            "count": 5,
             "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 4,
+            "color": "#FFD5C2"
           },
           "Listed": {
             "count": 2,
@@ -2299,13 +2299,13 @@
     "contract_dead": 23,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 5,
-        "color": "#FFD5C2"
-      },
       "Cold": {
-        "count": 4,
+        "count": 5,
         "color": "#D2E4EB"
+      },
+      "Need to Contact": {
+        "count": 4,
+        "color": "#FFD5C2"
       },
       "Listed": {
         "count": 2,

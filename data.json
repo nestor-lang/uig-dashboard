@@ -1,13 +1,13 @@
 {
   "report_date": "November 05, 2026",
-  "last_updated": "2026-11-05 10:17 EST",
+  "last_updated": "2026-11-05 11:22 EST",
   "google": {
-    "spend_mtd": 3069.71,
-    "clicks_mtd": 152,
-    "crm_leads": 11,
-    "crm_leads_today": 0,
-    "cpc": 20.2,
-    "cpl": 279.06,
+    "spend_mtd": 3324.51,
+    "clicks_mtd": 156,
+    "crm_leads": 12,
+    "crm_leads_today": 1,
+    "cpc": 21.31,
+    "cpl": 277.04,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 271.0,
-        "spend_today": 12.98,
-        "clicks": 98,
-        "cpc": 2.77,
+        "spend": 273.26,
+        "spend_today": 15.24,
+        "clicks": 100,
+        "cpc": 2.73,
         "crm_leads": 0,
-        "cpl": 279.06
+        "cpl": 277.04
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 2798.72,
-        "spend_today": 180.66,
-        "clicks": 54,
-        "cpc": 51.83,
+        "spend": 3051.25,
+        "spend_today": 433.19,
+        "clicks": 56,
+        "cpc": 54.49,
         "crm_leads": 0,
-        "cpl": 279.06
+        "cpl": 277.04
       }
     ]
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 3069.71
+      "spend": 3324.51
     }
   },
   "reps_by_month": {
@@ -1171,7 +1171,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 3069.71
+    "2026-11": 3324.51
   },
   "channel_by_month": {
     "2026-01": {
@@ -1603,6 +1603,10 @@
         "contract_dead": 1,
         "closed": 3,
         "status_breakdown": {
+          "Sold": {
+            "count": 9,
+            "color": "#C8C8C8"
+          },
           "Dead": {
             "count": 8,
             "color": "#F3F3F3"
@@ -1610,10 +1614,6 @@
           "Cold": {
             "count": 8,
             "color": "#D2E4EB"
-          },
-          "Sold": {
-            "count": 8,
-            "color": "#C8C8C8"
           },
           "Need to Contact": {
             "count": 7,
@@ -1636,7 +1636,7 @@
             "color": "#DCEBD8"
           },
           "No Longer Selling": {
-            "count": 2,
+            "count": 1,
             "color": "#F3F3F3"
           },
           "Not Workable": {
@@ -2202,15 +2202,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 3069.71,
+      "google_spend": 3324.51,
       "meta_spend": 0,
-      "ppc_leads": 11,
+      "ppc_leads": 12,
       "fb_leads": 0,
-      "google_cpc": 20.2,
+      "google_cpc": 21.31,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 11,
-        "active": 8,
+        "leads": 12,
+        "active": 9,
         "booked": 6,
         "offered": 5,
         "accepted": 2,
@@ -2225,13 +2225,13 @@
             "count": 4,
             "color": "#D2E4EB"
           },
+          "Need to Contact": {
+            "count": 3,
+            "color": "#FFD5C2"
+          },
           "Listed": {
             "count": 2,
             "color": "#C8C8C8"
-          },
-          "Need to Contact": {
-            "count": 2,
-            "color": "#FFD5C2"
           },
           "Hot": {
             "count": 1,
@@ -2264,7 +2264,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 11,
+    "new_leads_30d": 12,
     "dispositioned_mtd": 9,
     "hot": 8,
     "booked": 6,
@@ -2287,8 +2287,8 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 11,
-    "active": 8,
+    "leads": 12,
+    "active": 9,
     "booked": 6,
     "offered": 5,
     "accepted": 43,
@@ -2303,13 +2303,13 @@
         "count": 4,
         "color": "#D2E4EB"
       },
+      "Need to Contact": {
+        "count": 3,
+        "color": "#FFD5C2"
+      },
       "Listed": {
         "count": 2,
         "color": "#C8C8C8"
-      },
-      "Need to Contact": {
-        "count": 2,
-        "color": "#FFD5C2"
       },
       "Hot": {
         "count": 1,
@@ -2496,7 +2496,7 @@
     }
   ],
   "sources": {
-    "ppc": 11,
+    "ppc": 12,
     "facebook": 0,
     "ppc_inbound_call": 16
   },

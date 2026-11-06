@@ -1,13 +1,13 @@
 {
   "report_date": "November 06, 2026",
-  "last_updated": "2026-11-06 14:37 EST",
+  "last_updated": "2026-11-06 15:42 EST",
   "google": {
-    "spend_mtd": 4209.55,
-    "clicks_mtd": 214,
+    "spend_mtd": 4239.24,
+    "clicks_mtd": 217,
     "crm_leads": 14,
     "crm_leads_today": 0,
-    "cpc": 19.67,
-    "cpl": 300.68,
+    "cpc": 19.54,
+    "cpl": 302.8,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 377.75,
-        "spend_today": 58.01,
-        "clicks": 148,
-        "cpc": 2.55,
+        "spend": 381.7,
+        "spend_today": 61.96,
+        "clicks": 150,
+        "cpc": 2.54,
         "crm_leads": 0,
-        "cpl": 300.68
+        "cpl": 302.8
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 3831.81,
-        "spend_today": 191.2,
-        "clicks": 66,
-        "cpc": 58.06,
+        "spend": 3857.55,
+        "spend_today": 216.94,
+        "clicks": 67,
+        "cpc": 57.58,
         "crm_leads": 0,
-        "cpl": 300.68
+        "cpl": 302.8
       }
     ]
   },
@@ -43,14 +43,14 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 93488,
+  "potential_income": 313213,
   "assigned_income": 55220,
   "by_stage": {
     "Access Scheduled": 94531,
     "On Market": 94372,
+    "New Deal - Unscheduled": 66725,
     "Initial Inspection Completed": 28999,
-    "Market Prep / Pre-Listing Marketing": 28587,
-    "New Deal - Unscheduled": -153000
+    "Market Prep / Pre-Listing Marketing": 28587
   },
   "by_agent": {
     "Georgia": 40220,
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 4209.55
+      "spend": 4237.67
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -213,12 +213,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -229,10 +229,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -243,7 +243,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -403,9 +403,9 @@
         "booked": 22,
         "offers": 46,
         "accepted": 6,
-        "available": 4,
+        "available": 3,
         "pending": 0,
-        "dead": 0,
+        "dead": 1,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 7411.0,
@@ -921,14 +921,14 @@
         },
         "2026-10": {
           "counts": {
-            "available": 4,
-            "on_hold": 1,
-            "dead": 2
+            "available": 3,
+            "dead": 3,
+            "on_hold": 1
           },
           "gp": {
             "available": 108542,
-            "on_hold": 0,
-            "dead": 39999
+            "dead": 39999,
+            "on_hold": 0
           },
           "total": 7
         },
@@ -937,31 +937,31 @@
             "available": 3
           },
           "gp": {
-            "available": -153000
+            "available": 66725
           },
           "total": 3
         }
       },
       "all_time": {
         "counts": {
-          "available": 7,
+          "available": 6,
+          "dead": 42,
           "on_hold": 1,
-          "dead": 41,
           "closed": 19
         },
         "gp": {
-          "available": -44458,
-          "on_hold": 0,
+          "available": 175268,
           "dead": 849675,
+          "on_hold": 0,
           "closed": 516341
         },
         "total": 68
       },
       "channel_counts": {
         "ppc": {
-          "available": 4,
+          "available": 3,
+          "dead": 13,
           "on_hold": 1,
-          "dead": 12,
           "closed": 7
         },
         "fb": {
@@ -989,9 +989,9 @@
             "available": 1
           },
           "ppc": {
-            "available": 2,
+            "dead": 2,
             "on_hold": 1,
-            "dead": 1
+            "available": 1
           },
           "fb": {
             "available": 1,
@@ -1093,7 +1093,7 @@
       "deals": [
         {
           "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
-          "value": -185000,
+          "value": 34725,
           "status": "Available",
           "stage": "New Deal - Unscheduled",
           "stage_color": "B8D0F5",
@@ -1128,15 +1128,6 @@
           "contract_month": "2026-10"
         },
         {
-          "address": "305 Colquitt St, LaGrange, GA 30241, USA",
-          "value": 0,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        },
-        {
           "address": "46 S York Dr, Newnan, GA 30265, USA",
           "value": 41455,
           "status": "Available",
@@ -1158,12 +1149,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 14,
+    "available": 13,
     "pending": 2,
     "on_hold": 4,
     "closed": 41,
-    "dead": 93,
-    "gp_available": 93488,
+    "dead": 94,
+    "gp_available": 313214,
     "gp_pending": 55220,
     "gp_on_hold": 125189,
     "gp_closed": 871761,
@@ -1180,7 +1171,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 4209.55
+    "2026-11": 4239.24
   },
   "channel_by_month": {
     "2026-01": {
@@ -2114,10 +2105,10 @@
         "offered": 31,
         "accepted": 6,
         "under_contract": 6,
-        "contract_available": 3,
+        "contract_available": 2,
         "contract_pending": 1,
         "contract_closed": 0,
-        "contract_dead": 2,
+        "contract_dead": 3,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -2211,11 +2202,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 4209.55,
+      "google_spend": 4239.24,
       "meta_spend": 0,
       "ppc_leads": 14,
       "fb_leads": 0,
-      "google_cpc": 19.67,
+      "google_cpc": 19.54,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 14,
@@ -2302,10 +2293,10 @@
     "offered": 6,
     "accepted": 44,
     "under_contract": 44,
-    "contract_available": 7,
+    "contract_available": 6,
     "contract_pending": 2,
     "contract_closed": 12,
-    "contract_dead": 23,
+    "contract_dead": 24,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -2350,7 +2341,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 193166,
-    "Charles": -44457
+    "Charles": 175268
   },
   "agent_deals": [
     {
@@ -2445,7 +2436,7 @@
     },
     {
       "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
-      "value": -185000,
+      "value": 34725,
       "status": "Available",
       "stage": "New Deal - Unscheduled",
       "stage_color": "B8D0F5",
@@ -2479,16 +2470,6 @@
       "status": "Available",
       "stage": "Access Scheduled",
       "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Charles"
-    },
-    {
-      "address": "305 Colquitt St, LaGrange, GA 30241, USA",
-      "value": 0,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"

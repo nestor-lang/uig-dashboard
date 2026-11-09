@@ -1,13 +1,13 @@
 {
   "report_date": "November 09, 2026",
-  "last_updated": "2026-11-09 14:02 EST",
+  "last_updated": "2026-11-09 15:02 EST",
   "google": {
-    "spend_mtd": 5680.07,
-    "clicks_mtd": 320,
-    "crm_leads": 20,
-    "crm_leads_today": 2,
-    "cpc": 17.75,
-    "cpl": 284.0,
+    "spend_mtd": 5811.39,
+    "clicks_mtd": 321,
+    "crm_leads": 21,
+    "crm_leads_today": 3,
+    "cpc": 18.1,
+    "cpl": 276.73,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 490.11,
-        "spend_today": 24.44,
+        "spend": 490.67,
+        "spend_today": 25.0,
         "clicks": 225,
         "cpc": 2.18,
         "crm_leads": 0,
-        "cpl": 284.0
+        "cpl": 276.73
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 5189.96,
-        "spend_today": 347.94,
-        "clicks": 95,
-        "cpc": 54.63,
+        "spend": 5320.72,
+        "spend_today": 478.7,
+        "clicks": 96,
+        "cpc": 55.42,
         "crm_leads": 0,
-        "cpl": 284.0
+        "cpl": 276.73
       }
     ]
   },
@@ -121,7 +121,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5681.65
+      "spend": 5811.39
     }
   },
   "reps_by_month": {
@@ -187,7 +187,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -198,10 +198,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -212,12 +212,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 49,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -228,10 +228,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 49
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 54,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -242,7 +242,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 54
+        "discoveries": 53
       }
     },
     "2026-05": {
@@ -444,7 +444,7 @@
         "leads": 5,
         "active": 4,
         "booked": 3,
-        "offers": 4,
+        "offers": 5,
         "accepted": 1,
         "available": 1,
         "pending": 0,
@@ -1170,7 +1170,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 5680.07
+    "2026-11": 5811.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -2101,7 +2101,7 @@
         "leads": 73,
         "active": 40,
         "booked": 35,
-        "offered": 31,
+        "offered": 32,
         "accepted": 6,
         "under_contract": 6,
         "contract_available": 2,
@@ -2201,14 +2201,14 @@
       }
     },
     "2026-11": {
-      "google_spend": 5680.07,
+      "google_spend": 5811.39,
       "meta_spend": 0,
-      "ppc_leads": 20,
+      "ppc_leads": 21,
       "fb_leads": 0,
-      "google_cpc": 17.75,
+      "google_cpc": 18.1,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 20,
+        "leads": 21,
         "active": 14,
         "booked": 8,
         "offered": 7,
@@ -2229,7 +2229,7 @@
             "color": "#D2E4EB"
           },
           "Listed": {
-            "count": 3,
+            "count": 4,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -2271,7 +2271,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 20,
+    "new_leads_30d": 21,
     "dispositioned_mtd": 14,
     "hot": 8,
     "booked": 8,
@@ -2294,7 +2294,7 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 20,
+    "leads": 21,
     "active": 14,
     "booked": 8,
     "offered": 7,
@@ -2315,7 +2315,7 @@
         "color": "#D2E4EB"
       },
       "Listed": {
-        "count": 3,
+        "count": 4,
         "color": "#C8C8C8"
       },
       "Under Contract": {
@@ -2349,7 +2349,7 @@
     },
     "Julian": {
       "discoveries": 5,
-      "offers": 4,
+      "offers": 5,
       "contracts": 1,
       "revenue": 0.0
     }
@@ -2511,7 +2511,7 @@
     }
   ],
   "sources": {
-    "ppc": 20,
+    "ppc": 21,
     "facebook": 0,
     "ppc_inbound_call": 14
   },
@@ -2541,8 +2541,8 @@
       "source": "Facebook"
     },
     {
-      "name": "503 Michigan Ave #305",
-      "address": "503 Michigan Ave #305, Sturgis, MI 49091, USA",
+      "name": "503 Michigan Ave",
+      "address": "503 Michigan Ave, Sturgis, MI 49091, USA",
       "phone": "(269) 255-9217",
       "source": "PPC"
     }

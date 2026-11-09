@@ -1,13 +1,13 @@
 {
   "report_date": "November 09, 2026",
-  "last_updated": "2026-11-09 09:02 EST",
+  "last_updated": "2026-11-09 10:02 EST",
   "google": {
-    "spend_mtd": 5311.52,
-    "clicks_mtd": 306,
-    "crm_leads": 21,
-    "crm_leads_today": 0,
-    "cpc": 17.36,
-    "cpl": 252.93,
+    "spend_mtd": 5409.77,
+    "clicks_mtd": 308,
+    "crm_leads": 22,
+    "crm_leads_today": 1,
+    "cpc": 17.56,
+    "cpl": 245.9,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 469.49,
-        "spend_today": 7.74,
-        "clicks": 216,
-        "cpc": 2.17,
+        "spend": 472.54,
+        "spend_today": 10.79,
+        "clicks": 217,
+        "cpc": 2.18,
         "crm_leads": 0,
-        "cpl": 252.93
+        "cpl": 245.9
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 4842.02,
-        "spend_today": 0.0,
-        "clicks": 90,
-        "cpc": 53.8,
+        "spend": 4937.23,
+        "spend_today": 95.21,
+        "clicks": 91,
+        "cpc": 54.26,
         "crm_leads": 0,
-        "cpl": 252.93
+        "cpl": 245.9
       }
     ]
   },
@@ -46,11 +46,10 @@
   "potential_income": 313213,
   "assigned_income": 55220,
   "by_stage": {
+    "On Market": 122959,
     "Access Scheduled": 94531,
-    "On Market": 94372,
     "New Deal - Unscheduled": 66725,
-    "Initial Inspection Completed": 28999,
-    "Market Prep / Pre-Listing Marketing": 28587
+    "Initial Inspection Completed": 28999
   },
   "by_agent": {
     "Georgia": 40220,
@@ -122,13 +121,13 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 5311.52
+      "spend": 5409.77
     }
   },
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 0,
+        "leads": 17,
         "active": 0,
         "booked": 6,
         "offers": 8,
@@ -139,10 +138,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 17
       },
       "Julian": {
-        "leads": 0,
+        "leads": 49,
         "active": 0,
         "booked": 26,
         "offers": 39,
@@ -153,12 +152,12 @@
         "closed": 5,
         "pending_income": 56054.0,
         "closed_revenue": 89841.95,
-        "discoveries": 0
+        "discoveries": 49
       }
     },
     "2026-02": {
       "Charles": {
-        "leads": 11,
+        "leads": 22,
         "active": 5,
         "booked": 19,
         "offers": 19,
@@ -169,10 +168,10 @@
         "closed": 1,
         "pending_income": 8990.0,
         "closed_revenue": 40116.5,
-        "discoveries": 0
+        "discoveries": 22
       },
       "Julian": {
-        "leads": 5,
+        "leads": 36,
         "active": 3,
         "booked": 22,
         "offers": 27,
@@ -183,12 +182,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 92798.35,
-        "discoveries": 0
+        "discoveries": 36
       }
     },
     "2026-03": {
       "Charles": {
-        "leads": 22,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -199,10 +198,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 19,
+        "leads": 37,
         "active": 10,
         "booked": 20,
         "offers": 39,
@@ -213,12 +212,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 0
+        "discoveries": 37
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 87,
+        "leads": 50,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -229,10 +228,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 0
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 85,
+        "leads": 53,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -243,12 +242,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 0
+        "discoveries": 53
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 101,
+        "leads": 36,
         "active": 42,
         "booked": 36,
         "offers": 32,
@@ -259,10 +258,10 @@
         "closed": 2,
         "pending_income": 0.0,
         "closed_revenue": 57100.0,
-        "discoveries": 0
+        "discoveries": 36
       },
       "Julian": {
-        "leads": 113,
+        "leads": 50,
         "active": 62,
         "booked": 55,
         "offers": 50,
@@ -273,12 +272,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 94508.68,
-        "discoveries": 0
+        "discoveries": 50
       }
     },
     "2026-06": {
       "Charles": {
-        "leads": 82,
+        "leads": 49,
         "active": 45,
         "booked": 40,
         "offers": 39,
@@ -289,10 +288,10 @@
         "closed": 4,
         "pending_income": 0.0,
         "closed_revenue": 146447.9,
-        "discoveries": 0
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 90,
+        "leads": 77,
         "active": 62,
         "booked": 57,
         "offers": 55,
@@ -303,12 +302,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 67323.19,
-        "discoveries": 0
+        "discoveries": 77
       }
     },
     "2026-07": {
       "Charles": {
-        "leads": 102,
+        "leads": 48,
         "active": 52,
         "booked": 49,
         "offers": 45,
@@ -319,10 +318,10 @@
         "closed": 3,
         "pending_income": 0.0,
         "closed_revenue": 88594.62,
-        "discoveries": 0
+        "discoveries": 48
       },
       "Julian": {
-        "leads": 130,
+        "leads": 77,
         "active": 82,
         "booked": 77,
         "offers": 59,
@@ -333,12 +332,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 0
+        "discoveries": 77
       }
     },
     "2026-08": {
       "Charles": {
-        "leads": 129,
+        "leads": 51,
         "active": 64,
         "booked": 56,
         "offers": 51,
@@ -349,10 +348,10 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 51364.39,
-        "discoveries": 0
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 138,
+        "leads": 78,
         "active": 84,
         "booked": 74,
         "offers": 63,
@@ -363,12 +362,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 2000.0,
-        "discoveries": 0
+        "discoveries": 78
       }
     },
     "2026-09": {
       "Charles": {
-        "leads": 98,
+        "leads": 50,
         "active": 55,
         "booked": 43,
         "offers": 54,
@@ -379,10 +378,10 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 112691.26,
-        "discoveries": 0
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 136,
+        "leads": 75,
         "active": 70,
         "booked": 64,
         "offers": 79,
@@ -393,12 +392,12 @@
         "closed": 0,
         "pending_income": 55220.37,
         "closed_revenue": 7070.24,
-        "discoveries": 0
+        "discoveries": 75
       }
     },
     "2026-10": {
       "Charles": {
-        "leads": 46,
+        "leads": 35,
         "active": 23,
         "booked": 22,
         "offers": 46,
@@ -409,10 +408,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 7411.0,
-        "discoveries": 0
+        "discoveries": 35
       },
       "Julian": {
-        "leads": 47,
+        "leads": 48,
         "active": 28,
         "booked": 27,
         "offers": 47,
@@ -423,12 +422,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 0
+        "discoveries": 48
       }
     },
     "2026-11": {
       "Charles": {
-        "leads": 8,
+        "leads": 9,
         "active": 5,
         "booked": 5,
         "offers": 11,
@@ -439,10 +438,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 9
       },
       "Julian": {
-        "leads": 5,
+        "leads": 4,
         "active": 4,
         "booked": 3,
         "offers": 4,
@@ -453,7 +452,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 4
       }
     }
   },
@@ -811,7 +810,7 @@
           "address": "15 N Church St, Keyser, WV 26726, USA",
           "value": 28587,
           "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage": "On Market",
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
@@ -1171,7 +1170,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 5311.52
+    "2026-11": 5409.77
   },
   "channel_by_month": {
     "2026-01": {
@@ -2202,15 +2201,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 5311.52,
+      "google_spend": 5409.77,
       "meta_spend": 0,
-      "ppc_leads": 21,
+      "ppc_leads": 22,
       "fb_leads": 0,
-      "google_cpc": 17.36,
+      "google_cpc": 17.56,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 21,
-        "active": 17,
+        "leads": 22,
+        "active": 18,
         "booked": 8,
         "offered": 7,
         "accepted": 3,
@@ -2222,7 +2221,7 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 9,
+            "count": 10,
             "color": "#FFD5C2"
           },
           "Cold": {
@@ -2264,7 +2263,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 21,
+    "new_leads_30d": 22,
     "dispositioned_mtd": 13,
     "hot": 8,
     "booked": 8,
@@ -2287,8 +2286,8 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 21,
-    "active": 17,
+    "leads": 22,
+    "active": 18,
     "booked": 8,
     "offered": 7,
     "accepted": 44,
@@ -2300,7 +2299,7 @@
     "closed": 0,
     "status_breakdown": {
       "Need to Contact": {
-        "count": 9,
+        "count": 10,
         "color": "#FFD5C2"
       },
       "Cold": {
@@ -2327,13 +2326,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 0,
+      "discoveries": 9,
       "offers": 11,
       "contracts": 3,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 0,
+      "discoveries": 4,
       "offers": 4,
       "contracts": 1,
       "revenue": 0.0
@@ -2428,7 +2427,7 @@
       "address": "15 N Church St, Keyser, WV 26726, USA",
       "value": 28587,
       "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage": "On Market",
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
@@ -2496,7 +2495,7 @@
     }
   ],
   "sources": {
-    "ppc": 21,
+    "ppc": 22,
     "facebook": 0,
     "ppc_inbound_call": 13
   },

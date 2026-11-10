@@ -1,13 +1,13 @@
 {
   "report_date": "November 10, 2026",
-  "last_updated": "2026-11-10 17:52 EST",
+  "last_updated": "2026-11-10 18:57 EST",
   "google": {
-    "spend_mtd": 7143.0,
-    "clicks_mtd": 376,
-    "crm_leads": 25,
-    "crm_leads_today": 1,
-    "cpc": 19.0,
-    "cpl": 285.72,
+    "spend_mtd": 7165.8,
+    "clicks_mtd": 378,
+    "crm_leads": 29,
+    "crm_leads_today": 5,
+    "cpc": 18.96,
+    "cpl": 247.1,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 603.12,
-        "spend_today": 74.43,
-        "clicks": 263,
-        "cpc": 2.29,
+        "spend": 625.93,
+        "spend_today": 97.24,
+        "clicks": 265,
+        "cpc": 2.36,
         "crm_leads": 0,
-        "cpl": 285.72
+        "cpl": 247.1
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 113,
         "cpc": 57.87,
         "crm_leads": 0,
-        "cpl": 285.72
+        "cpl": 247.1
       }
     ]
   },
@@ -46,9 +46,9 @@
   "potential_income": 262508,
   "assigned_income": 55220,
   "by_stage": {
-    "Access Scheduled": 114531,
+    "Access Scheduled": 149256,
     "On Market": 101253,
-    "New Deal - Unscheduled": 46725
+    "New Deal - Unscheduled": 12000
   },
   "by_agent": {
     "Georgia": 40220,
@@ -120,7 +120,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7118.67
+      "spend": 7165.8
     }
   },
   "reps_by_month": {
@@ -1095,8 +1095,8 @@
           "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
           "value": 34725,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1162,7 +1162,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 7143.0
+    "2026-11": 7165.8
   },
   "channel_by_month": {
     "2026-01": {
@@ -2205,15 +2205,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 7143.0,
+      "google_spend": 7165.8,
       "meta_spend": 0,
-      "ppc_leads": 25,
+      "ppc_leads": 29,
       "fb_leads": 0,
-      "google_cpc": 19.0,
+      "google_cpc": 18.96,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 25,
-        "active": 16,
+        "leads": 29,
+        "active": 19,
         "booked": 12,
         "offered": 10,
         "accepted": 4,
@@ -2228,13 +2228,17 @@
             "count": 8,
             "color": "#D2E4EB"
           },
+          "Need to Contact": {
+            "count": 6,
+            "color": "#FFD5C2"
+          },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
           },
-          "Need to Contact": {
-            "count": 3,
-            "color": "#FFD5C2"
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
           },
           "Warm": {
             "count": 2,
@@ -2255,10 +2259,6 @@
           "Hot": {
             "count": 1,
             "color": "#F7D1D0"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           }
         }
       },
@@ -2279,7 +2279,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 25,
+    "new_leads_30d": 29,
     "dispositioned_mtd": 21,
     "hot": 8,
     "booked": 12,
@@ -2302,8 +2302,8 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 25,
-    "active": 16,
+    "leads": 29,
+    "active": 19,
     "booked": 12,
     "offered": 10,
     "accepted": 45,
@@ -2318,13 +2318,17 @@
         "count": 8,
         "color": "#D2E4EB"
       },
+      "Need to Contact": {
+        "count": 6,
+        "color": "#FFD5C2"
+      },
       "Listed": {
         "count": 5,
         "color": "#C8C8C8"
       },
-      "Need to Contact": {
-        "count": 3,
-        "color": "#FFD5C2"
+      "Dead": {
+        "count": 2,
+        "color": "#F3F3F3"
       },
       "Warm": {
         "count": 2,
@@ -2345,10 +2349,6 @@
       "Hot": {
         "count": 1,
         "color": "#F7D1D0"
-      },
-      "Dead": {
-        "count": 1,
-        "color": "#F3F3F3"
       }
     }
   },
@@ -2465,8 +2465,8 @@
       "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
       "value": 34725,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Charles"
@@ -2513,7 +2513,7 @@
     }
   ],
   "sources": {
-    "ppc": 25,
+    "ppc": 29,
     "facebook": 0,
     "ppc_inbound_call": 14
   },

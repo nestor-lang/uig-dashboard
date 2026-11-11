@@ -1,13 +1,13 @@
 {
   "report_date": "November 11, 2026",
-  "last_updated": "2026-11-11 10:17 EST",
+  "last_updated": "2026-11-11 11:22 EST",
   "google": {
-    "spend_mtd": 7612.24,
-    "clicks_mtd": 389,
+    "spend_mtd": 7968.59,
+    "clicks_mtd": 392,
     "crm_leads": 27,
     "crm_leads_today": 0,
-    "cpc": 19.57,
-    "cpl": 281.93,
+    "cpc": 20.33,
+    "cpl": 295.13,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 675.27,
-        "spend_today": 49.34,
-        "clicks": 273,
+        "spend": 676.12,
+        "spend_today": 50.19,
+        "clicks": 274,
         "cpc": 2.47,
         "crm_leads": 0,
-        "cpl": 281.93
+        "cpl": 295.13
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 6936.97,
-        "spend_today": 100.84,
-        "clicks": 116,
-        "cpc": 59.8,
+        "spend": 7292.47,
+        "spend_today": 456.34,
+        "clicks": 118,
+        "cpc": 61.8,
         "crm_leads": 0,
-        "cpl": 281.93
+        "cpl": 295.13
       }
     ]
   },
@@ -46,8 +46,9 @@
   "potential_income": 262508,
   "assigned_income": 55220,
   "by_stage": {
-    "Access Scheduled": 149256,
+    "Access Scheduled": 114516,
     "On Market": 101253,
+    "Initial Inspection Completed": 34740,
     "New Deal - Unscheduled": 12000
   },
   "by_agent": {
@@ -120,7 +121,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7612.24
+      "spend": 7968.59
     }
   },
   "reps_by_month": {
@@ -186,7 +187,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -197,10 +198,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -211,12 +212,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 50,
+        "leads": 49,
         "active": 47,
         "booked": 44,
         "offers": 35,
@@ -227,10 +228,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 50
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 53,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -241,7 +242,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 46043.35,
-        "discoveries": 53
+        "discoveries": 54
       }
     },
     "2026-05": {
@@ -367,7 +368,7 @@
     "2026-09": {
       "Charles": {
         "leads": 50,
-        "active": 55,
+        "active": 56,
         "booked": 43,
         "offers": 54,
         "accepted": 7,
@@ -440,7 +441,7 @@
         "discoveries": 12
       },
       "Julian": {
-        "leads": 9,
+        "leads": 10,
         "active": 5,
         "booked": 5,
         "offers": 7,
@@ -451,7 +452,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 9
+        "discoveries": 10
       }
     }
   },
@@ -740,8 +741,8 @@
           "address": "7 Nichols Rd, Luray, VA 22835, USA",
           "value": 34740,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1162,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 7612.24
+    "2026-11": 7968.59
   },
   "channel_by_month": {
     "2026-01": {
@@ -2205,11 +2206,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 7612.24,
+      "google_spend": 7968.59,
       "meta_spend": 0,
       "ppc_leads": 27,
       "fb_leads": 0,
-      "google_cpc": 19.57,
+      "google_cpc": 20.33,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 27,
@@ -2280,7 +2281,7 @@
   },
   "pipeline": {
     "new_leads_30d": 27,
-    "dispositioned_mtd": 21,
+    "dispositioned_mtd": 22,
     "hot": 8,
     "booked": 12,
     "offers": 10,
@@ -2360,7 +2361,7 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 9,
+      "discoveries": 10,
       "offers": 7,
       "contracts": 2,
       "revenue": 0.0
@@ -2375,8 +2376,8 @@
       "address": "7 Nichols Rd, Luray, VA 22835, USA",
       "value": 34740,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Julian"

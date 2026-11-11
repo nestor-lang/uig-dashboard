@@ -1,13 +1,13 @@
 {
   "report_date": "November 11, 2026",
-  "last_updated": "2026-11-11 11:22 EST",
+  "last_updated": "2026-11-11 12:27 EST",
   "google": {
-    "spend_mtd": 7968.59,
-    "clicks_mtd": 392,
-    "crm_leads": 27,
+    "spend_mtd": 7817.61,
+    "clicks_mtd": 391,
+    "crm_leads": 26,
     "crm_leads_today": 0,
-    "cpc": 20.33,
-    "cpl": 295.13,
+    "cpc": 19.99,
+    "cpl": 300.68,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 676.12,
-        "spend_today": 50.19,
+        "spend": 676.18,
+        "spend_today": 50.25,
         "clicks": 274,
         "cpc": 2.47,
         "crm_leads": 0,
-        "cpl": 295.13
+        "cpl": 300.68
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7292.47,
-        "spend_today": 456.34,
-        "clicks": 118,
-        "cpc": 61.8,
+        "spend": 7141.42,
+        "spend_today": 305.29,
+        "clicks": 117,
+        "cpc": 61.04,
         "crm_leads": 0,
-        "cpl": 295.13
+        "cpl": 300.68
       }
     ]
   },
@@ -46,10 +46,9 @@
   "potential_income": 262508,
   "assigned_income": 55220,
   "by_stage": {
-    "Access Scheduled": 114516,
+    "Access Scheduled": 126516,
     "On Market": 101253,
-    "Initial Inspection Completed": 34740,
-    "New Deal - Unscheduled": 12000
+    "Initial Inspection Completed": 34740
   },
   "by_agent": {
     "Georgia": 40220,
@@ -121,7 +120,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 7968.59
+      "spend": 7817.61
     }
   },
   "reps_by_month": {
@@ -383,7 +382,7 @@
       "Julian": {
         "leads": 75,
         "active": 71,
-        "booked": 64,
+        "booked": 65,
         "offers": 79,
         "accepted": 11,
         "available": 3,
@@ -441,10 +440,10 @@
         "discoveries": 12
       },
       "Julian": {
-        "leads": 10,
+        "leads": 11,
         "active": 5,
         "booked": 5,
-        "offers": 7,
+        "offers": 8,
         "accepted": 2,
         "available": 1,
         "pending": 0,
@@ -452,7 +451,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 10
+        "discoveries": 11
       }
     }
   },
@@ -1105,8 +1104,8 @@
           "address": "1212 Glendale Ave, Bluefield, WV 24701, USA",
           "value": 12000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1163,7 +1162,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 7968.59
+    "2026-11": 7817.61
   },
   "channel_by_month": {
     "2026-01": {
@@ -1979,7 +1978,7 @@
       "pipeline_ppc": {
         "leads": 82,
         "active": 44,
-        "booked": 39,
+        "booked": 40,
         "offered": 36,
         "accepted": 8,
         "under_contract": 8,
@@ -2002,7 +2001,7 @@
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 10,
+            "count": 9,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -2028,6 +2027,10 @@
           "Closed": {
             "count": 1,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Sold": {
             "count": 1,
@@ -2206,15 +2209,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 7968.59,
+      "google_spend": 7817.61,
       "meta_spend": 0,
-      "ppc_leads": 27,
+      "ppc_leads": 26,
       "fb_leads": 0,
-      "google_cpc": 20.33,
+      "google_cpc": 19.99,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 27,
-        "active": 17,
+        "leads": 26,
+        "active": 16,
         "booked": 12,
         "offered": 10,
         "accepted": 4,
@@ -2234,7 +2237,7 @@
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 4,
+            "count": 3,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -2280,8 +2283,8 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 27,
-    "dispositioned_mtd": 22,
+    "new_leads_30d": 26,
+    "dispositioned_mtd": 23,
     "hot": 8,
     "booked": 12,
     "offers": 10,
@@ -2303,8 +2306,8 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 27,
-    "active": 17,
+    "leads": 26,
+    "active": 16,
     "booked": 12,
     "offered": 10,
     "accepted": 45,
@@ -2324,7 +2327,7 @@
         "color": "#C8C8C8"
       },
       "Need to Contact": {
-        "count": 4,
+        "count": 3,
         "color": "#FFD5C2"
       },
       "Dead": {
@@ -2361,8 +2364,8 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 10,
-      "offers": 7,
+      "discoveries": 11,
+      "offers": 8,
       "contracts": 2,
       "revenue": 0.0
     }
@@ -2476,8 +2479,8 @@
       "address": "1212 Glendale Ave, Bluefield, WV 24701, USA",
       "value": 12000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Charles"
@@ -2514,7 +2517,7 @@
     }
   ],
   "sources": {
-    "ppc": 27,
+    "ppc": 26,
     "facebook": 0,
     "ppc_inbound_call": 14
   },

@@ -1,13 +1,13 @@
 {
   "report_date": "November 12, 2026",
-  "last_updated": "2026-11-12 11:02 EST",
+  "last_updated": "2026-11-12 12:02 EST",
   "google": {
-    "spend_mtd": 8395.98,
-    "clicks_mtd": 412,
+    "spend_mtd": 8496.95,
+    "clicks_mtd": 414,
     "crm_leads": 32,
     "crm_leads_today": 1,
-    "cpc": 20.38,
-    "cpl": 262.37,
+    "cpc": 20.52,
+    "cpl": 265.53,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 716.6,
-        "spend_today": 30.62,
-        "clicks": 288,
+        "spend": 720.44,
+        "spend_today": 34.46,
+        "clicks": 289,
         "cpc": 2.49,
         "crm_leads": 0,
-        "cpl": 262.37
+        "cpl": 265.53
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 7679.37,
-        "spend_today": 95.64,
-        "clicks": 124,
-        "cpc": 61.93,
+        "spend": 7776.5,
+        "spend_today": 192.77,
+        "clicks": 125,
+        "cpc": 62.21,
         "crm_leads": 0,
-        "cpl": 262.37
+        "cpl": 265.53
       }
     ]
   },
@@ -47,8 +47,8 @@
   "assigned_income": 55220,
   "by_stage": {
     "On Market": 101253,
-    "Access Scheduled": 91701,
-    "Initial Inspection Completed": 69465
+    "Initial Inspection Completed": 89375,
+    "Access Scheduled": 71791
   },
   "by_agent": {
     "Georgia": 40220,
@@ -120,7 +120,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8395.98
+      "spend": 8496.95
     }
   },
   "reps_by_month": {
@@ -186,7 +186,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -197,10 +197,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -211,7 +211,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
@@ -247,8 +247,8 @@
     "2026-05": {
       "Charles": {
         "leads": 36,
-        "active": 43,
-        "booked": 37,
+        "active": 44,
+        "booked": 38,
         "offers": 32,
         "accepted": 10,
         "available": 0,
@@ -337,7 +337,7 @@
     "2026-08": {
       "Charles": {
         "leads": 51,
-        "active": 64,
+        "active": 65,
         "booked": 56,
         "offers": 51,
         "accepted": 5,
@@ -426,10 +426,10 @@
     },
     "2026-11": {
       "Charles": {
-        "leads": 14,
+        "leads": 15,
         "active": 10,
         "booked": 8,
-        "offers": 18,
+        "offers": 19,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -437,12 +437,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 14
+        "discoveries": 15
       },
       "Julian": {
-        "leads": 11,
-        "active": 6,
-        "booked": 5,
+        "leads": 12,
+        "active": 7,
+        "booked": 6,
         "offers": 9,
         "accepted": 2,
         "available": 1,
@@ -451,7 +451,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 11
+        "discoveries": 12
       }
     }
   },
@@ -1113,8 +1113,8 @@
           "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
           "value": 19910,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1162,7 +1162,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 8395.98
+    "2026-11": 8496.95
   },
   "channel_by_month": {
     "2026-01": {
@@ -1516,9 +1516,9 @@
       },
       "pipeline_fb": {
         "leads": 194,
-        "active": 86,
-        "booked": 74,
-        "offered": 60,
+        "active": 87,
+        "booked": 75,
+        "offered": 61,
         "accepted": 10,
         "under_contract": 10,
         "contract_available": 0,
@@ -1528,7 +1528,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 50,
+            "count": 51,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1547,13 +1547,13 @@
             "count": 13,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
-            "count": 11,
-            "color": "#F3F3F3"
-          },
           "Listed": {
             "count": 10,
             "color": "#C8C8C8"
+          },
+          "No Longer Selling": {
+            "count": 10,
+            "color": "#F3F3F3"
           },
           "Owes too Much": {
             "count": 9,
@@ -1721,11 +1721,11 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 15,
+            "count": 16,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 9,
+            "count": 8,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -1906,7 +1906,7 @@
       },
       "pipeline_fb": {
         "leads": 228,
-        "active": 115,
+        "active": 116,
         "booked": 101,
         "offered": 91,
         "accepted": 4,
@@ -1922,7 +1922,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 41,
+            "count": 42,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1946,7 +1946,7 @@
             "color": "#F3F3F3"
           },
           "Listed": {
-            "count": 12,
+            "count": 11,
             "color": "#C8C8C8"
           },
           "Under Contract": {
@@ -2103,7 +2103,7 @@
       "meta_cpc": 3.49,
       "pipeline_ppc": {
         "leads": 72,
-        "active": 37,
+        "active": 36,
         "booked": 34,
         "offered": 31,
         "accepted": 6,
@@ -2209,16 +2209,16 @@
       }
     },
     "2026-11": {
-      "google_spend": 8395.98,
+      "google_spend": 8496.95,
       "meta_spend": 0,
       "ppc_leads": 32,
       "fb_leads": 0,
-      "google_cpc": 20.38,
+      "google_cpc": 20.52,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 32,
         "active": 23,
-        "booked": 13,
+        "booked": 14,
         "offered": 11,
         "accepted": 4,
         "under_contract": 4,
@@ -2228,20 +2228,20 @@
         "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
-          "Need to Contact": {
-            "count": 9,
-            "color": "#FFD5C2"
-          },
           "Cold": {
             "count": 9,
             "color": "#D2E4EB"
+          },
+          "Need to Contact": {
+            "count": 8,
+            "color": "#FFD5C2"
           },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
           },
           "Warm": {
-            "count": 2,
+            "count": 3,
             "color": "#F7F0C5"
           },
           "Owes too Much": {
@@ -2284,9 +2284,9 @@
   },
   "pipeline": {
     "new_leads_30d": 32,
-    "dispositioned_mtd": 25,
+    "dispositioned_mtd": 27,
     "hot": 8,
-    "booked": 13,
+    "booked": 14,
     "offers": 11,
     "under_contract": 2,
     "closed": 0
@@ -2308,7 +2308,7 @@
   "pipeline_ppc": {
     "leads": 32,
     "active": 23,
-    "booked": 13,
+    "booked": 14,
     "offered": 11,
     "accepted": 45,
     "under_contract": 45,
@@ -2318,20 +2318,20 @@
     "contract_dead": 25,
     "closed": 0,
     "status_breakdown": {
-      "Need to Contact": {
-        "count": 9,
-        "color": "#FFD5C2"
-      },
       "Cold": {
         "count": 9,
         "color": "#D2E4EB"
+      },
+      "Need to Contact": {
+        "count": 8,
+        "color": "#FFD5C2"
       },
       "Listed": {
         "count": 5,
         "color": "#C8C8C8"
       },
       "Warm": {
-        "count": 2,
+        "count": 3,
         "color": "#F7F0C5"
       },
       "Owes too Much": {
@@ -2358,13 +2358,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 14,
-      "offers": 18,
+      "discoveries": 15,
+      "offers": 19,
       "contracts": 3,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 11,
+      "discoveries": 12,
       "offers": 9,
       "contracts": 2,
       "revenue": 0.0
@@ -2489,8 +2489,8 @@
       "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
       "value": 19910,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Charles"

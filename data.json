@@ -1,13 +1,13 @@
 {
   "report_date": "November 13, 2026",
-  "last_updated": "2026-11-13 09:12 EST",
+  "last_updated": "2026-11-13 10:17 EST",
   "google": {
-    "spend_mtd": 8943.02,
-    "clicks_mtd": 435,
+    "spend_mtd": 8947.8,
+    "clicks_mtd": 439,
     "crm_leads": 28,
     "crm_leads_today": 0,
-    "cpc": 20.56,
-    "cpl": 319.39,
+    "cpc": 20.38,
+    "cpl": 319.56,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 774.12,
-        "spend_today": 29.22,
-        "clicks": 303,
-        "cpc": 2.55,
+        "spend": 778.9,
+        "spend_today": 34.77,
+        "clicks": 307,
+        "cpc": 2.54,
         "crm_leads": 0,
-        "cpl": 319.39
+        "cpl": 319.56
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 132,
         "cpc": 61.89,
         "crm_leads": 0,
-        "cpl": 319.39
+        "cpl": 319.56
       }
     ]
   },
@@ -46,9 +46,9 @@
   "potential_income": 262418,
   "assigned_income": 55220,
   "by_stage": {
+    "Initial Inspection Completed": 119256,
     "On Market": 101253,
-    "Access Scheduled": 71791,
-    "Initial Inspection Completed": 69465,
+    "Access Scheduled": 22000,
     "Market Prep / Pre-Listing Marketing": 19910
   },
   "by_agent": {
@@ -121,7 +121,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 8941.63
+      "spend": 8947.8
     }
   },
   "reps_by_month": {
@@ -187,7 +187,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -198,10 +198,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -212,7 +212,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
@@ -351,7 +351,7 @@
         "discoveries": 51
       },
       "Julian": {
-        "leads": 78,
+        "leads": 79,
         "active": 84,
         "booked": 75,
         "offers": 63,
@@ -362,7 +362,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 2000.0,
-        "discoveries": 78
+        "discoveries": 79
       }
     },
     "2026-09": {
@@ -427,10 +427,10 @@
     },
     "2026-11": {
       "Charles": {
-        "leads": 16,
+        "leads": 17,
         "active": 10,
         "booked": 9,
-        "offers": 19,
+        "offers": 20,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -438,7 +438,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 16
+        "discoveries": 17
       },
       "Julian": {
         "leads": 14,
@@ -1123,8 +1123,8 @@
           "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
           "value": 49791,
           "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
+          "stage": "Initial Inspection Completed",
+          "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
         },
@@ -1163,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 8943.02
+    "2026-11": 8947.8
   },
   "channel_by_month": {
     "2026-01": {
@@ -2210,11 +2210,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 8943.02,
+      "google_spend": 8947.8,
       "meta_spend": 0,
       "ppc_leads": 28,
       "fb_leads": 0,
-      "google_cpc": 20.56,
+      "google_cpc": 20.38,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 28,
@@ -2285,7 +2285,7 @@
   },
   "pipeline": {
     "new_leads_30d": 28,
-    "dispositioned_mtd": 30,
+    "dispositioned_mtd": 32,
     "hot": 8,
     "booked": 16,
     "offers": 13,
@@ -2359,8 +2359,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 16,
-      "offers": 19,
+      "discoveries": 17,
+      "offers": 20,
       "contracts": 3,
       "revenue": 0.0
     },
@@ -2500,8 +2500,8 @@
       "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
       "value": 49791,
       "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
+      "stage": "Initial Inspection Completed",
+      "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
       "agent": "Charles"

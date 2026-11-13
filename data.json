@@ -1,13 +1,13 @@
 {
   "report_date": "November 13, 2026",
-  "last_updated": "2026-11-13 14:37 EST",
+  "last_updated": "2026-11-13 15:42 EST",
   "google": {
-    "spend_mtd": 9578.52,
-    "clicks_mtd": 457,
+    "spend_mtd": 9617.35,
+    "clicks_mtd": 459,
     "crm_leads": 30,
     "crm_leads_today": 2,
-    "cpc": 20.96,
-    "cpl": 319.28,
+    "cpc": 20.95,
+    "cpl": 320.58,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 796.35,
-        "spend_today": 52.22,
-        "clicks": 318,
+        "spend": 797.58,
+        "spend_today": 53.45,
+        "clicks": 319,
         "cpc": 2.5,
         "crm_leads": 0,
-        "cpl": 319.28
+        "cpl": 320.58
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 8782.17,
-        "spend_today": 613.27,
-        "clicks": 139,
-        "cpc": 63.18,
+        "spend": 8819.77,
+        "spend_today": 650.87,
+        "clicks": 140,
+        "cpc": 63.0,
         "crm_leads": 0,
-        "cpl": 319.28
+        "cpl": 320.58
       }
     ]
   },
@@ -121,7 +121,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9517.34
+      "spend": 9617.35
     }
   },
   "reps_by_month": {
@@ -1163,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 9578.52
+    "2026-11": 9617.35
   },
   "channel_by_month": {
     "2026-01": {
@@ -1359,13 +1359,13 @@
         "contract_dead": 1,
         "closed": 1,
         "status_breakdown": {
-          "Cold": {
-            "count": 8,
-            "color": "#D2E4EB"
-          },
           "Sold": {
-            "count": 8,
+            "count": 9,
             "color": "#C8C8C8"
+          },
+          "Cold": {
+            "count": 7,
+            "color": "#D2E4EB"
           },
           "Listed": {
             "count": 7,
@@ -2210,11 +2210,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 9578.52,
+      "google_spend": 9617.35,
       "meta_spend": 0,
       "ppc_leads": 30,
       "fb_leads": 0,
-      "google_cpc": 20.96,
+      "google_cpc": 20.95,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 30,

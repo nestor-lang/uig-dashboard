@@ -1,13 +1,13 @@
 {
   "report_date": "November 13, 2026",
-  "last_updated": "2026-11-13 12:27 EST",
+  "last_updated": "2026-11-13 13:32 EST",
   "google": {
-    "spend_mtd": 9283.29,
-    "clicks_mtd": 449,
+    "spend_mtd": 9453.35,
+    "clicks_mtd": 452,
     "crm_leads": 30,
     "crm_leads_today": 2,
-    "cpc": 20.68,
-    "cpl": 309.44,
+    "cpc": 20.91,
+    "cpl": 315.11,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 791.89,
-        "spend_today": 47.76,
-        "clicks": 314,
+        "spend": 793.54,
+        "spend_today": 49.41,
+        "clicks": 315,
         "cpc": 2.52,
         "crm_leads": 0,
-        "cpl": 309.44
+        "cpl": 315.11
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 8491.4,
-        "spend_today": 322.5,
-        "clicks": 135,
-        "cpc": 62.9,
+        "spend": 8659.81,
+        "spend_today": 490.91,
+        "clicks": 137,
+        "cpc": 63.21,
         "crm_leads": 0,
-        "cpl": 309.44
+        "cpl": 315.11
       }
     ]
   },
@@ -121,7 +121,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9283.29
+      "spend": 9453.35
     }
   },
   "reps_by_month": {
@@ -1163,7 +1163,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 9283.29
+    "2026-11": 9453.35
   },
   "channel_by_month": {
     "2026-01": {
@@ -1734,16 +1734,16 @@
             "color": "#D1F3EC"
           },
           "Dead": {
-            "count": 6,
+            "count": 7,
             "color": "#F3F3F3"
-          },
-          "Listed": {
-            "count": 5,
-            "color": "#C8C8C8"
           },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
+          },
+          "Listed": {
+            "count": 4,
+            "color": "#C8C8C8"
           },
           "Sold": {
             "count": 3,
@@ -1781,7 +1781,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 69,
+            "count": 70,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1816,10 +1816,6 @@
             "count": 6,
             "color": "#DCEBD8"
           },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
-          },
           "Closed": {
             "count": 1,
             "color": "#DCEBD8"
@@ -1827,6 +1823,10 @@
           "Warm": {
             "count": 1,
             "color": "#F7F0C5"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           }
         }
       }
@@ -2210,11 +2210,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 9283.29,
+      "google_spend": 9453.35,
       "meta_spend": 0,
       "ppc_leads": 30,
       "fb_leads": 0,
-      "google_cpc": 20.68,
+      "google_cpc": 20.91,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 30,
@@ -2230,16 +2230,16 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 10,
+            "count": 9,
             "color": "#D2E4EB"
+          },
+          "Warm": {
+            "count": 5,
+            "color": "#F7F0C5"
           },
           "Listed": {
             "count": 5,
             "color": "#C8C8C8"
-          },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
           },
           "Need to Contact": {
             "count": 3,
@@ -2286,7 +2286,7 @@
   "pipeline": {
     "new_leads_30d": 30,
     "dispositioned_mtd": 32,
-    "hot": 8,
+    "hot": 7,
     "booked": 17,
     "offers": 14,
     "under_contract": 2,
@@ -2320,16 +2320,16 @@
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 10,
+        "count": 9,
         "color": "#D2E4EB"
+      },
+      "Warm": {
+        "count": 5,
+        "color": "#F7F0C5"
       },
       "Listed": {
         "count": 5,
         "color": "#C8C8C8"
-      },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
       },
       "Need to Contact": {
         "count": 3,
@@ -2530,12 +2530,6 @@
       "source": "Facebook"
     },
     {
-      "name": "152 Mosby Cir",
-      "address": "152 Mosby Cir, Warrenton, VA 20186, USA",
-      "phone": "(540) 270-1008",
-      "source": "Facebook"
-    },
-    {
       "name": "5468 E Creek Rd",
       "address": "5468 E Creek Rd, South Wales, NY 14139, USA",
       "phone": "(716) 465-7647",
@@ -2551,6 +2545,12 @@
       "name": "503 Michigan Ave",
       "address": "503 Michigan Ave, Sturgis, MI 49091, USA",
       "phone": "(269) 255-9217",
+      "source": "PPC"
+    },
+    {
+      "name": "3313 Virginia St",
+      "address": "3313 Virginia St, Hopewell, VA 23860, USA",
+      "phone": "(757) 349-0366",
       "source": "PPC"
     }
   ],

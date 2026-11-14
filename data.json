@@ -1,13 +1,13 @@
 {
   "report_date": "November 14, 2026",
-  "last_updated": "2026-11-14 14:37 EST",
+  "last_updated": "2026-11-14 15:42 EST",
   "google": {
-    "spend_mtd": 10138.04,
-    "clicks_mtd": 489,
+    "spend_mtd": 10141.15,
+    "clicks_mtd": 491,
     "crm_leads": 34,
     "crm_leads_today": 3,
-    "cpc": 20.73,
-    "cpl": 298.18,
+    "cpc": 20.65,
+    "cpl": 298.27,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 855.78,
-        "spend_today": 52.15,
-        "clicks": 341,
-        "cpc": 2.51,
+        "spend": 858.89,
+        "spend_today": 55.26,
+        "clicks": 343,
+        "cpc": 2.5,
         "crm_leads": 0,
-        "cpl": 298.18
+        "cpl": 298.27
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 148,
         "cpc": 62.72,
         "crm_leads": 0,
-        "cpl": 298.18
+        "cpl": 298.27
       }
     ]
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 10138.04
+      "spend": 10141.15
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -213,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
@@ -1160,7 +1160,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 10138.04
+    "2026-11": 10141.15
   },
   "channel_by_month": {
     "2026-01": {
@@ -2207,11 +2207,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 10138.04,
+      "google_spend": 10141.15,
       "meta_spend": 0,
       "ppc_leads": 34,
       "fb_leads": 0,
-      "google_cpc": 20.73,
+      "google_cpc": 20.65,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 34,

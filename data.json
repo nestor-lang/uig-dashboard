@@ -1,13 +1,13 @@
 {
   "report_date": "November 14, 2026",
-  "last_updated": "2026-11-14 11:22 EST",
+  "last_updated": "2026-11-14 12:27 EST",
   "google": {
-    "spend_mtd": 9813.38,
+    "spend_mtd": 9831.95,
     "clicks_mtd": 486,
     "crm_leads": 32,
     "crm_leads_today": 1,
-    "cpc": 20.19,
-    "cpl": 306.67,
+    "cpc": 20.23,
+    "cpl": 307.25,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 832.78,
-        "spend_today": 29.15,
-        "clicks": 339,
-        "cpc": 2.46,
+        "spend": 852.78,
+        "spend_today": 49.15,
+        "clicks": 340,
+        "cpc": 2.51,
         "crm_leads": 0,
-        "cpl": 306.67
+        "cpl": 307.25
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 8980.6,
-        "spend_today": 88.78,
-        "clicks": 147,
-        "cpc": 61.09,
+        "spend": 8979.17,
+        "spend_today": 87.35,
+        "clicks": 146,
+        "cpc": 61.5,
         "crm_leads": 0,
-        "cpl": 306.67
+        "cpl": 307.25
       }
     ]
   },
@@ -43,16 +43,17 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 262418,
-  "assigned_income": 55220,
+  "potential_income": 233832,
+  "assigned_income": 83807,
   "by_stage": {
     "Initial Inspection Completed": 119256,
-    "On Market": 101253,
+    "On Market": 72666,
     "Access Scheduled": 22000,
     "Market Prep / Pre-Listing Marketing": 19910
   },
   "by_agent": {
     "Georgia": 40220,
+    "West Virginia": 28587,
     "Virginia": 15000
   },
   "closed_by_month": {
@@ -110,7 +111,7 @@
     },
     "2026-09": {
       "closed": 7411.0,
-      "pending": 55220.37,
+      "pending": 83807.19,
       "spend": 26439.260000000002
     },
     "2026-10": {
@@ -121,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 9813.38
+      "spend": 9831.95
     }
   },
   "reps_by_month": {
@@ -187,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -198,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -212,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
@@ -386,11 +387,11 @@
         "booked": 65,
         "offers": 78,
         "accepted": 11,
-        "available": 3,
-        "pending": 2,
+        "available": 2,
+        "pending": 3,
         "dead": 3,
         "closed": 0,
-        "pending_income": 55220.37,
+        "pending_income": 83807.19,
         "closed_revenue": 7070.24,
         "discoveries": 75
       }
@@ -428,7 +429,7 @@
     "2026-11": {
       "Charles": {
         "leads": 17,
-        "active": 11,
+        "active": 12,
         "booked": 9,
         "offers": 20,
         "accepted": 3,
@@ -549,14 +550,16 @@
         },
         "2026-09": {
           "counts": {
-            "available": 3,
+            "available": 2,
             "dead": 7,
-            "pending": 1
+            "pending": 1,
+            "other": 1
           },
           "gp": {
-            "available": 51207,
+            "available": 22620,
             "dead": 153141,
-            "pending": 40220
+            "pending": 40220,
+            "other": 28587
           },
           "total": 11
         },
@@ -590,16 +593,18 @@
       "all_time": {
         "counts": {
           "dead": 53,
-          "available": 7,
+          "available": 6,
           "on_hold": 3,
           "pending": 2,
+          "other": 1,
           "closed": 22
         },
         "gp": {
           "dead": 1238184,
-          "available": 138696,
+          "available": 110109,
           "on_hold": 125189,
           "pending": 55220,
+          "other": 28587,
           "closed": 355420
         },
         "total": 87
@@ -613,8 +618,9 @@
           "closed": 5
         },
         "fb": {
-          "available": 3,
+          "available": 2,
           "dead": 19,
+          "other": 1,
           "closed": 2
         },
         "sms": {
@@ -650,7 +656,7 @@
           },
           "fb": {
             "dead": 4,
-            "available": 1
+            "other": 1
           },
           "sms": {
             "available": 1
@@ -806,15 +812,6 @@
           "status": "Sent to Title",
           "stage": "Initial Inspection Completed",
           "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-09"
-        },
-        {
-          "address": "15 N Church St, Keyser, WV 26726, USA",
-          "value": 28587,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-09"
         }
@@ -1141,12 +1138,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 12,
+    "available": 11,
     "pending": 2,
     "on_hold": 4,
     "closed": 41,
     "dead": 96,
-    "gp_available": 262418,
+    "gp_available": 233831,
     "gp_pending": 55220,
     "gp_on_hold": 125189,
     "gp_closed": 871761,
@@ -1163,7 +1160,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 9813.38
+    "2026-11": 9831.95
   },
   "channel_by_month": {
     "2026-01": {
@@ -2040,9 +2037,9 @@
         "active": 81,
         "booked": 67,
         "offered": 63,
-        "accepted": 8,
-        "under_contract": 8,
-        "contract_available": 1,
+        "accepted": 7,
+        "under_contract": 7,
+        "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 7,
@@ -2210,11 +2207,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 9813.38,
+      "google_spend": 9831.95,
       "meta_spend": 0,
       "ppc_leads": 32,
       "fb_leads": 0,
-      "google_cpc": 20.19,
+      "google_cpc": 20.23,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 32,
@@ -2297,9 +2294,9 @@
     "active": 0,
     "booked": 0,
     "offered": 0,
-    "accepted": 48,
-    "under_contract": 48,
-    "contract_available": 4,
+    "accepted": 47,
+    "under_contract": 47,
+    "contract_available": 3,
     "contract_pending": 0,
     "contract_closed": 6,
     "contract_dead": 38,
@@ -2372,7 +2369,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 193916,
+    "Julian": 165329,
     "Charles": 123723
   },
   "agent_deals": [
@@ -2452,16 +2449,6 @@
       "status": "Sent to Title",
       "stage": "Initial Inspection Completed",
       "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-09",
-      "agent": "Julian"
-    },
-    {
-      "address": "15 N Church St, Keyser, WV 26726, USA",
-      "value": 28587,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"

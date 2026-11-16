@@ -1,13 +1,13 @@
 {
   "report_date": "November 16, 2026",
-  "last_updated": "2026-11-16 14:02 EST",
+  "last_updated": "2026-11-16 15:02 EST",
   "google": {
-    "spend_mtd": 11966.59,
-    "clicks_mtd": 571,
-    "crm_leads": 38,
-    "crm_leads_today": 1,
-    "cpc": 20.96,
-    "cpl": 314.91,
+    "spend_mtd": 12091.12,
+    "clicks_mtd": 574,
+    "crm_leads": 42,
+    "crm_leads_today": 5,
+    "cpc": 21.06,
+    "cpl": 287.88,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 969.55,
-        "spend_today": 44.8,
-        "clicks": 399,
-        "cpc": 2.43,
+        "spend": 971.18,
+        "spend_today": 46.43,
+        "clicks": 401,
+        "cpc": 2.42,
         "crm_leads": 0,
-        "cpl": 314.91
+        "cpl": 287.88
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 10997.04,
-        "spend_today": 494.12,
-        "clicks": 172,
-        "cpc": 63.94,
+        "spend": 11119.94,
+        "spend_today": 617.02,
+        "clicks": 173,
+        "cpc": 64.28,
         "crm_leads": 0,
-        "cpl": 314.91
+        "cpl": 287.88
       }
     ]
   },
@@ -43,13 +43,14 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 233832,
+  "potential_income": 128832,
   "assigned_income": 73787,
   "by_stage": {
     "Initial Inspection Completed": 119256,
     "On Market": 72666,
     "Access Scheduled": 22000,
-    "Market Prep / Pre-Listing Marketing": 19910
+    "Market Prep / Pre-Listing Marketing": 19910,
+    "New Deal - Unscheduled": -105000
   },
   "by_agent": {
     "Georgia": 40220,
@@ -122,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11966.59
+      "spend": 11968.22
     }
   },
   "reps_by_month": {
@@ -442,18 +443,18 @@
         "discoveries": 18
       },
       "Julian": {
-        "leads": 15,
-        "active": 9,
-        "booked": 8,
-        "offers": 14,
-        "accepted": 2,
-        "available": 1,
+        "leads": 16,
+        "active": 10,
+        "booked": 9,
+        "offers": 15,
+        "accepted": 3,
+        "available": 2,
         "pending": 0,
         "dead": 0,
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 15
+        "discoveries": 16
       }
     }
   },
@@ -578,37 +579,37 @@
         },
         "2026-11": {
           "counts": {
-            "dead": 1,
-            "available": 1
+            "available": 2,
+            "dead": 1
           },
           "gp": {
-            "dead": 0,
-            "available": 34740
+            "available": -70260,
+            "dead": 0
           },
-          "total": 2
+          "total": 3
         }
       },
       "all_time": {
         "counts": {
+          "available": 7,
           "dead": 53,
-          "available": 6,
           "on_hold": 3,
           "pending": 3,
           "closed": 22
         },
         "gp": {
+          "available": 5109,
           "dead": 1238184,
-          "available": 110109,
           "on_hold": 125189,
           "pending": 73787,
           "closed": 355420
         },
-        "total": 87
+        "total": 88
       },
       "channel_counts": {
         "ppc": {
+          "available": 4,
           "dead": 12,
-          "available": 3,
           "on_hold": 2,
           "pending": 2,
           "closed": 5
@@ -629,8 +630,8 @@
       "by_month_channel_counts": {
         "2026-11": {
           "ppc": {
-            "dead": 1,
-            "available": 1
+            "available": 2,
+            "dead": 1
           }
         },
         "2026-10": {
@@ -739,6 +740,15 @@
         }
       },
       "deals": [
+        {
+          "address": "106 Fellowship Rd, Harrisonburg, VA 22802, USA",
+          "value": -105000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-11"
+        },
         {
           "address": "7 Nichols Rd, Luray, VA 22835, USA",
           "value": 34740,
@@ -1143,12 +1153,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 11,
+    "available": 12,
     "pending": 3,
     "on_hold": 4,
     "closed": 41,
     "dead": 96,
-    "gp_available": 233831,
+    "gp_available": 128831,
     "gp_pending": 73787,
     "gp_on_hold": 125189,
     "gp_closed": 871761,
@@ -1165,7 +1175,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 11966.59
+    "2026-11": 12091.12
   },
   "channel_by_month": {
     "2026-01": {
@@ -2208,44 +2218,48 @@
       }
     },
     "2026-11": {
-      "google_spend": 11966.59,
+      "google_spend": 12091.12,
       "meta_spend": 0,
-      "ppc_leads": 38,
+      "ppc_leads": 42,
       "fb_leads": 0,
-      "google_cpc": 20.96,
+      "google_cpc": 21.06,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 38,
-        "active": 26,
-        "booked": 18,
-        "offered": 15,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 3,
+        "leads": 42,
+        "active": 30,
+        "booked": 19,
+        "offered": 16,
+        "accepted": 5,
+        "under_contract": 5,
+        "contract_available": 4,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
+          "Need to Contact": {
+            "count": 10,
+            "color": "#FFD5C2"
+          },
           "Cold": {
             "count": 10,
             "color": "#D2E4EB"
-          },
-          "Need to Contact": {
-            "count": 8,
-            "color": "#FFD5C2"
           },
           "Listed": {
             "count": 6,
             "color": "#C8C8C8"
           },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
+          "Under Contract": {
+            "count": 3,
+            "color": "#DCEBD8"
+          },
           "Hot": {
             "count": 3,
             "color": "#F7D1D0"
-          },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 2,
@@ -2258,10 +2272,6 @@
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Under Contract": {
-            "count": 2,
-            "color": "#DCEBD8"
           }
         }
       },
@@ -2282,12 +2292,12 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 38,
-    "dispositioned_mtd": 33,
+    "new_leads_30d": 42,
+    "dispositioned_mtd": 34,
     "hot": 7,
-    "booked": 18,
-    "offers": 15,
-    "under_contract": 2,
+    "booked": 19,
+    "offers": 16,
+    "under_contract": 3,
     "closed": 0
   },
   "pipeline_fb": {
@@ -2305,37 +2315,41 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 38,
-    "active": 26,
-    "booked": 18,
-    "offered": 15,
-    "accepted": 45,
-    "under_contract": 45,
-    "contract_available": 6,
+    "leads": 42,
+    "active": 30,
+    "booked": 19,
+    "offered": 16,
+    "accepted": 46,
+    "under_contract": 46,
+    "contract_available": 7,
     "contract_pending": 2,
     "contract_closed": 12,
     "contract_dead": 25,
     "closed": 0,
     "status_breakdown": {
+      "Need to Contact": {
+        "count": 10,
+        "color": "#FFD5C2"
+      },
       "Cold": {
         "count": 10,
         "color": "#D2E4EB"
-      },
-      "Need to Contact": {
-        "count": 8,
-        "color": "#FFD5C2"
       },
       "Listed": {
         "count": 6,
         "color": "#C8C8C8"
       },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
+      "Under Contract": {
+        "count": 3,
+        "color": "#DCEBD8"
+      },
       "Hot": {
         "count": 3,
         "color": "#F7D1D0"
-      },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 2,
@@ -2348,10 +2362,6 @@
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
-      },
-      "Under Contract": {
-        "count": 2,
-        "color": "#DCEBD8"
       }
     }
   },
@@ -2363,17 +2373,27 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 15,
-      "offers": 14,
-      "contracts": 2,
+      "discoveries": 16,
+      "offers": 15,
+      "contracts": 3,
       "revenue": 0.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 183896,
+    "Julian": 78896,
     "Charles": 123723
   },
   "agent_deals": [
+    {
+      "address": "106 Fellowship Rd, Harrisonburg, VA 22802, USA",
+      "value": -105000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-11",
+      "agent": "Julian"
+    },
     {
       "address": "7 Nichols Rd, Luray, VA 22835, USA",
       "value": 34740,
@@ -2516,9 +2536,9 @@
     }
   ],
   "sources": {
-    "ppc": 38,
+    "ppc": 42,
     "facebook": 0,
-    "ppc_inbound_call": 15
+    "ppc_inbound_call": 16
   },
   "hot_leads": [
     {

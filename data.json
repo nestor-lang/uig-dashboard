@@ -1,13 +1,13 @@
 {
   "report_date": "November 16, 2026",
-  "last_updated": "2026-11-16 12:02 EST",
+  "last_updated": "2026-11-16 13:03 EST",
   "google": {
-    "spend_mtd": 11734.14,
-    "clicks_mtd": 564,
+    "spend_mtd": 11965.21,
+    "clicks_mtd": 570,
     "crm_leads": 39,
     "crm_leads_today": 1,
-    "cpc": 20.81,
-    "cpl": 300.88,
+    "cpc": 20.99,
+    "cpl": 306.8,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 954.88,
-        "spend_today": 30.13,
-        "clicks": 393,
+        "spend": 968.17,
+        "spend_today": 43.43,
+        "clicks": 398,
         "cpc": 2.43,
         "crm_leads": 0,
-        "cpl": 300.88
+        "cpl": 306.8
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 10779.26,
-        "spend_today": 276.34,
-        "clicks": 171,
-        "cpc": 63.04,
+        "spend": 10997.04,
+        "spend_today": 494.12,
+        "clicks": 172,
+        "cpc": 63.94,
         "crm_leads": 0,
-        "cpl": 300.88
+        "cpl": 306.8
       }
     ]
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 11734.14
+      "spend": 11960.61
     }
   },
   "reps_by_month": {
@@ -1165,7 +1165,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 11734.14
+    "2026-11": 11965.21
   },
   "channel_by_month": {
     "2026-01": {
@@ -1531,7 +1531,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 51,
+            "count": 50,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1543,7 +1543,7 @@
             "color": "#FFD5C2"
           },
           "Sold": {
-            "count": 17,
+            "count": 18,
             "color": "#C8C8C8"
           },
           "Wrong Number": {
@@ -2051,11 +2051,11 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 62,
+            "count": 64,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 51,
+            "count": 50,
             "color": "#FFD5C2"
           },
           "Owes too Much": {
@@ -2085,10 +2085,6 @@
           "Under Contract": {
             "count": 2,
             "color": "#DCEBD8"
-          },
-          "Hot": {
-            "count": 1,
-            "color": "#F7D1D0"
           },
           "Warm": {
             "count": 1,
@@ -2212,11 +2208,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 11734.14,
+      "google_spend": 11965.21,
       "meta_spend": 0,
       "ppc_leads": 39,
       "fb_leads": 0,
-      "google_cpc": 20.81,
+      "google_cpc": 20.99,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 39,
@@ -2288,7 +2284,7 @@
   "pipeline": {
     "new_leads_30d": 39,
     "dispositioned_mtd": 33,
-    "hot": 8,
+    "hot": 7,
     "booked": 18,
     "offers": 15,
     "under_contract": 2,
@@ -2526,12 +2522,6 @@
   },
   "hot_leads": [
     {
-      "name": "502 Crow Dr",
-      "address": "502 Crow Dr, Winchester, VA 22602, USA",
-      "phone": "(540) 533-1904",
-      "source": "Facebook"
-    },
-    {
       "name": "5468 E Creek Rd",
       "address": "5468 E Creek Rd, South Wales, NY 14139, USA",
       "phone": "(716) 465-7647",
@@ -2554,6 +2544,12 @@
       "address": "27061 8th Ave, Gobles, MI 49055, USA",
       "phone": "+12692516326",
       "source": "PPC - Inbound Call"
+    },
+    {
+      "name": "175 Hanover Dr",
+      "address": "175 Hanover Dr, Martinsville, VA 24112, USA",
+      "phone": "(276) 252-7069",
+      "source": "PPC"
     }
   ],
   "sms_status": "SMS data via Podio."

@@ -1,13 +1,13 @@
 {
   "report_date": "November 16, 2026",
-  "last_updated": "2026-11-16 17:02 EST",
+  "last_updated": "2026-11-16 18:02 EST",
   "google": {
     "spend_mtd": 12119.71,
     "clicks_mtd": 577,
-    "crm_leads": 42,
-    "crm_leads_today": 5,
+    "crm_leads": 39,
+    "crm_leads_today": 2,
     "cpc": 21.0,
-    "cpl": 288.56,
+    "cpl": 310.76,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 403,
         "cpc": 2.42,
         "crm_leads": 0,
-        "cpl": 288.56
+        "cpl": 310.76
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 174,
         "cpc": 64.04,
         "crm_leads": 0,
-        "cpl": 288.56
+        "cpl": 310.76
       }
     ]
   },
@@ -43,14 +43,13 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 116832,
+  "potential_income": 241832,
   "assigned_income": 73787,
   "by_stage": {
     "Initial Inspection Completed": 119256,
     "On Market": 72666,
-    "Market Prep / Pre-Listing Marketing": 19910,
-    "Access Scheduled": 10000,
-    "New Deal - Unscheduled": -105000
+    "Access Scheduled": 30000,
+    "Market Prep / Pre-Listing Marketing": 19910
   },
   "by_agent": {
     "Georgia": 40220,
@@ -189,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 34,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -200,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 34
       },
       "Julian": {
-        "leads": 39,
+        "leads": 37,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -214,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 37
       }
     },
     "2026-04": {
@@ -583,7 +582,7 @@
             "dead": 1
           },
           "gp": {
-            "available": -70260,
+            "available": 54740,
             "dead": 0
           },
           "total": 3
@@ -598,7 +597,7 @@
           "closed": 22
         },
         "gp": {
-          "available": 5109,
+          "available": 130109,
           "dead": 1238184,
           "on_hold": 125189,
           "pending": 73787,
@@ -742,10 +741,10 @@
       "deals": [
         {
           "address": "106 Fellowship Rd, Harrisonburg, VA 22802, USA",
-          "value": -105000,
+          "value": 20000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1150,7 +1149,7 @@
     "on_hold": 4,
     "closed": 41,
     "dead": 97,
-    "gp_available": 116831,
+    "gp_available": 241831,
     "gp_pending": 73787,
     "gp_on_hold": 125189,
     "gp_closed": 871761,
@@ -2208,13 +2207,13 @@
     "2026-11": {
       "google_spend": 12119.71,
       "meta_spend": 0,
-      "ppc_leads": 42,
+      "ppc_leads": 39,
       "fb_leads": 0,
       "google_cpc": 21.0,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 42,
-        "active": 30,
+        "leads": 39,
+        "active": 27,
         "booked": 21,
         "offered": 18,
         "accepted": 5,
@@ -2229,13 +2228,13 @@
             "count": 10,
             "color": "#D2E4EB"
           },
-          "Need to Contact": {
-            "count": 8,
-            "color": "#FFD5C2"
-          },
           "Listed": {
             "count": 6,
             "color": "#C8C8C8"
+          },
+          "Need to Contact": {
+            "count": 5,
+            "color": "#FFD5C2"
           },
           "Hot": {
             "count": 4,
@@ -2280,7 +2279,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 42,
+    "new_leads_30d": 39,
     "dispositioned_mtd": 36,
     "hot": 8,
     "booked": 21,
@@ -2303,8 +2302,8 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 42,
-    "active": 30,
+    "leads": 39,
+    "active": 27,
     "booked": 21,
     "offered": 18,
     "accepted": 46,
@@ -2319,13 +2318,13 @@
         "count": 10,
         "color": "#D2E4EB"
       },
-      "Need to Contact": {
-        "count": 8,
-        "color": "#FFD5C2"
-      },
       "Listed": {
         "count": 6,
         "color": "#C8C8C8"
+      },
+      "Need to Contact": {
+        "count": 5,
+        "color": "#FFD5C2"
       },
       "Hot": {
         "count": 4,
@@ -2368,16 +2367,16 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 78896,
+    "Julian": 203896,
     "Charles": 111723
   },
   "agent_deals": [
     {
       "address": "106 Fellowship Rd, Harrisonburg, VA 22802, USA",
-      "value": -105000,
+      "value": 20000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Julian"
@@ -2514,7 +2513,7 @@
     }
   ],
   "sources": {
-    "ppc": 42,
+    "ppc": 39,
     "facebook": 0,
     "ppc_inbound_call": 16
   },

@@ -1,13 +1,13 @@
 {
   "report_date": "November 17, 2026",
-  "last_updated": "2026-11-17 11:19 EST",
+  "last_updated": "2026-11-17 12:24 EST",
   "google": {
-    "spend_mtd": 12527.55,
-    "clicks_mtd": 595,
+    "spend_mtd": 12609.39,
+    "clicks_mtd": 601,
     "crm_leads": 41,
     "crm_leads_today": 2,
-    "cpc": 21.05,
-    "cpl": 305.55,
+    "cpc": 20.98,
+    "cpl": 307.55,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1019.91,
-        "spend_today": 22.83,
-        "clicks": 413,
-        "cpc": 2.47,
+        "spend": 1025.83,
+        "spend_today": 28.74,
+        "clicks": 417,
+        "cpc": 2.46,
         "crm_leads": 0,
-        "cpl": 305.55
+        "cpl": 307.55
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 11507.64,
-        "spend_today": 177.44,
-        "clicks": 182,
-        "cpc": 63.23,
+        "spend": 11583.56,
+        "spend_today": 253.36,
+        "clicks": 184,
+        "cpc": 62.95,
         "crm_leads": 0,
-        "cpl": 305.55
+        "cpl": 307.55
       }
     ]
   },
@@ -121,7 +121,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 12527.55
+      "spend": 12609.39
     }
   },
   "reps_by_month": {
@@ -187,7 +187,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 34,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 24,
@@ -198,10 +198,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 34
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 37,
+        "leads": 39,
         "active": 11,
         "booked": 20,
         "offers": 39,
@@ -212,7 +212,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 37
+        "discoveries": 39
       }
     },
     "2026-04": {
@@ -1148,7 +1148,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 12527.55
+    "2026-11": 12609.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -2054,11 +2054,11 @@
             "color": "#F3F3F3"
           },
           "Listed": {
-            "count": 10,
+            "count": 9,
             "color": "#C8C8C8"
           },
           "Sold": {
-            "count": 6,
+            "count": 7,
             "color": "#C8C8C8"
           },
           "No Longer Selling": {
@@ -2187,11 +2187,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 12527.55,
+      "google_spend": 12609.39,
       "meta_spend": 0,
       "ppc_leads": 41,
       "fb_leads": 0,
-      "google_cpc": 21.05,
+      "google_cpc": 20.98,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 41,
@@ -2219,12 +2219,8 @@
             "color": "#C8C8C8"
           },
           "Hot": {
-            "count": 4,
+            "count": 5,
             "color": "#F7D1D0"
-          },
-          "Warm": {
-            "count": 4,
-            "color": "#F7F0C5"
           },
           "Wrong Number": {
             "count": 3,
@@ -2237,6 +2233,10 @@
           "Owes too Much": {
             "count": 3,
             "color": "#D1F3EC"
+          },
+          "Warm": {
+            "count": 3,
+            "color": "#F7F0C5"
           },
           "Dead": {
             "count": 2,
@@ -2263,7 +2263,7 @@
   "pipeline": {
     "new_leads_30d": 41,
     "dispositioned_mtd": 36,
-    "hot": 8,
+    "hot": 9,
     "booked": 21,
     "offers": 18,
     "under_contract": 3,
@@ -2309,12 +2309,8 @@
         "color": "#C8C8C8"
       },
       "Hot": {
-        "count": 4,
+        "count": 5,
         "color": "#F7D1D0"
-      },
-      "Warm": {
-        "count": 4,
-        "color": "#F7F0C5"
       },
       "Wrong Number": {
         "count": 3,
@@ -2327,6 +2323,10 @@
       "Owes too Much": {
         "count": 3,
         "color": "#D1F3EC"
+      },
+      "Warm": {
+        "count": 3,
+        "color": "#F7F0C5"
       },
       "Dead": {
         "count": 2,

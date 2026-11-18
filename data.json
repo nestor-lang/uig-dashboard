@@ -1,13 +1,13 @@
 {
   "report_date": "November 18, 2026",
-  "last_updated": "2026-11-18 13:02 EST",
+  "last_updated": "2026-11-18 14:02 EST",
   "google": {
-    "spend_mtd": 13849.65,
-    "clicks_mtd": 644,
-    "crm_leads": 42,
-    "crm_leads_today": 1,
-    "cpc": 21.51,
-    "cpl": 329.75,
+    "spend_mtd": 13890.61,
+    "clicks_mtd": 645,
+    "crm_leads": 41,
+    "crm_leads_today": 0,
+    "cpc": 21.54,
+    "cpl": 338.8,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 442,
         "cpc": 2.51,
         "crm_leads": 0,
-        "cpl": 329.75
+        "cpl": 338.8
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 12740.34,
-        "spend_today": 559.78,
-        "clicks": 202,
-        "cpc": 63.07,
+        "spend": 12781.3,
+        "spend_today": 600.74,
+        "clicks": 203,
+        "cpc": 62.96,
         "crm_leads": 0,
-        "cpl": 329.75
+        "cpl": 338.8
       }
     ]
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13849.65
+      "spend": 13890.61
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 38,
+        "leads": 39,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -213,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 39
       }
     },
     "2026-04": {
@@ -550,14 +550,14 @@
         },
         "2026-09": {
           "counts": {
-            "available": 2,
-            "dead": 7,
+            "dead": 8,
+            "available": 1,
             "on_hold": 1,
             "pending": 1
           },
           "gp": {
-            "available": 22620,
-            "dead": 153141,
+            "dead": 161821,
+            "available": 13940,
             "on_hold": 40220,
             "pending": 18567
           },
@@ -594,15 +594,15 @@
       },
       "all_time": {
         "counts": {
-          "available": 6,
-          "dead": 53,
+          "available": 5,
+          "dead": 54,
           "on_hold": 4,
           "pending": 2,
           "closed": 23
         },
         "gp": {
-          "available": 116145,
-          "dead": 1238184,
+          "available": 107465,
+          "dead": 1246865,
           "on_hold": 165409,
           "pending": 28442,
           "closed": 370420
@@ -611,8 +611,8 @@
       },
       "channel_counts": {
         "ppc": {
-          "available": 4,
-          "dead": 12,
+          "available": 3,
+          "dead": 13,
           "on_hold": 3,
           "closed": 6
         },
@@ -650,8 +650,7 @@
         },
         "2026-09": {
           "ppc": {
-            "available": 1,
-            "dead": 3,
+            "dead": 4,
             "on_hold": 1
           },
           "fb": {
@@ -787,15 +786,6 @@
           "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-10"
-        },
-        {
-          "address": "319 S College Ave, Bluefield, VA 24605, USA",
-          "value": 8680,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-09"
         },
         {
           "address": "2425 Denison St, Baltimore, MD 21216, USA",
@@ -1124,16 +1114,16 @@
     }
   },
   "pipeline_contracts": {
-    "available": 10,
+    "available": 9,
     "pending": 2,
     "on_hold": 4,
     "closed": 42,
-    "dead": 97,
-    "gp_available": 227867,
+    "dead": 98,
+    "gp_available": 219187,
     "gp_pending": 28442,
     "gp_on_hold": 165409,
     "gp_closed": 886761,
-    "gp_dead": 2141064
+    "gp_dead": 2149745
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -1146,7 +1136,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 13849.65
+    "2026-11": 13890.61
   },
   "channel_by_month": {
     "2026-01": {
@@ -1958,10 +1948,10 @@
         "offered": 37,
         "accepted": 7,
         "under_contract": 7,
-        "contract_available": 1,
+        "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 1,
-        "contract_dead": 5,
+        "contract_dead": 6,
         "closed": 2,
         "status_breakdown": {
           "Cold": {
@@ -2173,15 +2163,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 13849.65,
+      "google_spend": 13890.61,
       "meta_spend": 0,
-      "ppc_leads": 42,
+      "ppc_leads": 41,
       "fb_leads": 0,
-      "google_cpc": 21.51,
+      "google_cpc": 21.54,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 42,
-        "active": 29,
+        "leads": 41,
+        "active": 28,
         "booked": 21,
         "offered": 18,
         "accepted": 5,
@@ -2197,7 +2187,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 7,
+            "count": 6,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -2247,7 +2237,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 42,
+    "new_leads_30d": 41,
     "dispositioned_mtd": 36,
     "hot": 4,
     "booked": 21,
@@ -2270,16 +2260,16 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 42,
-    "active": 29,
+    "leads": 41,
+    "active": 28,
     "booked": 21,
     "offered": 18,
     "accepted": 45,
     "under_contract": 45,
-    "contract_available": 7,
+    "contract_available": 6,
     "contract_pending": 0,
     "contract_closed": 13,
-    "contract_dead": 25,
+    "contract_dead": 26,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -2287,7 +2277,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 7,
+        "count": 6,
         "color": "#FFD5C2"
       },
       "Listed": {
@@ -2335,7 +2325,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 144586,
+    "Julian": 135906,
     "Charles": 111723
   },
   "agent_deals": [
@@ -2387,16 +2377,6 @@
       "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-10",
-      "agent": "Julian"
-    },
-    {
-      "address": "319 S College Ave, Bluefield, VA 24605, USA",
-      "value": 8680,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-09",
       "agent": "Julian"
     },
     {
@@ -2461,7 +2441,7 @@
     }
   ],
   "sources": {
-    "ppc": 42,
+    "ppc": 41,
     "facebook": 0,
     "ppc_inbound_call": 17
   },

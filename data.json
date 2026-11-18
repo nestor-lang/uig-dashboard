@@ -1,13 +1,13 @@
 {
   "report_date": "November 18, 2026",
-  "last_updated": "2026-11-18 17:07 EST",
+  "last_updated": "2026-11-18 18:12 EST",
   "google": {
-    "spend_mtd": 13890.61,
-    "clicks_mtd": 645,
+    "spend_mtd": 13929.93,
+    "clicks_mtd": 647,
     "crm_leads": 41,
     "crm_leads_today": 0,
-    "cpc": 21.54,
-    "cpl": 338.8,
+    "cpc": 21.53,
+    "cpl": 339.75,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 442,
         "cpc": 2.51,
         "crm_leads": 0,
-        "cpl": 338.8
+        "cpl": 339.75
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 12781.3,
-        "spend_today": 600.74,
-        "clicks": 203,
-        "cpc": 62.96,
+        "spend": 12820.62,
+        "spend_today": 640.06,
+        "clicks": 205,
+        "cpc": 62.54,
         "crm_leads": 0,
-        "cpl": 338.8
+        "cpl": 339.75
       }
     ]
   },
@@ -43,11 +43,11 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 219187,
+  "potential_income": 216787,
   "assigned_income": 28442,
   "by_stage": {
     "Initial Inspection Completed": 119256,
-    "On Market": 50236,
+    "On Market": 47836,
     "Access Scheduled": 29785,
     "Market Prep / Pre-Listing Marketing": 19910
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 13890.61
+      "spend": 13929.93
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 38,
+        "leads": 39,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -213,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 39
       }
     },
     "2026-04": {
@@ -557,7 +557,7 @@
           },
           "gp": {
             "dead": 161821,
-            "available": 13940,
+            "available": 11540,
             "on_hold": 40220,
             "pending": 18567
           },
@@ -601,7 +601,7 @@
           "closed": 23
         },
         "gp": {
-          "available": 107465,
+          "available": 105065,
           "dead": 1246865,
           "on_hold": 165409,
           "pending": 28442,
@@ -789,7 +789,7 @@
         },
         {
           "address": "2425 Denison St, Baltimore, MD 21216, USA",
-          "value": 13940,
+          "value": 11540,
           "status": "Available",
           "stage": "On Market",
           "stage_color": "CFFCC7",
@@ -1119,7 +1119,7 @@
     "on_hold": 4,
     "closed": 42,
     "dead": 98,
-    "gp_available": 219187,
+    "gp_available": 216787,
     "gp_pending": 28442,
     "gp_on_hold": 165409,
     "gp_closed": 886761,
@@ -1136,7 +1136,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 13890.61
+    "2026-11": 13929.93
   },
   "channel_by_month": {
     "2026-01": {
@@ -2163,11 +2163,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 13890.61,
+      "google_spend": 13929.93,
       "meta_spend": 0,
       "ppc_leads": 41,
       "fb_leads": 0,
-      "google_cpc": 21.54,
+      "google_cpc": 21.53,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 41,
@@ -2325,7 +2325,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 135906,
+    "Julian": 133506,
     "Charles": 111723
   },
   "agent_deals": [
@@ -2381,7 +2381,7 @@
     },
     {
       "address": "2425 Denison St, Baltimore, MD 21216, USA",
-      "value": 13940,
+      "value": 11540,
       "status": "Available",
       "stage": "On Market",
       "stage_color": "CFFCC7",

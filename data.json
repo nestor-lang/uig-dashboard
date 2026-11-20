@@ -1,13 +1,13 @@
 {
   "report_date": "November 20, 2026",
-  "last_updated": "2026-11-20 10:02 EST",
+  "last_updated": "2026-11-20 11:02 EST",
   "google": {
-    "spend_mtd": 14818.68,
-    "clicks_mtd": 690,
+    "spend_mtd": 14819.5,
+    "clicks_mtd": 691,
     "crm_leads": 42,
     "crm_leads_today": 0,
-    "cpc": 21.48,
-    "cpl": 352.83,
+    "cpc": 21.45,
+    "cpl": 352.85,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1201.89,
-        "spend_today": 33.42,
-        "clicks": 468,
-        "cpc": 2.57,
+        "spend": 1202.7,
+        "spend_today": 34.24,
+        "clicks": 469,
+        "cpc": 2.56,
         "crm_leads": 0,
-        "cpl": 352.83
+        "cpl": 352.85
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 222,
         "cpc": 61.34,
         "crm_leads": 0,
-        "cpl": 352.83
+        "cpl": 352.85
       }
     ]
   },
@@ -122,13 +122,13 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14818.68
+      "spend": 14819.5
     }
   },
   "reps_by_month": {
     "2026-01": {
       "Charles": {
-        "leads": 0,
+        "leads": 17,
         "active": 0,
         "booked": 6,
         "offers": 8,
@@ -139,10 +139,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 17
       },
       "Julian": {
-        "leads": 0,
+        "leads": 49,
         "active": 0,
         "booked": 26,
         "offers": 39,
@@ -153,12 +153,12 @@
         "closed": 5,
         "pending_income": 56054.0,
         "closed_revenue": 89841.95,
-        "discoveries": 0
+        "discoveries": 49
       }
     },
     "2026-02": {
       "Charles": {
-        "leads": 11,
+        "leads": 22,
         "active": 5,
         "booked": 19,
         "offers": 19,
@@ -169,10 +169,10 @@
         "closed": 1,
         "pending_income": 8990.0,
         "closed_revenue": 40116.5,
-        "discoveries": 0
+        "discoveries": 22
       },
       "Julian": {
-        "leads": 5,
+        "leads": 36,
         "active": 3,
         "booked": 22,
         "offers": 27,
@@ -183,12 +183,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 92798.35,
-        "discoveries": 0
+        "discoveries": 36
       }
     },
     "2026-03": {
       "Charles": {
-        "leads": 22,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 19,
+        "leads": 39,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -213,12 +213,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 0
+        "discoveries": 39
       }
     },
     "2026-04": {
       "Charles": {
-        "leads": 87,
+        "leads": 49,
         "active": 47,
         "booked": 44,
         "offers": 34,
@@ -229,10 +229,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 93886.0,
-        "discoveries": 0
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 85,
+        "leads": 54,
         "active": 62,
         "booked": 59,
         "offers": 43,
@@ -243,12 +243,12 @@
         "closed": 1,
         "pending_income": 9875.0,
         "closed_revenue": 46043.35,
-        "discoveries": 0
+        "discoveries": 54
       }
     },
     "2026-05": {
       "Charles": {
-        "leads": 101,
+        "leads": 36,
         "active": 45,
         "booked": 38,
         "offers": 32,
@@ -259,10 +259,10 @@
         "closed": 2,
         "pending_income": 0.0,
         "closed_revenue": 57100.0,
-        "discoveries": 0
+        "discoveries": 36
       },
       "Julian": {
-        "leads": 113,
+        "leads": 50,
         "active": 62,
         "booked": 55,
         "offers": 50,
@@ -273,12 +273,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 94508.68,
-        "discoveries": 0
+        "discoveries": 50
       }
     },
     "2026-06": {
       "Charles": {
-        "leads": 82,
+        "leads": 49,
         "active": 45,
         "booked": 40,
         "offers": 39,
@@ -289,10 +289,10 @@
         "closed": 4,
         "pending_income": 0.0,
         "closed_revenue": 146447.9,
-        "discoveries": 0
+        "discoveries": 49
       },
       "Julian": {
-        "leads": 90,
+        "leads": 77,
         "active": 61,
         "booked": 57,
         "offers": 55,
@@ -303,12 +303,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 67323.19,
-        "discoveries": 0
+        "discoveries": 77
       }
     },
     "2026-07": {
       "Charles": {
-        "leads": 102,
+        "leads": 48,
         "active": 52,
         "booked": 49,
         "offers": 45,
@@ -319,10 +319,10 @@
         "closed": 3,
         "pending_income": 0.0,
         "closed_revenue": 88594.62,
-        "discoveries": 0
+        "discoveries": 48
       },
       "Julian": {
-        "leads": 130,
+        "leads": 77,
         "active": 83,
         "booked": 77,
         "offers": 59,
@@ -333,12 +333,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 6267.96,
-        "discoveries": 0
+        "discoveries": 77
       }
     },
     "2026-08": {
       "Charles": {
-        "leads": 129,
+        "leads": 51,
         "active": 65,
         "booked": 57,
         "offers": 51,
@@ -349,10 +349,10 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 51364.39,
-        "discoveries": 0
+        "discoveries": 51
       },
       "Julian": {
-        "leads": 138,
+        "leads": 78,
         "active": 84,
         "booked": 75,
         "offers": 63,
@@ -363,12 +363,12 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 2000.0,
-        "discoveries": 0
+        "discoveries": 78
       }
     },
     "2026-09": {
       "Charles": {
-        "leads": 100,
+        "leads": 50,
         "active": 54,
         "booked": 43,
         "offers": 54,
@@ -379,10 +379,10 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 112691.26,
-        "discoveries": 0
+        "discoveries": 50
       },
       "Julian": {
-        "leads": 135,
+        "leads": 75,
         "active": 71,
         "booked": 65,
         "offers": 78,
@@ -393,12 +393,12 @@
         "closed": 1,
         "pending_income": 18566.82,
         "closed_revenue": 7070.24,
-        "discoveries": 0
+        "discoveries": 75
       }
     },
     "2026-10": {
       "Charles": {
-        "leads": 46,
+        "leads": 35,
         "active": 24,
         "booked": 22,
         "offers": 46,
@@ -409,10 +409,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 7411.0,
-        "discoveries": 0
+        "discoveries": 35
       },
       "Julian": {
-        "leads": 49,
+        "leads": 47,
         "active": 27,
         "booked": 26,
         "offers": 47,
@@ -423,12 +423,12 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15458.2,
-        "discoveries": 0
+        "discoveries": 47
       }
     },
     "2026-11": {
       "Charles": {
-        "leads": 20,
+        "leads": 21,
         "active": 14,
         "booked": 12,
         "offers": 24,
@@ -439,10 +439,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 0
+        "discoveries": 21
       },
       "Julian": {
-        "leads": 16,
+        "leads": 18,
         "active": 12,
         "booked": 10,
         "offers": 18,
@@ -453,7 +453,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15000.0,
-        "discoveries": 0
+        "discoveries": 18
       }
     }
   },
@@ -1136,7 +1136,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 14818.68
+    "2026-11": 14819.5
   },
   "channel_by_month": {
     "2026-01": {
@@ -2167,11 +2167,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 14818.68,
+      "google_spend": 14819.5,
       "meta_spend": 0,
       "ppc_leads": 42,
       "fb_leads": 0,
-      "google_cpc": 21.48,
+      "google_cpc": 21.45,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 42,
@@ -2316,13 +2316,13 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 0,
+      "discoveries": 21,
       "offers": 24,
       "contracts": 3,
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 0,
+      "discoveries": 18,
       "offers": 18,
       "contracts": 3,
       "revenue": 15000.0

@@ -1,13 +1,13 @@
 {
   "report_date": "November 20, 2026",
-  "last_updated": "2026-11-20 11:02 EST",
+  "last_updated": "2026-11-20 12:02 EST",
   "google": {
-    "spend_mtd": 14819.5,
-    "clicks_mtd": 691,
+    "spend_mtd": 14908.16,
+    "clicks_mtd": 693,
     "crm_leads": 42,
     "crm_leads_today": 0,
-    "cpc": 21.45,
-    "cpl": 352.85,
+    "cpc": 21.51,
+    "cpl": 354.96,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1202.7,
-        "spend_today": 34.24,
-        "clicks": 469,
+        "spend": 1204.01,
+        "spend_today": 35.54,
+        "clicks": 470,
         "cpc": 2.56,
         "crm_leads": 0,
-        "cpl": 352.85
+        "cpl": 354.96
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 13616.79,
-        "spend_today": 0.0,
-        "clicks": 222,
-        "cpc": 61.34,
+        "spend": 13704.15,
+        "spend_today": 87.36,
+        "clicks": 223,
+        "cpc": 61.45,
         "crm_leads": 0,
-        "cpl": 352.85
+        "cpl": 354.96
       }
     ]
   },
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 14819.5
+      "spend": 14908.16
     }
   },
   "reps_by_month": {
@@ -1136,7 +1136,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 14819.5
+    "2026-11": 14908.16
   },
   "channel_by_month": {
     "2026-01": {
@@ -2167,11 +2167,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 14819.5,
+      "google_spend": 14908.16,
       "meta_spend": 0,
       "ppc_leads": 42,
       "fb_leads": 0,
-      "google_cpc": 21.45,
+      "google_cpc": 21.51,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 42,
@@ -2198,6 +2198,10 @@
             "count": 6,
             "color": "#C8C8C8"
           },
+          "Warm": {
+            "count": 4,
+            "color": "#F7F0C5"
+          },
           "Wrong Number": {
             "count": 3,
             "color": "#DCEBD8"
@@ -2206,17 +2210,13 @@
             "count": 3,
             "color": "#DCEBD8"
           },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
-          "Owes too Much": {
-            "count": 3,
-            "color": "#D1F3EC"
-          },
           "Hot": {
             "count": 3,
             "color": "#F7D1D0"
+          },
+          "Owes too Much": {
+            "count": 2,
+            "color": "#D1F3EC"
           },
           "Dead": {
             "count": 2,
@@ -2288,6 +2288,10 @@
         "count": 6,
         "color": "#C8C8C8"
       },
+      "Warm": {
+        "count": 4,
+        "color": "#F7F0C5"
+      },
       "Wrong Number": {
         "count": 3,
         "color": "#DCEBD8"
@@ -2296,17 +2300,13 @@
         "count": 3,
         "color": "#DCEBD8"
       },
-      "Warm": {
-        "count": 3,
-        "color": "#F7F0C5"
-      },
-      "Owes too Much": {
-        "count": 3,
-        "color": "#D1F3EC"
-      },
       "Hot": {
         "count": 3,
         "color": "#F7D1D0"
+      },
+      "Owes too Much": {
+        "count": 2,
+        "color": "#D1F3EC"
       },
       "Dead": {
         "count": 2,

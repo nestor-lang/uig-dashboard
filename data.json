@@ -1,6 +1,6 @@
 {
   "report_date": "November 20, 2026",
-  "last_updated": "2026-11-20 18:22 EST",
+  "last_updated": "2026-11-20 19:27 EST",
   "google": {
     "spend_mtd": 15333.51,
     "clicks_mtd": 707,
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 38,
+        "leads": 39,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -214,7 +214,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 39
       }
     },
     "2026-04": {
@@ -1292,16 +1292,16 @@
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
-            "count": 11,
+            "count": 12,
             "color": "#FFD5C2"
-          },
-          "Cold": {
-            "count": 6,
-            "color": "#D2E4EB"
           },
           "Sold": {
             "count": 6,
             "color": "#C8C8C8"
+          },
+          "Cold": {
+            "count": 5,
+            "color": "#D2E4EB"
           },
           "Dead": {
             "count": 4,
@@ -1512,7 +1512,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 49,
+            "count": 48,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1520,7 +1520,7 @@
             "color": "#F3F3F3"
           },
           "Need to Contact": {
-            "count": 36,
+            "count": 37,
             "color": "#FFD5C2"
           },
           "Sold": {
@@ -1898,11 +1898,11 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 66,
+            "count": 65,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 41,
+            "count": 42,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1934,7 +1934,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 4,
+            "count": 3,
             "color": "#F7F0C5"
           },
           "Not Workable": {
@@ -1944,6 +1944,10 @@
           "Closed": {
             "count": 1,
             "color": "#DCEBD8"
+          },
+          "Hot": {
+            "count": 1,
+            "color": "#F7D1D0"
           }
         }
       }
@@ -2091,7 +2095,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 21,
+            "count": 22,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2119,7 +2123,7 @@
             "color": "#DCEBD8"
           },
           "Warm": {
-            "count": 2,
+            "count": 1,
             "color": "#F7F0C5"
           },
           "Dead": {
@@ -2253,7 +2257,7 @@
   "pipeline": {
     "new_leads_30d": 45,
     "dispositioned_mtd": 42,
-    "hot": 4,
+    "hot": 5,
     "booked": 24,
     "offers": 21,
     "under_contract": 4,
@@ -2470,6 +2474,12 @@
     "ppc_inbound_call": 16
   },
   "hot_leads": [
+    {
+      "name": "11117 Watson Dr",
+      "address": "11117 Watson Dr, Seneca, SC 29672, USA",
+      "phone": "(864) 207-6820",
+      "source": "Facebook"
+    },
     {
       "name": "7780 Starlight Ln",
       "address": "7780 Starlight Ln, Boones Mill, VA 24065, USA",

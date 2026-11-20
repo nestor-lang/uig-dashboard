@@ -1,13 +1,13 @@
 {
   "report_date": "November 20, 2026",
-  "last_updated": "2026-11-20 17:17 EST",
+  "last_updated": "2026-11-20 18:22 EST",
   "google": {
-    "spend_mtd": 15323.47,
-    "clicks_mtd": 705,
+    "spend_mtd": 15333.51,
+    "clicks_mtd": 707,
     "crm_leads": 45,
     "crm_leads_today": 3,
-    "cpc": 21.74,
-    "cpl": 340.52,
+    "cpc": 21.69,
+    "cpl": 340.74,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,16 +20,16 @@
         "clicks": 476,
         "cpc": 2.58,
         "crm_leads": 0,
-        "cpl": 340.52
+        "cpl": 340.74
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 14095.55,
-        "spend_today": 478.76,
-        "clicks": 229,
-        "cpc": 61.55,
+        "spend": 14105.59,
+        "spend_today": 488.8,
+        "clicks": 231,
+        "cpc": 61.06,
         "crm_leads": 0,
-        "cpl": 340.52
+        "cpl": 340.74
       }
     ]
   },
@@ -46,10 +46,10 @@
   "potential_income": 146787,
   "assigned_income": 28442,
   "by_stage": {
-    "Initial Inspection Completed": 119256,
+    "Initial Inspection Completed": 84531,
+    "Market Prep / Pre-Listing Marketing": 54635,
     "On Market": 47836,
     "Access Scheduled": 29785,
-    "Market Prep / Pre-Listing Marketing": 19910,
     "New Deal - Unscheduled": -70000
   },
   "by_agent": {
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 15323.47
+      "spend": 15333.51
     }
   },
   "reps_by_month": {
@@ -1088,8 +1088,8 @@
           "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
           "value": 34725,
           "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
+          "stage": "Market Prep / Pre-Listing Marketing",
+          "stage_color": "CFFCC7",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1146,7 +1146,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 15323.47
+    "2026-11": 15333.51
   },
   "channel_by_month": {
     "2026-01": {
@@ -1772,7 +1772,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 27,
+            "count": 28,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1803,13 +1803,13 @@
             "count": 6,
             "color": "#DCEBD8"
           },
-          "Warm": {
-            "count": 2,
-            "color": "#F7F0C5"
-          },
           "Closed": {
             "count": 1,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           }
         }
       }
@@ -2177,15 +2177,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 15323.47,
+      "google_spend": 15333.51,
       "meta_spend": 0,
       "ppc_leads": 45,
       "fb_leads": 0,
-      "google_cpc": 21.74,
+      "google_cpc": 21.69,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 45,
-        "active": 31,
+        "active": 30,
         "booked": 24,
         "offered": 21,
         "accepted": 6,
@@ -2205,19 +2205,19 @@
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 6,
+            "count": 5,
             "color": "#FFD5C2"
           },
           "Warm": {
             "count": 4,
             "color": "#F7F0C5"
           },
-          "Under Contract": {
+          "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
           },
-          "Wrong Number": {
-            "count": 3,
+          "Under Contract": {
+            "count": 4,
             "color": "#DCEBD8"
           },
           "Owes too Much": {
@@ -2275,7 +2275,7 @@
   },
   "pipeline_ppc": {
     "leads": 45,
-    "active": 31,
+    "active": 30,
     "booked": 24,
     "offered": 21,
     "accepted": 46,
@@ -2295,19 +2295,19 @@
         "color": "#C8C8C8"
       },
       "Need to Contact": {
-        "count": 6,
+        "count": 5,
         "color": "#FFD5C2"
       },
       "Warm": {
         "count": 4,
         "color": "#F7F0C5"
       },
-      "Under Contract": {
+      "Wrong Number": {
         "count": 4,
         "color": "#DCEBD8"
       },
-      "Wrong Number": {
-        "count": 3,
+      "Under Contract": {
+        "count": 4,
         "color": "#DCEBD8"
       },
       "Owes too Much": {
@@ -2427,8 +2427,8 @@
       "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
       "value": 34725,
       "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
+      "stage": "Market Prep / Pre-Listing Marketing",
+      "stage_color": "CFFCC7",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Charles"

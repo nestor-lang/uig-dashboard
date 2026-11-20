@@ -1,6 +1,6 @@
 {
   "report_date": "November 20, 2026",
-  "last_updated": "2026-11-20 16:12 EST",
+  "last_updated": "2026-11-20 17:17 EST",
   "google": {
     "spend_mtd": 15323.47,
     "clicks_mtd": 705,
@@ -43,13 +43,14 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 216787,
+  "potential_income": 146787,
   "assigned_income": 28442,
   "by_stage": {
     "Initial Inspection Completed": 119256,
     "On Market": 47836,
     "Access Scheduled": 29785,
-    "Market Prep / Pre-Listing Marketing": 19910
+    "Market Prep / Pre-Listing Marketing": 19910,
+    "New Deal - Unscheduled": -70000
   },
   "by_agent": {
     "West Virginia": 18567,
@@ -188,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 33,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -199,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 39,
+        "leads": 38,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -213,7 +214,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 38
       }
     },
     "2026-04": {
@@ -369,7 +370,7 @@
     "2026-09": {
       "Charles": {
         "leads": 50,
-        "active": 54,
+        "active": 56,
         "booked": 43,
         "offers": 54,
         "accepted": 7,
@@ -431,7 +432,7 @@
         "leads": 23,
         "active": 15,
         "booked": 13,
-        "offers": 27,
+        "offers": 28,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -446,8 +447,8 @@
         "active": 13,
         "booked": 11,
         "offers": 18,
-        "accepted": 3,
-        "available": 2,
+        "accepted": 4,
+        "available": 3,
         "pending": 0,
         "dead": 0,
         "closed": 0,
@@ -582,36 +583,36 @@
         },
         "2026-11": {
           "counts": {
-            "available": 2,
+            "available": 3,
             "dead": 1
           },
           "gp": {
-            "available": 54525,
+            "available": -15475,
             "dead": 0
           },
-          "total": 3
+          "total": 4
         }
       },
       "all_time": {
         "counts": {
-          "available": 5,
+          "available": 6,
           "dead": 54,
           "on_hold": 4,
           "pending": 2,
           "closed": 23
         },
         "gp": {
-          "available": 105065,
+          "available": 35065,
           "dead": 1246865,
           "on_hold": 165409,
           "pending": 28442,
           "closed": 370420
         },
-        "total": 88
+        "total": 89
       },
       "channel_counts": {
         "ppc": {
-          "available": 3,
+          "available": 4,
           "dead": 13,
           "on_hold": 3,
           "closed": 6
@@ -632,7 +633,7 @@
       "by_month_channel_counts": {
         "2026-11": {
           "ppc": {
-            "available": 2,
+            "available": 3,
             "dead": 1
           }
         },
@@ -742,6 +743,15 @@
         }
       },
       "deals": [
+        {
+          "address": "507 East St, Blackstone, VA 23824, USA",
+          "value": -70000,
+          "status": "Available",
+          "stage": "New Deal - Unscheduled",
+          "stage_color": "B8D0F5",
+          "days_in_pipeline": 0,
+          "contract_month": "2026-11"
+        },
         {
           "address": "106 Fellowship Rd, Harrisonburg, VA 22802, USA",
           "value": 19785,
@@ -1114,12 +1124,12 @@
     }
   },
   "pipeline_contracts": {
-    "available": 9,
+    "available": 10,
     "pending": 2,
     "on_hold": 4,
     "closed": 42,
     "dead": 98,
-    "gp_available": 216787,
+    "gp_available": 146787,
     "gp_pending": 28442,
     "gp_on_hold": 165409,
     "gp_closed": 886761,
@@ -1758,7 +1768,7 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 68,
+            "count": 66,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -1770,7 +1780,7 @@
             "color": "#F3F3F3"
           },
           "Sold": {
-            "count": 16,
+            "count": 18,
             "color": "#C8C8C8"
           },
           "Wrong Number": {
@@ -2006,7 +2016,7 @@
       },
       "pipeline_fb": {
         "leads": 173,
-        "active": 79,
+        "active": 81,
         "booked": 67,
         "offered": 63,
         "accepted": 8,
@@ -2177,17 +2187,17 @@
         "leads": 45,
         "active": 31,
         "booked": 24,
-        "offered": 20,
-        "accepted": 5,
-        "under_contract": 5,
-        "contract_available": 4,
+        "offered": 21,
+        "accepted": 6,
+        "under_contract": 6,
+        "contract_available": 5,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 14,
+            "count": 15,
             "color": "#D2E4EB"
           },
           "Listed": {
@@ -2202,15 +2212,11 @@
             "count": 4,
             "color": "#F7F0C5"
           },
-          "Hot": {
+          "Under Contract": {
             "count": 4,
-            "color": "#F7D1D0"
-          },
-          "Wrong Number": {
-            "count": 3,
             "color": "#DCEBD8"
           },
-          "Under Contract": {
+          "Wrong Number": {
             "count": 3,
             "color": "#DCEBD8"
           },
@@ -2221,6 +2227,10 @@
           "Dead": {
             "count": 2,
             "color": "#F3F3F3"
+          },
+          "Hot": {
+            "count": 2,
+            "color": "#F7D1D0"
           }
         }
       },
@@ -2243,10 +2253,10 @@
   "pipeline": {
     "new_leads_30d": 45,
     "dispositioned_mtd": 42,
-    "hot": 6,
+    "hot": 4,
     "booked": 24,
-    "offers": 20,
-    "under_contract": 3,
+    "offers": 21,
+    "under_contract": 4,
     "closed": 0
   },
   "pipeline_fb": {
@@ -2267,17 +2277,17 @@
     "leads": 45,
     "active": 31,
     "booked": 24,
-    "offered": 20,
-    "accepted": 45,
-    "under_contract": 45,
-    "contract_available": 6,
+    "offered": 21,
+    "accepted": 46,
+    "under_contract": 46,
+    "contract_available": 7,
     "contract_pending": 0,
     "contract_closed": 13,
     "contract_dead": 26,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
-        "count": 14,
+        "count": 15,
         "color": "#D2E4EB"
       },
       "Listed": {
@@ -2292,15 +2302,11 @@
         "count": 4,
         "color": "#F7F0C5"
       },
-      "Hot": {
+      "Under Contract": {
         "count": 4,
-        "color": "#F7D1D0"
-      },
-      "Wrong Number": {
-        "count": 3,
         "color": "#DCEBD8"
       },
-      "Under Contract": {
+      "Wrong Number": {
         "count": 3,
         "color": "#DCEBD8"
       },
@@ -2311,28 +2317,42 @@
       "Dead": {
         "count": 2,
         "color": "#F3F3F3"
+      },
+      "Hot": {
+        "count": 2,
+        "color": "#F7D1D0"
       }
     }
   },
   "reps": {
     "Charles": {
       "discoveries": 23,
-      "offers": 27,
+      "offers": 28,
       "contracts": 3,
       "revenue": 0.0
     },
     "Julian": {
       "discoveries": 19,
       "offers": 18,
-      "contracts": 3,
+      "contracts": 4,
       "revenue": 15000.0
     }
   },
   "pipeline_by_agent": {
-    "Julian": 133506,
+    "Julian": 63506,
     "Charles": 111723
   },
   "agent_deals": [
+    {
+      "address": "507 East St, Blackstone, VA 23824, USA",
+      "value": -70000,
+      "status": "Available",
+      "stage": "New Deal - Unscheduled",
+      "stage_color": "B8D0F5",
+      "days_in_pipeline": 0,
+      "contract_month": "2026-11",
+      "agent": "Julian"
+    },
     {
       "address": "106 Fellowship Rd, Harrisonburg, VA 22802, USA",
       "value": 19785,
@@ -2457,12 +2477,6 @@
       "source": "Facebook"
     },
     {
-      "name": "507 East St",
-      "address": "507 East St, Blackstone, VA 23824, USA",
-      "phone": "(571) 215-6748",
-      "source": "PPC"
-    },
-    {
       "name": "380 Snyder Ln",
       "address": "380 Snyder Ln, Culpeper, VA 22701, USA",
       "phone": "(540) 229-0529",
@@ -2475,9 +2489,9 @@
       "source": "PPC - Inbound Call"
     },
     {
-      "name": "175 Hanover Dr",
-      "address": "175 Hanover Dr, Martinsville, VA 24112, USA",
-      "phone": "(276) 252-7069",
+      "name": "275 Old Mill Dr",
+      "address": "275 Old Mill Dr, Hardy, VA 24101, USA",
+      "phone": "(540) 278-6794",
       "source": "PPC"
     }
   ],

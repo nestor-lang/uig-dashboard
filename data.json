@@ -1,13 +1,13 @@
 {
   "report_date": "November 23, 2026",
-  "last_updated": "2026-11-23 12:02 EST",
+  "last_updated": "2026-11-23 13:02 EST",
   "google": {
-    "spend_mtd": 16397.82,
-    "clicks_mtd": 781,
+    "spend_mtd": 16677.42,
+    "clicks_mtd": 784,
     "crm_leads": 50,
     "crm_leads_today": 0,
-    "cpc": 21.0,
-    "cpl": 327.96,
+    "cpc": 21.27,
+    "cpl": 333.55,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1364.73,
-        "spend_today": 32.81,
-        "clicks": 533,
+        "spend": 1365.07,
+        "spend_today": 33.15,
+        "clicks": 534,
         "cpc": 2.56,
         "crm_leads": 0,
-        "cpl": 327.96
+        "cpl": 333.55
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 15033.1,
-        "spend_today": 54.61,
-        "clicks": 248,
-        "cpc": 60.62,
+        "spend": 15312.35,
+        "spend_today": 333.86,
+        "clicks": 250,
+        "cpc": 61.25,
         "crm_leads": 0,
-        "cpl": 327.96
+        "cpl": 333.55
       }
     ]
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16397.82
+      "spend": 16677.13
     }
   },
   "reps_by_month": {
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 33,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 39,
+        "leads": 38,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -214,7 +214,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 38
       }
     },
     "2026-04": {
@@ -444,7 +444,7 @@
       },
       "Julian": {
         "leads": 20,
-        "active": 14,
+        "active": 13,
         "booked": 12,
         "offers": 19,
         "accepted": 4,
@@ -1146,7 +1146,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 16397.82
+    "2026-11": 16677.42
   },
   "channel_by_month": {
     "2026-01": {
@@ -2177,15 +2177,15 @@
       }
     },
     "2026-11": {
-      "google_spend": 16397.82,
+      "google_spend": 16677.42,
       "meta_spend": 0,
       "ppc_leads": 50,
       "fb_leads": 0,
-      "google_cpc": 21.0,
+      "google_cpc": 21.27,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 50,
-        "active": 35,
+        "active": 34,
         "booked": 25,
         "offered": 21,
         "accepted": 6,
@@ -2275,7 +2275,7 @@
   },
   "pipeline_ppc": {
     "leads": 50,
-    "active": 35,
+    "active": 34,
     "booked": 25,
     "offered": 21,
     "accepted": 46,

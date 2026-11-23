@@ -1,13 +1,13 @@
 {
   "report_date": "November 23, 2026",
-  "last_updated": "2026-11-23 16:17 EST",
+  "last_updated": "2026-11-23 17:22 EST",
   "google": {
-    "spend_mtd": 16872.44,
-    "clicks_mtd": 790,
+    "spend_mtd": 16887.97,
+    "clicks_mtd": 794,
     "crm_leads": 50,
     "crm_leads_today": 0,
-    "cpc": 21.36,
-    "cpl": 337.45,
+    "cpc": 21.27,
+    "cpl": 337.76,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1367.09,
-        "spend_today": 35.17,
-        "clicks": 539,
-        "cpc": 2.54,
+        "spend": 1373.31,
+        "spend_today": 41.39,
+        "clicks": 542,
+        "cpc": 2.53,
         "crm_leads": 0,
-        "cpl": 337.45
+        "cpl": 337.76
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 15505.36,
-        "spend_today": 526.87,
-        "clicks": 251,
-        "cpc": 61.77,
+        "spend": 15514.66,
+        "spend_today": 536.17,
+        "clicks": 252,
+        "cpc": 61.57,
         "crm_leads": 0,
-        "cpl": 337.45
+        "cpl": 337.76
       }
     ]
   },
@@ -43,13 +43,13 @@
     "cost_per_hot": 0.0,
     "campaigns": []
   },
-  "potential_income": 236787,
+  "potential_income": 226787,
   "assigned_income": 28442,
   "by_stage": {
     "Initial Inspection Completed": 84531,
     "Market Prep / Pre-Listing Marketing": 54635,
-    "Access Scheduled": 49785,
-    "On Market": 47836
+    "On Market": 47836,
+    "Access Scheduled": 39785
   },
   "by_agent": {
     "West Virginia": 18567,
@@ -122,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16872.44
+      "spend": 16887.97
     }
   },
   "reps_by_month": {
@@ -188,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 33,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -199,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 39,
+        "leads": 38,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -213,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 38
       }
     },
     "2026-04": {
@@ -431,7 +431,7 @@
         "leads": 23,
         "active": 16,
         "booked": 13,
-        "offers": 28,
+        "offers": 29,
         "accepted": 3,
         "available": 1,
         "pending": 0,
@@ -565,15 +565,15 @@
         },
         "2026-10": {
           "counts": {
-            "available": 2,
-            "on_hold": 2,
+            "on_hold": 3,
+            "available": 1,
             "pending": 1,
             "dead": 1,
             "closed": 1
           },
           "gp": {
-            "available": 38999,
-            "on_hold": 75299,
+            "on_hold": 85299,
+            "available": 28999,
             "pending": 9875,
             "dead": 9791,
             "closed": 15000
@@ -594,16 +594,16 @@
       },
       "all_time": {
         "counts": {
-          "available": 6,
+          "available": 5,
           "dead": 54,
-          "on_hold": 4,
+          "on_hold": 5,
           "pending": 2,
           "closed": 23
         },
         "gp": {
-          "available": 125065,
+          "available": 115065,
           "dead": 1246865,
-          "on_hold": 165409,
+          "on_hold": 175409,
           "pending": 28442,
           "closed": 370420
         },
@@ -617,7 +617,7 @@
           "closed": 6
         },
         "fb": {
-          "available": 1,
+          "on_hold": 1,
           "pending": 2,
           "dead": 19,
           "closed": 2
@@ -638,7 +638,7 @@
         },
         "2026-10": {
           "fb": {
-            "available": 1,
+            "on_hold": 1,
             "pending": 1
           },
           "ppc": {
@@ -768,15 +768,6 @@
           "stage_color": "FFD5B8",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
-        },
-        {
-          "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
-          "value": 10000,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
         },
         {
           "address": "1078 Woods End Ln, Forest, VA 24551, USA",
@@ -1123,14 +1114,14 @@
     }
   },
   "pipeline_contracts": {
-    "available": 10,
+    "available": 9,
     "pending": 2,
-    "on_hold": 4,
+    "on_hold": 5,
     "closed": 42,
     "dead": 98,
-    "gp_available": 236787,
+    "gp_available": 226787,
     "gp_pending": 28442,
-    "gp_on_hold": 165409,
+    "gp_on_hold": 175409,
     "gp_closed": 886761,
     "gp_dead": 2149745
   },
@@ -1145,7 +1136,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 16872.44
+    "2026-11": 16887.97
   },
   "channel_by_month": {
     "2026-01": {
@@ -2136,9 +2127,9 @@
         "active": 14,
         "booked": 13,
         "offered": 12,
-        "accepted": 4,
-        "under_contract": 4,
-        "contract_available": 1,
+        "accepted": 3,
+        "under_contract": 3,
+        "contract_available": 0,
         "contract_pending": 1,
         "contract_closed": 0,
         "contract_dead": 2,
@@ -2176,11 +2167,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 16872.44,
+      "google_spend": 16887.97,
       "meta_spend": 0,
       "ppc_leads": 50,
       "fb_leads": 0,
-      "google_cpc": 21.36,
+      "google_cpc": 21.27,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 50,
@@ -2263,9 +2254,9 @@
     "active": 0,
     "booked": 0,
     "offered": 0,
-    "accepted": 48,
-    "under_contract": 48,
-    "contract_available": 1,
+    "accepted": 47,
+    "under_contract": 47,
+    "contract_available": 0,
     "contract_pending": 2,
     "contract_closed": 6,
     "contract_dead": 39,
@@ -2326,7 +2317,7 @@
   "reps": {
     "Charles": {
       "discoveries": 23,
-      "offers": 28,
+      "offers": 29,
       "contracts": 3,
       "revenue": 0.0
     },
@@ -2338,7 +2329,7 @@
     }
   },
   "pipeline_by_agent": {
-    "Julian": 153506,
+    "Julian": 143506,
     "Charles": 111723
   },
   "agent_deals": [
@@ -2370,16 +2361,6 @@
       "stage_color": "FFD5B8",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
-      "agent": "Julian"
-    },
-    {
-      "address": "1025 N Alleghany Ave, Covington, VA 24426, USA",
-      "value": 10000,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
       "agent": "Julian"
     },
     {

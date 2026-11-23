@@ -1,13 +1,13 @@
 {
   "report_date": "November 23, 2026",
-  "last_updated": "2026-11-23 13:02 EST",
+  "last_updated": "2026-11-23 14:07 EST",
   "google": {
-    "spend_mtd": 16677.42,
-    "clicks_mtd": 784,
+    "spend_mtd": 16871.84,
+    "clicks_mtd": 787,
     "crm_leads": 50,
     "crm_leads_today": 0,
-    "cpc": 21.27,
-    "cpl": 333.55,
+    "cpc": 21.44,
+    "cpl": 337.44,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1365.07,
-        "spend_today": 33.15,
-        "clicks": 534,
-        "cpc": 2.56,
+        "spend": 1366.48,
+        "spend_today": 34.56,
+        "clicks": 536,
+        "cpc": 2.55,
         "crm_leads": 0,
-        "cpl": 333.55
+        "cpl": 337.44
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 15312.35,
-        "spend_today": 333.86,
-        "clicks": 250,
-        "cpc": 61.25,
+        "spend": 15505.36,
+        "spend_today": 526.87,
+        "clicks": 251,
+        "cpc": 61.77,
         "crm_leads": 0,
-        "cpl": 333.55
+        "cpl": 337.44
       }
     ]
   },
@@ -48,9 +48,8 @@
   "by_stage": {
     "Initial Inspection Completed": 84531,
     "Market Prep / Pre-Listing Marketing": 54635,
-    "On Market": 47836,
-    "Access Scheduled": 29785,
-    "New Deal - Unscheduled": 20000
+    "Access Scheduled": 49785,
+    "On Market": 47836
   },
   "by_agent": {
     "West Virginia": 18567,
@@ -123,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16677.13
+      "spend": 16871.84
     }
   },
   "reps_by_month": {
@@ -189,7 +188,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -200,10 +199,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 38,
+        "leads": 39,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -214,7 +213,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 39
       }
     },
     "2026-04": {
@@ -747,8 +746,8 @@
           "address": "507 East St, Blackstone, VA 23824, USA",
           "value": 20000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1146,7 +1145,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 16677.42
+    "2026-11": 16871.84
   },
   "channel_by_month": {
     "2026-01": {
@@ -2177,11 +2176,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 16677.42,
+      "google_spend": 16871.84,
       "meta_spend": 0,
       "ppc_leads": 50,
       "fb_leads": 0,
-      "google_cpc": 21.27,
+      "google_cpc": 21.44,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 50,
@@ -2347,8 +2346,8 @@
       "address": "507 East St, Blackstone, VA 23824, USA",
       "value": 20000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Julian"

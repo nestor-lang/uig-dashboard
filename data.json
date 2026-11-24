@@ -1,6 +1,6 @@
 {
   "report_date": "November 24, 2026",
-  "last_updated": "2026-11-24 18:17 EST",
+  "last_updated": "2026-11-24 19:22 EST",
   "google": {
     "spend_mtd": 17772.2,
     "clicks_mtd": 846,
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 32,
+        "leads": 33,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 32
+        "discoveries": 33
       },
       "Julian": {
-        "leads": 39,
+        "leads": 38,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -214,7 +214,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 39
+        "discoveries": 38
       }
     },
     "2026-04": {
@@ -1521,7 +1521,7 @@
         "closed": 3,
         "status_breakdown": {
           "Cold": {
-            "count": 47,
+            "count": 46,
             "color": "#D2E4EB"
           },
           "Dead": {
@@ -1540,6 +1540,10 @@
             "count": 13,
             "color": "#DCEBD8"
           },
+          "No Longer Selling": {
+            "count": 10,
+            "color": "#F3F3F3"
+          },
           "Listed": {
             "count": 9,
             "color": "#C8C8C8"
@@ -1547,10 +1551,6 @@
           "Owes too Much": {
             "count": 9,
             "color": "#D1F3EC"
-          },
-          "No Longer Selling": {
-            "count": 9,
-            "color": "#F3F3F3"
           },
           "Under Contract": {
             "count": 3,

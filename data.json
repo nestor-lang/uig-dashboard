@@ -1,13 +1,13 @@
 {
   "report_date": "November 24, 2026",
-  "last_updated": "2026-11-24 13:02 EST",
+  "last_updated": "2026-11-24 14:02 EST",
   "google": {
-    "spend_mtd": 17279.12,
-    "clicks_mtd": 826,
+    "spend_mtd": 17292.39,
+    "clicks_mtd": 829,
     "crm_leads": 54,
     "crm_leads_today": 2,
-    "cpc": 20.92,
-    "cpl": 319.98,
+    "cpc": 20.86,
+    "cpl": 320.23,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1427.61,
-        "spend_today": 34.71,
-        "clicks": 566,
+        "spend": 1429.98,
+        "spend_today": 37.08,
+        "clicks": 568,
         "cpc": 2.52,
         "crm_leads": 0,
-        "cpl": 319.98
+        "cpl": 320.23
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 15851.51,
+        "spend": 15862.41,
         "spend_today": 169.59,
-        "clicks": 260,
-        "cpc": 60.97,
+        "clicks": 261,
+        "cpc": 60.78,
         "crm_leads": 0,
-        "cpl": 319.98
+        "cpl": 320.23
       }
     ]
   },
@@ -250,7 +250,7 @@
     "2026-05": {
       "Charles": {
         "leads": 36,
-        "active": 44,
+        "active": 45,
         "booked": 38,
         "offers": 32,
         "accepted": 10,
@@ -446,7 +446,7 @@
         "leads": 22,
         "active": 14,
         "booked": 14,
-        "offers": 21,
+        "offers": 22,
         "accepted": 4,
         "available": 3,
         "pending": 0,
@@ -1079,8 +1079,8 @@
           "address": "380 Snyder Ln, Culpeper, VA 22701, USA",
           "value": 53875,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1146,7 +1146,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 17279.12
+    "2026-11": 17292.39
   },
   "channel_by_month": {
     "2026-01": {
@@ -1500,7 +1500,7 @@
       },
       "pipeline_fb": {
         "leads": 193,
-        "active": 88,
+        "active": 89,
         "booked": 75,
         "offered": 61,
         "accepted": 10,
@@ -1520,7 +1520,7 @@
             "color": "#F3F3F3"
           },
           "Need to Contact": {
-            "count": 38,
+            "count": 39,
             "color": "#FFD5C2"
           },
           "Sold": {
@@ -1531,10 +1531,6 @@
             "count": 13,
             "color": "#DCEBD8"
           },
-          "No Longer Selling": {
-            "count": 10,
-            "color": "#F3F3F3"
-          },
           "Listed": {
             "count": 9,
             "color": "#C8C8C8"
@@ -1542,6 +1538,10 @@
           "Owes too Much": {
             "count": 9,
             "color": "#D1F3EC"
+          },
+          "No Longer Selling": {
+            "count": 9,
+            "color": "#F3F3F3"
           },
           "Under Contract": {
             "count": 3,
@@ -1894,11 +1894,11 @@
         "closed": 1,
         "status_breakdown": {
           "Cold": {
-            "count": 64,
+            "count": 65,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 41,
+            "count": 42,
             "color": "#FFD5C2"
           },
           "Dead": {
@@ -1929,13 +1929,13 @@
             "count": 9,
             "color": "#DCEBD8"
           },
-          "Warm": {
-            "count": 3,
-            "color": "#F7F0C5"
-          },
           "Not Workable": {
             "count": 2,
             "color": "#D1F3EC"
+          },
+          "Warm": {
+            "count": 1,
+            "color": "#F7F0C5"
           },
           "Closed": {
             "count": 1,
@@ -2177,17 +2177,17 @@
       }
     },
     "2026-11": {
-      "google_spend": 17279.12,
+      "google_spend": 17292.39,
       "meta_spend": 0,
       "ppc_leads": 54,
       "fb_leads": 0,
-      "google_cpc": 20.92,
+      "google_cpc": 20.86,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 54,
-        "active": 37,
+        "active": 35,
         "booked": 29,
-        "offered": 25,
+        "offered": 26,
         "accepted": 7,
         "under_contract": 7,
         "contract_available": 6,
@@ -2201,11 +2201,11 @@
             "color": "#D2E4EB"
           },
           "Listed": {
-            "count": 8,
+            "count": 9,
             "color": "#C8C8C8"
           },
           "Need to Contact": {
-            "count": 8,
+            "count": 7,
             "color": "#FFD5C2"
           },
           "Warm": {
@@ -2255,7 +2255,7 @@
     "dispositioned_mtd": 47,
     "hot": 5,
     "booked": 29,
-    "offers": 25,
+    "offers": 26,
     "under_contract": 5,
     "closed": 0
   },
@@ -2275,9 +2275,9 @@
   },
   "pipeline_ppc": {
     "leads": 54,
-    "active": 37,
+    "active": 35,
     "booked": 29,
-    "offered": 25,
+    "offered": 26,
     "accepted": 47,
     "under_contract": 47,
     "contract_available": 8,
@@ -2291,11 +2291,11 @@
         "color": "#D2E4EB"
       },
       "Listed": {
-        "count": 8,
+        "count": 9,
         "color": "#C8C8C8"
       },
       "Need to Contact": {
-        "count": 8,
+        "count": 7,
         "color": "#FFD5C2"
       },
       "Warm": {
@@ -2333,7 +2333,7 @@
     },
     "Julian": {
       "discoveries": 22,
-      "offers": 21,
+      "offers": 22,
       "contracts": 4,
       "revenue": 15000.0
     }
@@ -2417,8 +2417,8 @@
       "address": "380 Snyder Ln, Culpeper, VA 22701, USA",
       "value": 53875,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Charles"

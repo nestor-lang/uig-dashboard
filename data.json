@@ -1,13 +1,13 @@
 {
   "report_date": "November 23, 2026",
-  "last_updated": "2026-11-23 19:32 EST",
+  "last_updated": "2026-11-23 21:02 EST",
   "google": {
-    "spend_mtd": 16990.99,
-    "clicks_mtd": 802,
+    "spend_mtd": 17019.26,
+    "clicks_mtd": 808,
     "crm_leads": 51,
     "crm_leads_today": 1,
-    "cpc": 21.19,
-    "cpl": 333.16,
+    "cpc": 21.06,
+    "cpl": 333.71,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1378.73,
-        "spend_today": 46.81,
-        "clicks": 548,
-        "cpc": 2.52,
+        "spend": 1383.13,
+        "spend_today": 51.21,
+        "clicks": 552,
+        "cpc": 2.51,
         "crm_leads": 0,
-        "cpl": 333.16
+        "cpl": 333.71
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 15612.26,
-        "spend_today": 633.77,
-        "clicks": 254,
-        "cpc": 61.47,
+        "spend": 15636.13,
+        "spend_today": 657.64,
+        "clicks": 256,
+        "cpc": 61.08,
         "crm_leads": 0,
-        "cpl": 333.16
+        "cpl": 333.71
       }
     ]
   },
@@ -46,11 +46,11 @@
   "potential_income": 280662,
   "assigned_income": 28442,
   "by_stage": {
-    "Initial Inspection Completed": 84531,
+    "Initial Inspection Completed": 104316,
     "Market Prep / Pre-Listing Marketing": 54635,
     "New Deal - Unscheduled": 53875,
     "On Market": 47836,
-    "Access Scheduled": 39785
+    "Access Scheduled": 20000
   },
   "by_agent": {
     "West Virginia": 18567,
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 16990.99
+      "spend": 17019.26
     }
   },
   "reps_by_month": {
@@ -443,10 +443,10 @@
         "discoveries": 25
       },
       "Julian": {
-        "leads": 20,
+        "leads": 21,
         "active": 13,
-        "booked": 12,
-        "offers": 19,
+        "booked": 13,
+        "offers": 20,
         "accepted": 4,
         "available": 3,
         "pending": 0,
@@ -454,7 +454,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 15000.0,
-        "discoveries": 20
+        "discoveries": 21
       }
     }
   },
@@ -1146,7 +1146,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 16990.99
+    "2026-11": 17019.26
   },
   "channel_by_month": {
     "2026-01": {
@@ -2177,17 +2177,17 @@
       }
     },
     "2026-11": {
-      "google_spend": 16990.99,
+      "google_spend": 17019.26,
       "meta_spend": 0,
       "ppc_leads": 51,
       "fb_leads": 0,
-      "google_cpc": 21.19,
+      "google_cpc": 21.06,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 51,
         "active": 35,
-        "booked": 27,
-        "offered": 23,
+        "booked": 28,
+        "offered": 24,
         "accepted": 7,
         "under_contract": 7,
         "contract_available": 6,
@@ -2201,7 +2201,7 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 8,
+            "count": 7,
             "color": "#FFD5C2"
           },
           "Listed": {
@@ -2229,7 +2229,7 @@
             "color": "#D1F3EC"
           },
           "Hot": {
-            "count": 1,
+            "count": 2,
             "color": "#F7D1D0"
           }
         }
@@ -2252,10 +2252,10 @@
   },
   "pipeline": {
     "new_leads_30d": 51,
-    "dispositioned_mtd": 45,
-    "hot": 4,
-    "booked": 27,
-    "offers": 23,
+    "dispositioned_mtd": 46,
+    "hot": 5,
+    "booked": 28,
+    "offers": 24,
     "under_contract": 5,
     "closed": 0
   },
@@ -2276,8 +2276,8 @@
   "pipeline_ppc": {
     "leads": 51,
     "active": 35,
-    "booked": 27,
-    "offered": 23,
+    "booked": 28,
+    "offered": 24,
     "accepted": 47,
     "under_contract": 47,
     "contract_available": 8,
@@ -2291,7 +2291,7 @@
         "color": "#D2E4EB"
       },
       "Need to Contact": {
-        "count": 8,
+        "count": 7,
         "color": "#FFD5C2"
       },
       "Listed": {
@@ -2319,7 +2319,7 @@
         "color": "#D1F3EC"
       },
       "Hot": {
-        "count": 1,
+        "count": 2,
         "color": "#F7D1D0"
       }
     }
@@ -2332,8 +2332,8 @@
       "revenue": 0.0
     },
     "Julian": {
-      "discoveries": 20,
-      "offers": 19,
+      "discoveries": 21,
+      "offers": 20,
       "contracts": 4,
       "revenue": 15000.0
     }
@@ -2481,6 +2481,12 @@
       "address": "7780 Starlight Ln, Boones Mill, VA 24065, USA",
       "phone": "(540) 815-0537",
       "source": "Facebook"
+    },
+    {
+      "name": "7589 Pleasant Hill Rd",
+      "address": "7589 Pleasant Hill Rd, Lithonia, GA 30058, USA",
+      "phone": "(770) 882-1827",
+      "source": "PPC"
     },
     {
       "name": "27061 8th Ave",

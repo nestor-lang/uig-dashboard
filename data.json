@@ -1,13 +1,13 @@
 {
   "report_date": "November 24, 2026",
-  "last_updated": "2026-11-24 17:12 EST",
+  "last_updated": "2026-11-24 18:17 EST",
   "google": {
-    "spend_mtd": 17771.65,
-    "clicks_mtd": 845,
+    "spend_mtd": 17772.2,
+    "clicks_mtd": 846,
     "crm_leads": 56,
     "crm_leads_today": 4,
-    "cpc": 21.03,
-    "cpl": 317.35,
+    "cpc": 21.01,
+    "cpl": 317.36,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1447.46,
-        "spend_today": 54.56,
-        "clicks": 580,
-        "cpc": 2.5,
+        "spend": 1448.01,
+        "spend_today": 55.11,
+        "clicks": 581,
+        "cpc": 2.49,
         "crm_leads": 0,
-        "cpl": 317.35
+        "cpl": 317.36
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 265,
         "cpc": 61.6,
         "crm_leads": 0,
-        "cpl": 317.35
+        "cpl": 317.36
       }
     ]
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 17771.65
+      "spend": 17772.2
     }
   },
   "reps_by_month": {
@@ -189,7 +189,7 @@
     },
     "2026-03": {
       "Charles": {
-        "leads": 33,
+        "leads": 32,
         "active": 10,
         "booked": 15,
         "offers": 23,
@@ -200,10 +200,10 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 33
+        "discoveries": 32
       },
       "Julian": {
-        "leads": 38,
+        "leads": 39,
         "active": 11,
         "booked": 21,
         "offers": 39,
@@ -214,7 +214,7 @@
         "closed": 1,
         "pending_income": 0.0,
         "closed_revenue": 123504.59,
-        "discoveries": 38
+        "discoveries": 39
       }
     },
     "2026-04": {
@@ -251,7 +251,7 @@
       "Charles": {
         "leads": 36,
         "active": 45,
-        "booked": 38,
+        "booked": 39,
         "offers": 32,
         "accepted": 10,
         "available": 0,
@@ -324,7 +324,7 @@
       },
       "Julian": {
         "leads": 76,
-        "active": 83,
+        "active": 82,
         "booked": 76,
         "offers": 59,
         "accepted": 8,
@@ -429,10 +429,10 @@
     },
     "2026-11": {
       "Charles": {
-        "leads": 25,
+        "leads": 27,
         "active": 19,
         "booked": 16,
-        "offers": 32,
+        "offers": 33,
         "accepted": 5,
         "available": 3,
         "pending": 0,
@@ -440,7 +440,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 25
+        "discoveries": 27
       },
       "Julian": {
         "leads": 23,
@@ -1155,7 +1155,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 17771.65
+    "2026-11": 17772.2
   },
   "channel_by_month": {
     "2026-01": {
@@ -1510,8 +1510,8 @@
       "pipeline_fb": {
         "leads": 193,
         "active": 89,
-        "booked": 76,
-        "offered": 62,
+        "booked": 77,
+        "offered": 63,
         "accepted": 10,
         "under_contract": 10,
         "contract_available": 0,
@@ -1529,7 +1529,7 @@
             "color": "#F3F3F3"
           },
           "Need to Contact": {
-            "count": 38,
+            "count": 37,
             "color": "#FFD5C2"
           },
           "Sold": {
@@ -1561,7 +1561,7 @@
             "color": "#DCEBD8"
           },
           "Hot": {
-            "count": 2,
+            "count": 3,
             "color": "#F7D1D0"
           },
           "Not Workable": {
@@ -1717,6 +1717,10 @@
             "count": 15,
             "color": "#D2E4EB"
           },
+          "Dead": {
+            "count": 8,
+            "color": "#F3F3F3"
+          },
           "Need to Contact": {
             "count": 8,
             "color": "#FFD5C2"
@@ -1725,19 +1729,15 @@
             "count": 7,
             "color": "#D1F3EC"
           },
-          "Dead": {
-            "count": 7,
-            "color": "#F3F3F3"
-          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
           },
-          "Listed": {
-            "count": 4,
+          "Sold": {
+            "count": 3,
             "color": "#C8C8C8"
           },
-          "Sold": {
+          "Listed": {
             "count": 3,
             "color": "#C8C8C8"
           },
@@ -1765,7 +1765,7 @@
       },
       "pipeline_fb": {
         "leads": 184,
-        "active": 108,
+        "active": 107,
         "booked": 100,
         "offered": 90,
         "accepted": 10,
@@ -1781,11 +1781,11 @@
             "color": "#D2E4EB"
           },
           "Need to Contact": {
-            "count": 28,
+            "count": 26,
             "color": "#FFD5C2"
           },
           "Dead": {
-            "count": 21,
+            "count": 22,
             "color": "#F3F3F3"
           },
           "Sold": {
@@ -1797,7 +1797,7 @@
             "color": "#DCEBD8"
           },
           "Owes too Much": {
-            "count": 11,
+            "count": 12,
             "color": "#D1F3EC"
           },
           "No Longer Selling": {
@@ -2178,11 +2178,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 17771.65,
+      "google_spend": 17772.2,
       "meta_spend": 0,
       "ppc_leads": 56,
       "fb_leads": 0,
-      "google_cpc": 21.03,
+      "google_cpc": 21.01,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 56,
@@ -2253,8 +2253,8 @@
   },
   "pipeline": {
     "new_leads_30d": 56,
-    "dispositioned_mtd": 48,
-    "hot": 6,
+    "dispositioned_mtd": 50,
+    "hot": 7,
     "booked": 30,
     "offers": 27,
     "under_contract": 6,
@@ -2327,8 +2327,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 25,
-      "offers": 32,
+      "discoveries": 27,
+      "offers": 33,
       "contracts": 5,
       "revenue": 0.0
     },
@@ -2500,16 +2500,16 @@
       "source": "Facebook - Inbound Call"
     },
     {
+      "name": "150 Le Conte Hwy SW",
+      "address": "150 Le Conte Hwy SW, Atlanta, GA 30331, USA",
+      "phone": "(704) 460-2436",
+      "source": "Facebook"
+    },
+    {
       "name": "7589 Pleasant Hill Rd",
       "address": "7589 Pleasant Hill Rd, Lithonia, GA 30058, USA",
       "phone": "(770) 882-1827",
       "source": "PPC"
-    },
-    {
-      "name": "27061 8th Ave",
-      "address": "27061 8th Ave, Gobles, MI 49055, USA",
-      "phone": "+12692516326",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

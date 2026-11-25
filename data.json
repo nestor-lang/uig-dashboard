@@ -1,13 +1,13 @@
 {
   "report_date": "November 24, 2026",
-  "last_updated": "2026-11-24 20:27 EST",
+  "last_updated": "2026-11-24 21:32 EST",
   "google": {
-    "spend_mtd": 17772.2,
-    "clicks_mtd": 846,
+    "spend_mtd": 17772.92,
+    "clicks_mtd": 847,
     "crm_leads": 56,
     "crm_leads_today": 4,
-    "cpc": 21.01,
-    "cpl": 317.36,
+    "cpc": 20.98,
+    "cpl": 317.37,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1448.01,
-        "spend_today": 55.11,
-        "clicks": 581,
+        "spend": 1448.74,
+        "spend_today": 55.84,
+        "clicks": 582,
         "cpc": 2.49,
         "crm_leads": 0,
-        "cpl": 317.36
+        "cpl": 317.37
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 265,
         "cpc": 61.6,
         "crm_leads": 0,
-        "cpl": 317.36
+        "cpl": 317.37
       }
     ]
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 17772.2
+      "spend": 17772.92
     }
   },
   "reps_by_month": {
@@ -809,340 +809,28 @@
       ]
     },
     "Charles": {
-      "by_month": {
-        "2026-01": {
-          "counts": {
-            "dead": 2,
-            "closed": 2
-          },
-          "gp": {
-            "dead": 61944,
-            "closed": 62616
-          },
-          "total": 4
-        },
-        "2026-02": {
-          "counts": {
-            "dead": 3,
-            "closed": 2
-          },
-          "gp": {
-            "dead": 49442,
-            "closed": 171608
-          },
-          "total": 5
-        },
-        "2026-03": {
-          "counts": {
-            "dead": 4,
-            "closed": 1
-          },
-          "gp": {
-            "dead": 110250,
-            "closed": 7126
-          },
-          "total": 5
-        },
-        "2026-04": {
-          "counts": {
-            "dead": 4,
-            "closed": 2
-          },
-          "gp": {
-            "dead": 82905,
-            "closed": 21165
-          },
-          "total": 6
-        },
-        "2026-05": {
-          "counts": {
-            "closed": 3,
-            "dead": 7
-          },
-          "gp": {
-            "closed": 97105,
-            "dead": 158475
-          },
-          "total": 10
-        },
-        "2026-06": {
-          "counts": {
-            "dead": 5,
-            "closed": 3
-          },
-          "gp": {
-            "dead": 140935,
-            "closed": 55849
-          },
-          "total": 8
-        },
-        "2026-07": {
-          "counts": {
-            "dead": 5,
-            "closed": 4
-          },
-          "gp": {
-            "dead": 82001,
-            "closed": 83460
-          },
-          "total": 9
-        },
-        "2026-08": {
-          "counts": {
-            "dead": 3,
-            "closed": 1
-          },
-          "gp": {
-            "dead": 76980,
-            "closed": 10000
-          },
-          "total": 4
-        },
-        "2026-09": {
-          "counts": {
-            "dead": 6,
-            "closed": 1
-          },
-          "gp": {
-            "dead": 46745,
-            "closed": 7411
-          },
-          "total": 7
-        },
-        "2026-10": {
-          "counts": {
-            "available": 2,
-            "dead": 4
-          },
-          "gp": {
-            "available": 57088,
-            "dead": 81204
-          },
-          "total": 6
-        },
-        "2026-11": {
-          "counts": {
-            "available": 4,
-            "dead": 1
-          },
-          "gp": {
-            "available": 210510,
-            "dead": 12000
-          },
-          "total": 5
-        }
-      },
+      "by_month": {},
       "all_time": {
-        "counts": {
-          "available": 6,
-          "dead": 44,
-          "closed": 19
-        },
-        "gp": {
-          "available": 267598,
-          "dead": 902880,
-          "closed": 516341
-        },
-        "total": 69
+        "counts": {},
+        "gp": {},
+        "total": 0
       },
-      "channel_counts": {
-        "ppc": {
-          "available": 5,
-          "dead": 13,
-          "closed": 7
-        },
-        "fb": {
-          "dead": 20,
-          "closed": 4
-        },
-        "sms": {
-          "available": 1,
-          "dead": 11,
-          "closed": 8
-        }
-      },
-      "by_month_channel_counts": {
-        "2026-11": {
-          "ppc": {
-            "available": 4
-          },
-          "fb": {
-            "dead": 1
-          }
-        },
-        "2026-10": {
-          "sms": {
-            "available": 1
-          },
-          "ppc": {
-            "dead": 2,
-            "available": 1
-          },
-          "fb": {
-            "dead": 2
-          }
-        },
-        "2026-09": {
-          "fb": {
-            "dead": 3
-          },
-          "sms": {
-            "dead": 1
-          },
-          "ppc": {
-            "dead": 2,
-            "closed": 1
-          }
-        },
-        "2026-08": {
-          "ppc": {
-            "dead": 3,
-            "closed": 1
-          }
-        },
-        "2026-07": {
-          "fb": {
-            "dead": 5,
-            "closed": 1
-          },
-          "ppc": {
-            "closed": 3
-          }
-        },
-        "2026-06": {
-          "sms": {
-            "dead": 2
-          },
-          "fb": {
-            "dead": 2,
-            "closed": 1
-          },
-          "ppc": {
-            "closed": 2,
-            "dead": 1
-          }
-        },
-        "2026-05": {
-          "sms": {
-            "closed": 1
-          },
-          "fb": {
-            "dead": 5,
-            "closed": 2
-          },
-          "ppc": {
-            "dead": 2
-          }
-        },
-        "2026-04": {
-          "sms": {
-            "dead": 2,
-            "closed": 2
-          },
-          "ppc": {
-            "dead": 1
-          },
-          "fb": {
-            "dead": 1
-          }
-        },
-        "2026-03": {
-          "fb": {
-            "dead": 1
-          },
-          "ppc": {
-            "dead": 1
-          },
-          "sms": {
-            "closed": 1,
-            "dead": 2
-          }
-        },
-        "2026-02": {
-          "sms": {
-            "dead": 2,
-            "closed": 2
-          },
-          "ppc": {
-            "dead": 1
-          }
-        },
-        "2026-01": {
-          "sms": {
-            "dead": 2,
-            "closed": 2
-          }
-        }
-      },
-      "deals": [
-        {
-          "address": "2137 SW Imperial St, Port St. Lucie, FL 34987, USA",
-          "value": 102000,
-          "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-11"
-        },
-        {
-          "address": "380 Snyder Ln, Culpeper, VA 22701, USA",
-          "value": 53875,
-          "status": "Available",
-          "stage": "Access Scheduled",
-          "stage_color": "FAF2C4",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-11"
-        },
-        {
-          "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
-          "value": 34725,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-11"
-        },
-        {
-          "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
-          "value": 19910,
-          "status": "Available",
-          "stage": "Market Prep / Pre-Listing Marketing",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-11"
-        },
-        {
-          "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
-          "value": 49791,
-          "status": "Available",
-          "stage": "Initial Inspection Completed",
-          "stage_color": "FFD5B8",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        },
-        {
-          "address": "644 Meadow St NE, Coeburn, VA 24230, USA",
-          "value": 7297,
-          "status": "Available",
-          "stage": "On Market",
-          "stage_color": "CFFCC7",
-          "days_in_pipeline": 0,
-          "contract_month": "2026-10"
-        }
-      ]
+      "channel_counts": {},
+      "by_month_channel_counts": {},
+      "deals": []
     }
   },
   "pipeline_contracts": {
-    "available": 11,
+    "available": 5,
     "pending": 2,
     "on_hold": 5,
-    "closed": 42,
-    "dead": 98,
-    "gp_available": 382663,
+    "closed": 23,
+    "dead": 54,
+    "gp_available": 115065,
     "gp_pending": 28442,
     "gp_on_hold": 175409,
-    "gp_closed": 886761,
-    "gp_dead": 2149745
+    "gp_closed": 370420,
+    "gp_dead": 1246865
   },
   "spend_by_month": {
     "2026-01": 14983.0,
@@ -1155,7 +843,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 17772.2
+    "2026-11": 17772.92
   },
   "channel_by_month": {
     "2026-01": {
@@ -1180,12 +868,12 @@
         "active": 0,
         "booked": 0,
         "offered": 0,
-        "accepted": 2,
-        "under_contract": 2,
+        "accepted": 1,
+        "under_contract": 1,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 1,
-        "contract_dead": 1,
+        "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {}
       },
@@ -1249,12 +937,12 @@
         "active": 5,
         "booked": 5,
         "offered": 5,
-        "accepted": 2,
-        "under_contract": 2,
+        "accepted": 1,
+        "under_contract": 1,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 2,
+        "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Wrong Number": {
@@ -1292,12 +980,12 @@
         "active": 15,
         "booked": 15,
         "offered": 14,
-        "accepted": 1,
-        "under_contract": 1,
+        "accepted": 0,
+        "under_contract": 0,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 1,
+        "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
           "Need to Contact": {
@@ -1343,12 +1031,12 @@
         "active": 26,
         "booked": 26,
         "offered": 18,
-        "accepted": 2,
-        "under_contract": 2,
+        "accepted": 1,
+        "under_contract": 1,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 1,
-        "contract_dead": 1,
+        "contract_dead": 0,
         "closed": 1,
         "status_breakdown": {
           "Sold": {
@@ -1398,12 +1086,12 @@
         "active": 82,
         "booked": 76,
         "offered": 63,
-        "accepted": 3,
-        "under_contract": 3,
+        "accepted": 2,
+        "under_contract": 2,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 3,
+        "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -1461,12 +1149,12 @@
         "active": 19,
         "booked": 18,
         "offered": 17,
-        "accepted": 5,
-        "under_contract": 5,
+        "accepted": 3,
+        "under_contract": 3,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 1,
-        "contract_dead": 4,
+        "contract_dead": 2,
         "closed": 0,
         "status_breakdown": {
           "Sold": {
@@ -1512,12 +1200,12 @@
         "active": 89,
         "booked": 77,
         "offered": 63,
-        "accepted": 10,
-        "under_contract": 10,
+        "accepted": 3,
+        "under_contract": 3,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 3,
-        "contract_dead": 7,
+        "contract_closed": 1,
+        "contract_dead": 2,
         "closed": 3,
         "status_breakdown": {
           "Cold": {
@@ -1583,12 +1271,12 @@
         "active": 23,
         "booked": 23,
         "offered": 16,
-        "accepted": 3,
-        "under_contract": 3,
+        "accepted": 0,
+        "under_contract": 0,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 2,
-        "contract_dead": 1,
+        "contract_closed": 0,
+        "contract_dead": 0,
         "closed": 3,
         "status_breakdown": {
           "Sold": {
@@ -1638,12 +1326,12 @@
         "active": 83,
         "booked": 74,
         "offered": 69,
-        "accepted": 7,
-        "under_contract": 7,
+        "accepted": 4,
+        "under_contract": 4,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 6,
+        "contract_closed": 0,
+        "contract_dead": 4,
         "closed": 1,
         "status_breakdown": {
           "Cold": {
@@ -1705,11 +1393,11 @@
         "active": 28,
         "booked": 26,
         "offered": 24,
-        "accepted": 6,
-        "under_contract": 6,
+        "accepted": 3,
+        "under_contract": 3,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 4,
+        "contract_closed": 1,
         "contract_dead": 2,
         "closed": 3,
         "status_breakdown": {
@@ -1768,12 +1456,12 @@
         "active": 107,
         "booked": 100,
         "offered": 90,
-        "accepted": 10,
-        "under_contract": 10,
+        "accepted": 4,
+        "under_contract": 4,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 9,
+        "contract_closed": 0,
+        "contract_dead": 4,
         "closed": 1,
         "status_breakdown": {
           "Cold": {
@@ -1831,12 +1519,12 @@
         "active": 35,
         "booked": 32,
         "offered": 30,
-        "accepted": 6,
-        "under_contract": 6,
+        "accepted": 2,
+        "under_contract": 2,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 5,
+        "contract_closed": 0,
+        "contract_dead": 2,
         "closed": 1,
         "status_breakdown": {
           "Cold": {
@@ -1965,12 +1653,12 @@
         "active": 44,
         "booked": 40,
         "offered": 37,
-        "accepted": 7,
-        "under_contract": 7,
+        "accepted": 4,
+        "under_contract": 4,
         "contract_available": 0,
         "contract_pending": 0,
-        "contract_closed": 1,
-        "contract_dead": 6,
+        "contract_closed": 0,
+        "contract_dead": 4,
         "closed": 2,
         "status_breakdown": {
           "Cold": {
@@ -2024,12 +1712,12 @@
         "active": 81,
         "booked": 67,
         "offered": 63,
-        "accepted": 8,
-        "under_contract": 8,
+        "accepted": 5,
+        "under_contract": 5,
         "contract_available": 0,
         "contract_pending": 1,
         "contract_closed": 0,
-        "contract_dead": 7,
+        "contract_dead": 4,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -2083,12 +1771,12 @@
         "active": 37,
         "booked": 34,
         "offered": 31,
-        "accepted": 6,
-        "under_contract": 6,
-        "contract_available": 2,
+        "accepted": 3,
+        "under_contract": 3,
+        "contract_available": 1,
         "contract_pending": 0,
         "contract_closed": 1,
-        "contract_dead": 3,
+        "contract_dead": 1,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -2138,12 +1826,12 @@
         "active": 14,
         "booked": 13,
         "offered": 12,
-        "accepted": 3,
-        "under_contract": 3,
+        "accepted": 1,
+        "under_contract": 1,
         "contract_available": 0,
         "contract_pending": 1,
         "contract_closed": 0,
-        "contract_dead": 2,
+        "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {
           "Cold": {
@@ -2178,20 +1866,20 @@
       }
     },
     "2026-11": {
-      "google_spend": 17772.2,
+      "google_spend": 17772.92,
       "meta_spend": 0,
       "ppc_leads": 56,
       "fb_leads": 0,
-      "google_cpc": 21.01,
+      "google_cpc": 20.98,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 56,
         "active": 36,
         "booked": 30,
         "offered": 27,
-        "accepted": 8,
-        "under_contract": 8,
-        "contract_available": 7,
+        "accepted": 4,
+        "under_contract": 4,
+        "contract_available": 3,
         "contract_pending": 0,
         "contract_closed": 0,
         "contract_dead": 1,
@@ -2240,12 +1928,12 @@
         "active": 0,
         "booked": 0,
         "offered": 0,
-        "accepted": 1,
-        "under_contract": 1,
+        "accepted": 0,
+        "under_contract": 0,
         "contract_available": 0,
         "contract_pending": 0,
         "contract_closed": 0,
-        "contract_dead": 1,
+        "contract_dead": 0,
         "closed": 0,
         "status_breakdown": {}
       }
@@ -2265,12 +1953,12 @@
     "active": 0,
     "booked": 0,
     "offered": 0,
-    "accepted": 47,
-    "under_contract": 47,
+    "accepted": 23,
+    "under_contract": 23,
     "contract_available": 0,
     "contract_pending": 2,
-    "contract_closed": 6,
-    "contract_dead": 39,
+    "contract_closed": 2,
+    "contract_dead": 19,
     "closed": 0,
     "status_breakdown": {}
   },
@@ -2279,12 +1967,12 @@
     "active": 36,
     "booked": 30,
     "offered": 27,
-    "accepted": 48,
-    "under_contract": 48,
-    "contract_available": 9,
+    "accepted": 23,
+    "under_contract": 23,
+    "contract_available": 4,
     "contract_pending": 0,
-    "contract_closed": 13,
-    "contract_dead": 26,
+    "contract_closed": 6,
+    "contract_dead": 13,
     "closed": 0,
     "status_breakdown": {
       "Cold": {
@@ -2341,7 +2029,7 @@
   },
   "pipeline_by_agent": {
     "Julian": 143506,
-    "Charles": 267598
+    "Charles": 0
   },
   "agent_deals": [
     {
@@ -2413,66 +2101,6 @@
       "days_in_pipeline": 0,
       "contract_month": "2026-09",
       "agent": "Julian"
-    },
-    {
-      "address": "2137 SW Imperial St, Port St. Lucie, FL 34987, USA",
-      "value": 102000,
-      "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-11",
-      "agent": "Charles"
-    },
-    {
-      "address": "380 Snyder Ln, Culpeper, VA 22701, USA",
-      "value": 53875,
-      "status": "Available",
-      "stage": "Access Scheduled",
-      "stage_color": "FAF2C4",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-11",
-      "agent": "Charles"
-    },
-    {
-      "address": "1035 Hinton Mill Rd, Boydton, VA 23917, USA",
-      "value": 34725,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-11",
-      "agent": "Charles"
-    },
-    {
-      "address": "415 Belt Ave Apt D, St. Louis, MO 63112, USA",
-      "value": 19910,
-      "status": "Available",
-      "stage": "Market Prep / Pre-Listing Marketing",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-11",
-      "agent": "Charles"
-    },
-    {
-      "address": "648 Choctaw Trail, Chattanooga, TN 37405, USA",
-      "value": 49791,
-      "status": "Available",
-      "stage": "Initial Inspection Completed",
-      "stage_color": "FFD5B8",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Charles"
-    },
-    {
-      "address": "644 Meadow St NE, Coeburn, VA 24230, USA",
-      "value": 7297,
-      "status": "Available",
-      "stage": "On Market",
-      "stage_color": "CFFCC7",
-      "days_in_pipeline": 0,
-      "contract_month": "2026-10",
-      "agent": "Charles"
     }
   ],
   "sources": {

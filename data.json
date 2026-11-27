@@ -1,13 +1,13 @@
 {
   "report_date": "November 27, 2026",
-  "last_updated": "2026-11-27 10:12 EST",
+  "last_updated": "2026-11-27 11:17 EST",
   "google": {
-    "spend_mtd": 19391.88,
-    "clicks_mtd": 920,
-    "crm_leads": 59,
-    "crm_leads_today": 0,
-    "cpc": 21.08,
-    "cpl": 328.68,
+    "spend_mtd": 19479.69,
+    "clicks_mtd": 923,
+    "crm_leads": 58,
+    "crm_leads_today": 1,
+    "cpc": 21.1,
+    "cpl": 335.86,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,21 +15,21 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1575.8,
-        "spend_today": 13.67,
-        "clicks": 639,
-        "cpc": 2.47,
+        "spend": 1579.1,
+        "spend_today": 16.97,
+        "clicks": 641,
+        "cpc": 2.46,
         "crm_leads": 0,
-        "cpl": 328.68
+        "cpl": 335.86
       },
       {
         "name": "Ultra Homebuyers Search Only",
-        "spend": 17816.07,
-        "spend_today": 31.94,
-        "clicks": 281,
-        "cpc": 63.4,
+        "spend": 17900.58,
+        "spend_today": 116.45,
+        "clicks": 282,
+        "cpc": 63.48,
         "crm_leads": 0,
-        "cpl": 328.68
+        "cpl": 335.86
       }
     ]
   },
@@ -123,7 +123,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19391.88
+      "spend": 19479.69
     }
   },
   "reps_by_month": {
@@ -429,10 +429,10 @@
     },
     "2026-11": {
       "Charles": {
-        "leads": 27,
+        "leads": 28,
         "active": 19,
-        "booked": 16,
-        "offers": 33,
+        "booked": 17,
+        "offers": 34,
         "accepted": 5,
         "available": 3,
         "pending": 0,
@@ -440,7 +440,7 @@
         "closed": 0,
         "pending_income": 0.0,
         "closed_revenue": 0.0,
-        "discoveries": 27
+        "discoveries": 28
       },
       "Julian": {
         "leads": 24,
@@ -1155,7 +1155,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 19391.88
+    "2026-11": 19479.69
   },
   "channel_by_month": {
     "2026-01": {
@@ -2096,7 +2096,7 @@
         "closed": 0,
         "status_breakdown": {
           "Cold": {
-            "count": 22,
+            "count": 21,
             "color": "#D2E4EB"
           },
           "Need to Contact": {
@@ -2123,13 +2123,13 @@
             "count": 3,
             "color": "#DCEBD8"
           },
+          "Dead": {
+            "count": 2,
+            "color": "#F3F3F3"
+          },
           "Warm": {
             "count": 1,
             "color": "#F7F0C5"
-          },
-          "Dead": {
-            "count": 1,
-            "color": "#F3F3F3"
           },
           "Sold": {
             "count": 1,
@@ -2182,17 +2182,17 @@
       }
     },
     "2026-11": {
-      "google_spend": 19391.88,
+      "google_spend": 19479.69,
       "meta_spend": 0,
-      "ppc_leads": 59,
+      "ppc_leads": 58,
       "fb_leads": 0,
-      "google_cpc": 21.08,
+      "google_cpc": 21.1,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 59,
-        "active": 37,
-        "booked": 30,
-        "offered": 27,
+        "leads": 58,
+        "active": 35,
+        "booked": 31,
+        "offered": 28,
         "accepted": 8,
         "under_contract": 8,
         "contract_available": 7,
@@ -2209,13 +2209,13 @@
             "count": 9,
             "color": "#C8C8C8"
           },
-          "Need to Contact": {
-            "count": 8,
-            "color": "#FFD5C2"
-          },
           "Under Contract": {
             "count": 6,
             "color": "#DCEBD8"
+          },
+          "Need to Contact": {
+            "count": 6,
+            "color": "#FFD5C2"
           },
           "Wrong Number": {
             "count": 4,
@@ -2225,6 +2225,10 @@
             "count": 4,
             "color": "#F7F0C5"
           },
+          "Hot": {
+            "count": 3,
+            "color": "#F7D1D0"
+          },
           "Dead": {
             "count": 3,
             "color": "#F3F3F3"
@@ -2232,10 +2236,6 @@
           "Owes too Much": {
             "count": 2,
             "color": "#D1F3EC"
-          },
-          "Hot": {
-            "count": 2,
-            "color": "#F7D1D0"
           },
           "Not Workable": {
             "count": 1,
@@ -2260,11 +2260,11 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 59,
-    "dispositioned_mtd": 51,
-    "hot": 6,
-    "booked": 30,
-    "offers": 27,
+    "new_leads_30d": 58,
+    "dispositioned_mtd": 52,
+    "hot": 7,
+    "booked": 31,
+    "offers": 28,
     "under_contract": 6,
     "closed": 0
   },
@@ -2283,10 +2283,10 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 59,
-    "active": 37,
-    "booked": 30,
-    "offered": 27,
+    "leads": 58,
+    "active": 35,
+    "booked": 31,
+    "offered": 28,
     "accepted": 48,
     "under_contract": 48,
     "contract_available": 9,
@@ -2303,13 +2303,13 @@
         "count": 9,
         "color": "#C8C8C8"
       },
-      "Need to Contact": {
-        "count": 8,
-        "color": "#FFD5C2"
-      },
       "Under Contract": {
         "count": 6,
         "color": "#DCEBD8"
+      },
+      "Need to Contact": {
+        "count": 6,
+        "color": "#FFD5C2"
       },
       "Wrong Number": {
         "count": 4,
@@ -2319,6 +2319,10 @@
         "count": 4,
         "color": "#F7F0C5"
       },
+      "Hot": {
+        "count": 3,
+        "color": "#F7D1D0"
+      },
       "Dead": {
         "count": 3,
         "color": "#F3F3F3"
@@ -2326,10 +2330,6 @@
       "Owes too Much": {
         "count": 2,
         "color": "#D1F3EC"
-      },
-      "Hot": {
-        "count": 2,
-        "color": "#F7D1D0"
       },
       "Not Workable": {
         "count": 1,
@@ -2339,8 +2339,8 @@
   },
   "reps": {
     "Charles": {
-      "discoveries": 27,
-      "offers": 33,
+      "discoveries": 28,
+      "offers": 34,
       "contracts": 5,
       "revenue": 0.0
     },
@@ -2488,7 +2488,7 @@
     }
   ],
   "sources": {
-    "ppc": 59,
+    "ppc": 58,
     "facebook": 0,
     "ppc_inbound_call": 17
   },
@@ -2512,16 +2512,16 @@
       "source": "Facebook"
     },
     {
+      "name": "516 Jewel St",
+      "address": "516 Jewel St, Brooksville, FL 34601, USA",
+      "phone": "(813) 755-2694",
+      "source": "PPC"
+    },
+    {
       "name": "7589 Pleasant Hill Rd",
       "address": "7589 Pleasant Hill Rd, Lithonia, GA 30058, USA",
       "phone": "(770) 882-1827",
       "source": "PPC"
-    },
-    {
-      "name": "27061 8th Ave",
-      "address": "27061 8th Ave, Gobles, MI 49055, USA",
-      "phone": "+12692516326",
-      "source": "PPC - Inbound Call"
     }
   ],
   "sms_status": "SMS data via Podio."

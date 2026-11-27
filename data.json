@@ -1,13 +1,13 @@
 {
   "report_date": "November 27, 2026",
-  "last_updated": "2026-11-27 16:42 EST",
+  "last_updated": "2026-11-27 18:02 EST",
   "google": {
-    "spend_mtd": 20179.46,
-    "clicks_mtd": 940,
+    "spend_mtd": 20181.43,
+    "clicks_mtd": 942,
     "crm_leads": 60,
     "crm_leads_today": 4,
-    "cpc": 21.47,
-    "cpl": 336.32,
+    "cpc": 21.42,
+    "cpl": 336.36,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -15,12 +15,12 @@
     "campaigns": [
       {
         "name": "Ultra Homebuyers Remarketing",
-        "spend": 1607.09,
-        "spend_today": 44.95,
-        "clicks": 652,
+        "spend": 1609.06,
+        "spend_today": 46.92,
+        "clicks": 654,
         "cpc": 2.46,
         "crm_leads": 0,
-        "cpl": 336.32
+        "cpl": 336.36
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 288,
         "cpc": 64.49,
         "crm_leads": 0,
-        "cpl": 336.32
+        "cpl": 336.36
       }
     ]
   },
@@ -46,8 +46,7 @@
   "potential_income": 322070,
   "assigned_income": 28442,
   "by_stage": {
-    "New Deal - Unscheduled": 102000,
-    "Access Scheduled": 73660,
+    "Access Scheduled": 175660,
     "Market Prep / Pre-Listing Marketing": 54635,
     "Initial Inspection Completed": 54316,
     "On Market": 37458
@@ -123,7 +122,7 @@
     "2026-11": {
       "closed": 0.0,
       "pending": 0.0,
-      "spend": 19939.03
+      "spend": 20181.43
     }
   },
   "reps_by_month": {
@@ -1079,8 +1078,8 @@
           "address": "2137 SW Imperial St, Port St. Lucie, FL 34987, USA",
           "value": 102000,
           "status": "Available",
-          "stage": "New Deal - Unscheduled",
-          "stage_color": "B8D0F5",
+          "stage": "Access Scheduled",
+          "stage_color": "FAF2C4",
           "days_in_pipeline": 0,
           "contract_month": "2026-11"
         },
@@ -1155,7 +1154,7 @@
     "2026-08": 23086.12,
     "2026-09": 26439.26,
     "2026-10": 22891.85,
-    "2026-11": 20179.46
+    "2026-11": 20181.43
   },
   "channel_by_month": {
     "2026-01": {
@@ -2182,11 +2181,11 @@
       }
     },
     "2026-11": {
-      "google_spend": 20179.46,
+      "google_spend": 20181.43,
       "meta_spend": 0,
       "ppc_leads": 60,
       "fb_leads": 0,
-      "google_cpc": 21.47,
+      "google_cpc": 21.42,
       "meta_cpc": null,
       "pipeline_ppc": {
         "leads": 60,
@@ -2209,13 +2208,13 @@
             "count": 9,
             "color": "#C8C8C8"
           },
-          "Warm": {
-            "count": 7,
-            "color": "#F7F0C5"
-          },
           "Under Contract": {
             "count": 6,
             "color": "#DCEBD8"
+          },
+          "Warm": {
+            "count": 6,
+            "color": "#F7F0C5"
           },
           "Need to Contact": {
             "count": 5,
@@ -2233,13 +2232,13 @@
             "count": 3,
             "color": "#F3F3F3"
           },
+          "Not Workable": {
+            "count": 2,
+            "color": "#D1F3EC"
+          },
           "Hot": {
             "count": 2,
             "color": "#F7D1D0"
-          },
-          "Not Workable": {
-            "count": 1,
-            "color": "#D1F3EC"
           }
         }
       },
@@ -2303,13 +2302,13 @@
         "count": 9,
         "color": "#C8C8C8"
       },
-      "Warm": {
-        "count": 7,
-        "color": "#F7F0C5"
-      },
       "Under Contract": {
         "count": 6,
         "color": "#DCEBD8"
+      },
+      "Warm": {
+        "count": 6,
+        "color": "#F7F0C5"
       },
       "Need to Contact": {
         "count": 5,
@@ -2327,13 +2326,13 @@
         "count": 3,
         "color": "#F3F3F3"
       },
+      "Not Workable": {
+        "count": 2,
+        "color": "#D1F3EC"
+      },
       "Hot": {
         "count": 2,
         "color": "#F7D1D0"
-      },
-      "Not Workable": {
-        "count": 1,
-        "color": "#D1F3EC"
       }
     }
   },
@@ -2430,8 +2429,8 @@
       "address": "2137 SW Imperial St, Port St. Lucie, FL 34987, USA",
       "value": 102000,
       "status": "Available",
-      "stage": "New Deal - Unscheduled",
-      "stage_color": "B8D0F5",
+      "stage": "Access Scheduled",
+      "stage_color": "FAF2C4",
       "days_in_pipeline": 0,
       "contract_month": "2026-11",
       "agent": "Charles"

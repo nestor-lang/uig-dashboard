@@ -1,13 +1,13 @@
 {
   "report_date": "November 28, 2026",
-  "last_updated": "2026-11-28 09:12 EST",
+  "last_updated": "2026-11-28 11:02 EST",
   "google": {
     "spend_mtd": 20210.0,
     "clicks_mtd": 952,
-    "crm_leads": 60,
-    "crm_leads_today": 0,
+    "crm_leads": 61,
+    "crm_leads_today": 1,
     "cpc": 21.23,
-    "cpl": 336.83,
+    "cpl": 331.31,
     "cost_per_booked": null,
     "booked": 0,
     "offers": 0,
@@ -20,7 +20,7 @@
         "clicks": 664,
         "cpc": 2.47,
         "crm_leads": 0,
-        "cpl": 336.83
+        "cpl": 331.31
       },
       {
         "name": "Ultra Homebuyers Search Only",
@@ -29,7 +29,7 @@
         "clicks": 288,
         "cpc": 64.49,
         "crm_leads": 0,
-        "cpl": 336.83
+        "cpl": 331.31
       }
     ]
   },
@@ -2183,12 +2183,12 @@
     "2026-11": {
       "google_spend": 20210.0,
       "meta_spend": 0,
-      "ppc_leads": 60,
+      "ppc_leads": 61,
       "fb_leads": 0,
       "google_cpc": 21.23,
       "meta_cpc": null,
       "pipeline_ppc": {
-        "leads": 60,
+        "leads": 61,
         "active": 36,
         "booked": 33,
         "offered": 29,
@@ -2220,6 +2220,10 @@
             "count": 5,
             "color": "#FFD5C2"
           },
+          "Dead": {
+            "count": 4,
+            "color": "#F3F3F3"
+          },
           "Wrong Number": {
             "count": 4,
             "color": "#DCEBD8"
@@ -2227,10 +2231,6 @@
           "Owes too Much": {
             "count": 3,
             "color": "#D1F3EC"
-          },
-          "Dead": {
-            "count": 3,
-            "color": "#F3F3F3"
           },
           "Not Workable": {
             "count": 2,
@@ -2259,7 +2259,7 @@
     }
   },
   "pipeline": {
-    "new_leads_30d": 60,
+    "new_leads_30d": 61,
     "dispositioned_mtd": 56,
     "hot": 6,
     "booked": 33,
@@ -2282,7 +2282,7 @@
     "status_breakdown": {}
   },
   "pipeline_ppc": {
-    "leads": 60,
+    "leads": 61,
     "active": 36,
     "booked": 33,
     "offered": 29,
@@ -2314,6 +2314,10 @@
         "count": 5,
         "color": "#FFD5C2"
       },
+      "Dead": {
+        "count": 4,
+        "color": "#F3F3F3"
+      },
       "Wrong Number": {
         "count": 4,
         "color": "#DCEBD8"
@@ -2321,10 +2325,6 @@
       "Owes too Much": {
         "count": 3,
         "color": "#D1F3EC"
-      },
-      "Dead": {
-        "count": 3,
-        "color": "#F3F3F3"
       },
       "Not Workable": {
         "count": 2,
@@ -2487,7 +2487,7 @@
     }
   ],
   "sources": {
-    "ppc": 60,
+    "ppc": 61,
     "facebook": 0,
     "ppc_inbound_call": 17
   },
